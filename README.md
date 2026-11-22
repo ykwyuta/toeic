@@ -2,13 +2,35 @@
 
 Claude Code、Antigravity、Muse、Codexで共同執筆するための [執筆・検品ガイド](AGENTS.md) と、Cloudflare Pages向け静的サイトの試作です。試作はPart 5のオリジナル3問で、履歴の保存・移行を確認できます。
 
-## 開発と公開
+## Wranglerで開発・公開
+
+リポジトリのルートから、Node.jsとnpmで次のコマンドを実行します。Wrangler 4が `dist` 内の静的ファイルを配信します。
 
 ```sh
-python3 -m http.server 8000 --directory dist
+npx wrangler@4 pages dev dist --port 8788
 ```
 
-Cloudflareの Workers & Pages で **Pages** プロジェクトを作成し、Git連携で `ykwyuta/toeic` を選びます。フレームワークは None、ビルドコマンドは空欄、出力ディレクトリは `dist`、本番ブランチはリポジトリの既定ブランチを指定します。直接アップロードを選ぶ場合は `dist` を指定します。公開後は `pages.dev` で解答、再読込、別ブラウザへの履歴移行を確認します。[Cloudflare Pages Git連携](https://developers.cloudflare.com/pages/get-started/git-integration/) [Cloudflare Pages 制限](https://developers.cloudflare.com/pages/platform/limits/)
+Cloudflare Pagesの公開はDirect Uploadを使います。初回のみWranglerにログインし、対象アカウントと既存のPagesプロジェクトを確認します。
+
+```sh
+npx wrangler@4 login
+npx wrangler@4 whoami
+npx wrangler@4 pages project list
+```
+
+対象プロジェクトがまだない場合は作成します。以下ではプロジェクト名を `toeic`、本番ブランチを `master` としています。既存のプロジェクトを使う場合は、実際の名前と本番ブランチを指定します。
+
+```sh
+npx wrangler@4 pages project create toeic --production-branch master
+```
+
+初回の作成後も、更新時も、リポジトリの本番に出す内容で次を実行します。
+
+```sh
+npx wrangler@4 pages deploy dist --project-name toeic --branch master
+```
+
+Wranglerが表示するURLで、解答、再読み込み、履歴の書き出し・復元、オフライン利用を確認します。CIで実行する場合は、Cloudflare Pagesの編集権限を持つAPIトークンを `CLOUDFLARE_API_TOKEN`、対象アカウントIDを `CLOUDFLARE_ACCOUNT_ID` としてCIのシークレットに設定します。[Cloudflare Pages Direct Upload](https://developers.cloudflare.com/pages/get-started/direct-upload/) [CIでのDirect Upload](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/)
 
 ブラウザ内の履歴はオリジン単位で保存されます。履歴のJSONをダウンロードし、別端末や公開ドメインへの切替後に読み込めます。同じ受験IDを重複登録せず、不正なデータは保存前に拒否します。サイトは履歴送信用のAPI、アカウント、分析タグを使用しません。
 
@@ -20,7 +42,7 @@ Cloudflareの Workers & Pages で **Pages** プロジェクトを作成し、Git
 
 ## オフライン利用とキャッシュのリセット
 
-HTTPSの公開URL、またはローカルの `http://localhost:8000/` をオンラインで一度開き、「オフラインで利用できます。」が表示されるまで待ちます。その後は通信を切ってページを開き直しても、問題・採点・解説・履歴を利用できます。履歴のJSON出力と読み込みも端末内で動作します。
+HTTPSの公開URL、またはローカルの `http://localhost:8788/` をオンラインで一度開き、「オフラインで利用できます。」が表示されるまで待ちます。その後は通信を切ってページを開き直しても、問題・採点・解説・履歴を利用できます。履歴のJSON出力と読み込みも端末内で動作します。
 
 「キャッシュを強制削除して再取得」は、このサイトのService Workerキャッシュを消し、ブラウザのHTTPキャッシュを使わずにページを取得します。学習履歴はブラウザ内に残ります。オフライン中に実行すると削除のみが完了する場合があるため、ページを閉じる前に再接続して同じ操作を実行してください。
 
