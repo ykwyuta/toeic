@@ -82,6 +82,13 @@ button:disabled { opacity: .65; cursor: default; }
 #placement-back { margin-top: .55rem; }
 #study-skill { max-width: 100%; }
 #placement-item label, #skill-item label { min-height: 44px; }
+.answer-review { padding: .85rem; background: #f2f6fa; border-radius: .65rem; margin: .85rem 0; overflow-wrap: anywhere; }
+.answer-review h4 { margin: .8rem 0 .35rem; }
+.answer-review ul { padding-inline-start: 1.25rem; }
+.answer-review li + li { margin-top: .65rem; }
+.answer-review dt { font-weight: 700; }
+.answer-review dd { margin: 0 0 .45rem; }
+.answer-review summary { cursor: pointer; padding: .45rem 0; }
 </style>
 <main>
 <header class="hero app-header">
@@ -97,7 +104,7 @@ button:disabled { opacity: .65; cursor: default; }
   <div class="partner-options" aria-label="学習パートナー">
     <button type="button" disabled data-partner="0"><span class="coach-portrait" aria-hidden="true"></span>ひなた</button>
     <button type="button" disabled data-partner="1"><span class="coach-portrait" aria-hidden="true"></span>蓮</button>
-    <button type="button" disabled data-partner="2"><span class="coach-portrait" aria-hidden="true"></span>モカ</button>
+    <button type="button" disabled data-partner="2"><span class="coach-portrait" aria-hidden="true"></span>ミロ</button>
   </div>
 </section>
 <section id="placement" class="study-panel screen" hidden>
@@ -116,6 +123,8 @@ button:disabled { opacity: .65; cursor: default; }
   <ul id="placement-breakdown"></ul>
   <p id="placement-tip"></p>
   <p id="placement-save" role="status"></p>
+  <h3>問題の解説</h3>
+  <div id="placement-reviews"></div>
   <button type="button" data-screen="menu">学習メニューへ</button>
 </section>
 <section id="menu" class="screen" hidden>
@@ -164,7 +173,7 @@ button:disabled { opacity: .65; cursor: default; }
     <select id="coach" class="coach-select">
       <option value="0">ひなた</option>
       <option value="1">蓮</option>
-      <option value="2">ラグドールのモカ</option>
+      <option value="2">ラグドールのミロ</option>
     </select>
     <p id="coach-message" role="status"></p>
   </div>
@@ -200,6 +209,7 @@ button:disabled { opacity: .65; cursor: default; }
       <button>答え合わせ</button>
     </form>
     <p id="skill-feedback" role="status"></p>
+    <div class="answer-review" id="skill-review" hidden></div>
     <button type="button" id="skill-word" hidden>単語帳に追加</button>
   </section>
 <section id="skill-analysis" class="study-panel" tabindex="-1">
@@ -219,5 +229,5 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </section>
 </main>
-<script src="./app-v8.js" defer></script>
+<script src="./app-v9.js" defer></script>
 </html>

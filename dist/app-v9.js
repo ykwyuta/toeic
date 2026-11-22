@@ -1,28 +1,49 @@
 'use strict';
 const questions = [
   {
+    translation: "倉庫は安全点検が完了するまで閉鎖されたままです。",
+    choiceNotes: [
+      "during は「〜の間に」を表す前置詞で、during the inspection のように名詞句を取ります。ここでは the safety inspection is complete という節が続くため入りません。",
+      "until は「〜するまで」を表す接続詞です。点検が完了する時点を、閉鎖が続く期限として示します。",
+      "despite は「〜にもかかわらず」を表す前置詞で、despite the delay のように名詞句を取ります。後ろの節を直接導けず、閉鎖の期限も示しません。",
+      "within は「〜以内に」を表す前置詞で、within two hours のように期間を取ります。後ろの節は期間を表す名詞句ではありません。"
+    ],
+    vocabulary: [["warehouse", "倉庫"], ["remain closed", "閉鎖されたままである"], ["safety inspection", "安全点検"], ["be complete", "完了している"]],
     stem: 'The warehouse will remain closed _____ the safety inspection is complete.',
     choices: ['during', 'until', 'despite', 'within'],
     answer: 1,
     skill: '接続詞と前置詞',
-    term: 'until', meaning: '〜するまで',
-    explanation: 'until は「〜するまで」を表し、後ろの主語と動詞を含む節を取れます。during・despite・within はこの位置でその節を直接取れません。'
+    term: 'until', meaning: '〜するまで'
   },
   {
+    translation: "明日の研修会で会議室が必要なら、正午までに予約してください。",
+    choiceNotes: [
+      "reservation は「予約」という名詞です。Please に続く命令文では、会議室を目的語に取れる動詞が必要です。",
+      "reserved は reserve の過去形または過去分詞です。命令文では動詞の原形を使います。過去分詞は The room is reserved. のような文で使えます。",
+      "reserving は reserve の -ing 形です。We are reserving the room. のような進行形では使えますが、Please の直後で命令文の動詞にはなりません。",
+      "reserve は「予約する」という動詞の原形です。Please reserve で丁寧な依頼になり、the conference room が予約する対象です。"
+    ],
+    vocabulary: [["reserve", "予約する"], ["conference room", "会議室"], ["by noon", "正午までに"], ["workshop", "研修会"]],
     stem: 'Please _____ the conference room by noon if you need it for tomorrow’s workshop.',
     choices: ['reservation', 'reserved', 'reserving', 'reserve'],
     answer: 3,
     skill: '動詞の形',
-    term: 'reserve', meaning: '予約する・確保する',
-    explanation: 'Please に続く命令文には動詞の原形 reserve が入ります。reservation は名詞、reserved は過去形・過去分詞、reserving は -ing 形です。'
+    term: 'reserve', meaning: '予約する・確保する'
   },
   {
+    translation: "申込者が書類を提出する時間をより多く取れるよう、登録の締め切りを延長しました。",
+    choiceNotes: [
+      "deadline は「締め切り」です。extend the deadline は期限を延長するという意味で、提出時間を増やすという後半の目的と一致します。",
+      "receipt は「領収書」や「受領」です。登録を受け付けた証明は、延長して申込者の提出時間が増えるものではありません。",
+      "summary は「要約」です。登録内容の要約を長くしても、書類の提出期限そのものは変わりません。",
+      "fee は「料金」です。registration fee は自然な組み合わせですが、登録料を指します。後半が問うのは提出できる時間です。"
+    ],
+    vocabulary: [["extend", "延長する"], ["registration deadline", "登録締め切り"], ["applicant", "申込者"], ["submit a form", "書類を提出する"]],
     stem: 'We have extended the registration _____ to give applicants more time to submit their forms.',
     choices: ['deadline', 'receipt', 'summary', 'fee'],
     answer: 0,
     skill: '語彙と文脈',
-    term: 'deadline', meaning: '締め切り',
-    explanation: '提出時間を増やすために延長するものは deadline（締め切り）です。receipt は領収書、summary は要約、fee は料金で、いずれも提出期限を表しません。'
+    term: 'deadline', meaning: '締め切り'
   }
 ];
 const key = 'toeic.history.v1';
@@ -189,11 +210,11 @@ const coachDialogue = [
     menuReview: (skill) => 'まずは「分野学習」で「' + skill + '」を復習しよう。一問ずつでいい。'
   },
   {
-    greeting: '肩の力を抜いて、モカと一緒に3問やってみるにゃ。',
+    greeting: '肩の力を抜いて、ミロと一緒に3問やってみるにゃ。',
     celebrate: '全問正解にゃ！今日は花丸にゃ。',
     encourage: 'ひと息ついて、間違えたところを一緒に見直すにゃ。',
     menuChallenge: '全問正解にゃ！次はミニ模試に挑戦するにゃ。',
-    menuReview: (skill) => '「分野学習」で「' + skill + '」から復習するにゃ。モカと一緒にまずは1問にゃ！'
+    menuReview: (skill) => '「分野学習」で「' + skill + '」から復習するにゃ。ミロと一緒にまずは1問にゃ！'
   }
 ];
 let mood = 0;
@@ -245,11 +266,49 @@ function refresh() {
   }
 }
 
+function renderReview(container, question, selected) {
+  const heading = (text) => {
+    const element = document.createElement('h4');
+    element.textContent = text;
+    return element;
+  };
+  const sentence = document.createElement('p');
+  sentence.lang = 'en';
+  sentence.textContent = question.stem.replace('_____', question.choices[question.answer]);
+  const translation = document.createElement('p');
+  translation.textContent = question.translation;
+  const options = document.createElement('ul');
+  question.choices.forEach((choice, index) => {
+    const row = document.createElement('li');
+    const label = document.createElement('strong');
+    const term = document.createElement('span');
+    term.lang = 'en';
+    term.textContent = choice;
+    label.append(letter(index) + '. ', term, index === question.answer ? '（正解）' : '（不正解）');
+    if (index === selected) label.append('・あなたの回答');
+    const explanation = document.createElement('div');
+    explanation.textContent = question.choiceNotes[index];
+    row.append(label, explanation);
+    options.append(row);
+  });
+  const vocabulary = document.createElement('dl');
+  for (const [word, meaning] of question.vocabulary) {
+    const term = document.createElement('dt');
+    term.lang = 'en';
+    term.textContent = word;
+    const definition = document.createElement('dd');
+    definition.textContent = meaning;
+    vocabulary.append(term, definition);
+  }
+  container.replaceChildren(heading('完成文と日本語訳'), sentence, translation,
+    heading('選択肢の解説'), options, heading('単語・熟語'), vocabulary);
+}
+
 select('items').innerHTML = questions.map((question, index) =>
   '<fieldset><legend>問題 ' + (index + 1) + '</legend><p lang="en">' + question.stem + '</p>' +
   question.choices.map((choice, option) => '<label lang="en"><input type="radio" required name="q' + index +
     '" value="' + option + '"> ' + letter(option) + '. ' + choice + '</label>').join('') +
-  '<p hidden id="explanation-' + index + '"></p>' +
+  '<div class="answer-review" hidden id="explanation-' + index + '"></div>' +
   '<button hidden class="word-action" type="button" id="word-' + index + '" aria-label="' + question.term + ' を単語帳に追加">単語帳に追加</button></fieldset>').join('');
 
 questions.forEach((question, index) => {
@@ -271,7 +330,7 @@ select('exam').addEventListener('submit', (event) => {
   select('result').textContent = score(answers) + ' / ' + questions.length + ' 問正解';
   questions.forEach((question, index) => {
     const explanation = select('explanation-' + index);
-    explanation.textContent = '正答 ' + letter(question.answer) + '。' + question.explanation;
+    renderReview(explanation, question, answers[index]);
     explanation.hidden = false;
     select('word-' + index).hidden = false;
   });
@@ -329,17 +388,98 @@ window.addEventListener('storage', (event) => {
 refresh();
 
 const placementQuestions = [
-  {skill: 0, stem: '_____ the lobby is being painted, please use the side entrance.', choices: ['During', 'Because', 'Despite', 'Within'], answer: 1},
-  {skill: 1, stem: 'The manager _____ the updated schedule yesterday.', choices: ['approve', 'approves', 'approved', 'approving'], answer: 2},
-  {skill: 2, stem: 'Please keep your _____ as proof that you paid for the repairs.', choices: ['receipt', 'departure', 'appointment', 'equipment'], answer: 0},
-  {skill: 0, stem: 'The outdoor concert went ahead _____ the rain.', choices: ['although', 'because', 'unless', 'despite'], answer: 3},
-  {skill: 1, stem: 'By the time the guests arrived, the staff _____ setting up the room.', choices: ['finish', 'will finish', 'had finished', 'are finishing'], answer: 2},
-  {skill: 2, stem: 'As demand grows, the company plans to _____ production at its main factory.', choices: ['consult', 'expand', 'deliver', 'mention'], answer: 1}
+  {skill: 0,
+    translation: "ロビーは塗装中なので、脇の入口を使ってください。",
+    choiceNotes: [
+      "During は「〜の間に」を表す前置詞です。during the painting のように名詞句なら続けられますが、ここには主語と動詞を含む節が続きます。",
+      "Because は理由を表す接続詞で、the lobby is being painted という節を導きます。ロビーの塗装が脇の入口を使う理由という関係になります。",
+      "Despite は「〜にもかかわらず」を表す前置詞です。後続の節を直接導けず、塗装が理由であるという関係にも合いません。",
+      "Within は「〜以内に」を表す前置詞です。within an hour のような期間なら続けられますが、この文の後続部分は理由となる節です。"
+    ],
+    vocabulary: [["lobby", "ロビー"], ["be being painted", "塗装されている最中である"], ["side entrance", "脇の入口"]],
+    stem: '_____ the lobby is being painted, please use the side entrance.', choices: ['During', 'Because', 'Despite', 'Within'], answer: 1},
+  {skill: 1,
+    translation: "マネージャーは昨日、更新された日程を承認しました。",
+    choiceNotes: [
+      "approve は原形です。主語 The manager に続く肯定文の述語として、yesterday が示す完了した過去の行為には過去形が必要です。",
+      "approves は三人称単数現在形です。主語の人称・数には合いますが、yesterday が示す過去の時点に合いません。",
+      "approved は approve の過去形です。yesterday が示す過去の承認という一回の出来事を表します。",
+      "approving は -ing 形です。was approving のように助動詞相当の be 動詞が伴えば述語になりますが、ここにはありません。"
+    ],
+    vocabulary: [["approve", "承認する"], ["updated schedule", "更新された日程"], ["yesterday", "昨日"]],
+    stem: 'The manager _____ the updated schedule yesterday.', choices: ['approve', 'approves', 'approved', 'approving'], answer: 2},
+  {skill: 2,
+    translation: "修理代を支払った証明として、領収書を保管してください。",
+    choiceNotes: [
+      "receipt は「領収書」です。修理代の支払いを証明する書類なので、as proof that you paid という目的に一致します。",
+      "departure は「出発」です。時刻や出発便には関係しますが、修理代を支払った証明として保管するものではありません。",
+      "appointment は「予約・面会の約束」です。修理の予約があっても、代金をすでに支払った証明にはなりません。",
+      "equipment は「機器・備品」です。修理の対象にはなり得ますが、支払いの証拠として保管する書類を指しません。"
+    ],
+    vocabulary: [["receipt", "領収書"], ["as proof", "証明として"], ["pay for repairs", "修理代を支払う"]],
+    stem: 'Please keep your _____ as proof that you paid for the repairs.', choices: ['receipt', 'departure', 'appointment', 'equipment'], answer: 0},
+  {skill: 0,
+    translation: "雨にもかかわらず、屋外コンサートは予定どおり行われました。",
+    choiceNotes: [
+      "although は「〜だけれども」を表す接続詞です。although it was raining のような節が必要で、the rain という名詞句を直接取りません。",
+      "because は理由を表す接続詞です。because of the rain なら名詞句を取れますが、この文に of はなく、必要なのは雨を押して開催したという意味です。",
+      "unless は「〜でない限り」を表す接続詞です。条件を示す節を導くため、the rain を直接取らず、ここでの逆接にも合いません。",
+      "despite は「〜にもかかわらず」を表す前置詞です。the rain を取り、雨という不利な状況でも開催したことを表します。"
+    ],
+    vocabulary: [["outdoor concert", "屋外コンサート"], ["go ahead", "予定どおり行われる"], ["despite", "〜にもかかわらず"]],
+    stem: 'The outdoor concert went ahead _____ the rain.', choices: ['although', 'because', 'unless', 'despite'], answer: 3},
+  {skill: 1,
+    translation: "来客が到着したときには、スタッフは部屋の準備を終えていました。",
+    choiceNotes: [
+      "finish は原形です。過去の到着を基準にする文で、すでに準備を終えていたことを表せません。",
+      "will finish は未来形です。未来の完了予定を表し、guests arrived という過去の基準時点に合いません。",
+      "had finished は過去完了です。来客の到着より前に準備を終えたという、二つの過去の出来事の順序を示します。",
+      "are finishing は現在進行形です。現在進行中という意味になり、過去の到着時には準備済みだったことを表せません。"
+    ],
+    vocabulary: [["by the time", "〜するときまでに"], ["finish doing", "〜し終える"], ["set up the room", "部屋を準備する"]],
+    stem: 'By the time the guests arrived, the staff _____ setting up the room.', choices: ['finish', 'will finish', 'had finished', 'are finishing'], answer: 2},
+  {skill: 2,
+    translation: "需要の増加に伴い、その会社は主力工場での生産を拡大する予定です。",
+    choiceNotes: [
+      "consult は「相談する・参照する」です。consult an adviser のように人や情報源を取りますが、生産量を増やす意味にはなりません。",
+      "expand は「拡大する」です。expand production は生産規模を拡大するという意味で、需要増加への対応として自然です。",
+      "deliver は「届ける」です。deliver goods なら商品を届ける意味ですが、工場での生産規模を広げる動作を表しません。",
+      "mention は「言及する」です。生産について話題にすることは表せますが、需要増に応じて工場で生産する量を増やすという文脈に合いません。"
+    ],
+    vocabulary: [["demand", "需要"], ["expand production", "生産を拡大する"], ["main factory", "主力工場"]],
+    stem: 'As demand grows, the company plans to _____ production at its main factory.', choices: ['consult', 'expand', 'deliver', 'mention'], answer: 1}
 ];
 const practiceQuestions = [
-  {...questions[0], stem: 'Please leave your badge at reception _____ you exit the building.', choices: ['during', 'before', 'despite', 'regarding'], term: 'before', meaning: '〜する前に', explanation: 'before は時を表す接続詞として主語と動詞を含む節を導けます。'},
-  {...questions[1], stem: 'The director agreed to _____ the contract before Friday.', choices: ['renewal', 'renews', 'renewed', 'renew'], term: 'renew', meaning: '更新する', explanation: 'agree to の後ろには動詞の原形が入り、renew the contract で「契約を更新する」です。'},
-  {...questions[2], stem: 'The supplier sent a revised _____ showing the amount we owe.', choices: ['invoice', 'itinerary', 'inventory', 'application'], term: 'invoice', meaning: '請求書', explanation: '支払うべき金額を記載した文書は invoice（請求書）です。'}
+  {...questions[0],
+    translation: "建物を出る前に、入館証を受付に預けてください。",
+    choiceNotes: [
+      "during は「〜の間に」を表す前置詞です。during your visit のように名詞句を導けますが、you exit the building という節を直接導けません。",
+      "before は「〜する前に」を表す接続詞です。後ろの節を導き、建物を出るより先に入館証を預けるという順序を表します。",
+      "despite は「〜にもかかわらず」を表す前置詞です。後ろの節を直接導けず、入館証を預ける時点も示しません。",
+      "regarding は「〜に関して」を表す前置詞です。regarding your badge のように話題を示せますが、後ろの節を時の条件にはできません。"
+    ],
+    vocabulary: [["badge", "入館証"], ["at reception", "受付で"], ["exit the building", "建物を出る"], ["before", "〜する前に"]],
+    stem: 'Please leave your badge at reception _____ you exit the building.', choices: ['during', 'before', 'despite', 'regarding'], term: 'before', meaning: '〜する前に'},
+  {...questions[1],
+    translation: "責任者は金曜日より前に契約を更新することに同意しました。",
+    choiceNotes: [
+      "renewal は「更新」という名詞です。agree to a renewal なら to は前置詞ですが、ここでは後ろに目的語 the contract が続くので動詞が必要です。",
+      "renews は三人称単数現在形です。the director の述語にはなれますが、agreed to の不定詞の位置では原形を使います。",
+      "renewed は過去形または過去分詞です。過去を示すのは主節の agreed で、to の直後では原形が必要です。",
+      "renew は「更新する」という動詞の原形です。agree to do の形に合い、renew the contract で「契約を更新する」となります。"
+    ],
+    vocabulary: [["agree to do", "〜することに同意する"], ["renew a contract", "契約を更新する"], ["before Friday", "金曜日より前に"]],
+    stem: 'The director agreed to _____ the contract before Friday.', choices: ['renewal', 'renews', 'renewed', 'renew'], term: 'renew', meaning: '更新する'},
+  {...questions[2],
+    translation: "仕入先は、当社が支払うべき金額を記載した修正版の請求書を送りました。",
+    choiceNotes: [
+      "invoice は「請求書」です。支払うべき金額を記載する書類で、showing the amount we owe と一致します。",
+      "itinerary は「旅程表」です。出張の予定や行程を確認する資料で、仕入先への支払額を知らせる書類ではありません。",
+      "inventory は「在庫」や「在庫一覧」です。数量や品目を記載できますが、ここで問われる支払額を請求する役割はありません。",
+      "application は「申請書」です。手続きや承認を申し込む書類で、仕入先が当社に支払額を知らせる目的に合いません。"
+    ],
+    vocabulary: [["supplier", "仕入先"], ["revised invoice", "修正版の請求書"], ["the amount we owe", "私たちが支払うべき金額"]],
+    stem: 'The supplier sent a revised _____ showing the amount we owe.', choices: ['invoice', 'itinerary', 'inventory', 'application'], term: 'invoice', meaning: '請求書'}
 ];
 
 const profileKey = 'toeic.placement.v1';
@@ -480,6 +620,16 @@ select('placement-form').addEventListener('submit', (event) => {
   select('study-skill').value = String(placementResults().focus);
   renderSkillQuestion();
   renderProfile();
+  select('placement-reviews').replaceChildren(...placementQuestions.map((question, index) => {
+    const details = document.createElement('details');
+    details.className = 'answer-review';
+    const summary = document.createElement('summary');
+    summary.textContent = '問題 ' + (index + 1) + ' · ' + (profile.answers[index] === question.answer ? '正解' : '不正解');
+    const review = document.createElement('div');
+    renderReview(review, question, profile.answers[index]);
+    details.append(summary, review);
+    return details;
+  }));
   showScreen('placement-result');
 });
 
@@ -497,6 +647,7 @@ function selectedSkillQuestion() {
 function renderSkillQuestion() {
   renderSingleQuestion('skill-item', selectedSkillQuestion());
   select('skill-feedback').textContent = '';
+  select('skill-review').hidden = true;
   select('skill-word').hidden = true;
 }
 
@@ -506,7 +657,9 @@ select('skill-form').addEventListener('submit', (event) => {
   const selected = new FormData(event.currentTarget).get('answer');
   if (selected === null) return;
   const question = selectedSkillQuestion();
-  select('skill-feedback').textContent = (Number(selected) === question.answer ? '正解。' : '正答 ' + letter(question.answer) + '。') + question.explanation;
+  select('skill-feedback').textContent = (Number(selected) === question.answer ? '正解。' : '正答 ' + letter(question.answer) + '。');
+  renderReview(select('skill-review'), question, Number(selected));
+  select('skill-review').hidden = false;
   select('skill-word').hidden = false;
 });
 select('skill-word').addEventListener('click', () => {
