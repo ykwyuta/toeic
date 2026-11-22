@@ -197,6 +197,7 @@ select('word-form').addEventListener('submit', (event) => {
 const coachDialogue = [
   {
     greeting: '今日は一緒に3問。気軽に始めようね。',
+    menuCheer: '1問でも進めたら、それで十分だよ。今日も一緒にやってみようね！',
     celebrate: '全問正解！この調子でいこうね。',
     encourage: '間違えたところは、解説を一緒に見直そうね。',
     menuChallenge: '全問正解、おめでとう！次はミニ模試に挑戦してみようね。',
@@ -204,6 +205,7 @@ const coachDialogue = [
   },
   {
     greeting: 'まずは1問。答えの根拠を意識して解こう。',
+    menuCheer: '急がなくていい。今日わかったことを一つ持ち帰ろう。',
     celebrate: '全問正解だ。次も一問ずつ、根拠を確かめよう。',
     encourage: '惜しい。迷った選択肢との差を一つ確認しよう。',
     menuChallenge: '全問正解だ。次はミニ模試で力を試そう。',
@@ -211,6 +213,7 @@ const coachDialogue = [
   },
   {
     greeting: '肩の力を抜いて、ミロと一緒に3問やってみるにゃ。',
+    menuCheer: '小さな一歩も花丸にゃ。ミロがそばで応援してるにゃ！',
     celebrate: '全問正解にゃ！今日は花丸にゃ。',
     encourage: 'ひと息ついて、間違えたところを一緒に見直すにゃ。',
     menuChallenge: '全問正解にゃ！次はミニ模試に挑戦するにゃ。',
@@ -525,7 +528,7 @@ function renderMenuCoach(result, scoreText) {
   const picker = select('coach');
   const coach = Number(picker.value);
   const fullMarks = result.total === placementQuestions.length;
-  select('menu-coach-name').textContent = picker.selectedOptions[0].textContent;
+  select('menu-coach').dataset.coach = String(coach);
   select('menu-profile').textContent = scoreText;
   select('menu-portrait').style.backgroundPosition = (fullMarks ? 50 : 100) + '% ' + (coach * 50) + '%';
   const dialogue = coachDialogue[coach];
@@ -533,6 +536,18 @@ function renderMenuCoach(result, scoreText) {
     ? dialogue.menuChallenge
     : dialogue.menuReview(result.counts[result.focus].skill);
 }
+
+select('menu-cheer').addEventListener('click', () => {
+  const coach = Number(select('coach').value);
+  const message = select('menu-message');
+  const dialogue = coachDialogue[coach];
+  if (message.textContent === dialogue.menuCheer) {
+    renderProfile();
+    return;
+  }
+  select('menu-portrait').style.backgroundPosition = '50% ' + (coach * 50) + '%';
+  message.textContent = dialogue.menuCheer;
+});
 
 function renderProfile() {
   if (!profile) return;

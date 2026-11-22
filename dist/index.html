@@ -65,15 +65,35 @@ button:disabled { opacity: .65; cursor: default; }
 .screen { margin-top: 1.15rem; }
 .screen > h2 { margin-bottom: .55rem; }
 .secondary { margin-bottom: .65rem; background: #fff; color: #124d75; }
-.menu-coach { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: .8rem; margin: 0 0 .85rem; background: #f8fbff; }
-.menu-coach .coach-portrait { width: clamp(3.4rem, 16vw, 5.25rem); border-radius: .7rem; }
-.menu-coach p { margin: 0; }
-.menu-coach #menu-profile { font-size: .875rem; color: #40566a; }
-.menu-coach #menu-message { margin-top: .35rem; }
-.menu-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr)); gap: .75rem; }
-.menu-options article { margin: 0; }
-.menu-options h3 { margin: 0; }
-.menu-options p { margin-bottom: 0; }
+.menu-coach {
+  --stage: #ffe6d3;
+  --accent: #ae522d;
+  display: grid; grid-template-columns: clamp(4.6rem, 24vw, 8rem) minmax(0, 1fr);
+  align-items: center; gap: .8rem; padding: .9rem; margin: 0 0 .85rem;
+  border: 1px solid #aa76504d; border-radius: 1rem;
+  background: radial-gradient(circle at 12px 12px, #ffffffa0 2px, transparent 3px) 0 0 / 24px 24px, var(--stage);
+}
+.menu-coach[data-coach="1"] { --stage: #d4eee9; --accent: #1a6158; }
+.menu-coach[data-coach="2"] { --stage: #e9e1ff; --accent: #624492; }
+.menu-coach .coach-portrait { width: 100%; display: block; border-radius: .75rem; box-shadow: 0 3px 0 #13273b20; }
+.coach-bubble { position: relative; background: #fff; border-radius: .85rem; padding: .65rem .75rem; }
+.coach-bubble::before { content: ""; position: absolute; left: -.34rem; top: 50%; width: .7rem; height: .7rem; background: #fff; transform: rotate(45deg); }
+.coach-bubble p { margin: 0; }
+.coach-bubble #menu-profile { font-size: .875rem; color: var(--accent); }
+.coach-bubble #menu-message { margin-top: .3rem; line-height: 1.5; }
+#menu-cheer { margin-top: .4rem; padding: 0; background: transparent; border-color: transparent; color: var(--accent); font-size: .875rem; font-weight: 700; text-decoration: underline; text-underline-offset: .2em; }
+.menu-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr)); gap: .65rem; }
+.menu-options button {
+  --tile-background: #e9f4e4; --tile-ink: #315740;
+  width: 100%; display: grid; grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: .7rem; align-items: center; text-align: left; padding: .7rem;
+  color: #13273b; background: #fff; border: 1px solid #c3d0dd; border-radius: .85rem;
+}
+.menu-options button[data-screen="practice"] { --tile-background: #ffedcf; --tile-ink: #77511b; }
+.menu-options button[data-screen="preferences"] { --tile-background: #e8effc; --tile-ink: #375781; }
+.menu-options button:hover { background: var(--tile-background); }
+.menu-symbol { display: grid; place-items: center; aspect-ratio: 1; border-radius: .6rem; color: var(--tile-ink); background: var(--tile-background); font-size: 1.15rem; }
+.menu-description { display: block; white-space: normal; font-size: .875rem; color: #40566a; line-height: 1.45; }
 .partner-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; max-width: 34rem; }
 .partner-options button { background: #e9f0f7; color: #13273b; border-color: #adbdcd; padding: .25rem; }
 .partner-options .coach-portrait { display: block; width: min(100%, 8rem); margin: 0 auto .25rem; }
@@ -129,18 +149,18 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 <section id="menu" class="screen" hidden>
   <h2 tabindex="-1">学習メニュー</h2>
-  <div class="study-panel menu-coach">
+  <div id="menu-coach" class="menu-coach">
     <div id="menu-portrait" class="coach-portrait" aria-hidden="true"></div>
-    <div>
-      <p><strong id="menu-coach-name"></strong></p>
+    <div class="coach-bubble">
       <p id="menu-profile"></p>
-      <p id="menu-message"></p>
+      <p id="menu-message" aria-live="polite"></p>
+      <button type="button" id="menu-cheer">ひとこと応援</button>
     </div>
   </div>
   <div class="menu-options">
-    <article class="study-panel"><h3><button type="button" data-screen="study">分野学習</button></h3><p>苦手な分野を1問ずつ練習。覚えたい表現は単語帳へ。</p></article>
-    <article class="study-panel"><h3><button type="button" data-screen="practice">模擬試験</button></h3><p>Part 5の3問に挑戦して、結果を履歴に残せます。</p></article>
-    <article class="study-panel"><h3><button type="button" data-screen="preferences">設定</button></h3><p>パートナーの変更、再診断、履歴とバックアップ。</p></article>
+    <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習</strong><span class="menu-description">技能別に練習して、単語帳で復習</span></span></button>
+    <button type="button" data-screen="practice"><span class="menu-symbol" aria-hidden="true">⚑</span><span><strong>模擬試験</strong><span class="menu-description">Part 5の3問に挑戦</span></span></button>
+    <button type="button" data-screen="preferences"><span class="menu-symbol" aria-hidden="true">⚙</span><span><strong>設定</strong><span class="menu-description">パートナー変更、再診断、履歴</span></span></button>
   </div>
 </section>
 <section id="practice" class="screen" aria-labelledby="practice-title" hidden>
@@ -173,7 +193,7 @@ button:disabled { opacity: .65; cursor: default; }
     <select id="coach" class="coach-select">
       <option value="0">ひなた</option>
       <option value="1">蓮</option>
-      <option value="2">ラグドールのミロ</option>
+      <option value="2">ミロ</option>
     </select>
     <p id="coach-message" role="status"></p>
   </div>
@@ -229,5 +249,5 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </section>
 </main>
-<script src="./app-v9.js" defer></script>
+<script src="./app-v10.js" defer></script>
 </html>
