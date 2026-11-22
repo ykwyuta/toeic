@@ -299,10 +299,9 @@
     };
   }
 
-  function buildDailyMenu(course, bank, words, state) {
+  function buildDailyMenu(course, bank, state) {
     const isTenMin = course === '10min';
     const maxQuestions = isTenMin ? 5 : 2;
-    const maxVocab = isTenMin ? 5 : 3;
 
     const allSets = (bank?.parts || []).flatMap((p) =>
       p.sets.map((s) => ({ ...s, part: p.part, partTitleJa: p.titleJa }))
@@ -351,13 +350,9 @@
       }
     }
 
-    // 4. Vocabulary cards (unmastered words)
-    const unmasteredWords = (words || []).filter((w) => !w.mastered).slice(0, maxVocab);
-
     return {
       course,
       questions: selectedSets,
-      vocab: unmasteredWords,
       dueCount: dueItems.length
     };
   }

@@ -3,7 +3,7 @@
 importScripts('./study/r1/bank.js');
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '13';
+const cacheName = cachePrefix + '15';
 const index = new URL('index.html', self.registration.scope).href;
 
 const studyMedia = self.toeicStudyBank.parts.flatMap(({sets}) => sets.flatMap(({media}) =>

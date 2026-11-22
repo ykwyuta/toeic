@@ -1,6 +1,6 @@
 'use strict';
 
-function initializeFieldStudy({renderSingleQuestion, renderReview, addWord, onAnswer}) {
+function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
   const get = (id) => document.getElementById(id);
   const parts = globalThis.toeicStudyBank?.parts;
   if (!parts) {
@@ -12,7 +12,6 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, addWord, onAn
 
   const partPicker = get('study-part');
   const skillPicker = get('study-skill');
-  const vocabularyPicker = get('skill-vocabulary');
   const audio = get('study-audio');
   const audioStatus = get('study-audio-status');
   const review = get('skill-review');
@@ -104,7 +103,6 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, addWord, onAn
     review.replaceChildren();
     feedback.textContent = '';
     review.hidden = true;
-    get('skill-word-tools').hidden = true;
     get('study-answer').hidden = !exercise;
     if (!exercise) {
       audio.load();
@@ -169,14 +167,23 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, addWord, onAn
     renderReview(explanation, question, Number(selected));
     review.append(explanation);
     review.hidden = false;
-    vocabularyPicker.replaceChildren(...item.vocabulary.map(({term}, index) => new Option(term, String(index))));
-    get('skill-word-tools').hidden = false;
-  });
-  get('skill-word').addEventListener('click', () => {
-    const item = selectedExercise()?.items[0];
-    const entry = item?.vocabulary[Number(vocabularyPicker.value)];
-    if (entry) addWord(entry.term, entry.meaningJa);
   });
 
-  return { renderMaterials, reviewQuestion };
+  function openExercise(part, setId) {
+    const group = parts.find((p) => Number(p.part) === Number(part));
+    if (!group) return false;
+    partPicker.value = String(group.part);
+    get('study-skill-step').hidden = false;
+    skillPicker.replaceChildren(new Option('分野を選択', ''));
+    for (const {setId: sid, items} of group.sets) {
+      skillPicker.add(new Option(items[0].skill, sid));
+    }
+    const target = group.sets.find((s) => s.setId === setId) || group.sets[0];
+    if (!target) return false;
+    skillPicker.value = target.setId;
+    renderExercise();
+    return true;
+  }
+
+  return { renderMaterials, reviewQuestion, openExercise };
 }

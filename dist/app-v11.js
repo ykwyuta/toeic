@@ -102,11 +102,12 @@ function wordKey(term) {
   return term.trim().normalize('NFKC').toLowerCase();
 }
 
-function renderProgress({ attempts, words }) {
+function renderProgress({ attempts }) {
   renderHistory(attempts);
   renderSkills(attempts);
-  renderWords(words);
-  select('download').disabled = !attempts.length && !words.length;
+  if (typeof renderItemHistory === 'function') renderItemHistory();
+  const hasAdaptive = globalThis.toeicAdaptive && globalThis.toeicAdaptive.loadAdaptive().itemLogs.length > 0;
+  select('download').disabled = !attempts.length && !hasAdaptive;
 }
 
 function renderSkills(attempts) {
@@ -157,71 +158,87 @@ function renderSkills(attempts) {
   }));
 }
 
-function renderWords(words) {
-  const list = select('word-list');
-  list.replaceChildren(...words.map((entry) => {
+const modeLabelJa = {
+  daily: 'スキマ学習',
+  study: '分野学習',
+  practice: 'ミニ模試',
+  placement: '英語力チェック',
+  listening: 'リスニング模試',
+  'reading-visual': 'リーディング画像問題'
+};
+
+function navigateToHistoryItem(log) {
+  if (log.mode === 'listening') {
+    location.href = './listening/';
+    return;
+  }
+  if (log.mode === 'reading-visual') {
+    location.href = './reading-visual/' + (log.setId ? '?set=' + encodeURIComponent(log.setId) : '');
+    return;
+  }
+  if (log.mode === 'practice') {
+    showScreen('practice');
+    const match = /-q(\d+)$/.exec(log.itemId);
+    const idx = match ? Number(match[1]) - 1 : 0;
+    const fieldsets = select('items').querySelectorAll('fieldset');
+    const target = fieldsets[idx] || fieldsets[0];
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+  if (log.setId && fieldStudyApi && fieldStudyApi.openExercise(log.part, log.setId)) {
+    showScreen('study');
+    select('study-answer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
+  // Fallback: find matching skill in study bank
+  const bankParts = globalThis.toeicStudyBank?.parts || [];
+  for (const p of bankParts) {
+    const found = p.sets.find((s) => s.items[0]?.skill === log.skill);
+    if (found && fieldStudyApi && fieldStudyApi.openExercise(p.part, found.setId)) {
+      showScreen('study');
+      select('study-answer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+  }
+  showScreen('study');
+}
+
+function renderItemHistory() {
+  const adaptive = globalThis.toeicAdaptive;
+  const list = select('item-history-list');
+  const empty = select('item-history-empty');
+  if (!adaptive || !list || !empty) return;
+  const logs = adaptive.loadAdaptive().itemLogs.slice().sort((a, b) => Date.parse(b.answeredAt) - Date.parse(a.answeredAt)).slice(0, 30);
+  empty.hidden = logs.length > 0;
+  list.replaceChildren(...logs.map((log) => {
     const row = document.createElement('li');
-    row.className = 'word-card';
-    const card = document.createElement('details');
-    const term = document.createElement('summary');
-    term.lang = 'en';
-    term.textContent = entry.term;
-    const meaning = document.createElement('p');
-    meaning.textContent = entry.meaning;
-    const toggle = document.createElement('button');
-    toggle.type = 'button';
-    toggle.textContent = entry.mastered ? '習得済み' : '習得済みにする';
-    toggle.setAttribute('aria-pressed', String(entry.mastered));
-    toggle.addEventListener('click', () => {
-      try {
-        const progress = load();
-        const current = progress.words.find((word) => wordKey(word.term) === wordKey(entry.term));
-        if (!current) return;
-        current.mastered = !current.mastered;
-        save(progress);
-        toggle.textContent = current.mastered ? '習得済み' : '習得済みにする';
-        toggle.setAttribute('aria-pressed', String(current.mastered));
-        select('word-status').textContent = current.mastered ? '習得済みにしました。' : '復習対象に戻しました。';
-      } catch {
-        select('word-status').textContent = '単語帳に保存できませんでした。';
-      }
-    });
-    card.append(term, meaning, toggle);
-    row.append(card);
+    row.className = 'history-row';
+
+    const info = document.createElement('div');
+    const badge = document.createElement('span');
+    badge.className = 'result-badge';
+    badge.dataset.correct = String(log.isCorrect);
+    badge.textContent = log.isCorrect ? '正解' : '不正解';
+
+    const title = document.createElement('strong');
+    title.textContent = 'Part ' + log.part + ' · ' + log.skill;
+
+    const meta = document.createElement('span');
+    meta.className = 'history-meta';
+    meta.textContent = dateFormat.format(new Date(log.answeredAt)) + ' · ' + (modeLabelJa[log.mode] || log.mode);
+
+    info.append(badge, title, meta);
+
+    const openBtn = document.createElement('button');
+    openBtn.type = 'button';
+    openBtn.className = 'secondary';
+    openBtn.textContent = 'この問題を開く';
+    openBtn.addEventListener('click', () => navigateToHistoryItem(log));
+
+    row.append(info, openBtn);
     return row;
   }));
 }
-
-function addWord(term, meaning) {
-  term = term.trim();
-  meaning = meaning.trim();
-  if (!term || !meaning) {
-    select('word-status').textContent = '単語と意味の両方を入力してください。';
-    return false;
-  }
-  try {
-    const progress = load();
-    if (progress.words.some((entry) => wordKey(entry.term) === wordKey(term))) {
-      select('word-status').textContent = 'この単語は登録済みです。';
-      return false;
-    }
-    progress.words.push({term, meaning, mastered: false});
-    save(progress);
-    renderProgress(progress);
-    select('word-status').textContent = term + ' を登録しました。';
-    return true;
-  } catch {
-    select('word-status').textContent = '単語帳に保存できませんでした。';
-    return false;
-  }
-}
-
-select('word-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  const data = new FormData(form);
-  if (addWord(data.get('term'), data.get('meaning'))) form.reset();
-});
 
 const coachDialogue = [
   {
@@ -349,18 +366,7 @@ select('items').innerHTML = questions.map((question, index) =>
   '<fieldset><legend>問題 ' + (index + 1) + '</legend><p lang="en">' + question.stem + '</p>' +
   question.choices.map((choice, option) => '<label lang="en"><input type="radio" required name="q' + index +
     '" value="' + option + '"> ' + letter(option) + '. ' + choice + '</label>').join('') +
-  '<div class="answer-review" hidden id="explanation-' + index + '"></div>' +
-  '<button hidden class="word-action" type="button" id="word-' + index + '" aria-label="' + question.term + ' を単語帳に追加">単語帳に追加</button></fieldset>').join('');
-
-questions.forEach((question, index) => {
-  select('word-' + index).addEventListener('click', (event) => {
-    if (addWord(question.term, question.meaning)) {
-      event.currentTarget.textContent = '単語帳に登録済み';
-      event.currentTarget.removeAttribute('aria-label');
-      event.currentTarget.disabled = true;
-    }
-  });
-});
+  '<div class="answer-review" hidden id="explanation-' + index + '"></div></fieldset>').join('');
 
 select('exam').addEventListener('submit', (event) => {
   event.preventDefault();
@@ -373,7 +379,6 @@ select('exam').addEventListener('submit', (event) => {
     const explanation = select('explanation-' + index);
     renderReview(explanation, question, answers[index]);
     explanation.hidden = false;
-    select('word-' + index).hidden = false;
   });
   try {
     const progress = load();
@@ -539,6 +544,7 @@ function showScreen(id, focus = true) {
   if (id === 'menu' || id === 'preferences' || id === 'study') {
     renderProfile();
     if (typeof renderDailyCard === 'function') renderDailyCard();
+    if (typeof renderItemHistory === 'function') renderItemHistory();
   }
   for (const screen of screens) screen.hidden = screen.id !== id;
   if (focus) {
@@ -713,11 +719,11 @@ select('placement-form').addEventListener('submit', (event) => {
 const fieldStudyApi = initializeFieldStudy({
   renderSingleQuestion,
   renderReview,
-  addWord,
   onAnswer: (entry) => {
     if (globalThis.toeicAdaptive) {
       globalThis.toeicAdaptive.recordItemResults([entry]);
       renderSkills(load().attempts);
+      renderItemHistory();
     }
   }
 });
@@ -734,20 +740,15 @@ function renderDailyCard() {
   select('course-3min').setAttribute('aria-pressed', String(course === '3min'));
   select('course-10min').setAttribute('aria-pressed', String(course === '10min'));
 
-  const progress = load();
-  const menu = adaptive.buildDailyMenu(course, globalThis.toeicStudyBank, progress.words, state);
+  const menu = adaptive.buildDailyMenu(course, globalThis.toeicStudyBank, state);
   const qCount = menu.questions.length;
-  const vCount = menu.vocab.length;
-  const partsSummary = [];
-  if (qCount) partsSummary.push('問題 ' + qCount + '問');
-  if (vCount) partsSummary.push('単語 ' + vCount + '語');
   const topReason = menu.questions[0]
     ? '（優先: ' + menu.questions[0].exercise.items[0].skill + '・' + menu.questions[0].reason + '）'
     : '';
-  select('daily-summary').textContent = partsSummary.length
-    ? partsSummary.join(' ＋ ') + topReason
+  select('daily-summary').textContent = qCount
+    ? '問題 ' + qCount + '問' + topReason
     : '練習問題を準備しています。';
-  select('daily-start').disabled = !qCount && !vCount;
+  select('daily-start').disabled = !qCount;
 
   const week = adaptive.getWeekStats(state);
   const dueText = menu.dueCount ? ' · 復習待ち ' + menu.dueCount + '件' : '';
@@ -765,10 +766,9 @@ function renderDailyCard() {
 
 function showDailyStep() {
   if (!dailySession) return;
-  const { questions: qList, vocab: vList, index, correctCount } = dailySession;
-  const totalSteps = qList.length + vList.length;
+  const { questions: qList, index, correctCount } = dailySession;
+  const totalSteps = qList.length;
   const qArea = select('daily-question-area');
-  const vArea = select('daily-vocab-area');
   const dArea = select('daily-done-area');
   const audio = select('daily-audio');
   audio.pause();
@@ -777,12 +777,11 @@ function showDailyStep() {
 
   if (index < qList.length) {
     qArea.hidden = false;
-    vArea.hidden = true;
     dArea.hidden = true;
     const current = qList[index];
     const ex = current.exercise;
     const item = ex.items[0];
-    select('daily-step-status').textContent = 'ステップ ' + (index + 1) + ' / ' + totalSteps + '（問題）';
+    select('daily-step-status').textContent = 'ステップ ' + (index + 1) + ' / ' + totalSteps;
     select('daily-item-badge').textContent = 'Part ' + ex.part + ' · ' + item.skill + '（' + current.reason + '）';
     const mat = select('daily-material');
     mat.replaceChildren();
@@ -803,33 +802,15 @@ function showDailyStep() {
     return;
   }
 
-  const vocabIndex = index - qList.length;
-  if (vocabIndex < vList.length) {
-    qArea.hidden = true;
-    vArea.hidden = false;
-    dArea.hidden = true;
-    const word = vList[vocabIndex];
-    select('daily-step-status').textContent = 'ステップ ' + (index + 1) + ' / ' + totalSteps + '（単語復習）';
-    select('daily-vocab-term').textContent = word.term;
-    select('daily-vocab-meaning').textContent = word.meaning;
-    select('daily-vocab-meaning').hidden = true;
-    select('daily-vocab-reveal').hidden = false;
-    select('daily-vocab-known').hidden = true;
-    select('daily-vocab-again').hidden = true;
-    return;
-  }
-
   // Done
   qArea.hidden = true;
-  vArea.hidden = true;
   dArea.hidden = false;
   select('daily-step-status').textContent = '今日のスキマ学習が完了しました！';
-  select('daily-done-summary').textContent = qList.length
-    ? '問題 ' + correctCount + ' / ' + qList.length + ' 問正解' + (vList.length ? ' · 単語 ' + vList.length + '語を確認しました。' : '。')
-    : '単語 ' + vList.length + '語を確認しました。';
+  select('daily-done-summary').textContent = '問題 ' + correctCount + ' / ' + qList.length + ' 問正解。';
   const week = globalThis.toeicAdaptive.getWeekStats(globalThis.toeicAdaptive.loadAdaptive());
   select('daily-done-week').textContent = '今週の学習: ' + week.completedDays + ' / ' + week.goalDays + ' 日達成';
   renderSkills(load().attempts);
+  renderItemHistory();
   renderDailyCard();
 }
 
@@ -838,8 +819,8 @@ function startDailySession(courseOverride) {
   if (!adaptive) return;
   const state = adaptive.loadAdaptive();
   const course = courseOverride || state.preferences.dailyCourse || '3min';
-  const menu = adaptive.buildDailyMenu(course, globalThis.toeicStudyBank, load().words, state);
-  if (!menu.questions.length && !menu.vocab.length) return;
+  const menu = adaptive.buildDailyMenu(course, globalThis.toeicStudyBank, state);
+  if (!menu.questions.length) return;
   dailySession = { ...menu, index: 0, correctCount: 0 };
   showScreen('daily');
   showDailyStep();
@@ -903,27 +884,6 @@ select('daily-next').addEventListener('click', () => {
   dailySession.index++;
   showDailyStep();
 });
-
-select('daily-vocab-reveal').addEventListener('click', () => {
-  select('daily-vocab-meaning').hidden = false;
-  select('daily-vocab-reveal').hidden = true;
-  select('daily-vocab-known').hidden = false;
-  select('daily-vocab-again').hidden = false;
-});
-
-function handleDailyVocab(isKnown) {
-  if (!dailySession) return;
-  const vocabIndex = dailySession.index - dailySession.questions.length;
-  const word = dailySession.vocab[vocabIndex];
-  if (word && globalThis.toeicAdaptive) {
-    globalThis.toeicAdaptive.recordVocabReview(word.term, isKnown);
-  }
-  dailySession.index++;
-  showDailyStep();
-}
-
-select('daily-vocab-known').addEventListener('click', () => handleDailyVocab(true));
-select('daily-vocab-again').addEventListener('click', () => handleDailyVocab(false));
 
 select('pref-weekly-goal').addEventListener('change', (event) => {
   const adaptive = globalThis.toeicAdaptive;
