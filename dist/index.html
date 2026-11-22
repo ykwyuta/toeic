@@ -91,8 +91,12 @@ button:disabled { opacity: .65; cursor: default; }
 }
 .menu-options button[data-screen="practice"] { --tile-background: #ffedcf; --tile-ink: #77511b; }
 .menu-options a { --tile-background: #dff1f4; --tile-ink: #215968; }
+.menu-options a.reading-tile { --tile-background: #eef2ff; --tile-ink: #3730a3; }
 .menu-options button[data-screen="preferences"] { --tile-background: #e8effc; --tile-ink: #375781; }
 .menu-options button:hover, .menu-options a:hover { background: var(--tile-background); }
+.menu-group-title { margin: 1.15rem 0 .5rem; font-size: .85rem; font-weight: 800; letter-spacing: .05em; color: #40566a; text-transform: uppercase; display: flex; align-items: center; gap: .5rem; }
+.menu-group-title::after { content: ""; flex: 1; height: 1px; background: #cbd7e3; }
+.tile-badge { display: inline-block; font-size: .72rem; font-weight: 700; padding: .08rem .45rem; border-radius: 999px; background: var(--tile-background); color: var(--tile-ink); margin-left: .35rem; vertical-align: middle; }
 .menu-symbol { display: grid; place-items: center; aspect-ratio: 1; border-radius: .6rem; color: var(--tile-ink); background: var(--tile-background); font-size: 1.15rem; }
 .menu-description { display: block; white-space: normal; font-size: .875rem; color: #40566a; line-height: 1.45; }
 .partner-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; max-width: 34rem; }
@@ -261,13 +265,17 @@ button:disabled { opacity: .65; cursor: default; }
     <button type="button" id="daily-start">今すぐ始める</button>
     <p id="daily-week-progress" class="daily-progress"></p>
   </section>
+  <p class="menu-group-title">セクション別演習（全500問）</p>
   <div class="menu-options">
-    <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習</strong><span class="menu-description">Partと分野を選んで1問練習</span></span></button>
-    <button type="button" data-screen="practice"><span class="menu-symbol" aria-hidden="true">⚑</span><span><strong>模擬試験</strong><span class="menu-description">Part 5の3問に挑戦</span></span></button>
-    <a href="./listening/"><span class="menu-symbol" aria-hidden="true">♫</span><span><strong>リスニング模擬試験</strong><span class="menu-description">Part 1〜4の100問</span></span></a>
-    <a href="./reading-visual/"><span class="menu-symbol" aria-hidden="true">▤</span><span><strong>リーディング画像問題</strong><span class="menu-description">Part 7の画像参照200問</span></span></a>
-    <a href="./reading-part56/"><span class="menu-symbol" aria-hidden="true">≡</span><span><strong>Part 5・6 集中演習</strong><span class="menu-description">短文・長文穴埋め200問</span></span></a>
-    <button type="button" data-screen="preferences"><span class="menu-symbol" aria-hidden="true">⚙</span><span><strong>設定</strong><span class="menu-description">パートナー変更、再診断、履歴</span></span></button>
+    <a href="./listening/"><span class="menu-symbol" aria-hidden="true">♫</span><span><strong>リスニング演習</strong><span class="tile-badge">Part 1–4</span><span class="menu-description">音声付き模擬問題 · 100問</span></span></a>
+    <a href="./reading-part56/" class="reading-tile"><span class="menu-symbol" aria-hidden="true">≡</span><span><strong>文法・長文穴埋め</strong><span class="tile-badge">Part 5–6</span><span class="menu-description">短文・長文穴埋め · 200問</span></span></a>
+    <a href="./reading-visual/" class="reading-tile"><span class="menu-symbol" aria-hidden="true">▤</span><span><strong>読解・画像資料</strong><span class="tile-badge">Part 7</span><span class="menu-description">掲示・図表参照問題 · 200問</span></span></a>
+  </div>
+  <p class="menu-group-title">弱点対策・管理</p>
+  <div class="menu-options">
+    <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習・苦手分析</strong><span class="menu-description">Part別の弱点強化と学習履歴</span></span></button>
+    <button type="button" data-screen="practice"><span class="menu-symbol" aria-hidden="true">⚡</span><span><strong>クイック演習</strong><span class="tile-badge">Part 5 · 3問</span><span class="menu-description">1分で試せる短文穴埋め</span></span></button>
+    <button type="button" data-screen="preferences"><span class="menu-symbol" aria-hidden="true">⚙</span><span><strong>設定・バックアップ</strong><span class="menu-description">パートナー、目標、カレンダー連携</span></span></button>
   </div>
 </section>
 <section id="daily" class="study-panel screen" hidden>
@@ -295,8 +303,8 @@ button:disabled { opacity: .65; cursor: default; }
   </div>
 </section>
 <section id="practice" class="screen" aria-labelledby="practice-title" hidden>
-  <h2 id="practice-title" tabindex="-1">模擬試験</h2>
-  <p>Part 5 · 短文穴埋め 3問</p>
+  <h2 id="practice-title" tabindex="-1">クイック演習</h2>
+  <p>Part 5 · 短文穴埋め 3問（1分ウォームアップ）</p>
   <button type="button" class="secondary" data-screen="menu">メニューへ</button>
   <form id="exam">
     <div id="items"></div>
