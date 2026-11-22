@@ -2,26 +2,61 @@
 <html lang="ja">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102439">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icon-180.png">
 <title>TOEIC L&amp;R 模擬問題</title>
 <style>
-:root { color-scheme: light; font: 100%/1.65 system-ui, sans-serif; color: #13273b; background: #edf3f7; }
-body { max-width: 46rem; margin: auto; padding: 1.5rem; }
-h1 { line-height: 1.2; }
-fieldset, section { background: white; border: 1px solid #b9cada; border-radius: .65rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
-legend { font-weight: 700; }
+* { box-sizing: border-box; }
+:root { color-scheme: light; font: 100%/1.65 system-ui, sans-serif; color: #13273b; background: #edf2f7; }
+body { margin: 0; }
+main { max-width: 68rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
+[hidden] { display: none !important; }
+.hero { position: relative; isolation: isolate; overflow: hidden; border-radius: 1.5rem; padding: clamp(1.6rem, 6vw, 4.25rem); color: #f6f9ff; background: radial-gradient(ellipse at 85% 30%, #284d66, transparent 62%), #102439; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: repeating-linear-gradient(126deg, transparent 0 2.4rem, #aacfe512 2.4rem calc(2.4rem + 1px)); mask-image: linear-gradient(90deg, transparent 10%, #000); }
+.hero-brand { display: flex; align-items: center; gap: .75rem; color: #d1deea; font-size: .9rem; }
+.hero-brand img { border-radius: .65rem; outline: 1px solid #a4bbce60; }
+h1 { margin: 2rem 0 .85rem; font-size: clamp(2.5rem, 8.2vw, 6.25rem); line-height: .98; letter-spacing: -.075em; }
+h1 span { display: block; margin-top: .75rem; font-size: .46em; letter-spacing: -.04em; }
+.hero p { margin: 1.25rem 0; color: #d1deea; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.3rem; }
+.hero-actions button { background: #ffad69; border-color: #ffad69; color: #102439; font-weight: 750; }
+.hero-actions a { color: #eef6ff; text-underline-offset: .3em; }
+#practice { max-width: 46rem; margin: 1.5rem auto; }
+.settings { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 23rem), 1fr)); margin-top: 1rem; }
+fieldset, .settings section { background: #fff; border: 1px solid #c3d0dd; border-radius: 1rem; padding: 1.25rem; min-width: 0; }
+fieldset { margin: 0 0 1rem; }
+h2 { margin: 0 0 .75rem; font-size: 1.25rem; }
+legend { font-weight: 700; padding-inline: .35rem; }
 label { display: block; padding: .35rem 0; }
-button, input { font: inherit; }
-button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .35rem; background: #124d75; color: white; cursor: pointer; }
+button, input { font: inherit; max-width: 100%; }
+button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .55rem; background: #124d75; color: white; cursor: pointer; }
+button:disabled { opacity: .65; cursor: default; }
+#back { margin-bottom: 1rem; color: #124d75; background: transparent; }
 :focus-visible { outline: 3px solid #cf571c; outline-offset: 3px; }
 </style>
 <main>
-<header><p>非公式学習教材</p><h1>TOEIC L&amp;R 模擬問題</h1><p>Part 5 · 短文穴埋め 3問</p></header>
-<form id="exam">
-  <div id="items"></div>
-  <button>採点する</button>
-</form>
-<p id="result" role="status"></p>
-<section>
+<header class="hero" id="start-screen">
+  <div class="hero-brand"><img src="./icon-192.png" alt="" width="44" height="44">非公式学習教材</div>
+  <h1 lang="en">TOEIC L&amp;R<span lang="ja">模擬問題</span></h1>
+  <p>Part 5 · 短文穴埋め 3問</p>
+  <div class="hero-actions">
+    <button id="start" type="button">問題を始める</button>
+    <a href="#learning-history">学習履歴を見る</a>
+  </div>
+</header>
+<section id="practice" aria-labelledby="practice-title" hidden>
+  <h2 id="practice-title" tabindex="-1">Part 5 · 短文穴埋め</h2>
+  <button id="back" type="button">開始画面に戻る</button>
+  <form id="exam">
+    <div id="items"></div>
+    <button>採点する</button>
+  </form>
+  <p id="result" role="status"></p>
+</section>
+<div class="settings">
+<section id="learning-history" tabindex="-1">
   <h2>学習履歴</h2>
   <p>履歴はこのブラウザに保存されます。別の端末ではJSONファイルを読み込んで引き継げます。</p>
   <button id="download" type="button">履歴をダウンロード</button>
@@ -35,6 +70,7 @@ button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .35rem
   <p id="offline-status" role="status">オフラインの準備状況を確認しています。</p>
   <button id="offline-reset" type="button" disabled>キャッシュを強制削除して再取得</button>
 </section>
+</div>
 </main>
 <script>
 'use strict';
@@ -62,6 +98,19 @@ const key = 'toeic.history.v1';
 const examId = 'part5-demo';
 const revision = 1;
 const select = (id) => document.getElementById(id);
+
+select('start').addEventListener('click', () => {
+  select('start-screen').hidden = true;
+  select('practice').hidden = false;
+  select('practice-title').focus();
+});
+
+select('back').addEventListener('click', () => {
+  select('practice').hidden = true;
+  select('start-screen').hidden = false;
+  select('start').focus();
+});
+
 const dateFormat = new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' });
 const letter = (index) => 'ABCD'[index];
 const score = (answers) => answers.filter((value, index) => value === questions[index].answer).length;
