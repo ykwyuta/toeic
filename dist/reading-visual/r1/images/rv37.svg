@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" rx="18" fill="#fefce8" stroke="#cbd5e1" stroke-width="4"/>
+  <rect x="0" y="0" width="960" height="86" rx="14" fill="#854d0e"/>
+  <text x="48" y="54" font-family="system-ui,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">SUNNYVALE PET BOARDING - DAILY RATES</text>
+  <text x="48" y="150" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Dog Suite: $48 / night | Cat Condo: $28 / night</text>
+  <text x="48" y="224" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Daycare Only (7 AM - 6 PM): $30 / day</text>
+  <text x="48" y="298" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Second Pet in Same Suite: 20% OFF</text>
+  <text x="48" y="372" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Current Vaccination Records Required at Check-in</text>
+</svg>

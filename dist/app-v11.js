@@ -164,7 +164,8 @@ const modeLabelJa = {
   practice: 'ミニ模試',
   placement: '英語力チェック',
   listening: 'リスニング模試',
-  'reading-visual': 'リーディング画像問題'
+  'reading-visual': 'リーディング画像問題',
+  'reading-part56': 'Part 5・6 集中演習'
 };
 
 function navigateToHistoryItem(log) {
@@ -174,6 +175,10 @@ function navigateToHistoryItem(log) {
   }
   if (log.mode === 'reading-visual') {
     location.href = './reading-visual/' + (log.setId ? '?set=' + encodeURIComponent(log.setId) : '');
+    return;
+  }
+  if (log.mode === 'reading-part56') {
+    location.href = './reading-part56/' + (log.setId ? '?set=' + encodeURIComponent(log.setId) : '');
     return;
   }
   if (log.mode === 'practice') {

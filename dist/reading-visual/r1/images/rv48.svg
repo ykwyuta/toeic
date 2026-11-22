@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" rx="18" fill="#f7fee7" stroke="#cbd5e1" stroke-width="4"/>
+  <rect x="0" y="0" width="960" height="86" rx="14" fill="#3f6212"/>
+  <text x="48" y="54" font-family="system-ui,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">MEADOWBROOK GOLF COURSE - GREEN FEES</text>
+  <text x="48" y="150" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">18 Holes (Weekday): $42 | (Weekend): $58</text>
+  <text x="48" y="224" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">9 Holes (Any Day): $26</text>
+  <text x="48" y="298" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Cart Rental: $18 per player | Club Rental: $25</text>
+  <text x="48" y="372" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Twilight Rate (After 3:00 PM): $29 for 18 Holes</text>
+</svg>

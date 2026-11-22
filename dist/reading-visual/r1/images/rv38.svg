@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" rx="18" fill="#f0f9ff" stroke="#cbd5e1" stroke-width="4"/>
+  <rect x="0" y="0" width="960" height="86" rx="14" fill="#0369a1"/>
+  <text x="48" y="54" font-family="system-ui,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">HARBOR KAYAK RENTALS - WATERFRONT</text>
+  <text x="48" y="150" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Single Kayak: $18 / hr | $45 Half Day (4 hrs)</text>
+  <text x="48" y="224" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Tandem Kayak: $28 / hr | $65 Half Day (4 hrs)</text>
+  <text x="48" y="298" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Life Jackets &amp; Dry Bags Included Free</text>
+  <text x="48" y="372" font-family="system-ui,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#13273b">Last Rental Leaves Dock at 4:30 PM</text>
+</svg>

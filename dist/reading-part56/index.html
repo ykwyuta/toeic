@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102439">
+  <title>Part 5・6 集中演習 200問 | TOEIC L&amp;R 模擬問題</title>
+  <link rel="icon" href="../icon-192.png">
+  <style>
+    * { box-sizing: border-box; }
+    :root { color-scheme: light; font: 100%/1.65 system-ui, sans-serif; color: #13273b; background: #edf2f7; }
+    body { margin: 0; }
+    main { max-width: 58rem; margin: auto; padding: clamp(1rem, 3vw, 2rem); }
+    [hidden] { display: none !important; }
+    .hero { border-radius: 1.25rem; padding: 1.4rem; color: #f6f9ff; background: #102439; margin-bottom: 1rem; }
+    .hero a { color: #b8dcff; }
+    .hero h1 { margin: .4rem 0 .2rem; font-size: clamp(1.5rem, 4vw, 2.2rem); }
+    .panel { background: #fff; border: 1px solid #c3d0dd; border-radius: 1rem; padding: 1.2rem; margin-bottom: 1rem; }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-bottom: 1rem; }
+    select, button { font: inherit; min-height: 44px; padding: .45rem .85rem; border-radius: .55rem; }
+    button { border: 1px solid #124d75; background: #124d75; color: #fff; cursor: pointer; }
+    button.secondary { background: #fff; color: #124d75; }
+    .doc-box { background: #f4f7fb; border: 1px solid #cad9e6; border-radius: .75rem; padding: .9rem 1rem; margin-bottom: 1rem; white-space: pre-line; }
+    .doc-title { font-weight: 700; margin: 0 0 .4rem; color: #124d75; }
+    fieldset { border: 1px solid #c3d0dd; border-radius: .85rem; padding: 1rem; margin: 0 0 1rem; }
+    legend { font-weight: 700; padding-inline: .3rem; }
+    label { display: block; padding: .35rem 0; min-height: 40px; }
+    .review-box { background: #f2f6fa; border-radius: .65rem; padding: .85rem; margin-top: .75rem; }
+    .review-box ul { padding-left: 1.25rem; }
+    .status-ok { color: #03543f; font-weight: 700; }
+    .status-ng { color: #9b1c1c; font-weight: 700; }
+  </style>
+  <script src="../adaptive.js" defer></script>
+  <script src="./reading-part56.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <a href="../">学習メニューへ戻る</a>
+      <h1>Part 5・6 集中演習（200問）</h1>
+      <p>Part 5 短文穴埋め 120問 ＋ Part 6 長文穴埋め 80問</p>
+    </header>
+    <section class="panel">
+      <div class="toolbar">
+        <button type="button" id="prev-set" class="secondary">前のセット</button>
+        <select id="set-select" aria-label="問題セットを選択"></select>
+        <button type="button" id="next-set" class="secondary">次のセット</button>
+      </div>
+      <p id="load-status" role="status"></p>
+      <div id="set-container" hidden>
+        <div id="doc-box" class="doc-box" hidden>
+          <p id="doc-title" class="doc-title" lang="en"></p>
+          <p id="doc-text" lang="en"></p>
+          <p id="doc-ja" hidden></p>
+        </div>
+        <form id="set-form">
+          <div id="set-questions"></div>
+          <button type="submit">このセットを採点する</button>
+        </form>
+        <p id="set-score" role="status"></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
