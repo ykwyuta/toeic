@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123855">
+  <title>リスニング模擬試験 | TOEIC L&amp;R 模擬問題</title>
+  <link rel="icon" href="../icon-192.png">
+  <link rel="stylesheet" href="./listening.css">
+  <script src="./listening.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <a href="../">学習メニューへ戻る</a>
+      <h1>リスニング模擬試験</h1>
+      <p>TOEIC L&amp;R 非公式教材 · Part 1〜4 · 100問</p>
+    </header>
+
+    <section id="setup" class="panel" aria-labelledby="setup-title">
+      <h2 id="setup-title">受験する</h2>
+      <p id="instructions">問題を読み込んでいます。</p>
+      <p>写真と図表は画面に表示します。Part 1・2の英文は音声で聞いて解答してください。採点後に台本と日本語訳を確認できます。</p>
+      <button id="start" type="button" disabled>音声を再生して開始</button>
+    </section>
+
+    <section id="exercise" hidden aria-labelledby="exercise-title">
+      <div class="panel">
+        <h2 id="exercise-title" tabindex="-1">受験中</h2>
+        <p id="play-status" role="status"></p>
+        <p id="play-time"></p>
+        <button id="play-toggle" type="button"></button>
+        <p id="answered" role="status"></p>
+        <label for="set-select">表示する問題</label>
+        <select id="set-select"></select>
+        <audio id="exam-audio" preload="none"></audio>
+      </div>
+      <div id="questions" class="panel"></div>
+      <div class="actions">
+        <button id="previous" type="button" class="secondary">前の問題へ</button>
+        <button id="next" type="button" class="secondary">次の問題へ</button>
+        <button id="finish" type="button">解答を提出して採点</button>
+      </div>
+    </section>
+
+    <section id="results" class="panel" hidden aria-labelledby="score-title">
+      <h2 id="score-title" tabindex="-1"></h2>
+      <ul id="scores"></ul>
+      <button id="restart" type="button">もう一度受験する</button>
+    </section>
+    <section id="review" class="panel" hidden aria-labelledby="review-title">
+      <h2 id="review-title">復習</h2>
+      <label for="review-select">復習する問題</label>
+      <select id="review-select"></select>
+      <p id="review-audio-label">この問題セットの音声</p>
+      <audio id="review-audio" controls preload="none" aria-labelledby="review-audio-label"></audio>
+      <div id="review-content"></div>
+    </section>
+  </main>
+</body>
+</html>

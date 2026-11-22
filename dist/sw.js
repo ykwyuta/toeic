@@ -1,7 +1,7 @@
 'use strict';
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '10';
+const cacheName = cachePrefix + '11';
 const index = new URL('index.html', self.registration.scope).href;
 
 const assets = ['app-v10.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']

@@ -1,0 +1,106 @@
+@71|配送業者からの留守番電話
+: b|Hello, this is Nolan from Gleamford Parcel Service. I'm calling about the floor lamp we were supposed to deliver this morning. Our driver couldn't reach your building because road crews were resurfacing the street. We can try again tomorrow between ten and noon. If that doesn't work for you, reply to the text message we've just sent and choose a different time. Please leave the entrance code in your reply so the driver can get into the lobby.|こんにちは。グリームフォード配送サービスのノーランです。今朝お届け予定だったフロアランプについてお電話しました。道路工事で舗装をやり直していたため、運転手が建物までたどり着けませんでした。明日10時から正午の間に再配達できます。ご都合が悪ければ、先ほどお送りしたメッセージに返信して別の時間を選んでください。運転手がロビーに入れるよう、返信には入口の暗証番号を記載してください。
+? 71|連絡の目的|easy|t1|Why is the speaker calling?|話し手はなぜ電話していますか。
++ To reschedule a delivery.|配達の予定を組み直すため。|今朝の予定どおりに届けられず、明日の再配達時間を提示しています。
+- To collect payment for a lamp.|ランプの代金を集金するため。|ランプは配送品として挙げられ、支払いは求められていません。
+- To report a damaged product.|破損品について報告するため。|問題は道路に入れなかったことで、品物の状態ではありません。
+- To request the return of a package.|荷物の返送を依頼するため。|これから受取人に届ける荷物で、返却の話ではありません。
+% be supposed to=～する予定である|try again=再度試みる|floor lamp=フロアランプ
+? 72|理由|easy|t1|What prevented the driver from reaching the building?|運転手が建物にたどり着けなかった原因は何ですか。
++ Road maintenance.|道路の補修工事。|道路作業員が路面を舗装し直していたと説明されています。
+- A vehicle breakdown.|車両の故障。|運転手が進めなかった理由は道路事情で、車両の異常は述べていません。
+- An incorrect street address.|住所の誤り。|建物は特定できており、その通りで工事が行われていました。
+- A missing parcel label.|荷物のラベルの紛失。|ラベルに関する指摘はなく、妨げは配達経路上にあります。
+% road crew=道路工事の作業班|resurface=表面を舗装し直す|prevent=妨げる
+? 73|返信内容|medium|t1|What information should the listener provide in a reply?|聞き手は返信でどんな情報を知らせるべきですか。
++ An access code.|入館用の暗証番号。|ロビーへ入れるよう、entrance code を返信に含めるよう求めています。
+- A telephone extension.|内線番号。|求められている番号は電話用でなく入口の解錠用です。
+- An order number.|注文番号。|届ける品は分かっており、注文を特定する番号は求めていません。
+- A billing address.|請求先住所。|必要なのは配達先のロビーへ入る手段です。
+% reply=返信する、返信|entrance code=入口の暗証番号|lobby=ロビー
+@74|図書館の利用案内
+: f|Welcome to the newly renovated reading room at Sablefern Library. The desks along the windows are available to anyone, but please reserve one of the enclosed booths online if you need to make a video call. We have moved the daily newspapers to a shelf near the elevator to free up space at the entrance. On your way out, please drop any books you used into the cart by the door. That helps staff track which titles are used in the room.|セーブルファーン図書館の改装した閲覧室へようこそ。窓側の机はどなたでも利用できます。ビデオ通話が必要なら、仕切りのあるブースをオンラインで予約してください。入口を広くするため、日刊紙はエレベーター近くの棚に移しました。お帰りの際は、利用した本をドア脇のカートに入れてください。室内でどの本が利用されたか、職員が把握するのに役立ちます。
+? 74|利用条件|easy|t1|What should visitors reserve for a video call?|来館者はビデオ通話のために何を予約すべきですか。
++ An enclosed booth.|仕切りのあるブース。|ビデオ通話をする場合はブースをオンライン予約するよう案内しています。
+- A window desk.|窓側の机。|窓側は誰でも使え、予約の指示はブースに対してです。
+- A newspaper shelf.|新聞を置く棚。|棚は新聞の移動先で、通話用の設備ではありません。
+- A book cart.|本のカート。|カートは利用後の本を置くためのものです。
+% enclosed=仕切られた、囲われた|booth=小型の個室・ブース|reserve=予約する
+? 75|場所|easy|t1|Where can visitors now find the newspapers?|来館者は現在、新聞をどこで見つけられますか。
++ Near the elevator.|エレベーターのそば。|日刊紙はエレベーター近くの棚に移動しました。
+- Beside an enclosed booth.|ブースの横。|ブースはビデオ通話用で、新聞はそこにありません。
+- On the desks along the windows.|窓側の机の上。|窓側の机は自由に使う席で、新聞の配置先ではありません。
+- In the cart by the door.|ドア脇のカート。|カートに入れるのは閲覧後の本です。
+% daily newspaper=日刊紙|move A to B=AをBへ移す|free up space=空き場所を作る
+? 76|依頼理由|medium|t1|Why are visitors asked to put books they used in a cart?|来館者はなぜ利用した本をカートに入れるよう求められていますか。
++ So staff can track which titles visitors use in the room.|職員が室内で利用された本を把握できるように。|最後に、室内で使われたタイトルを追跡できると述べています。
+- So staff can repair damaged covers.|職員が傷んだ表紙を直せるように。|本の状態にかかわらず、利用された本を把握するためです。
+- So the books can be delivered to another branch.|本を他の分館に届けられるように。|カートは閲覧室内での利用記録に使われ、配送先は出てきません。
+- So the books can be prepared for a sale.|本を販売する準備ができるように。|売却する本の収集とは説明されていません。
+% track=把握する、追跡する|title=書名、その本|on one's way out=帰りがけに
+@77|料理講習の開講案内〔図表〕
+# Saturday cooking classes|土曜の料理講習
+= Class|クラス; Start|開始; Room|教室
+= Quick Breads|クイックブレッド; 9:00|9時; Oak Kitchen|オーク調理室
+= Fresh Pasta|生パスタ; 10:00|10時; Reed Kitchen|リード調理室
+= Pickled Vegetables|野菜のピクルス; 11:00|11時; Pine Kitchen|パイン調理室
+= Fruit Desserts|果物のデザート; 12:00|正午; Birch Kitchen|バーチ調理室
+: g|Good morning. This is an update for participants in today's cooking classes. The ovens in Oak Kitchen are being tested, so Quick Breads will meet in the room normally used by Fresh Pasta. Quick Breads still starts at nine and will finish by ten. The pasta class will start thirty minutes later than listed, in its usual room. All participants should collect a clean apron from the welcome desk before entering a kitchen. There is a bowl by each kitchen door where you can leave your name badge when you finish.|おはようございます。今日の料理講習の参加者に変更のお知らせです。オーク調理室のオーブンを点検中のため、クイックブレッドは生パスタが普段使う教室で行います。クイックブレッドは予定どおり9時に始まり、10時までに終わります。パスタの講習は通常の教室で、表より30分遅く始まります。参加者全員、調理室に入る前に案内受付で清潔なエプロンを受け取ってください。各調理室のドア脇にボウルがありますので、終了後に名札を入れてください。
+? 77|図表照合・会場|medium|t1,r2c1,r2c3|Look at the table. In which room will Quick Breads meet today?|表を見てください。今日はどの教室でクイックブレッドを行いますか。
++ Reed Kitchen.|リード調理室。|生パスタの通常の教室に移るという音声を、表の Fresh Pasta 行で照合します。
+- Oak Kitchen.|オーク調理室。|クイックブレッドの予定表上の教室で、オーブン点検中です。
+- Pine Kitchen.|パイン調理室。|ピクルス講習の教室で、生パスタの通常会場ではありません。
+- Birch Kitchen.|バーチ調理室。|デザート講習の教室です。
+% normally=通常は|be tested=点検されている|meet=集まる、開催される
+? 78|図表照合・時刻計算|hard|t1,r2c1,r2c2|Look at the table. What time will Fresh Pasta begin today?|表を見てください。今日は生パスタの講習が何時に始まりますか。
++ At ten thirty.|10時30分。|表では10時開始で、音声では予定より30分遅いので10時30分です。
+- At nine.|9時。|クイックブレッドが変更なしで開始する時刻です。
+- At ten.|10時。|表の生パスタの開始時刻に、案内された30分を足していません。
+- At eleven thirty.|11時30分。|別の講習の11時に30分を足した時刻で、生パスタの行は10時です。
+% as listed=表に記載のとおり|begin=始まる|thirty minutes later=30分遅く
+? 79|事前の行動|easy|t1|What should participants do before entering a kitchen?|参加者は調理室に入る前に何をするべきですか。
++ Pick up an apron.|エプロンを受け取る。|受付で清潔なエプロンを受け取るよう、入室前の指示があります。
+- Return a name badge.|名札を返す。|名札は講習終了後にドア脇のボウルへ入れます。
+- Test an oven.|オーブンを点検する。|会場変更の理由として工事状況を述べたもので、参加者への依頼ではありません。
+- Wash a mixing bowl.|混ぜるためのボウルを洗う。|ボウルは名札の返却先として登場します。
+% collect=受け取る|apron=エプロン|welcome desk=案内受付
+@80|新しい修理サービスの広告
+: m|Do you have a favorite backpack with a broken buckle? At Ternfield Stitch, our new walk-in repair counter can replace buckles and zippers while you browse the store. No appointment is needed for these small repairs. If the fabric itself is torn, we'll inspect the bag and give you a written estimate before we start. To celebrate the opening, we're including a free luggage tag with every completed repair through the end of May.|バックルの壊れたお気に入りのリュックはありませんか。ターンフィールド・ステッチの新しい予約不要の修理窓口では、店内をご覧になっている間にバックルやファスナーを交換できます。こうした小さな修理に予約は要りません。布地そのものが破れている場合は、バッグを確認して作業の前に書面の見積もりをお出しします。開設記念として、5月末までに完了した修理には無料で荷物札をお付けします。
+? 80|目的|easy|t1|What is being advertised?|何を宣伝していますか。
++ A bag repair service.|バッグの修理サービス。|修理窓口でリュックの部品を交換するサービスを紹介しています。
+- A sale on travel bags.|旅行用バッグのセール。|バッグ本体の販売値引きはなく、既存のバッグの修理が中心です。
+- A class on sewing fabric.|布の裁縫教室。|布の破損は店が調べ、客に裁縫を教える告知ではありません。
+- A service for shipping luggage.|荷物の発送サービス。|荷物札は修理のおまけで、荷物を配送するサービスではありません。
+% walk-in=予約なしで利用できる|buckle=留め具、バックル|zipper=ファスナー
+? 81|条件付き手順|medium|t1|What will the shop do if a bag's fabric is torn?|バッグの布地が破れている場合、店は何をしますか。
++ Give a written estimate before beginning the work.|作業前に書面で見積もりを出す。|布地の傷みは状態を確認し、作業に入る前に見積もると説明しています。
+- Replace the whole bag at no charge.|バッグ全体を無料で交換する。|無料なのは荷物札で、バッグの交換を約束していません。
+- Repair it immediately without inspection.|状態を見ずにすぐ修理する。|破れの場合はまず inspect the bag と述べています。
+- Ask the customer to buy a new zipper.|客に新しいファスナーを買うよう求める。|ファスナー交換は別の小修理例で、破れへの対応は見積もりです。
+% fabric=布地|torn=破れた|written estimate=書面の見積もり
+? 82|特典|easy|t1|What does the shop offer with completed repairs through May?|5月末までに完了した修理に店が付けるものは何ですか。
++ A luggage tag.|荷物札。|開設記念に修理完了品へ無料の荷物札が付くと述べています。
+- A spare buckle.|予備のバックル。|バックルは交換対象で、無料で付ける特典は荷物札です。
+- A cleaning kit.|手入れ用品一式。|手入れ用品への言及はありません。
+- A discount voucher.|割引券。|価格の割引ではなく、品物を無料で添える特典です。
+% through the end of May=5月末まで|completed repair=完了した修理|include=付ける、含める
+@83|販売店の開店前連絡
+: b|Before we open today, there's one change to the way we handle online orders. Until the new collection shelves arrive, put any paid orders in the locked cabinet behind the service counter. Keep unpaid orders at your usual packing station. Last week two customers were given bags they hadn't paid for, so check the status on your screen before handing anything over. If the screen says “payment pending,” ask a supervisor to check the payment status before releasing the order.|今日開店する前に、オンライン注文の扱い方に変更が1つあります。新しい受取用棚が届くまでは、支払い済みの注文品をサービスカウンターの後ろの鍵付き戸棚に入れてください。未払いの注文品は、いつもの梱包台に置いてください。先週、料金を支払っていない商品袋を渡したお客様が2人いました。品物を渡す前に画面で状況を確認してください。「決済処理中」と出たら、引き渡し前に責任者に確認してもらってください。
+? 83|一時的な保管場所|easy|t1|Where should staff temporarily keep paid orders?|スタッフは支払い済みの注文品を一時的にどこに置くべきですか。
++ In a locked cabinet.|鍵付きの戸棚。|受取用棚が届くまではサービスカウンター裏の鍵付き戸棚を使います。
+- On the new collection shelves.|新しい受取用棚。|まだ届いていないため、一時的に別の場所を使います。
+- At the usual packing station.|いつもの梱包台。|梱包台に残す指定があるのは未払いの注文品です。
+- Beside the shop entrance.|店の入口の横。|保管場所として指示されたのはサービスカウンター裏です。
+% paid order=支払い済みの注文|locked cabinet=鍵付き戸棚|packing station=梱包台
+? 84|指示の理由|medium|t1|What happened last week?|先週、何が起こりましたか。
++ Unpaid goods were handed to customers.|未払いの商品が客に渡された。|まだ支払っていない商品袋を客2人に渡したことが確認手順の理由です。
+- Several items were packed incorrectly.|いくつかの商品が誤って梱包された。|中身の取り違えはなく、支払い状況が問題です。
+- A cabinet key went missing.|戸棚の鍵を紛失した。|戸棚は保管先として出てきますが、鍵の紛失は述べられていません。
+- Some online orders were lost.|オンライン注文がいくつか失われた。|注文品はありましたが、払う前に客の手へ渡っています。
+% hand over=引き渡す|status=状況|unpaid=未払いの
+? 85|例外時の手続き|medium|t1|What should staff do if a payment is pending?|決済処理中なら、スタッフは何をするべきですか。
++ Ask a supervisor to check it.|責任者に確認を頼む。|payment pending の表示が出た場合に限り、品物を渡す前に責任者の確認を求めます。
+- Cancel the order immediately.|すぐ注文を取り消す。|支払いを確認する段階で、注文の取り消しは指示していません。
+- Send the customer a new bill.|顧客に新しい請求書を送る。|先に責任者に確認し、再請求についての指示はありません。
+- Hand the bag over and record the payment later.|先に袋を渡して後で支払いを記録する。|未払い品の引き渡しを防ぐため、確認後に渡す順序です。
+% pending=処理中の、未確定の|supervisor=責任者|release the order=注文品を引き渡す

@@ -1,0 +1,168 @@
+@32|社内研修の会場変更
+: f|Have you seen the message about tomorrow's spreadsheet workshop? The training room is being painted, so we're meeting in the staff lounge instead.|明日の表計算研修についての連絡を見ましたか。研修室は塗装中なので、代わりに職員ラウンジに集まります。
+: m|Thanks for telling me. Does it still start at nine? I have to help a new employee check in at eight thirty.|教えてくれてありがとう。開始は9時のままですか。8時半に新人の受付を手伝う必要があるんです。
+: f|Yes. The lounge has no public computers, though. If you don't have a laptop, you can borrow one from reception today.|はい。ただ、ラウンジには共用パソコンがありません。ノートパソコンを持っていなければ、今日中に受付で借りられます。
+: m|I'll stop there on my way to lunch. Mine's at home.|昼食に行く途中で寄ります。自分のは家にあるので。
+? 32|変更理由|easy|t1|Why has the workshop been moved?|なぜ研修の会場が変更されましたか。
++ A room is being painted.|部屋を塗装しているため。|研修室が塗装中だと冒頭で説明しています。
+- A computer has broken down.|パソコンが故障したため。|共用パソコンがないのは変更先で、故障の話はありません。
+- The instructor will arrive late.|講師が遅れて到着するため。|開始は9時のままで、講師の遅刻には触れていません。
+- More people have enrolled.|申し込みが増えたため。|参加者数の変化は示されていません。
+% be painted=塗装される|workshop=研修会|instead=代わりに
+? 33|詳細・時刻|easy|t2,t3|When will the workshop start?|研修はいつ始まりますか。
++ At nine.|9時。|男性が9時のままかを尋ね、女性が Yes と答えます。
+- At eight thirty.|8時30分。|新人の受付を手伝う時刻です。
+- At ten.|10時。|10時への変更はなく、女性は9時を肯定しています。
+- At lunchtime.|昼食時。|男性が受付に寄るのは昼食に向かう途中です。
+% start at=～時に始まる|check in=受付を済ませる|lunchtime=昼食時
+? 34|次の行動|medium|t3,t4|What will the man most likely do before lunch?|男性は昼食前に何をする可能性が最も高いですか。
++ Borrow a laptop.|ノートパソコンを借りる。|自分の端末は家にあり、貸出先と聞いた受付に昼食前に寄ると答えています。
+- Pick up a paint sample.|塗料見本を受け取る。|塗装は会場変更の理由で、男性に塗装の用件はありません。
+- Show a visitor to the lounge.|来訪者をラウンジに案内する。|新人の受付を手伝うのは翌朝で、昼食前に寄る先は受付です。
+- Install spreadsheet software.|表計算ソフトをインストールする。|ソフトの準備指示はなく、男性が今必要としているのは端末です。
+% borrow=借りる|stop at=～に立ち寄る|on one's way to=～へ向かう途中で
+@35|マグカップの交換
+: g|Hello. I'm calling about the set of mugs I ordered from Vellin Cupworks. One arrived with a crack in the handle.|もしもし。ヴェリン・カップワークスで注文したマグカップのセットについてです。1個の取っ手にひびが入った状態で届きました。
+: m|I'm sorry about that. I can send a replacement as soon as I have your order number and a photo of the damage. You can email both to our customer care address.|申し訳ありません。注文番号と破損箇所の写真が届き次第、交換品をお送りできます。両方ともお客様窓口のメールアドレスへお送りください。
+: g|Will I need to mail the whole set back? I bought it for a party on Saturday.|セット全体を送り返す必要はありますか。土曜のパーティー用に買ったんです。
+: m|No, please keep the set. If I receive your email by noon today, the replacement should reach you by Friday.|いいえ、お手元に置いてください。今日の正午までにメールをいただければ、金曜までには交換品が届くはずです。
+? 35|電話の目的|easy|t1|Why is the woman calling?|女性はなぜ電話していますか。
++ Part of her order was damaged.|注文品の一部が破損していたから。|届いたカップのうち1個の取っ手にひびがあると伝えています。
+- Her order has not arrived.|注文品がまだ届いていないから。|カップは届いており、確認した破損についての電話です。
+- She was charged twice.|二重に請求されたから。|金額や請求は話題に上りません。
+- She received the wrong color.|違う色の商品が届いたから。|色は問題にしておらず、取っ手のひびが問題です。
+% crack=ひび|handle=取っ手|arrive=届く
+? 36|依頼内容|medium|t2|What does the man ask the woman to send with her order number?|男性は注文番号と一緒に何を送るよう女性に頼みますか。
++ A picture of the damaged mug.|破損したマグカップの写真。|男性は order number と a photo of the damage の両方をメールで求めています。
+- A copy of the shipping label.|配送ラベルの写し。|指定したのは注文番号と破損箇所の写真で、ラベルは条件にありません。
+- A receipt from the store.|店の領収書。|購入の確認に使うのは注文番号です。
+- A list of the other mugs.|ほかのマグカップの一覧。|セットの残りについて一覧の提出は求めていません。
+% order number=注文番号|damage=破損|replacement=交換品
+? 37|条件と期限|medium|t3,t4|What does the man say will probably happen if the email arrives by noon?|メールが正午までに届けば、おそらくどうなると男性は言っていますか。
++ A new mug will arrive by Friday.|新しいマグカップが金曜までに届く。|正午までのメールを条件に、交換品は金曜までに着くはずだと答えています。
+- The full set will be collected on Friday.|金曜にセット全体が回収される。|販売側はセットを手元に置くよう指示しています。
+- A shipping fee will be refunded.|配送料が返金される。|男性が申し出たのは商品の交換で、返金への言及はありません。
+- The order will be cancelled on Saturday.|土曜に注文が取り消される。|土曜は女性のパーティーの日で、注文を取り消す予定ではありません。
+% by noon=正午までに|reach you=あなたのもとに届く|refund=返金する
+@38|展示会の搬入〔3人〕
+: m|The crates for the glass exhibit are outside. The driver wants to unload them before the next truck comes in.|ガラス展示の木箱が外にあります。運転手は次のトラックが入る前に荷降ろししたいそうです。
+: g|Can we take them straight to Gallery Two? The display cases there are ready.|第2展示室へ直接運べますか。そこの展示ケースは準備できています。
+: b|The floor in that gallery was polished this morning. Let's give it another hour. We can keep the crates in the service hall for now.|その展示室の床は今朝磨いたばかりです。あと1時間待ちましょう。とりあえず木箱は業務用ホールに置けます。
+: m|I'll tell the driver where to put them. Should I unpack them there as well?|置き場所を運転手に伝えます。そこで箱を開ける作業もしますか。
+: b|Leave them sealed, please. The curator wants to check the contents herself.|封はしたままでお願いします。学芸員が自分で中身を確認したいそうです。
+? 38|状況把握|easy|t1,t2|Where are the speakers most likely working?|話し手たちはどのような場所で働いている可能性が最も高いですか。
++ At an exhibition venue.|展示施設。|glass exhibit、Gallery Two、display cases から展示施設での搬入と分かります。
+- At a furniture factory.|家具工場。|箱や床は登場しますが、家具の製造はしていません。
+- At a bus terminal.|バスターミナル。|車両は荷物を運ぶトラックで、乗客を運ぶバスではありません。
+- At a cleaning supply store.|清掃用品店。|床磨きは展示室の状態の説明で、清掃用品の販売ではありません。
+% crate=木箱・輸送用の箱|exhibit=展示|display case=展示ケース
+? 39|発言意図|medium|t2,t3|What does the man mean when he says, “Let's give it another hour”?|男性が「あと1時間待ちましょう」と言う意図は何ですか。
++ He wants to delay moving the crates into the gallery.|木箱を展示室に運び込むのを遅らせたい。|床を磨いた直後だと説明し、木箱を当面は別の場所に置く案を出しています。
+- He wants the driver to wait to unload the truck.|トラックの荷降ろしを待たせたい。|すぐ荷降ろしして業務用ホールに置くことは可能です。
+- He thinks polishing the floor will take one more hour.|床を磨き終わるまであと1時間かかると思っている。|床磨きは今朝済んでおり、その後に置く時間を指しています。
+- He expects the next truck to arrive in an hour.|次のトラックは1時間後に来ると思っている。|発言の直前は展示室の床の話で、次の車両の到着時刻は出ていません。
+% polish=磨く|give it another hour=あと1時間待つ|for now=とりあえず
+? 40|取扱指示|medium|t4,t5|What is the first speaker asked to do with the crates?|最初の話し手は木箱をどうするよう頼まれていますか。
++ Keep them closed.|開けずにおく。|開梱してよいか尋ねると、学芸員が中身を確認するため封を保つよう指示されます。
+- Count the items inside.|中の品物の数を数える。|中身を調べるのは学芸員で、最初の話し手は開封しません。
+- Put labels on them.|ラベルを貼る。|荷降ろし後の指示は封をしたままにすることで、ラベルは出てきません。
+- Move them into a display case.|展示ケースに移す。|ケースは準備済みですが、展示室への搬入自体を待っている段階です。
+% unpack=開梱する|sealed=封をした|curator=学芸員
+@41|宿泊客の送迎便
+# Shuttle departures|送迎便の出発時刻
+= Stop|停車場所; First pickup|最初の出発時刻; Zone|ゾーン
+= North Entrance|北口; 7:20|7時20分; A|A
+= Lakeside Gate|湖畔口; 7:35|7時35分; B|B
+= Market Corner|市場前の角; 7:45|7時45分; C|C
+= East Entrance|東口; 8:00|8時; D|D
+: f|I need to get to the ferry terminal before eight fifteen tomorrow. Does the hotel shuttle stop at Market Corner?|明日の8時15分前にフェリー乗り場に着く必要があります。ホテルの送迎便は市場前の角に止まりますか。
+: b|Usually, but the road by the market is closed tomorrow. Use Lakeside Gate instead. The ride from there takes twenty minutes.|普段は止まりますが、明日は市場のそばの道路が通行止めです。代わりに湖畔口をご利用ください。そこからは20分です。
+: f|Good. I'll take the first pickup. Do I pay the driver?|よかった。最初の便に乗ります。運転手に支払うのですか。
+: b|No, just show your room key card when you board.|いいえ、乗るときにお部屋のカードキーを見せるだけです。
+? 41|理由|easy|t1,t2|Why is the woman advised to use a different stop?|なぜ女性は別の停留所を使うよう勧められますか。
++ A road will be closed.|道路が通行止めになるから。|市場近くの道路が翌日通れないため、湖畔口を勧めています。
+- A ferry will leave early.|フェリーが早く出発するから。|8時15分前は女性の到着希望で、フェリーの出発変更ではありません。
+- A pickup zone has been renamed.|乗車ゾーンの名称が変わったから。|湖畔口は別の停車場所として案内されており、改名ではありません。
+- A vehicle is being replaced.|車両が入れ替えられるから。|変更は道路事情による停車場所の変更です。
+% stop=停留所、止まる|road closure=通行止め|instead=代わりに
+? 42|図表照合・時刻|medium|t2,t3,r2c1,r2c2|Look at the table. What time is the first pickup at the stop the woman will use?|表を見てください。女性が利用する停留所の最初の便は何時ですか。
++ At seven thirty-five.|7時35分。|案内された Lakeside Gate の最初の便を表で探すと7時35分です。
+- At seven twenty.|7時20分。|North Entrance の最初の便です。
+- At seven forty-five.|7時45分。|利用できない Market Corner の時刻です。
+- At eight.|8時。|East Entrance の時刻で、指定された停車場所とは異なります。
+% first pickup=最初の迎えの便|stop=停留所|hotel shuttle=ホテルの送迎便
+? 43|手続き|easy|t3,t4|What will the woman need to show?|女性は何を提示する必要がありますか。
++ A room key card.|部屋のカードキー。|乗車時にはカードキーを見せるだけだと答えています。
+- A ferry ticket.|フェリーの切符。|フェリー乗り場は行き先で、送迎便の乗車条件ではありません。
+- A payment receipt.|支払いの領収書。|運転手への支払いは不要だと述べています。
+- A printed timetable.|印刷した時刻表。|出発時刻を調べる表であり、提示する書類ではありません。
+% board=乗車する|show=提示する|key card=カードキー
+@44|広報原稿の校正
+: m|I've read your draft newsletter. The story about the evening courses looks good, but the photo on page two is from last year's cooking class.|ニュースレターの草稿を読みました。夜間講座の記事はいいですが、2ページ目の写真は昨年の料理教室のものです。
+: g|Oh, I thought we didn't have a current one. Did the instructor send anything on Monday?|ああ、今年の写真はないと思っていました。月曜に講師から何か送られてきましたか。
+: m|Yes, there are three pictures in the shared folder. Use the one with the students around the long counter. It shows what this year's class actually looks like.|はい。共有フォルダーに写真が3枚あります。長い作業台の周りに受講生がいるものを使ってください。今年の教室の実際の様子が伝わります。
+: g|Got it. I'll swap the photo now. The print shop needs the final file by four.|了解です。今すぐ写真を差し替えます。印刷所への最終データの締切は4時です。
+? 44|指摘内容|easy|t1|What problem does the man point out?|男性はどのような問題を指摘しますか。
++ A photograph is from a previous year.|写真が以前の年のものだ。|2ページ目の写真が昨年の教室のものだと述べています。
+- A teacher's name is misspelled.|講師名のつづりが間違っている。|講師は写真の提供者として登場し、名前の表記は指摘されていません。
+- A story was left out.|記事が抜けている。|夜間講座の記事は原稿にあり、内容にも肯定的です。
+- A deadline was overlooked.|締切が見落とされている。|4時締切を女性は把握しており、指摘の対象は写真です。
+% draft=草稿|newsletter=会報|point out=指摘する
+? 45|素材の特定|medium|t3|Which photo should the woman use?|女性はどの写真を使うべきですか。
++ The one showing students together at a counter.|受講生たちが作業台を囲んでいるもの。|長い作業台の周りに受講生が写っている1枚を指定しています。
+- The one showing the instructor alone.|講師1人が写っているもの。|講師は写真を送った人で、被写体として指定されたのは受講生です。
+- The one showing the entrance to the school.|学校の入口が写っているもの。|今年の教室の様子が分かる、受講生と作業台の写真を使います。
+- The one showing last year's group.|昨年のグループが写っているもの。|去年の写真は、現在差し替えようとしているほうです。
+% the one with=～が写っているもの|counter=作業台|shared folder=共有フォルダー
+? 46|次の行動|easy|t4|What will the woman do immediately?|女性はすぐに何をしますか。
++ Replace an image.|画像を差し替える。|今すぐ写真を入れ替えると明言しています。
+- Write an article.|記事を書く。|記事はすでに草稿にあります。
+- Call the instructor.|講師に電話する。|写真が共有されているので、講師への連絡は予定されていません。
+- Visit the print shop.|印刷所に行く。|4時までに最終データが必要という話で、まず行うのは写真の差し替えです。
+% swap=差し替える、取り替える|print shop=印刷所|final file=最終版のファイル
+@47|見本品の貸し出し〔3人〕
+: b|Our buyer from Thornmere Office will be here at one. Is the adjustable desk ready for her to try?|ソーンミア・オフィスの仕入れ担当者が1時に来ます。高さ調節式デスクを試せるようにしてありますか。
+: f|The motor in our sample has stopped working. I called the branch on Fenwick Lane, and they have an identical desk in their showroom.|見本品のモーターが動かなくなりました。フェンウィック通りの支店に電話したところ、展示室に同じ机があるそうです。
+: m|I can collect it. My delivery van is empty until noon, but I'll need help lifting the desk at this end.|私が引き取りに行けます。配達車は正午まで空いていますが、こちらで机を降ろすときに手伝いが必要です。
+: b|I'll meet you at the loading bay when you get back. Call me when you're ten minutes away.|戻ってきたら搬入口で合流します。到着の10分前に電話してください。
+? 47|問題|easy|t2|What problem does the woman mention?|女性はどのような問題を挙げますか。
++ A demonstration desk is not working.|試用に使うデスクが動かない。|こちらの見本のモーターが止まったため、同型品の所在を確認しています。
+- The buyer has changed the meeting time.|仕入れ担当者が面会時刻を変更した。|来訪時刻は1時と示され、変更はありません。
+- A showroom has been closed.|展示室が閉鎖された。|支店の展示室に同型の机があると述べています。
+- The delivery van is full.|配達車が満杯だ。|車は正午まで空いていると別の話者が言っています。
+% adjustable=調節可能な|sample=見本品|stop working=動かなくなる
+? 48|役割|medium|t2,t3|What does the second man offer to do?|2人目の男性は何を申し出ますか。
++ Pick up a desk from another location.|別の拠点からデスクを引き取る。|女性が他支店の机を紹介し、男性は空いている車で取りに行くと申し出ます。
+- Demonstrate the desk to the buyer.|仕入れ担当者にデスクを実演する。|担当者が来る前に机を運ぶ申し出で、実演担当とは述べていません。
+- Repair a motor at the loading bay.|搬入口でモーターを修理する。|出ている解決策は同じ机を取りに行くことで、モーター修理ではありません。
+- Lend his van to the buyer.|仕入れ担当者に車を貸す。|自分が引き取りに使う車で、相手への貸出ではありません。
+% collect=引き取りに行く|identical=同じ型の、同一の|showroom=展示室
+? 49|依頼・時点|medium|t4|When should the second man call the first man?|2人目の男性はいつ最初の男性に電話するべきですか。
++ Shortly before returning to the loading bay.|搬入口に戻る少し前。|戻ったときに待ち合わせるため、到着10分前に電話するよう指示しています。
+- As soon as the buyer arrives.|仕入れ担当者が着いた直後。|仕入れ担当者は1時に着く予定で、電話の基準は車の戻る時刻です。
+- After unloading the desk.|机を降ろしてから。|荷降ろしを手伝えるよう、着くより前に連絡する必要があります。
+- While leaving the other showroom.|別の展示室を出発するとき。|他支店の出発時ではなく、こちらに着く10分前です。
+% loading bay=搬入口|ten minutes away=到着まであと10分|when you get back=戻ったら
+@50|封筒の発注
+: g|Our invitation envelopes haven't arrived, and the printer needs them by tomorrow evening. Can you check what's happening?|招待状用の封筒が届きません。印刷業者への引き渡しは明日の夕方までです。状況を確認してもらえますか。
+: m|I've just spoken to the supplier. They shipped the white envelopes, but the cream ones we need are still at their warehouse.|ちょうど仕入先に確認しました。白い封筒は発送済みですが、必要なクリーム色はまだ向こうの倉庫にあります。
+: g|White won't match the invitation cards. Could we send someone to pick up the cream ones?|白では招待カードと色が合いません。誰かをクリーム色の封筒の引き取りに出せますか。
+: m|Our drivers are all out tomorrow. I'll ask the supplier to send them by express delivery today and confirm the cost before we agree.|明日は当社の運転手が全員出払っています。仕入先に今日中の速達発送を依頼し、合意する前に費用を確認します。
+? 50|状況の特定|medium|t1,t2|What has already been shipped?|すでに発送されたのは何ですか。
++ White envelopes.|白い封筒。|白い封筒は発送済みと仕入先が答えています。
+- Cream envelopes.|クリーム色の封筒。|必要なクリーム色はまだ倉庫にあります。
+- Invitation cards.|招待カード。|カードは封筒との色合わせの対象で、発送状況は述べられていません。
+- Printing samples.|印刷見本。|印刷はこれから封筒を引き渡す先の話です。
+% ship=発送する|supplier=仕入先|cream=クリーム色の
+? 51|却下の理由|medium|t3|Why does the woman reject the white envelopes?|女性はなぜ白い封筒を使わないのですか。
++ Their color does not go with the cards.|カードと色が合わないから。|White won't match the invitation cards と述べています。
+- Their size is too small.|サイズが小さすぎるから。|寸法の問題は挙がっておらず、match の対象は色です。
+- Their price is too high.|価格が高すぎるから。|後で確認する費用はクリーム色の速達便の費用です。
+- They will not arrive in time.|時間内に届かないから。|白の到着時期を理由にしておらず、届いても色が合いません。
+% match=色や柄が合う|go with=～と調和する|invitation card=招待カード
+? 52|次の行動|medium|t3,t4|What will the man do next?|男性は次に何をしますか。
++ Ask about faster shipping and its cost.|速い発送方法と費用を確認する。|自社では引き取れないため、仕入先に速達を依頼して合意前に費用を確認します。
+- Have a company driver collect the order.|自社の運転手に注文品を引き取らせる。|運転手が全員出払うので、その案は採用できません。
+- Order cards in a different color.|違う色のカードを注文する。|変えるのは封筒の配送方法で、カードの再発注は行いません。
+- Ask the printer to hold the job until next week.|来週まで印刷を待つよう業者に頼む。|翌日夕方に間に合わせるための速達案を検討しています。
+% express delivery=速達配送|confirm the cost=費用を確認する|be out=外出している

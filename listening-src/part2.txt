@@ -1,0 +1,125 @@
+@7|備品|時刻|easy|When will the new name badges arrive?|新しい名札はいつ届きますか。
++ By Thursday afternoon.|木曜の午後までにです。|到着の期限を曜日と時間帯で答えています。
+- At the reception desk.|受付カウンターでです。|受け取る場所は分かりますが、到着時刻が分かりません。
+- One for each employee.|従業員1人につき1つです。|配布する数の説明で、到着時期への応答ではありません。
+% name badge=名札|arrive=届く|by=～までに
+@8|発送|依頼・間接応答|medium|Could you print another shipping label for this box?|この箱用に配送ラベルをもう1枚印刷してもらえますか。
++ I'll use the printer downstairs. This one's out of paper.|階下のプリンターを使います。こちらは用紙が切れています。|別のプリンターでラベルを印刷すると答え、依頼を引き受けています。
+- It was delivered before lunch.|昼休み前に配達されました。|配達済みの時刻を述べており、新しいラベルの印刷には応じていません。
+- I chose the smallest box.|一番小さい箱を選びました。|箱の選択は、配送ラベルを印刷するという依頼と別の作業です。
+% print=印刷する|shipping label=配送ラベル|downstairs=階下に
+@9|施設|場所|easy|Where should I leave the folding chairs?|折りたたみ椅子はどこに置けばいいですか。
++ In the storage room by the lift.|エレベーター脇の倉庫です。|倉庫を指定し、エレベーターを目印にしています。
+- There are twelve altogether.|全部で12脚です。|総数を答えていて、椅子を置く場所は指定していません。
+- Right after the workshop.|研修の直後です。|時刻を説明していて、聞かれたのは置き場所です。
+% folding chair=折りたたみ椅子|storage room=倉庫|lift=エレベーター（英）
+@10|経理|理由|easy|Why was the travel claim returned?|なぜ出張費の精算申請が差し戻されたのですか。
++ The hotel receipt was missing.|ホテルの領収書が付いていませんでした。|不足書類を挙げて差し戻しの理由を説明しています。
+- I took the morning train.|朝の列車に乗りました。|移動手段は示しますが、申請書を返された理由にはなっていません。
+- You can book a room online.|部屋はオンラインで予約できます。|宿泊先の予約方法で、提出した精算申請が戻された理由ではありません。
+% travel claim=出張費の精算申請|receipt=領収書|missing=不足している
+@11|催事|提案|medium|Shall we reserve a larger room for Friday's briefing?|金曜日の説明会にはもっと広い部屋を予約しましょうか。
++ Let's check how many people have signed up first.|先に申し込んだ人数を調べましょう。|広い部屋が必要か判断するための手順を提案しています。
+- I briefed the design team yesterday.|昨日、設計チームに説明しました。|昨日の説明の報告で、金曜日の会場を検討していません。
+- The door closes by itself.|そのドアは自動で閉まります。|設備の特徴で、より広い会場の予約には答えていません。
+% reserve=予約する|briefing=説明会|sign up=申し込む
+@12|勤務|担当・間接応答|medium|Who can cover the front desk after two?|2時以降に受付を代われる人は誰ですか。
++ Mira's afternoon appointment was cancelled.|ミラの午後の予定は取り消しになりました。|午後の予定がなくなったミラを候補として挙げています。
+- The sign is over the desk.|看板はカウンターの上にあります。|受付周辺の位置情報で、交代できる人を示していません。
+- It closes at six on weekdays.|平日は6時に閉まります。|営業終了時刻で、2時から座る担当者の情報はありません。
+% cover the front desk=受付の担当を代わる|appointment=約束、予定|cancel=取り消す
+@13|食品店|数量|easy|How many sample jars should I put on the table?|試供品の瓶をいくつテーブルに出せばよいですか。
++ Six jars will be plenty.|瓶は6個あれば十分です。|出すべき瓶の数を答え、6個あれば十分だと伝えています。
+- The table is beside the entrance.|テーブルは入口の横にあります。|台の場所で、瓶の数は分かりません。
+- They're made of glass.|ガラス製です。|瓶の材質について述べています。
+% sample jar=試供品の瓶|be plenty=十分に足りる|be made of=～で作られている
+@14|顧客対応|申し出|easy|Would you like me to call you when the repair is finished?|修理が済んだらお電話しましょうか。
++ Yes, please use my mobile number.|はい、携帯電話の番号にお願いします。|連絡を受けることを承諾し、かける番号を指定しています。
+- I keep it in a padded case.|クッション付きのケースに入れています。|保管方法の説明で、修理後の電話については答えていません。
+- The repair bench is in the back.|修理台は奥にあります。|作業場所であり、電話が必要かどうかとは別です。
+% repair=修理|mobile number=携帯電話番号|padded=クッション材が入った
+@15|清掃|付加疑問|medium|You locked the supply cupboard, didn't you?|備品棚には鍵を掛けましたよね。
++ I asked the cleaner to do it on her way out.|清掃担当者に帰りがけに掛けてくれるよう頼みました。|自分の代わりに誰に頼んだかを伝え、施錠の確認に応じています。
+- The shelves were delivered in June.|棚板は6月に届きました。|棚板の配送時期は施錠の有無につながりません。
+- I need another roll of tape.|テープがもう1巻必要です。|備品の追加要望で、鍵を掛けたかには触れていません。
+% lock=鍵を掛ける|supply cupboard=備品棚|on one's way out=退出の途中で
+@16|搬入口|二者択一|easy|Should we use the main entrance or the loading door?|正面玄関と搬入口のどちらを使うべきですか。
++ The loading door is wider.|搬入口のほうが広いです。|2つの入口を幅で比較し、搬入口を選ぶ理由を示しています。
+- Only on business days.|営業日だけです。|曜日の条件で、どちらの入口を使うかは特定していません。
+- I unloaded it this morning.|今朝、それを荷降ろししました。|荷降ろしの実施報告で、これから通る入口には答えていません。
+% loading door=搬入口|main entrance=正面玄関|unload=荷を降ろす
+@17|端末|困り事への応答|medium|My tablet won't connect to the guest network.|タブレットが来客用ネットワークにつながりません。
++ Have you accepted the terms on the sign-in page?|ログイン画面で利用規約に同意しましたか。|接続に必要な操作を済ませたか確認しています。
+- It's in the top drawer.|一番上の引き出しに入っています。|タブレットの所在の説明で、接続の相談には応じていません。
+- I bought one last spring.|去年の春に1台買いました。|購入時期の話で、接続ができない原因を探っていません。
+% connect to=～に接続する|guest network=来客用ネットワーク|accept the terms=利用規約に同意する
+@18|印刷物|進捗|medium|Is the revised price list ready to post?|改訂した価格表はもう掲示できますか。
++ I'm still waiting for the manager's approval.|まだ責任者の承認を待っています。|承認待ちという未完了の手続きがあり、まだ掲示できないと伝えています。
+- Next to the exit would be best.|出口の横が一番いいでしょう。|掲示場所への提案で、掲示できる状態かは述べていません。
+- There are twenty items on it.|20品目載っています。|価格表の項目数は分かりますが、掲示の可否は分かりません。
+% revised=改訂された|post=掲示する|approval=承認
+@19|会議|時間の長さ|easy|How long is the break between sessions?|セッションの間の休憩は何分ですか。
++ About fifteen minutes.|約15分です。|休憩の長さを分で答えています。
+- In the smaller meeting room.|小さいほうの会議室です。|会議室の場所を答えており、休憩時間の長さではありません。
+- I usually take the stairs.|普段は階段を使います。|移動手段について述べており、休憩の説明にはなりません。
+% how long=どのくらいの長さ|break=休憩|session=会議・研修などの一区切り
+@20|保守|予定・間接応答|hard|Has the technician checked the heater in the staff room yet?|技術者は職員室の暖房をもう点検しましたか。
++ The technician isn't due until tomorrow.|技術者が来る予定は明日です。|点検を担当する技術者がまだ来ていないことを示して、点検状況を間接的に伝えています。
+- Everyone had lunch in the staff room.|全員が職員室で昼食を取りました。|部屋の利用実績で、暖房を点検したという話ではありません。
+- I turned the lights off at five.|5時に照明を消しました。|暖房の点検ではなく、照明を消した時刻です。
+% check=点検する|heater=暖房器具|be due=到着・実施が予定されている
+@21|研修|受領報告への応答|medium|I received two copies of the same training manual.|同じ研修マニュアルが2冊届きました。
++ You can give the extra one to the new trainee.|余ったほうは新人研修生に渡してかまいません。|重複して届いた1冊の使い道を伝えています。
+- The trainer arrived before me.|講師は私より先に到着しました。|研修に関係する人物の到着時刻で、余った冊子には関係しません。
+- The manual is forty pages long.|そのマニュアルは40ページです。|1冊の長さを説明していて、2冊届いたことには応じていません。
+% copy=冊・部|manual=マニュアル|extra=余分な|trainee=研修生
+@22|出張|手段|easy|How are you getting from the station to the hotel?|駅からホテルまではどうやって行きますか。
++ I'm taking the hotel shuttle.|ホテルの送迎バスに乗ります。|駅からホテルまでの移動手段を答えています。
+- My room is on the sixth floor.|私の部屋は6階です。|ホテル内の部屋の位置で、駅からの行き方ではありません。
+- The timetable changed in April.|4月に時刻表が変わりました。|時刻表の変更時期で、話し手が使う交通手段は分かりません。
+% get from A to B=AからBへ行く|shuttle=送迎バス|timetable=時刻表
+@23|在庫|確認・条件|medium|Can I order this lamp in black?|このランプは黒色で注文できますか。
++ Black is out of stock, but more will arrive next week.|黒は在庫切れですが、来週入荷します。|希望色の現在の在庫状況と次回入荷を伝えています。
+- The bulb is included in the price.|電球は価格に含まれています。|付属品の説明で、色の選択や在庫を答えていません。
+- The display model is near the window.|展示品は窓のそばにあります。|展示場所の案内で、黒色を注文できるかは分かりません。
+% out of stock=在庫切れで|bulb=電球|display model=展示品
+@24|広報|否定疑問|medium|Didn't we send the invitations yesterday?|招待状は昨日送りませんでしたか。
++ The list wasn't complete until this morning.|名簿が完成したのは今朝です。|送り先をそろえられたのが今朝なので、昨日は送れなかったと読み取れます。
+- I was invited by the director.|部長に招待されました。|誰が自分を招待したかという話で、こちらからの発送時期を示しません。
+- There are chairs for fifty guests.|来客50人分の椅子があります。|会場の収容数の話で、招待状の発送状況とは別です。
+% invitation=招待状|complete=完成した|not until=～になって初めて
+@25|事務|依頼|easy|Please keep a copy of the signed form.|署名済み用紙の控えを保管してください。
++ I'll file it with the other agreements.|ほかの契約書と一緒にファイルに入れておきます。|控えの保管方法を述べて依頼を受けています。
+- I can sign my name right here.|ここに署名できます。|求められているのは署名済み書類を保管することです。
+- The copier is next to the stairs.|複写機は階段の横にあります。|複写機の位置で、控えを保管する行動には応じていません。
+% keep a copy=控えを保管する|signed form=署名済みの用紙|file=ファイルに保管する
+@26|施設|所有・間接応答|hard|Whose bicycle is blocking the side gate?|通用門をふさいでいる自転車は誰のものですか。
++ I saw the courier park it there a minute ago.|配達員がついさっきそこに止めるのを見ました。|今ある自転車を止めた人物を挙げ、誰のものか判断する手がかりを伝えています。
+- The gate was painted last month.|門は先月塗装されました。|門の工事時期で、自転車の所有者とは結び付きません。
+- The cycle path ends at the bridge.|自転車道は橋のところで終わります。|道の案内で、門の前に止めた人の情報はありません。
+% whose=誰の|block=ふさぐ|courier=配達員|see someone do=人が～するのを見る
+@27|撮影|時刻の提案|medium|Let's take the group photo before lunch.|昼食の前に集合写真を撮りましょう。
++ Can we wait until the field team gets back?|現場チームが戻るまで待てますか。|集合写真に現場チームも入れるよう、時刻の調整を求めています。
+- I brought my own lunch today.|今日は自分で昼食を持ってきました。|食事の準備に触れていますが、写真を撮る時間には応じていません。
+- The frame is made of wood.|額縁は木製です。|写真を収める額の材質で、撮影の提案とは別です。
+% group photo=集合写真|field team=現場チーム|get back=戻る
+@28|催事|数値・訂正|medium|Did we sell all eighty tickets?|80枚のチケットは全部売れましたか。
++ There are still four left.|まだ4枚残っています。|残数を伝え、全て売れたかという質問に否定で答えています。
+- The concert starts at eight.|演奏会は8時に始まります。|開始時刻の eight と枚数の eighty は別です。販売状況も分かりません。
+- I printed the tickets on blue paper.|青い紙にチケットを印刷しました。|チケットの仕様で、何枚売れたかを述べていません。
+% sell=売る|eighty=80|be left=残っている
+@29|宿泊|許可|easy|May I leave my suitcase here until check-in?|チェックインまでここにスーツケースを預けてもよいですか。
++ Certainly. I'll give you a luggage tag.|もちろんです。荷物札をお渡しします。|荷物を預かる許可を出し、識別用の札を渡すと申し出ています。
+- The suitcase is quite light.|そのスーツケースはかなり軽いです。|重さの感想で、預けてよいかには答えていません。
+- I checked in on my phone.|携帯電話でチェックインしました。|話し手自身のチェックイン方法で、相手の荷物への許可ではありません。
+% may I=～してよいですか|check-in=チェックイン|luggage tag=荷物札
+@30|物品貸出|人物・言い換え|hard|Do you know who borrowed the spare projector?|予備のプロジェクターを誰が借りたか分かりますか。
++ The checkout sheet should tell us.|貸出台帳を見れば分かるはずです。|借りた人を確認できる記録を案内しています。
+- The bulb is a newer model.|電球は新しい型です。|プロジェクターの部品の話で、借りた人を確認できません。
+- The spare key is in the drawer.|予備の鍵は引き出しにあります。|spare は共通していますが、説明しているのは鍵の場所で、プロジェクターを借りた人ではありません。
+% spare=予備の|borrow=借りる|checkout sheet=貸出台帳
+@31|勤務|予定変更|medium|I can stay late tonight, but I can't come in early tomorrow.|今夜は残れますが、明日は早く出勤できません。
++ I'll move your opening shift to Friday.|あなたの開店担当を金曜日に移します。|早出できないという制約に合わせ、開店勤務を別の日に変更します。
+- The shop has been open for a year.|その店は開店して1年です。|店の営業年数で、明日の早出の調整には応じていません。
+- Today's delivery arrived early.|今日の配達は早く着きました。|今日の配達時刻で、明日の勤務時間とは別です。
+% stay late=遅くまで残る|come in=出勤する|opening shift=開店を担当する勤務

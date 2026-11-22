@@ -1,0 +1,36 @@
+@1|温室|写真描写・動作|easy|女性がじょうろで鉢植えに水をやっている。|A woman in a pale blue work apron stands next to a waist-high table and waters a potted plant with one clearly visible green watering can. A short stream of water leaves its spout and reaches the soil. A greenhouse with a few small potted plants on benches is visible behind her. She is not holding pruning shears. No flowers being cut, no hose, no plants hanging overhead.
++ A woman is watering a potted plant.|女性が鉢植えに水をやっている。|じょうろが鉢に向けられ、注ぎ口から水が出ています。
+- A woman is cutting some flowers.|女性が花を切っている。|女性の手にあるのはじょうろで、花をはさみで切る動作は見られません。
+- Some plants are hanging from the ceiling.|何本かの植物が天井からつり下がっている。|画面内の鉢は台などに置かれており、上からつられていません。
+- A woman is rolling up a hose.|女性がホースを巻き取っている。|使っているのは持ち運び式のじょうろで、ホースを巻く動作はありません。
+% water a plant=植物に水をやる|potted plant=鉢植え|roll up=巻き取る
+@2|会議室|写真描写・配置|easy|長いテーブルの両側に椅子が並んでいる。|An empty small conference room. Several identical office chairs are positioned along both sides of a long rectangular table. The table is bare with no papers or bottles. Chairs are on the floor, not stacked. A completely blank whiteboard is mounted on a wall. No people present, no window open.
++ Chairs are arranged along both sides of a table.|テーブルの両側に椅子が並べられている。|長いテーブルの手前側と奥側にそれぞれ椅子が見えます。
+- Some chairs are stacked against a wall.|椅子が何脚か壁際に積み重ねられている。|それぞれの椅子の脚やキャスターは床に接していて、椅子同士を重ねていません。
+- Papers are spread across a table.|書類がテーブル一面に広げられている。|天板に書類が置かれていません。
+- A person is writing on a board.|人がボードに書いている。|ボードはありますが、室内にそこで書いている人はいません。
+% arrange=並べる|both sides=両側|stack=積み重ねる|spread across=～一面に広げる
+@3|倉庫|写真描写・動作|easy|作業員が段ボール箱を載せた台車を押している。|A warehouse employee is pushing a low four-wheeled platform cart that carries two plain cardboard boxes. Both hands grip the cart handle and the employee leans lightly forward walking. A clear side view shows cart and shoes on the aisle floor. No forklift, no boxes held in arms, no open boxes, no loading a shelf.
++ A worker is pushing a cart loaded with boxes.|作業員が箱を載せた台車を押している。|作業員は取っ手を握り、荷台には箱が載っています。
+- A worker is holding a box in both arms.|作業員が両腕で箱を抱えている。|両手は台車の取っ手にあり、箱は荷台で支えられています。
+- A worker is placing a box on a shelf.|作業員が棚に箱を置いている。|棚に向けて箱を持ち上げる様子はなく、箱は台車上にあります。
+- A worker is opening a cardboard box.|作業員が段ボール箱を開けている。|作業員の手は箱のふたに触れていません。
+% cart=台車|loaded with=～を載せた|cardboard box=段ボール箱
+@4|駐輪場|写真描写・位置|medium|れんがの壁の前に自転車が並んでいる。|Two bicycles stand side by side in front of a brick wall, locked to a simple freestanding steel U-shaped bike rack. Both bicycles and the rack are clearly visible. Both wheels are on the pavement. No people, no stairs, no bikes lying flat or hanging, no vehicle or traffic.
++ Some bicycles are parked in front of a brick wall.|自転車が何台かれんがの壁の前に止めてある。|自転車は直立しており、そのすぐ後ろにれんがの壁があります。
+- Some bicycles are lying flat on the ground.|自転車が何台か地面に横たわっている。|車輪は地面にありますが、車体は横倒しになっていません。
+- Some bicycles are being carried up steps.|自転車が何台か階段を上へ運ばれている。|自転車は平らな地面にあり、持ち上げている人も階段もありません。
+- Some bicycles are hanging above a doorway.|自転車が何台か出入口の上につるされている。|車輪は舗装面に接しており、出入口の上にはありません。
+% brick wall=れんがの壁|lie flat=平らに横たわる|doorway=出入口
+@5|受付|写真描写・人物間の動作|medium|カウンターの向こうの係員が来訪者と紙を受け渡している。|At a quiet community center counter, one clerk stands behind the counter handing a single sheet of paper to a visitor on the near side. Both people visibly grasp opposite edges of the same white sheet. Eye-level side view with their upper bodies, arms and hands clearly visible. No computer, no telephone, no boxes, no open drawers.
++ A sheet of paper is being passed across a counter.|紙が1枚、カウンター越しに受け渡されている。|カウンターを挟んだ2人が同じ紙の別々の端を持っています。
+- Two people are looking at a computer screen.|2人がコンピューターの画面を見ている。|2人の間にあるのは紙で、見ているコンピューター画面はありません。
+- A person is taking a box from a drawer.|人が引き出しから箱を取り出している。|手はカウンター上の紙に伸びていて、引き出しから箱を出す動作はありません。
+- A person is lifting a telephone receiver.|人が電話の受話器を持ち上げている。|手が触れているのは紙で、受話器を持ち上げていません。
+% pass across=～越しに渡す|sheet of paper=紙1枚|drawer=引き出し|receiver=受話器
+@6|テラス席|写真描写・状態|medium|テーブルのそばに閉じたパラソルが立っている。|Outdoor cafe terrace early morning, several large closed patio umbrellas stand upright in weighted bases next to separate empty tables. The tightly folded umbrella fabric surrounds vertical poles, all umbrellas are closed. Chairs are next to tables on the ground, no table coverings, no customers, no menu boards.
++ Some closed umbrellas are standing beside tables.|閉じたパラソルがいくつかテーブルの横に立っている。|傘の布が支柱の周りに閉じられていて、そのそばにテーブルがあります。
+- Some umbrellas have been opened over the tables.|いくつかのパラソルがテーブルの上に開いてある。|布が支柱に沿って垂れており、テーブルの上に広がっていません。
+- Some chairs have been set on top of the tables.|椅子が何脚かテーブルの上に載せられている。|椅子はテーブルの横の床に置かれています。
+- Some tables have been covered with cloths.|いくつかのテーブルにクロスが掛けられている。|天板は見えており、布はパラソルの支柱に付いています。
+% beside=～の横に|on top of=～の上に|cover with=～で覆う
