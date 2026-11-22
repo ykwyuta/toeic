@@ -12,14 +12,22 @@ from pathlib import Path
 
 SOURCE = Path(__file__).resolve().parent
 ROOT = SOURCE.parent
-RELEASE = ROOT / "dist/listening/r1"
-PART_FILES = (
-    ("part1.txt",),
-    ("part2.txt",),
-    ("part3-a.txt", "part3-b.txt"),
-    ("part4-a.txt", "part4-b.txt"),
-)
-PART_COUNTS = (6, 25, 39, 30)
+PART_COUNTS = {1: 6, 2: 25, 3: 39, 4: 30}
+SET_COUNTS = {1: 6, 2: 25, 3: 13, 4: 10}
+EXAMS = {
+    "l01": {
+        "examId": "listening-01", "prefix": "l01", "seed": 4487, "source": SOURCE,
+        "release": ROOT / "dist/listening/r1",
+        "parts": {1: ("part1.txt",), 2: ("part2.txt",),
+                  3: ("part3-a.txt", "part3-b.txt"), 4: ("part4-a.txt", "part4-b.txt")},
+    },
+    # The second exam has no photographs, so it starts at question 7 with Part 2.
+    "l02": {
+        "examId": "listening-02", "prefix": "l02", "seed": 9127, "source": SOURCE / "l02",
+        "release": ROOT / "dist/listening/l02/r1",
+        "parts": {2: ("part2.txt",), 3: ("part3-a.txt", "part3-b.txt"), 4: ("part4-a.txt", "part4-b.txt")},
+    },
+}
 VOICES = {
     "f": ("af_heart", "en-US"),
     "m": ("am_michael", "en-US"),
@@ -57,12 +65,12 @@ def speech(speaker, identifier, text, translation, pause, role):
     }
 
 
-def compile_exam():
-    exam = {"examId": "listening-01", "revision": 1, "parts": []}
-    for part, files in enumerate(PART_FILES, 1):
-        rng = random.Random(4487 + part)
+def compile_exam(config):
+    exam = {"examId": config["examId"], "revision": 1, "parts": []}
+    for part, files in config["parts"].items():
+        rng = random.Random(config["seed"] + part)
         n_choices = 3 if part == 2 else 4
-        positions = [i % n_choices for i in range(PART_COUNTS[part - 1])]
+        positions = [i % n_choices for i in range(PART_COUNTS[part])]
         while True:
             rng.shuffle(positions)
             if all(len(set(positions[i:i + 4])) > 1 for i in range(len(positions) - 3)):
@@ -70,7 +78,7 @@ def compile_exam():
         sets = []
         items = []
         for filename in files:
-            for line in (SOURCE / filename).read_text(encoding="utf-8").splitlines():
+            for line in (config["source"] / filename).read_text(encoding="utf-8").splitlines():
                 if not line.strip():
                     continue
                 marker, payload = line[0], line[1:].strip()
@@ -129,7 +137,7 @@ def compile_exam():
                     answer = "ABCD"[position]
                     options = dict(zip("ABCD", placed))
                     item = {
-                        "id": f"l01-q{number:03}", "number": number, "stem": stem, "skill": skill,
+                        "id": f"{config['prefix']}-q{number:03}", "number": number, "stem": stem, "skill": skill,
                         "difficulty": level, "answerId": answer,
                         "choices": [{"id": k, "text": v[0]} for k, v in options.items()],
                         "evidence": [{"refIds": sources.split(","), "detailJa": correct[2]}],
@@ -152,9 +160,10 @@ def compile_exam():
 
 def validate(exam):
     numbers = []
-    for part, group in enumerate(exam["parts"], 1):
+    for group in exam["parts"]:
+        part = group["part"]
         sets = group["sets"]
-        assert len(sets) == (6, 25, 13, 10)[part - 1]
+        assert len(sets) == SET_COUNTS[part]
         choices = Counter()
         for entry in sets:
             refs = {turn["id"] for turn in entry["passages"]}
@@ -192,9 +201,9 @@ def validate(exam):
                 choices[item["answerId"]] += 1
             for turn in entry["passages"]:
                 assert turn["translationJa"] and turn["spokenText"]
-        assert sum(choices.values()) == PART_COUNTS[part - 1]
+        assert sum(choices.values()) == PART_COUNTS[part]
         assert max(choices.values()) - min(choices.values()) <= 1
-    assert numbers == list(range(1, 101))
+    assert numbers == list(range(numbers[0], 101)) and numbers[0] in (1, 7)
 
 
 def add_audio_scripts(exam):
@@ -293,14 +302,14 @@ def load_synthesizer(model_dir):
     return synthesize, provenance
 
 
-def render(exam, model_dir, masters, reuse_unchanged):
+def render(exam, release, model_dir, masters, reuse_unchanged):
     masters.mkdir(parents=True, exist_ok=True)
-    target = RELEASE / "audio"
+    target = release / "audio"
     target.mkdir(parents=True, exist_ok=True)
     synthesize, provenance = load_synthesizer(model_dir)
     previous = {}
     if reuse_unchanged:
-        published = json.loads((RELEASE / "exam.json").read_text(encoding="utf-8"))
+        published = json.loads((release / "exam.json").read_text(encoding="utf-8"))
         if published["media"]["production"] == provenance:
             previous = {entry["setId"]: entry["media"]["audio"]
                         for group in published["parts"] for entry in group["sets"]}
@@ -311,7 +320,7 @@ def render(exam, model_dir, masters, reuse_unchanged):
             for entry in group["sets"]:
                 name = entry["setId"]
                 wav = masters / f"{name}.wav"
-                release = target / f"{name}.mp3"
+                output = target / f"{name}.mp3"
                 audio = entry["media"]["audio"]
                 audio["startMs"] = round(1000 * played / RATE)
                 audio["scriptSha256"] = hashlib.sha256(
@@ -328,9 +337,9 @@ def render(exam, model_dir, masters, reuse_unchanged):
                     played += offset
                     audio["durationMs"] = round(1000 * played / RATE) - audio["startMs"]
                     audio["masterSha256"] = old_master
-                    if not release.is_file() or sha(release) != old["sha256"]:
-                        mp3(wav, release)
-                    audio["sha256"] = sha(release)
+                    if not output.is_file() or sha(output) != old["sha256"]:
+                        mp3(wav, output)
+                    audio["sha256"] = sha(output)
                     print(f"{name}: reused", flush=True)
                     continue
                 offset = 0
@@ -344,8 +353,8 @@ def render(exam, model_dir, masters, reuse_unchanged):
                 played += offset
                 audio["durationMs"] = round(1000 * played / RATE) - audio["startMs"]
                 audio["masterSha256"] = sha(wav)
-                mp3(wav, release)
-                audio["sha256"] = sha(release)
+                mp3(wav, output)
+                audio["sha256"] = sha(output)
                 print(f"{name}: {audio['durationMs'] / 1000:.1f} s", flush=True)
     mp3(masters / "exam.wav", target / "exam.mp3")
     exam["media"] = {
@@ -360,22 +369,28 @@ def render(exam, model_dir, masters, reuse_unchanged):
     for entry in (entry for group in exam["parts"] for entry in group["sets"]):
         photo = entry["media"].get("photo")
         if photo:
-            photo["sha256"] = sha(RELEASE / photo["src"])
+            photo["sha256"] = sha(release / photo["src"])
     validate(exam)
-    write_json(RELEASE / "exam.json", exam)
+    write_json(release / "exam.json", exam)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model-dir", type=Path)
-    parser.add_argument("--masters", type=Path, default=ROOT / ".listening-build")
+    parser.add_argument("--exam", choices=EXAMS, default="l01")
+    parser.add_argument("--masters", type=Path,
+                        help="WAV master directory (default: .listening-build, or .listening-build/<exam> after l01)")
     parser.add_argument("--reuse-unchanged", action="store_true")
     args = parser.parse_args()
-    exam = add_audio_scripts(compile_exam())
+    config = EXAMS[args.exam]
+    masters = args.masters or ROOT / ".listening-build" / ("" if args.exam == "l01" else args.exam)
+    exam = add_audio_scripts(compile_exam(config))
     if args.model_dir:
-        render(exam, args.model_dir, args.masters, args.reuse_unchanged)
+        render(exam, config["release"], args.model_dir, masters, args.reuse_unchanged)
     else:
-        print("Manuscript validated: 100 items, 54 sets.")
+        count = sum(len(entry["items"]) for group in exam["parts"] for entry in group["sets"])
+        sets = sum(len(group["sets"]) for group in exam["parts"])
+        print(f"{config['examId']} manuscript validated: {count} items, {sets} sets.")
 
 
 if __name__ == "__main__":

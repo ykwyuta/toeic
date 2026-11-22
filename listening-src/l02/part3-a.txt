@@ -1,0 +1,177 @@
+@32|退職祝いの昼食注文の変更
+: f|Hi, this is Dana Price from Corbett Engineering. I'm calling about the lunch we ordered for Friday's retirement party. We'd like to add vegetarian options for about ten guests.|もしもし、コーベット・エンジニアリングのダナ・プライスです。金曜日の退職祝いのために注文した昼食についてお電話しました。10人ほどの客のために、ベジタリアン向けの料理を追加したいんです。
+: b|Certainly. We can add our roasted vegetable wraps. But since the party is in two days, I'll need to confirm with our kitchen manager. She's out on a delivery right now.|かしこまりました。焼き野菜のラップサンドを追加できます。ただ、パーティーは2日後なので、厨房の責任者に確認する必要があります。彼女は今、配達に出ています。
+: f|That's fine. Also, could your staff arrive at eleven thirty instead of noon? Our speeches are starting earlier than we planned.|かまいません。それから、スタッフの方に正午ではなく11時半に来ていただけますか。スピーチが予定より早く始まるんです。
+: b|I'll make a note of that. I'll call you back this afternoon once I've spoken with the kitchen manager.|メモしておきます。厨房の責任者と話したら、今日の午後に折り返しお電話します。
+? 32|目的|easy|t1|Why is the woman calling?|女性はなぜ電話をしていますか。
++ To change a food order.|料理の注文を変更するため。|昼食の注文にベジタリアン向けの料理を追加したいと冒頭で述べています。
+- To book a room for a party.|パーティー用の部屋を予約するため。|パーティーの話ですが、依頼しているのは料理の追加で、会場の予約ではありません。
+- To complain about a late delivery.|配達の遅れについて苦情を言うため。|配達に出ているのは厨房の責任者で、遅れへの苦情はありません。
+- To apply for a job at a restaurant.|レストランの仕事に応募するため。|退職祝いの話は出ますが、仕事への応募ではありません。
+% retirement party=退職祝いの会|vegetarian option=ベジタリアン向けの料理|add=追加する
+? 33|相手の行動|easy|t2|What does the man say he needs to do?|男性は何をする必要があると言っていますか。
++ Check with a coworker.|同僚に確認する。|パーティーが2日後なので、厨房の責任者に確認する必要があると言っています。kitchen manager を coworker と言い換えています。
+- Prepare a new menu.|新しいメニューを作る。|既存の焼き野菜のラップサンドを追加できると言っており、新しいメニューを作るとは言っていません。
+- Visit the woman's office.|女性の会社を訪問する。|会社を訪ねるという発言はなく、電話で折り返すと言っています。
+- Send a revised bill.|修正した請求書を送る。|請求書の話は出てきません。
+% confirm with=～に確認する|kitchen manager=厨房の責任者|coworker=同僚
+? 34|依頼内容|medium|t3|What does the woman ask the staff to do?|女性はスタッフに何をするよう頼んでいますか。
++ Arrive earlier than scheduled.|予定より早く到着する。|正午ではなく11時半に来てほしいと頼んでいます。スピーチが早まったためです。
+- Bring extra chairs.|椅子を余分に持ってくる。|椅子についての依頼はありません。
+- Give a short speech.|短いスピーチをする。|スピーチは会社側の予定で、スタッフに頼んでいるのではありません。
+- Serve dessert first.|最初にデザートを出す。|料理の出し方の順番についての依頼はありません。
+% instead of=～の代わりに|earlier than planned=予定より早く|make a note of=～をメモする
+@35|歯科の予約変更
+: g|Westfield Dental Clinic. How can I help you?|ウエストフィールド歯科クリニックです。ご用件をどうぞ。
+: m|Hello. I have a cleaning appointment on Thursday at four, but I've just been asked to attend a training session that afternoon. Is there anything available on Friday?|もしもし。木曜日の4時に歯のクリーニングの予約があるのですが、その日の午後に研修に出るよう言われたばかりなんです。金曜日に空きはありますか。
+: g|Let me see. Doctor Hughes is fully booked on Friday, but Doctor Patel has an opening at nine in the morning.|お調べします。ヒューズ先生は金曜日は予約がいっぱいですが、パテル先生なら午前9時に空きがあります。
+: m|Nine works for me. I haven't seen Doctor Patel before, though. Do I need to fill out any forms?|9時で大丈夫です。でも、パテル先生に診てもらうのは初めてです。何か用紙に記入する必要がありますか。
+: g|No, your records are already in our system. Just please arrive ten minutes early so we can update your insurance details.|いいえ、記録はすでにシステムに入っています。保険の情報を更新したいので、10分早くお越しください。
+? 35|理由|easy|t2|Why does the man want to change his appointment?|男性はなぜ予約を変更したいのですか。
++ He has a work commitment.|仕事の予定が入った。|その日の午後に研修に出るよう言われたと説明しています。training session を work commitment と言い換えています。
+- He will be out of town.|町を離れる予定がある。|出張や旅行の話はなく、理由は研修です。
+- He is feeling unwell.|体調がよくない。|体調についての発言はありません。
+- His insurance has changed.|保険が変わった。|保険の情報更新は受付が求めていることで、予約変更の理由ではありません。
+% cleaning appointment=（歯の）クリーニングの予約|training session=研修|commitment=約束・予定
+? 36|詳細・人物|easy|t3,t4|Who will the man see on Friday?|男性は金曜日に誰に診てもらいますか。
++ Doctor Patel.|パテル先生。|ヒューズ先生は満員で、パテル先生の9時の枠に男性が Nine works for me と応じています。
+- Doctor Hughes.|ヒューズ先生。|金曜日は予約がいっぱいだと受付が説明しています。
+- Doctor Westfield.|ウエストフィールド先生。|Westfield はクリニックの名前で、医師の名前ではありません。
+- A new receptionist.|新しい受付係。|受付係に診てもらうことはありません。男性が初めて会うのはパテル先生です。
+% fully booked=予約がいっぱいの|opening=空き|work for=～にとって都合がよい
+? 37|依頼内容|medium|t4,t5|What is the man asked to do?|男性は何をするよう頼まれていますか。
++ Come to the clinic early.|早めにクリニックに来る。|保険の情報を更新するため、10分早く来るよう頼まれています。
+- Fill out some forms.|用紙に記入する。|男性が尋ねたのに対し、記録はシステムにあるので不要だと答えています。
+- Bring his medical records.|診療記録を持参する。|記録はすでにシステムに入っていると言われています。
+- Call back on Thursday.|木曜日に電話をかけ直す。|木曜日は元の予約の日で、電話をかけ直す話はありません。
+% fill out=記入する|records=記録|insurance details=保険の詳細情報
+@38|団体客の到着準備〔3人〕
+: f|A tour group of forty is arriving at two today, and they've asked to check in early. Nina, how many of the fifth-floor rooms are ready?|今日は40人の団体客が2時に到着し、早めのチェックインを希望しています。ニーナ、5階の部屋はいくつ準備できていますか。
+: g|About half of them. The others still need clean towels, and the laundry delivery hasn't come yet. I called the laundry company a few minutes ago. Their van broke down, but they're sending another one before noon.|半分ほどです。残りはまだ清潔なタオルが必要で、リネンの配達がまだ来ていません。数分前にリネン業者に電話しました。配送車が故障したそうですが、正午までに別の車をよこすそうです。
+: m|That's cutting it close.|それはぎりぎりですね。
+: f|True. Let's borrow towels from the spa for now and return them when the delivery arrives.|確かに。とりあえずスパからタオルを借りて、配達が来たら返しましょう。
+: m|I'll go down and ask the spa manager right away.|すぐに下に行って、スパの責任者に頼んできます。
+? 38|状況把握|easy|t1|What are the speakers preparing for?|話し手たちは何の準備をしていますか。
++ The arrival of a group of guests.|団体客の到着。|40人の団体客が2時に到着し、早めのチェックインを希望していると冒頭で述べています。
+- The opening of a new spa.|新しいスパの開業。|スパはタオルを借りる先として出てくるだけです。
+- An inspection by a laundry company.|リネン業者による点検。|リネン業者はタオルを配達する業者で、点検はしません。
+- A meeting with the hotel staff.|ホテル職員との会議。|職員の会議の準備ではなく、客室の準備をしています。
+% tour group=団体客・ツアー客|check in early=早めにチェックインする|laundry delivery=リネン（洗濯物）の配達
+? 39|発言意図|medium|t1,t2,t3|What does the man imply when he says, “That's cutting it close”?|男性が「それはぎりぎりですね」と言うとき、何を示唆していますか。
++ There may not be enough time to prepare the rooms.|部屋の準備に十分な時間がないかもしれない。|タオルが届くのは正午前で、客は2時に到着し早めのチェックインを望んでいます。届いてから準備するには時間の余裕がないという意味です。
+- The laundry company is too far away.|リネン業者が遠すぎる。|距離の話ではなく、配達時刻と到着時刻の間の時間の短さを言っています。
+- The towels need to be cut to a smaller size.|タオルを小さく切る必要がある。|cut という語を文字どおりに取ったひっかけです。
+- The group should arrive after noon.|団体客は正午以降に到着すべきだ。|到着時刻を変える提案はしておらず、続く会話もタオルを借りる対策です。
+% be cutting it close=時間の余裕がほとんどない|break down=故障する|before noon=正午までに
+? 40|次の行動|easy|t4,t5|What will the man most likely do next?|男性は次に何をすると考えられますか。
++ Speak with the spa manager.|スパの責任者と話す。|スパからタオルを借りる案を受け、すぐスパの責任者に頼みに行くと言っています。
+- Call the laundry company.|リネン業者に電話する。|リネン業者にはすでにニーナが電話しています。
+- Meet the tour group at the entrance.|入口で団体客を出迎える。|出迎えについての発言はありません。
+- Return some towels to the spa.|スパにタオルを返す。|タオルを返すのは配達が届いた後で、次の行動ではありません。
+% borrow=借りる|for now=とりあえず|right away=すぐに
+@41|運休した列車の代替便〔図表〕
+# Departures to Hartwell|ハートウェル行きの出発便
+= Train|列車; Departs|出発; Platform|番線
+= Express 204|急行204号; 10:15|10時15分; 3|3番線
+= Local 318|普通318号; 10:40|10時40分; 1|1番線
+= Express 206|急行206号; 11:05|11時05分; 4|4番線
+= Local 322|普通322号; 11:30|11時30分; 2|2番線
+: f|Excuse me. My ten fifteen express to Hartwell was canceled. I have a meeting there at one, so I need to get there as soon as possible.|すみません。10時15分のハートウェル行き急行が運休になりました。向こうで1時に会議があるので、できるだけ早く着きたいんです。
+: b|I'm sorry about that. The next local train leaves sooner, but it stops at every station and takes over two hours. The next express will get you there first.|申し訳ございません。次の普通列車の方が早く出発しますが、各駅に止まるので2時間以上かかります。次の急行が一番早く着きます。
+: f|Then I'll take that one. Do I need a new ticket?|それならそれに乗ります。新しい切符が必要ですか。
+: b|No, your ticket is valid on any train today. And because of the cancellation, you can pick up a voucher for a free coffee at the information desk.|いいえ、お持ちの切符は本日どの列車でも有効です。それから運休のおわびとして、案内所で無料のコーヒー券を受け取れます。
+? 41|問題点|easy|t1|What is the woman's problem?|女性の問題は何ですか。
++ Her train is not running.|乗る予定の列車が運行していない。|10時15分の急行が運休になったと述べています。was canceled を is not running と言い換えています。
+- She has missed her meeting.|会議に間に合わなかった。|会議は1時からで、まだ始まっていません。
+- She has lost her ticket.|切符をなくした。|切符は持っており、本日どの列車でも有効と言われています。
+- The station is closed.|駅が閉まっている。|駅員と話しており、駅は営業しています。
+% be canceled=運休になる・中止になる|as soon as possible=できるだけ早く|run=（列車が）運行する
+? 42|図表照合・番線|medium|t2,t3,r3c1,r3c3|Look at the table. Which platform will the woman most likely go to?|表を見てください。女性はどの番線に行くと考えられますか。
++ Platform 4.|4番線。|運休した急行の次の急行が一番早く着くと言われ、女性はそれに乗ると答えています。表で次の急行は11時05分の急行206号で、4番線です。
+- Platform 3.|3番線。|運休になった10時15分の急行204号の番線です。
+- Platform 1.|1番線。|次に出る普通列車の番線です。早く出ますが2時間以上かかるため、女性は選んでいません。
+- Platform 2.|2番線。|11時30分の普通列車の番線で、急行ではありません。
+% the next express=次の急行|local train=普通列車|platform=番線・ホーム
+? 43|詳細|easy|t4|What can the woman get at the information desk?|女性は案内所で何を受け取れますか。
++ A free drink.|無料の飲み物。|運休のおわびとして無料のコーヒー券を受け取れると言われています。coffee を drink と言い換えています。
+- A refund for her ticket.|切符の払い戻し。|切符は本日どの列車でも有効だと言われ、払い戻しの話は出ていません。
+- A new ticket.|新しい切符。|新しい切符は不要だと言われています。
+- A map of Hartwell.|ハートウェルの地図。|地図の話は出ていません。
+% valid=有効な|voucher=引換券・クーポン|information desk=案内所
+@44|会議室のマイクの不具合
+: m|Hi, I'm with the Lambert Associates group in the Maple Room. The microphone keeps cutting out, and our keynote speaker starts in fifteen minutes.|もしもし、メープルルームのランバート・アソシエイツの者です。マイクの音が何度も途切れるのですが、基調講演者があと15分で始めるんです。
+: g|I'm so sorry. Our technician is on another floor, but I'll radio him right away. In the meantime, there's a spare wireless microphone at the front desk.|大変申し訳ございません。技術担当者は別の階にいますが、すぐ無線で呼びます。その間に、フロントに予備のワイヤレスマイクがございます。
+: m|Thanks. Could someone bring it to the room? I don't want to leave the attendees.|ありがとうございます。誰かに部屋まで持ってきてもらえますか。参加者のそばを離れたくないので。
+: g|Of course. I'll bring it myself. And I'll make sure the technician checks the speakers during your coffee break.|もちろんです。私がお持ちします。それから、コーヒー休憩の間に技術担当者がスピーカーを点検するよう手配します。
+? 44|場所|easy|t1,t2|Where most likely are the speakers?|話し手たちはどこにいると考えられますか。
++ At a hotel.|ホテル。|会議室名、フロント（front desk）、技術担当者の手配から、会議室を貸すホテルだと考えられます。
+- At a radio station.|ラジオ局。|radio は「無線で連絡する」という動詞として使われています。
+- At an electronics shop.|電器店。|マイクやスピーカーは出てきますが、売り物ではなく会議室の設備です。
+- At a recording studio.|録音スタジオ。|録音の話ではなく、講演の準備をしています。
+% keep cutting out=何度も（音が）途切れる|keynote speaker=基調講演者|radio=（動詞）無線で連絡する
+? 45|理由|medium|t1|Why is the man in a hurry?|男性はなぜ急いでいるのですか。
++ A speaker will begin shortly.|講演者がまもなく話し始める。|基調講演者があと15分で始めると言っています。in fifteen minutes を shortly と言い換えています。
+- He has a flight to catch.|乗る飛行機がある。|飛行機の話は出ていません。
+- The coffee break is ending.|コーヒー休憩が終わろうとしている。|コーヒー休憩はスピーカー点検を行う予定の時間で、今終わるところではありません。
+- He must check out by noon.|正午までにチェックアウトしなければならない。|チェックアウトの話は出ていません。
+% shortly=まもなく|in fifteen minutes=15分後に|attendee=参加者
+? 46|次の行動|easy|t3,t4|What will the woman do next?|女性は次に何をしますか。
++ Bring a microphone to the room.|部屋にマイクを持っていく。|誰かに持ってきてほしいという依頼に、私がお持ちしますと答えています。
+- Check the speakers herself.|自分でスピーカーを点検する。|スピーカーを点検するのは技術担当者で、時間もコーヒー休憩中です。
+- Move the group to another room.|団体を別の部屋に移す。|部屋の変更は提案されていません。
+- Call a different hotel.|別のホテルに電話する。|ほかのホテルへの連絡の話はありません。
+% spare=予備の|in the meantime=その間に|make sure=必ず～するよう手配する
+@47|パンフレットの入稿準備〔3人〕
+: b|The printer needs the final brochure files by Wednesday. Where are we with the product photos?|印刷所はパンフレットの最終データを水曜日までに必要としています。製品写真はどうなっていますか。
+: f|The photographer sent them this morning. They look great, but the lighting in the picture of the blue kettle is a little dark.|カメラマンが今朝送ってくれました。とてもいい写真ですが、青いやかんの写真は照明が少し暗いです。
+: g|I can fix that with our editing software. It won't take long.|編集ソフトで直せます。時間はかかりません。
+: b|Good. What about the price list on the back page? Sales still hasn't confirmed the new prices.|よかった。裏表紙の価格表はどうですか。営業部がまだ新しい価格を確定していません。
+: f|I'll call the sales director after this meeting. She told me she'd decide today.|この会議の後で営業部長に電話します。今日決めると言っていました。
+: b|Then let's plan to send everything on Tuesday afternoon. That gives us a day to spare.|では、火曜日の午後にすべて送る予定にしましょう。それなら1日余裕があります。
+? 47|話題|easy|t1|What are the speakers mainly discussing?|話し手たちは主に何について話していますか。
++ Getting a brochure ready for printing.|パンフレットを印刷に回す準備。|印刷所が水曜日までに最終データを必要としていると冒頭で述べ、写真と価格表の準備状況を確認しています。
+- Hiring a new photographer.|新しいカメラマンを雇うこと。|写真はすでにカメラマンから届いています。
+- Designing a new kettle.|新しいやかんを設計すること。|やかんは写真の被写体で、設計の話はありません。
+- Planning a sales meeting.|営業会議を計画すること。|営業部長に電話する話は出ますが、会議の計画ではありません。
+% brochure=パンフレット|printer=印刷所|Where are we with ...?=～はどうなっていますか
+? 48|問題点|medium|t2|What problem with the photos is mentioned?|写真についてどんな問題が述べられていますか。
++ One picture is not bright enough.|1枚の写真が明るさ不足である。|青いやかんの写真の照明が少し暗いと言っています。a little dark を not bright enough と言い換えています。
+- Some photos are missing.|一部の写真が届いていない。|写真は今朝届いており、不足しているとは言っていません。
+- The photographer sent them late.|カメラマンが送るのが遅れた。|今朝送ってくれたと述べているだけで、遅れたという話ではありません。
+- The kettle was the wrong color.|やかんの色が違っていた。|やかんは青いと言っていますが、色の間違いではなく照明の問題です。
+% lighting=照明|a little dark=少し暗い|editing software=編集ソフト
+? 49|発言意図|medium|t1,t6|What does the man mean when he says, “That gives us a day to spare”?|男性が「それなら1日余裕があります」と言うのはどういう意味ですか。
++ They will send the files before the deadline.|締め切りより前にデータを送ることになる。|印刷所の締め切りは水曜日で、火曜日の午後に送れば1日早く、余裕を持って間に合うという意味です。
+- They can take a day off on Wednesday.|水曜日に1日休みを取れる。|spare を休みの意味に取ったひっかけです。余裕は締め切りまでの時間のことです。
+- The printer needs one more day to finish.|印刷所が仕上げにもう1日必要としている。|印刷所の作業日数についての発言ではありません。
+- The sales director will decide tomorrow.|営業部長は明日決める。|営業部長は今日決めると言っていたと述べられています。
+% a day to spare=1日の余裕|deadline=締め切り|confirm=確定する
+@50|レンタカーの車種変更〔図表〕
+# Vehicle options|車種の選択肢
+= Class|クラス; Seats|座席数; Daily rate|1日料金
+= Compact|コンパクト; 4|4席; $38|38ドル
+= Midsize|ミッドサイズ; 5|5席; $46|46ドル
+= Minivan|ミニバン; 7|7席; $72|72ドル
+= Full-size van|大型バン; 12|12席; $95|95ドル
+: f|Hi, I reserved a compact car for three days, but my plans have changed. Two more colleagues are joining me, so there'll be six of us traveling to the conference.|こんにちは。コンパクトカーを3日間予約していたのですが、予定が変わりました。同僚がさらに2人加わるので、会議には6人で行くことになります。
+: m|I see. Let me check. Our midsize cars only seat five, so you'll need the next size up.|わかりました。お調べします。ミッドサイズの車は5人乗りまでですので、その一つ上の大きさが必要になります。
+: f|That's fine. My company is covering the cost anyway. Can I return the car at your airport location instead of here?|それでかまいません。どのみち費用は会社が出します。こちらではなく、空港の店舗で返却できますか。
+: m|Yes, but there's a twenty-dollar drop-off fee for that. I'll add it to your rental agreement. You'll just need to show me your driver's license again.|はい、ただしその場合は20ドルの返却手数料がかかります。レンタル契約に追加しておきます。もう一度運転免許証を見せていただくだけで結構です。
+? 50|理由|easy|t1|Why does the woman need a different vehicle?|女性はなぜ別の車が必要なのですか。
++ More people will travel with her.|一緒に移動する人が増える。|同僚が2人加わり、6人で会議に行くことになったと説明しています。
+- Her trip has become longer.|旅行の日程が長くなった。|予約は3日間のままで、日数の変更は述べていません。
+- The car she reserved is damaged.|予約した車が壊れている。|車の故障の話はありません。
+- She wants a less expensive car.|もっと安い車がいい。|費用は会社が出すと言っており、安さを求めてはいません。
+% reserve=予約する|colleague=同僚|join=加わる
+? 51|図表照合・料金|medium|t1,t2,r3c1,r3c2,r3c3|Look at the table. What is the daily rate of the vehicle the woman will rent?|表を見てください。女性が借りる車の1日料金はいくらですか。
++ $72.|72ドル。|6人が乗るため、5人乗りのミッドサイズの一つ上が必要だと言われています。表でミッドサイズの次は7席のミニバンで、1日72ドルです。
+- $38.|38ドル。|最初に予約したコンパクトカーの料金で、4席しかありません。
+- $46.|46ドル。|ミッドサイズの料金です。5人乗りなので6人は乗れません。
+- $95.|95ドル。|12席の大型バンの料金です。必要なのはミッドサイズの一つ上で、さらに大きい車ではありません。
+% seat=（動詞）～人を乗せられる|the next size up=一つ上の大きさ|daily rate=1日料金
+? 52|詳細|medium|t3,t4|What does the man say about returning the car at the airport?|男性は空港で車を返却することについて何と言っていますか。
++ An extra charge will apply.|追加料金がかかる。|空港での返却は可能ですが、20ドルの返却手数料がかかると言っています。
+- It is not allowed.|認められていない。|男性は Yes と答えており、返却は可能です。
+- The tank must be full.|燃料を満タンにしなければならない。|燃料についての条件は述べていません。
+- A manager must approve it.|責任者の承認が必要である。|承認の話はなく、契約に手数料を追加するだけです。
+% drop-off fee=（乗り捨ての）返却手数料|rental agreement=レンタル契約|driver's license=運転免許証

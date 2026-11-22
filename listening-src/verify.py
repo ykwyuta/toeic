@@ -5,11 +5,11 @@ import json
 import subprocess
 from pathlib import Path
 
-from build import RELEASE, add_audio_scripts, compile_exam, sha, validate
+from build import EXAMS, add_audio_scripts, compile_exam, sha, validate
 
 
-def check_asset(asset, masters):
-    path = RELEASE / asset["src"]
+def check_asset(release, asset, masters):
+    path = release / asset["src"]
     assert 0 < path.stat().st_size <= 25 * 1024 * 1024, path
     assert sha(path) == asset["sha256"], path
     if path.suffix == ".mp3":
@@ -25,10 +25,12 @@ def check_asset(asset, masters):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--exam", choices=EXAMS, default="l01")
     parser.add_argument("--masters", type=Path)
     args = parser.parse_args()
-    exam = json.loads((RELEASE / "exam.json").read_text(encoding="utf-8"))
-    script = add_audio_scripts(compile_exam())
+    release = EXAMS[args.exam]["release"]
+    exam = json.loads((release / "exam.json").read_text(encoding="utf-8"))
+    script = add_audio_scripts(compile_exam(EXAMS[args.exam]))
     validate(exam)
     total = 0
     assets = [exam["media"]["audio"]]
@@ -49,11 +51,13 @@ def main():
             if photo := entry["media"].get("photo"):
                 assets.append(photo)
     assert total == exam["media"]["audio"]["durationMs"]
-    largest = max(check_asset(asset, args.masters) for asset in assets)
-    full_track = RELEASE / exam["media"]["audio"]["src"]
+    largest = max(check_asset(release, asset, args.masters) for asset in assets)
+    full_track = release / exam["media"]["audio"]["src"]
     subprocess.run(["ffmpeg", "-v", "error", "-xerror", "-i", str(full_track),
                     "-f", "null", "-"], check=True)
-    print(f"100 items, 54 sets, {len(assets)} assets verified. "
+    items = sum(len(entry["items"]) for group in exam["parts"] for entry in group["sets"])
+    sets = sum(len(group["sets"]) for group in exam["parts"])
+    print(f"{exam['examId']}: {items} items, {sets} sets, {len(assets)} assets verified. "
           f"Exam duration {total / 1000:.2f} s. Largest asset {largest / 1048576:.2f} MiB.")
 
 

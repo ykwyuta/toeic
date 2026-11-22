@@ -1,0 +1,151 @@
+@53|オフィス移転の見積もり
+: g|Hello, I'm calling about the estimate you sent for moving our office next month. It's quite a bit higher than I expected.|もしもし、来月の事務所移転について送っていただいた見積もりの件でお電話しました。思っていたよりかなり高いのですが。
+: m|I understand. That price includes packing all of your files and furniture. If your staff pack the boxes themselves, the cost drops by about a third.|わかります。その金額には、書類と家具すべての梱包が含まれています。社員の方がご自分で箱詰めされれば、費用は3分の1ほど下がります。
+: g|We could probably do that. Our team is fairly small, and most of them are free on Friday afternoons.|おそらくそれならできます。うちのチームはかなり小さいですし、ほとんどの人が金曜日の午後は空いています。
+: m|OK. I'll send you a revised estimate. We'd deliver the empty boxes the week before your move.|わかりました。修正した見積もりをお送りします。空の箱は移転の前の週にお届けします。
+: g|Perfect. Oh, one more thing. Our building only allows moving on weekends.|完璧です。あ、もう一つ。うちのビルは週末しか引っ越し作業を認めていないんです。
+: m|That won't be a problem.|それは問題ありません。
+? 53|目的|easy|t1|Why is the woman calling?|女性はなぜ電話をしていますか。
++ To discuss a price.|料金について話し合うため。|移転の見積もりが思っていたより高いと冒頭で述べています。
+- To order new furniture.|新しい家具を注文するため。|家具は梱包の対象として出てくるだけで、注文の話ではありません。
+- To report some damaged items.|破損した品物について報告するため。|移転はまだ来月で、破損の話は出ていません。
+- To change the date of a move.|移転の日付を変更するため。|日付の変更は求めていません。週末しか作業できないと伝えているだけです。
+% estimate=見積もり|quite a bit=かなり|than I expected=予想していたより
+? 54|方法|medium|t2,t3|According to the man, how can the woman reduce the cost?|男性によると、女性はどうすれば費用を下げられますか。
++ By having her employees pack the items.|社員に品物を梱包させることによって。|社員が自分で箱詰めすれば3分の1ほど安くなると男性が説明しています。
+- By moving on a weekday instead.|代わりに平日に移転することによって。|曜日による料金の違いは述べていません。むしろビルの規則で週末しか作業できません。
+- By using fewer trucks for the move.|移転に使うトラックを減らすことによって。|トラックの台数の話は出てきません。
+- By paying the full amount in advance.|全額を前払いすることによって。|支払い時期の話は出てきません。
+% pack=梱包する|drop by a third=3分の1下がる|reduce=減らす
+? 55|発言意図|medium|t5,t6|What does the man mean when he says, “That won't be a problem”?|男性が「それは問題ありません」と言うのはどういう意味ですか。
++ His company can do the move on a weekend.|自社は週末に移転作業ができる。|ビルが週末しか引っ越しを認めていないという女性の発言への返事で、週末でも対応できるという意味です。
+- The boxes will be delivered free of charge.|箱は無料で届けられる。|箱の配達は前の発言で決まっており、直前の話題は作業できる曜日です。
+- The revised estimate will be the same as before.|修正した見積もりは前と同じになる。|梱包を社員がすれば費用は下がると言っており、同じ金額にはなりません。
+- A small team will be enough to pack the boxes.|小さなチームで箱詰めは足りる。|チームの人数への返事ではなく、直前の週末の作業についての返事です。
+% allow=認める|on weekends=週末に|revised=修正した
+@56|図書館への本の寄付
+: b|Hi, I have three boxes of books I'd like to donate. Is this the right desk?|こんにちは。寄付したい本が3箱あるのですが、この窓口でいいですか。
+: f|Thank you! Donations usually go to the back entrance, but our volunteers aren't here on Mondays. You can leave them with me today, though.|ありがとうございます。寄付は普段は裏口で受け付けているのですが、月曜日はボランティアがいないんです。でも、今日は私が預かりますよ。
+: b|Great. Most of them are cookbooks and travel guides, all in good condition.|よかった。ほとんどが料理本と旅行ガイドで、どれも状態はいいです。
+: f|Wonderful. Any books we don't add to our collection will be sold at our spring book sale. Would you like a receipt for your donation?|すばらしいです。蔵書に加えない本は、春の古本市で販売します。寄付の受領証は必要ですか。
+: b|Yes, please. My accountant told me I'll need one for my tax records.|はい、お願いします。税金の記録のために必要だと会計士に言われたんです。
+? 56|目的|easy|t1|What does the man want to do?|男性は何をしたいのですか。
++ Give away some books.|本を寄付する。|寄付したい本が3箱あると言っています。donate を give away と言い換えています。
+- Borrow some cookbooks.|料理本を借りる。|料理本は寄付する本の中身で、借りるのではありません。
+- Sign up as a volunteer.|ボランティアに登録する。|ボランティアは月曜日にいない人たちとして話に出るだけです。
+- Buy tickets for a book sale.|古本市のチケットを買う。|古本市は寄付された本の使い道として出てくるだけです。
+% donate=寄付する|donation=寄付（品）|give away=手放す・寄付する
+? 57|詳細|medium|t2|What does the woman say about the volunteers?|女性はボランティアについて何と言っていますか。
++ They are not working today.|今日は勤務していない。|月曜日はボランティアがいないので、今日は自分が預かると言っています。今日が月曜日だとわかります。
+- They will sort the books on Friday.|金曜日に本を仕分けする。|仕分けの日程は述べていません。
+- They need more training.|もっと研修が必要である。|研修についての発言はありません。
+- They work at the front desk.|受付で働いている。|寄付は普段は裏口で受け付けると言っており、ボランティアがいるのはそちらだと考えられます。
+% back entrance=裏口|leave A with B=AをBに預ける|though=（文末で）でも
+? 58|理由|medium|t4,t5|Why does the man want a receipt?|男性はなぜ受領証を欲しがっていますか。
++ For his financial records.|お金に関する記録のため。|税金の記録のために必要だと会計士に言われたと述べています。tax records を financial records と言い換えています。
+- To get a discount at the book sale.|古本市で割引を受けるため。|古本市は売れ残った本の使い道として出るだけで、割引の話はありません。
+- To return the books later.|後で本を返してもらうため。|寄付した本を返してもらう話は出ていません。
+- To enter a prize drawing.|抽選に応募するため。|抽選の話は出ていません。
+% receipt=受領証・領収書|accountant=会計士|tax records=税金の記録
+@59|新しいランチメニューの準備〔3人〕
+: f|Before we open, I need to talk about the new lunch menu. Starting Monday, we'll offer a set lunch that comes with soup and a drink.|開店前に、新しいランチメニューについて話しておきたいことがあります。月曜日から、スープと飲み物が付くランチセットを出します。
+: m|Customers will like that. But will the kitchen be able to keep up? We're already short one cook.|お客さんは喜ぶでしょうね。でも、厨房は回るでしょうか。すでに料理人が1人足りていませんよ。
+: f|I've hired a new cook. Her name is Laura, and she starts on Monday, too.|新しい料理人を採用しました。ローラという人で、彼女も月曜日から働き始めます。
+: g|That's good news. Will we have printed menus by then? The ones we have now don't list the set lunch.|それはいい知らせですね。それまでに印刷したメニューはできますか。今あるものにはランチセットが載っていません。
+: f|The print shop said they'd be ready on Saturday morning. Rachel, could you pick them up on your way in that day?|印刷所は土曜日の朝にできると言っていました。レイチェル、その日の出勤途中で受け取ってきてもらえますか。
+: g|Sure. The shop is right next to my bus stop.|いいですよ。その店は私が使うバス停のすぐ隣です。
+? 59|詳細|easy|t1|What will the restaurant begin offering?|レストランは何を出し始めますか。
++ A meal set at lunchtime.|昼の定食。|月曜日からスープと飲み物付きのランチセットを出すと述べています。
+- A delivery service.|配達サービス。|配達の話は出てきません。
+- Longer opening hours.|より長い営業時間。|営業時間の変更は述べていません。
+- A new dessert menu.|新しいデザートメニュー。|ランチセットに付くのはスープと飲み物で、デザートではありません。
+% set lunch=ランチセット・昼の定食|come with=～が付いてくる|offer=提供する
+? 60|懸念|medium|t2|What concern does the man mention?|男性はどんな心配を述べていますか。
++ The kitchen does not have enough staff.|厨房の人手が足りない。|すでに料理人が1人足りないのに厨房が回るかと心配しています。
+- Customers may not like the soup.|客がスープを気に入らないかもしれない。|男性は、客は喜ぶだろうと言っています。
+- The prices are too high.|値段が高すぎる。|値段についての発言はありません。
+- The menus do not show the set lunch.|メニューにランチセットが載っていない。|これはもう一人の女性が述べた心配で、男性のものではありません。
+% keep up=（仕事などに）ついていく|be short one cook=料理人が1人足りない|hire=雇う
+? 61|依頼内容|easy|t5,t6|What is Rachel asked to do?|レイチェルは何をするよう頼まれていますか。
++ Collect some menus.|メニューを受け取ってくる。|土曜日の出勤途中に印刷所でメニューを受け取ってほしいと頼まれています。pick up を collect と言い換えています。
+- Train the new cook.|新しい料理人を指導する。|新しい料理人ローラの話は出ますが、指導を頼まれてはいません。
+- Call the print shop.|印刷所に電話する。|印刷所の予定はすでに確認済みで、電話は頼まれていません。
+- Work an extra shift on Monday.|月曜日に追加で勤務する。|月曜日はランチセットとローラの勤務の開始日で、レイチェルへの依頼ではありません。
+% pick up=受け取る|on one's way in=出勤途中に|right next to=～のすぐ隣に
+@62|コピー用紙の仕入先選び〔図表〕
+# Printer paper quotes|コピー用紙の見積もり
+= Supplier|仕入先; Price per box|1箱あたりの価格; Delivery|配送日数
+= Brightline|ブライトライン; $31|31ドル; Next day|翌日
+= Corson Office|コーソン・オフィス; $28|28ドル; 1 week|1週間
+= Papermill Direct|ペーパーミル・ダイレクト; $26|26ドル; 2 weeks|2週間
+= Quickstock|クイックストック; $34|34ドル; Same day|当日
+: m|We're almost out of printer paper. I got quotes from four suppliers. The cheapest one takes two weeks to deliver, though.|コピー用紙がほとんどなくなりました。4社から見積もりをもらいました。ただ、一番安いところは配送に2週間かかります。
+: f|We can't wait that long. We'll run out by the end of next week. But we don't need it tomorrow, either, so there's no reason to pay extra for fast delivery.|そんなに待てません。来週末までにはなくなってしまいます。でも、明日必要なわけでもないので、速い配送のために余分に払う理由もありません。
+: m|So the second cheapest, then? They deliver within a week.|では、2番目に安いところですか。1週間以内に届けてくれます。
+: f|Yes, let's go with them. And order twenty boxes this time so we don't run short again.|ええ、そこにしましょう。それから、また足りなくならないよう今回は20箱注文してください。
+: m|Sure. I'll place the order after I check our budget code with the accounting department.|わかりました。経理部に予算コードを確認してから注文します。
+? 62|問題点|easy|t1|What problem does the man mention?|男性はどんな問題を述べていますか。
++ Some supplies are running low.|備品が残り少なくなっている。|コピー用紙がほとんどなくなったと言っています。almost out of を running low と言い換えています。
+- A printer is not working.|プリンターが動かない。|故障の話ではなく、用紙の在庫の話です。
+- A supplier has closed.|仕入先が廃業した。|4社から見積もりをもらっており、廃業の話はありません。
+- An order arrived late.|注文品が遅れて届いた。|これから注文するところで、遅れた配送の話ではありません。
+% be almost out of=～をほとんど切らしている|quote=見積もり|run low=残り少なくなる
+? 63|図表照合・仕入先|medium|t1,t2,t3,r2c1,r2c2,r2c3|Look at the table. Which supplier will the speakers most likely use?|表を見てください。話し手たちはどの仕入先を使うと考えられますか。
++ Corson Office.|コーソン・オフィス。|一番安い2週間の業者は遅すぎ、速い配送に余分に払う必要もありません。2番目に安く1週間で届けるところに決めています。表で28ドル、1週間なのはコーソン・オフィスです。
+- Brightline.|ブライトライン。|翌日配送ですが31ドルで、2番目に安い業者ではありません。速い配送に余分に払う必要はないと言っています。
+- Papermill Direct.|ペーパーミル・ダイレクト。|一番安い業者ですが、配送に2週間かかるため待てないと言っています。
+- Quickstock.|クイックストック。|当日配送ですが最も高く、明日必要なわけではないので選んでいません。
+% supplier=仕入先|the second cheapest=2番目に安い|go with=～に決める
+? 64|次の行動|medium|t5|What will the man do before placing the order?|男性は注文する前に何をしますか。
++ Contact the accounting department.|経理部に連絡する。|予算コードを経理部に確認してから注文すると言っています。
+- Ask a supplier for a discount.|仕入先に値引きを頼む。|値引きの交渉の話は出ていません。
+- Count the remaining paper.|残っている用紙を数える。|残りの数を数えるという発言はありません。
+- Get a quote from another company.|別の会社から見積もりを取る。|見積もりはすでに4社から取っています。
+% place an order=注文する|budget code=予算コード|run short=不足する
+@65|ジム会員の一時休会
+: b|Hi. I'm going to be working overseas for two months, so I'd like to cancel my membership.|こんにちは。2か月間海外で働くことになったので、会員を解約したいのですが。
+: g|Instead of canceling, you could freeze it. It's ten dollars a month, and you keep your current rate when you come back. New members pay more these days.|解約ではなく、休会にすることもできます。月10ドルで、戻ってきたときに今の料金のまま続けられます。最近は新規会員の方が料金が高いんです。
+: b|Oh, that sounds better. Can I do that online?|ああ、その方がよさそうですね。オンラインでできますか。
+: g|For a freeze, you'll need to fill out this short form here, and I'll process it today. It would start on the first of next month.|休会はこちらの短い用紙にご記入いただく必要があり、今日私が手続きします。来月1日から休会になります。
+? 65|理由|easy|t1|Why does the man want to change his membership?|男性はなぜ会員の契約を変えたいのですか。
++ He will be working in another country.|別の国で働く予定がある。|2か月間海外で働くと述べています。overseas を in another country と言い換えています。
+- He is moving to a new apartment.|新しいアパートに引っ越す。|引っ越しの話は出ていません。
+- The monthly fee has increased.|月会費が上がった。|料金が上がったのは新規会員で、男性の料金が上がったわけではありません。
+- He has been injured.|けがをした。|けがの話は出ていません。
+% overseas=海外で|cancel a membership=会員を解約する|freeze=（会員資格を）一時停止する
+? 66|利点|medium|t2|What advantage of a freeze does the woman mention?|女性は休会のどんな利点を挙げていますか。
++ The man can keep his current rate.|今の料金を維持できる。|戻ってきたときに今の料金のまま続けられ、新規会員は料金が高いと説明しています。
+- It costs nothing at all.|まったく費用がかからない。|休会中も月10ドルかかると言っています。
+- It includes free personal training.|無料の個人指導が付く。|個人指導の話は出ていません。
+- It allows access to other locations.|ほかの店舗も使える。|ほかの店舗の話は出ていません。
+% current rate=現在の料金|instead of=～の代わりに|advantage=利点
+? 67|依頼内容|easy|t3,t4|What does the woman ask the man to do?|女性は男性に何をするよう頼んでいますか。
++ Complete a form.|用紙に記入する。|休会にはこの短い用紙に記入する必要があると言っています。fill out を complete と言い換えています。
+- Visit the Web site.|ウェブサイトにアクセスする。|男性はオンラインでできるかを尋ねましたが、用紙への記入が必要だと答えています。
+- Pay two months in advance.|2か月分を前払いする。|前払いの話は出ていません。
+- Come back next month.|来月また来る。|休会は来月1日から始まりますが、手続きは今日行います。
+% fill out=記入する|process=手続きする・処理する|the first of next month=来月1日
+@68|二次面接の日程調整
+: f|Hello, is this Mr. Osei? This is Grace Kim from Halden Logistics. We'd like to invite you to a second interview for the warehouse supervisor position.|もしもし、オセイさんですか。ハルデン・ロジスティクスのグレース・キムです。倉庫管理責任者の職の二次面接にお越しいただきたいと思います。
+: m|That's great news. When would that be?|うれしい知らせです。いつになりますか。
+: f|We're holding them next Tuesday and Wednesday. The interview includes a tour of our distribution center, so please wear comfortable shoes.|来週の火曜日と水曜日に行います。面接には物流センターの見学が含まれますので、歩きやすい靴でお越しください。
+: m|Wednesday would be best. I'm working a shift at my current job on Tuesday.|水曜日が一番都合がいいです。火曜日は今の職場で勤務が入っているので。
+: f|Wednesday at ten, then. I'll e-mail you the address and a parking pass.|では、水曜日の10時にしましょう。住所と駐車許可証をメールでお送りします。
+? 68|目的|easy|t1|Why is the woman calling?|女性はなぜ電話をしていますか。
++ To arrange an interview.|面接を手配するため。|二次面接に招きたいと伝え、日程を決めています。
+- To offer the man a job.|男性に仕事を提供するため。|まだ二次面接の段階で、採用を伝えているのではありません。
+- To ask for references.|推薦状を求めるため。|推薦状の話は出ていません。
+- To reschedule a delivery.|配達の日程を変更するため。|物流会社からの電話ですが、配達の話ではありません。
+% second interview=二次面接|warehouse supervisor=倉庫管理責任者|arrange=手配する
+? 69|理由|medium|t3|Why is the man advised to wear comfortable shoes?|男性はなぜ歩きやすい靴を履くよう勧められていますか。
++ He will be shown around a facility.|施設を案内してもらう。|面接に物流センターの見学が含まれるためだと説明されています。
+- He will start working that day.|その日から働き始める。|面接の日で、勤務の開始日ではありません。
+- The building has no elevator.|建物にエレベーターがない。|エレベーターの話は出ていません。
+- He will take a fitness test.|体力テストを受ける。|体力テストの話は出ていません。
+% distribution center=物流センター|comfortable shoes=歩きやすい靴|show A around=Aを案内する
+? 70|詳細|easy|t5|What will the woman send the man?|女性は男性に何を送りますか。
++ A pass for parking.|駐車許可証。|住所と駐車許可証をメールで送ると言っています。
+- An employment contract.|雇用契約書。|契約書の話は出ていません。
+- A company uniform.|会社の制服。|制服の話は出ていません。
+- A list of interview questions.|面接の質問リスト。|質問リストの話は出ていません。
+% parking pass=駐車許可証|e-mail=（動詞）メールで送る|shift=勤務（時間）
