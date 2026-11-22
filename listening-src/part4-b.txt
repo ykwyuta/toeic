@@ -1,0 +1,112 @@
+@86|空港行きバスの車内案内〔図表〕
+# Morning departures to Skyfen Airport|スカイフェン空港行き朝の出発便
+= Service|便; Leaves Civic Square|市民広場発; Airport stops|空港での停車先
+= Blue|ブルー; 6:40|6時40分; Domestic only|国内線のみ
+= Silver|シルバー; 6:55|6時55分; International only|国際線のみ
+= Green|グリーン; 7:10|7時10分; Domestic and international|国内線と国際線
+= Amber|アンバー; 7:25|7時25分; Domestic only|国内線のみ
+: m|This is the driver of the Blue bus to Skyfen Airport. Passengers for the international terminal, please note that the Silver service is cancelled this morning. Please stay here at Civic Square and take the next service that stops at both terminals. Your ticket will still be valid. If you're on this bus for the domestic terminal, you may remain on board. For safety, please put large suitcases in the luggage compartment before we leave.|スカイフェン空港行きブルー便の運転手です。国際線ターミナルへ向かうお客様、今朝のシルバー便は運休です。市民広場でお待ちいただき、次の両ターミナルに止まる便にご乗車ください。お持ちの切符はそのまま使えます。このバスで国内線ターミナルへ向かうお客様は、そのままご乗車ください。安全のため、大きなスーツケースは出発前に荷物室にお入れください。
+? 86|案内の要点|easy|t1|What change is announced?|どのような変更が案内されていますか。
++ One bus service will not run.|バスが1便運休する。|今朝の Silver service is cancelled と述べています。
+- An airport terminal will close.|空港ターミナルが閉鎖される。|両ターミナルへ行く手段はあり、運休の対象はバスです。
+- A new luggage fee will apply.|新たな荷物料金が適用される。|大型の荷物を収納する場所は指定されますが、追加料金は出てきません。
+- A ticket office will open earlier.|切符売場が通常より早く開く。|切符の有効性には触れますが、売場の営業時間は出てきません。
+% service=運行便|be cancelled=運休になる|terminal=ターミナル
+? 87|図表照合・代替便|medium|t1,r3c1,r3c2,r3c3|Look at the table. When should international passengers leave Civic Square?|表を見てください。国際線の利用者は何時に市民広場を出発すべきですか。
++ At seven ten.|7時10分。|国際線だけのシルバー便は運休です。両ターミナルに止まるグリーン便は7時10分発です。
+- At six forty.|6時40分。|ブルー便は国内線ターミナルだけに止まります。
+- At six fifty-five.|6時55分。|通常は国際線行きのシルバー便ですが、今朝は運休です。
+- At seven twenty-five.|7時25分。|アンバー便の出発時刻で、国内線だけに止まります。
+% both terminals=両方のターミナル|stay=その場にとどまる|departure=出発
+? 88|安全上の指示|easy|t1|What are passengers asked to do with large suitcases?|大きなスーツケースについて、乗客は何をするよう頼まれていますか。
++ Place them in the luggage compartment.|荷物室に入れる。|出発前に荷物室へ入れるよう、安全上の指示があります。
+- Leave them at Civic Square.|市民広場に置いていく。|広場で待つのは乗客への案内で、荷物をそこに置く指示はありません。
+- Put them on an empty seat.|空席に載せる。|指定されているのは客席ではなく、荷物用の収納室です。
+- Attach a tag to each one.|それぞれに札を付ける。|大きな荷物について求められるのは収納で、札付けではありません。
+% compartment=区画、収納室|for safety=安全のため|remain on board=乗ったままでいる
+@89|取引先向け製品説明
+: g|Thanks for coming to this demonstration of our modular storage system. Each cabinet can be assembled with a single tool, which is included in every box. The shelves are sold separately so you can order just the number you need. We've brought two sizes for you to try today. Before placing an order, I suggest taking a measurement card from the sample table. It shows how much clearance is needed for the doors to open fully.|組み合わせ式収納システムの実演にお越しいただきありがとうございます。棚本体は箱に入っている工具1本で組み立てられます。棚板は別売りなので、必要な枚数だけ注文できます。本日はお試しいただくために2サイズを持ってきました。ご注文の前に、見本台から寸法カードを取ることをお勧めします。扉を完全に開けるのに必要な空き寸法が載っています。
+? 89|説明対象|easy|t1|What product is the speaker presenting?|話し手はどのような製品を紹介していますか。
++ A storage system.|収納システム。|組み合わせ式の収納の実演で、棚本体や棚板を紹介しています。
+- An electric tool kit.|電動工具セット。|工具は棚本体に付属するもので、主な製品は収納棚です。
+- A selection of interior doors.|室内ドアの品ぞろえ。|扉はキャビネットの部品であり、建物用のドアではありません。
+- A line of packing boxes.|梱包箱の製品シリーズ。|箱は商品の包装で、購入を勧める製品ではありません。
+% modular=組み合わせ式の|storage system=収納システム|assemble=組み立てる
+? 90|販売条件|medium|t1|What is sold separately?|何が別売りですか。
++ The shelves for the cabinets.|キャビネットに入れる棚板。|棚板は別売りで、希望する枚数だけ買えると説明しています。
+- The assembly tool.|組み立て用工具。|工具はすべての箱に含まれています。
+- The measurement card.|寸法カード。|見本台から事前に取ることを勧める資料です。
+- The cabinet doors.|キャビネットの扉。|説明は扉を開けるための寸法についてで、扉の別売りは述べていません。
+% sell separately=別売りにする|be included=含まれている|just the number you need=必要な数だけ
+? 91|目的の推論|medium|t1|Why does the speaker recommend taking a card?|話し手はなぜカードを持ち帰るよう勧めますか。
++ To check that there is room to open the cabinet doors.|キャビネットの扉を開ける空間があるか確認するため。|カードに扉を完全に開けるための必要寸法が載っており、注文前に空間を確かめられます。
+- To compare shipping rates for both cabinet sizes.|2サイズの配送料を比較するため。|カードに載るのは扉周りの寸法で、送料の情報ではありません。
+- To record which tool comes in the box.|付属の工具を記録するため。|工具については箱に同梱と説明しており、カードには必要な空き寸法が示されます。
+- To apply for a larger display sample.|大型の見本品の提供を申し込むため。|見本は会場で試せますが、カードは貸し出しの申込書ではありません。
+% measurement=寸法|clearance=動かすのに必要な空き寸法|fully=完全に
+@92|公園ボランティアの事前案内
+: f|If you're joining the riverside planting event this Sunday, please meet at the west gate, even if you normally enter from the east. We're keeping the eastern path clear for a delivery of soil. Gloves and small tools will be provided, but bring a refillable water bottle. The planting will go ahead in light rain. If heavy rain is forecast, we'll send a cancellation notice by six on Sunday morning to the email address you used to register.|今週日曜の川沿いの植樹行事に参加する方は、普段東から入る方も西門に集合してください。土を搬入するため、東側の通路は空けておきます。手袋と小さな道具はこちらで用意しますが、詰め替えのできる飲料ボトルをご持参ください。小雨でも植樹は予定どおり行います。大雨が予報されたら、日曜の朝6時までに登録時のメールアドレスへ中止のお知らせを送ります。
+? 92|会場案内の理由|medium|t1|Why are participants told to use the west gate?|なぜ参加者は西門を使うよう案内されていますか。
++ A delivery needs to use the eastern path.|東側の通路を搬入に使うため。|東側の通路を土の搬入用に空けておくと説明しています。
+- The east gate is being repainted.|東門を塗り直しているため。|東側は工事のためではなく、車両や荷物が通れるように確保します。
+- The river is expected to flood near the east gate.|東門付近で川の氾濫が予想されているため。|雨天時の対応は別の説明で、集合場所の理由は土の配送です。
+- Tools are only available near the west gate.|道具が西門の近くでしか手に入らないため。|道具は提供されますが、その保管位置は集合変更の根拠ではありません。
+% keep a path clear=通路を空けておく|soil=土|delivery=搬入、配送
+? 93|持参物|easy|t1|What should participants bring?|参加者は何を持参すべきですか。
++ A reusable water bottle.|繰り返し使える飲料ボトル。|主催者が提供するものに続いて、refillable water bottle を自分で持参するよう指示されています。
+- A pair of gardening gloves.|園芸用の手袋。|手袋は主催者が用意します。
+- A small digging tool.|小型の掘削用具。|小さな道具は主催者の提供品です。
+- A bag of soil.|土を入れた袋。|土は別便で配送されるので、参加者の持参品ではありません。
+% refillable=詰め替えできる|provide=提供する|bring=持参する
+? 94|条件と連絡手段|medium|t1|How will participants be notified if the event is cancelled?|行事が中止になった場合、参加者にはどう通知されますか。
++ By email.|メールで。|大雨の予報があれば、登録に使ったアドレスへ日曜朝6時までに送ると述べています。
+- By telephone.|電話で。|電話番号ではなく登録メールアドレスを使います。
+- Through a sign on the west gate.|西門に掲示した看板で。|西門は集合先で、中止時の通知先は参加者のメールです。
+- Through a local radio announcement.|地元ラジオの告知で。|主催者から参加者へ直接メールを送ります。
+% go ahead=予定どおり行われる|forecast=予報する|cancellation notice=中止通知
+@95|クリーニングの仕上がり連絡
+: b|Hello, this is Callum at Mosswick Cleaners. Your navy jacket is ready, but the trousers that came with it need another day. We found a loose seam and can repair it without charging you extra. If you need the jacket for tonight, of course you can collect it on its own before we close at seven. Otherwise, both pieces will be ready tomorrow after two. Please bring the collection slip either way.|こんにちは。モスウィック・クリーニングのカラムです。紺色の上着は仕上がりましたが、一緒にお預かりしたズボンはもう1日必要です。縫い目のほつれが見つかり、追加料金なしで修理できます。今夜上着が必要なら、もちろん7時の閉店前に上着だけ受け取れます。そうでなければ明日の2時以降に両方そろいます。どちらの場合も引換票をお持ちください。
+? 95|遅延理由|medium|t1|Why are the trousers taking longer?|なぜズボンの仕上がりに時間がかかっていますか。
++ Some stitching needs repair.|縫い目の一部を直す必要があるから。|ズボンに緩んだ縫い目を見つけ、直すと伝えています。
+- An extra fee has not been paid.|追加料金が未払いだから。|修理に追加料金はかけないと明言しています。
+- The matching jacket was misplaced.|対になる上着を紛失したから。|上着はすでに仕上がっています。
+- The shop is closing early today.|今日は店が早く閉まるから。|7時は上着を受け取れる期限で、ズボンの遅れは修理のためです。
+% trousers=ズボン（英）|loose seam=緩んだ縫い目|charge extra=追加料金を請求する
+? 96|区別・時刻|medium|t1|When can the listener collect both pieces together?|聞き手は両方をまとめていつ受け取れますか。
++ Tomorrow after two.|明日の2時過ぎ。|別々に受け取らない場合には、明日2時以降に両方がそろうと述べています。
+- Today before two.|今日の2時前。|ズボンが仕上がるのは翌日です。
+- Today before seven.|今日の7時前。|今日のうちに受け取れるのは上着だけです。
+- Tomorrow before noon.|明日の正午前。|翌日の午前中ではまだ指定時刻に達していません。
+% collect=受け取る|on its own=それ単独で|otherwise=そうでなければ
+? 97|必要書類|easy|t1|What must the listener bring to the shop?|聞き手は店に何を持っていく必要がありますか。
++ A collection slip.|引換票。|上着のみ・両方のいずれでも collection slip を持参すると最後に指示されます。
+- A written estimate.|書面の見積書。|追加料金なしの修理で、持参する書類は引換票です。
+- A photograph of the clothes.|衣服の写真。|品物の引渡しは写真ではなく、引換票で行います。
+- A repair authorization form.|修理の承認書。|修理承認書の提出については案内していません。
+% collection slip=引換票|either way=どちらの場合でも|be ready=準備ができている
+@98|交流会のテーブル配置〔図表〕
+# Neighbourhood fair tables|地域交流会のテーブル配置
+= Table|テーブル; Listed group|登録団体; Location|場所
+= 14|14番; Plant Exchange|植物交換会; Main Hall|メインホール
+= 15|15番; Tool Library|工具貸出会; Main Hall|メインホール
+= 16|16番; Bike Clinic|自転車点検会; Covered Walkway|屋根付き通路
+= 17|17番; Repair Circle|修繕クラブ; Covered Walkway|屋根付き通路
+: g|This is a message for volunteers setting up the neighbourhood fair. The Tool Library and the Repair Circle have agreed to swap tables. The repair group needs to be in the main hall because its demonstration uses the wall-mounted screen there. Please move the two groups' name signs before the doors open. The tables themselves can stay where they are. Once the signs are in place, come back to the information desk to collect your volunteer badges.|地域交流会の準備をするボランティアの皆さんへの連絡です。工具貸出会と修繕クラブがテーブルを交換することになりました。修繕クラブは実演で壁掛けスクリーンを使うため、メインホールにいる必要があります。開場前に2つの団体の名前札を移してください。テーブル自体は動かさなくてかまいません。札の設置後は案内所に戻ってボランティア用の名札を受け取ってください。
+? 98|図表照合・変更先|medium|t1,r4c1,r4c2|Look at the table. Which table will the Tool Library use?|表を見てください。工具貸出会は何番のテーブルを使いますか。
++ Table seventeen.|17番。|工具貸出会は修繕クラブと交換します。表で修繕クラブに割り当てられたのは17番です。
+- Table fourteen.|14番。|植物交換会の席で、交換の当事者ではありません。
+- Table fifteen.|15番。|工具貸出会の変更前の番号です。
+- Table sixteen.|16番。|自転車点検会の席で、修繕クラブの席と同じ通路ですが番号が異なります。
+% swap=交換する|listed group=表に記載された団体|covered walkway=屋根付き通路
+? 99|変更理由|medium|t1|Why does the Repair Circle need to be in the main hall?|修繕クラブはなぜメインホールにいる必要がありますか。
++ It needs to use a screen there.|そこにあるスクリーンを使う必要があるため。|実演にメインホールの壁掛けスクリーンを使うと説明しています。
+- It wants to be closer to the entrance.|入口に近付きたいため。|入口からの距離ではなく、ホールの設備が理由です。
+- It expects to need an extra table.|追加のテーブルが必要になりそうなため。|互いに1台を交換する話で、台数は増やしません。
+- It will be selling tickets at the information desk.|案内所でチケットを販売するため。|案内所はボランティア用の名札を受け取る場所です。
+% demonstration=実演|wall-mounted=壁に取り付けた|screen=スクリーン
+? 100|作業順序|easy|t1|What should volunteers do after moving the signs?|名前札を移した後、ボランティアは何をするべきですか。
++ Pick up their badges.|自分たちの名札を受け取る。|名前札を設置したら、案内所へ戻ってボランティア用名札を受け取ります。
+- Move both tables to the other location.|両方のテーブルをもう一方の場所へ動かす。|移すのは団体の名前札で、テーブルは置いたままです。
+- Check whether the screen works.|スクリーンが動作するか確かめる。|スクリーンは配置交換の理由で、ボランティアへの次の指示は名札受け取りです。
+- Help visitors find the entrance.|来場者を入口へ案内する。|開場前の準備指示で、来場者の案内は指定されていません。
+% set up=設営する|in place=所定の場所にある|badge=名札
