@@ -12,6 +12,9 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
 
   const partPicker = get('study-part');
   const skillPicker = get('study-skill');
+  const partCards = get('study-part-cards');
+  const skillChips = get('study-skill-chips');
+  const exerciseTag = get('study-exercise-tag');
   const audio = get('study-audio');
   const audioStatus = get('study-audio-status');
   const review = get('skill-review');
@@ -102,11 +105,16 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
     get('skill-item').replaceChildren();
     review.replaceChildren();
     feedback.textContent = '';
+    feedback.hidden = true;
+    delete feedback.dataset.state;
     review.hidden = true;
     get('study-answer').hidden = !exercise;
     if (!exercise) {
       audio.load();
       return;
+    }
+    if (exerciseTag) {
+      exerciseTag.textContent = 'Part ' + exercise.part + ' · ' + exercise.items[0].skill;
     }
     renderMaterials(materials, exercise);
     if (exercise.media.audio) {
@@ -118,20 +126,67 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
     renderSingleQuestion('skill-item', reviewQuestion(exercise.items[0]));
   }
 
-  for (const {part, titleJa} of parts) {
-    partPicker.add(new Option('Part ' + part + ' · ' + titleJa, String(part)));
+  function renderSkillChips(group) {
+    if (!skillChips) return;
+    const sets = group?.sets ?? [];
+    skillChips.replaceChildren(...sets.map(({setId, items}) => {
+      const btn = element('button');
+      btn.type = 'button';
+      btn.className = 'skill-chip';
+      btn.dataset.setId = setId;
+      btn.setAttribute('aria-pressed', String(skillPicker.value === setId));
+      btn.textContent = items[0].skill;
+      btn.addEventListener('click', () => {
+        skillPicker.value = setId;
+        for (const c of skillChips.querySelectorAll('.skill-chip')) {
+          c.setAttribute('aria-pressed', String(c.dataset.setId === setId));
+        }
+        renderExercise();
+      });
+      return btn;
+    }));
   }
-  partPicker.disabled = false;
-  partPicker.addEventListener('change', () => {
+
+  function selectPartValue(partVal) {
+    partPicker.value = String(partVal);
+    if (partCards) {
+      for (const p of partCards.querySelectorAll('.part-pill')) {
+        p.setAttribute('aria-pressed', String(p.dataset.part === String(partVal)));
+      }
+    }
     const group = selectedPart();
     get('study-skill-step').hidden = !group;
     skillPicker.replaceChildren(new Option('分野を選択', ''));
     for (const {setId, items} of group?.sets ?? []) {
       skillPicker.add(new Option(items[0].skill, setId));
     }
+    renderSkillChips(group);
+    renderExercise();
+  }
+
+  for (const {part, titleJa, sets} of parts) {
+    partPicker.add(new Option('Part ' + part + ' · ' + titleJa, String(part)));
+    if (partCards) {
+      const card = element('button');
+      card.type = 'button';
+      card.className = 'part-pill';
+      card.dataset.part = String(part);
+      card.setAttribute('aria-pressed', 'false');
+      const tag = element('span', 'Part ' + part + (part <= 4 ? ' · Listening' : ' · Reading'));
+      tag.className = 'part-pill-tag';
+      const name = element('span', titleJa + '（' + sets.length + '）');
+      name.className = 'part-pill-name';
+      card.append(tag, name);
+      card.addEventListener('click', () => selectPartValue(part));
+      partCards.append(card);
+    }
+  }
+  partPicker.disabled = false;
+  partPicker.addEventListener('change', () => selectPartValue(partPicker.value));
+  skillPicker.addEventListener('change', () => {
+    renderSkillChips(selectedPart());
     renderExercise();
   });
-  skillPicker.addEventListener('change', renderExercise);
   audio.addEventListener('error', () => {
     if (!audio.hasAttribute('src')) return;
     audioStatus.textContent = '音声を読み込めませんでした。接続を確認して分野を選び直してください。';
@@ -146,7 +201,9 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
     const question = reviewQuestion(item);
     const answer = item.choices[question.answer];
     const isCorrect = item.choices[Number(selected)].id === answer.id;
-    feedback.textContent = isCorrect ? '正解。' : '正答 ' + answer.id + '。';
+    feedback.textContent = isCorrect ? '正解！よくできました。' : '不正解（正答: ' + answer.id + '）。解説を確認しましょう。';
+    feedback.dataset.state = isCorrect ? 'ok' : 'ng';
+    feedback.hidden = false;
     if (typeof onAnswer === 'function') {
       onAnswer({
         itemId: item.id,
@@ -172,15 +229,11 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
   function openExercise(part, setId) {
     const group = parts.find((p) => Number(p.part) === Number(part));
     if (!group) return false;
-    partPicker.value = String(group.part);
-    get('study-skill-step').hidden = false;
-    skillPicker.replaceChildren(new Option('分野を選択', ''));
-    for (const {setId: sid, items} of group.sets) {
-      skillPicker.add(new Option(items[0].skill, sid));
-    }
+    selectPartValue(group.part);
     const target = group.sets.find((s) => s.setId === setId) || group.sets[0];
     if (!target) return false;
     skillPicker.value = target.setId;
+    renderSkillChips(group);
     renderExercise();
     return true;
   }

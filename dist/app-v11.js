@@ -116,6 +116,12 @@ function renderSkills(attempts) {
     const state = adaptive.loadAdaptive();
     const stats = adaptive.analyzeSkills(state);
     const weak = stats.find(({ status }) => status === 'weak');
+    const kpiTotal = select('kpi-total');
+    const kpiWeak = select('kpi-weak');
+    const kpiMastered = select('kpi-mastered');
+    if (kpiTotal) kpiTotal.textContent = String(state.itemLogs.length);
+    if (kpiWeak) kpiWeak.textContent = String(stats.filter((s) => s.status === 'weak').length);
+    if (kpiMastered) kpiMastered.textContent = String(stats.filter((s) => s.status === 'mastered').length);
     select('skill-summary').textContent = weak
       ? '最優先で補完する技能 · ' + weak.skill + '（' + weak.reasonJa + '）'
       : stats.length
@@ -132,7 +138,14 @@ function renderSkills(attempts) {
       const reason = document.createElement('span');
       reason.className = 'skill-reason';
       reason.textContent = stat.reasonJa;
-      item.append(badge, title, reason);
+      const track = document.createElement('div');
+      track.className = 'skill-bar-track';
+      const fill = document.createElement('div');
+      fill.className = 'skill-bar-fill';
+      fill.dataset.status = stat.status;
+      fill.style.width = Math.round(stat.recentRate * 100) + '%';
+      track.append(fill);
+      item.append(badge, title, reason, track);
       return item;
     }));
     return;

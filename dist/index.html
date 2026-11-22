@@ -144,6 +144,63 @@ button:disabled { opacity: .65; cursor: default; }
 .result-badge { display: inline-block; padding: .1rem .45rem; border-radius: .35rem; font-size: .8rem; font-weight: 700; margin-right: .4rem; }
 .result-badge[data-correct="true"] { background: #def7ec; color: #03543f; }
 .result-badge[data-correct="false"] { background: #fde8e8; color: #9b1c1c; }
+
+/* Enhanced Field Study (#study) UI */
+.study-hero {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1.15rem 1.35rem; border-radius: 1.1rem; color: #f6f9ff; margin-bottom: 1rem;
+  background: linear-gradient(135deg, #102439 0%, #1d4e68 65%, #2b6f7a 100%);
+  box-shadow: 0 8px 20px #1024391f;
+}
+.study-hero-copy { flex: 1 1 16rem; }
+.study-hero-copy h2 { margin: 0 0 .25rem; font-size: 1.45rem; color: #fff; }
+.study-hero-copy p { margin: 0; font-size: .92rem; color: #d7e7f5; }
+.study-kpis { display: flex; flex-wrap: wrap; gap: .55rem; }
+.study-kpi { background: #ffffff1a; border: 1px solid #ffffff2e; border-radius: .75rem; padding: .45rem .8rem; text-align: center; min-width: 5.2rem; }
+.study-kpi strong { display: block; font-size: 1.2rem; line-height: 1.2; color: #fff; }
+.study-kpi span { font-size: .75rem; color: #d1e3f2; }
+.study-picker-card { background: #fff; border: 1px solid #c3d0dd; border-radius: 1.1rem; padding: 1.25rem; box-shadow: 0 4px 14px #13273b0d; }
+.study-picker-title { margin: 0 0 .65rem; font-size: 1rem; font-weight: 700; color: #124d75; display: flex; align-items: center; gap: .45rem; }
+.part-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: .55rem; margin-bottom: 1rem; }
+.part-pill {
+  display: flex; flex-direction: column; align-items: flex-start; gap: .15rem;
+  padding: .65rem .8rem; border-radius: .8rem; border: 1.5px solid #cbd7e3;
+  background: #f8fafc; color: #13273b; text-align: left; white-space: normal;
+  transition: transform .12s ease, border-color .15s ease, background .15s ease, box-shadow .15s ease;
+}
+.part-pill:hover { transform: translateY(-1px); border-color: #124d75; background: #eef5fb; }
+.part-pill[aria-pressed="true"] { background: #124d75; color: #fff; border-color: #124d75; box-shadow: 0 4px 12px #124d7533; }
+.part-pill-tag { font-size: .75rem; font-weight: 800; letter-spacing: .04em; opacity: .85; text-transform: uppercase; }
+.part-pill-name { font-size: .92rem; font-weight: 700; line-height: 1.3; }
+.skill-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+.skill-chip {
+  display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .85rem;
+  border-radius: 999px; border: 1.5px solid #c3d0dd; background: #fff; color: #13273b;
+  font-size: .9rem; font-weight: 600; transition: all .15s ease;
+}
+.skill-chip:hover { border-color: #124d75; background: #f0f6fc; }
+.skill-chip[aria-pressed="true"] { background: #1a6158; color: #fff; border-color: #1a6158; }
+.study-exercise-box { margin-top: 1rem; padding-top: 1rem; border-top: 2px dashed #d5e0ea; }
+.study-exercise-head { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-bottom: .75rem; }
+.study-exercise-tag { background: #e6f0f8; color: #124d75; font-weight: 700; font-size: .85rem; padding: .2rem .65rem; border-radius: 999px; }
+#skill-item label {
+  display: flex; align-items: center; gap: .5rem; padding: .55rem .8rem; margin: .4rem 0;
+  border: 1.5px solid #d4dfe9; border-radius: .65rem; background: #fafcfe; cursor: pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+#skill-item label:hover { border-color: #124d75; background: #eef5fb; }
+#skill-item label:has(input:checked) { border-color: #124d75; background: #e3effa; font-weight: 600; }
+.study-feedback-banner { padding: .65rem .9rem; border-radius: .65rem; font-weight: 700; margin: .75rem 0; }
+.study-feedback-banner[data-state="ok"] { background: #def7ec; color: #03543f; border: 1px solid #84e1bc; }
+.study-feedback-banner[data-state="ng"] { background: #fde8e8; color: #9b1c1c; border: 1px solid #f8b4b4; }
+.study-dashboard { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); margin-top: 1rem; }
+.study-dashboard .study-panel { margin-top: 0; border-top: 4px solid #124d75; }
+#study-history-panel { border-top-color: #1a6158; }
+.skill-bar-track { height: 6px; border-radius: 999px; background: #e2e8f0; overflow: hidden; margin-top: .35rem; }
+.skill-bar-fill { height: 100%; border-radius: 999px; background: #124d75; transition: width .3s ease; }
+.skill-bar-fill[data-status="weak"] { background: #dc2626; }
+.skill-bar-fill[data-status="reviewing"] { background: #d97706; }
+.skill-bar-fill[data-status="mastered"] { background: #059669; }
 </style>
 <main>
 <header class="hero app-header">
@@ -308,22 +365,37 @@ button:disabled { opacity: .65; cursor: default; }
 </div>
 </section>
 <section id="study" class="screen" hidden>
-  <h2 tabindex="-1">分野学習</h2>
-  <button type="button" class="secondary" data-screen="menu">メニューへ</button>
-  <section class="study-panel">
-    <p id="study-tip" hidden></p>
+  <button type="button" class="secondary" data-screen="menu">← メニューへ戻る</button>
+  <div class="study-hero">
+    <div class="study-hero-copy">
+      <h2 tabindex="-1">分野学習</h2>
+      <p id="study-tip">Part と分野を選んで、弱点を1問ずつ集中的に強化しましょう。</p>
+    </div>
+    <div class="study-kpis" aria-label="学習サマリー">
+      <div class="study-kpi"><strong id="kpi-total">0</strong><span>総回答数</span></div>
+      <div class="study-kpi"><strong id="kpi-weak">0</strong><span>要強化</span></div>
+      <div class="study-kpi"><strong id="kpi-mastered">0</strong><span>定着済み</span></div>
+    </div>
+  </div>
+  <section class="study-picker-card">
     <p id="study-load-status" role="status" hidden></p>
-    <div class="study-step">
+    <p class="study-picker-title">1. 練習する Part を選ぶ</p>
+    <div id="study-part-cards" class="part-grid" role="group" aria-label="練習するPart"></div>
+    <div class="study-step" hidden>
       <label for="study-part">練習するPart</label>
       <select id="study-part" class="coach-select" aria-controls="study-skill-step" disabled>
         <option value="">Partを選択</option>
       </select>
     </div>
     <div id="study-skill-step" class="study-step" hidden>
-      <label for="study-skill">練習する分野</label>
-      <select id="study-skill" class="coach-select" aria-controls="study-answer"></select>
+      <p class="study-picker-title">2. 練習する分野を選ぶ</p>
+      <div id="study-skill-chips" class="skill-chips" role="group" aria-label="練習する分野"></div>
+      <select id="study-skill" class="coach-select" aria-controls="study-answer" hidden></select>
     </div>
-    <div id="study-answer" hidden>
+    <div id="study-answer" class="study-exercise-box" hidden>
+      <div class="study-exercise-head">
+        <span id="study-exercise-tag" class="study-exercise-tag"></span>
+      </div>
       <form id="skill-form">
         <div id="skill-material"></div>
         <audio id="study-audio" controls preload="none" aria-label="練習問題の音声" hidden></audio>
@@ -331,20 +403,22 @@ button:disabled { opacity: .65; cursor: default; }
         <div id="skill-item"></div>
         <button>答え合わせ</button>
       </form>
-      <p id="skill-feedback" role="status"></p>
+      <p id="skill-feedback" class="study-feedback-banner" role="status" hidden></p>
       <div class="answer-review" id="skill-review" hidden></div>
     </div>
   </section>
-<section id="skill-analysis" class="study-panel" tabindex="-1">
-  <h2>苦手分析</h2>
-  <p id="skill-summary"></p>
-  <ul id="skill-results"></ul>
-</section>
-<section id="study-history-panel" class="study-panel" tabindex="-1">
-  <h2>学習履歴</h2>
-  <p id="item-history-empty">まだ学習履歴はありません。問題を解くとここに記録され、いつでも復習できます。</p>
-  <ul id="item-history-list" class="history-list"></ul>
-</section>
+  <div class="study-dashboard">
+    <section id="skill-analysis" class="study-panel" tabindex="-1">
+      <h2>苦手分析</h2>
+      <p id="skill-summary"></p>
+      <ul id="skill-results"></ul>
+    </section>
+    <section id="study-history-panel" class="study-panel" tabindex="-1">
+      <h2>学習履歴</h2>
+      <p id="item-history-empty">まだ学習履歴はありません。問題を解くとここに記録され、いつでも復習できます。</p>
+      <ul id="item-history-list" class="history-list"></ul>
+    </section>
+  </div>
 </section>
 </main>
 <script src="./adaptive.js" defer></script>
