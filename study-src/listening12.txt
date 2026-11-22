@@ -1,0 +1,59 @@
+@p1-action|1|動作|発送台での梱包|easy
+* 作業員がテープを使って段ボール箱を閉じています。|Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. Single fictional employee, dressed in a plain dark-green apron, standing next to a packing bench in a small workplace, pressing a handheld tape dispenser against the visible top seam of one large cardboard carton and drawing a strip of clear packing tape along the seam. Both hands visible, one on tape dispenser and the other steadying the box. Clearly readable hands, tool, and seam even at phone size, camera at a slight three-quarter angle, medium framing. No scissors, no pen, no lifting the carton, no opening flaps, no other person. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark.
+? photo||写真に最も合う描写を選びます。
+A A worker is sealing a carton with tape.|作業員がテープで段ボール箱を閉じています。|作業員はテープカッターを箱の合わせ目に当てて、テープを貼っています。
+B A worker is writing on the side of a carton.|作業員が段ボール箱の側面に文字を書いています。|手に持っているのはペンではなくテープカッターで、当てている場所は箱の上面です。
+C A worker is lifting a carton off a bench.|作業員が作業台から段ボール箱を持ち上げています。|箱の底は台に載ったままで、作業員の片手はテープカッターを握っています。
+D A worker is opening the flaps of a carton.|作業員が段ボール箱のふたを開けています。|ふたは閉じており、その合わせ目にテープを貼っています。
+! A
+% seal=密封する、この写真ではテープで閉じる|carton=段ボール箱|flap=折り曲げて閉じるふたの部分
+@p1-state|1|状態|作業場の保護具|easy
+* 黄色いヘルメットが壁のフックからつり下がっています。|Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. An unoccupied community workshop coat area. Four conspicuous, simple yellow protective helmets hang from individual wall hooks by their straps on a plain wall. The helmets are suspended in clear view well above an empty wooden bench. No person, no helmets on the bench or floor, no helmets piled or stacked, no cabinet, no table. Neutral side lighting with the wall hooks and straps clearly visible. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark.
+? photo||写真に最も合う描写を選びます。
+A Some helmets are stacked on the floor.|いくつかのヘルメットが床に積み重ねられています。|床の上に重ねて置かれているヘルメットは見えません。
+B Some helmets have been placed on a bench.|いくつかのヘルメットがベンチに置かれています。|ベンチの座面は空いており、ヘルメットはその上方の壁にあります。
+C Some helmets are hanging from hooks.|いくつかのヘルメットがフックからつり下がっています。|黄色いヘルメットが、壁のフックからそれぞれつり下がっています。
+D Some helmets are being worn by workers.|いくつかのヘルメットを作業員がかぶっています。|人物が写っておらず、ヘルメットは壁に掛けられています。
+! C
+% helmet=ヘルメット|hang from=～からつり下がる|hook=フック|stack=積み重ねる
+@p1-position|1|位置関係|中庭のベンチ|medium
+* ベンチが2つの植木鉢の間に置かれています。|Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. Quiet paved courtyard on an overcast day. An unoccupied dark wooden bench sits in clear view BETWEEN TWO matching large stone planters, one to the immediate left and one to the immediate right of the bench, arranged along the same line close to a blank wall. Show the full bench and both planters with ample space, straight-on view. No fountain, no stairs, no canopy or shelter, no people. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark.
+? photo||写真に最も合う描写を選びます。
+A A bench has been placed next to a fountain.|ベンチが噴水の隣に置かれています。|ベンチの脇に見えるのは植木鉢で、噴水はありません。
+B A bench is positioned between two planters.|ベンチが2つの植木鉢の間に置かれています。|ベンチの左と右に石の植木鉢が1つずつあります。
+C A bench is standing at the top of some steps.|ベンチが階段を上り切った所に置かれています。|ベンチと植木鉢は平らな舗装面にあり、段差の上にはありません。
+D A bench is sheltered under a canopy.|ベンチがひさしの下に置かれています。|背後に壁はありますが、ベンチの上を覆うひさしは見えません。
+! B
+% position=所定の位置に置く|planter=植木鉢|steps=階段、段|canopy=覆い、ひさし
+@p2-wh|2|疑問詞への応答|掲示物の配布|easy
+: g|Where should I put the extra copies of the event schedule?|余った催しの日程表はどこに置けばいいですか。
+? t1||余った日程表の置き場所を尋ねています。
+A There are ten copies left.|10部残っています。|残りの部数に答えていますが、置く場所を示していません。
+B The event starts at eleven.|催しは11時に始まります。|催しの開始時刻で、日程表の置き場所とは関係ありません。
+C On the shelf by the entrance.|入口のそばの棚にお願いします。|棚を指定し、入口を目印にして置き場所を答えています。
+! C
+% extra=余分の|event schedule=催しの日程表|by the entrance=入口のそばに
+@p2-yes-no|2|Yes・No疑問文|店舗の設備|easy
+: f|Do we need a key to open the side entrance?|通用口を開けるには鍵が必要ですか。
+? t1||通用口を開けるために鍵が必要か尋ねています。
+A Yes, you can pick one up at reception.|はい、受付で受け取れます。|鍵が必要だと肯定し、one が指す鍵を受け取れる場所も伝えています。
+B The delivery arrived early.|届け物は早く着きました。|配送時刻について述べていますが、通用口を開ける条件は説明していません。
+C It's wider than the front door.|正面のドアより広いです。|通用口の幅の説明で、開けるのに鍵が必要かどうかは分かりません。
+! A
+% need a key=鍵が必要である|side entrance=建物脇の入口、通用口|pick one up=それを1つ受け取る
+@p2-request|2|依頼・提案への応答|説明会の準備|medium
+: b|Could you send the slides to everyone before the briefing?|説明会の前に、スライドを全員に送ってもらえますか。
+? t1||説明会が始まる前の資料送付を頼んでいます。
+A Everyone arrived a little early.|皆さん少し早く到着しました。|参加者の到着について述べており、スライドを送る依頼には答えていません。
+B Sure. I'll email them as soon as I get back to my desk.|もちろんです。席に戻り次第メールで送ります。|依頼を引き受け、them でスライドを指して送付する時点を伝えています。
+C The last slide shows our sales figures.|最後のスライドに売上の数字が載っています。|資料の内容についての説明で、送付するかどうかは伝えていません。
+! B
+% briefing=説明会|slides=発表用スライド|as soon as=～するとすぐに
+@p2-indirect|2|間接応答|荷物の受け渡し|medium
+: m|Has the courier picked up the parcel yet?|配達員はもう荷物を集荷しましたか。
+? t1||話し手は集荷が済んだか確かめようとしています。
+A It weighs nearly two kilos.|重さは2キロ近くあります。|荷物の重量は分かりますが、集荷が済んだかどうかは示していません。
+B The address is on the label.|住所はラベルに書いてあります。|荷物の宛先を確認する方法で、受け渡しの状況とは別です。
+C It's still on the table by the door.|まだドア脇のテーブルにあります。|荷物が集荷前の場所にまだあるため、配達員は持っていっていないと分かります。
+! C
+% courier=配達員|pick up a parcel=荷物を集荷する|yet=もう、疑問文で完了の有無を尋ねる

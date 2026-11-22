@@ -119,7 +119,7 @@ function renderSkills(attempts) {
   select('skill-summary').textContent = weak
     ? '優先して復習する技能 · ' + weak.skill + '。同じ問題の再受験も集計します。'
     : attempts.length < 3
-      ? '技能別の正答率を表示します。各技能で3回答以上たまると復習候補を判定します。'
+      ? 'Part 5ミニ模試の技能別正答率を表示します。各技能で3回答以上たまると復習候補を判定します。'
       : '正答率70%未満の技能はありません。同じ問題の再受験も集計します。';
   select('skill-results').replaceChildren(...stats.map(({ skill, correct, total }) => {
     const item = document.createElement('li');
@@ -277,7 +277,7 @@ function renderReview(container, question, selected) {
   };
   const sentence = document.createElement('p');
   sentence.lang = 'en';
-  sentence.textContent = question.stem.replace('_____', question.choices[question.answer]);
+  sentence.textContent = question.stem?.replace('_____', question.choices[question.answer]) ?? '';
   const translation = document.createElement('p');
   translation.textContent = question.translation;
   const options = document.createElement('ul');
@@ -291,7 +291,13 @@ function renderReview(container, question, selected) {
     if (index === selected) label.append('・あなたの回答');
     const explanation = document.createElement('div');
     explanation.textContent = question.choiceNotes[index];
-    row.append(label, explanation);
+    row.append(label);
+    if (question.choiceTranslations) {
+      const meaning = document.createElement('div');
+      meaning.textContent = question.choiceTranslations[index];
+      row.append(meaning);
+    }
+    row.append(explanation);
     options.append(row);
   });
   const vocabulary = document.createElement('dl');
@@ -303,8 +309,11 @@ function renderReview(container, question, selected) {
     definition.textContent = meaning;
     vocabulary.append(term, definition);
   }
-  container.replaceChildren(heading('完成文と日本語訳'), sentence, translation,
-    heading('選択肢の解説'), options, heading('単語・熟語'), vocabulary);
+  const translationTitle = question.stem?.includes('_____')
+    ? '完成文と日本語訳' : '設問と日本語訳';
+  container.replaceChildren(heading(translationTitle));
+  if (sentence.textContent) container.append(sentence);
+  container.append(translation, heading('選択肢の解説'), options, heading('単語・熟語'), vocabulary);
 }
 
 select('items').innerHTML = questions.map((question, index) =>
@@ -452,39 +461,6 @@ const placementQuestions = [
     vocabulary: [["demand", "需要"], ["expand production", "生産を拡大する"], ["main factory", "主力工場"]],
     stem: 'As demand grows, the company plans to _____ production at its main factory.', choices: ['consult', 'expand', 'deliver', 'mention'], answer: 1}
 ];
-const practiceQuestions = [
-  {...questions[0],
-    translation: "建物を出る前に、入館証を受付に預けてください。",
-    choiceNotes: [
-      "during は「〜の間に」を表す前置詞です。during your visit のように名詞句を導けますが、you exit the building という節を直接導けません。",
-      "before は「〜する前に」を表す接続詞です。後ろの節を導き、建物を出るより先に入館証を預けるという順序を表します。",
-      "despite は「〜にもかかわらず」を表す前置詞です。後ろの節を直接導けず、入館証を預ける時点も示しません。",
-      "regarding は「〜に関して」を表す前置詞です。regarding your badge のように話題を示せますが、後ろの節を時の条件にはできません。"
-    ],
-    vocabulary: [["badge", "入館証"], ["at reception", "受付で"], ["exit the building", "建物を出る"], ["before", "〜する前に"]],
-    stem: 'Please leave your badge at reception _____ you exit the building.', choices: ['during', 'before', 'despite', 'regarding'], term: 'before', meaning: '〜する前に'},
-  {...questions[1],
-    translation: "責任者は金曜日より前に契約を更新することに同意しました。",
-    choiceNotes: [
-      "renewal は「更新」という名詞です。agree to a renewal なら to は前置詞ですが、ここでは後ろに目的語 the contract が続くので動詞が必要です。",
-      "renews は三人称単数現在形です。the director の述語にはなれますが、agreed to の不定詞の位置では原形を使います。",
-      "renewed は過去形または過去分詞です。過去を示すのは主節の agreed で、to の直後では原形が必要です。",
-      "renew は「更新する」という動詞の原形です。agree to do の形に合い、renew the contract で「契約を更新する」となります。"
-    ],
-    vocabulary: [["agree to do", "〜することに同意する"], ["renew a contract", "契約を更新する"], ["before Friday", "金曜日より前に"]],
-    stem: 'The director agreed to _____ the contract before Friday.', choices: ['renewal', 'renews', 'renewed', 'renew'], term: 'renew', meaning: '更新する'},
-  {...questions[2],
-    translation: "仕入先は、当社が支払うべき金額を記載した修正版の請求書を送りました。",
-    choiceNotes: [
-      "invoice は「請求書」です。支払うべき金額を記載する書類で、showing the amount we owe と一致します。",
-      "itinerary は「旅程表」です。出張の予定や行程を確認する資料で、仕入先への支払額を知らせる書類ではありません。",
-      "inventory は「在庫」や「在庫一覧」です。数量や品目を記載できますが、ここで問われる支払額を請求する役割はありません。",
-      "application は「申請書」です。手続きや承認を申し込む書類で、仕入先が当社に支払額を知らせる目的に合いません。"
-    ],
-    vocabulary: [["supplier", "仕入先"], ["revised invoice", "修正版の請求書"], ["the amount we owe", "私たちが支払うべき金額"]],
-    stem: 'The supplier sent a revised _____ showing the amount we owe.', choices: ['invoice', 'itinerary', 'inventory', 'application'], term: 'invoice', meaning: '請求書'}
-];
-
 const profileKey = 'toeic.placement.v1';
 const screens = [...document.querySelectorAll('.screen')];
 let profile;
@@ -501,6 +477,7 @@ try {
 }
 
 function showScreen(id, focus = true) {
+  if (id !== 'study') select('study-audio').pause();
   if (id === 'menu' || id === 'preferences' || id === 'study') renderProfile();
   for (const screen of screens) screen.hidden = screen.id !== id;
   if (focus) {
@@ -560,7 +537,9 @@ function renderProfile() {
   select('saved-placement').textContent = scoreText;
   select('placement-score').textContent = scoreText;
   select('placement-tip').textContent = advice;
-  select('study-tip').textContent = advice;
+  const studyTip = select('study-tip');
+  studyTip.hidden = result.total === placementQuestions.length;
+  studyTip.textContent = 'おすすめの復習 · Part 5の「' + result.counts[result.focus].skill + '」';
   select('placement-breakdown').replaceChildren(...result.counts.map(({skill, correct, total}) => {
     const item = document.createElement('li');
     item.textContent = skill + ' · ' + correct + ' / ' + total;
@@ -571,8 +550,8 @@ function renderProfile() {
 function renderSingleQuestion(id, question) {
   const fieldset = document.createElement('fieldset');
   const legend = document.createElement('legend');
-  legend.lang = 'en';
-  legend.textContent = question.stem;
+  legend.lang = question.stem ? 'en' : 'ja';
+  legend.textContent = question.stem || '音声を聞いて選択肢を選んでください。';
   fieldset.append(legend);
   question.choices.forEach((choice, index) => {
     const label = document.createElement('label');
@@ -582,7 +561,7 @@ function renderSingleQuestion(id, question) {
     radio.name = 'answer';
     radio.value = index;
     radio.required = true;
-    label.append(radio, ' ' + letter(index) + '. ' + choice);
+    label.append(radio, ' ' + letter(index) + (question.stem ? '. ' + choice : ''));
     fieldset.append(label);
   });
   select(id).replaceChildren(fieldset);
@@ -632,8 +611,6 @@ select('placement-form').addEventListener('submit', (event) => {
   } catch {
     select('placement-save').textContent = 'このブラウザには診断結果を保存できませんでした。';
   }
-  select('study-skill').value = String(placementResults().focus);
-  renderSkillQuestion();
   renderProfile();
   select('placement-reviews').replaceChildren(...placementQuestions.map((question, index) => {
     const details = document.createElement('details');
@@ -648,42 +625,7 @@ select('placement-form').addEventListener('submit', (event) => {
   showScreen('placement-result');
 });
 
-for (const [index, question] of practiceQuestions.entries()) {
-  const option = document.createElement('option');
-  option.value = index;
-  option.textContent = question.skill;
-  select('study-skill').append(option);
-}
-
-function selectedSkillQuestion() {
-  return practiceQuestions[Number(select('study-skill').value)];
-}
-
-function renderSkillQuestion() {
-  renderSingleQuestion('skill-item', selectedSkillQuestion());
-  select('skill-feedback').textContent = '';
-  select('skill-review').hidden = true;
-  select('skill-word').hidden = true;
-}
-
-select('study-skill').addEventListener('change', renderSkillQuestion);
-select('skill-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  const selected = new FormData(event.currentTarget).get('answer');
-  if (selected === null) return;
-  const question = selectedSkillQuestion();
-  select('skill-feedback').textContent = (Number(selected) === question.answer ? '正解。' : '正答 ' + letter(question.answer) + '。');
-  renderReview(select('skill-review'), question, Number(selected));
-  select('skill-review').hidden = false;
-  select('skill-word').hidden = false;
-});
-select('skill-word').addEventListener('click', () => {
-  const {term, meaning} = selectedSkillQuestion();
-  addWord(term, meaning);
-});
-
-select('study-skill').value = String(profile ? placementResults().focus : 0);
-renderSkillQuestion();
+initializeFieldStudy({renderSingleQuestion, renderReview, addWord});
 showScreen(profile ? 'menu' : 'welcome', false);
 for (const button of document.querySelectorAll('[data-partner]')) button.disabled = false;
 select('startup-notice').hidden = true;

@@ -1,12 +1,39 @@
 'use strict';
 
+importScripts('./study/r1/bank.js');
+
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '11';
+const cacheName = cachePrefix + '12';
 const index = new URL('index.html', self.registration.scope).href;
 
-const assets = ['app-v10.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']
+const studyMedia = self.toeicStudyBank.parts.flatMap(({sets}) => sets.flatMap(({media}) =>
+  [media.photo?.src, media.audio?.src].filter(Boolean)));
+const assets = [
+  'app-v11.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp',
+  'study/r1/bank.js', 'study/study.js', ...studyMedia,
+]
   .map((path) => new URL(path, self.registration.scope).href);
 const offlineFiles = [index, ...assets];
+
+async function audioRange(cached, range) {
+  const blob = await cached.blob();
+  const bounds = /^bytes=(\d*)-(\d*)$/.exec(range);
+  const [, first, last] = bounds ?? [];
+  const start = first ? Number(first) : Math.max(blob.size - Number(last), 0);
+  const end = first && last ? Math.min(Number(last), blob.size - 1) : blob.size - 1;
+  if (!bounds || (!first && !last) || start >= blob.size || start > end) {
+    return new Response(null, {status: 416, headers: {'Content-Range': 'bytes */' + blob.size}});
+  }
+  return new Response(blob.slice(start, end + 1), {
+    status: 206,
+    headers: {
+      'Accept-Ranges': 'bytes',
+      'Content-Range': `bytes ${start}-${end}/${blob.size}`,
+      'Content-Length': String(end - start + 1),
+      'Content-Type': cached.headers.get('Content-Type') ?? 'audio/mpeg',
+    },
+  });
+}
 
 async function prepareOffline() {
   const cache = await caches.open(cacheName);
@@ -37,6 +64,8 @@ self.addEventListener('fetch', (event) => {
   event.respondWith((async () => {
     if (!isHome) {
       const cached = await caches.match(path, { cacheName });
+      const range = event.request.headers.get('Range');
+      if (cached && range && url.pathname.endsWith('.mp3')) return audioRange(cached, range);
       return cached ?? fetch(event.request, { cache: 'no-store' });
     }
 
