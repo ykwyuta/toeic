@@ -1,0 +1,149 @@
+@53|施設巡回の手配
+# Inspection rota|点検当番表
+= Team|班; Area|場所; Meeting point|集合場所
+= Alder|アルダー班; East Wing|東棟; Room 104|104号室
+= Birch|バーチ班; Main Hall|メインホール; Reception|受付
+= Cedar|シダー班; West Wing|西棟; Room 208|208号室
+= Elm|エルム班; Annex|別館; Side Gate|通用門
+: b|Are you ready for this afternoon's inspection? The team going to the annex has been moved to the west wing. The annex is closed during the roof work.|午後の点検の準備はできていますか。別館に行く班は西棟に変更されました。別館は屋根の工事中、閉鎖しています。
+: f|That's my team. Should we meet at the west wing's listed meeting point?|それは私の班です。西棟の表にある集合場所に集まればいいですか。
+: b|Yes. The team already assigned there will start on the upper floor, and yours will start downstairs. I'll bring checklists for both teams.|はい。すでにそこを担当している班は上の階から、あなたの班は下の階から始めます。両班分の点検表は私が持っていきます。
+? 53|図表照合・集合場所|medium|t1,t2,t3,r3c2,r3c3|Look at the table. Where should the woman meet her team?|表を見てください。女性はどこで班と合流すべきですか。
++ In Room 208.|208号室。|新しい担当場所は West Wing です。表の西棟の集合場所は Room 208 です。
+- In Room 104.|104号室。|East Wing の集合場所で、西棟ではありません。
+- At reception.|受付。|Main Hall の集合場所です。
+- At the side gate.|通用門。|変更前の Annex の集合場所です。
+% meeting point=集合場所|annex=別館|wing=建物の棟
+? 54|割り当て|medium|t2,t3|Where will the woman's team start inspecting?|女性の班はどこから点検を始めますか。
++ On the lower floor.|下の階。|yours は女性の班を指し、start downstairs と伝えています。
+- On the upper floor.|上の階。|上から始めるのはすでに西棟担当だった班です。
+- On the roof.|屋根。|屋根の工事は別館の閉鎖理由で、点検の割り当て先ではありません。
+- In the main hall.|メインホール。|話している2班は西棟の上下に分かれます。
+% downstairs=下の階で|assigned=割り当てられた|upper floor=上の階
+? 55|持参物|easy|t3|What will the man bring?|男性は何を持ってきますか。
++ Inspection checklists.|点検用のチェックリスト。|両方の班に checklists を持っていくと述べています。
+- New keys.|新しい鍵。|集合場所は決まりましたが、鍵の準備は頼まれていません。
+- Building maps.|館内図。|会話で持参を約束したのは点検項目の一覧です。
+- Repair tools.|修理用の工具。|工事については話していますが、男性が持っていくのは点検用の書類です。
+% bring=持っていく|checklist=確認項目表|both=両方の
+@56|パン店の注文変更
+: m|Hello, is this Brindle Row Bakery? I placed an order for thirty rolls for Wednesday. Could I add six gluten-free rolls to it?|もしもし、ブリンドル・ロウ・ベーカリーですか。水曜にパンを30個注文したのですが、グルテンフリーのパンを6個追加できますか。
+: f|We can make those on Wednesday, but they won't be out of the oven until eleven. Your current collection time is ten.|水曜に作れますが、焼き上がるのは11時です。現在の受取時刻は10時になっています。
+: m|Eleven is too late for me, but my colleague can come at eleven thirty. Can she collect the entire order then?|私には11時は遅すぎますが、同僚なら11時半に来られます。その時間に全部受け取れますか。
+: f|Certainly. I'll change the pickup time and pack the two kinds separately.|もちろんです。受取時刻を変更し、2種類を別々に包みます。
+? 56|依頼内容|easy|t1|What change does the man request at the start?|冒頭で男性は何の変更を依頼しますか。
++ Adding items to an order.|注文に品物を追加すること。|すでに注文した30個に別のパンを6個加えたいと言っています。
+- Cancelling an order.|注文を取り消すこと。|当初の注文は残し、それに追加を希望しています。
+- Changing an order to Thursday.|注文を木曜に移すこと。|曜日は水曜で、後で変えるのは同じ日の受取時刻です。
+- Reducing the number of rolls.|パンの数を減らすこと。|6個を上乗せするので、総数が増えます。
+% place an order=注文する|add to=～に追加する|gluten-free=グルテンを含まない
+? 57|詳細・時刻|medium|t2,t3,t4|When will the colleague collect the order?|同僚は何時に注文品を受け取りますか。
++ At eleven thirty.|11時30分。|男性が同僚の来られる時刻を11時半と伝え、女性が了承します。
+- At nine thirty.|9時30分。|担当者が了承した受取時刻は11時半です。
+- At ten.|10時。|元の受取予定で、追加するパンの準備が間に合いません。
+- At eleven.|11時。|追加のパンが焼き上がる時刻です。
+% collection time=受取時刻|out of the oven=焼き上がって|entire order=注文品全部
+? 58|詳細・取扱|easy|t4|What will the bakery do with the two kinds of rolls?|パン店は2種類のパンをどうしますか。
++ Pack them separately.|別々に包む。|女性が pack the two kinds separately と述べています。
+- Deliver them to different addresses.|違う住所に届ける。|同僚が店に受け取りに行くため、配送の話ではありません。
+- Put them all in one container.|全部を1つの容器に入れる。|女性は2種類を分けて包装すると言っています。
+- Label them with different pickup times.|それぞれ違う受取時刻の札を付ける。|全品を11時半にまとめて受け取ります。
+% pack=包む|separately=別々に|pickup=受け取り
+@59|通勤者向け駐輪登録
+: g|I'd like to register for the covered bicycle parking. My current pass only lets me use the outdoor racks.|屋根付き駐輪場を利用登録したいです。今の許可証では屋外の駐輪ラックしか使えません。
+: b|There are no covered spaces left this month. I can put you on the waiting list. Someone has just returned a locker key, though, if you need somewhere dry for your helmet.|今月は屋根付きの区画に空きがありません。順番待ちリストには登録できます。ただ、ヘルメットをぬれない場所に置きたいなら、ちょうどロッカーの鍵が1本返却されました。
+: g|That would help. Could I have the locker for now and stay on the list for a covered space?|それは助かります。当面はロッカーを借りて、屋根付き区画の順番待ちも続けられますか。
+: b|Yes. Let me see your parking pass so I can link the locker to your account.|はい。ロッカーをアカウントにひも付けるので、駐輪許可証を見せてください。
+? 59|目的|easy|t1|What does the woman initially want?|女性は最初に何を希望しますか。
++ Access to sheltered bicycle parking.|屋根のある駐輪場を使うこと。|covered bicycle parking の登録を求め、現在は屋外のみと説明しています。
+- A replacement bicycle helmet.|交換用の自転車用ヘルメット。|ヘルメットは後から保管場所の話に出てきます。
+- A map of local cycle routes.|近隣の自転車道の地図。|女性が問い合わせているのは駐輪場の利用資格です。
+- A refund for a parking pass.|駐輪許可証の代金の返金。|現在の許可証より利用範囲を広げたいという相談です。
+% register for=～に利用登録する|covered=屋根付きの|rack=ラック
+? 60|代替案|medium|t2,t3|What does the man offer as a short-term solution?|男性は当面の対策として何を提案しますか。
++ Using a locker.|ロッカーを使うこと。|屋根付き区画に空きがないため、返された鍵があるロッカーを提案しています。
+- Borrowing a spare helmet.|予備のヘルメットを借りること。|すでにあるヘルメットを保管する方法です。
+- Using a covered space this month.|今月に屋根付き区画を使うこと。|今月は空きがなく、順番待ちの扱いです。
+- Leaving a bicycle at reception.|自転車を受付に置くこと。|代案の目的はヘルメットの保管で、受付への駐輪は出てきません。
+% for now=当面は|waiting list=順番待ちリスト|return a key=鍵を返す
+? 61|手続き|easy|t4|What does the man ask to see?|男性は何を見せるよう頼みますか。
++ The woman's parking pass.|女性の駐輪許可証。|ロッカーをアカウントにひも付けるため、許可証の提示を求めています。
+- A receipt for a locker.|ロッカーの領収書。|新たにロッカーを登録する段階で、領収書は求められていません。
+- A record of bicycle repairs.|自転車の修理記録。|自転車の整備状態はこの手続きの条件にありません。
+- A letter from the woman's manager.|女性の上司からの手紙。|アカウント確認に使うのは駐輪許可証です。
+% let me see=見せてください|parking pass=駐輪許可証|link A to B=AをBにひも付ける
+@62|窓口シフトの交代〔3人〕
+: f|Can one of you take the returns counter at three? I've been asked to give a tour to the new volunteers, and that's the only time they can all come.|どちらか3時に返品窓口を担当できますか。新しいボランティアに館内を案内することになり、全員そろうのはその時間だけです。
+: m|I can cover it after I finish counting the tills, but I'll be tied up until three thirty.|レジの現金を数え終われば代われますが、3時半までは手が離せません。
+: g|My appointment has been moved to tomorrow. I can take the counter from three to four. Is there anything unusual I should know?|私の予約は明日に変更になりました。3時から4時まで担当できます。何か特別に知っておくことはありますか。
+: f|One customer is bringing back a folding table without a receipt. Please call the supervisor before processing that return.|領収書なしで折りたたみテーブルを返品するお客様が1人来ます。その返品を処理する前に責任者に電話してください。
+? 62|理由|easy|t1|Why does the first woman need someone to cover the counter?|最初の女性はなぜ窓口を代わってもらう必要がありますか。
++ She has to show a group around the building.|グループを館内に案内するため。|新しいボランティアへの館内案内があり、全員が集まれるのは3時だからです。
+- She has to count the cash in the tills.|レジの現金を数えるため。|現金を数えるのは男性です。
+- She has a medical appointment.|診療予約があるため。|予約変更に触れるのは2人目の女性で、何の予約かは言っていません。
+- She has to deliver a table to a customer.|顧客にテーブルを届けるため。|テーブルを持ってくるのは返品客で、女性は配達をしません。
+% cover a counter=窓口を代わる|give a tour=案内する|volunteer=ボランティア
+? 63|発言意図|medium|t1,t2|What does the man mean when he says, “I'll be tied up until three thirty”?|男性は「3時半までは手が離せません」と言って何を伝えようとしていますか。
++ He will not be free at the requested start time.|頼まれた開始時刻には手が空かない。|代わってほしいのは3時からですが、男性は現金確認で3時半まで別の作業があります。
+- He expects the volunteers to be late.|ボランティアは遅れると思っている。|tied up は男性自身の忙しさを指し、来館者の到着についてではありません。
+- He plans to close the returns counter at three thirty.|3時半に返品窓口を閉める予定だ。|3時半は男性が別の仕事を終える時刻です。
+- He needs help counting the cash.|現金を数えるのを手伝ってほしい。|作業にかかる時間を知らせており、手伝いは求めていません。
+% be tied up=手が離せない|till=レジ、レジの現金入れ|be free=手が空いている
+? 64|手順|medium|t4|What should the second woman do before processing the return of the table?|2人目の女性はテーブルの返品を受け付ける前に何をすべきですか。
++ Contact the supervisor.|責任者に連絡する。|領収書がない返品は処理の前に責任者へ電話するよう指示されています。
+- Ask the volunteers to inspect the table.|ボランティアにテーブルを確認するよう頼む。|ボランティアへの案内は別の業務で、返品手順に関わりません。
+- Print a new receipt for the customer.|客に新しい領収書を印刷する。|領収書がないときの指示は、まず責任者に電話することです。
+- Take the table to the loading area.|搬入場所までテーブルを運ぶ。|移動先についての指示はなく、処理前の連絡が必要です。
+% bring back=返品する|receipt=領収書|process a return=返品を処理する
+@65|複合施設の教室予約
+# Community rooms|地域施設の貸室
+= Room|部屋; Maximum group size|定員; Equipment|設備
+= Otter Room|オッター室; 12|12人; Whiteboard|ホワイトボード
+= Finch Room|フィンチ室; 24|24人; Whiteboard|ホワイトボード
+= Heron Room|ヘロン室; 18|18人; Projector|プロジェクター
+= Wren Room|レン室; 28|28人; Projector|プロジェクター
+: m|I need a room for a map-reading class. Seventeen people have enrolled, and the instructor wants to show slides.|地図の読み方の講座に使う部屋が必要です。17人が申し込んでいて、講師はスライドを映したいそうです。
+: g|For slides, you'll need a projector. Our largest room is booked, but the other three are free on Tuesday evening.|スライドにはプロジェクターが必要ですね。一番大きい部屋は予約済みですが、火曜の夜は残りの3室が空いています。
+: m|That works. Can people bring drinks from the café into the room?|それなら大丈夫ですね。カフェの飲み物を室内に持ち込めますか。
+: g|Yes, as long as the cups have lids. I'll email you the reservation form after this call.|はい、カップにふたがあれば大丈夫です。この電話の後で予約フォームをメールします。
+? 65|図表照合・条件|hard|t1,t2,r3c1,r3c2,r3c3,r4c2|Look at the table. Which room is available and meets the man's needs?|表を見てください。空いていて男性の条件を満たすのはどの部屋ですか。
++ Heron Room.|ヘロン室。|受講者17人と講師1人の計18人が入り、プロジェクターがあります。定員28人の最大室は予約済みです。
+- Otter Room.|オッター室。|定員12人で人数が収まらず、映写設備もありません。
+- Finch Room.|フィンチ室。|定員24人で人数は収まりますが、設備欄はホワイトボードです。
+- Wren Room.|レン室。|プロジェクター付きで人数は収まりますが、最大室なので予約済みです。
+% enroll=申し込む|maximum group=定員|be booked=予約済みである
+? 66|条件|easy|t3,t4|Under what condition are drinks allowed in the room?|どのような条件で室内への飲み物の持ち込みが許可されますか。
++ The cups must have lids.|カップにふたが付いていること。|as long as 以下でふた付きのカップに限ると説明しています。
+- The drinks must be cold.|飲み物が冷たいこと。|温度は指定しておらず、容器の条件です。
+- The class must have fewer than ten people.|受講者が10人未満であること。|飲み物の許可と受講者数は結び付いていません。
+- The drinks must be served during a break.|休憩中に出されること。|飲む時間帯に制限があるとは述べていません。
+% as long as=～である限り|lid=ふた|be allowed=許可される
+? 67|次の行動|easy|t4|What will the woman send the man?|女性は男性に何を送りますか。
++ A room booking form.|部屋の予約用紙。|電話後に reservation form をメールすると述べています。
+- A copy of the slides.|スライドの写し。|映すスライドは講師側が使う資料です。
+- A café menu.|カフェのメニュー。|カフェの話はふた付き容器の条件に限られます。
+- An attendance list.|出席者名簿。|申込者数は男性が把握しており、女性が送るのは予約用の書類です。
+% reservation=予約|form=用紙、フォーム|after this call=この電話のあとで
+@68|自転車修理の見積もり
+: f|I brought in a bicycle yesterday because the front brake squeaks. Is it ready to collect?|前のブレーキがきしむので昨日自転車を持ち込みました。受け取れる状態ですか。
+: b|The brake itself is fine, but we found a crack in the front wheel rim. We can replace the rim for eighty dollars. I wanted your approval before starting.|ブレーキ自体には異常がありませんが、前輪のリムにひびがありました。80ドルでリムを交換できます。作業の前に了承をいただきたいと思っていました。
+: f|I need a few minutes to think about it. The bicycle is quite old, and I was already considering buying a new one.|少し考える時間が必要です。自転車はかなり古くて、新しいものを買うことも考えていたので。
+: b|Of course. We'll keep it here until you call back. The estimate includes labor, so there won't be any extra fitting charge.|承知しました。折り返しお電話をいただくまでこちらでお預かりします。見積もりは工賃込みで、取り付け料の追加はありません。
+? 68|詳細・不具合|medium|t1,t2|What problem did the shop find?|店が見つけた不具合は何ですか。
++ A wheel rim is cracked.|車輪のリムにひびが入っている。|調べた結果、前輪の外周部品にひびが見つかったと説明しています。
+- A brake lever is broken.|ブレーキレバーが壊れている。|異音が持ち込み理由ですが、店はブレーキ自体に異常がないと説明します。
+- A rear tire is flat.|後輪がパンクしている。|指摘の対象は後輪のタイヤではなく前輪のリムです。
+- A chain is loose.|チェーンが緩んでいる。|駆動系の不具合は示されていません。
+% squeak=きしむ|rim=車輪の外周枠・リム|crack=ひび
+? 69|発言意図|hard|t2,t3,t4|Why does the woman say, “I need a few minutes to think about it”?|女性はなぜ「少し考える時間が必要です」と言いますか。
++ She has not decided whether to pay for the repair.|修理代を払って直すか決めていない。|80ドルの修理に対して、古い自転車を直す代わりに買い替える選択肢を考えています。
+- She is unsure when she visited the shop.|いつ来店したか確信がない。|昨日持ち込んだことは冒頭で述べており、考える対象は修理の承認です。
+- She wants the shop to locate a spare part.|店に予備部品を探してほしい。|店は交換可能と案内しており、部品探しは依頼していません。
+- She thinks the technician found the wrong bicycle.|技術者が違う自転車を調べたと思っている。|調査対象に疑問を示さず、自分の自転車が古いことを理由にしています。
+% give approval=了承する|consider=検討する|think about it=それについて考える
+? 70|費用|medium|t4|What is included in the estimate?|見積もりには何が含まれていますか。
++ The cost of installing the part.|部品を取り付ける費用。|labor 込みで fitting charge の追加がないため、取り付けの工賃が含まれます。
+- A fee for home delivery.|自宅への配送料。|しばらく店で預かることは述べますが、自宅配送は見積もりに出てきません。
+- The price of a new bicycle.|新しい自転車の価格。|買い替えは女性の考えで、見積もりはリム交換のものです。
+- The cost of replacing the brake.|ブレーキ交換費用。|ブレーキは正常で、見積もりの対象はリムの交換です。
+% estimate=見積もり|labor=工賃|fitting charge=取り付け料
