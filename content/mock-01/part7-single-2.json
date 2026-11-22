@@ -1,0 +1,1294 @@
+{
+  "part": 7,
+  "sets": [
+    {
+      "setId": "m01-p7-s07",
+      "part": 7,
+      "setting": "地方紙の記事。公立図書館が公園で初めての夏の読書フェスティバルを開く。",
+      "factSheet": [
+        {
+          "type": "organization",
+          "value": "Riverton Public Library"
+        },
+        {
+          "type": "person",
+          "value": "Felipe Arroyo（館長）"
+        },
+        {
+          "type": "date",
+          "value": "June 12（記事）/ Saturday, June 28（開催）/ June 21（本の寄付の締め切り）/ last winter（アンケート）"
+        },
+        {
+          "type": "place",
+          "value": "Castell Park（会場）/ Riverton Community Hall（雨天時）"
+        },
+        {
+          "type": "content",
+          "value": "local authors のリーディング、古本市、子ども向け工作。売上は study room のコンピューター購入へ"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s07-d1",
+          "type": "article",
+          "segments": [
+            {
+              "id": "m01-p7-s07-d1-g1",
+              "text": "RIVERTON (June 12) — The Riverton Public Library will hold its first Summer Reading Festival on Saturday, June 28, at Castell Park. The free event will feature readings by local authors, a used-book sale, and craft activities for children.",
+              "translationJa": "リバートン（6月12日）— リバートン公立図書館は6月28日（土）、キャステル公園で初めての「夏の読書フェスティバル」を開く。入場無料のこの催しでは、地元作家による朗読、古本市、子ども向けの工作が行われる。"
+            },
+            {
+              "id": "m01-p7-s07-d1-g2",
+              "text": "Library director Felipe Arroyo said the festival was planned in response to a survey conducted last winter. 'Many residents told us they wanted more weekend events for families,' he said. 'Holding the festival in the park gives us space for activities we couldn't offer inside the library.'",
+              "translationJa": "館長のフェリペ・アローヨ氏によると、このフェスティバルは昨冬実施したアンケートを受けて企画された。「家族向けの週末の催しを増やしてほしいという住民の声が多く寄せられました」と同氏は話す。「公園で開くことで、図書館の中ではできなかった活動のための場所が確保できます。」"
+            },
+            {
+              "id": "m01-p7-s07-d1-g3",
+              "text": "Proceeds from the book sale will be used to purchase new computers for the library's study room. Residents who wish to donate books for the sale may drop them off at the library's front desk until June 21. In case of rain, the festival will be moved to the Riverton Community Hall.",
+              "translationJa": "古本市の売上金は、図書館の自習室に新しいコンピューターを購入するために使われる。古本市に本を寄付したい住民は、6月21日まで図書館の受付に持ち込むことができる。雨天の場合、フェスティバルはリバートン・コミュニティホールに会場を移して行われる。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q161",
+          "number": 161,
+          "stem": "Why was the festival organized?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To celebrate the library's anniversary"
+            },
+            {
+              "id": "B",
+              "text": "To respond to residents' requests"
+            },
+            {
+              "id": "C",
+              "text": "To raise money for a new park"
+            },
+            {
+              "id": "D",
+              "text": "To promote a new book by a local author"
+            }
+          ],
+          "answerId": "B",
+          "skill": "理由",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s07-d1-g2",
+              "keyPoint": "the festival was planned in response to a survey ... Many residents told us they wanted more weekend events for families。"
+            }
+          ],
+          "explanationJa": "第2段落で館長は、アンケートで「家族向けの週末の催しを増やしてほしい」という住民の声が多かったため企画したと述べています。住民の要望に応えるためというのが理由です。",
+          "translationJa": {
+            "text": "フェスティバルはなぜ企画されましたか。",
+            "choices": {
+              "A": "図書館の記念日を祝うため",
+              "B": "住民の要望に応えるため",
+              "C": "新しい公園の資金を集めるため",
+              "D": "地元作家の新刊を宣伝するため"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "初めて開くフェスティバルとは書かれていますが、図書館の記念日についての記述はありません。",
+            "B": "アンケートで寄せられた住民の声に応えて企画したという館長の説明と一致します。",
+            "C": "売上金の使い道は図書館のコンピューターで、公園の資金ではありません。公園は会場です。",
+            "D": "地元作家の朗読はありますが、特定の新刊を宣伝する目的は書かれていません。"
+          },
+          "vocabulary": [
+            {
+              "term": "feature",
+              "meaningJa": "（催しの目玉として）〜を呼び物にする"
+            },
+            {
+              "term": "used-book sale",
+              "meaningJa": "古本市"
+            },
+            {
+              "term": "in response to",
+              "meaningJa": "〜に応えて"
+            },
+            {
+              "term": "conduct a survey",
+              "meaningJa": "アンケート調査を行う"
+            }
+          ]
+        },
+        {
+          "id": "m01-q162",
+          "number": 162,
+          "stem": "What will the money from the book sale be used for?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Buying equipment for the library"
+            },
+            {
+              "id": "B",
+              "text": "Repairing the community hall"
+            },
+            {
+              "id": "C",
+              "text": "Paying the authors who give readings"
+            },
+            {
+              "id": "D",
+              "text": "Expanding the children's section"
+            }
+          ],
+          "answerId": "A",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s07-d1-g3",
+              "keyPoint": "Proceeds from the book sale will be used to purchase new computers for the library's study room。"
+            }
+          ],
+          "explanationJa": "第3段落に、古本市の売上金は図書館の自習室用の新しいコンピューターの購入に使われるとあります。computers を equipment（機器）と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "古本市の売上金は何に使われますか。",
+            "choices": {
+              "A": "図書館の機器を購入すること",
+              "B": "コミュニティホールを修理すること",
+              "C": "朗読をする作家に謝礼を払うこと",
+              "D": "児童書コーナーを広げること"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "自習室用のコンピューターを購入するという記述を、図書館の機器と言い換えています。",
+            "B": "コミュニティホールは雨天時の会場として出てくるだけで、修理の話はありません。",
+            "C": "地元作家は朗読をしますが、売上金を謝礼に充てるという記述はありません。",
+            "D": "子ども向けの工作はありますが、児童書コーナーの拡張についての記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "proceeds",
+              "meaningJa": "売上金・収益"
+            },
+            {
+              "term": "purchase",
+              "meaningJa": "購入する"
+            },
+            {
+              "term": "study room",
+              "meaningJa": "自習室"
+            },
+            {
+              "term": "equipment",
+              "meaningJa": "機器・設備"
+            }
+          ]
+        },
+        {
+          "id": "m01-q163",
+          "number": 163,
+          "stem": "What is NOT mentioned as part of the festival?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Activities for young people"
+            },
+            {
+              "id": "B",
+              "text": "A sale of books"
+            },
+            {
+              "id": "C",
+              "text": "Readings by writers"
+            },
+            {
+              "id": "D",
+              "text": "A musical performance"
+            }
+          ],
+          "answerId": "D",
+          "skill": "NOT問題",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s07-d1-g1",
+              "keyPoint": "readings by local authors, a used-book sale, and craft activities for children の3つが挙げられている。音楽の演奏はない。"
+            }
+          ],
+          "explanationJa": "第1段落で催しの内容として挙げられているのは、地元作家の朗読、古本市、子ども向けの工作の3つです。音楽の演奏はどこにも書かれていないので、これが正解です。",
+          "translationJa": {
+            "text": "フェスティバルの内容として述べられていないものはどれですか。",
+            "choices": {
+              "A": "子ども向けの活動",
+              "B": "本の販売",
+              "C": "作家による朗読",
+              "D": "音楽の演奏"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "craft activities for children（子ども向けの工作）が挙げられているので、述べられています。",
+            "B": "a used-book sale（古本市）が挙げられているので、述べられています。",
+            "C": "readings by local authors（地元作家の朗読）が挙げられているので、述べられています。",
+            "D": "音楽の演奏は記事のどこにも出てきません。そのため、これが述べられていないものです。"
+          },
+          "vocabulary": [
+            {
+              "term": "craft activity",
+              "meaningJa": "工作・手芸の活動"
+            },
+            {
+              "term": "reading",
+              "meaningJa": "朗読会"
+            },
+            {
+              "term": "drop off",
+              "meaningJa": "（物を）置いていく・届ける"
+            },
+            {
+              "term": "in case of rain",
+              "meaningJa": "雨天の場合は"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s08",
+      "part": 7,
+      "setting": "ケータリング会社の3人によるオンラインチャット。顧客から昼食の人数変更の依頼が来る。",
+      "factSheet": [
+        {
+          "type": "person",
+          "value": "Mei Kobayashi / Tomas Reyes / Grace Liu / Ines, Carl（金曜に勤務可能なスタッフ）"
+        },
+        {
+          "type": "client",
+          "value": "the Halvorsen Group"
+        },
+        {
+          "type": "number",
+          "value": "40人 → 60人"
+        },
+        {
+          "type": "date",
+          "value": "Friday（昼食）/ Mondays・Wednesdays（通常の青果業者の配達日）/ Thursday（ファーマーズマーケット）"
+        },
+        {
+          "type": "time",
+          "value": "2:05–2:14 P.M."
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s08-d1",
+          "type": "online-chat",
+          "segments": [
+            {
+              "id": "m01-p7-s08-d1-t1",
+              "speaker": "Mei Kobayashi",
+              "time": "2:05 P.M.",
+              "text": "The Halvorsen Group just asked if we can cater their lunch on Friday for 60 people instead of 40.",
+              "translationJa": "ハルヴォルセン・グループから、金曜日の昼食のケータリングを40人ではなく60人分にできるか問い合わせがありました。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t2",
+              "speaker": "Tomas Reyes",
+              "time": "2:06 P.M.",
+              "text": "That's a big change. Do we have enough staff?",
+              "translationJa": "大きな変更ですね。スタッフは足りますか。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t3",
+              "speaker": "Mei Kobayashi",
+              "time": "2:07 P.M.",
+              "text": "I checked the schedule. Ines and Carl are both free that day.",
+              "translationJa": "勤務表を確認しました。その日はイネスとカールが二人とも空いています。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t4",
+              "speaker": "Grace Liu",
+              "time": "2:08 P.M.",
+              "text": "Food is the bigger issue. Our usual produce supplier delivers only on Mondays and Wednesdays.",
+              "translationJa": "むしろ問題は食材です。いつもの青果業者は月曜と水曜にしか配達しません。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t5",
+              "speaker": "Tomas Reyes",
+              "time": "2:10 P.M.",
+              "text": "What about the farmers' market on Thursday?",
+              "translationJa": "木曜日のファーマーズマーケットはどうですか。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t6",
+              "speaker": "Grace Liu",
+              "time": "2:11 P.M.",
+              "text": "That might work. I'll need someone to drive the van, though.",
+              "translationJa": "それならいけるかもしれません。ただ、誰かにバンを運転してもらう必要があります。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t7",
+              "speaker": "Mei Kobayashi",
+              "time": "2:12 P.M.",
+              "text": "Leave that to me.",
+              "translationJa": "それは私に任せてください。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t8",
+              "speaker": "Tomas Reyes",
+              "time": "2:13 P.M.",
+              "text": "Great. Mei, please send the client a revised estimate by the end of the day.",
+              "translationJa": "よかった。メイ、今日中に顧客へ修正した見積もりを送ってください。"
+            },
+            {
+              "id": "m01-p7-s08-d1-t9",
+              "speaker": "Mei Kobayashi",
+              "time": "2:14 P.M.",
+              "text": "Will do. I'll copy you both.",
+              "translationJa": "わかりました。お二人にもCCで送ります。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q164",
+          "number": 164,
+          "stem": "What is the discussion mainly about?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Hiring additional kitchen staff"
+            },
+            {
+              "id": "B",
+              "text": "Responding to a change in a client's order"
+            },
+            {
+              "id": "C",
+              "text": "Choosing a new produce supplier"
+            },
+            {
+              "id": "D",
+              "text": "Planning a lunch for employees"
+            }
+          ],
+          "answerId": "B",
+          "skill": "主題",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s08-d1-t1",
+              "keyPoint": "顧客が昼食の人数を40人から60人に増やせるか尋ねてきた。"
+            },
+            {
+              "ref": "m01-p7-s08-d1-t8",
+              "keyPoint": "最後に顧客へ修正見積もりを送るよう指示。"
+            }
+          ],
+          "explanationJa": "最初の発言で、顧客から昼食の人数を40人から60人に変えられるか問い合わせがあったと伝えています。その後、スタッフや食材の手配、修正見積もりの送付と、変更への対応を話し合っています。",
+          "translationJa": {
+            "text": "この話し合いは主に何についてですか。",
+            "choices": {
+              "A": "厨房スタッフを追加で雇うこと",
+              "B": "顧客の注文変更に対応すること",
+              "C": "新しい青果業者を選ぶこと",
+              "D": "社員向けの昼食を計画すること"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "スタッフについては勤務表で空いている2人がいると確認しただけで、新たに雇う話はしていません。",
+            "B": "顧客からの人数変更の依頼に、人員・食材・見積もりの面から対応しており、話し合い全体の内容と一致します。",
+            "C": "いつもの業者の代わりにファーマーズマーケットを使う案は出ますが、今回の食材の調達方法であり、新しい業者を選ぶ話ではありません。",
+            "D": "昼食は顧客のハルヴォルセン・グループのためのもので、自社の社員向けではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "cater",
+              "meaningJa": "（料理を）仕出しする・ケータリングする"
+            },
+            {
+              "term": "instead of",
+              "meaningJa": "〜の代わりに"
+            },
+            {
+              "term": "free",
+              "meaningJa": "手が空いている"
+            },
+            {
+              "term": "order",
+              "meaningJa": "注文"
+            }
+          ]
+        },
+        {
+          "id": "m01-q165",
+          "number": 165,
+          "stem": "What problem does Ms. Liu mention?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A van needs to be repaired."
+            },
+            {
+              "id": "B",
+              "text": "Two employees are unavailable on Friday."
+            },
+            {
+              "id": "C",
+              "text": "The farmers' market will be closed."
+            },
+            {
+              "id": "D",
+              "text": "A regular supplier does not deliver on the day needed."
+            }
+          ],
+          "answerId": "D",
+          "skill": "詳細",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s08-d1-t4",
+              "keyPoint": "Our usual produce supplier delivers only on Mondays and Wednesdays。金曜の昼食に向けて追加の食材が必要。"
+            }
+          ],
+          "explanationJa": "リウさんは2時8分に「いつもの青果業者は月曜と水曜にしか配達しない」と述べています。金曜の昼食に必要な追加の食材をその業者から受け取れないことが問題です。usual を regular と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "リウさんはどんな問題を述べていますか。",
+            "choices": {
+              "A": "バンを修理する必要がある。",
+              "B": "従業員2人が金曜日に勤務できない。",
+              "C": "ファーマーズマーケットが休みになる。",
+              "D": "いつもの業者が必要な日に配達しない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "バンについては運転する人が必要と言っているだけで、故障の話はありません。",
+            "B": "コバヤシさんは、イネスとカールが金曜日に空いていると述べています。勤務できないのではありません。",
+            "C": "ファーマーズマーケットはリウさんが「いけるかもしれない」と答えた解決策で、休みという記述はありません。",
+            "D": "いつもの青果業者は月曜と水曜しか配達しない、という発言を言い換えています。"
+          },
+          "vocabulary": [
+            {
+              "term": "produce",
+              "meaningJa": "（名詞）青果・農産物"
+            },
+            {
+              "term": "supplier",
+              "meaningJa": "仕入先・供給業者"
+            },
+            {
+              "term": "issue",
+              "meaningJa": "問題・課題"
+            },
+            {
+              "term": "unavailable",
+              "meaningJa": "都合がつかない・手が空いていない"
+            }
+          ]
+        },
+        {
+          "id": "m01-q166",
+          "number": 166,
+          "stem": "At 2:12 P.M., what does Ms. Kobayashi most likely mean when she writes, \"Leave that to me\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "She will call the usual produce supplier."
+            },
+            {
+              "id": "B",
+              "text": "She will update the staff schedule."
+            },
+            {
+              "id": "C",
+              "text": "She will drive the van to the market."
+            },
+            {
+              "id": "D",
+              "text": "She will prepare the food by herself."
+            }
+          ],
+          "answerId": "C",
+          "skill": "意図",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s08-d1-t6",
+              "keyPoint": "直前でリウさんが I'll need someone to drive the van と、バンを運転する人を求めている。"
+            }
+          ],
+          "explanationJa": "直前の2時11分に、リウさんがファーマーズマーケットへ行くには「誰かにバンを運転してもらう必要がある」と言っています。それに対する「それは私に任せて」なので、that はバンの運転を指し、コバヤシさんが運転を引き受けたと考えられます。",
+          "translationJa": {
+            "text": "午後2時12分に、コバヤシさんが「それは私に任せてください」と書いているのは、どういう意味だと考えられますか。",
+            "choices": {
+              "A": "いつもの青果業者に電話する。",
+              "B": "スタッフの勤務表を更新する。",
+              "C": "市場までバンを運転する。",
+              "D": "一人で料理を用意する。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "いつもの業者は金曜に間に合わないので、ファーマーズマーケットを使う方向に話が進んでいます。業者への電話を引き受ける流れではありません。",
+            "B": "勤務表はコバヤシさんがすでに確認済みで、直前の発言は勤務表についてではありません。",
+            "C": "直前でリウさんがバンの運転手を求めており、that がそれを指します。コバヤシさんが運転を引き受けたと読めます。",
+            "D": "料理の準備について誰がやるかという話は出ていません。60人分を一人で用意するという内容も根拠がありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "That might work.",
+              "meaningJa": "それならうまくいくかもしれない。"
+            },
+            {
+              "term": "though",
+              "meaningJa": "（文末で）でも・ただし"
+            },
+            {
+              "term": "Leave that to me.",
+              "meaningJa": "それは私に任せて。"
+            },
+            {
+              "term": "farmers' market",
+              "meaningJa": "農産物の直売市"
+            }
+          ]
+        },
+        {
+          "id": "m01-q167",
+          "number": 167,
+          "stem": "What will Ms. Kobayashi most likely do by the end of the day?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Send a client an updated price quote"
+            },
+            {
+              "id": "B",
+              "text": "Visit the farmers' market"
+            },
+            {
+              "id": "C",
+              "text": "Call Ines and Carl"
+            },
+            {
+              "id": "D",
+              "text": "Cancel an order for Friday"
+            }
+          ],
+          "answerId": "A",
+          "skill": "次の行動",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s08-d1-t8",
+              "keyPoint": "Mei, please send the client a revised estimate by the end of the day。"
+            },
+            {
+              "ref": "m01-p7-s08-d1-t9",
+              "keyPoint": "Will do.（そうします）と引き受けている。"
+            }
+          ],
+          "explanationJa": "2時13分にレイエスさんが「今日中に顧客へ修正した見積もりを送って」と頼み、コバヤシさんは Will do.（そうします）と答えています。revised estimate を updated price quote と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "コバヤシさんは今日中に何をすると考えられますか。",
+            "choices": {
+              "A": "顧客に更新した見積もりを送る",
+              "B": "ファーマーズマーケットに行く",
+              "C": "イネスとカールに電話する",
+              "D": "金曜日の注文を取り消す"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "修正見積もりを今日中に送るよう頼まれ、引き受けています。estimate と quote はどちらも「見積もり」です。",
+            "B": "ファーマーズマーケットは木曜日に行く予定で、今日中の行動ではありません。",
+            "C": "イネスとカールは金曜に空いているスタッフとして名前が出ただけで、電話する話はありません。",
+            "D": "人数変更を引き受ける方向で話がまとまっており、注文を取り消す話ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "revised estimate",
+              "meaningJa": "修正した見積もり"
+            },
+            {
+              "term": "price quote",
+              "meaningJa": "価格の見積もり"
+            },
+            {
+              "term": "by the end of the day",
+              "meaningJa": "今日中に・終業までに"
+            },
+            {
+              "term": "copy",
+              "meaningJa": "（メールで）CCに入れる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s09",
+      "part": 7,
+      "setting": "市の交通局が電気バスを増やす計画についての新聞記事。",
+      "factSheet": [
+        {
+          "type": "organization",
+          "value": "Greenvale Transit（Harmon Street depot）"
+        },
+        {
+          "type": "person",
+          "value": "Anika Sorensen（記者）/ Daniel Okoro（運行管理責任者）"
+        },
+        {
+          "type": "date",
+          "value": "October 7（記事）/ Monday（発表）/ last year（Route 9 で試験運行）/ January（工事開始）/ next summer（運行開始）"
+        },
+        {
+          "type": "number",
+          "value": "24 electric buses / 6 routes / about 30 percent less（燃料・整備費）/ grant 80 percent"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s09-d1",
+          "type": "article",
+          "title": "Greenvale Transit to Expand Electric Bus Fleet",
+          "titleTranslationJa": "グリーンベール交通、電気バスを増車へ",
+          "byline": "By Anika Sorensen",
+          "insertionPoints": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "segments": [
+            {
+              "id": "m01-p7-s09-d1-g1",
+              "text": "GREENVALE (October 7) — Greenvale Transit announced on Monday that it will add 24 electric buses to its fleet over the next two years. The new vehicles will replace older diesel buses on six of the city's busiest routes. — [1] —",
+              "translationJa": "グリーンベール（10月7日）— グリーンベール交通は月曜日、今後2年間で電気バス24台を導入すると発表した。新しい車両は、市内で最も利用者の多い6路線で古いディーゼルバスと入れ替わる。（[1]）"
+            },
+            {
+              "id": "m01-p7-s09-d1-g2",
+              "text": "The transit authority began testing electric buses on Route 9 last year. According to operations manager Daniel Okoro, the test was a success. 'Riders told us the buses were quieter and more comfortable,' he said. 'We also spent about 30 percent less on fuel and maintenance for those vehicles.' — [2] —",
+              "translationJa": "同交通局は昨年、9番系統で電気バスの試験運行を始めた。運行管理責任者のダニエル・オコロ氏によると、試験は成功だったという。「乗客からは、静かで乗り心地がよいという声が寄せられました」と同氏は言う。「また、それらの車両の燃料費と整備費は約30パーセント少なく済みました。」（[2]）"
+            },
+            {
+              "id": "m01-p7-s09-d1-g3",
+              "text": "The purchase will be funded largely by a national grant for clean transportation, which covers 80 percent of the cost. The remaining amount will come from the transit authority's existing budget, so fares will not be raised. — [3] —",
+              "translationJa": "購入費用の大部分は、環境に優しい交通のための国の補助金でまかなわれ、補助金は費用の80パーセントを負担する。残りは交通局の既存の予算から支出されるため、運賃は値上げされない。（[3]）"
+            },
+            {
+              "id": "m01-p7-s09-d1-g4",
+              "text": "To charge the new buses, Greenvale Transit will install charging stations at its Harmon Street depot. Construction is scheduled to begin in January. — [4] — The first of the new buses are expected to enter service next summer.",
+              "translationJa": "新しいバスを充電するため、グリーンベール交通はハーモン通りの車庫に充電設備を設置する。工事は1月に始まる予定だ。（[4]）新しいバスの第1陣は来年の夏に運行を開始する見込みである。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q168",
+          "number": 168,
+          "stem": "What is the article mainly about?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A change in the price of bus fares"
+            },
+            {
+              "id": "B",
+              "text": "A plan to add buses to a city fleet"
+            },
+            {
+              "id": "C",
+              "text": "The opening of a new bus route"
+            },
+            {
+              "id": "D",
+              "text": "The results of a survey of riders"
+            }
+          ],
+          "answerId": "B",
+          "skill": "主題",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s09-d1-g1",
+              "keyPoint": "it will add 24 electric buses to its fleet over the next two years。"
+            }
+          ],
+          "explanationJa": "見出しと第1段落で、交通局が今後2年間で電気バス24台を導入すると伝えています。その後も試験運行の結果、費用の出どころ、充電設備と、導入計画の説明が続きます。add 24 electric buses to its fleet を「バス車両を増やす計画」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "この記事は主に何についてですか。",
+            "choices": {
+              "A": "バス運賃の変更",
+              "B": "市のバス車両を増やす計画",
+              "C": "新しいバス路線の開設",
+              "D": "乗客へのアンケートの結果"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "運賃は「値上げされない」と書かれているだけで、変更の話ではありません。",
+            "B": "電気バス24台を車両に加える計画が、記事全体の主題です。",
+            "C": "新しいバスは既存の6路線で古いバスと入れ替わるもので、新路線の開設ではありません。",
+            "D": "乗客の感想は試験運行の成果として一部紹介されていますが、記事の中心ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "fleet",
+              "meaningJa": "（会社が保有する）全車両"
+            },
+            {
+              "term": "replace",
+              "meaningJa": "〜と入れ替わる・取って代わる"
+            },
+            {
+              "term": "route",
+              "meaningJa": "路線・系統"
+            }
+          ]
+        },
+        {
+          "id": "m01-q169",
+          "number": 169,
+          "stem": "What is suggested about the vehicles tested on Route 9?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "They will be sold to another city."
+            },
+            {
+              "id": "B",
+              "text": "They were purchased with a national grant."
+            },
+            {
+              "id": "C",
+              "text": "They cost less to operate than older buses."
+            },
+            {
+              "id": "D",
+              "text": "They caused delays on the route."
+            }
+          ],
+          "answerId": "C",
+          "skill": "推測",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s09-d1-g2",
+              "keyPoint": "We also spent about 30 percent less on fuel and maintenance for those vehicles。"
+            }
+          ],
+          "explanationJa": "第2段落でオコロ氏は、試験車両の燃料費と整備費が約30パーセント少なく済んだと述べています。従来のバスより運行にかかる費用が少なかったと読み取れるので、cost less to operate が正解です。",
+          "translationJa": {
+            "text": "9番系統で試験された車両について何が示唆されていますか。",
+            "choices": {
+              "A": "別の市に売却される。",
+              "B": "国の補助金で購入された。",
+              "C": "古いバスより運行費用が安い。",
+              "D": "その路線で遅延を引き起こした。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "試験車両を売却するという記述はありません。",
+            "B": "国の補助金が使われるのは、これから導入する24台の購入費用です。試験車両の購入方法は書かれていません。",
+            "C": "燃料費と整備費が約30パーセント少なかったという発言から、運行費用が安いと推測できます。",
+            "D": "試験は成功で、乗客の評価もよかったと書かれています。遅延の記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "transit authority",
+              "meaningJa": "交通局"
+            },
+            {
+              "term": "operations manager",
+              "meaningJa": "運行管理責任者"
+            },
+            {
+              "term": "rider",
+              "meaningJa": "乗客"
+            },
+            {
+              "term": "maintenance",
+              "meaningJa": "整備・保守"
+            }
+          ]
+        },
+        {
+          "id": "m01-q170",
+          "number": 170,
+          "stem": "How will the rest of the cost of the purchase be paid?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Through higher bus fares"
+            },
+            {
+              "id": "B",
+              "text": "By a private company"
+            },
+            {
+              "id": "C",
+              "text": "With a second national grant"
+            },
+            {
+              "id": "D",
+              "text": "From an existing budget"
+            }
+          ],
+          "answerId": "D",
+          "skill": "詳細",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s09-d1-g3",
+              "keyPoint": "The remaining amount will come from the transit authority's existing budget, so fares will not be raised。"
+            }
+          ],
+          "explanationJa": "第3段落に、費用の80パーセントは国の補助金でまかない、残りは交通局の既存の予算から出すとあります。The remaining amount（残りの金額）を設問では the rest of the cost と言い換えています。",
+          "translationJa": {
+            "text": "購入費用の残りはどのように支払われますか。",
+            "choices": {
+              "A": "バス運賃の値上げによって",
+              "B": "民間企業によって",
+              "C": "国からの2つ目の補助金によって",
+              "D": "既存の予算から"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "既存の予算を使うので運賃は値上げされない、と明記されています。",
+            "B": "民間企業が費用を負担するという記述はありません。",
+            "C": "補助金として書かれているのは費用の80パーセントを負担する国の補助金1つだけです。残りに2つ目の補助金を使うという記述はありません。",
+            "D": "残りの費用は交通局の既存の予算（existing budget）から出すという記述と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "be funded by",
+              "meaningJa": "〜で資金をまかなわれる"
+            },
+            {
+              "term": "grant",
+              "meaningJa": "補助金・助成金"
+            },
+            {
+              "term": "remaining amount",
+              "meaningJa": "残りの金額"
+            },
+            {
+              "term": "existing budget",
+              "meaningJa": "既存の予算"
+            },
+            {
+              "term": "fare",
+              "meaningJa": "運賃"
+            }
+          ]
+        },
+        {
+          "id": "m01-q171",
+          "number": 171,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"The work is expected to take about four months.\"",
+          "choices": [
+            {
+              "id": "A",
+              "text": "[1]"
+            },
+            {
+              "id": "B",
+              "text": "[2]"
+            },
+            {
+              "id": "C",
+              "text": "[3]"
+            },
+            {
+              "id": "D",
+              "text": "[4]"
+            }
+          ],
+          "answerId": "D",
+          "skill": "文挿入",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s09-d1-g4",
+              "keyPoint": "直前が Construction is scheduled to begin in January（工事は1月開始）。The work がその工事を指し、期間の説明が続く。"
+            }
+          ],
+          "explanationJa": "挿入文の The work（その工事）は、直前に作業が話題になっていることを前提にしています。[4]の直前に「充電設備の工事は1月に始まる」とあるので、そこに入れると工事の期間を補足できます。1月から約4か月で工事が終わり、来夏に運行が始まるという時間の流れとも合います。",
+          "translationJa": {
+            "text": "[1]、[2]、[3]、[4]のうち、次の文が入るのに最も適切な位置はどこですか。「その工事は約4か月かかる見込みだ。」",
+            "choices": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "[1]の前はバス導入の発表と路線の説明で、工事の話はまだ出ていません。The work が何を指すのかわかりません。",
+            "B": "[2]の前は試験運行についての発言です。The work が試験運行を指すと読めても、試験はすでに終わっていて期間の見込みを述べる流れではありません。",
+            "C": "[3]の前は費用の負担と運賃の話です。工事についてはまだ触れられていません。",
+            "D": "直前の「工事は1月に始まる予定」を The work で受け、所要期間を補足できます。来夏の運行開始へとつながる時間の流れにも合います。"
+          },
+          "vocabulary": [
+            {
+              "term": "charge",
+              "meaningJa": "充電する"
+            },
+            {
+              "term": "charging station",
+              "meaningJa": "充電設備"
+            },
+            {
+              "term": "depot",
+              "meaningJa": "車庫・基地"
+            },
+            {
+              "term": "enter service",
+              "meaningJa": "運行（営業）を開始する"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s10",
+      "part": 7,
+      "setting": "出張する技術者グループの手配担当者が、ホテルに予約の問題を伝えるメール。",
+      "factSheet": [
+        {
+          "type": "person",
+          "value": "Carolyn Fitch（Bellmore Structural Consultants）/ Mr. Haddad（同僚、1日早く到着）"
+        },
+        {
+          "type": "hotel",
+          "value": "Larchmont Inn, Reservations Desk"
+        },
+        {
+          "type": "booking",
+          "value": "booking number 4471 / 8人・2ベッドの部屋4室 / 3階に2室・6階に2室と確認書に記載"
+        },
+        {
+          "type": "date",
+          "value": "November 3（メール）/ November 19–21（会議）/ November 19・20 の夜（会議室）/ November 18（Haddad 到着）"
+        },
+        {
+          "type": "event",
+          "value": "Midstate Engineering Conference"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s10-d1",
+          "type": "email",
+          "header": {
+            "to": "Reservations Desk, Larchmont Inn",
+            "from": "Carolyn Fitch",
+            "date": "November 3",
+            "subject": "Booking 4471"
+          },
+          "headerTranslationJa": "宛先：ラーチモント・イン予約係／差出人：キャロリン・フィッチ／日付：11月3日／件名：予約4471",
+          "segments": [
+            {
+              "id": "m01-p7-s10-d1-g1",
+              "text": "Dear Reservations Manager,",
+              "translationJa": "予約ご担当者様"
+            },
+            {
+              "id": "m01-p7-s10-d1-g2",
+              "text": "I am writing about my reservation (booking number 4471) for a group of eight colleagues attending the Midstate Engineering Conference from November 19 to 21. When I made the booking last month, I requested four rooms with two beds each on the same floor. However, the confirmation I received yesterday lists two of the rooms on the third floor and two on the sixth floor.",
+              "translationJa": "11月19日から21日のミッドステート技術会議に出席する同僚8人の予約（予約番号4471）についてご連絡します。先月予約した際、同じ階にベッドが2つずつある部屋を4室お願いしました。しかし、昨日受け取った確認書では、2室が3階、2室が6階となっています。"
+            },
+            {
+              "id": "m01-p7-s10-d1-g3",
+              "text": "Our team will be meeting each evening to prepare for our presentations, so it is important that we stay close together. If rooms on the same floor are not available, could you suggest another option? I noticed on your Web site that you have a small meeting room that guests can reserve. If it is available on the evenings of November 19 and 20, we would like to book it, and the room locations would then matter less.",
+              "translationJa": "私たちのチームは発表の準備のため毎晩集まるので、近くに泊まることが大切です。同じ階の部屋が空いていない場合、別の方法をご提案いただけますか。御社のウェブサイトで、宿泊客が予約できる小さな会議室があることを知りました。11月19日と20日の夜に空いていれば予約したく、そうすれば部屋の位置はそれほど問題ではなくなります。"
+            },
+            {
+              "id": "m01-p7-s10-d1-g4",
+              "text": "Also, one of my colleagues, Mr. Haddad, will arrive a day early, on November 18. Please add one night to his room if possible, and charge it to the same company account.",
+              "translationJa": "また、同僚のハダッドが1日早く、11月18日に到着します。可能であれば彼の部屋に1泊追加し、同じ会社の口座に請求してください。"
+            },
+            {
+              "id": "m01-p7-s10-d1-g5",
+              "text": "Thank you for your help.\nCarolyn Fitch\nBellmore Structural Consultants",
+              "translationJa": "よろしくお願いいたします。キャロリン・フィッチ　ベルモア構造コンサルタンツ"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q172",
+          "number": 172,
+          "stem": "Why did Ms. Fitch write the e-mail?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To cancel a group booking"
+            },
+            {
+              "id": "B",
+              "text": "To point out a problem with a reservation"
+            },
+            {
+              "id": "C",
+              "text": "To ask about registering for a conference"
+            },
+            {
+              "id": "D",
+              "text": "To complain about the condition of a room"
+            }
+          ],
+          "answerId": "B",
+          "skill": "目的",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s10-d1-g2",
+              "keyPoint": "同じ階の4室を頼んだのに、確認書では3階と6階に分かれていた（However, the confirmation ... lists ...）。"
+            }
+          ],
+          "explanationJa": "第2段落で、同じ階に4室と頼んだのに確認書では3階と6階に分かれていると伝えています。続く段落もその対応を求める内容なので、予約の問題点を指摘することが目的です。",
+          "translationJa": {
+            "text": "フィッチさんはなぜこのメールを書きましたか。",
+            "choices": {
+              "A": "団体予約を取り消すため",
+              "B": "予約の問題点を指摘するため",
+              "C": "会議への登録について尋ねるため",
+              "D": "部屋の状態について苦情を言うため"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "予約を取り消すのではなく、部屋の位置の調整や1泊追加を依頼しています。",
+            "B": "依頼と異なる階に部屋が割り当てられているという予約の問題を伝えています。",
+            "C": "会議は宿泊の目的として出てくるだけで、会議への登録については尋ねていません。",
+            "D": "まだ宿泊しておらず、部屋の状態への苦情ではありません。問題は部屋の階です。"
+          },
+          "vocabulary": [
+            {
+              "term": "reservation",
+              "meaningJa": "予約"
+            },
+            {
+              "term": "confirmation",
+              "meaningJa": "確認書・確認"
+            },
+            {
+              "term": "point out",
+              "meaningJa": "指摘する"
+            },
+            {
+              "term": "complain about",
+              "meaningJa": "〜について苦情を言う"
+            }
+          ]
+        },
+        {
+          "id": "m01-q173",
+          "number": 173,
+          "stem": "What is indicated about Ms. Fitch's colleagues?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "They have stayed at the hotel before."
+            },
+            {
+              "id": "B",
+              "text": "They prefer rooms on the sixth floor."
+            },
+            {
+              "id": "C",
+              "text": "They will give talks at a conference."
+            },
+            {
+              "id": "D",
+              "text": "They will travel to the hotel in December."
+            }
+          ],
+          "answerId": "C",
+          "skill": "内容一致",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s10-d1-g3",
+              "keyPoint": "Our team will be meeting each evening to prepare for our presentations。"
+            },
+            {
+              "ref": "m01-p7-s10-d1-g2",
+              "keyPoint": "同僚は会議に出席する。日程は11月19日〜21日。"
+            }
+          ],
+          "explanationJa": "第3段落に、チームは「発表の準備のため」毎晩集まるとあります。会議に出席し、そこで発表をすると読み取れるので、presentations を talks と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "フィッチさんの同僚について何が述べられていますか。",
+            "choices": {
+              "A": "以前このホテルに泊まったことがある。",
+              "B": "6階の部屋を希望している。",
+              "C": "会議で発表をする。",
+              "D": "12月にホテルへ向かう。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ホテルの会議室はウェブサイトで知ったと書かれており、以前に泊まったという記述はありません。",
+            "B": "6階は確認書に記載された部屋の一部で、希望は「同じ階」であることです。6階を希望したわけではありません。",
+            "C": "発表の準備のために毎晩集まると述べており、会議で発表をすることがわかります。",
+            "D": "会議は11月19日から21日で、ハダッドさんも11月18日に到着します。12月ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "colleague",
+              "meaningJa": "同僚"
+            },
+            {
+              "term": "prepare for",
+              "meaningJa": "〜の準備をする"
+            },
+            {
+              "term": "presentation",
+              "meaningJa": "発表・プレゼンテーション"
+            },
+            {
+              "term": "give a talk",
+              "meaningJa": "講演・発表をする"
+            }
+          ]
+        },
+        {
+          "id": "m01-q174",
+          "number": 174,
+          "stem": "What does Ms. Fitch ask about?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Reserving a space for meetings"
+            },
+            {
+              "id": "B",
+              "text": "Upgrading to larger rooms"
+            },
+            {
+              "id": "C",
+              "text": "Changing the dates of a conference"
+            },
+            {
+              "id": "D",
+              "text": "Arranging transportation from the airport"
+            }
+          ],
+          "answerId": "A",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s10-d1-g3",
+              "keyPoint": "a small meeting room that guests can reserve. If it is available on the evenings of November 19 and 20, we would like to book it。"
+            }
+          ],
+          "explanationJa": "第3段落で、ホテルの小さな会議室が11月19日と20日の夜に空いていれば予約したいと述べています。meeting room を a space for meetings と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "フィッチさんは何について尋ねていますか。",
+            "choices": {
+              "A": "会議用のスペースを予約すること",
+              "B": "より広い部屋に変更すること",
+              "C": "会議の日程を変えること",
+              "D": "空港からの交通手段を手配すること"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "宿泊客が予約できる会議室を、19日と20日の夜に借りたいと尋ねています。",
+            "B": "部屋の広さではなく、部屋の階（位置）が問題になっています。",
+            "C": "会議の日程はホテルが変えられるものではなく、変更を求める記述もありません。",
+            "D": "空港や送迎についての記述はありません。フィッチさんの依頼は、部屋の階の調整、会議室の予約、ハダッドさんの1泊追加の3点です。"
+          },
+          "vocabulary": [
+            {
+              "term": "suggest another option",
+              "meaningJa": "別の案を提案する"
+            },
+            {
+              "term": "reserve",
+              "meaningJa": "予約する"
+            },
+            {
+              "term": "matter less",
+              "meaningJa": "それほど重要でなくなる"
+            },
+            {
+              "term": "upgrade",
+              "meaningJa": "（よりよいものに）変更する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q175",
+          "number": 175,
+          "stem": "What is Mr. Haddad expected to do?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Pay for his room separately"
+            },
+            {
+              "id": "B",
+              "text": "Leave the conference early"
+            },
+            {
+              "id": "C",
+              "text": "Give the group's main presentation"
+            },
+            {
+              "id": "D",
+              "text": "Arrive at the hotel on November 18"
+            }
+          ],
+          "answerId": "D",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s10-d1-g4",
+              "keyPoint": "Mr. Haddad, will arrive a day early, on November 18 ... charge it to the same company account。"
+            }
+          ],
+          "explanationJa": "第4段落に、ハダッドさんは1日早い11月18日に到着するとあります。追加の1泊は同じ会社の口座に請求するよう頼んでいる点も確認しましょう。",
+          "translationJa": {
+            "text": "ハダッドさんは何をする予定ですか。",
+            "choices": {
+              "A": "自分の部屋代を別に支払う",
+              "B": "会議を途中で抜ける",
+              "C": "グループの主な発表をする",
+              "D": "11月18日にホテルに到着する"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "追加の1泊は「同じ会社の口座に請求」するよう頼んでおり、別払いではありません。",
+            "B": "ハダッドさんは早く到着するのであって、早く帰るという記述はありません。",
+            "C": "チーム全体が発表の準備をしますが、ハダッドさんが主な発表をするという記述はありません。",
+            "D": "1日早い11月18日に到着するという記述と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "arrive a day early",
+              "meaningJa": "1日早く到着する"
+            },
+            {
+              "term": "add one night",
+              "meaningJa": "1泊追加する"
+            },
+            {
+              "term": "charge A to B",
+              "meaningJa": "AをBに請求する"
+            },
+            {
+              "term": "separately",
+              "meaningJa": "別々に"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

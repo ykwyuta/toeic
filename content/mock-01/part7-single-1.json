@@ -1,0 +1,1305 @@
+{
+  "part": 7,
+  "sets": [
+    {
+      "setId": "m01-p7-s01",
+      "part": 7,
+      "setting": "テキストメッセージのやり取り。事務所に紙の納品が届き、受け取りの署名を誰がするかを相談する。",
+      "factSheet": [
+        {
+          "type": "person",
+          "value": "Dana Whitfield / Leo Ambrose / Ms. Ferreira（11時まで顧客と会議）"
+        },
+        {
+          "type": "company",
+          "value": "Pinecrest Paper（納品業者）"
+        },
+        {
+          "type": "time",
+          "value": "9:42–9:47 A.M."
+        },
+        {
+          "type": "quantity",
+          "value": "copy paper 12 boxes / toner 4 boxes"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s01-d1",
+          "type": "text-message-chain",
+          "segments": [
+            {
+              "id": "m01-p7-s01-d1-t1",
+              "speaker": "Dana Whitfield",
+              "time": "9:42 A.M.",
+              "text": "Hi, Leo. The delivery truck from Pinecrest Paper just arrived, but the driver says he can't unload until someone signs for the order.",
+              "translationJa": "こんにちは、レオ。パインクレスト・ペーパーの配送トラックが今着いたんだけど、誰かが受け取りの署名をするまで荷降ろしできないと運転手さんが言っているの。"
+            },
+            {
+              "id": "m01-p7-s01-d1-t2",
+              "speaker": "Leo Ambrose",
+              "time": "9:44 A.M.",
+              "text": "I'm still at the dentist. Is Ms. Ferreira in the office?",
+              "translationJa": "まだ歯医者にいるんだ。フェレイラさんは事務所にいる？"
+            },
+            {
+              "id": "m01-p7-s01-d1-t3",
+              "speaker": "Dana Whitfield",
+              "time": "9:45 A.M.",
+              "text": "She's in a client meeting until eleven.",
+              "translationJa": "11時まで顧客と会議中よ。"
+            },
+            {
+              "id": "m01-p7-s01-d1-t4",
+              "speaker": "Leo Ambrose",
+              "time": "9:46 A.M.",
+              "text": "Then you can do it. Just check that there are twelve boxes of copy paper and four boxes of toner.",
+              "translationJa": "じゃあ、君がやっていいよ。コピー用紙が12箱とトナーが4箱あるかだけ確認して。"
+            },
+            {
+              "id": "m01-p7-s01-d1-t5",
+              "speaker": "Dana Whitfield",
+              "time": "9:47 A.M.",
+              "text": "Got it. I'll leave the packing slip on your desk.",
+              "translationJa": "わかった。納品書はあなたの机に置いておくね。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q147",
+          "number": 147,
+          "stem": "What problem does Ms. Whitfield mention?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A shipment is missing some items."
+            },
+            {
+              "id": "B",
+              "text": "A driver needs approval before unloading goods."
+            },
+            {
+              "id": "C",
+              "text": "A client meeting has been canceled."
+            },
+            {
+              "id": "D",
+              "text": "The office has run out of copy paper."
+            }
+          ],
+          "answerId": "B",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s01-d1-t1",
+              "keyPoint": "the driver says he can't unload until someone signs for the order（誰かが署名するまで荷降ろしできない）。"
+            }
+          ],
+          "explanationJa": "ホイットフィールドさんは最初のメッセージで、運転手が「誰かが受け取りの署名をするまで荷降ろしできない」と言っていると伝えています。署名（signs for the order）を approval（承認）と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "ホイットフィールドさんはどんな問題を述べていますか。",
+            "choices": {
+              "A": "配送品の一部が不足している。",
+              "B": "運転手が荷物を降ろす前に承認を必要としている。",
+              "C": "顧客との会議が中止になった。",
+              "D": "事務所のコピー用紙が切れた。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "アンブローズさんは箱の数を確認するよう頼んでいますが、品物が足りないという報告はありません。確認はこれから行う作業です。",
+            "B": "署名がないと荷降ろしできないという状況を、承認が必要と言い換えています。最初のメッセージの内容と一致します。",
+            "C": "フェレイラさんは11時まで顧客と会議中だと述べているだけで、会議は予定どおり行われています。",
+            "D": "コピー用紙は今回届いた品物の一つです。用紙が切れているという記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "unload",
+              "meaningJa": "（荷物を）降ろす"
+            },
+            {
+              "term": "sign for",
+              "meaningJa": "〜の受け取りに署名する"
+            },
+            {
+              "term": "shipment",
+              "meaningJa": "配送品・積み荷"
+            },
+            {
+              "term": "run out of",
+              "meaningJa": "〜を切らす"
+            }
+          ]
+        },
+        {
+          "id": "m01-q148",
+          "number": 148,
+          "stem": "At 9:46 A.M., what does Mr. Ambrose most likely mean when he writes, \"Then you can do it\"?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "He wants Ms. Whitfield to sign for the delivery."
+            },
+            {
+              "id": "B",
+              "text": "He wants Ms. Whitfield to reschedule his appointment."
+            },
+            {
+              "id": "C",
+              "text": "He expects Ms. Ferreira to end her meeting early."
+            },
+            {
+              "id": "D",
+              "text": "He plans to return to the office before eleven."
+            }
+          ],
+          "answerId": "A",
+          "skill": "意図",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s01-d1-t2",
+              "keyPoint": "自分は歯医者にいて、フェレイラさんがいるかを尋ねる＝署名できる人を探している。"
+            },
+            {
+              "ref": "m01-p7-s01-d1-t3",
+              "keyPoint": "フェレイラさんは11時まで会議中で署名できない。"
+            },
+            {
+              "ref": "m01-p7-s01-d1-t4",
+              "keyPoint": "Then you can do it の直後に、箱の数を確認するよう指示している。"
+            }
+          ],
+          "explanationJa": "署名が必要という連絡に対し、アンブローズさんは自分は不在と述べ、フェレイラさんがいるか尋ねます。彼女も11時まで会議中とわかったので「それなら（Then）君がやっていい」と言っています。do it は「受け取りの署名をする」ことで、直後に品数の確認を指示している点も裏づけになります。",
+          "translationJa": {
+            "text": "午前9時46分に、アンブローズさんが「じゃあ、君がやっていいよ」と書いているのは、どういう意味だと考えられますか。",
+            "choices": {
+              "A": "ホイットフィールドさんに配送品の受け取りの署名をしてほしい。",
+              "B": "ホイットフィールドさんに自分の予約を変更してほしい。",
+              "C": "フェレイラさんが会議を早めに終えると思っている。",
+              "D": "11時より前に事務所に戻るつもりである。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "署名できる人として自分もフェレイラさんも無理だとわかった流れで、Then（それなら）とホイットフィールドさんに任せています。do it は署名を指します。",
+            "B": "アンブローズさんが歯医者にいることは述べられていますが、予約の変更を頼む発言はありません。直後の指示も納品物の確認です。",
+            "C": "フェレイラさんは11時まで会議中と伝えられただけです。会議を早く終えることを期待する発言はなく、Then はむしろ彼女を待たない判断を示します。",
+            "D": "戻る時刻についての発言はありません。自分が戻って署名するなら、ホイットフィールドさんに数を確認させる必要もありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "packing slip",
+              "meaningJa": "納品書・梱包明細"
+            },
+            {
+              "term": "toner",
+              "meaningJa": "トナー（印刷用の粉）"
+            },
+            {
+              "term": "Got it.",
+              "meaningJa": "了解しました。"
+            },
+            {
+              "term": "reschedule an appointment",
+              "meaningJa": "予約を変更する"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s02",
+      "part": 7,
+      "setting": "オフィスパークのテナント向け掲示。駐車場の舗装工事に伴う一時的な駐車案内。",
+      "factSheet": [
+        {
+          "type": "place",
+          "value": "Calloway Business Park（north lot 工事 / south lot / Ridley Street の立体駐車場）"
+        },
+        {
+          "type": "date",
+          "value": "Monday, April 14 から5営業日"
+        },
+        {
+          "type": "amount",
+          "value": "garage $8 per day（通常）/ $3（IDカード提示のテナント）"
+        },
+        {
+          "type": "phone",
+          "value": "555-0142（管理事務所）"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s02-d1",
+          "type": "notice",
+          "title": "NOTICE TO TENANTS — Calloway Business Park",
+          "titleTranslationJa": "テナントの皆様へのお知らせ — キャロウェイ・ビジネスパーク",
+          "segments": [
+            {
+              "id": "m01-p7-s02-d1-g1",
+              "text": "Beginning Monday, April 14, the north parking lot will be repaved. The work is expected to take five business days. During this time, tenants and visitors should use the south lot or the parking garage on Ridley Street.",
+              "translationJa": "4月14日（月）から、北側駐車場の舗装工事を行います。工事は5営業日かかる見込みです。この期間中、テナントと来訪者の皆様は南側駐車場、またはリドリー通りの立体駐車場をご利用ください。"
+            },
+            {
+              "id": "m01-p7-s02-d1-g2",
+              "text": "Parking in the garage is normally $8 per day, but tenants who show a Calloway Business Park ID card at the entrance will be charged $3.",
+              "translationJa": "立体駐車場の料金は通常1日8ドルですが、入口でキャロウェイ・ビジネスパークのIDカードを提示したテナントの方は3ドルとなります。"
+            },
+            {
+              "id": "m01-p7-s02-d1-g3",
+              "text": "Questions may be directed to the property management office at 555-0142.",
+              "translationJa": "ご質問は物件管理事務所（555-0142）までお寄せください。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q149",
+          "number": 149,
+          "stem": "What is the purpose of the notice?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To announce a temporary change in parking arrangements"
+            },
+            {
+              "id": "B",
+              "text": "To introduce a new tenant to the business park"
+            },
+            {
+              "id": "C",
+              "text": "To explain a permanent increase in parking fees"
+            },
+            {
+              "id": "D",
+              "text": "To request volunteers for a cleanup event"
+            }
+          ],
+          "answerId": "A",
+          "skill": "目的",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s02-d1-g1",
+              "keyPoint": "北側駐車場の工事が5営業日かかり、その間は南側駐車場か立体駐車場を使うよう案内している。"
+            }
+          ],
+          "explanationJa": "掲示の中心は「北側駐車場を5営業日にわたり工事するので、その間は別の駐車場を使ってほしい」という案内です。期間限定の駐車方法の変更なので、temporary change in parking arrangements が正解です。",
+          "translationJa": {
+            "text": "このお知らせの目的は何ですか。",
+            "choices": {
+              "A": "駐車方法の一時的な変更を知らせること",
+              "B": "ビジネスパークに入居した新しいテナントを紹介すること",
+              "C": "駐車料金の恒久的な値上げを説明すること",
+              "D": "清掃活動のボランティアを募ること"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "工事期間中だけ南側駐車場や立体駐車場を使うよう案内しており、一時的な駐車方法の変更を知らせる内容と一致します。",
+            "B": "tenants（テナント）は掲示の宛先として出てきますが、新しい入居者を紹介する記述はありません。",
+            "C": "立体駐車場の通常料金8ドルは以前からの料金で、テナントには3ドルに割り引かれます。料金を恒久的に上げるという話ではありません。",
+            "D": "工事は業者が行う舗装工事で、ボランティアを募る記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "tenant",
+              "meaningJa": "テナント・入居者"
+            },
+            {
+              "term": "repave",
+              "meaningJa": "舗装し直す"
+            },
+            {
+              "term": "business day",
+              "meaningJa": "営業日"
+            },
+            {
+              "term": "parking arrangements",
+              "meaningJa": "駐車の手配・駐車方法"
+            }
+          ]
+        },
+        {
+          "id": "m01-q150",
+          "number": 150,
+          "stem": "How can tenants receive a reduced parking rate?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "By arriving before 8:00 A.M."
+            },
+            {
+              "id": "B",
+              "text": "By parking in the south lot"
+            },
+            {
+              "id": "C",
+              "text": "By presenting an identification card"
+            },
+            {
+              "id": "D",
+              "text": "By calling the management office in advance"
+            }
+          ],
+          "answerId": "C",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s02-d1-g2",
+              "keyPoint": "tenants who show a Calloway Business Park ID card at the entrance will be charged $3。"
+            }
+          ],
+          "explanationJa": "第2段落に、入口でIDカードを提示したテナントは通常8ドルのところ3ドルになるとあります。show an ID card を present an identification card と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "テナントはどうすれば割引料金で駐車できますか。",
+            "choices": {
+              "A": "午前8時前に到着する",
+              "B": "南側駐車場に止める",
+              "C": "身分証明カードを提示する",
+              "D": "事前に管理事務所に電話する"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "8という数字は通常料金の8ドルに出てきますが、到着時刻による割引は書かれていません。",
+            "B": "南側駐車場は代わりに使える場所として挙げられているだけで、料金や割引の説明はありません。割引は立体駐車場についての説明です。",
+            "C": "入口でIDカードを見せると3ドルになるという記述を言い換えています。",
+            "D": "管理事務所の電話番号は質問の問い合わせ先として示されているだけで、割引の条件ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "reduced rate",
+              "meaningJa": "割引料金"
+            },
+            {
+              "term": "be charged",
+              "meaningJa": "（料金を）請求される"
+            },
+            {
+              "term": "present",
+              "meaningJa": "提示する"
+            },
+            {
+              "term": "direct A to B",
+              "meaningJa": "AをBに向ける（問い合わせる）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s03",
+      "part": 7,
+      "setting": "保険会社の研修担当者が新入社員にオリエンテーションの予定を知らせるメール。",
+      "factSheet": [
+        {
+          "type": "company",
+          "value": "Quillfield Insurance"
+        },
+        {
+          "type": "person",
+          "value": "Gerald Mbeki（Training Coordinator）"
+        },
+        {
+          "type": "date",
+          "value": "September 2（送信）/ Wednesday, September 10（オリエンテーション）/ September 5（欠席連絡の期限）"
+        },
+        {
+          "type": "time",
+          "value": "9:00–12:00（会社方針・福利厚生）/ 昼食（会社提供）/ 1:00–3:00（部署の上司と面会）"
+        },
+        {
+          "type": "place",
+          "value": "Birch Room, second floor"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s03-d1",
+          "type": "email",
+          "header": {
+            "to": "New employees list",
+            "from": "Gerald Mbeki, Training Coordinator",
+            "date": "September 2",
+            "subject": "Orientation schedule"
+          },
+          "headerTranslationJa": "宛先：新入社員一覧／差出人：ジェラルド・ムベキ（研修担当）／日付：9月2日／件名：オリエンテーションの予定",
+          "segments": [
+            {
+              "id": "m01-p7-s03-d1-g1",
+              "text": "Welcome to Quillfield Insurance! Your orientation will take place on Wednesday, September 10, in the Birch Room on the second floor. The morning session, from 9:00 to 12:00, covers company policies and benefits. After lunch, which will be provided, you will meet your department supervisors from 1:00 to 3:00.",
+              "translationJa": "クイルフィールド保険へようこそ。オリエンテーションは9月10日（水）、2階のバーチルームで行います。午前の部（9時〜12時）では会社の方針と福利厚生を扱います。昼食（会社で用意します）の後、1時から3時まで各部署の上司と顔を合わせます。"
+            },
+            {
+              "id": "m01-p7-s03-d1-g2",
+              "text": "Please bring a photo ID so that we can issue your building pass. If you cannot attend, let me know by September 5 so that I can arrange an alternative date.",
+              "translationJa": "入館証を発行しますので、写真付きの身分証明書をお持ちください。出席できない場合は、別の日程を手配しますので9月5日までにご連絡ください。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q151",
+          "number": 151,
+          "stem": "What will new employees do in the afternoon?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Take a tour of the building"
+            },
+            {
+              "id": "B",
+              "text": "Meet the people they will report to"
+            },
+            {
+              "id": "C",
+              "text": "Fill out forms for their benefits"
+            },
+            {
+              "id": "D",
+              "text": "Have their photographs taken"
+            }
+          ],
+          "answerId": "B",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s03-d1-g1",
+              "keyPoint": "After lunch ... you will meet your department supervisors from 1:00 to 3:00。"
+            }
+          ],
+          "explanationJa": "昼食の後（After lunch）、1時から3時まで部署の上司（department supervisors）と会うと書かれています。supervisors を「自分が報告する相手（the people they will report to）」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "新入社員は午後に何をしますか。",
+            "choices": {
+              "A": "建物を見学する",
+              "B": "自分の上司となる人たちに会う",
+              "C": "福利厚生の書類に記入する",
+              "D": "写真を撮ってもらう"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "building pass（入館証）は発行されますが、建物の見学については書かれていません。",
+            "B": "午後の予定である「部署の上司と会う」を言い換えています。report to は「〜の部下である・〜に報告する」です。",
+            "C": "benefits（福利厚生）は午前の部で扱う内容で、書類への記入とも書かれていません。",
+            "D": "photo ID（写真付き身分証）は持参するもので、写真を撮る予定は書かれていません。"
+          },
+          "vocabulary": [
+            {
+              "term": "orientation",
+              "meaningJa": "新人研修・オリエンテーション"
+            },
+            {
+              "term": "benefits",
+              "meaningJa": "福利厚生"
+            },
+            {
+              "term": "supervisor",
+              "meaningJa": "上司・監督者"
+            },
+            {
+              "term": "report to",
+              "meaningJa": "〜の指揮下にある・〜に報告する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q152",
+          "number": 152,
+          "stem": "Why should employees contact Mr. Mbeki by September 5?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To request a parking space"
+            },
+            {
+              "id": "B",
+              "text": "To order a special lunch"
+            },
+            {
+              "id": "C",
+              "text": "To attend the orientation on a different day"
+            },
+            {
+              "id": "D",
+              "text": "To receive a temporary building pass"
+            }
+          ],
+          "answerId": "C",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s03-d1-g2",
+              "keyPoint": "If you cannot attend, let me know by September 5 so that I can arrange an alternative date。"
+            }
+          ],
+          "explanationJa": "第2段落に「出席できない場合は、別の日程を手配するので9月5日までに知らせてほしい」とあります。連絡の目的は別の日にオリエンテーションを受けることです。",
+          "translationJa": {
+            "text": "社員はなぜ9月5日までにムベキさんに連絡する必要があるのですか。",
+            "choices": {
+              "A": "駐車スペースを申し込むため",
+              "B": "特別な昼食を注文するため",
+              "C": "別の日にオリエンテーションに参加するため",
+              "D": "仮の入館証を受け取るため"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "駐車スペースについてはメールに書かれていません。",
+            "B": "昼食は会社が用意すると書かれていますが、注文のために連絡するという記述はありません。",
+            "C": "出席できない人は9月5日までに連絡すれば別の日程を手配してもらえる、という内容と一致します。",
+            "D": "入館証はオリエンテーション当日に写真付き身分証を持参して発行されます。9月5日までの連絡とは関係ありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "photo ID",
+              "meaningJa": "写真付き身分証明書"
+            },
+            {
+              "term": "issue",
+              "meaningJa": "発行する"
+            },
+            {
+              "term": "building pass",
+              "meaningJa": "入館証"
+            },
+            {
+              "term": "alternative date",
+              "meaningJa": "代わりの日程"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s04",
+      "part": 7,
+      "setting": "湾内の夕方クルーズの広告。",
+      "factSheet": [
+        {
+          "type": "service",
+          "value": "Harbor Lights Evening Cruise / 船名 Silver Tern"
+        },
+        {
+          "type": "place",
+          "value": "Cobalt Bay / Pier 6"
+        },
+        {
+          "type": "time",
+          "value": "7:00 P.M. 出航、2時間、Thursday–Sunday、May–September"
+        },
+        {
+          "type": "amount",
+          "value": "$65 per adult / $30 per child under 12 / 10人以上で10% off（1週間前までにオンライン予約）"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s04-d1",
+          "type": "advertisement",
+          "title": "Harbor Lights Evening Cruise",
+          "titleTranslationJa": "ハーバー・ライツ・イブニングクルーズ",
+          "segments": [
+            {
+              "id": "m01-p7-s04-d1-g1",
+              "text": "Enjoy a two-hour cruise around Cobalt Bay aboard the Silver Tern. Cruises depart from Pier 6 at 7:00 P.M. every Thursday through Sunday from May to September.",
+              "translationJa": "シルバー・ターン号に乗って、コバルト湾を巡る2時間のクルーズをお楽しみください。5月から9月の毎週木曜日から日曜日まで、午後7時に6番桟橋から出航します。"
+            },
+            {
+              "id": "m01-p7-s04-d1-g2",
+              "text": "A buffet dinner is included in the ticket price of $65 per adult and $30 per child under 12. Groups of ten or more receive a 10 percent discount when booking online at least one week in advance.",
+              "translationJa": "チケット料金（大人65ドル、12歳未満の子ども30ドル）にはビュッフェ形式の夕食が含まれます。10人以上の団体は、1週間以上前にオンラインで予約すると10パーセント割引になります。"
+            },
+            {
+              "id": "m01-p7-s04-d1-g3",
+              "text": "Please note that cruises may be canceled in the event of severe weather; in that case, passengers will receive a full refund.",
+              "translationJa": "悪天候の場合はクルーズが中止になることがあります。その場合、乗客には全額が返金されます。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q153",
+          "number": 153,
+          "stem": "What is included in the price of a ticket?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Parking at the pier"
+            },
+            {
+              "id": "B",
+              "text": "A meal"
+            },
+            {
+              "id": "C",
+              "text": "A souvenir photograph"
+            },
+            {
+              "id": "D",
+              "text": "Transportation from a hotel"
+            }
+          ],
+          "answerId": "B",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s04-d1-g2",
+              "keyPoint": "A buffet dinner is included in the ticket price。"
+            }
+          ],
+          "explanationJa": "第2段落に「ビュッフェ形式の夕食がチケット料金に含まれる」とあります。buffet dinner を A meal（食事）と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "チケット料金には何が含まれていますか。",
+            "choices": {
+              "A": "桟橋での駐車",
+              "B": "食事",
+              "C": "記念写真",
+              "D": "ホテルからの送迎"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "Pier 6 は出航場所として出てきますが、駐車についての記述はありません。",
+            "B": "buffet dinner（ビュッフェの夕食）が料金に含まれるという記述を言い換えています。",
+            "C": "souvenir photograph（記念写真）は広告に出てきません。料金に含まれると書かれているのはビュッフェの夕食だけです。",
+            "D": "ホテルからの送迎についての記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "aboard",
+              "meaningJa": "（船などに）乗って"
+            },
+            {
+              "term": "depart from",
+              "meaningJa": "〜から出発する"
+            },
+            {
+              "term": "pier",
+              "meaningJa": "桟橋"
+            },
+            {
+              "term": "be included in",
+              "meaningJa": "〜に含まれる"
+            }
+          ]
+        },
+        {
+          "id": "m01-q154",
+          "number": 154,
+          "stem": "What is indicated about the cruise?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It operates every day of the week."
+            },
+            {
+              "id": "B",
+              "text": "It lasts approximately three hours."
+            },
+            {
+              "id": "C",
+              "text": "Group discounts require booking ahead of time."
+            },
+            {
+              "id": "D",
+              "text": "Tickets cannot be refunded under any circumstances."
+            }
+          ],
+          "answerId": "C",
+          "skill": "内容一致",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s04-d1-g2",
+              "keyPoint": "Groups of ten or more receive a 10 percent discount when booking online at least one week in advance。"
+            },
+            {
+              "ref": "m01-p7-s04-d1-g1",
+              "keyPoint": "運航は木曜〜日曜、所要2時間。"
+            },
+            {
+              "ref": "m01-p7-s04-d1-g3",
+              "keyPoint": "悪天候で中止の場合は全額返金。"
+            }
+          ],
+          "explanationJa": "団体割引は「1週間以上前にオンラインで予約した場合」に受けられます。in advance を ahead of time と言い換えた選択肢が正解です。他の選択肢は運航日、所要時間、返金について本文と食い違います。",
+          "translationJa": {
+            "text": "クルーズについて何が述べられていますか。",
+            "choices": {
+              "A": "毎日運航している。",
+              "B": "所要時間は約3時間である。",
+              "C": "団体割引を受けるには事前の予約が必要である。",
+              "D": "チケットはいかなる場合も返金されない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "運航は毎週木曜日から日曜日までで、毎日ではありません。",
+            "B": "クルーズは two-hour（2時間）と書かれています。",
+            "C": "10人以上の団体が1週間以上前にオンライン予約すると割引になる、という条件と一致します。",
+            "D": "悪天候で中止になった場合は全額返金されると書かれており、矛盾します。"
+          },
+          "vocabulary": [
+            {
+              "term": "in advance",
+              "meaningJa": "前もって（= ahead of time）"
+            },
+            {
+              "term": "in the event of",
+              "meaningJa": "〜の場合には"
+            },
+            {
+              "term": "severe weather",
+              "meaningJa": "悪天候"
+            },
+            {
+              "term": "under any circumstances",
+              "meaningJa": "いかなる場合でも"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s05",
+      "part": 7,
+      "setting": "経理部から営業部員への社内メモ。新しいオンライン経費精算システムの導入。",
+      "factSheet": [
+        {
+          "type": "person",
+          "value": "Hannah Osei（Finance Department）"
+        },
+        {
+          "type": "system",
+          "value": "Trackwell（オンライン経費精算）"
+        },
+        {
+          "type": "date",
+          "value": "February 18（メモ）/ March 1（導入、紙の用紙受付終了）/ 毎月25日（締め）/ February 24・26 at 3:00 P.M.（研修）"
+        },
+        {
+          "type": "place",
+          "value": "Conference Room B / company intranet（録画）"
+        },
+        {
+          "type": "time",
+          "value": "about forty-five minutes（研修の長さ）"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s05-d1",
+          "type": "memo",
+          "header": {
+            "to": "All Sales Staff",
+            "from": "Hannah Osei, Finance Department",
+            "date": "February 18",
+            "subject": "New expense reporting system"
+          },
+          "headerTranslationJa": "宛先：営業部員各位／差出人：ハンナ・オセイ（経理部）／日付：2月18日／件名：新しい経費報告システム",
+          "insertionPoints": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "segments": [
+            {
+              "id": "m01-p7-s05-d1-g1",
+              "text": "Starting March 1, all travel and meal expenses must be submitted through Trackwell, our new online expense system. — [1] — Paper forms will no longer be accepted after that date.",
+              "translationJa": "3月1日から、出張費と食事代はすべて新しいオンライン経費システム「トラックウェル」で申請しなければなりません。（[1]）同日以降、紙の用紙は受け付けません。"
+            },
+            {
+              "id": "m01-p7-s05-d1-g2",
+              "text": "Trackwell allows you to photograph receipts with your phone and attach them directly to your report. — [2] — Reports submitted by the 25th of each month will be reimbursed in the following month's first paycheck.",
+              "translationJa": "トラックウェルでは、領収書をスマートフォンで撮影し、そのまま報告書に添付できます。（[2]）毎月25日までに提出された報告書は、翌月最初の給与で精算されます。"
+            },
+            {
+              "id": "m01-p7-s05-d1-g3",
+              "text": "Two training sessions will be held in Conference Room B on February 24 and February 26, both at 3:00 P.M. — [3] — Each session will last about forty-five minutes. If you are unable to attend either session, a recorded video will be available on the company intranet. — [4] —",
+              "translationJa": "研修会を2月24日と2月26日に、いずれも午後3時から会議室Bで行います。（[3]）各回の所要時間は約45分です。どちらの回にも出席できない場合は、社内イントラネットで録画を視聴できます。（[4]）"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q155",
+          "number": 155,
+          "stem": "What is the purpose of the memo?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To announce a change in how expenses are reported"
+            },
+            {
+              "id": "B",
+              "text": "To remind staff of a policy on business travel"
+            },
+            {
+              "id": "C",
+              "text": "To introduce a new manager in the Finance Department"
+            },
+            {
+              "id": "D",
+              "text": "To request feedback on a software program"
+            }
+          ],
+          "answerId": "A",
+          "skill": "目的",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s05-d1-g1",
+              "keyPoint": "3月1日から経費はすべて新システムで提出し、紙の用紙は受け付けない。"
+            }
+          ],
+          "explanationJa": "冒頭で、3月1日から経費は新しいオンラインシステムで提出し、紙の用紙は廃止すると知らせています。その後の段落も使い方と研修の案内です。経費の報告方法が変わることを知らせるのが目的です。",
+          "translationJa": {
+            "text": "このメモの目的は何ですか。",
+            "choices": {
+              "A": "経費の報告方法の変更を知らせること",
+              "B": "出張に関する規定を職員に再確認させること",
+              "C": "経理部の新しい責任者を紹介すること",
+              "D": "ソフトウェアについての意見を求めること"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "紙の用紙からオンラインシステムへ経費の提出方法が変わることを知らせており、メモ全体の内容と一致します。",
+            "B": "travel expenses（出張費）は出てきますが、出張そのものの規定を再確認する内容ではありません。変わるのは提出方法です。",
+            "C": "ハンナ・オセイさんは差出人ですが、新しい責任者として紹介されてはいません。",
+            "D": "ソフトウェアの使い方や研修の案内はありますが、意見を求める記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "expense",
+              "meaningJa": "経費"
+            },
+            {
+              "term": "submit A through B",
+              "meaningJa": "AをBを通じて提出する"
+            },
+            {
+              "term": "no longer",
+              "meaningJa": "もはや〜ない"
+            },
+            {
+              "term": "remind A of B",
+              "meaningJa": "AにBを思い出させる"
+            }
+          ]
+        },
+        {
+          "id": "m01-q156",
+          "number": 156,
+          "stem": "According to the memo, what can employees do with Trackwell?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Book flights for business trips"
+            },
+            {
+              "id": "B",
+              "text": "Use a mobile phone to submit receipts"
+            },
+            {
+              "id": "C",
+              "text": "Receive reimbursements every week"
+            },
+            {
+              "id": "D",
+              "text": "Update their payroll information"
+            }
+          ],
+          "answerId": "B",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s05-d1-g2",
+              "keyPoint": "Trackwell allows you to photograph receipts with your phone and attach them directly to your report。"
+            }
+          ],
+          "explanationJa": "第2段落に、トラックウェルではスマートフォンで領収書を撮影し、報告書に直接添付できるとあります。「携帯電話を使って領収書を提出できる」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "メモによると、社員はトラックウェルで何ができますか。",
+            "choices": {
+              "A": "出張の航空券を予約する",
+              "B": "携帯電話を使って領収書を提出する",
+              "C": "毎週精算金を受け取る",
+              "D": "給与情報を更新する"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "トラックウェルは経費の申請システムで、航空券の予約機能については書かれていません。",
+            "B": "スマートフォンで領収書を撮影して報告書に添付できるという記述を言い換えています。",
+            "C": "精算は毎月25日締めで、翌月最初の給与で支払われます。毎週ではありません。",
+            "D": "paycheck（給与）は精算の支払い時期として出てくるだけで、給与情報を更新する機能は書かれていません。"
+          },
+          "vocabulary": [
+            {
+              "term": "photograph",
+              "meaningJa": "（動詞）撮影する"
+            },
+            {
+              "term": "receipt",
+              "meaningJa": "領収書"
+            },
+            {
+              "term": "attach",
+              "meaningJa": "添付する"
+            },
+            {
+              "term": "reimburse",
+              "meaningJa": "（立て替えた費用を）払い戻す"
+            },
+            {
+              "term": "paycheck",
+              "meaningJa": "給与（の支払い）"
+            }
+          ]
+        },
+        {
+          "id": "m01-q157",
+          "number": 157,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Once a receipt has been uploaded in this way, the paper copy may be discarded.\"",
+          "choices": [
+            {
+              "id": "A",
+              "text": "[1]"
+            },
+            {
+              "id": "B",
+              "text": "[2]"
+            },
+            {
+              "id": "C",
+              "text": "[3]"
+            },
+            {
+              "id": "D",
+              "text": "[4]"
+            }
+          ],
+          "answerId": "B",
+          "skill": "文挿入",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s05-d1-g2",
+              "keyPoint": "直前の文が「領収書をスマートフォンで撮影して報告書に添付できる」。in this way がこのアップロード方法を指す。"
+            }
+          ],
+          "explanationJa": "挿入文の in this way（このようにして）と a receipt has been uploaded（領収書がアップロードされた）は、「スマートフォンで撮影して報告書に添付する」方法を指しています。その説明の直後である[2]に入れると、アップロード後に紙の原本を処分できるという補足として自然につながります。",
+          "translationJa": {
+            "text": "[1]、[2]、[3]、[4]のうち、次の文が入るのに最も適切な位置はどこですか。「このようにアップロードした領収書の紙の原本は処分してかまいません。」",
+            "choices": {
+              "A": "[1]",
+              "B": "[2]",
+              "C": "[3]",
+              "D": "[4]"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "[1]の前はシステムの導入日と名前の紹介だけで、領収書のアップロード方法はまだ説明されていません。in this way が指す内容がありません。",
+            "B": "直前で領収書を撮影して添付する方法が説明されており、in this way がそれを指します。アップロード後の紙の扱いという補足として自然です。",
+            "C": "[3]の前後は研修会の日時と所要時間の説明です。領収書の扱いの話が入ると流れが途切れます。",
+            "D": "[4]は録画の視聴方法の後で、メモの最後です。領収書のアップロード方法から離れており、in this way が録画視聴を指すことになって意味が通りません。"
+          },
+          "vocabulary": [
+            {
+              "term": "once S V",
+              "meaningJa": "いったんSがVすれば"
+            },
+            {
+              "term": "upload",
+              "meaningJa": "アップロードする"
+            },
+            {
+              "term": "in this way",
+              "meaningJa": "このようにして"
+            },
+            {
+              "term": "discard",
+              "meaningJa": "処分する・捨てる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s06",
+      "part": 7,
+      "setting": "工具レンタル店のウェブサイトのよくある質問。",
+      "factSheet": [
+        {
+          "type": "business",
+          "value": "Fernhill Tool Rental（Kessler Road store）"
+        },
+        {
+          "type": "rental",
+          "value": "half day（4時間）/ full day / week。floor sanders・pressure washers は full day か week のみ"
+        },
+        {
+          "type": "amount",
+          "value": "deposit $50（通常）/ $150（大型）/ delivery $25 each way（15マイル以内、24時間前までに注文）"
+        },
+        {
+          "type": "rule",
+          "value": "延滞は時間料金、上限は1日分"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s06-d1",
+          "type": "web-page",
+          "title": "Fernhill Tool Rental — Frequently Asked Questions",
+          "titleTranslationJa": "ファーンヒル工具レンタル — よくある質問",
+          "segments": [
+            {
+              "id": "m01-p7-s06-d1-g1",
+              "text": "How long can I rent equipment?\nMost tools can be rented by the half day (four hours), full day, or week. Large items such as floor sanders and pressure washers are available by the full day or week only.",
+              "translationJa": "どのくらいの期間レンタルできますか。\nほとんどの工具は半日（4時間）、1日、1週間単位でレンタルできます。床用研磨機や高圧洗浄機などの大型機器は、1日または1週間単位のみのレンタルです。"
+            },
+            {
+              "id": "m01-p7-s06-d1-g2",
+              "text": "Do I need to pay a deposit?\nYes. A refundable deposit of $50 is required for all rentals. For large items, the deposit is $150. Deposits are returned when the equipment is brought back clean and undamaged.",
+              "translationJa": "保証金は必要ですか。\nはい。すべてのレンタルに、返金可能な50ドルの保証金が必要です。大型機器の保証金は150ドルです。保証金は、機器が汚れや損傷のない状態で返却されたときに返金されます。"
+            },
+            {
+              "id": "m01-p7-s06-d1-g3",
+              "text": "Can equipment be delivered?\nDelivery is available within 15 miles of our Kessler Road store for a fee of $25 each way. Orders for delivery must be placed at least 24 hours in advance.",
+              "translationJa": "機器を配達してもらえますか。\nケスラー通り店から15マイル以内であれば、片道25ドルで配達します。配達の注文は少なくとも24時間前までにお願いします。"
+            },
+            {
+              "id": "m01-p7-s06-d1-g4",
+              "text": "What if I return an item late?\nLate returns are charged at the hourly rate of the item, up to the cost of one additional day.",
+              "translationJa": "返却が遅れた場合はどうなりますか。\n返却の遅れには、その機器の時間料金が課されます。上限は1日分の追加料金です。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q158",
+          "number": 158,
+          "stem": "What is indicated about pressure washers?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "They require a $50 deposit."
+            },
+            {
+              "id": "B",
+              "text": "They are delivered free of charge."
+            },
+            {
+              "id": "C",
+              "text": "They are sold as well as rented."
+            },
+            {
+              "id": "D",
+              "text": "They cannot be rented for just a few hours."
+            }
+          ],
+          "answerId": "D",
+          "skill": "内容一致",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s06-d1-g1",
+              "keyPoint": "pressure washers are available by the full day or week only（1日か1週間単位のみ）。半日＝4時間のレンタルはできない。"
+            },
+            {
+              "ref": "m01-p7-s06-d1-g2",
+              "keyPoint": "大型機器の保証金は150ドル。"
+            }
+          ],
+          "explanationJa": "第1段落に、高圧洗浄機などの大型機器は1日または1週間単位のみとあります。つまり半日（4時間）のレンタルはできません。これを「数時間だけ借りることはできない」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "高圧洗浄機について何が述べられていますか。",
+            "choices": {
+              "A": "50ドルの保証金が必要である。",
+              "B": "無料で配達される。",
+              "C": "レンタルだけでなく販売もされている。",
+              "D": "数時間だけ借りることはできない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "50ドルは通常の工具の保証金です。高圧洗浄機のような大型機器は150ドルと書かれています。",
+            "B": "配達は片道25ドルの有料で、大型機器を無料にするという記述はありません。",
+            "C": "販売についての記述はありません。ページはレンタルに関する質問だけを扱っています。",
+            "D": "大型機器は1日か1週間単位のみで、半日（4時間）では借りられないという記述と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "rent",
+              "meaningJa": "賃借する・レンタルする"
+            },
+            {
+              "term": "floor sander",
+              "meaningJa": "床用研磨機"
+            },
+            {
+              "term": "pressure washer",
+              "meaningJa": "高圧洗浄機"
+            },
+            {
+              "term": "by the day / week",
+              "meaningJa": "1日（1週間）単位で"
+            }
+          ]
+        },
+        {
+          "id": "m01-q159",
+          "number": 159,
+          "stem": "What is required for a delivery?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A minimum rental period of one week"
+            },
+            {
+              "id": "B",
+              "text": "A deposit of $150"
+            },
+            {
+              "id": "C",
+              "text": "An address within five miles of the store"
+            },
+            {
+              "id": "D",
+              "text": "An order placed at least a day ahead"
+            }
+          ],
+          "answerId": "D",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s06-d1-g3",
+              "keyPoint": "Orders for delivery must be placed at least 24 hours in advance。"
+            }
+          ],
+          "explanationJa": "配達についての段落に、注文は少なくとも24時間前までに行う必要があるとあります。24 hours を a day（1日）と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "配達には何が必要ですか。",
+            "choices": {
+              "A": "最低1週間のレンタル期間",
+              "B": "150ドルの保証金",
+              "C": "店から5マイル以内の住所",
+              "D": "少なくとも1日前までの注文"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "1週間はレンタル期間の単位の一つですが、配達の条件ではありません。",
+            "B": "150ドルは大型機器の保証金で、配達とは関係ない条件です。",
+            "C": "配達できる範囲は店から15マイル以内で、5マイルではありません。",
+            "D": "配達の注文は少なくとも24時間前までという条件と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "deposit",
+              "meaningJa": "保証金・預かり金"
+            },
+            {
+              "term": "refundable",
+              "meaningJa": "返金可能な"
+            },
+            {
+              "term": "each way",
+              "meaningJa": "片道につき"
+            },
+            {
+              "term": "place an order",
+              "meaningJa": "注文する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q160",
+          "number": 160,
+          "stem": "What happens if a customer returns an item late?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The customer's deposit is kept by the store."
+            },
+            {
+              "id": "B",
+              "text": "The customer is charged for a full week."
+            },
+            {
+              "id": "C",
+              "text": "An additional fee is charged by the hour."
+            },
+            {
+              "id": "D",
+              "text": "The customer can no longer rent from the store."
+            }
+          ],
+          "answerId": "C",
+          "skill": "詳細",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s06-d1-g4",
+              "keyPoint": "Late returns are charged at the hourly rate of the item, up to the cost of one additional day。"
+            },
+            {
+              "ref": "m01-p7-s06-d1-g2",
+              "keyPoint": "保証金が返金されないのは汚れや損傷がある場合。"
+            }
+          ],
+          "explanationJa": "最後の段落に、返却が遅れた場合はその機器の時間料金が課され、上限は1日分とあります。「時間単位で追加料金がかかる」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "客が返却に遅れた場合はどうなりますか。",
+            "choices": {
+              "A": "客の保証金が店に没収される。",
+              "B": "1週間分の料金が請求される。",
+              "C": "時間単位で追加料金が請求される。",
+              "D": "その店でレンタルできなくなる。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "保証金の返金条件は「汚れや損傷がないこと」で、遅延で没収されるという記述はありません。",
+            "B": "追加料金の上限は one additional day（1日分）で、1週間分ではありません。",
+            "C": "遅延には時間料金（hourly rate）が課されるという記述を言い換えています。",
+            "D": "今後のレンタルを禁止するという記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "late return",
+              "meaningJa": "返却の遅れ"
+            },
+            {
+              "term": "hourly rate",
+              "meaningJa": "時間料金"
+            },
+            {
+              "term": "up to",
+              "meaningJa": "最大〜まで"
+            },
+            {
+              "term": "by the hour",
+              "meaningJa": "1時間単位で"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

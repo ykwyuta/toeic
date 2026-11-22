@@ -1,0 +1,643 @@
+{
+  "part": 6,
+  "sets": [
+    {
+      "setId": "m01-p6-s1",
+      "part": 6,
+      "setting": "社内メール。家具会社の設備担当が新オフィスへの移転準備を全社員に連絡する。",
+      "factSheet": [
+        {"type": "company", "value": "Tessaly Furnishings"},
+        {"type": "person", "value": "Priya Raman (Facilities Manager)"},
+        {"type": "place", "value": "48 Garnet Street（新オフィス）"},
+        {"type": "date", "value": "May 26（送信日）/ Thursday（資材の配布開始）/ Friday, June 6（休業）/ Monday, June 9（移転）"},
+        {"type": "number", "value": "extension 214"}
+      ],
+      "passages": [
+        {
+          "id": "m01-p6-s1-d1",
+          "type": "email",
+          "header": {"to": "All staff", "from": "Priya Raman, Facilities Manager", "date": "May 26", "subject": "Office move"},
+          "headerTranslationJa": "宛先：全社員／差出人：プリヤ・ラマン（設備管理責任者）／日付：5月26日／件名：オフィス移転",
+          "segments": [
+            {"id": "m01-p6-s1-d1-g1", "text": "Dear colleagues,", "translationJa": "社員の皆さん"},
+            {"id": "m01-p6-s1-d1-g2", "text": "As you know, Tessaly Furnishings will move to its new office at 48 Garnet Street on Monday, June 9. Movers will pack the shared equipment, but each employee is (131) _____ for packing the items at his or her own desk.", "translationJa": "ご存じのとおり、テッサリー・ファーニシングスは6月9日（月）にガーネット通り48番地の新オフィスへ移転します。共用の備品は引っ越し業者が梱包しますが、自分の机にある物の梱包は各社員の責任となります。"},
+            {"id": "m01-p6-s1-d1-g3", "text": "Boxes and labels (132) _____ in the supply room starting this Thursday. Please write your name and new desk number on every box. (133) _____", "translationJa": "段ボール箱とラベルは今週木曜日から備品室に置かれます。すべての箱に名前と新しい机の番号を書いてください。そうすることで、引っ越し業者が箱を正しい場所に置けるようになります。"},
+            {"id": "m01-p6-s1-d1-g4", "text": "The office will be closed on Friday, June 6, so that the movers can work without (134) _____. If you have any questions, please contact me at extension 214.", "translationJa": "引っ越し業者が中断なく作業できるよう、6月6日（金）はオフィスを閉めます。ご質問があれば内線214の私までご連絡ください。"},
+            {"id": "m01-p6-s1-d1-g5", "text": "Priya Raman", "translationJa": "プリヤ・ラマン"}
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q131",
+          "number": 131,
+          "stem": "Choose the best answer to complete blank (131).",
+          "blankRef": "m01-p6-s1-d1-g2",
+          "choices": [
+            {"id": "A", "text": "responsive"},
+            {"id": "B", "text": "response"},
+            {"id": "C", "text": "responsible"},
+            {"id": "D", "text": "responsibly"}
+          ],
+          "answerId": "C",
+          "skill": "品詞・語法",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s1-d1-g2", "keyPoint": "each employee is ___ for packing。be responsible for doing（〜する責任がある）の形。前半の Movers will pack the shared equipment, but ... と対比して社員が梱包を担当すると述べている。"}],
+          "explanationJa": "空所は be 動詞 is の後ろで、さらに for packing が続きます。be responsible for doing で「〜する責任がある」を表すので responsible を選びます。前半の「共用備品は業者が梱包するが」と but でつながり、自分の机の物は各自が梱包するという分担の説明になります。",
+          "translationJa": {"text": "空所131を含む文：共用の備品は引っ越し業者が梱包しますが、自分の机にある物の梱包は各社員の責任となります。"},
+          "choiceExplanationsJa": {
+            "A": "responsive は「反応がよい・敏感に応える」という形容詞で、be responsive to customer needs のように to と組みます。for packing と組んで担当を表すことはできません。",
+            "B": "response は「返答・反応」という名詞です。each employee is response では「社員＝返答」となり意味が通りません。in response to（〜に応じて）の形でよく使います。",
+            "C": "responsible は「責任がある」という形容詞です。be responsible for packing で「梱包する責任がある」となり、業者との作業分担を説明する文脈に合います。",
+            "D": "responsibly は「責任をもって」という副詞です。be 動詞の補語にはなれず、is responsibly for では文が成立しません。"
+          },
+          "vocabulary": [
+            {"term": "mover", "meaningJa": "引っ越し業者"},
+            {"term": "shared equipment", "meaningJa": "共用の備品"},
+            {"term": "be responsible for doing", "meaningJa": "〜する責任がある"},
+            {"term": "pack", "meaningJa": "梱包する・荷造りする"}
+          ]
+        },
+        {
+          "id": "m01-q132",
+          "number": 132,
+          "stem": "Choose the best answer to complete blank (132).",
+          "blankRef": "m01-p6-s1-d1-g3",
+          "choices": [
+            {"id": "A", "text": "will be placed"},
+            {"id": "B", "text": "were placed"},
+            {"id": "C", "text": "have been placing"},
+            {"id": "D", "text": "placing"}
+          ],
+          "answerId": "A",
+          "skill": "態・時制",
+          "difficulty": "medium",
+          "evidence": [{"ref": "m01-p6-s1-d1-g3", "keyPoint": "starting this Thursday（今週木曜日から）はメール送信日（5月26日）から見て未来。主語 Boxes and labels は「置かれる」側。"}],
+          "explanationJa": "主語の Boxes and labels（箱とラベル）は人によって「置かれる」物なので受け身が必要です。また starting this Thursday（今週木曜日から）はメールを書いている時点から見て未来です。未来の受け身 will be placed を選びます。",
+          "translationJa": {"text": "空所132を含む文：段ボール箱とラベルは今週木曜日から備品室に置かれます。"},
+          "choiceExplanationsJa": {
+            "A": "will be placed は未来の受け身です。箱とラベルが木曜日から備品室に用意されるという予定を表せます。",
+            "B": "were placed は過去の受け身です。「木曜日から」という未来の開始時点と時制が合いません。",
+            "C": "have been placing は現在完了進行形の能動態です。箱やラベルが何かを置いていることになり、主語との関係が成り立ちません。",
+            "D": "placing は -ing 形で、単独では述語になれません。主語 Boxes and labels に対応する動詞が欠けた文になります。"
+          },
+          "vocabulary": [
+            {"term": "label", "meaningJa": "ラベル・荷札"},
+            {"term": "supply room", "meaningJa": "備品室"},
+            {"term": "starting + 日付", "meaningJa": "〜から（開始）"},
+            {"term": "place", "meaningJa": "置く・配置する"}
+          ]
+        },
+        {
+          "id": "m01-q133",
+          "number": 133,
+          "stem": "Choose the best sentence to complete blank (133).",
+          "blankRef": "m01-p6-s1-d1-g3",
+          "choices": [
+            {"id": "A", "text": "Our current lease will be renewed for another year."},
+            {"id": "B", "text": "The survey results will be shared at the next meeting."},
+            {"id": "C", "text": "Please return any borrowed laptops to the IT department."},
+            {"id": "D", "text": "This will help the movers put your boxes in the right place."}
+          ],
+          "answerId": "D",
+          "skill": "文挿入",
+          "difficulty": "medium",
+          "evidence": [
+            {"ref": "m01-p6-s1-d1-g3", "keyPoint": "直前の Please write your name and new desk number on every box. の目的を This で受けて説明する文が続く。"},
+            {"ref": "m01-p6-s1-d1-g2", "keyPoint": "業者が共用備品を運ぶ移転作業の文脈。"}
+          ],
+          "explanationJa": "直前の文は「すべての箱に名前と新しい机の番号を書いてください」という依頼です。その目的を This（そうすること）で受けて「業者が箱を正しい場所に置ける」と説明する文が最も自然につながります。",
+          "translationJa": {
+            "text": "空所133に入る文を選ぶ。",
+            "choices": {
+              "A": "現在の賃貸契約はもう1年更新されます。",
+              "B": "調査結果は次回の会議で共有されます。",
+              "C": "借りているノートパソコンはIT部門に返却してください。",
+              "D": "そうすることで、引っ越し業者が皆さんの箱を正しい場所に置けるようになります。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "現在の賃貸契約を更新するという内容は、新しいオフィスへ移転するというメール全体の内容と矛盾します。",
+            "B": "調査結果の共有はメールのどこにも関連する話題がなく、箱に名前を書く依頼ともつながりません。",
+            "C": "ノートパソコンの返却は移転の準備として考えられなくはありませんが、直前の「箱に名前と机番号を書く」依頼の理由や結果を示しておらず、話題が急に変わります。",
+            "D": "This が直前の「箱に名前と机番号を書くこと」を指し、その目的（業者が正しい場所に置ける）を説明します。机番号を書く理由として内容もかみ合います。"
+          },
+          "vocabulary": [
+            {"term": "desk number", "meaningJa": "机の番号"},
+            {"term": "lease", "meaningJa": "賃貸契約"},
+            {"term": "renew", "meaningJa": "更新する"},
+            {"term": "borrowed", "meaningJa": "借りている"}
+          ]
+        },
+        {
+          "id": "m01-q134",
+          "number": 134,
+          "stem": "Choose the best answer to complete blank (134).",
+          "blankRef": "m01-p6-s1-d1-g4",
+          "choices": [
+            {"id": "A", "text": "interrupt"},
+            {"id": "B", "text": "interruptions"},
+            {"id": "C", "text": "interrupted"},
+            {"id": "D", "text": "interruptive"}
+          ],
+          "answerId": "B",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s1-d1-g4", "keyPoint": "前置詞 without の目的語になる名詞が必要。オフィスを閉める理由として「中断なしに」作業するという意味。"}],
+          "explanationJa": "空所は前置詞 without の目的語なので名詞が入ります。名詞の interruptions を選ぶと without interruptions（邪魔されずに）となり、作業のためにオフィスを閉めるという理由になります。",
+          "translationJa": {"text": "空所134を含む文：引っ越し業者が中断なく作業できるよう、6月6日（金）はオフィスを閉めます。"},
+          "choiceExplanationsJa": {
+            "A": "interrupt は「中断させる」という動詞です。前置詞の目的語に動詞の原形は置けません。動名詞なら without interrupting others のように目的語を伴います。",
+            "B": "interruptions は「中断・邪魔」という名詞の複数形です。without interruptions で「中断されることなく」となります。",
+            "C": "interrupted は過去形・過去分詞です。前置詞 without の直後に置いて名詞の働きをすることはできません。an interrupted call のように名詞を修飾します。",
+            "D": "interruptive は「中断させるような」という形容詞です。後ろに名詞がないため、前置詞の目的語として成立しません。"
+          },
+          "vocabulary": [
+            {"term": "so that S can", "meaningJa": "Sが〜できるように"},
+            {"term": "without interruption(s)", "meaningJa": "中断されることなく"},
+            {"term": "extension", "meaningJa": "内線"},
+            {"term": "be closed", "meaningJa": "閉まっている・休業している"}
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p6-s2",
+      "part": 6,
+      "setting": "地域の公民館が、屋内プールの保守点検による休業を利用者に知らせる掲示。",
+      "factSheet": [
+        {"type": "facility", "value": "Mapleridge Community Center（屋内プール、フィットネスルーム、サウナ）"},
+        {"type": "date", "value": "August 4–August 15（プール休業）/ その後の2週間（振替レッスン）"},
+        {"type": "work", "value": "filtration system の交換、pool deck のタイル修理"}
+      ],
+      "passages": [
+        {
+          "id": "m01-p6-s2-d1",
+          "type": "notice",
+          "title": "Pool Closure Notice",
+          "titleTranslationJa": "プール休業のお知らせ",
+          "segments": [
+            {"id": "m01-p6-s2-d1-g1", "text": "The indoor pool at the Mapleridge Community Center will be closed from August 4 to August 15 for scheduled maintenance. During this period, workers will replace the filtration system and (135) _____ the tiles around the pool deck.", "translationJa": "メープルリッジ公民館の屋内プールは、定期保守のため8月4日から8月15日まで休業します。この期間中、作業員がろ過装置を交換し、プールサイドのタイルを修理します。"},
+            {"id": "m01-p6-s2-d1-g2", "text": "Swimming lessons scheduled for these dates will be (136) _____ to the following two weeks. Members who have registered for lessons will receive an e-mail with the new times. (137) _____", "translationJa": "この期間に予定されていた水泳レッスンは、その後の2週間に日程が変更されます。レッスンに登録済みの会員には、新しい時間を記載したメールが届きます。新しい時間に参加できない方は、受付で返金を申し込むことができます。"},
+            {"id": "m01-p6-s2-d1-g3", "text": "In the meantime, the fitness room and sauna will remain open (138) _____ regular hours. We apologize for any inconvenience and thank you for your patience.", "translationJa": "その間も、フィットネスルームとサウナは通常の営業時間内は開いています。ご不便をおかけしますが、ご理解のほどよろしくお願いいたします。"}
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q135",
+          "number": 135,
+          "stem": "Choose the best answer to complete blank (135).",
+          "blankRef": "m01-p6-s2-d1-g1",
+          "choices": [
+            {"id": "A", "text": "repairing"},
+            {"id": "B", "text": "repair"},
+            {"id": "C", "text": "repaired"},
+            {"id": "D", "text": "repairs"}
+          ],
+          "answerId": "B",
+          "skill": "動詞の形（並列）",
+          "difficulty": "medium",
+          "evidence": [{"ref": "m01-p6-s2-d1-g1", "keyPoint": "workers will replace ... and ___ the tiles。and が will の後ろの動詞の原形 replace と空所を並べている。"}],
+          "explanationJa": "workers will replace the filtration system and ___ the tiles では、and が助動詞 will の後ろに来る2つの動詞をつないでいます。replace と同じ原形の repair を選ぶと、「ろ過装置を交換し、タイルを修理する」となります。",
+          "translationJa": {"text": "空所135を含む文：この期間中、作業員がろ過装置を交換し、プールサイドのタイルを修理します。"},
+          "choiceExplanationsJa": {
+            "A": "repairing は -ing 形です。will の後ろで replace と並べる形にならず、will be repairing のような進行形の be もありません。",
+            "B": "repair は動詞の原形です。will replace ... and repair ... と原形同士が並列になり、作業内容を2つ示せます。",
+            "C": "repaired は過去形・過去分詞です。will の後ろで原形 replace と並べられず、時制も未来の予定と合いません。",
+            "D": "repairs は三人称単数現在形、または名詞「修理」の複数形です。助動詞 will の後ろでは原形が必要で、名詞にすると the tiles とつながりません。"
+          },
+          "vocabulary": [
+            {"term": "scheduled maintenance", "meaningJa": "定期保守・予定された点検"},
+            {"term": "replace", "meaningJa": "交換する"},
+            {"term": "filtration system", "meaningJa": "ろ過装置"},
+            {"term": "pool deck", "meaningJa": "プールサイド"}
+          ]
+        },
+        {
+          "id": "m01-q136",
+          "number": 136,
+          "stem": "Choose the best answer to complete blank (136).",
+          "blankRef": "m01-p6-s2-d1-g2",
+          "choices": [
+            {"id": "A", "text": "returned"},
+            {"id": "B", "text": "delivered"},
+            {"id": "C", "text": "reduced"},
+            {"id": "D", "text": "rescheduled"}
+          ],
+          "answerId": "D",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {"ref": "m01-p6-s2-d1-g2", "keyPoint": "続く文で Members ... will receive an e-mail with the new times（新しい時間）とあり、レッスンの日時が変わることがわかる。"}
+          ],
+          "explanationJa": "休業期間のレッスンが「その後の2週間に〜される」という文です。次の文で登録者に「新しい時間」を知らせるとあるので、日時を変更する rescheduled を選びます。be rescheduled to ... で「〜に日程が変更される」です。",
+          "translationJa": {"text": "空所136を含む文：この期間に予定されていた水泳レッスンは、その後の2週間に日程が変更されます。"},
+          "choiceExplanationsJa": {
+            "A": "returned は「返された・戻された」です。返品や帰還に使い、レッスンを別の週に移すことは表せません。",
+            "B": "delivered は「配達された」です。物や手紙に使い、レッスンを別の日程に移す意味にはなりません。",
+            "C": "reduced は「減らされた」です。レッスンの数や時間を減らすことは表せますが、to the following two weeks（その後の2週間へ）という移動先とつながらず、新しい時間を知らせる次の文とも合いません。",
+            "D": "rescheduled は「日程を変更された」です。休業期間中のレッスンを後の2週間に移し、新しい時間をメールで知らせる流れに合います。"
+          },
+          "vocabulary": [
+            {"term": "reschedule A to B", "meaningJa": "AをBに日程変更する"},
+            {"term": "the following two weeks", "meaningJa": "その後の2週間"},
+            {"term": "register for", "meaningJa": "〜に登録する"},
+            {"term": "new times", "meaningJa": "新しい時間"}
+          ]
+        },
+        {
+          "id": "m01-q137",
+          "number": 137,
+          "stem": "Choose the best sentence to complete blank (137).",
+          "blankRef": "m01-p6-s2-d1-g2",
+          "choices": [
+            {"id": "A", "text": "Those who cannot attend at the new times may request a refund at the front desk."},
+            {"id": "B", "text": "The new filtration system was installed last year."},
+            {"id": "C", "text": "The fitness room will also be closed during this period."},
+            {"id": "D", "text": "Registration for the autumn session opened last week."}
+          ],
+          "answerId": "A",
+          "skill": "文挿入",
+          "difficulty": "medium",
+          "evidence": [
+            {"ref": "m01-p6-s2-d1-g2", "keyPoint": "直前の文で登録者に新しい時間が知らされると述べている。その時間に来られない人への対応が続くと自然。"},
+            {"ref": "m01-p6-s2-d1-g1", "keyPoint": "ろ過装置は今回の休業中に交換される（will replace）。"},
+            {"ref": "m01-p6-s2-d1-g3", "keyPoint": "フィットネスルームは休業中も開いている（remain open）。"}
+          ],
+          "explanationJa": "直前の文は「登録者には新しい時間がメールで届く」です。その新しい時間に都合が合わない人への対応（返金）を示す文が続くと、レッスン変更の案内として自然にまとまります。the new times が前の文を受けている点も手がかりです。",
+          "translationJa": {
+            "text": "空所137に入る文を選ぶ。",
+            "choices": {
+              "A": "新しい時間に参加できない方は、受付で返金を申し込むことができます。",
+              "B": "新しいろ過装置は昨年設置されました。",
+              "C": "この期間中はフィットネスルームも閉鎖されます。",
+              "D": "秋期の登録は先週始まりました。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "直前の「新しい時間をお知らせする」を受け、その時間に来られない人の選択肢（返金）を示します。the new times の繰り返しで前の文とつながります。",
+            "B": "第1段落では、ろ過装置をこの休業期間中に交換すると述べています。昨年設置済みとすると内容が矛盾します。",
+            "C": "次の段落で、フィットネスルームは休業中も開いていると述べているため矛盾します。",
+            "D": "秋期の登録はプールの休業やレッスンの日程変更と直接関係がなく、直前の文の内容を受けていません。"
+          },
+          "vocabulary": [
+            {"term": "those who", "meaningJa": "〜する人々"},
+            {"term": "request a refund", "meaningJa": "返金を求める"},
+            {"term": "front desk", "meaningJa": "受付"},
+            {"term": "install", "meaningJa": "設置する"}
+          ]
+        },
+        {
+          "id": "m01-q138",
+          "number": 138,
+          "stem": "Choose the best answer to complete blank (138).",
+          "blankRef": "m01-p6-s2-d1-g3",
+          "choices": [
+            {"id": "A", "text": "upon"},
+            {"id": "B", "text": "along"},
+            {"id": "C", "text": "during"},
+            {"id": "D", "text": "toward"}
+          ],
+          "answerId": "C",
+          "skill": "前置詞",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s2-d1-g3", "keyPoint": "remain open ___ regular hours。regular hours（通常の営業時間）という期間の中で開いていることを表す。"}],
+          "explanationJa": "空所の後ろの regular hours は「通常の営業時間」という時間の幅です。ある期間の間ずっと開いていることを表すのは during で、remain open during regular hours（通常の営業時間中は開いている）となります。",
+          "translationJa": {"text": "空所138を含む文：その間も、フィットネスルームとサウナは通常の営業時間内は開いています。"},
+          "choiceExplanationsJa": {
+            "A": "upon は「〜するとすぐに・〜の上に」で、upon arrival（到着してすぐ）のように使います。時間の幅の中で開いていることは表しません。",
+            "B": "along は「〜に沿って」で、along the river のように場所に使います。営業時間を表す語とは組み合わせません。",
+            "C": "during は「〜の間ずっと・〜の間に」で期間を表します。during regular hours で「通常の営業時間中」となります。",
+            "D": "toward は「〜の方へ・〜ごろ」で、toward the end of the month のように方向やおおよその時期を表します。営業時間中ずっと開いていることは表せません。"
+          },
+          "vocabulary": [
+            {"term": "in the meantime", "meaningJa": "その間に"},
+            {"term": "remain open", "meaningJa": "開いたままである"},
+            {"term": "regular hours", "meaningJa": "通常の営業時間"},
+            {"term": "inconvenience", "meaningJa": "不便・迷惑"}
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p6-s3",
+      "part": 6,
+      "setting": "地方紙の記事。家族経営のパン店が2号店を開く。",
+      "factSheet": [
+        {"type": "business", "value": "Hollis Street Bakery（本店：Hollis Street、持ち帰りのみ）"},
+        {"type": "person", "value": "Marta Lindqvist（店主）"},
+        {"type": "place", "value": "Westbrook（町）/ Alder Road（2号店）"},
+        {"type": "date", "value": "March 3（記事の日付）/ next month（開店）"},
+        {"type": "number", "value": "more than twenty minutes（週末の待ち時間）/ thirty customers（座席）/ twelve new employees"}
+      ],
+      "passages": [
+        {
+          "id": "m01-p6-s3-d1",
+          "type": "article",
+          "segments": [
+            {"id": "m01-p6-s3-d1-g1", "text": "WESTBROOK (March 3) — Hollis Street Bakery, a family-owned business known for its sourdough bread, will open a second location on Alder Road next month. The owner, Marta Lindqvist, says the (139) _____ is a response to growing demand.", "translationJa": "ウエストブルック（3月3日）— サワードウブレッドで知られる家族経営のホリス・ストリート・ベーカリーが、来月アルダー通りに2号店を開く。店主のマルタ・リンドクヴィストさんによると、今回の事業拡大は需要の高まりに応えるためだという。"},
+            {"id": "m01-p6-s3-d1-g2", "text": "Over the past year, customers have often waited more than twenty minutes to be served on weekends. (140) _____", "translationJa": "この1年、週末には客が注文までに20分以上待つことがよくあった。新しい店舗にはカウンターが2倍あり、こうした待ち時間を減らすという。"},
+            {"id": "m01-p6-s3-d1-g3", "text": "The Alder Road shop will also offer seating for up to thirty customers, (141) _____ the original location, which offers only takeout. Ms. Lindqvist plans to hire twelve new employees and is (142) _____ accepting applications on the bakery's Web site.", "translationJa": "持ち帰りのみの本店とは異なり、アルダー通り店には最大30人分の座席も設けられる。リンドクヴィストさんは新たに12人を採用する予定で、現在ベーカリーのウェブサイトで応募を受け付けている。"}
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q139",
+          "number": 139,
+          "stem": "Choose the best answer to complete blank (139).",
+          "blankRef": "m01-p6-s3-d1-g1",
+          "choices": [
+            {"id": "A", "text": "expansion"},
+            {"id": "B", "text": "expand"},
+            {"id": "C", "text": "expanded"},
+            {"id": "D", "text": "expansive"}
+          ],
+          "answerId": "A",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s3-d1-g1", "keyPoint": "冠詞 the の後ろで、that 節（省略）の主語になる名詞が必要。2号店の開店を名詞で言い換えている。"}],
+          "explanationJa": "空所は the の後ろで、says (that) の節の主語になっています。主語になれるのは名詞なので expansion（拡大）を選びます。前の文の「2号店を開く」を the expansion と言い換え、それが需要増への対応だと説明しています。",
+          "translationJa": {"text": "空所139を含む文：店主のマルタ・リンドクヴィストさんによると、今回の事業拡大は需要の高まりに応えるためだという。"},
+          "choiceExplanationsJa": {
+            "A": "expansion は「拡大・拡張」という名詞です。the expansion で2号店の開店を指し、is a response の主語になります。",
+            "B": "expand は「拡大する」という動詞の原形です。冠詞 the の後ろに動詞は置けず、節の主語にもなれません。",
+            "C": "expanded は過去形・過去分詞です。the expanded menu のように名詞を修飾できますが、ここでは後ろに名詞がなく主語になれません。",
+            "D": "expansive は「広々とした・広範な」という形容詞です。後ろに名詞がないため主語として成り立ちません。"
+          },
+          "vocabulary": [
+            {"term": "family-owned", "meaningJa": "家族経営の"},
+            {"term": "location", "meaningJa": "店舗・拠点"},
+            {"term": "expansion", "meaningJa": "拡大・拡張"},
+            {"term": "a response to", "meaningJa": "〜への対応"},
+            {"term": "growing demand", "meaningJa": "高まる需要"}
+          ]
+        },
+        {
+          "id": "m01-q140",
+          "number": 140,
+          "stem": "Choose the best sentence to complete blank (140).",
+          "blankRef": "m01-p6-s3-d1-g2",
+          "choices": [
+            {"id": "A", "text": "The bakery first opened on Alder Road in 2015."},
+            {"id": "B", "text": "Ms. Lindqvist plans to close the bakery on weekends."},
+            {"id": "C", "text": "The new shop will have twice as many counters to reduce these waits."},
+            {"id": "D", "text": "Sourdough bread requires a long fermentation period."}
+          ],
+          "answerId": "C",
+          "skill": "文挿入",
+          "difficulty": "medium",
+          "evidence": [
+            {"ref": "m01-p6-s3-d1-g2", "keyPoint": "直前の文で週末の待ち時間が20分以上と述べている。these waits がその待ち時間を指す。"},
+            {"ref": "m01-p6-s3-d1-g1", "keyPoint": "アルダー通りは来月開く2号店の場所。"}
+          ],
+          "explanationJa": "直前の文は「週末に20分以上待つことが多い」という問題点です。these waits でその待ち時間を受け、新店舗で解消するという対策を述べる文が自然に続きます。第1段落の「需要の高まり」とも話がつながります。",
+          "translationJa": {
+            "text": "空所140に入る文を選ぶ。",
+            "choices": {
+              "A": "このベーカリーは2015年にアルダー通りで創業しました。",
+              "B": "リンドクヴィストさんは週末にベーカリーを休業する予定です。",
+              "C": "新しい店舗にはカウンターが2倍あり、こうした待ち時間を減らします。",
+              "D": "サワードウブレッドには長い発酵期間が必要です。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "アルダー通りは来月開店する2号店の場所で、本店はホリス通りです。アルダー通りで創業したという内容は記事と矛盾します。",
+            "B": "週末に休業するという内容は、需要に応えて店舗を増やすという記事の趣旨と反対です。直前の待ち時間の話の解決にもなりません。",
+            "C": "these waits が直前の「20分以上の待ち時間」を指し、新店舗で改善するという対策を示します。前後の流れが最も自然です。",
+            "D": "サワードウブレッドの製法の説明で、待ち時間の問題から店舗の設備へと進む段落の流れを断ち切ります。"
+          },
+          "vocabulary": [
+            {"term": "be served", "meaningJa": "（店で）応対してもらう・注文を受けてもらう"},
+            {"term": "twice as many A", "meaningJa": "2倍の数のA"},
+            {"term": "counter", "meaningJa": "カウンター・売り場"},
+            {"term": "wait", "meaningJa": "（名詞）待ち時間"},
+            {"term": "fermentation", "meaningJa": "発酵"}
+          ]
+        },
+        {
+          "id": "m01-q141",
+          "number": 141,
+          "stem": "Choose the best answer to complete blank (141).",
+          "blankRef": "m01-p6-s3-d1-g3",
+          "choices": [
+            {"id": "A", "text": "similar to"},
+            {"id": "B", "text": "unlike"},
+            {"id": "C", "text": "as well as"},
+            {"id": "D", "text": "instead"}
+          ],
+          "answerId": "B",
+          "skill": "前置詞・文脈",
+          "difficulty": "medium",
+          "evidence": [{"ref": "m01-p6-s3-d1-g3", "keyPoint": "新店は座席あり、本店は which offers only takeout（持ち帰りのみ）。両者の違いを対比している。"}],
+          "explanationJa": "新しい店には最大30人分の座席がある一方、本店は which offers only takeout（持ち帰りのみ）です。2つの店舗の違いを示すので、「〜とは違って」を表す前置詞 unlike を選びます。",
+          "translationJa": {"text": "空所141を含む文：持ち帰りのみの本店とは異なり、アルダー通り店には最大30人分の座席も設けられる。"},
+          "choiceExplanationsJa": {
+            "A": "similar to は「〜と似て」です。本店は持ち帰りのみで座席がないため、座席のある新店と似ているという意味は内容と矛盾します。",
+            "B": "unlike は「〜と違って」という前置詞です。座席のある新店と、持ち帰りのみの本店の違いを正しく表します。",
+            "C": "as well as は「〜と同様に・〜に加えて」です。本店にも座席があるかのような意味になり、which offers only takeout と矛盾します。",
+            "D": "instead は「代わりに」という副詞で、名詞句を直接取れません。instead of the original location としても「本店の代わりに座席を提供する」となり、文意が通りません。"
+          },
+          "vocabulary": [
+            {"term": "seating", "meaningJa": "座席（の数）"},
+            {"term": "unlike", "meaningJa": "〜と違って"},
+            {"term": "original location", "meaningJa": "本店・最初の店舗"},
+            {"term": "takeout", "meaningJa": "持ち帰り"}
+          ]
+        },
+        {
+          "id": "m01-q142",
+          "number": 142,
+          "stem": "Choose the best answer to complete blank (142).",
+          "blankRef": "m01-p6-s3-d1-g3",
+          "choices": [
+            {"id": "A", "text": "current"},
+            {"id": "B", "text": "currents"},
+            {"id": "C", "text": "currency"},
+            {"id": "D", "text": "currently"}
+          ],
+          "answerId": "D",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s3-d1-g3", "keyPoint": "is ___ accepting は現在進行形の be 動詞と -ing の間。動詞を修飾する副詞が入る。"}],
+          "explanationJa": "空所は is accepting（受け付けている）という現在進行形の間にあります。be 動詞と -ing の間に置いて動詞を修飾できるのは副詞なので currently（現在）を選びます。",
+          "translationJa": {"text": "空所142を含む文：リンドクヴィストさんは新たに12人を採用する予定で、現在ベーカリーのウェブサイトで応募を受け付けている。"},
+          "choiceExplanationsJa": {
+            "A": "current は「現在の」という形容詞です。the current schedule のように名詞を修飾しますが、is と accepting の間に置いて動詞を修飾できません。",
+            "B": "currents は名詞 current（流れ・潮流）の複数形です。進行形の間に名詞は入りません。",
+            "C": "currency は「通貨」という名詞です。意味も品詞も合いません。",
+            "D": "currently は「現在」という副詞です。is currently accepting で「現在受け付けている」となります。"
+          },
+          "vocabulary": [
+            {"term": "hire", "meaningJa": "雇う・採用する"},
+            {"term": "currently", "meaningJa": "現在"},
+            {"term": "accept applications", "meaningJa": "応募を受け付ける"},
+            {"term": "currency", "meaningJa": "通貨"}
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p6-s4",
+      "part": 6,
+      "setting": "家具店の顧客サービス担当者が、注文品の出荷遅延を客に知らせる手紙。",
+      "factSheet": [
+        {"type": "company", "value": "Larkspur Home Furnishings"},
+        {"type": "person", "value": "Mr. Abernathy（顧客）/ Owen Park（顧客サービス）"},
+        {"type": "product", "value": "Brennan oak dining table, order number 55821"},
+        {"type": "date", "value": "October 20（新しい出荷予定日、当初予定より約3週間遅れ）"},
+        {"type": "amount", "value": "15 percent discount / full refund（キャンセル時）"}
+      ],
+      "passages": [
+        {
+          "id": "m01-p6-s4-d1",
+          "type": "letter",
+          "segments": [
+            {"id": "m01-p6-s4-d1-g1", "text": "Dear Mr. Abernathy,", "translationJa": "アバナシー様"},
+            {"id": "m01-p6-s4-d1-g2", "text": "Thank you for your order of a Brennan oak dining table (order number 55821). Unfortunately, the table you ordered is temporarily out of stock because our supplier has experienced a number of (143) _____ in shipping materials. We now expect to ship your table on October 20, about three weeks later than (144) _____ promised.", "translationJa": "ブレナン・オーク材ダイニングテーブル（注文番号55821）をご注文いただき、ありがとうございます。あいにく、仕入先で資材の輸送に何度も遅れが生じたため、ご注文のテーブルは一時的に在庫切れとなっております。現在、テーブルは10月20日に出荷する見込みで、当初お約束した日より約3週間遅れとなります。"},
+            {"id": "m01-p6-s4-d1-g3", "text": "We understand that this may be inconvenient. (145) _____ If you would prefer not to wait, you may cancel your order at any time before it ships, and you will receive a full (146) _____.", "translationJa": "ご不便をおかけすることと存じます。お待たせするおわびとして、ご注文代金を15パーセント割り引きました。お待ちいただくのが難しい場合は、出荷前であればいつでも注文をキャンセルでき、全額が返金されます。"},
+            {"id": "m01-p6-s4-d1-g4", "text": "Sincerely,\nOwen Park\nCustomer Service, Larkspur Home Furnishings", "translationJa": "敬具　オーウェン・パーク　ラークスパー・ホーム・ファーニシングス顧客サービス担当"}
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q143",
+          "number": 143,
+          "stem": "Choose the best answer to complete blank (143).",
+          "blankRef": "m01-p6-s4-d1-g2",
+          "choices": [
+            {"id": "A", "text": "delay"},
+            {"id": "B", "text": "delayed"},
+            {"id": "C", "text": "delaying"},
+            {"id": "D", "text": "delays"}
+          ],
+          "answerId": "D",
+          "skill": "品詞・数",
+          "difficulty": "medium",
+          "evidence": [{"ref": "m01-p6-s4-d1-g2", "keyPoint": "a number of（いくつもの）の後ろには可算名詞の複数形が来る。"}],
+          "explanationJa": "空所の直前の a number of は「いくつもの」を表し、後ろに可算名詞の複数形を取ります。名詞 delay の複数形 delays を選ぶと、「何度も遅れが生じた」となり、在庫切れの理由を説明できます。",
+          "translationJa": {"text": "空所143を含む文：あいにく、仕入先で資材の輸送に何度も遅れが生じたため、ご注文のテーブルは一時的に在庫切れとなっております。"},
+          "choiceExplanationsJa": {
+            "A": "delay は名詞の単数形、または動詞の原形です。a number of の後ろには複数形が必要なので入りません。a short delay なら単数で使えます。",
+            "B": "delayed は過去形・過去分詞です。a delayed shipment のように名詞を修飾しますが、後ろに名詞がなく a number of の後ろに置けません。",
+            "C": "delaying は動名詞・現在分詞です。a number of の後ろに動名詞を置いて数を表すことはできません。",
+            "D": "delays は名詞 delay の複数形です。a number of delays で「いくつもの遅れ」となり、文法・意味ともに合います。"
+          },
+          "vocabulary": [
+            {"term": "temporarily out of stock", "meaningJa": "一時的に在庫切れで"},
+            {"term": "supplier", "meaningJa": "仕入先・供給業者"},
+            {"term": "a number of", "meaningJa": "いくつもの（+複数名詞）"},
+            {"term": "shipping materials", "meaningJa": "資材の輸送"}
+          ]
+        },
+        {
+          "id": "m01-q144",
+          "number": 144,
+          "stem": "Choose the best answer to complete blank (144).",
+          "blankRef": "m01-p6-s4-d1-g2",
+          "choices": [
+            {"id": "A", "text": "original"},
+            {"id": "B", "text": "originally"},
+            {"id": "C", "text": "origin"},
+            {"id": "D", "text": "originality"}
+          ],
+          "answerId": "B",
+          "skill": "品詞",
+          "difficulty": "medium",
+          "evidence": [{"ref": "m01-p6-s4-d1-g2", "keyPoint": "later than ___ promised。過去分詞 promised を修飾する副詞が必要。than (we) originally promised の省略形。"}],
+          "explanationJa": "later than ___ promised は than we originally promised の主語が省略された形で、空所は過去分詞 promised を修飾しています。動詞を修飾するのは副詞なので originally（当初）を選び、「当初お約束したより3週間遅く」とします。",
+          "translationJa": {"text": "空所144を含む文：現在、テーブルは10月20日に出荷する見込みで、当初お約束した日より約3週間遅れとなります。"},
+          "choiceExplanationsJa": {
+            "A": "original は「最初の」という形容詞です。the original date のように名詞を修飾しますが、promised という動詞の形を修飾できません。",
+            "B": "originally は「当初・もともと」という副詞です。than originally promised で「当初約束していたより」という定番の表現になります。",
+            "C": "origin は「起源・出所」という名詞です。than origin promised では名詞が主語のようになり、意味も通りません。",
+            "D": "originality は「独創性」という名詞です。出荷予定の比較には意味の上でも関係がありません。"
+          },
+          "vocabulary": [
+            {"term": "expect to do", "meaningJa": "〜する見込みである"},
+            {"term": "ship", "meaningJa": "出荷する・発送する"},
+            {"term": "than originally promised", "meaningJa": "当初約束したより"},
+            {"term": "originality", "meaningJa": "独創性"}
+          ]
+        },
+        {
+          "id": "m01-q145",
+          "number": 145,
+          "stem": "Choose the best sentence to complete blank (145).",
+          "blankRef": "m01-p6-s4-d1-g3",
+          "choices": [
+            {"id": "A", "text": "Your table was delivered on October 1."},
+            {"id": "B", "text": "Our showroom will be closed for renovations next month."},
+            {"id": "C", "text": "To make up for the wait, we have applied a 15 percent discount to your order."},
+            {"id": "D", "text": "Please let us know which color you would like."}
+          ],
+          "answerId": "C",
+          "skill": "文挿入",
+          "difficulty": "medium",
+          "evidence": [
+            {"ref": "m01-p6-s4-d1-g3", "keyPoint": "直前の this may be inconvenient（ご不便をおかけする）を受け、おわびの対応を示す流れ。続く文では待ちたくない場合の別の選択肢（キャンセル）を示している。"},
+            {"ref": "m01-p6-s4-d1-g2", "keyPoint": "テーブルは10月20日に出荷予定で、まだ届いていない。"}
+          ],
+          "explanationJa": "直前で「ご不便をおかけする」とおわびし、直後では「待ちたくなければキャンセルできる」と別の選択肢を示しています。その間には、待つ客への埋め合わせ（割引）を示す文が入ると、「待つ場合の対応」と「待たない場合の対応」が順に並び、自然な流れになります。",
+          "translationJa": {
+            "text": "空所145に入る文を選ぶ。",
+            "choices": {
+              "A": "お客様のテーブルは10月1日に配達されました。",
+              "B": "当店のショールームは来月、改装のため休業します。",
+              "C": "お待たせするおわびとして、ご注文代金を15パーセント割り引きました。",
+              "D": "ご希望の色をお知らせください。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "テーブルは在庫切れで10月20日に出荷予定と述べています。すでに配達されたという内容は矛盾します。",
+            "B": "ショールームの休業は、出荷遅延のおわびやキャンセルの案内と関係がありません。",
+            "C": "the wait が出荷までの待ち時間を指し、不便へのおわびとして割引を示します。続く「待ちたくなければキャンセルできる」という別の選択肢ともつながります。",
+            "D": "注文はすでに確定しており、遅延のおわびの直後に色を尋ねる理由が本文にありません。前後の文のつながりも生まれません。"
+          },
+          "vocabulary": [
+            {"term": "inconvenient", "meaningJa": "不便な"},
+            {"term": "make up for", "meaningJa": "〜の埋め合わせをする"},
+            {"term": "apply a discount", "meaningJa": "割引を適用する"},
+            {"term": "showroom", "meaningJa": "ショールーム・展示室"}
+          ]
+        },
+        {
+          "id": "m01-q146",
+          "number": 146,
+          "stem": "Choose the best answer to complete blank (146).",
+          "blankRef": "m01-p6-s4-d1-g3",
+          "choices": [
+            {"id": "A", "text": "refund"},
+            {"id": "B", "text": "refundable"},
+            {"id": "C", "text": "refunded"},
+            {"id": "D", "text": "refunding"}
+          ],
+          "answerId": "A",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [{"ref": "m01-p6-s4-d1-g3", "keyPoint": "receive a full ___。冠詞 a と形容詞 full の後ろには名詞が必要。注文をキャンセルした場合に受け取るもの。"}],
+          "explanationJa": "空所は a full の後ろで、動詞 receive の目的語になる名詞が必要です。注文をキャンセルした場合に受け取るのは「返金」なので名詞 refund を選び、a full refund（全額返金）とします。",
+          "translationJa": {"text": "空所146を含む文：お待ちいただくのが難しい場合は、出荷前であればいつでも注文をキャンセルでき、全額が返金されます。"},
+          "choiceExplanationsJa": {
+            "A": "refund は名詞で「返金」です。receive a full refund で「全額返金を受ける」という定番の表現になります。",
+            "B": "refundable は「返金可能な」という形容詞です。a refundable deposit のように名詞の前に置きますが、ここでは後ろに名詞がありません。",
+            "C": "refunded は動詞 refund の過去形・過去分詞です。冠詞と形容詞の後ろに置いて目的語にすることはできません。",
+            "D": "refunding は動名詞・現在分詞です。a full refunding という言い方はせず、受け取る物（返金額）を表せません。"
+          },
+          "vocabulary": [
+            {"term": "prefer not to do", "meaningJa": "〜しないほうを好む"},
+            {"term": "cancel an order", "meaningJa": "注文を取り消す"},
+            {"term": "a full refund", "meaningJa": "全額返金"},
+            {"term": "refundable", "meaningJa": "返金可能な"}
+          ]
+        }
+      ]
+    }
+  ]
+}

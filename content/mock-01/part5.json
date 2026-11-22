@@ -1,0 +1,1818 @@
+{
+  "part": 5,
+  "sets": [
+    {
+      "setId": "m01-p5",
+      "part": 5,
+      "setting": "独立した1文の空所補充30問。品詞・語法・時制・態・接続詞・前置詞・関係詞・語彙を分散。",
+      "passages": [],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q101",
+          "number": 101,
+          "stem": "Applicants must submit a _____ completed application form along with a copy of their résumé.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "fully"
+            },
+            {
+              "id": "B",
+              "text": "full"
+            },
+            {
+              "id": "C",
+              "text": "fullness"
+            },
+            {
+              "id": "D",
+              "text": "fuller"
+            }
+          ],
+          "answerId": "A",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q101:stem",
+              "keyPoint": "空所は冠詞 a と過去分詞 completed の間にあり、形容詞的に働く completed を修飾する副詞が必要。"
+            }
+          ],
+          "explanationJa": "空所の後ろの completed は application form を修飾する過去分詞（形容詞の働き）です。形容詞・分詞を修飾できるのは副詞なので、-ly で終わる fully を選びます。a fully completed form で「すべて記入済みの申込書」です。",
+          "translationJa": {
+            "text": "応募者は、すべて記入済みの申込書を履歴書の写しと一緒に提出しなければなりません。"
+          },
+          "choiceExplanationsJa": {
+            "A": "fully は「完全に」という副詞です。過去分詞 completed を修飾し、a fully completed form（全項目を記入した用紙）という自然な名詞句になります。",
+            "B": "full は「いっぱいの・完全な」という形容詞です。名詞を修飾できますが、分詞 completed を修飾する位置には入りません。a full refund（全額返金）のように名詞の前で使います。",
+            "C": "fullness は「満ちていること」という名詞です。冠詞 a と分詞の間に名詞を置くと application form との関係が成り立ちません。",
+            "D": "fuller は形容詞 full の比較級です。比べる対象がなく、分詞 completed を修飾することもできません。"
+          },
+          "vocabulary": [
+            {
+              "term": "applicant",
+              "meaningJa": "応募者・申請者"
+            },
+            {
+              "term": "application form",
+              "meaningJa": "申込書・応募用紙"
+            },
+            {
+              "term": "fully completed",
+              "meaningJa": "すべて記入済みの"
+            },
+            {
+              "term": "along with",
+              "meaningJa": "〜と一緒に"
+            }
+          ]
+        },
+        {
+          "id": "m01-q102",
+          "number": 102,
+          "stem": "Ms. Tanaka prefers to arrange client meetings by _____ rather than rely on the scheduling assistant.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "she"
+            },
+            {
+              "id": "B",
+              "text": "her"
+            },
+            {
+              "id": "C",
+              "text": "hers"
+            },
+            {
+              "id": "D",
+              "text": "herself"
+            }
+          ],
+          "answerId": "D",
+          "skill": "代名詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q102:stem",
+              "keyPoint": "by の後ろで「自分で・独力で」を表す定型 by oneself。rather than rely on the scheduling assistant が「他者に頼らず」を補強する。"
+            }
+          ],
+          "explanationJa": "by の後ろに代名詞を置き、日程調整ツールに頼るのではなく「自分で」手配するという意味にします。主語 Ms. Tanaka と同一人物を指すので再帰代名詞 herself を使い、by herself（独力で）とします。",
+          "translationJa": {
+            "text": "タナカさんは、日程調整アシスタントに頼るより、顧客との会議を自分で手配することを好みます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "she は主格の代名詞で、文の主語になる形です。前置詞 by の目的語にはなれません。",
+            "B": "her は目的格・所有格です。by her とすると主語とは別の女性が手配するように読め、「自分で」の意味になりません。",
+            "C": "hers は「彼女のもの」という所有代名詞です。by hers では何のものかが示されず、手配の方法を表せません。",
+            "D": "herself は再帰代名詞です。by herself で「自分の力で・一人で」となり、アシスタントに頼らないという後半と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "arrange",
+              "meaningJa": "手配する・取り決める"
+            },
+            {
+              "term": "by oneself",
+              "meaningJa": "自分で・独力で"
+            },
+            {
+              "term": "rather than",
+              "meaningJa": "〜よりむしろ"
+            },
+            {
+              "term": "rely on",
+              "meaningJa": "〜に頼る"
+            }
+          ]
+        },
+        {
+          "id": "m01-q103",
+          "number": 103,
+          "stem": "The shuttle bus runs every twenty minutes _____ the hotel and the convention center.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "among"
+            },
+            {
+              "id": "B",
+              "text": "between"
+            },
+            {
+              "id": "C",
+              "text": "across"
+            },
+            {
+              "id": "D",
+              "text": "along"
+            }
+          ],
+          "answerId": "B",
+          "skill": "前置詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q103:stem",
+              "keyPoint": "空所の後ろが the hotel and the convention center という2地点。between A and B で2点間の往復を表す。"
+            }
+          ],
+          "explanationJa": "空所の後ろに「ホテル」と「会議場」の2地点が and で並んでいます。2つのものの間を表すのは between で、between A and B の形を取ります。runs between ... で「〜の間を運行する」です。",
+          "translationJa": {
+            "text": "シャトルバスはホテルと会議場の間を20分ごとに運行しています。"
+          },
+          "choiceExplanationsJa": {
+            "A": "among は「（3つ以上）の間で」を表します。among the guests のように集団の中を示し、A and B の2地点を結ぶ形には使いません。",
+            "B": "between は「（2つ）の間で」です。between the hotel and the convention center で2地点間の運行を表します。",
+            "C": "across は「〜を横切って・〜の向こう側に」です。across the street のように1つの場所を横断する意味で、A and B の2点を結べません。",
+            "D": "along は「〜に沿って」です。along the river のように細長いものに沿う動きを表し、2つの施設の間の運行を表しません。"
+          },
+          "vocabulary": [
+            {
+              "term": "shuttle bus",
+              "meaningJa": "シャトルバス・送迎バス"
+            },
+            {
+              "term": "run",
+              "meaningJa": "（交通機関が）運行する"
+            },
+            {
+              "term": "every twenty minutes",
+              "meaningJa": "20分ごとに"
+            },
+            {
+              "term": "convention center",
+              "meaningJa": "会議場・コンベンションセンター"
+            }
+          ]
+        },
+        {
+          "id": "m01-q104",
+          "number": 104,
+          "stem": "Because of high demand, the cooking workshop has been moved to a larger room that can _____ up to forty participants.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "attend"
+            },
+            {
+              "id": "B",
+              "text": "register"
+            },
+            {
+              "id": "C",
+              "text": "accommodate"
+            },
+            {
+              "id": "D",
+              "text": "enroll"
+            }
+          ],
+          "answerId": "C",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q104:stem",
+              "keyPoint": "関係代名詞 that の先行詞は a larger room。部屋を主語に「最大40人を収容できる」という動詞が必要。"
+            }
+          ],
+          "explanationJa": "空所の動詞の主語は that の先行詞 a larger room（より広い部屋）です。部屋が「最大40人を収容できる」という意味になる accommodate を選びます。需要が多いので広い部屋へ移したという前半とも一致します。",
+          "translationJa": {
+            "text": "需要が多いため、料理講習会は最大40人の参加者を収容できる、より広い部屋に移されました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "attend は「出席する」です。人が主語になり attend the workshop のように使います。部屋が参加者に出席するという意味は成り立ちません。",
+            "B": "register は「登録する」です。参加者が register for a workshop と申し込む場合に使い、部屋が人を登録することはありません。",
+            "C": "accommodate は「（人数を）収容できる」です。The room can accommodate forty people. のように建物や部屋を主語にでき、文意に合います。",
+            "D": "enroll は「入学・入会させる、登録する」です。enroll in a course のように人が講座に登録する場面で使い、部屋の収容人数は表しません。"
+          },
+          "vocabulary": [
+            {
+              "term": "high demand",
+              "meaningJa": "高い需要"
+            },
+            {
+              "term": "accommodate",
+              "meaningJa": "収容する・受け入れる"
+            },
+            {
+              "term": "up to",
+              "meaningJa": "最大〜まで"
+            },
+            {
+              "term": "participant",
+              "meaningJa": "参加者"
+            }
+          ]
+        },
+        {
+          "id": "m01-q105",
+          "number": 105,
+          "stem": "By the time the renovation is finished next spring, the library _____ closed for nearly eight months.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "was"
+            },
+            {
+              "id": "B",
+              "text": "has been"
+            },
+            {
+              "id": "C",
+              "text": "is being"
+            },
+            {
+              "id": "D",
+              "text": "will have been"
+            }
+          ],
+          "answerId": "D",
+          "skill": "時制",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q105:stem",
+              "keyPoint": "next spring という未来の時点までの継続期間 for nearly eight months を表すので未来完了。By the time の節は時を表す副詞節のため現在形 is finished になっている。"
+            }
+          ],
+          "explanationJa": "By the time ... next spring は「来春に〜するときまでに」という未来の基準点です。その時点までの継続期間 for nearly eight months を表すには未来完了 will have been を使います。時を表す副詞節の中では未来のことも現在形（is finished）で表す点も確認しましょう。",
+          "translationJa": {
+            "text": "来春に改修工事が終わるころには、図書館は8か月近く閉館していることになります。"
+          },
+          "choiceExplanationsJa": {
+            "A": "was は過去形です。next spring という未来の時点までの継続を表せません。過去の出来事なら The library was closed last year. のように使います。",
+            "B": "has been は現在完了で、今までの継続を表します。基準点が現在であり、来春までの期間を表すには未来完了が必要です。",
+            "C": "is being は現在進行形の受け身などに使う形です。is being closed は「今閉鎖されつつある」の意味になり、来春までの期間を示せません。",
+            "D": "will have been は未来完了です。未来の時点（来春）までに「閉館した状態が約8か月続いている」ことを表せます。"
+          },
+          "vocabulary": [
+            {
+              "term": "by the time",
+              "meaningJa": "〜するときまでに"
+            },
+            {
+              "term": "renovation",
+              "meaningJa": "改修工事"
+            },
+            {
+              "term": "nearly",
+              "meaningJa": "ほぼ・〜近く"
+            },
+            {
+              "term": "will have been",
+              "meaningJa": "（未来のある時点までに）ずっと〜だったことになる"
+            }
+          ]
+        },
+        {
+          "id": "m01-q106",
+          "number": 106,
+          "stem": "_____ the parking garage is under construction, visitors may park in the lot behind the museum.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "While"
+            },
+            {
+              "id": "B",
+              "text": "During"
+            },
+            {
+              "id": "C",
+              "text": "Unless"
+            },
+            {
+              "id": "D",
+              "text": "Therefore"
+            }
+          ],
+          "answerId": "A",
+          "skill": "接続詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q106:stem",
+              "keyPoint": "空所の後ろは主語 the parking garage と動詞 is を持つ節。節を導き「〜している間」を表す接続詞が必要。"
+            }
+          ],
+          "explanationJa": "空所の後ろに the parking garage is under construction という主語と動詞のそろった節があり、コンマの後に主節が続きます。節を導く接続詞で、「工事中の間は」という期間を表す While を選びます。",
+          "translationJa": {
+            "text": "立体駐車場が工事中の間、来館者は美術館の裏の駐車場に車を止めることができます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "While は「〜する間」を表す接続詞です。工事が行われている期間と、別の駐車場を使えることを自然に結びます。",
+            "B": "During は「〜の間」を表す前置詞です。During the construction のように名詞句を取り、主語と動詞を持つ節は導けません。",
+            "C": "Unless は「〜でない限り」を表す接続詞です。文法上は節を導けますが、「工事中でない限り裏の駐車場を使える」となり、代わりの駐車場を案内する文意と逆になります。",
+            "D": "Therefore は「それゆえ」という副詞です。2つの節をつなぐ接続詞の働きはなく、文頭で従属節を作ることはできません。"
+          },
+          "vocabulary": [
+            {
+              "term": "parking garage",
+              "meaningJa": "立体駐車場"
+            },
+            {
+              "term": "under construction",
+              "meaningJa": "工事中で"
+            },
+            {
+              "term": "lot",
+              "meaningJa": "（屋外の）駐車場・用地"
+            },
+            {
+              "term": "while",
+              "meaningJa": "〜する間"
+            }
+          ]
+        },
+        {
+          "id": "m01-q107",
+          "number": 107,
+          "stem": "The marketing team was praised for its _____ approach to promoting the new line of kitchen appliances.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "create"
+            },
+            {
+              "id": "B",
+              "text": "creation"
+            },
+            {
+              "id": "C",
+              "text": "creative"
+            },
+            {
+              "id": "D",
+              "text": "creatively"
+            }
+          ],
+          "answerId": "C",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q107:stem",
+              "keyPoint": "所有格 its と名詞 approach の間。名詞を修飾する形容詞が入る。"
+            }
+          ],
+          "explanationJa": "空所は所有格 its と名詞 approach（取り組み方）の間にあります。名詞を前から修飾するのは形容詞なので creative（独創的な）を選びます。",
+          "translationJa": {
+            "text": "マーケティングチームは、新しい台所家電シリーズを売り込む独創的な手法で称賛されました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "create は「創り出す」という動詞の原形です。所有格と名詞の間に動詞は置けません。",
+            "B": "creation は「創造・作品」という名詞です。its creation approach では名詞が2つ並び、意味のある複合語になりません。",
+            "C": "creative は「独創的な」という形容詞です。its creative approach で「その独創的な手法」となります。",
+            "D": "creatively は「独創的に」という副詞です。副詞は名詞を直接修飾できません。approach the problem creatively のように動詞を修飾します。"
+          },
+          "vocabulary": [
+            {
+              "term": "be praised for",
+              "meaningJa": "〜で称賛される"
+            },
+            {
+              "term": "approach to doing",
+              "meaningJa": "〜するための取り組み方"
+            },
+            {
+              "term": "promote",
+              "meaningJa": "販売促進する・宣伝する"
+            },
+            {
+              "term": "line",
+              "meaningJa": "（商品の）シリーズ・品ぞろえ"
+            },
+            {
+              "term": "kitchen appliance",
+              "meaningJa": "台所用の電化製品"
+            }
+          ]
+        },
+        {
+          "id": "m01-q108",
+          "number": 108,
+          "stem": "All travel expenses must be approved by a department manager _____ to booking flights.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "prior"
+            },
+            {
+              "id": "B",
+              "text": "before"
+            },
+            {
+              "id": "C",
+              "text": "ahead"
+            },
+            {
+              "id": "D",
+              "text": "advance"
+            }
+          ],
+          "answerId": "A",
+          "skill": "語法",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q108:stem",
+              "keyPoint": "空所の直後が to booking。prior to（〜より前に）は to を伴う定型の前置詞句。"
+            }
+          ],
+          "explanationJa": "空所の後ろに to booking が続いています。to と組み合わせて「〜より前に」を表すのは prior to です。prior to booking flights で「航空券を予約する前に」となります。",
+          "translationJa": {
+            "text": "すべての出張経費は、航空券を予約する前に部長の承認を受けなければなりません。"
+          },
+          "choiceExplanationsJa": {
+            "A": "prior は prior to の形で「〜より前に」を表します。to は前置詞なので後ろに動名詞 booking が続く形と合います。",
+            "B": "before は単独で前置詞として働き、before booking flights と直接名詞・動名詞を取ります。before to という形はありません。",
+            "C": "ahead は ahead of の形で「〜より前に」を表します。ahead of the meeting のように of を伴い、to とは結びつきません。",
+            "D": "advance は in advance of の形で「〜に先立って」を表します。in も of もなく、advance to booking では意味が通りません。"
+          },
+          "vocabulary": [
+            {
+              "term": "travel expenses",
+              "meaningJa": "出張経費・旅費"
+            },
+            {
+              "term": "approve",
+              "meaningJa": "承認する"
+            },
+            {
+              "term": "prior to",
+              "meaningJa": "〜より前に"
+            },
+            {
+              "term": "book a flight",
+              "meaningJa": "航空券を予約する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q109",
+          "number": 109,
+          "stem": "The results of the customer satisfaction survey _____ at next Tuesday's staff meeting.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "will announce"
+            },
+            {
+              "id": "B",
+              "text": "will be announced"
+            },
+            {
+              "id": "C",
+              "text": "announcing"
+            },
+            {
+              "id": "D",
+              "text": "have announced"
+            }
+          ],
+          "answerId": "B",
+          "skill": "態",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q109:stem",
+              "keyPoint": "主語 The results は「発表される」側。空所の後ろに目的語がなく、next Tuesday から未来の受け身が必要。"
+            }
+          ],
+          "explanationJa": "主語は The results（結果）で、結果は人によって「発表される」ものです。空所の後ろに目的語もないので受け身にします。さらに next Tuesday's から未来のことなので will be announced が正解です。",
+          "translationJa": {
+            "text": "顧客満足度調査の結果は、来週火曜日の職員会議で発表されます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "will announce は未来の能動態です。結果が何かを発表することになり、目的語もないため成り立ちません。",
+            "B": "will be announced は未来の受け身です。「結果が発表される」となり、時期も next Tuesday と一致します。",
+            "C": "announcing は -ing 形で、単独では文の述語になれません。主語 The results に対する動詞が欠けた文になります。",
+            "D": "have announced は現在完了の能動態です。結果が発表する側になるうえ、来週という未来の時期とも合いません。"
+          },
+          "vocabulary": [
+            {
+              "term": "customer satisfaction survey",
+              "meaningJa": "顧客満足度調査"
+            },
+            {
+              "term": "result",
+              "meaningJa": "結果"
+            },
+            {
+              "term": "announce",
+              "meaningJa": "発表する"
+            },
+            {
+              "term": "staff meeting",
+              "meaningJa": "職員会議・スタッフ会議"
+            }
+          ]
+        },
+        {
+          "id": "m01-q110",
+          "number": 110,
+          "stem": "Employees _____ badges have expired should visit the security office to obtain new ones.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "who"
+            },
+            {
+              "id": "B",
+              "text": "whom"
+            },
+            {
+              "id": "C",
+              "text": "whose"
+            },
+            {
+              "id": "D",
+              "text": "which"
+            }
+          ],
+          "answerId": "C",
+          "skill": "関係詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q110:stem",
+              "keyPoint": "空所の直後に無冠詞の名詞 badges があり、「従業員の入館証」という所有関係を表す。"
+            }
+          ],
+          "explanationJa": "空所の後ろは badges have expired という主語と動詞がそろった形で、badges には冠詞がありません。「その従業員の入館証」という所有の関係を表す関係代名詞 whose を入れると、Employees whose badges have expired（入館証の期限が切れた従業員）となります。",
+          "translationJa": {
+            "text": "入館証の有効期限が切れた従業員は、警備室で新しいものを受け取ってください。"
+          },
+          "choiceExplanationsJa": {
+            "A": "who は主格の関係代名詞で、後ろに主語が欠けた形が続きます。ここでは badges という主語があるため入りません。Employees who have lost their badges ... なら成り立ちます。",
+            "B": "whom は目的格の関係代名詞で、後ろの節に目的語が欠けている必要があります。badges have expired には欠けている要素がありません。",
+            "C": "whose は所有格の関係代名詞です。whose badges で「その人たちの入館証」となり、後ろの完全な節とつながります。",
+            "D": "which は人以外を先行詞とする関係代名詞です。先行詞 Employees は人であり、後ろの節にも欠けた要素がありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "badge",
+              "meaningJa": "入館証・社員証"
+            },
+            {
+              "term": "expire",
+              "meaningJa": "期限が切れる"
+            },
+            {
+              "term": "security office",
+              "meaningJa": "警備室"
+            },
+            {
+              "term": "obtain",
+              "meaningJa": "手に入れる・取得する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q111",
+          "number": 111,
+          "stem": "Mr. Ruiz has been _____ to lead the committee that will plan the company's thirtieth anniversary celebration.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "reminded"
+            },
+            {
+              "id": "B",
+              "text": "applied"
+            },
+            {
+              "id": "C",
+              "text": "attended"
+            },
+            {
+              "id": "D",
+              "text": "selected"
+            }
+          ],
+          "answerId": "D",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q111:stem",
+              "keyPoint": "has been + 過去分詞 + to lead the committee。「委員会を率いるよう選ばれた」という受け身の意味が必要。"
+            }
+          ],
+          "explanationJa": "has been ___ to lead は受け身の完了形で、ルイスさんが「委員会を率いる役に〜された」という意味です。be selected to do（〜する役に選ばれる）が自然で、記念行事を企画する委員会の責任者に選ばれたという文意になります。",
+          "translationJa": {
+            "text": "ルイスさんは、会社の30周年記念式典を企画する委員会を率いる役に選ばれました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "reminded は remind（思い出させる）の過去分詞です。be reminded to do は「〜するよう念を押される」で文法上は可能ですが、委員会を率いることを念押しされるのは不自然で、役職への任命を表しません。",
+            "B": "applied は apply（申し込む・適用する）の過去分詞です。人が apply for a position と申し込む場合は能動で使い、be applied to do で人が役職を担う意味にはなりません。",
+            "C": "attended は attend（出席する）の過去分詞です。be attended は「（会合などが）出席される」の意味で、人が委員会を率いる役を与えられることを表しません。",
+            "D": "selected は select（選ぶ）の過去分詞です。be selected to lead で「率いる役に選ばれる」となり、記念行事の委員会を任された文意に合います。"
+          },
+          "vocabulary": [
+            {
+              "term": "be selected to do",
+              "meaningJa": "〜する役に選ばれる"
+            },
+            {
+              "term": "lead a committee",
+              "meaningJa": "委員会を率いる"
+            },
+            {
+              "term": "anniversary celebration",
+              "meaningJa": "記念式典・記念行事"
+            },
+            {
+              "term": "be reminded to do",
+              "meaningJa": "〜するよう念を押される"
+            }
+          ]
+        },
+        {
+          "id": "m01-q112",
+          "number": 112,
+          "stem": "Of the three proposals submitted, the one from Lindell Design was the _____ expensive.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "little"
+            },
+            {
+              "id": "B",
+              "text": "less"
+            },
+            {
+              "id": "C",
+              "text": "least"
+            },
+            {
+              "id": "D",
+              "text": "lesser"
+            }
+          ],
+          "answerId": "C",
+          "skill": "比較",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q112:stem",
+              "keyPoint": "Of the three proposals（3つの提案のうち）と the から、3者以上の中での最上級が必要。"
+            }
+          ],
+          "explanationJa": "文頭の Of the three proposals submitted は「提出された3つの提案のうち」で、3つの中で比べています。空所の前に the もあるので、最上級 least を使い the least expensive（最も安い）とします。",
+          "translationJa": {
+            "text": "提出された3つの提案のうち、リンデル・デザインのものが最も安価でした。"
+          },
+          "choiceExplanationsJa": {
+            "A": "little は原級で「少ない・小さい」です。the little expensive という形はなく、3つの中での比較も示せません。",
+            "B": "less は比較級です。2つを比べる表現で、the less expensive of the two のように of the two と組み合わせます。ここでは3つの比較なので最上級が必要です。",
+            "C": "least は最上級です。the least expensive で「最も費用がかからない」となり、3つの提案の比較に合います。",
+            "D": "lesser は「より小さい・より劣る」という形容詞で、a lesser amount のように名詞の前で使います。expensive を修飾して最上級を作ることはできません。"
+          },
+          "vocabulary": [
+            {
+              "term": "proposal",
+              "meaningJa": "提案・提案書"
+            },
+            {
+              "term": "submit",
+              "meaningJa": "提出する"
+            },
+            {
+              "term": "the least expensive",
+              "meaningJa": "最も安価な"
+            },
+            {
+              "term": "of the three",
+              "meaningJa": "3つのうちで"
+            }
+          ]
+        },
+        {
+          "id": "m01-q113",
+          "number": 113,
+          "stem": "Sales of the compact air purifier have increased _____ since the price was reduced in March.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "steady"
+            },
+            {
+              "id": "B",
+              "text": "steadily"
+            },
+            {
+              "id": "C",
+              "text": "steadiness"
+            },
+            {
+              "id": "D",
+              "text": "steadied"
+            }
+          ],
+          "answerId": "B",
+          "skill": "品詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q113:stem",
+              "keyPoint": "have increased という自動詞の後ろで、増え方を説明する副詞が必要。"
+            }
+          ],
+          "explanationJa": "have increased（増えてきた）は目的語を取らない自動詞として使われています。動詞の様子を説明するのは副詞なので steadily（着実に）を選び、increased steadily で「着実に増加した」となります。",
+          "translationJa": {
+            "text": "3月に値下げされて以来、小型空気清浄機の売り上げは着実に伸びています。"
+          },
+          "choiceExplanationsJa": {
+            "A": "steady は「安定した」という形容詞です。a steady increase のように名詞を修飾しますが、動詞 increased を修飾できません。",
+            "B": "steadily は「着実に」という副詞です。have increased steadily で増え方を表します。",
+            "C": "steadiness は「安定性」という名詞です。increase は自動詞として使われており、後ろに目的語の名詞は置けません。",
+            "D": "steadied は steady（安定させる）の過去形・過去分詞です。have increased の直後に動詞の過去形を並べることはできません。"
+          },
+          "vocabulary": [
+            {
+              "term": "sales",
+              "meaningJa": "売上高"
+            },
+            {
+              "term": "air purifier",
+              "meaningJa": "空気清浄機"
+            },
+            {
+              "term": "steadily",
+              "meaningJa": "着実に"
+            },
+            {
+              "term": "reduce the price",
+              "meaningJa": "値下げする"
+            }
+          ]
+        },
+        {
+          "id": "m01-q114",
+          "number": 114,
+          "stem": "Ms. Novak's _____ knowledge of local regulations made her an invaluable member of the permit team.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "extensive"
+            },
+            {
+              "id": "B",
+              "text": "expensive"
+            },
+            {
+              "id": "C",
+              "text": "extended"
+            },
+            {
+              "id": "D",
+              "text": "exceeded"
+            }
+          ],
+          "answerId": "A",
+          "skill": "語彙",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-q114:stem",
+              "keyPoint": "knowledge を修飾し、invaluable member（非常に貴重なメンバー）になった理由を表す形容詞。extensive knowledge は「幅広い知識」というよく使う組み合わせ。"
+            }
+          ],
+          "explanationJa": "空所は knowledge（知識）を修飾する形容詞です。許認可チームにとって欠かせない存在になった理由なので、知識が「幅広い」ことを表す extensive を選びます。extensive knowledge of ... は「〜についての豊富な知識」という定番の組み合わせです。",
+          "translationJa": {
+            "text": "ノヴァクさんは地域の規制について幅広い知識を持っていたため、許認可チームにとって非常に貴重な一員となりました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "extensive は「広範囲の・豊富な」です。extensive knowledge で知識の量や範囲が大きいことを表し、貴重な一員になった理由として自然です。",
+            "B": "expensive は「高価な」です。綴りが似ていますが、知識の価格を表すことになり意味が通りません。",
+            "C": "extended は「延長された」です。an extended deadline（延長された締め切り）のように期間に使い、知識の豊富さは表しません。",
+            "D": "exceeded は exceed（超える）の過去分詞です。The budget was exceeded. のように限度を超えたことに使い、knowledge を修飾して意味のある句にはなりません。"
+          },
+          "vocabulary": [
+            {
+              "term": "extensive knowledge",
+              "meaningJa": "幅広い知識"
+            },
+            {
+              "term": "regulation",
+              "meaningJa": "規制・規則"
+            },
+            {
+              "term": "invaluable",
+              "meaningJa": "非常に貴重な（valuable の強調）"
+            },
+            {
+              "term": "permit",
+              "meaningJa": "許可・許可証"
+            }
+          ]
+        },
+        {
+          "id": "m01-q115",
+          "number": 115,
+          "stem": "The conference room on the fifth floor is being painted; _____, today's training session will take place in Room 210.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "however"
+            },
+            {
+              "id": "B",
+              "text": "otherwise"
+            },
+            {
+              "id": "C",
+              "text": "nevertheless"
+            },
+            {
+              "id": "D",
+              "text": "consequently"
+            }
+          ],
+          "answerId": "D",
+          "skill": "接続副詞",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-q115:stem",
+              "keyPoint": "前半「5階の会議室を塗装中」が原因、後半「研修は210号室で行う」が結果。因果を示す接続副詞が必要。"
+            }
+          ],
+          "explanationJa": "セミコロンの前は「5階の会議室が塗装中である」、後ろは「今日の研修は210号室で行われる」です。前半が理由、後半がその結果なので、「その結果」を表す consequently を選びます。",
+          "translationJa": {
+            "text": "5階の会議室は塗装中です。そのため、本日の研修は210号室で行われます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "however は「しかしながら」で逆接を表します。会議室が使えないことと別の部屋を使うことは対立しておらず、つながりが逆になります。",
+            "B": "otherwise は「さもなければ」です。「塗装中である。さもなければ210号室で行う」となり、部屋を変える理由と結果の関係が崩れます。",
+            "C": "nevertheless は「それにもかかわらず」です。会議室が使えないにもかかわらず別室で行う、という対立関係ではないため不適切です。",
+            "D": "consequently は「その結果・したがって」です。塗装中という原因から、研修の場所が変わるという結果を自然に導きます。"
+          },
+          "vocabulary": [
+            {
+              "term": "conference room",
+              "meaningJa": "会議室"
+            },
+            {
+              "term": "be being painted",
+              "meaningJa": "塗装されている最中である"
+            },
+            {
+              "term": "consequently",
+              "meaningJa": "その結果・したがって"
+            },
+            {
+              "term": "take place",
+              "meaningJa": "行われる・開催される"
+            }
+          ]
+        },
+        {
+          "id": "m01-q116",
+          "number": 116,
+          "stem": "The new policy allows staff members _____ from home up to two days a week.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "work"
+            },
+            {
+              "id": "B",
+              "text": "to work"
+            },
+            {
+              "id": "C",
+              "text": "working"
+            },
+            {
+              "id": "D",
+              "text": "worked"
+            }
+          ],
+          "answerId": "B",
+          "skill": "動詞の形",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q116:stem",
+              "keyPoint": "allow + 人 + to do（人が〜することを許可する）の語法。目的語 staff members の後ろに to 不定詞が続く。"
+            }
+          ],
+          "explanationJa": "allow は allow 人 to do の形で「人が〜するのを許す・可能にする」を表します。目的語 staff members の後ろなので to work を選び、「職員が週2日まで在宅勤務することを認める」となります。",
+          "translationJa": {
+            "text": "新しい方針により、職員は週に2日まで在宅勤務ができます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "work は動詞の原形です。原形を取るのは let や make などの使役動詞で、let staff members work とは言えますが、allow の後ろでは to が必要です。",
+            "B": "to work は to 不定詞です。allow staff members to work の語法に合います。",
+            "C": "working は -ing 形です。allow は allow working from home のように動名詞を直接目的語に取れますが、人を目的語にした後ろには to 不定詞を使います。",
+            "D": "worked は過去形・過去分詞です。目的語の後ろに置くと「職員が働かされた」のような受け身の意味になり、allow の語法とも合いません。"
+          },
+          "vocabulary": [
+            {
+              "term": "policy",
+              "meaningJa": "方針・規定"
+            },
+            {
+              "term": "allow A to do",
+              "meaningJa": "Aが〜するのを許す"
+            },
+            {
+              "term": "work from home",
+              "meaningJa": "在宅勤務する"
+            },
+            {
+              "term": "up to",
+              "meaningJa": "最大〜まで"
+            }
+          ]
+        },
+        {
+          "id": "m01-q117",
+          "number": 117,
+          "stem": "Completed timesheets should be submitted to the payroll office _____ 5:00 P.M. on Friday.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "by"
+            },
+            {
+              "id": "B",
+              "text": "until"
+            },
+            {
+              "id": "C",
+              "text": "within"
+            },
+            {
+              "id": "D",
+              "text": "since"
+            }
+          ],
+          "answerId": "A",
+          "skill": "前置詞",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-q117:stem",
+              "keyPoint": "提出は1回で完了する動作。完了の期限（〜までに）を表す by が必要。"
+            }
+          ],
+          "explanationJa": "勤務表の「提出」は一度で終わる動作なので、締め切りを表す「〜までに」が必要です。期限を示す前置詞 by を選び、by 5:00 P.M. on Friday（金曜日の午後5時までに）とします。",
+          "translationJa": {
+            "text": "記入済みの勤務表は、金曜日の午後5時までに給与課に提出してください。"
+          },
+          "choiceExplanationsJa": {
+            "A": "by は「〜までに」と完了の期限を表します。提出という1回の動作の締め切りに合います。",
+            "B": "until は「〜までずっと」と状態や動作の継続を表します。stay until 5:00 のように使い、1回で終わる提出の期限には使いません。",
+            "C": "within は「〜以内に」で、within two days のように期間を取ります。5:00 P.M. on Friday は時点なので合いません。",
+            "D": "since は「〜以来」で、過去の起点からの継続を表します。have worked here since 2020 のように現在完了と使い、未来の提出期限には使えません。"
+          },
+          "vocabulary": [
+            {
+              "term": "timesheet",
+              "meaningJa": "勤務時間表"
+            },
+            {
+              "term": "payroll office",
+              "meaningJa": "給与課"
+            },
+            {
+              "term": "by (+時点)",
+              "meaningJa": "〜までに（期限）"
+            },
+            {
+              "term": "until (+時点)",
+              "meaningJa": "〜までずっと（継続）"
+            }
+          ]
+        },
+        {
+          "id": "m01-q118",
+          "number": 118,
+          "stem": "The hotel offers a complimentary breakfast to guests who stay three or more nights, _____ of the room type they book.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "despite"
+            },
+            {
+              "id": "B",
+              "text": "although"
+            },
+            {
+              "id": "C",
+              "text": "regardless"
+            },
+            {
+              "id": "D",
+              "text": "however"
+            }
+          ],
+          "answerId": "C",
+          "skill": "語法",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q118:stem",
+              "keyPoint": "空所の直後に of がある。regardless of（〜に関係なく）は of を伴う定型表現。"
+            }
+          ],
+          "explanationJa": "空所の後ろに of the room type が続きます。of と結びつき「〜に関係なく」を表すのは regardless で、regardless of the room type（部屋の種類にかかわらず）となります。",
+          "translationJa": {
+            "text": "そのホテルは、予約した部屋の種類にかかわらず、3泊以上する宿泊客に無料の朝食を提供しています。"
+          },
+          "choiceExplanationsJa": {
+            "A": "despite は「〜にもかかわらず」という前置詞で、直接名詞を取ります。despite of という形はありません。",
+            "B": "although は「〜だけれども」という接続詞で、後ろに主語と動詞のある節が必要です。of を続けることはできません。",
+            "C": "regardless は regardless of の形で「〜に関係なく」です。部屋の種類を問わず朝食が無料という意味になります。",
+            "D": "however は「しかしながら」という副詞、または「どんなに〜でも」を表します。後ろに of を取る用法はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "complimentary",
+              "meaningJa": "無料の・サービスの"
+            },
+            {
+              "term": "three or more nights",
+              "meaningJa": "3泊以上"
+            },
+            {
+              "term": "regardless of",
+              "meaningJa": "〜に関係なく"
+            },
+            {
+              "term": "room type",
+              "meaningJa": "部屋の種類"
+            }
+          ]
+        },
+        {
+          "id": "m01-q119",
+          "number": 119,
+          "stem": "The store manager has asked the regional office for _____ to extend the store's holiday hours.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "permission"
+            },
+            {
+              "id": "B",
+              "text": "permit"
+            },
+            {
+              "id": "C",
+              "text": "permitted"
+            },
+            {
+              "id": "D",
+              "text": "permissive"
+            }
+          ],
+          "answerId": "A",
+          "skill": "品詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q119:stem",
+              "keyPoint": "前置詞 for の目的語となる名詞が必要。冠詞がないので不可算名詞 permission が入る。permission to do で「〜する許可」。"
+            }
+          ],
+          "explanationJa": "空所は前置詞 for の目的語なので名詞が入ります。さらに冠詞がなく、後ろに to extend が続くため、不可算名詞で permission to do（〜する許可）の形を取る permission を選びます。",
+          "translationJa": {
+            "text": "店長は、休暇シーズンの営業時間を延長する許可を地域事務所に求めました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "permission は「許可」という不可算名詞です。ask for permission to do で「〜する許可を求める」となり、冠詞がなくても使えます。",
+            "B": "permit は名詞では「許可証」を表す可算名詞で、a permit / parking permits のように冠詞や複数形が必要です。ここには冠詞がなく、許可証という書類の意味も文脈に合いません。",
+            "C": "permitted は permit（許可する）の過去分詞です。前置詞の目的語にはなれません。Smoking is not permitted. のように述語で使います。",
+            "D": "permissive は「寛大な・甘い」という形容詞です。前置詞の目的語となる名詞が必要な位置には入りません。"
+          },
+          "vocabulary": [
+            {
+              "term": "ask A for B",
+              "meaningJa": "AにBを求める"
+            },
+            {
+              "term": "permission to do",
+              "meaningJa": "〜する許可"
+            },
+            {
+              "term": "extend",
+              "meaningJa": "延長する"
+            },
+            {
+              "term": "holiday hours",
+              "meaningJa": "休暇シーズンの営業時間"
+            }
+          ]
+        },
+        {
+          "id": "m01-q120",
+          "number": 120,
+          "stem": "Although several candidates were interviewed for the position, _____ of them had experience with the accounting software.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "nobody"
+            },
+            {
+              "id": "B",
+              "text": "none"
+            },
+            {
+              "id": "C",
+              "text": "nothing"
+            },
+            {
+              "id": "D",
+              "text": "no one"
+            }
+          ],
+          "answerId": "B",
+          "skill": "代名詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q120:stem",
+              "keyPoint": "空所の後ろに of them がある。none of them（彼らのうち誰も〜ない）は of を伴う。"
+            }
+          ],
+          "explanationJa": "空所の後ろに of them（候補者たちのうち）が続いています。特定の集団の中で「誰も〜ない」を表すには none of を使います。Although の逆接とも合い、何人も面接したが誰も経験がなかったという意味になります。",
+          "translationJa": {
+            "text": "その職には数人の候補者が面接を受けましたが、その会計ソフトの使用経験がある人は一人もいませんでした。"
+          },
+          "choiceExplanationsJa": {
+            "A": "nobody は「誰も〜ない」ですが、後ろに of を取ることはできません。Nobody had experience. のように単独で使います。",
+            "B": "none は none of them の形で「彼らのうち誰も〜ない」を表します。候補者の集団に限定した否定になります。",
+            "C": "nothing は「何も〜ない」で、物事に使います。人である候補者を指せず、nothing of them という形も使いません。",
+            "D": "no one は「誰も〜ない」ですが、nobody と同様に of を続けません。No one had experience. の形で使います。"
+          },
+          "vocabulary": [
+            {
+              "term": "candidate",
+              "meaningJa": "候補者"
+            },
+            {
+              "term": "position",
+              "meaningJa": "職・ポスト"
+            },
+            {
+              "term": "none of",
+              "meaningJa": "〜のうち誰も（何も）…ない"
+            },
+            {
+              "term": "accounting software",
+              "meaningJa": "会計ソフト"
+            }
+          ]
+        },
+        {
+          "id": "m01-q121",
+          "number": 121,
+          "stem": "Please _____ the attached document carefully before signing the rental agreement.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "remark"
+            },
+            {
+              "id": "B",
+              "text": "review"
+            },
+            {
+              "id": "C",
+              "text": "respond"
+            },
+            {
+              "id": "D",
+              "text": "refer"
+            }
+          ],
+          "answerId": "B",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q121:stem",
+              "keyPoint": "目的語 the attached document を直接取り、署名前に「よく確認する」動作を表す他動詞が必要。"
+            }
+          ],
+          "explanationJa": "空所の直後に the attached document（添付書類）という目的語があり、署名の前に carefully（注意深く）行う動作です。他動詞で「よく確認する・見直す」を表す review を選びます。",
+          "translationJa": {
+            "text": "賃貸契約書に署名する前に、添付の書類をよくご確認ください。"
+          },
+          "choiceExplanationsJa": {
+            "A": "remark は「（意見を）述べる」です。remark on the document のように on を伴い、書類を直接目的語に取って確認する意味にはなりません。",
+            "B": "review は「よく見直す・検討する」という他動詞です。review the document carefully で、署名前に内容を確認する動作を表します。",
+            "C": "respond は「応答する」で、respond to the e-mail のように to が必要な自動詞です。書類を直接目的語に取れません。",
+            "D": "refer は「参照する」の意味では refer to the manual のように to を伴います。前置詞なしで目的語を取ることはできません。"
+          },
+          "vocabulary": [
+            {
+              "term": "review",
+              "meaningJa": "見直す・よく確認する"
+            },
+            {
+              "term": "attached document",
+              "meaningJa": "添付書類"
+            },
+            {
+              "term": "rental agreement",
+              "meaningJa": "賃貸契約（書）"
+            },
+            {
+              "term": "refer to",
+              "meaningJa": "〜を参照する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q122",
+          "number": 122,
+          "stem": "Mr. Chen _____ for Harrow Shipping for twelve years before he started his own consulting firm last year.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "has worked"
+            },
+            {
+              "id": "B",
+              "text": "works"
+            },
+            {
+              "id": "C",
+              "text": "will work"
+            },
+            {
+              "id": "D",
+              "text": "had worked"
+            }
+          ],
+          "answerId": "D",
+          "skill": "時制",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q122:stem",
+              "keyPoint": "before he started ... last year（昨年起業する前）という過去の基準点より前の継続なので過去完了。"
+            }
+          ],
+          "explanationJa": "基準になるのは before he started his own consulting firm last year（昨年独立する前）という過去の時点です。それより前に12年間勤めていたので、過去のある時点までの継続を表す過去完了 had worked を使います。",
+          "translationJa": {
+            "text": "チェンさんは昨年自分のコンサルティング会社を始める前に、ハロー海運で12年間働いていました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "has worked は現在完了で、今も勤めている継続を表します。昨年すでに独立しているので、現在まで勤務が続いているという意味と矛盾します。",
+            "B": "works は現在形で、今の習慣や事実を表します。過去に12年間勤めていたことや、起業前という時間関係を表せません。",
+            "C": "will work は未来を表します。昨年より前の出来事について使うことはできません。",
+            "D": "had worked は過去完了です。昨年起業した時点より前に12年間勤めていたことを表せます。"
+          },
+          "vocabulary": [
+            {
+              "term": "work for",
+              "meaningJa": "〜に勤める"
+            },
+            {
+              "term": "consulting firm",
+              "meaningJa": "コンサルティング会社"
+            },
+            {
+              "term": "start one's own business",
+              "meaningJa": "独立して事業を始める"
+            },
+            {
+              "term": "had + 過去分詞",
+              "meaningJa": "過去完了（過去の時点までの完了・継続）"
+            }
+          ]
+        },
+        {
+          "id": "m01-q123",
+          "number": 123,
+          "stem": "Tickets for the riverside jazz festival are _____ only at the main entrance on the day of the event.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "available"
+            },
+            {
+              "id": "B",
+              "text": "capable"
+            },
+            {
+              "id": "C",
+              "text": "possible"
+            },
+            {
+              "id": "D",
+              "text": "eligible"
+            }
+          ],
+          "answerId": "A",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q123:stem",
+              "keyPoint": "主語 Tickets と場所 at the main entrance。チケットが「入手できる・販売されている」を表す形容詞が必要。"
+            }
+          ],
+          "explanationJa": "主語は Tickets（チケット）で、後ろに only at the main entrance（正面入口でのみ）と販売場所が続きます。物が「入手できる」を表す available を選び、「当日に正面入口でのみ購入できる」とします。",
+          "translationJa": {
+            "text": "川辺のジャズフェスティバルのチケットは、開催当日に正面入口でのみ購入できます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "available は「入手できる・利用できる」です。Tickets are available at ... でチケットの販売場所を示す定番表現です。",
+            "B": "capable は「能力がある」で、be capable of doing の形で人や機械に使います。チケットの入手場所は表せません。",
+            "C": "possible は「可能な」で、It is possible to buy tickets ... のように形式主語の文で使います。チケットそのものを主語に販売場所を示す使い方はしません。",
+            "D": "eligible は「資格がある」で、Members are eligible for a discount. のように人を主語に使います。チケットが資格を持つことはありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "riverside",
+              "meaningJa": "川辺の"
+            },
+            {
+              "term": "available",
+              "meaningJa": "入手できる・利用できる"
+            },
+            {
+              "term": "main entrance",
+              "meaningJa": "正面入口"
+            },
+            {
+              "term": "be eligible for",
+              "meaningJa": "〜の資格がある"
+            }
+          ]
+        },
+        {
+          "id": "m01-q124",
+          "number": 124,
+          "stem": "Customers can return items _____ in person or by mail within thirty days of purchase.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "both"
+            },
+            {
+              "id": "B",
+              "text": "neither"
+            },
+            {
+              "id": "C",
+              "text": "either"
+            },
+            {
+              "id": "D",
+              "text": "not only"
+            }
+          ],
+          "answerId": "C",
+          "skill": "接続詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q124:stem",
+              "keyPoint": "後ろに A or B（in person or by mail）が続く。or と組むのは either。"
+            }
+          ],
+          "explanationJa": "空所の後ろは in person or by mail と or で2つの方法が並んでいます。or と組み合わせて「AかBのどちらか」を表すのは either です。返品は店頭か郵送のどちらかで行えるという意味になります。",
+          "translationJa": {
+            "text": "お客様は、購入から30日以内であれば、店頭または郵送で商品を返品できます。"
+          },
+          "choiceExplanationsJa": {
+            "A": "both は both A and B の形で and と組みます。or とは組み合わせられません。",
+            "B": "neither は neither A nor B の形で nor と組み、「どちらも〜ない」を表します。or とは組まず、返品できないという意味にもなってしまいます。",
+            "C": "either は either A or B で「AかBのどちらか」です。2つの返品方法を示す文に合います。",
+            "D": "not only は not only A but (also) B の形で but と組みます。or とは組み合わせられません。"
+          },
+          "vocabulary": [
+            {
+              "term": "return an item",
+              "meaningJa": "商品を返品する"
+            },
+            {
+              "term": "in person",
+              "meaningJa": "直接・本人が出向いて"
+            },
+            {
+              "term": "by mail",
+              "meaningJa": "郵送で"
+            },
+            {
+              "term": "within thirty days of purchase",
+              "meaningJa": "購入から30日以内に"
+            }
+          ]
+        },
+        {
+          "id": "m01-q125",
+          "number": 125,
+          "stem": "The director was _____ with the quality of the final report that the research team submitted.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "impress"
+            },
+            {
+              "id": "B",
+              "text": "impressive"
+            },
+            {
+              "id": "C",
+              "text": "impressing"
+            },
+            {
+              "id": "D",
+              "text": "impressed"
+            }
+          ],
+          "answerId": "D",
+          "skill": "品詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q125:stem",
+              "keyPoint": "主語 The director は感心する側の人。be impressed with（〜に感心する）の形。"
+            }
+          ],
+          "explanationJa": "主語の The director（部長）は報告書の質に「感心させられた」側の人です。感情を表す動詞 impress は、人が感情を持つ場合に過去分詞を使い be impressed with ...（〜に感心する）となります。",
+          "translationJa": {
+            "text": "部長は、研究チームが提出した最終報告書の質に感心しました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "impress は動詞の原形です。be 動詞 was の直後に原形は置けません。",
+            "B": "impressive は「（物事が）印象的な」という形容詞です。The report was impressive. のように感心させる側を主語にします。部長が印象的だったという意味になり、with 以下ともつながりません。",
+            "C": "impressing は -ing 形です。was impressing では部長が誰かを感心させている進行形になり、with the quality と合いません。",
+            "D": "impressed は過去分詞です。was impressed with で「〜に感心した」となり、人が感情を抱く側である文に合います。"
+          },
+          "vocabulary": [
+            {
+              "term": "be impressed with",
+              "meaningJa": "〜に感心する"
+            },
+            {
+              "term": "impressive",
+              "meaningJa": "（物事が）印象的な・見事な"
+            },
+            {
+              "term": "quality",
+              "meaningJa": "質・品質"
+            },
+            {
+              "term": "final report",
+              "meaningJa": "最終報告書"
+            }
+          ]
+        },
+        {
+          "id": "m01-q126",
+          "number": 126,
+          "stem": "_____ the recent increase in fuel prices, Corvane Logistics has decided not to raise its delivery fees.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Although"
+            },
+            {
+              "id": "B",
+              "text": "Despite"
+            },
+            {
+              "id": "C",
+              "text": "Because"
+            },
+            {
+              "id": "D",
+              "text": "Even"
+            }
+          ],
+          "answerId": "B",
+          "skill": "前置詞",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q126:stem",
+              "keyPoint": "空所の後ろは名詞句 the recent increase in fuel prices。燃料費の上昇と配送料を上げないことは逆接の関係。"
+            }
+          ],
+          "explanationJa": "空所の後ろは the recent increase in fuel prices という名詞句で、動詞がありません。名詞句を取る前置詞が必要です。燃料価格が上がったのに配送料は上げないという逆接の関係なので Despite（〜にもかかわらず）を選びます。",
+          "translationJa": {
+            "text": "最近の燃料価格の上昇にもかかわらず、コーヴェイン・ロジスティクスは配送料を値上げしないことに決めました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "Although は「〜だけれども」という逆接の接続詞で、意味は近いものの後ろに主語と動詞のある節が必要です。Although fuel prices have risen, ... なら正しい文になります。",
+            "B": "Despite は「〜にもかかわらず」という前置詞で、名詞句を直接取ります。意味も構造も合います。",
+            "C": "Because は接続詞で節を導きます。名詞句を取るなら Because of が必要です。また「燃料が上がったので値上げしない」となり因果関係も不自然です。",
+            "D": "Even は「〜でさえ」という副詞です。単独では名詞句を導いて前置詞の働きをすることはできません。Even with the increase ... のように前置詞と組み合わせます。"
+          },
+          "vocabulary": [
+            {
+              "term": "despite",
+              "meaningJa": "〜にもかかわらず"
+            },
+            {
+              "term": "fuel prices",
+              "meaningJa": "燃料価格"
+            },
+            {
+              "term": "raise",
+              "meaningJa": "上げる・引き上げる"
+            },
+            {
+              "term": "delivery fee",
+              "meaningJa": "配送料"
+            }
+          ]
+        },
+        {
+          "id": "m01-q127",
+          "number": 127,
+          "stem": "The city council approved the _____ to expand the bicycle lanes along Fenwick Avenue.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "attendance"
+            },
+            {
+              "id": "B",
+              "text": "occupation"
+            },
+            {
+              "id": "C",
+              "text": "receipt"
+            },
+            {
+              "id": "D",
+              "text": "proposal"
+            }
+          ],
+          "answerId": "D",
+          "skill": "語彙",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-q127:stem",
+              "keyPoint": "市議会が approve（承認する）対象で、to expand（拡張するための）が続く名詞。approve a proposal は定番の組み合わせ。"
+            }
+          ],
+          "explanationJa": "市議会が承認した対象で、後ろに to expand the bicycle lanes（自転車レーンを拡張するための）が続きます。議会が承認するのは「提案・案」なので proposal を選びます。a proposal to do で「〜するという提案」です。",
+          "translationJa": {
+            "text": "市議会は、フェンウィック通り沿いの自転車レーンを拡張する案を承認しました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "attendance は「出席・出席者数」です。議会が出席を承認するという意味にならず、to expand ともつながりません。",
+            "B": "occupation は「職業・占有」です。自転車レーンを拡張するための職業という意味になり、承認の対象として成り立ちません。",
+            "C": "receipt は「領収書・受領」です。to expand を続けて計画の内容を示すことはできず、議会が承認する対象としても不自然です。",
+            "D": "proposal は「提案」です。approve the proposal to expand ... で「〜を拡張する案を承認する」となります。"
+          },
+          "vocabulary": [
+            {
+              "term": "city council",
+              "meaningJa": "市議会"
+            },
+            {
+              "term": "approve a proposal",
+              "meaningJa": "提案を承認する"
+            },
+            {
+              "term": "expand",
+              "meaningJa": "拡張する"
+            },
+            {
+              "term": "bicycle lane",
+              "meaningJa": "自転車レーン"
+            }
+          ]
+        },
+        {
+          "id": "m01-q128",
+          "number": 128,
+          "stem": "The survey asked customers to describe _____ they liked most about the redesigned Web site.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "that"
+            },
+            {
+              "id": "B",
+              "text": "it"
+            },
+            {
+              "id": "C",
+              "text": "whose"
+            },
+            {
+              "id": "D",
+              "text": "what"
+            }
+          ],
+          "answerId": "D",
+          "skill": "関係詞",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-q128:stem",
+              "keyPoint": "describe の目的語となる名詞節が必要で、節の中で liked の目的語が欠けている。先行詞を含む関係代名詞 what が入る。"
+            }
+          ],
+          "explanationJa": "空所以下は describe の目的語で、they liked most ... の中で liked の目的語が欠けています。先行詞を含み「〜するもの・こと」を表す what を入れると、「何が一番気に入ったかを説明する」という名詞節になります。",
+          "translationJa": {
+            "text": "その調査では、リニューアルしたウェブサイトについて一番気に入った点を説明するよう顧客に求めました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "that は名詞節を導けますが、that 節の中は完全な文である必要があります。ここでは liked の目的語が欠けているため入りません。The survey showed that they liked the new design. なら成り立ちます。",
+            "B": "it は代名詞で節を導けません。describe it they liked ... では2つの文が接続詞なしで並んでしまいます。",
+            "C": "whose は所有格の関係代名詞・疑問詞で、後ろに名詞が必要です。whose they liked では名詞がなく成り立ちません。",
+            "D": "what は「〜するもの・こと」を表し、自ら名詞節を作ります。liked の目的語の役割も担うので文が完成します。"
+          },
+          "vocabulary": [
+            {
+              "term": "survey",
+              "meaningJa": "調査・アンケート"
+            },
+            {
+              "term": "describe",
+              "meaningJa": "説明する・述べる"
+            },
+            {
+              "term": "what S V",
+              "meaningJa": "SがVするもの・こと"
+            },
+            {
+              "term": "redesigned",
+              "meaningJa": "デザインを一新した"
+            }
+          ]
+        },
+        {
+          "id": "m01-q129",
+          "number": 129,
+          "stem": "The software update was _____ postponed because testers discovered a problem with the payment feature.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "approximately"
+            },
+            {
+              "id": "B",
+              "text": "temporarily"
+            },
+            {
+              "id": "C",
+              "text": "considerately"
+            },
+            {
+              "id": "D",
+              "text": "accurately"
+            }
+          ],
+          "answerId": "B",
+          "skill": "語彙",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-q129:stem",
+              "keyPoint": "不具合が見つかったために更新を延期した。修正するまでの「一時的な」延期を表す副詞が自然。"
+            }
+          ],
+          "explanationJa": "空所は postponed（延期された）を修飾する副詞です。決済機能の問題が見つかったため、問題が解決するまで「一時的に」延期したと考えるのが自然なので temporarily を選びます。",
+          "translationJa": {
+            "text": "テスト担当者が決済機能の問題を見つけたため、ソフトウェアの更新は一時的に延期されました。"
+          },
+          "choiceExplanationsJa": {
+            "A": "approximately は「およそ」で、approximately 200 people のように数量を修飾します。延期という動作の様子は表せません。",
+            "B": "temporarily は「一時的に」です。temporarily postponed で「いったん延期された」となり、不具合の修正を待つ状況に合います。",
+            "C": "considerately は「思いやりをもって」で、人の振る舞いを表します。更新の延期の仕方を説明する語として不自然です。",
+            "D": "accurately は「正確に」で、measure accurately のように測定や記録の動作に使います。延期を修飾しても意味が通りません。"
+          },
+          "vocabulary": [
+            {
+              "term": "postpone",
+              "meaningJa": "延期する"
+            },
+            {
+              "term": "temporarily",
+              "meaningJa": "一時的に"
+            },
+            {
+              "term": "tester",
+              "meaningJa": "テスト担当者"
+            },
+            {
+              "term": "payment feature",
+              "meaningJa": "決済機能"
+            }
+          ]
+        },
+        {
+          "id": "m01-q130",
+          "number": 130,
+          "stem": "Participants who wish to _____ from the workshop must notify the organizer at least 48 hours in advance.",
+          "choices": [
+            {
+              "id": "A",
+              "text": "withdraw"
+            },
+            {
+              "id": "B",
+              "text": "cancel"
+            },
+            {
+              "id": "C",
+              "text": "resign"
+            },
+            {
+              "id": "D",
+              "text": "quit"
+            }
+          ],
+          "answerId": "A",
+          "skill": "語法",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-q130:stem",
+              "keyPoint": "空所の後ろに from the workshop が続く。withdraw from（〜への参加を取りやめる）が講座や大会の辞退に使う定型。"
+            }
+          ],
+          "explanationJa": "空所の後ろに from the workshop が続き、主語は参加者です。参加者が講習会への参加を取りやめることは withdraw from で表します。事前に主催者へ知らせるという後半とも合います。",
+          "translationJa": {
+            "text": "講習会への参加を取りやめたい参加者は、少なくとも48時間前までに主催者に知らせなければなりません。"
+          },
+          "choiceExplanationsJa": {
+            "A": "withdraw は withdraw from の形で「（参加・登録を）取りやめる、辞退する」を表します。参加者が講習会から抜ける意味に合います。",
+            "B": "cancel は「取り消す」という他動詞で、cancel one's registration のように目的語を直接取ります。cancel from という形は使いません。",
+            "C": "resign は resign from the committee のように「（職・役職を）辞める」場合に使います。講習会の受講をやめる意味には通常使いません。",
+            "D": "quit は quit the job のように目的語を直接取り、quit from とは通常言いません。講習会の辞退を正式に知らせる文脈にも合いません。"
+          },
+          "vocabulary": [
+            {
+              "term": "withdraw from",
+              "meaningJa": "〜への参加を取りやめる・〜から撤退する"
+            },
+            {
+              "term": "notify",
+              "meaningJa": "知らせる・通知する"
+            },
+            {
+              "term": "organizer",
+              "meaningJa": "主催者・幹事"
+            },
+            {
+              "term": "in advance",
+              "meaningJa": "前もって"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

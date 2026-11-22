@@ -1,0 +1,2440 @@
+{
+  "part": 7,
+  "sets": [
+    {
+      "setId": "m01-p7-s11",
+      "part": 7,
+      "setting": "研修センターの秋のワークショップ日程表と、受講者が講師に送ったメール（2文書）。",
+      "factSheet": [
+        {
+          "type": "organization",
+          "value": "Ridgeway Professional Development Center"
+        },
+        {
+          "type": "person",
+          "value": "Sandra Mills / Kenji Arai（Oct 13・Oct 27 の講師）/ Rosa Delgado / Lorraine Batista（Duncombe Marketing、センター会員）"
+        },
+        {
+          "type": "date",
+          "value": "Oct 6 / Oct 13 / Oct 20 / Oct 27（各ワークショップ）/ October 9（メール）"
+        },
+        {
+          "type": "amount",
+          "value": "$80 / $95 / $150 / $95、会員は20% off、終日の講座は昼食付き"
+        },
+        {
+          "type": "rule",
+          "value": "登録は各講座の5日前に締め切り"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s11-d1",
+          "type": "schedule",
+          "title": "Ridgeway Professional Development Center — Autumn Workshop Schedule",
+          "titleTranslationJa": "リッジウェイ職業能力開発センター — 秋のワークショップ日程",
+          "table": {
+            "columns": [
+              "Workshop",
+              "Date",
+              "Time",
+              "Instructor",
+              "Fee"
+            ],
+            "columnsJa": [
+              "講座",
+              "日付",
+              "時間",
+              "講師",
+              "受講料"
+            ]
+          },
+          "segments": [
+            {
+              "id": "m01-p7-s11-d1-r1",
+              "cells": [
+                "Writing Clear Business E-mails",
+                "October 6",
+                "9:00 A.M.–12:00 P.M.",
+                "Sandra Mills",
+                "$80"
+              ],
+              "text": "Writing Clear Business E-mails | October 6 | 9:00 A.M.–12:00 P.M. | Sandra Mills | $80",
+              "translationJa": "わかりやすいビジネスメールの書き方｜10月6日｜午前9時〜正午｜サンドラ・ミルズ｜80ドル"
+            },
+            {
+              "id": "m01-p7-s11-d1-r2",
+              "cells": [
+                "Leading Effective Meetings",
+                "October 13",
+                "1:00 P.M.–4:00 P.M.",
+                "Kenji Arai",
+                "$95"
+              ],
+              "text": "Leading Effective Meetings | October 13 | 1:00 P.M.–4:00 P.M. | Kenji Arai | $95",
+              "translationJa": "効果的な会議の進め方｜10月13日｜午後1時〜4時｜ケンジ・アライ｜95ドル"
+            },
+            {
+              "id": "m01-p7-s11-d1-r3",
+              "cells": [
+                "Introduction to Data Visualization",
+                "October 20",
+                "9:00 A.M.–4:00 P.M.",
+                "Rosa Delgado",
+                "$150"
+              ],
+              "text": "Introduction to Data Visualization | October 20 | 9:00 A.M.–4:00 P.M. | Rosa Delgado | $150",
+              "translationJa": "データ可視化入門｜10月20日｜午前9時〜午後4時｜ローザ・デルガド｜150ドル"
+            },
+            {
+              "id": "m01-p7-s11-d1-r4",
+              "cells": [
+                "Negotiation Basics",
+                "October 27",
+                "1:00 P.M.–4:00 P.M.",
+                "Kenji Arai",
+                "$95"
+              ],
+              "text": "Negotiation Basics | October 27 | 1:00 P.M.–4:00 P.M. | Kenji Arai | $95",
+              "translationJa": "交渉の基礎｜10月27日｜午後1時〜4時｜ケンジ・アライ｜95ドル"
+            },
+            {
+              "id": "m01-p7-s11-d1-n1",
+              "text": "Registration closes five days before each workshop. Members of the center receive 20 percent off all fees. Full-day workshops include lunch.",
+              "translationJa": "登録は各講座の5日前に締め切ります。センターの会員は全講座の受講料が20パーセント引きになります。終日の講座には昼食が付きます。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s11-d2",
+          "type": "email",
+          "header": {
+            "to": "Kenji Arai",
+            "from": "Lorraine Batista",
+            "date": "October 9",
+            "subject": "Workshop"
+          },
+          "headerTranslationJa": "宛先：ケンジ・アライ／差出人：ロレイン・バティスタ／日付：10月9日／件名：ワークショップ",
+          "segments": [
+            {
+              "id": "m01-p7-s11-d2-g1",
+              "text": "Dear Mr. Arai,",
+              "translationJa": "アライ様"
+            },
+            {
+              "id": "m01-p7-s11-d2-g2",
+              "text": "I registered for your workshop on October 13 and am looking forward to it. Several people on my team at Duncombe Marketing are also interested in your second workshop this month, but I just learned that our company's annual planning meeting will take place on that date.",
+              "translationJa": "10月13日の先生のワークショップに登録しており、楽しみにしています。ダンカム・マーケティングの私のチームの数人も、今月の先生の2つ目のワークショップに関心があるのですが、その日に当社の年次計画会議が行われると先ほど知りました。"
+            },
+            {
+              "id": "m01-p7-s11-d2-g3",
+              "text": "Will you offer the same workshop again in November or December? If so, I could register four employees at once. Also, I'm a member of the center, so I was wondering whether my membership discount applies to colleagues I register.",
+              "translationJa": "同じワークショップを11月か12月にもう一度開く予定はありますか。もしあれば、社員4人をまとめて登録できます。また、私はセンターの会員なのですが、私が登録する同僚にも会員割引が適用されるのか教えていただけますか。"
+            },
+            {
+              "id": "m01-p7-s11-d2-g4",
+              "text": "Lorraine Batista",
+              "translationJa": "ロレイン・バティスタ"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q176",
+          "number": 176,
+          "stem": "What is indicated about the workshops?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "They are all taught by the same instructor."
+            },
+            {
+              "id": "B",
+              "text": "Some of them include a meal."
+            },
+            {
+              "id": "C",
+              "text": "They are held only in the morning."
+            },
+            {
+              "id": "D",
+              "text": "They are free for members of the center."
+            }
+          ],
+          "answerId": "B",
+          "skill": "内容一致",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s11-d1-n1",
+              "keyPoint": "Full-day workshops include lunch。"
+            },
+            {
+              "ref": "m01-p7-s11-d1-r3",
+              "keyPoint": "10月20日の講座は午前9時〜午後4時の終日講座。"
+            }
+          ],
+          "explanationJa": "日程表の注記に「終日の講座には昼食が付く」とあり、表では10月20日の講座が9時から4時までの終日です。一部の講座に食事が含まれるので、Some of them include a meal が正解です。",
+          "translationJa": {
+            "text": "ワークショップについて何が述べられていますか。",
+            "choices": {
+              "A": "すべて同じ講師が教える。",
+              "B": "一部は食事付きである。",
+              "C": "午前中にしか開かれない。",
+              "D": "センターの会員は無料である。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "講師はサンドラ・ミルズ、ケンジ・アライ、ローザ・デルガドの3人です。",
+            "B": "終日講座は昼食付きで、10月20日の講座がそれに当たります。全講座ではないので Some が正確です。",
+            "C": "10月13日と27日は午後1時から、20日は終日で、午前だけではありません。",
+            "D": "会員は20パーセント引きで、無料ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "professional development",
+              "meaningJa": "職業能力の開発"
+            },
+            {
+              "term": "registration closes",
+              "meaningJa": "登録が締め切られる"
+            },
+            {
+              "term": "full-day",
+              "meaningJa": "終日の"
+            },
+            {
+              "term": "fee",
+              "meaningJa": "料金・受講料"
+            }
+          ]
+        },
+        {
+          "id": "m01-q177",
+          "number": 177,
+          "stem": "Which workshop has Ms. Batista registered for?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Negotiation Basics"
+            },
+            {
+              "id": "B",
+              "text": "Writing Clear Business E-mails"
+            },
+            {
+              "id": "C",
+              "text": "Leading Effective Meetings"
+            },
+            {
+              "id": "D",
+              "text": "Introduction to Data Visualization"
+            }
+          ],
+          "answerId": "C",
+          "skill": "照合",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s11-d2-g2",
+              "keyPoint": "I registered for your workshop on October 13（アライ氏の10月13日の講座）。"
+            },
+            {
+              "ref": "m01-p7-s11-d1-r2",
+              "keyPoint": "10月13日の講座は Leading Effective Meetings（講師 Kenji Arai）。"
+            }
+          ],
+          "explanationJa": "メールでバティスタさんは「10月13日の先生のワークショップに登録した」と書いています。日程表で10月13日、講師アライ氏の講座を探すと Leading Effective Meetings です。メールの日付と表の日付を照合して答えます。",
+          "translationJa": {
+            "text": "バティスタさんはどのワークショップに登録していますか。",
+            "choices": {
+              "A": "交渉の基礎",
+              "B": "わかりやすいビジネスメールの書き方",
+              "C": "効果的な会議の進め方",
+              "D": "データ可視化入門"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "交渉の基礎はアライ氏の講座ですが、10月27日に開かれる「2つ目のワークショップ」です。同僚が関心を持っている講座で、バティスタさんが登録したものではありません。",
+            "B": "10月6日のミルズ氏の講座です。バティスタさんが登録したのはアライ氏の10月13日の講座です。",
+            "C": "10月13日のアライ氏の講座で、メールの「10月13日の先生のワークショップ」と一致します。",
+            "D": "10月20日のデルガド氏の講座で、日付も講師もメールと合いません。"
+          },
+          "vocabulary": [
+            {
+              "term": "register for",
+              "meaningJa": "〜に登録する"
+            },
+            {
+              "term": "look forward to",
+              "meaningJa": "〜を楽しみにする"
+            },
+            {
+              "term": "effective",
+              "meaningJa": "効果的な"
+            },
+            {
+              "term": "negotiation",
+              "meaningJa": "交渉"
+            }
+          ]
+        },
+        {
+          "id": "m01-q178",
+          "number": 178,
+          "stem": "Which workshop are Ms. Batista's colleagues most likely interested in?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Writing Clear Business E-mails"
+            },
+            {
+              "id": "B",
+              "text": "Leading Effective Meetings"
+            },
+            {
+              "id": "C",
+              "text": "Introduction to Data Visualization"
+            },
+            {
+              "id": "D",
+              "text": "Negotiation Basics"
+            }
+          ],
+          "answerId": "D",
+          "skill": "照合",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s11-d2-g2",
+              "keyPoint": "同僚は your second workshop this month（アライ氏の今月2つ目の講座）に関心がある。"
+            },
+            {
+              "ref": "m01-p7-s11-d1-r4",
+              "keyPoint": "アライ氏の講座は10月13日と10月27日。2つ目は10月27日の Negotiation Basics。"
+            }
+          ],
+          "explanationJa": "メールの宛先はアライ氏で、同僚は「今月の先生の2つ目のワークショップ」に関心があると書かれています。日程表でアライ氏が担当するのは10月13日と10月27日の2講座なので、2つ目は10月27日の Negotiation Basics です。",
+          "translationJa": {
+            "text": "バティスタさんの同僚はどのワークショップに関心があると考えられますか。",
+            "choices": {
+              "A": "わかりやすいビジネスメールの書き方",
+              "B": "効果的な会議の進め方",
+              "C": "データ可視化入門",
+              "D": "交渉の基礎"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ミルズ氏の講座で、アライ氏の講座ではありません。your second workshop に当たりません。",
+            "B": "アライ氏の1つ目の講座（10月13日）で、バティスタさん本人が登録したものです。",
+            "C": "デルガド氏の講座で、アライ氏の講座ではありません。",
+            "D": "アライ氏の今月2つ目の講座は10月27日の交渉の基礎です。your second workshop this month と表を照合すると決まります。"
+          },
+          "vocabulary": [
+            {
+              "term": "be interested in",
+              "meaningJa": "〜に関心がある"
+            },
+            {
+              "term": "annual planning meeting",
+              "meaningJa": "年次計画会議"
+            },
+            {
+              "term": "take place",
+              "meaningJa": "行われる"
+            },
+            {
+              "term": "on that date",
+              "meaningJa": "その日に"
+            }
+          ]
+        },
+        {
+          "id": "m01-q179",
+          "number": 179,
+          "stem": "What does Ms. Batista ask Mr. Arai about?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Whether a workshop will be offered again later"
+            },
+            {
+              "id": "B",
+              "text": "Whether the fee includes course materials"
+            },
+            {
+              "id": "C",
+              "text": "Whether she can move to a different date"
+            },
+            {
+              "id": "D",
+              "text": "Whether lunch will be served at his workshop"
+            }
+          ],
+          "answerId": "A",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s11-d2-g3",
+              "keyPoint": "Will you offer the same workshop again in November or December?"
+            }
+          ],
+          "explanationJa": "第3段落の冒頭で「同じワークショップを11月か12月にもう一度開くか」と尋ねています。同僚が会議で参加できないため、後日の開講を確認しているのです。",
+          "translationJa": {
+            "text": "バティスタさんはアライさんに何を尋ねていますか。",
+            "choices": {
+              "A": "ワークショップが後日また開かれるかどうか",
+              "B": "受講料に教材が含まれるかどうか",
+              "C": "自分が別の日程に変更できるかどうか",
+              "D": "アライさんのワークショップで昼食が出るかどうか"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "11月か12月に同じ講座を開くかという質問と一致します。",
+            "B": "教材についての質問はありません。料金については会員割引が同僚にも使えるかを尋ねています。",
+            "C": "バティスタさん自身は10月13日の講座を楽しみにしており、日程変更は求めていません。",
+            "D": "昼食についての質問はありません。アライ氏の講座は3時間の講座で、終日講座ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "offer a workshop",
+              "meaningJa": "講座を開く"
+            },
+            {
+              "term": "at once",
+              "meaningJa": "一度に・まとめて"
+            },
+            {
+              "term": "I was wondering whether",
+              "meaningJa": "〜かどうか教えていただけますか（丁寧な質問）"
+            },
+            {
+              "term": "course materials",
+              "meaningJa": "教材"
+            }
+          ]
+        },
+        {
+          "id": "m01-q180",
+          "number": 180,
+          "stem": "What is suggested about Ms. Batista?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "She works at the Ridgeway center."
+            },
+            {
+              "id": "B",
+              "text": "She will lead a workshop in November."
+            },
+            {
+              "id": "C",
+              "text": "She is eligible for a 20 percent discount."
+            },
+            {
+              "id": "D",
+              "text": "She missed a registration deadline."
+            }
+          ],
+          "answerId": "C",
+          "skill": "照合・推測",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s11-d2-g3",
+              "keyPoint": "I'm a member of the center。"
+            },
+            {
+              "ref": "m01-p7-s11-d1-n1",
+              "keyPoint": "Members of the center receive 20 percent off all fees。"
+            }
+          ],
+          "explanationJa": "メールでバティスタさんは「私はセンターの会員だ」と書いています。日程表の注記では会員は全講座が20パーセント引きです。2つを合わせると、彼女は20パーセント割引を受けられる立場だとわかります。",
+          "translationJa": {
+            "text": "バティスタさんについて何が示唆されていますか。",
+            "choices": {
+              "A": "リッジウェイ・センターで働いている。",
+              "B": "11月にワークショップを担当する。",
+              "C": "20パーセントの割引を受ける資格がある。",
+              "D": "登録の締め切りに間に合わなかった。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "バティスタさんはダンカム・マーケティングのチームの一員で、センターの職員ではありません。センターとの関係は会員です。",
+            "B": "11月は、アライ氏が講座を再び開くかを尋ねている時期です。彼女が講座を担当するわけではありません。",
+            "C": "会員であるというメールの記述と、会員は20パーセント引きという表の注記を合わせると導けます。",
+            "D": "バティスタさんは10月13日の講座にすでに登録済みです。締め切りに遅れたという記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "member",
+              "meaningJa": "会員"
+            },
+            {
+              "term": "membership discount",
+              "meaningJa": "会員割引"
+            },
+            {
+              "term": "apply to",
+              "meaningJa": "〜に適用される"
+            },
+            {
+              "term": "be eligible for",
+              "meaningJa": "〜を受ける資格がある"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s12",
+      "part": 7,
+      "setting": "事務用品店のセール広告と、客が組み立てサービスの不備を伝えるメール（2文書）。",
+      "factSheet": [
+        {
+          "type": "business",
+          "value": "Oakhaven Office Supply（210 Mercer Avenue, Brantford）"
+        },
+        {
+          "type": "person",
+          "value": "Vivian Cho（Office Manager, Talbot Architecture）"
+        },
+        {
+          "type": "date",
+          "value": "April 1–15（セール）/ April 12（注文）/ April 17（配達、メールの前日）/ April 18（メール）/ Monday（新オフィスで勤務開始）"
+        },
+        {
+          "type": "amount",
+          "value": "chairs 25% off / standing desks 15% off / filing cabinets 10% off / paper 2ケース購入で1ケース無料 / 無料配達は $300 超・Brantford 市内 / 組み立て $40 per item / 注文 $2,140 + 組み立て $120"
+        },
+        {
+          "type": "quantity",
+          "value": "standing desks 3 / ergonomic chairs 6"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s12-d1",
+          "type": "advertisement",
+          "title": "Oakhaven Office Supply — Spring Sale, April 1–15",
+          "titleTranslationJa": "オークヘイブン事務用品店 — 春のセール（4月1日〜15日）",
+          "segments": [
+            {
+              "id": "m01-p7-s12-d1-g1",
+              "text": "Save on everything you need for your workspace!",
+              "translationJa": "仕事場に必要なものがすべてお得に！"
+            },
+            {
+              "id": "m01-p7-s12-d1-g2",
+              "text": "• Ergonomic desk chairs — 25% off\n• Standing desks — 15% off\n• Filing cabinets — 10% off\n• Printer paper (case of 10 reams) — buy two cases, get one free",
+              "translationJa": "・人間工学に基づいたデスクチェア — 25%引き\n・スタンディングデスク — 15%引き\n・書類キャビネット — 10%引き\n・プリンター用紙（10連入りケース）— 2ケースご購入で1ケース無料"
+            },
+            {
+              "id": "m01-p7-s12-d1-g3",
+              "text": "Free delivery on orders over $300 within the city of Brantford. Assembly service is available for $40 per item.",
+              "translationJa": "ブラントフォード市内であれば、300ドルを超えるご注文は配達無料です。組み立てサービスは1点につき40ドルで承ります。"
+            },
+            {
+              "id": "m01-p7-s12-d1-g4",
+              "text": "Orders can be placed in our store at 210 Mercer Avenue or online at our Web site. Sale prices apply only to orders placed during the sale period.",
+              "translationJa": "ご注文はマーサー通り210番地の店舗、または当店ウェブサイトで承ります。セール価格はセール期間中のご注文にのみ適用されます。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s12-d2",
+          "type": "email",
+          "header": {
+            "to": "Customer Service, Oakhaven Office Supply",
+            "from": "Vivian Cho",
+            "date": "April 18",
+            "subject": "Order 30917"
+          },
+          "headerTranslationJa": "宛先：オークヘイブン事務用品店 顧客サービス／差出人：ビビアン・チョー／日付：4月18日／件名：注文30917",
+          "segments": [
+            {
+              "id": "m01-p7-s12-d2-g1",
+              "text": "Hello,",
+              "translationJa": "こんにちは。"
+            },
+            {
+              "id": "m01-p7-s12-d2-g2",
+              "text": "On April 12, I ordered three standing desks and six ergonomic chairs through your Web site for our new office on Fenwick Road here in Brantford. The total came to $2,140, and I paid an additional $120 so that the desks would be assembled.",
+              "translationJa": "4月12日に、ここブラントフォードのフェンウィック通りにある当社の新オフィス用に、御社のウェブサイトでスタンディングデスク3台と人間工学チェア6脚を注文しました。合計は2,140ドルで、デスクを組み立ててもらうために追加で120ドルを支払いました。"
+            },
+            {
+              "id": "m01-p7-s12-d2-g3",
+              "text": "The items were delivered yesterday, and the chairs are fine. However, the desks were left in their boxes, and the delivery crew told me they had no record of the assembly service.",
+              "translationJa": "品物は昨日届き、椅子は問題ありません。しかし、デスクは箱に入ったまま置いていかれ、配達員は組み立てサービスの記録がないと言っていました。"
+            },
+            {
+              "id": "m01-p7-s12-d2-g4",
+              "text": "Could you please either send someone to put the desks together this week or refund the assembly fee? Our staff will begin working in the new office on Monday, so I would prefer the first option.",
+              "translationJa": "今週中にデスクを組み立てる人を派遣していただくか、組み立て料金を返金していただけますか。当社の社員は月曜日から新オフィスで働き始めるので、前者を希望します。"
+            },
+            {
+              "id": "m01-p7-s12-d2-g5",
+              "text": "Vivian Cho\nOffice Manager, Talbot Architecture",
+              "translationJa": "ビビアン・チョー　タルボット建築設計 総務部長"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q181",
+          "number": 181,
+          "stem": "What is NOT offered as part of the sale?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Discounted seating"
+            },
+            {
+              "id": "B",
+              "text": "Free paper with a purchase"
+            },
+            {
+              "id": "C",
+              "text": "Lower prices on computers"
+            },
+            {
+              "id": "D",
+              "text": "Reduced prices on storage furniture"
+            }
+          ],
+          "answerId": "C",
+          "skill": "NOT問題",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s12-d1-g2",
+              "keyPoint": "セール品は chairs / standing desks / filing cabinets / printer paper の4つ。コンピューターはない。"
+            }
+          ],
+          "explanationJa": "広告のセール品は、椅子、スタンディングデスク、書類キャビネット、プリンター用紙の4つです。椅子は seating、キャビネットは storage furniture、用紙の1ケース無料は free paper と言い換えられています。コンピューターはどこにもないので、これが正解です。",
+          "translationJa": {
+            "text": "セールの一部として提供されていないものはどれですか。",
+            "choices": {
+              "A": "割引された椅子",
+              "B": "購入に伴う無料の用紙",
+              "C": "コンピューターの値下げ",
+              "D": "収納家具の値下げ"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "seating（座る家具）はデスクチェアの言い換えで、25%引きと書かれています。",
+            "B": "プリンター用紙は2ケース買うと1ケース無料で、購入に伴う無料の用紙に当たります。",
+            "C": "コンピューターは広告のどこにも出てこないため、提供されていないものです。",
+            "D": "storage furniture（収納家具）は書類キャビネットの言い換えで、10%引きと書かれています。"
+          },
+          "vocabulary": [
+            {
+              "term": "ergonomic",
+              "meaningJa": "人間工学に基づいた"
+            },
+            {
+              "term": "filing cabinet",
+              "meaningJa": "書類キャビネット"
+            },
+            {
+              "term": "ream",
+              "meaningJa": "連（紙500枚の単位）"
+            },
+            {
+              "term": "seating",
+              "meaningJa": "座席・座る家具"
+            },
+            {
+              "term": "storage furniture",
+              "meaningJa": "収納家具"
+            }
+          ]
+        },
+        {
+          "id": "m01-q182",
+          "number": 182,
+          "stem": "According to the advertisement, how can customers receive free delivery?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "By spending more than a certain amount"
+            },
+            {
+              "id": "B",
+              "text": "By placing an order online"
+            },
+            {
+              "id": "C",
+              "text": "By joining a membership program"
+            },
+            {
+              "id": "D",
+              "text": "By ordering before the sale begins"
+            }
+          ],
+          "answerId": "A",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s12-d1-g3",
+              "keyPoint": "Free delivery on orders over $300 within the city of Brantford。"
+            }
+          ],
+          "explanationJa": "広告に「ブラントフォード市内で300ドルを超える注文は配達無料」とあります。orders over $300 を「一定額を超えて支払う」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "広告によると、客はどうすれば無料で配達してもらえますか。",
+            "choices": {
+              "A": "一定額を超える買い物をする",
+              "B": "オンラインで注文する",
+              "C": "会員制度に加入する",
+              "D": "セールが始まる前に注文する"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "300ドルを超える注文で配達無料という条件を言い換えています。",
+            "B": "オンラインは注文方法の一つとして挙がっているだけで、無料配達の条件ではありません。",
+            "C": "会員制度についての記述は広告にありません。無料配達の条件として示されているのは、注文金額（300ドル超）と配達地域（ブラントフォード市内）だけです。",
+            "D": "セール価格はセール期間中の注文に適用されると書かれており、開始前の注文による特典はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "free delivery",
+              "meaningJa": "配達無料"
+            },
+            {
+              "term": "order over $300",
+              "meaningJa": "300ドルを超える注文"
+            },
+            {
+              "term": "assembly service",
+              "meaningJa": "組み立てサービス"
+            },
+            {
+              "term": "per item",
+              "meaningJa": "1点につき"
+            }
+          ]
+        },
+        {
+          "id": "m01-q183",
+          "number": 183,
+          "stem": "How many items did Ms. Cho pay to have assembled?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "One"
+            },
+            {
+              "id": "B",
+              "text": "Three"
+            },
+            {
+              "id": "C",
+              "text": "Six"
+            },
+            {
+              "id": "D",
+              "text": "Nine"
+            }
+          ],
+          "answerId": "B",
+          "skill": "照合・計算",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s12-d2-g2",
+              "keyPoint": "I paid an additional $120 so that the desks would be assembled。注文したデスクは3台。"
+            },
+            {
+              "ref": "m01-p7-s12-d1-g3",
+              "keyPoint": "Assembly service is available for $40 per item。"
+            }
+          ],
+          "explanationJa": "メールでチョーさんは組み立て料金として120ドルを支払ったと書いています。広告では組み立ては1点40ドルなので、120 ÷ 40 = 3 点です。注文したスタンディングデスクが3台であることとも一致します。",
+          "translationJa": {
+            "text": "チョーさんは何点の組み立て料金を支払いましたか。",
+            "choices": {
+              "A": "1点",
+              "B": "3点",
+              "C": "6点",
+              "D": "9点"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "1点なら組み立て料金は40ドルです。支払った120ドルと合いません。",
+            "B": "120ドル ÷ 1点40ドル ＝ 3点で、組み立てを頼んだデスク3台とも一致します。",
+            "C": "6は注文した椅子の数です。組み立てを頼んだのはデスクで、6点なら料金は240ドルになります。",
+            "D": "9はデスクと椅子を合わせた数です。9点なら料金は360ドルになり、120ドルと合いません。"
+          },
+          "vocabulary": [
+            {
+              "term": "have A assembled",
+              "meaningJa": "Aを組み立ててもらう"
+            },
+            {
+              "term": "additional",
+              "meaningJa": "追加の"
+            },
+            {
+              "term": "come to",
+              "meaningJa": "（合計が）〜になる"
+            },
+            {
+              "term": "standing desk",
+              "meaningJa": "立って使える机"
+            }
+          ]
+        },
+        {
+          "id": "m01-q184",
+          "number": 184,
+          "stem": "What is suggested about Ms. Cho's order?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It qualified for free delivery."
+            },
+            {
+              "id": "B",
+              "text": "It was placed after the sale ended."
+            },
+            {
+              "id": "C",
+              "text": "It included printer paper."
+            },
+            {
+              "id": "D",
+              "text": "It was picked up at the store."
+            }
+          ],
+          "answerId": "A",
+          "skill": "照合・推測",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s12-d2-g2",
+              "keyPoint": "注文は4月12日、届け先はブラントフォードの新オフィス、合計2,140ドル。"
+            },
+            {
+              "ref": "m01-p7-s12-d1-g3",
+              "keyPoint": "無料配達の条件はブラントフォード市内かつ300ドル超。"
+            }
+          ],
+          "explanationJa": "広告の無料配達の条件は「ブラントフォード市内」で「300ドルを超える注文」です。メールによるとチョーさんの届け先はブラントフォードの新オフィスで、合計は2,140ドルなので、両方の条件を満たします。",
+          "translationJa": {
+            "text": "チョーさんの注文について何が示唆されていますか。",
+            "choices": {
+              "A": "無料配達の条件を満たしていた。",
+              "B": "セール終了後に注文された。",
+              "C": "プリンター用紙が含まれていた。",
+              "D": "店舗で受け取られた。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "届け先がブラントフォード市内で、合計2,140ドルは300ドルを超えているため、広告の無料配達の条件に当てはまります。",
+            "B": "注文は4月12日で、セール期間（4月1日〜15日）の中です。",
+            "C": "注文したのはデスク3台と椅子6脚で、用紙は含まれていません。",
+            "D": "品物は昨日届けられ（delivered）、配達員が置いていったと書かれています。店舗での受け取りではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "qualify for",
+              "meaningJa": "〜の資格・条件を満たす"
+            },
+            {
+              "term": "pick up",
+              "meaningJa": "受け取る・引き取る"
+            },
+            {
+              "term": "sale period",
+              "meaningJa": "セール期間"
+            },
+            {
+              "term": "total",
+              "meaningJa": "合計"
+            }
+          ]
+        },
+        {
+          "id": "m01-q185",
+          "number": 185,
+          "stem": "What would Ms. Cho prefer the company to do?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Replace a damaged chair"
+            },
+            {
+              "id": "B",
+              "text": "Offer a discount on a future order"
+            },
+            {
+              "id": "C",
+              "text": "Send someone to set up the desks"
+            },
+            {
+              "id": "D",
+              "text": "Return the assembly fee"
+            }
+          ],
+          "answerId": "C",
+          "skill": "詳細",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s12-d2-g4",
+              "keyPoint": "either send someone to put the desks together this week or refund the assembly fee ... I would prefer the first option。"
+            }
+          ],
+          "explanationJa": "メールの最後の段落で、チョーさんは「組み立てる人を派遣する」か「組み立て料金を返金する」かを求め、月曜日から社員が働き始めるので前者（the first option）を希望すると述べています。put together を set up と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "チョーさんは会社に何をしてほしいと思っていますか。",
+            "choices": {
+              "A": "破損した椅子を交換する",
+              "B": "今後の注文に割引をする",
+              "C": "デスクを組み立てる人を派遣する",
+              "D": "組み立て料金を返す"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "椅子は問題ない（the chairs are fine）と書かれています。",
+            "B": "今後の注文への割引を求める記述はありません。チョーさんが示した案は、組み立てる人の派遣と組み立て料金の返金の2つだけです。",
+            "C": "2つの案のうち「前者」、つまり組み立てる人を派遣してもらうことを希望しています。",
+            "D": "返金は2つ目の案として挙げられていますが、チョーさんが希望しているのは前者です。選択肢の一つとして挙がっているだけです。"
+          },
+          "vocabulary": [
+            {
+              "term": "delivery crew",
+              "meaningJa": "配達員"
+            },
+            {
+              "term": "put together",
+              "meaningJa": "組み立てる"
+            },
+            {
+              "term": "either A or B",
+              "meaningJa": "AかBのどちらか"
+            },
+            {
+              "term": "the first option",
+              "meaningJa": "前者・1つ目の案"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s13",
+      "part": 7,
+      "setting": "山荘の会議・イベントプランのウェブページ、社員研修旅行の問い合わせメール、宿泊後のオンラインレビュー（3文書）。",
+      "factSheet": [
+        {
+          "type": "venue",
+          "value": "Silverpine Lodge"
+        },
+        {
+          "type": "person",
+          "value": "Rajesh Menon（Kestrel Software）"
+        },
+        {
+          "type": "package",
+          "value": "Basic（〜30人、部屋・プロジェクター・コーヒー、$45）/ Standard（〜60人、Basic＋ビュッフェ昼食、$70）/ Premium（〜120人、Standard＋夕方のレセプション・ガイド付きハイキング、$110）"
+        },
+        {
+          "type": "rule",
+          "value": "全プランに Wi-Fi・駐車場無料 / 40人以上は予約時に20%のデポジット / ハイキングは5月〜10月"
+        },
+        {
+          "type": "date",
+          "value": "February 20（メール）/ April 16–17（研修旅行）/ April 22（レビュー）"
+        },
+        {
+          "type": "number",
+          "value": "50 employees"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s13-d1",
+          "type": "web-page",
+          "title": "Silverpine Lodge — Meeting & Event Packages",
+          "titleTranslationJa": "シルバーパイン・ロッジ — 会議・イベントプラン",
+          "table": {
+            "columns": [
+              "Package",
+              "Capacity",
+              "Includes",
+              "Price per person"
+            ],
+            "columnsJa": [
+              "プラン",
+              "収容人数",
+              "内容",
+              "1人あたりの料金"
+            ]
+          },
+          "segments": [
+            {
+              "id": "m01-p7-s13-d1-r1",
+              "cells": [
+                "Basic",
+                "Up to 30",
+                "Room rental, projector, coffee service",
+                "$45"
+              ],
+              "text": "Basic | Up to 30 | Room rental, projector, coffee service | $45",
+              "translationJa": "ベーシック｜30人まで｜部屋の使用、プロジェクター、コーヒーサービス｜45ドル"
+            },
+            {
+              "id": "m01-p7-s13-d1-r2",
+              "cells": [
+                "Standard",
+                "Up to 60",
+                "Basic + buffet lunch",
+                "$70"
+              ],
+              "text": "Standard | Up to 60 | Basic + buffet lunch | $70",
+              "translationJa": "スタンダード｜60人まで｜ベーシックの内容＋ビュッフェ形式の昼食｜70ドル"
+            },
+            {
+              "id": "m01-p7-s13-d1-r3",
+              "cells": [
+                "Premium",
+                "Up to 120",
+                "Standard + evening reception, guided hike",
+                "$110"
+              ],
+              "text": "Premium | Up to 120 | Standard + evening reception, guided hike | $110",
+              "translationJa": "プレミアム｜120人まで｜スタンダードの内容＋夕方のレセプション、ガイド付きハイキング｜110ドル"
+            },
+            {
+              "id": "m01-p7-s13-d1-n1",
+              "text": "All packages include free Wi-Fi and parking. Bookings for groups of 40 or more require a deposit of 20 percent at the time of booking. Guided hikes are available from May through October.",
+              "translationJa": "全プランにWi-Fiと駐車場の無料利用が含まれます。40人以上の団体のご予約には、予約時に料金の20パーセントの前払い金が必要です。ガイド付きハイキングは5月から10月まで実施しています。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s13-d2",
+          "type": "email",
+          "header": {
+            "to": "Events Team, Silverpine Lodge",
+            "from": "Rajesh Menon",
+            "date": "February 20",
+            "subject": "Company retreat"
+          },
+          "headerTranslationJa": "宛先：シルバーパイン・ロッジ イベント担当／差出人：ラジェシュ・メノン／日付：2月20日／件名：社員研修旅行",
+          "segments": [
+            {
+              "id": "m01-p7-s13-d2-g1",
+              "text": "I'm organizing a two-day retreat for 50 employees of Kestrel Software on April 16 and 17. We would need a room with a projector, coffee service, and lunch on both days. We'd also love to take our group on a guided hike, if possible. Could you send me information about available rooms and confirm the price?",
+              "translationJa": "4月16日と17日に、ケストレル・ソフトウェアの社員50人の2日間の研修旅行を計画しています。両日とも、プロジェクターとコーヒーサービスのある部屋と昼食が必要です。可能であれば、グループでガイド付きハイキングにもぜひ参加したいと思っています。空いている部屋の情報を送っていただき、料金を確認していただけますか。"
+            },
+            {
+              "id": "m01-p7-s13-d2-g2",
+              "text": "Rajesh Menon",
+              "translationJa": "ラジェシュ・メノン"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s13-d3",
+          "type": "online-review",
+          "header": {
+            "rating": "4 out of 5 stars",
+            "reviewer": "R. Menon",
+            "date": "April 22"
+          },
+          "headerTranslationJa": "評価：5つ星中4つ／投稿者：R・メノン／投稿日：4月22日",
+          "segments": [
+            {
+              "id": "m01-p7-s13-d3-g1",
+              "text": "Our company held its retreat at Silverpine Lodge last week, and overall it was a great experience. The meeting room was bright and spacious, and the buffet lunch received many compliments.",
+              "translationJa": "先週、当社はシルバーパイン・ロッジで研修旅行を行い、全体としてとてもよい経験になりました。会議室は明るく広々としていて、ビュッフェの昼食も多くの人に好評でした。"
+            },
+            {
+              "id": "m01-p7-s13-d3-g2",
+              "text": "The staff was especially helpful when our projector stopped working on the first morning — a replacement was brought in within ten minutes.",
+              "translationJa": "初日の朝にプロジェクターが動かなくなったとき、スタッフが特に親切に対応してくれ、10分以内に代わりの機器が運び込まれました。"
+            },
+            {
+              "id": "m01-p7-s13-d3-g3",
+              "text": "My only disappointment was that we couldn't schedule an outdoor activity during our visit, but we plan to return in the summer to do that.",
+              "translationJa": "唯一残念だったのは、滞在中に屋外での活動を予定に入れられなかったことですが、夏にまた訪れてそれを実現するつもりです。"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q186",
+          "number": 186,
+          "stem": "According to the Web page, what is included in all packages?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A buffet lunch"
+            },
+            {
+              "id": "B",
+              "text": "A guided hike"
+            },
+            {
+              "id": "C",
+              "text": "Free parking"
+            },
+            {
+              "id": "D",
+              "text": "An evening reception"
+            }
+          ],
+          "answerId": "C",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s13-d1-n1",
+              "keyPoint": "All packages include free Wi-Fi and parking。"
+            }
+          ],
+          "explanationJa": "ウェブページの注記に「全プランに無料のWi-Fiと駐車場が含まれる」とあります。表の各プランの内容ではなく、注記に答えがある点に注意しましょう。",
+          "translationJa": {
+            "text": "ウェブページによると、全プランに含まれているものは何ですか。",
+            "choices": {
+              "A": "ビュッフェ形式の昼食",
+              "B": "ガイド付きハイキング",
+              "C": "無料の駐車場",
+              "D": "夕方のレセプション"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ビュッフェの昼食はスタンダードとプレミアムに含まれますが、ベーシックには含まれません。",
+            "B": "ガイド付きハイキングはプレミアムだけに含まれます。",
+            "C": "注記に、全プランに無料のWi-Fiと駐車場が含まれるとあります。",
+            "D": "夕方のレセプションはプレミアムだけに含まれます。"
+          },
+          "vocabulary": [
+            {
+              "term": "package",
+              "meaningJa": "（料金・サービスの）プラン"
+            },
+            {
+              "term": "capacity",
+              "meaningJa": "収容人数・定員"
+            },
+            {
+              "term": "room rental",
+              "meaningJa": "部屋の使用（賃貸）"
+            },
+            {
+              "term": "reception",
+              "meaningJa": "歓迎会・レセプション"
+            }
+          ]
+        },
+        {
+          "id": "m01-q187",
+          "number": 187,
+          "stem": "Which package is most suitable for Mr. Menon's group in April?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Basic"
+            },
+            {
+              "id": "B",
+              "text": "Standard"
+            },
+            {
+              "id": "C",
+              "text": "Premium"
+            },
+            {
+              "id": "D",
+              "text": "None of the listed packages"
+            }
+          ],
+          "answerId": "B",
+          "skill": "照合",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s13-d2-g1",
+              "keyPoint": "50人、プロジェクター・コーヒーサービス・両日の昼食が必要、ハイキングは可能なら（if possible）。日程は4月。"
+            },
+            {
+              "ref": "m01-p7-s13-d1-r2",
+              "keyPoint": "Standard は60人まで、Basic の内容＋ビュッフェ昼食。"
+            },
+            {
+              "ref": "m01-p7-s13-d1-r1",
+              "keyPoint": "Basic は30人までで昼食なし。"
+            },
+            {
+              "ref": "m01-p7-s13-d1-n1",
+              "keyPoint": "ハイキングは5月〜10月のみで4月は実施されない。"
+            }
+          ],
+          "explanationJa": "メールの条件は「50人」「プロジェクター・コーヒー・昼食」「ハイキングは可能なら」で、日程は4月です。ベーシックは30人までで昼食がありません。ハイキングは5月〜10月なので4月には実施されず、ハイキングを含むプレミアムを選ぶ理由がありません。60人まで入れて昼食も付くスタンダードが最も適しています。",
+          "translationJa": {
+            "text": "4月のメノンさんのグループに最も適したプランはどれですか。",
+            "choices": {
+              "A": "ベーシック",
+              "B": "スタンダード",
+              "C": "プレミアム",
+              "D": "掲載されているプランのどれでもない"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ベーシックは30人までで、50人のグループは入れません。必要な昼食も含まれていません。",
+            "B": "60人まで収容でき、プロジェクター・コーヒーに加えてビュッフェの昼食が付きます。メールの必須条件をすべて満たします。",
+            "C": "人数も昼食も条件を満たしますが、プレミアムにだけ含まれるハイキングは4月には実施されません。ハイキングは「可能なら」の希望にすぎず、必須条件はスタンダードで満たせるので、最も適したプランとは言えません。",
+            "D": "スタンダードが50人・プロジェクター・コーヒー・昼食の条件をすべて満たすので、当てはまるプランがないわけではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "retreat",
+              "meaningJa": "（社員の）研修旅行・合宿"
+            },
+            {
+              "term": "organize",
+              "meaningJa": "計画・準備する"
+            },
+            {
+              "term": "if possible",
+              "meaningJa": "可能であれば"
+            },
+            {
+              "term": "suitable for",
+              "meaningJa": "〜に適した"
+            }
+          ]
+        },
+        {
+          "id": "m01-q188",
+          "number": 188,
+          "stem": "What is suggested about Kestrel Software?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It had to pay part of the cost in advance."
+            },
+            {
+              "id": "B",
+              "text": "It has held events at the lodge before."
+            },
+            {
+              "id": "C",
+              "text": "It canceled the second day of its retreat."
+            },
+            {
+              "id": "D",
+              "text": "It requested a larger meeting room on arrival."
+            }
+          ],
+          "answerId": "A",
+          "skill": "照合・推測",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s13-d2-g1",
+              "keyPoint": "参加者は50人。"
+            },
+            {
+              "ref": "m01-p7-s13-d1-n1",
+              "keyPoint": "Bookings for groups of 40 or more require a deposit of 20 percent at the time of booking。"
+            },
+            {
+              "ref": "m01-p7-s13-d3-g1",
+              "keyPoint": "実際にロッジで研修旅行を行った（予約が成立した）。"
+            }
+          ],
+          "explanationJa": "メールによるとケストレル・ソフトウェアのグループは50人です。ウェブページには「40人以上の団体は予約時に20パーセントの前払い金が必要」とあり、レビューから実際に予約して滞在したこともわかります。したがって費用の一部を前払いしたと推測できます。",
+          "translationJa": {
+            "text": "ケストレル・ソフトウェアについて何が示唆されていますか。",
+            "choices": {
+              "A": "費用の一部を前払いしなければならなかった。",
+              "B": "以前にもロッジでイベントを開いたことがある。",
+              "C": "研修旅行の2日目を取りやめた。",
+              "D": "到着時により広い会議室を求めた。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "50人は「40人以上」に当たり、予約時に20パーセントの前払い金が必要です。実際に滞在しているので、前払いをしたと考えられます。",
+            "B": "メールで部屋の情報や料金を一から尋ねており、以前に利用した記述はありません。レビューの「夏にまた来る」は今後の予定です。",
+            "C": "レビューではプロジェクターの故障が「初日の朝」とあり、日程を短縮したという記述はありません。",
+            "D": "レビューで会議室は「明るく広々としていた」と評価しており、広い部屋を求めた記述はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "deposit",
+              "meaningJa": "前払い金・手付金"
+            },
+            {
+              "term": "at the time of booking",
+              "meaningJa": "予約時に"
+            },
+            {
+              "term": "in advance",
+              "meaningJa": "前もって"
+            },
+            {
+              "term": "on arrival",
+              "meaningJa": "到着時に"
+            }
+          ]
+        },
+        {
+          "id": "m01-q189",
+          "number": 189,
+          "stem": "What problem did Mr. Menon's group experience?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The meeting room was too small."
+            },
+            {
+              "id": "B",
+              "text": "A piece of equipment failed."
+            },
+            {
+              "id": "C",
+              "text": "Lunch was served late."
+            },
+            {
+              "id": "D",
+              "text": "The Internet connection was unavailable."
+            }
+          ],
+          "answerId": "B",
+          "skill": "詳細",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s13-d3-g2",
+              "keyPoint": "our projector stopped working on the first morning。"
+            }
+          ],
+          "explanationJa": "レビューに「初日の朝にプロジェクターが動かなくなった」とあります。projector stopped working を「機器が故障した」と言い換えた選択肢が正解です。すぐに代わりが届いたことも書かれています。",
+          "translationJa": {
+            "text": "メノンさんのグループはどんな問題にあいましたか。",
+            "choices": {
+              "A": "会議室が狭すぎた。",
+              "B": "機器の一つが故障した。",
+              "C": "昼食の提供が遅れた。",
+              "D": "インターネットに接続できなかった。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "会議室は明るく広々としていたと書かれており、逆の内容です。",
+            "B": "プロジェクターが動かなくなったという記述を、機器の故障と言い換えています。",
+            "C": "昼食は好評だったと書かれており、遅れの記述はありません。",
+            "D": "Wi-Fiはウェブページで全プランに含まれると書かれていますが、レビューに接続の問題は出てきません。"
+          },
+          "vocabulary": [
+            {
+              "term": "overall",
+              "meaningJa": "全体として"
+            },
+            {
+              "term": "spacious",
+              "meaningJa": "広々とした"
+            },
+            {
+              "term": "receive compliments",
+              "meaningJa": "ほめられる・好評を得る"
+            },
+            {
+              "term": "stop working",
+              "meaningJa": "動かなくなる・故障する"
+            },
+            {
+              "term": "replacement",
+              "meaningJa": "代わりのもの"
+            }
+          ]
+        },
+        {
+          "id": "m01-q190",
+          "number": 190,
+          "stem": "Why most likely was Mr. Menon's group unable to go on a hike?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The weather was poor."
+            },
+            {
+              "id": "B",
+              "text": "The staff was too busy."
+            },
+            {
+              "id": "C",
+              "text": "Hikes were not offered at that time of year."
+            },
+            {
+              "id": "D",
+              "text": "The group was too large for a guide."
+            }
+          ],
+          "answerId": "C",
+          "skill": "照合・推測",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s13-d3-g3",
+              "keyPoint": "we couldn't schedule an outdoor activity during our visit, but we plan to return in the summer to do that。"
+            },
+            {
+              "ref": "m01-p7-s13-d2-g1",
+              "keyPoint": "滞在は4月16日・17日で、ハイキングを希望していた。"
+            },
+            {
+              "ref": "m01-p7-s13-d1-n1",
+              "keyPoint": "Guided hikes are available from May through October。"
+            }
+          ],
+          "explanationJa": "レビューには「滞在中に屋外の活動を予定に入れられなかった。夏にまた来てそれをする」とあります。メールから滞在は4月で、ウェブページによるとハイキングは5月〜10月のみです。3つの文書を合わせると、4月はハイキングの実施時期ではなかったことが理由とわかります。",
+          "translationJa": {
+            "text": "メノンさんのグループがハイキングに行けなかったのは、なぜだと考えられますか。",
+            "choices": {
+              "A": "天気が悪かった。",
+              "B": "スタッフが忙しすぎた。",
+              "C": "その時期にはハイキングが実施されていなかった。",
+              "D": "ガイドが案内するにはグループの人数が多すぎた。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "天気についての記述はどの文書にもありません。また、天気が理由なら「夏に来る」必要はありません。",
+            "B": "スタッフはプロジェクターの故障にすぐ対応したと評価されており、忙しかったという記述はありません。",
+            "C": "滞在は4月で、ハイキングは5月〜10月のみです。夏に再訪してハイキングをするという発言とも一致します。",
+            "D": "ハイキングは120人まで入れるプレミアムに含まれる活動で、50人が多すぎるという根拠はありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "disappointment",
+              "meaningJa": "残念なこと・失望"
+            },
+            {
+              "term": "schedule",
+              "meaningJa": "（動詞）予定に入れる"
+            },
+            {
+              "term": "outdoor activity",
+              "meaningJa": "屋外での活動"
+            },
+            {
+              "term": "from May through October",
+              "meaningJa": "5月から10月まで"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s14",
+      "part": 7,
+      "setting": "医療グループの社員向けフィットネス教室の案内、社員の申込書、人事担当者からの返信メール（3文書）。",
+      "factSheet": [
+        {
+          "type": "organization",
+          "value": "Thornbury Medical Group Staff Wellness Program（Wellness Room, Building C, Room 104）"
+        },
+        {
+          "type": "person",
+          "value": "Amara Nwosu（Yoga, Pilates）/ Ben Castillo（Strength Training, Stretch & Relax）/ Lucia Fernandes（Billing）/ Owen Pratt（Human Resources）"
+        },
+        {
+          "type": "schedule",
+          "value": "Yoga Mon 7:30 A.M. / Strength Training Tue 12:15 P.M. / Pilates Wed 5:30 P.M. / Stretch & Relax Fri 12:15 P.M."
+        },
+        {
+          "type": "date",
+          "value": "week of March 3 から10週間 / 申込締め切り February 25 / 申込書提出 February 27 / 返信 February 28"
+        },
+        {
+          "type": "number",
+          "value": "定員15人 / 8回以上の出席で$50のギフトカード / 残り3席 / Employee ID 20417"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s14-d1",
+          "type": "notice",
+          "title": "Thornbury Medical Group Staff Wellness Program — Spring Classes",
+          "titleTranslationJa": "ソーンベリー医療グループ 職員健康づくりプログラム — 春の教室",
+          "segments": [
+            {
+              "id": "m01-p7-s14-d1-g1",
+              "text": "Classes are held in the Wellness Room (Building C, Room 104) and are free for employees. Each class is limited to 15 participants.",
+              "translationJa": "教室はウェルネスルーム（C棟104号室）で行い、職員は無料で参加できます。各教室の定員は15人です。"
+            },
+            {
+              "id": "m01-p7-s14-d1-r1",
+              "cells": [
+                "Yoga",
+                "Mondays",
+                "7:30 A.M.",
+                "Amara Nwosu"
+              ],
+              "text": "Yoga — Mondays, 7:30 A.M. — Instructor: Amara Nwosu",
+              "translationJa": "ヨガ — 毎週月曜日 午前7時30分 — 講師：アマラ・ンウォス"
+            },
+            {
+              "id": "m01-p7-s14-d1-r2",
+              "cells": [
+                "Strength Training",
+                "Tuesdays",
+                "12:15 P.M.",
+                "Ben Castillo"
+              ],
+              "text": "Strength Training — Tuesdays, 12:15 P.M. — Instructor: Ben Castillo",
+              "translationJa": "筋力トレーニング — 毎週火曜日 午後12時15分 — 講師：ベン・カスティーヨ"
+            },
+            {
+              "id": "m01-p7-s14-d1-r3",
+              "cells": [
+                "Pilates",
+                "Wednesdays",
+                "5:30 P.M.",
+                "Amara Nwosu"
+              ],
+              "text": "Pilates — Wednesdays, 5:30 P.M. — Instructor: Amara Nwosu",
+              "translationJa": "ピラティス — 毎週水曜日 午後5時30分 — 講師：アマラ・ンウォス"
+            },
+            {
+              "id": "m01-p7-s14-d1-r4",
+              "cells": [
+                "Stretch & Relax",
+                "Fridays",
+                "12:15 P.M.",
+                "Ben Castillo"
+              ],
+              "text": "Stretch & Relax — Fridays, 12:15 P.M. — Instructor: Ben Castillo",
+              "translationJa": "ストレッチ＆リラックス — 毎週金曜日 午後12時15分 — 講師：ベン・カスティーヨ"
+            },
+            {
+              "id": "m01-p7-s14-d1-g2",
+              "text": "Classes begin the week of March 3 and run for ten weeks. To register, submit the form below to Human Resources by February 25. Employees who attend at least eight classes in one course will receive a $50 gift card.",
+              "translationJa": "教室は3月3日の週に始まり、10週間続きます。申し込むには、下の用紙を2月25日までに人事部へ提出してください。1つのコースで8回以上出席した職員には、50ドルのギフトカードを贈呈します。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s14-d2",
+          "type": "form",
+          "title": "Staff Wellness Program Registration Form",
+          "titleTranslationJa": "職員健康づくりプログラム 申込書",
+          "segments": [
+            {
+              "id": "m01-p7-s14-d2-f1",
+              "text": "Name: Lucia Fernandes",
+              "translationJa": "氏名：ルシア・フェルナンデス"
+            },
+            {
+              "id": "m01-p7-s14-d2-f2",
+              "text": "Department: Billing",
+              "translationJa": "部署：請求部"
+            },
+            {
+              "id": "m01-p7-s14-d2-f3",
+              "text": "Employee ID: 20417",
+              "translationJa": "職員番号：20417"
+            },
+            {
+              "id": "m01-p7-s14-d2-f4",
+              "text": "Class(es): [X] Strength Training  [X] Pilates",
+              "translationJa": "希望する教室：［×］筋力トレーニング　［×］ピラティス"
+            },
+            {
+              "id": "m01-p7-s14-d2-f5",
+              "text": "Comments: I usually work until 6:00 P.M. on Wednesdays, but my supervisor has agreed to let me leave early on those days.",
+              "translationJa": "備考：水曜日は通常午後6時まで勤務していますが、その日は早めに退勤してよいと上司が了承してくれました。"
+            },
+            {
+              "id": "m01-p7-s14-d2-f6",
+              "text": "Date submitted: February 27",
+              "translationJa": "提出日：2月27日"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s14-d3",
+          "type": "email",
+          "header": {
+            "to": "Lucia Fernandes",
+            "from": "Owen Pratt, Human Resources",
+            "date": "February 28",
+            "subject": "Your registration"
+          },
+          "headerTranslationJa": "宛先：ルシア・フェルナンデス／差出人：オーウェン・プラット（人事部）／日付：2月28日／件名：お申し込みについて",
+          "segments": [
+            {
+              "id": "m01-p7-s14-d3-g1",
+              "text": "Dear Ms. Fernandes,",
+              "translationJa": "フェルナンデス様"
+            },
+            {
+              "id": "m01-p7-s14-d3-g2",
+              "text": "Thank you for your interest in the wellness program. Although the registration deadline has passed, there was still space available in one of the classes you selected, so I have registered you for it. Unfortunately, the other class is already full.",
+              "translationJa": "健康づくりプログラムにご関心をお寄せいただき、ありがとうございます。申込締め切りは過ぎていますが、ご希望の教室の一つにまだ空きがあったため、そちらに登録しました。残念ながら、もう一方の教室はすでに満員です。"
+            },
+            {
+              "id": "m01-p7-s14-d3-g3",
+              "text": "However, the same instructor teaches another class at the same time of day on a different day, and three places remain. Please let me know if you would like to join it.",
+              "translationJa": "ただし、同じ講師が別の曜日の同じ時間帯に別の教室を担当しており、3人分の空きがあります。参加をご希望でしたらお知らせください。"
+            },
+            {
+              "id": "m01-p7-s14-d3-g4",
+              "text": "Owen Pratt",
+              "translationJa": "オーウェン・プラット"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q191",
+          "number": 191,
+          "stem": "What is indicated about the wellness classes?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "They are held in several different buildings."
+            },
+            {
+              "id": "B",
+              "text": "They are taught by three instructors."
+            },
+            {
+              "id": "C",
+              "text": "They run for eight weeks."
+            },
+            {
+              "id": "D",
+              "text": "Employees do not have to pay for them."
+            }
+          ],
+          "answerId": "D",
+          "skill": "内容一致",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s14-d1-g1",
+              "keyPoint": "Classes ... are free for employees。"
+            }
+          ],
+          "explanationJa": "案内の冒頭に、教室は職員なら無料（free for employees）とあります。「職員は支払う必要がない」と言い換えた選択肢が正解です。",
+          "translationJa": {
+            "text": "健康づくりの教室について何が述べられていますか。",
+            "choices": {
+              "A": "いくつかの異なる建物で行われる。",
+              "B": "3人の講師が教える。",
+              "C": "8週間続く。",
+              "D": "職員は料金を払う必要がない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "教室はすべてC棟104号室のウェルネスルームで行われます。",
+            "B": "講師はアマラ・ンウォスさんとベン・カスティーヨさんの2人です。",
+            "C": "教室は10週間続きます。8は、ギフトカードを受け取るのに必要な出席回数です。",
+            "D": "職員は無料で参加できるという記述と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "wellness",
+              "meaningJa": "健康増進"
+            },
+            {
+              "term": "be limited to",
+              "meaningJa": "〜に限られる"
+            },
+            {
+              "term": "run for ten weeks",
+              "meaningJa": "10週間続く"
+            },
+            {
+              "term": "gift card",
+              "meaningJa": "ギフトカード・商品券"
+            }
+          ]
+        },
+        {
+          "id": "m01-q192",
+          "number": 192,
+          "stem": "What is suggested about Ms. Fernandes?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "She submitted her form after the deadline."
+            },
+            {
+              "id": "B",
+              "text": "She works in the Human Resources Department."
+            },
+            {
+              "id": "C",
+              "text": "She has taken wellness classes before."
+            },
+            {
+              "id": "D",
+              "text": "She already received a gift card."
+            }
+          ],
+          "answerId": "A",
+          "skill": "照合・推測",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s14-d2-f6",
+              "keyPoint": "Date submitted: February 27。"
+            },
+            {
+              "ref": "m01-p7-s14-d1-g2",
+              "keyPoint": "申込は February 25 まで。"
+            },
+            {
+              "ref": "m01-p7-s14-d3-g2",
+              "keyPoint": "Although the registration deadline has passed。"
+            }
+          ],
+          "explanationJa": "案内の申込締め切りは2月25日ですが、申込書の提出日は2月27日です。人事部のメールでも「締め切りは過ぎているが」と書かれています。2つの日付を照合すると、締め切り後に提出したことがわかります。",
+          "translationJa": {
+            "text": "フェルナンデスさんについて何が示唆されていますか。",
+            "choices": {
+              "A": "締め切り後に申込書を提出した。",
+              "B": "人事部で働いている。",
+              "C": "以前に健康づくりの教室を受けたことがある。",
+              "D": "すでにギフトカードを受け取った。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "締め切りは2月25日、提出日は2月27日で、人事部のメールの「締め切りは過ぎている」とも一致します。",
+            "B": "申込書の部署は Billing（請求部）です。人事部はメールの差出人プラットさんの部署です。",
+            "C": "以前の受講についてはどの文書にも書かれていません。",
+            "D": "ギフトカードは8回以上出席した人に贈られるもので、教室はまだ始まっていません。"
+          },
+          "vocabulary": [
+            {
+              "term": "registration deadline",
+              "meaningJa": "申込締め切り"
+            },
+            {
+              "term": "date submitted",
+              "meaningJa": "提出日"
+            },
+            {
+              "term": "Human Resources",
+              "meaningJa": "人事部"
+            },
+            {
+              "term": "billing",
+              "meaningJa": "請求（業務）"
+            }
+          ]
+        },
+        {
+          "id": "m01-q193",
+          "number": 193,
+          "stem": "Why does Ms. Fernandes mention her supervisor?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "To explain how she can attend an evening class"
+            },
+            {
+              "id": "B",
+              "text": "To request a transfer to a different department"
+            },
+            {
+              "id": "C",
+              "text": "To recommend a coworker for the program"
+            },
+            {
+              "id": "D",
+              "text": "To ask for a class to be moved to another day"
+            }
+          ],
+          "answerId": "A",
+          "skill": "理由",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s14-d2-f5",
+              "keyPoint": "水曜日は通常6時まで勤務だが、上司がその日は早く帰ることを了承した。"
+            },
+            {
+              "ref": "m01-p7-s14-d1-r3",
+              "keyPoint": "ピラティスは水曜日の午後5時30分。"
+            }
+          ],
+          "explanationJa": "申込書の備考で、水曜日は通常6時まで勤務だが、上司が早めの退勤を認めてくれたと書いています。案内によると彼女が選んだピラティスは水曜日の午後5時30分なので、夕方の教室に出られる理由を説明するために上司に触れているのです。",
+          "translationJa": {
+            "text": "フェルナンデスさんはなぜ上司について述べていますか。",
+            "choices": {
+              "A": "夕方の教室にどうやって出席できるのかを説明するため",
+              "B": "別の部署への異動を願い出るため",
+              "C": "プログラムに同僚を推薦するため",
+              "D": "教室を別の曜日に移してほしいと頼むため"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "水曜日の勤務は通常6時までですが、上司の了承で早く帰れるため、5時30分のピラティスに出席できると説明しています。",
+            "B": "異動についての記述はありません。部署名 Billing は申込書の記入欄として出てくるだけで、上司への言及は勤務時間の説明のためです。",
+            "C": "同僚を推薦する記述はありません。備考欄に書かれているのは、自分の水曜日の勤務時間と、上司から早めの退勤の了承を得たことだけです。",
+            "D": "教室の曜日の変更は求めておらず、自分が早く退勤することで出席しようとしています。"
+          },
+          "vocabulary": [
+            {
+              "term": "supervisor",
+              "meaningJa": "上司"
+            },
+            {
+              "term": "agree to do",
+              "meaningJa": "〜することに同意する"
+            },
+            {
+              "term": "let A do",
+              "meaningJa": "Aに〜させてやる・許す"
+            },
+            {
+              "term": "leave early",
+              "meaningJa": "早退する・早く帰る"
+            }
+          ]
+        },
+        {
+          "id": "m01-q194",
+          "number": 194,
+          "stem": "Which class has Ms. Fernandes been registered for?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Yoga"
+            },
+            {
+              "id": "B",
+              "text": "Strength Training"
+            },
+            {
+              "id": "C",
+              "text": "Pilates"
+            },
+            {
+              "id": "D",
+              "text": "Stretch & Relax"
+            }
+          ],
+          "answerId": "C",
+          "skill": "照合",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s14-d2-f4",
+              "keyPoint": "希望は Strength Training と Pilates。"
+            },
+            {
+              "ref": "m01-p7-s14-d3-g3",
+              "keyPoint": "満員の教室と同じ講師が、別の曜日の同じ時間帯に別の教室を担当している。"
+            },
+            {
+              "ref": "m01-p7-s14-d1-r2",
+              "keyPoint": "Strength Training は火曜 12:15、講師 Ben Castillo。Castillo は金曜 12:15 の Stretch & Relax も担当。"
+            },
+            {
+              "ref": "m01-p7-s14-d1-r3",
+              "keyPoint": "Pilates は水曜 5:30 P.M.、講師 Amara Nwosu。Nwosu のもう一つの教室は月曜 7:30 A.M. で時間帯が異なる。"
+            }
+          ],
+          "explanationJa": "希望した2教室のうち、満員なのはどちらかを特定します。メールでは「満員の教室と同じ講師が、別の曜日の同じ時間帯に別の教室を持っている」とあります。筋力トレーニング（火曜12:15）の講師カスティーヨさんは金曜12:15にも教えており、条件に合います。ピラティス（水曜5:30 P.M.）の講師ンウォスさんのもう一つの教室は月曜7:30 A.M.で時間帯が違います。よって満員なのは筋力トレーニングで、登録されたのはピラティスです。",
+          "translationJa": {
+            "text": "フェルナンデスさんはどの教室に登録されましたか。",
+            "choices": {
+              "A": "ヨガ",
+              "B": "筋力トレーニング",
+              "C": "ピラティス",
+              "D": "ストレッチ＆リラックス"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ヨガは申込書で選んでいない教室です。登録されたのは希望した2つのうちの一つです。",
+            "B": "筋力トレーニングは、同じ講師が別の曜日の同じ時間帯（金曜12:15）に教室を持つ方なので、満員になった教室だとわかります。",
+            "C": "満員なのが筋力トレーニングなので、空きがあって登録されたのはもう一方の希望であるピラティスです。",
+            "D": "ストレッチ＆リラックスは申込書で選んでおらず、プラットさんが代わりに提案している教室です。"
+          },
+          "vocabulary": [
+            {
+              "term": "space available",
+              "meaningJa": "空き・余裕"
+            },
+            {
+              "term": "full",
+              "meaningJa": "満員の"
+            },
+            {
+              "term": "the same time of day",
+              "meaningJa": "同じ時間帯"
+            },
+            {
+              "term": "place",
+              "meaningJa": "（定員の）枠・席"
+            }
+          ]
+        },
+        {
+          "id": "m01-q195",
+          "number": 195,
+          "stem": "Which class does Mr. Pratt suggest Ms. Fernandes join?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Yoga"
+            },
+            {
+              "id": "B",
+              "text": "Strength Training"
+            },
+            {
+              "id": "C",
+              "text": "Pilates"
+            },
+            {
+              "id": "D",
+              "text": "Stretch & Relax"
+            }
+          ],
+          "answerId": "D",
+          "skill": "照合",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s14-d3-g3",
+              "keyPoint": "the same instructor teaches another class at the same time of day on a different day。"
+            },
+            {
+              "ref": "m01-p7-s14-d1-r4",
+              "keyPoint": "Stretch & Relax は金曜 12:15 P.M.、講師 Ben Castillo（満員の Strength Training と同じ講師・同じ時間帯）。"
+            }
+          ],
+          "explanationJa": "前問のとおり、満員なのは火曜12:15のカスティーヨさんの筋力トレーニングです。プラットさんが勧めているのは「同じ講師が別の曜日の同じ時間帯に教える教室」なので、金曜12:15のカスティーヨさんの教室、ストレッチ＆リラックスです。",
+          "translationJa": {
+            "text": "プラットさんはフェルナンデスさんにどの教室への参加を提案していますか。",
+            "choices": {
+              "A": "ヨガ",
+              "B": "筋力トレーニング",
+              "C": "ピラティス",
+              "D": "ストレッチ＆リラックス"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "ヨガはンウォスさんの月曜朝の教室です。満員の筋力トレーニングとは講師も時間帯も異なります。",
+            "B": "筋力トレーニングはすでに満員の教室で、提案されている代わりの教室ではありません。",
+            "C": "ピラティスはすでに登録された教室で、新たに提案されているものではありません。",
+            "D": "満員の筋力トレーニングと同じカスティーヨさんが、別の曜日（金曜）の同じ時間帯（12:15）に教える教室です。"
+          },
+          "vocabulary": [
+            {
+              "term": "suggest",
+              "meaningJa": "提案する"
+            },
+            {
+              "term": "join",
+              "meaningJa": "参加する"
+            },
+            {
+              "term": "remain",
+              "meaningJa": "残っている"
+            },
+            {
+              "term": "instructor",
+              "meaningJa": "講師・指導者"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "setId": "m01-p7-s15",
+      "part": 7,
+      "setting": "新しい高速フェリーについての新聞記事、時刻表、通勤客から運航会社への要望メール（3文書）。",
+      "factSheet": [
+        {
+          "type": "company",
+          "value": "Brightwater Ferries"
+        },
+        {
+          "type": "person",
+          "value": "Nadia Kowalski（広報担当）/ Thomas Ekland（Linden Island 在住、Port Avalon に通勤）"
+        },
+        {
+          "type": "place",
+          "value": "Port Avalon / Linden Island"
+        },
+        {
+          "type": "date",
+          "value": "May 2（記事）/ May 15（運航開始）/ June 9（メール）"
+        },
+        {
+          "type": "time",
+          "value": "Linden Island 発 6:15*, 7:30*, 10:00, 2:00, 5:45 / Port Avalon 発 7:00*, 11:00, 3:00, 5:30*, 7:00*（*平日のみ）。所要35分（従来のカーフェリー70分）"
+        },
+        {
+          "type": "amount",
+          "value": "one-way $9 / monthly pass $150 / *便の自転車は10台まで・要予約"
+        }
+      ],
+      "passages": [
+        {
+          "id": "m01-p7-s15-d1",
+          "type": "article",
+          "title": "New Ferry Link Cuts Commute Between Port Avalon and Linden Island",
+          "titleTranslationJa": "新しいフェリー航路、ポート・アバロンとリンデン島の通勤時間を短縮",
+          "segments": [
+            {
+              "id": "m01-p7-s15-d1-g1",
+              "text": "LINDEN ISLAND (May 2) — Starting May 15, Brightwater Ferries will operate a new high-speed ferry between Port Avalon and Linden Island. The trip, which currently takes 70 minutes on the existing car ferry, will take only 35 minutes on the new vessel. The new ferry carries passengers and bicycles only; vehicles must continue to use the car ferry.",
+              "translationJa": "リンデン島（5月2日）— ブライトウォーター・フェリーは5月15日から、ポート・アバロンとリンデン島の間で新しい高速フェリーを運航する。現在の自動車フェリーでは70分かかる航路が、新しい船ではわずか35分になる。新しいフェリーが運ぶのは乗客と自転車のみで、車両は引き続き自動車フェリーを利用する必要がある。"
+            },
+            {
+              "id": "m01-p7-s15-d1-g2",
+              "text": "Brightwater Ferries spokesperson Nadia Kowalski said that weekday departures were scheduled with commuters in mind. 'Most of our island residents work in Port Avalon, so we've added extra early-morning and evening trips on weekdays,' she said. One-way tickets cost $9, and a monthly pass is available for $150.",
+              "translationJa": "ブライトウォーター・フェリーの広報担当ナディア・コワルスキ氏は、平日の便は通勤客を念頭に置いて設定したと話す。「島の住民の多くはポート・アバロンで働いているため、平日は早朝と夕方の便を増やしました」と同氏は述べた。片道乗船券は9ドルで、1か月定期券は150ドルで購入できる。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s15-d2",
+          "type": "schedule",
+          "title": "Brightwater Ferries — High-Speed Service (Effective May 15)",
+          "titleTranslationJa": "ブライトウォーター・フェリー — 高速便（5月15日から有効）",
+          "segments": [
+            {
+              "id": "m01-p7-s15-d2-r1",
+              "cells": [
+                "Departs Linden Island",
+                "6:15 A.M.*",
+                "7:30 A.M.*",
+                "10:00 A.M.",
+                "2:00 P.M.",
+                "5:45 P.M."
+              ],
+              "text": "Departs Linden Island: 6:15 A.M.* | 7:30 A.M.* | 10:00 A.M. | 2:00 P.M. | 5:45 P.M.",
+              "translationJa": "リンデン島発：午前6時15分*｜午前7時30分*｜午前10時｜午後2時｜午後5時45分"
+            },
+            {
+              "id": "m01-p7-s15-d2-r2",
+              "cells": [
+                "Departs Port Avalon",
+                "7:00 A.M.*",
+                "11:00 A.M.",
+                "3:00 P.M.",
+                "5:30 P.M.*",
+                "7:00 P.M.*"
+              ],
+              "text": "Departs Port Avalon: 7:00 A.M.* | 11:00 A.M. | 3:00 P.M. | 5:30 P.M.* | 7:00 P.M.*",
+              "translationJa": "ポート・アバロン発：午前7時*｜午前11時｜午後3時｜午後5時30分*｜午後7時*"
+            },
+            {
+              "id": "m01-p7-s15-d2-n1",
+              "text": "* Weekdays only",
+              "translationJa": "* 平日のみ運航"
+            },
+            {
+              "id": "m01-p7-s15-d2-n2",
+              "text": "Bicycles are carried at no extra charge on all departures. On departures marked *, space for bicycles is limited to ten and must be reserved in advance.",
+              "translationJa": "自転車は全便で追加料金なしで運びます。*印の便では、自転車のスペースは10台までで、事前の予約が必要です。"
+            }
+          ]
+        },
+        {
+          "id": "m01-p7-s15-d3",
+          "type": "email",
+          "header": {
+            "to": "Customer Relations, Brightwater Ferries",
+            "from": "Thomas Ekland",
+            "date": "June 9",
+            "subject": "Bicycle reservations"
+          },
+          "headerTranslationJa": "宛先：ブライトウォーター・フェリー お客様窓口／差出人：トーマス・エクランド／日付：6月9日／件名：自転車の予約",
+          "segments": [
+            {
+              "id": "m01-p7-s15-d3-g1",
+              "text": "I live on Linden Island and have been riding the new ferry to my office in Port Avalon every weekday since it began. I take the earliest departure, and the shorter trip has made a real difference. I bought a monthly pass, which has also saved me money.",
+              "translationJa": "私はリンデン島に住んでおり、新しいフェリーの運航開始以来、平日は毎日それに乗ってポート・アバロンの職場に通っています。いつも始発便に乗っていて、所要時間が短くなったことは本当に大きな違いです。1か月定期券を買ったので、費用の節約にもなっています。"
+            },
+            {
+              "id": "m01-p7-s15-d3-g2",
+              "text": "However, I bring my bicycle every day, and I have twice been unable to reserve a space because all ten were taken. Since many passengers on the early ferries seem to be cyclists, would you consider increasing bicycle space on those trips? On days when I can't reserve a space, I have to take the 10:00 A.M. departure, which makes me late for work.",
+              "translationJa": "しかし、私は毎日自転車を持ち込んでいるのですが、10台分がすべて埋まっていてスペースを予約できなかったことが2回ありました。早朝の便には自転車を持ち込む乗客が多いようなので、それらの便の自転車スペースを増やすことをご検討いただけないでしょうか。スペースを予約できない日は午前10時の便に乗らなければならず、仕事に遅刻してしまいます。"
+            },
+            {
+              "id": "m01-p7-s15-d3-g3",
+              "text": "Thomas Ekland",
+              "translationJa": "トーマス・エクランド"
+            }
+          ]
+        }
+      ],
+      "media": [],
+      "items": [
+        {
+          "id": "m01-q196",
+          "number": 196,
+          "stem": "What is the article mainly about?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The launch of a faster ferry service"
+            },
+            {
+              "id": "B",
+              "text": "An increase in ferry fares"
+            },
+            {
+              "id": "C",
+              "text": "The construction of a new ferry terminal"
+            },
+            {
+              "id": "D",
+              "text": "A change in the car ferry's schedule"
+            }
+          ],
+          "answerId": "A",
+          "skill": "主題",
+          "difficulty": "easy",
+          "evidence": [
+            {
+              "ref": "m01-p7-s15-d1-g1",
+              "keyPoint": "Starting May 15, Brightwater Ferries will operate a new high-speed ferry ... will take only 35 minutes。"
+            }
+          ],
+          "explanationJa": "記事は、5月15日から新しい高速フェリーの運航が始まり、所要時間が70分から35分になることを伝えています。後半も平日の便や料金の説明で、より速いフェリーの運航開始が主題です。",
+          "translationJa": {
+            "text": "この記事は主に何についてですか。",
+            "choices": {
+              "A": "より速いフェリーの運航開始",
+              "B": "フェリー運賃の値上げ",
+              "C": "新しいフェリーターミナルの建設",
+              "D": "自動車フェリーの時刻表の変更"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "所要時間が半分になる高速フェリーの運航開始が、記事全体の主題です。",
+            "B": "片道9ドルと定期券150ドルという新しい航路の料金は示されていますが、値上げの話ではありません。",
+            "C": "ターミナルの建設についての記述はありません。",
+            "D": "自動車フェリーは引き続き車両を運ぶと書かれているだけで、時刻表の変更は述べられていません。"
+          },
+          "vocabulary": [
+            {
+              "term": "ferry link",
+              "meaningJa": "フェリー航路"
+            },
+            {
+              "term": "commute",
+              "meaningJa": "通勤（時間）"
+            },
+            {
+              "term": "vessel",
+              "meaningJa": "船舶"
+            },
+            {
+              "term": "launch",
+              "meaningJa": "開始・立ち上げ"
+            }
+          ]
+        },
+        {
+          "id": "m01-q197",
+          "number": 197,
+          "stem": "What is indicated about the new ferry?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It will replace the car ferry."
+            },
+            {
+              "id": "B",
+              "text": "It operates only on weekdays."
+            },
+            {
+              "id": "C",
+              "text": "It was built by a local company."
+            },
+            {
+              "id": "D",
+              "text": "It does not transport cars."
+            }
+          ],
+          "answerId": "D",
+          "skill": "内容一致",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s15-d1-g1",
+              "keyPoint": "The new ferry carries passengers and bicycles only; vehicles must continue to use the car ferry。"
+            },
+            {
+              "ref": "m01-p7-s15-d2-n1",
+              "keyPoint": "*印の便だけが平日のみで、他の便は週末も運航。"
+            }
+          ],
+          "explanationJa": "記事の第1段落に、新しいフェリーは乗客と自転車だけを運び、車両は引き続き自動車フェリーを使うとあります。vehicles を cars と言い換え、「車を運ばない」とした選択肢が正解です。",
+          "translationJa": {
+            "text": "新しいフェリーについて何が述べられていますか。",
+            "choices": {
+              "A": "自動車フェリーに取って代わる。",
+              "B": "平日のみ運航する。",
+              "C": "地元の会社が建造した。",
+              "D": "車を運ばない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "車両は引き続き自動車フェリーを使うとあり、自動車フェリーは残ります。",
+            "B": "時刻表では*印の便だけが平日のみで、10時・2時・11時・3時などの便は平日以外も運航します。",
+            "C": "船の建造や建造した会社についての記述はありません。記事が説明しているのは航路、所要時間、運ぶ対象、通勤向けの便、料金です。",
+            "D": "乗客と自転車だけを運び、車両は運ばないという記述と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "high-speed",
+              "meaningJa": "高速の"
+            },
+            {
+              "term": "existing",
+              "meaningJa": "既存の"
+            },
+            {
+              "term": "vehicle",
+              "meaningJa": "車両"
+            },
+            {
+              "term": "transport",
+              "meaningJa": "輸送する"
+            }
+          ]
+        },
+        {
+          "id": "m01-q198",
+          "number": 198,
+          "stem": "At what time does Mr. Ekland usually leave Linden Island?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "At 5:45 A.M."
+            },
+            {
+              "id": "B",
+              "text": "At 6:00 A.M."
+            },
+            {
+              "id": "C",
+              "text": "At 6:15 A.M."
+            },
+            {
+              "id": "D",
+              "text": "At 7:30 A.M."
+            }
+          ],
+          "answerId": "C",
+          "skill": "照合",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s15-d3-g1",
+              "keyPoint": "I take the earliest departure（リンデン島から職場へ向かう始発便）。"
+            },
+            {
+              "ref": "m01-p7-s15-d2-r1",
+              "keyPoint": "Linden Island 発の最も早い便は 6:15 A.M.。"
+            }
+          ],
+          "explanationJa": "メールでエクランドさんは、リンデン島からポート・アバロンへ通勤し「始発便に乗っている」と書いています。時刻表でリンデン島発の最も早い便は午前6時15分です。",
+          "translationJa": {
+            "text": "エクランドさんはいつも何時にリンデン島を出発しますか。",
+            "choices": {
+              "A": "午前5時45分",
+              "B": "午前6時",
+              "C": "午前6時15分",
+              "D": "午前7時30分"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "5時45分はリンデン島発の便にありますが、午後（P.M.）の便です。午前5時45分の便はありません。",
+            "B": "午前6時の便は時刻表にありません。リンデン島発の午前の便は6時15分、7時30分、10時の3本です。",
+            "C": "リンデン島発の始発便で、「始発便に乗っている」というメールの内容と一致します。",
+            "D": "7時30分はリンデン島発の2番目の便で、始発ではありません。"
+          },
+          "vocabulary": [
+            {
+              "term": "the earliest departure",
+              "meaningJa": "始発便"
+            },
+            {
+              "term": "depart",
+              "meaningJa": "出発する"
+            },
+            {
+              "term": "make a difference",
+              "meaningJa": "違いを生む・効果がある"
+            },
+            {
+              "term": "effective",
+              "meaningJa": "（規則・時刻表が）有効な"
+            }
+          ]
+        },
+        {
+          "id": "m01-q199",
+          "number": 199,
+          "stem": "How much does Mr. Ekland most likely pay each month for ferry travel?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$9"
+            },
+            {
+              "id": "B",
+              "text": "$35"
+            },
+            {
+              "id": "C",
+              "text": "$70"
+            },
+            {
+              "id": "D",
+              "text": "$150"
+            }
+          ],
+          "answerId": "D",
+          "skill": "照合",
+          "difficulty": "medium",
+          "evidence": [
+            {
+              "ref": "m01-p7-s15-d3-g1",
+              "keyPoint": "I bought a monthly pass。"
+            },
+            {
+              "ref": "m01-p7-s15-d1-g2",
+              "keyPoint": "a monthly pass is available for $150。"
+            },
+            {
+              "ref": "m01-p7-s15-d2-n2",
+              "keyPoint": "自転車は追加料金なし。"
+            }
+          ],
+          "explanationJa": "メールでエクランドさんは「1か月定期券を買った」と書いています。記事によると定期券は150ドルです。自転車は追加料金なしなので、毎月の支払いは150ドルと考えられます。",
+          "translationJa": {
+            "text": "エクランドさんはフェリーの利用に毎月いくら払っていると考えられますか。",
+            "choices": {
+              "A": "9ドル",
+              "B": "35ドル",
+              "C": "70ドル",
+              "D": "150ドル"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "9ドルは片道乗船券の料金です。エクランドさんは定期券を使っています。",
+            "B": "35は新しいフェリーの所要時間（35分）で、料金ではありません。",
+            "C": "70は自動車フェリーの所要時間（70分）で、料金ではありません。",
+            "D": "1か月定期券の料金で、自転車は追加料金がかからないため、毎月の支払額になります。"
+          },
+          "vocabulary": [
+            {
+              "term": "one-way ticket",
+              "meaningJa": "片道乗船券"
+            },
+            {
+              "term": "monthly pass",
+              "meaningJa": "1か月定期券"
+            },
+            {
+              "term": "save A money",
+              "meaningJa": "Aのお金を節約させる"
+            },
+            {
+              "term": "at no extra charge",
+              "meaningJa": "追加料金なしで"
+            }
+          ]
+        },
+        {
+          "id": "m01-q200",
+          "number": 200,
+          "stem": "Why is Mr. Ekland sometimes late for work?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "His ferry is often delayed by bad weather."
+            },
+            {
+              "id": "B",
+              "text": "He has to buy a ticket at the terminal."
+            },
+            {
+              "id": "C",
+              "text": "The earliest ferry was canceled on some days."
+            },
+            {
+              "id": "D",
+              "text": "He cannot always get a bicycle space on an early ferry."
+            }
+          ],
+          "answerId": "D",
+          "skill": "照合・理由",
+          "difficulty": "hard",
+          "evidence": [
+            {
+              "ref": "m01-p7-s15-d3-g2",
+              "keyPoint": "10台分が埋まって予約できなかった日は10時の便に乗らざるを得ず、遅刻する。"
+            },
+            {
+              "ref": "m01-p7-s15-d2-n2",
+              "keyPoint": "*印の便（早朝の 6:15・7:30 など）は自転車10台まで・要予約。10:00 の便には制限がない。"
+            }
+          ],
+          "explanationJa": "メールによると、10台分の自転車スペースが埋まって予約できない日は10時の便に乗るしかなく、遅刻してしまいます。時刻表でも、自転車の台数制限と予約が必要なのは*印の便（早朝の6:15と7:30を含む）で、10時の便には制限がありません。早朝便で自転車のスペースを確保できないことが遅刻の理由です。",
+          "translationJa": {
+            "text": "エクランドさんはなぜ時々仕事に遅れるのですか。",
+            "choices": {
+              "A": "乗るフェリーが悪天候でよく遅れる。",
+              "B": "ターミナルで乗船券を買わなければならない。",
+              "C": "始発のフェリーが欠航した日があった。",
+              "D": "早朝のフェリーで自転車のスペースを必ずしも確保できない。"
+            }
+          },
+          "choiceExplanationsJa": {
+            "A": "天候による遅れについては書かれていません。遅刻するのは、遅い便に乗らなければならないためです。",
+            "B": "エクランドさんは1か月定期券を持っており、乗船券を買う必要はありません。",
+            "C": "欠航についての記述はありません。始発便自体は運航しており、問題は自転車のスペースが埋まることです。",
+            "D": "早朝便の自転車スペース10台が埋まって予約できない日は10時の便に乗るため遅刻する、という内容と一致します。"
+          },
+          "vocabulary": [
+            {
+              "term": "cyclist",
+              "meaningJa": "自転車に乗る人"
+            },
+            {
+              "term": "would you consider doing",
+              "meaningJa": "〜することをご検討いただけますか"
+            },
+            {
+              "term": "be taken",
+              "meaningJa": "（席などが）埋まっている"
+            },
+            {
+              "term": "be late for work",
+              "meaningJa": "仕事に遅刻する"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

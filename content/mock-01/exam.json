@@ -1,0 +1,35 @@
+{
+  "examId": "mock-01",
+  "revision": 1,
+  "title": "TOEIC L&R 形式 模擬試験 第1回 リーディング（非公式・オリジナル）",
+  "status": "draft",
+  "scope": {
+    "section": "reading",
+    "numbers": "101-200",
+    "note": "画像生成を必要としない問題として、リーディング（Part 5–7）の100問を収録。Part 1 は写真、Part 2–4 は音声生成が必要なため本版には含めない。"
+  },
+  "parts": [
+    {"part": 5, "files": ["part5.json"]},
+    {"part": 6, "files": ["part6.json"]},
+    {"part": 7, "files": ["part7-single-1.json", "part7-single-2.json", "part7-multi.json"]}
+  ],
+  "authoring": {
+    "role": "Claude Code／初稿",
+    "createdAt": "2026-11-22",
+    "assumptions": [
+      "試験IDは mock-01、版は 1 とした（設計表・ID割り振りが未提供のため仮定）。",
+      "難度（easy / medium / hard）は執筆者の編集仮説で、実測値ではない。",
+      "Part 7 のセット構成は 147–175 を単一文書10セット（2・2・2・2・3・3・3・4・4・4問）、176–185 を2文書2セット、186–200 を3文書3セットとした。",
+      "Part 3・4 用の図表はないため media は空。Part 7 の表は文書内の行セグメントとして保持し、表示時にHTMLの表に変換する想定。",
+      "会社名・人名・地名はすべて架空。実在の組織と一致する場合は差し替える。"
+    ],
+    "pendingReviews": [
+      "Antigravity／独立解答（正答・解説を隠した状態で全100問）",
+      "Muse／解説と英文レビュー",
+      "正答に影響する修正後の再解答"
+    ]
+  },
+  "revisionLog": [
+    {"revision": 1, "stage": "初稿", "date": "2026-11-22", "by": "Claude Code", "changedIds": "m01-q101〜m01-q200（新規）"}
+  ]
+}
