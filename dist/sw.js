@@ -1,10 +1,10 @@
 'use strict';
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '6';
+const cacheName = cachePrefix + '7';
 const index = new URL('index.html', self.registration.scope).href;
 
-const assets = ['app-v6.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']
+const assets = ['app-v7.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']
   .map((path) => new URL(path, self.registration.scope).href);
 const offlineFiles = [index, ...assets];
 

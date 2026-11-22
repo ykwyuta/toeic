@@ -65,6 +65,11 @@ button:disabled { opacity: .65; cursor: default; }
 .screen { margin-top: 1.15rem; }
 .screen > h2 { margin-bottom: .55rem; }
 .secondary { margin-bottom: .65rem; background: #fff; color: #124d75; }
+.menu-coach { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: .8rem; margin: 0 0 .85rem; background: #f8fbff; }
+.menu-coach .coach-portrait { width: clamp(3.4rem, 16vw, 5.25rem); border-radius: .7rem; }
+.menu-coach p { margin: 0; }
+.menu-coach #menu-profile { font-size: .875rem; color: #40566a; }
+.menu-coach #menu-message { margin-top: .35rem; }
 .menu-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr)); gap: .75rem; }
 .menu-options article { margin: 0; }
 .menu-options h3 { margin: 0; }
@@ -115,11 +120,18 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 <section id="menu" class="screen" hidden>
   <h2 tabindex="-1">学習メニュー</h2>
-  <p id="menu-profile"></p>
+  <div class="study-panel menu-coach">
+    <div id="menu-portrait" class="coach-portrait" aria-hidden="true"></div>
+    <div>
+      <p><strong id="menu-coach-name"></strong></p>
+      <p id="menu-profile"></p>
+      <p id="menu-message"></p>
+    </div>
+  </div>
   <div class="menu-options">
-    <article class="study-panel"><h3><button type="button" data-screen="study">分野学習</button></h3><p>技能ごとの練習問題、苦手分析、単語帳</p></article>
-    <article class="study-panel"><h3><button type="button" data-screen="practice">模擬試験</button></h3><p>Part 5のミニ模試（3問）</p></article>
-    <article class="study-panel"><h3><button type="button" data-screen="preferences">設定</button></h3><p>学習パートナー、再診断、履歴とバックアップ</p></article>
+    <article class="study-panel"><h3><button type="button" data-screen="study">分野学習</button></h3><p>苦手な分野を1問ずつ練習。覚えたい表現は単語帳へ。</p></article>
+    <article class="study-panel"><h3><button type="button" data-screen="practice">模擬試験</button></h3><p>Part 5の3問に挑戦して、結果を履歴に残せます。</p></article>
+    <article class="study-panel"><h3><button type="button" data-screen="preferences">設定</button></h3><p>パートナーの変更、再診断、履歴とバックアップ。</p></article>
   </div>
 </section>
 <section id="practice" class="screen" aria-labelledby="practice-title" hidden>
@@ -207,5 +219,5 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </section>
 </main>
-<script src="./app-v6.js" defer></script>
+<script src="./app-v7.js" defer></script>
 </html>

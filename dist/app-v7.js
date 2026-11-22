@@ -362,6 +362,23 @@ function placementResults() {
   };
 }
 
+const menuEncouragement = [
+  ['一緒に、できるところから始めよう！', '全問正解、おめでとう！次の3問にも挑戦してみよう。'],
+  ['一問ずつ、根拠を確かめていこう。', 'いい調子だ。ミニ模試でも力を試してみよう。'],
+  ['モカと一緒に、まずは1問やってみるにゃ。', '全問正解にゃ！次はミニ模試に挑戦するにゃ。']
+];
+
+function renderMenuCoach(result, scoreText) {
+  const picker = select('coach');
+  const coach = Number(picker.value);
+  const fullMarks = result.total === placementQuestions.length;
+  select('menu-coach-name').textContent = picker.selectedOptions[0].textContent;
+  select('menu-profile').textContent = scoreText;
+  select('menu-portrait').style.backgroundPosition = (fullMarks ? 50 : 100) + '% ' + (coach * 50) + '%';
+  select('menu-message').textContent = menuEncouragement[coach][Number(fullMarks)] +
+    (fullMarks ? '' : '「分野学習」で「' + result.counts[result.focus].skill + '」から復習できます。');
+}
+
 function renderProfile() {
   if (!profile) return;
   const result = placementResults();
@@ -369,7 +386,7 @@ function renderProfile() {
   const advice = result.total === placementQuestions.length
     ? '次はミニ模試で確認しましょう。'
     : 'おすすめの復習 · ' + result.counts[result.focus].skill;
-  select('menu-profile').textContent = 'パートナー · ' + select('coach').selectedOptions[0].textContent + ' ／ ' + scoreText;
+  renderMenuCoach(result, scoreText);
   select('saved-placement').textContent = scoreText;
   select('placement-score').textContent = scoreText;
   select('placement-tip').textContent = advice;
