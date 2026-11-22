@@ -173,17 +173,36 @@ select('word-form').addEventListener('submit', (event) => {
   if (addWord(data.get('term'), data.get('meaning'))) form.reset();
 });
 
-const coachMessages = [
-  ['今日は一緒に3問。気軽に始めよう。', '全問正解！この調子でいこう！', '間違えた問題は伸びしろ。解説を一緒に見よう。'],
-  ['まずは1問。根拠を意識して解こう。', '全問正解。着実に力がついている。', '惜しい。迷った選択肢との差を一つだけ確認しよう。'],
-  ['にゃ。まずは肩の力を抜いて3問。', '全問正解にゃ！今日は花丸。', 'ひと息ついて、間違えたところを見直すにゃ。']
+const coachDialogue = [
+  {
+    greeting: '今日は一緒に3問。気軽に始めようね。',
+    celebrate: '全問正解！この調子でいこうね。',
+    encourage: '間違えたところは、解説を一緒に見直そうね。',
+    menuChallenge: '全問正解、おめでとう！次はミニ模試に挑戦してみようね。',
+    menuReview: (skill) => '「分野学習」で「' + skill + '」を一緒に復習しようね。まずは1問から！'
+  },
+  {
+    greeting: 'まずは1問。答えの根拠を意識して解こう。',
+    celebrate: '全問正解だ。次も一問ずつ、根拠を確かめよう。',
+    encourage: '惜しい。迷った選択肢との差を一つ確認しよう。',
+    menuChallenge: '全問正解だ。次はミニ模試で力を試そう。',
+    menuReview: (skill) => 'まずは「分野学習」で「' + skill + '」を復習しよう。一問ずつでいい。'
+  },
+  {
+    greeting: '肩の力を抜いて、モカと一緒に3問やってみるにゃ。',
+    celebrate: '全問正解にゃ！今日は花丸にゃ。',
+    encourage: 'ひと息ついて、間違えたところを一緒に見直すにゃ。',
+    menuChallenge: '全問正解にゃ！次はミニ模試に挑戦するにゃ。',
+    menuReview: (skill) => '「分野学習」で「' + skill + '」から復習するにゃ。モカと一緒にまずは1問にゃ！'
+  }
 ];
 let mood = 0;
 const coachKey = 'toeic.coach.v1';
 function renderCoach() {
   const coach = Number(select('coach').value);
   select('coach-portrait').style.backgroundPosition = (mood * 50) + '% ' + (coach * 50) + '%';
-  const message = coachMessages[coach][mood];
+  const dialogue = coachDialogue[coach];
+  const message = [dialogue.greeting, dialogue.celebrate, dialogue.encourage][mood];
   select('coach-message').textContent = message;
   select('practice-coach').hidden = !mood;
   select('practice-message').textContent = mood ? message : '';
@@ -362,12 +381,6 @@ function placementResults() {
   };
 }
 
-const menuEncouragement = [
-  ['一緒に、できるところから始めよう！', '全問正解、おめでとう！次の3問にも挑戦してみよう。'],
-  ['一問ずつ、根拠を確かめていこう。', 'いい調子だ。ミニ模試でも力を試してみよう。'],
-  ['モカと一緒に、まずは1問やってみるにゃ。', '全問正解にゃ！次はミニ模試に挑戦するにゃ。']
-];
-
 function renderMenuCoach(result, scoreText) {
   const picker = select('coach');
   const coach = Number(picker.value);
@@ -375,8 +388,10 @@ function renderMenuCoach(result, scoreText) {
   select('menu-coach-name').textContent = picker.selectedOptions[0].textContent;
   select('menu-profile').textContent = scoreText;
   select('menu-portrait').style.backgroundPosition = (fullMarks ? 50 : 100) + '% ' + (coach * 50) + '%';
-  select('menu-message').textContent = menuEncouragement[coach][Number(fullMarks)] +
-    (fullMarks ? '' : '「分野学習」で「' + result.counts[result.focus].skill + '」から復習できます。');
+  const dialogue = coachDialogue[coach];
+  select('menu-message').textContent = fullMarks
+    ? dialogue.menuChallenge
+    : dialogue.menuReview(result.counts[result.focus].skill);
 }
 
 function renderProfile() {
