@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOEIC L&amp;R 模擬問題</title>
+<style>
+:root { color-scheme: light; font: 100%/1.65 system-ui, sans-serif; color: #13273b; background: #edf3f7; }
+body { max-width: 46rem; margin: auto; padding: 1.5rem; }
+h1 { line-height: 1.2; }
+fieldset, section { background: white; border: 1px solid #b9cada; border-radius: .65rem; margin: 1.25rem 0; padding: 1rem 1.25rem; }
+legend { font-weight: 700; }
+label { display: block; padding: .35rem 0; }
+button, input { font: inherit; }
+button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .35rem; background: #124d75; color: white; cursor: pointer; }
+:focus-visible { outline: 3px solid #cf571c; outline-offset: 3px; }
+</style>
+<main>
+<header><p>非公式学習教材</p><h1>TOEIC L&amp;R 模擬問題</h1><p>Part 5 · 短文穴埋め 3問</p></header>
+<form id="exam">
+  <div id="items"></div>
+  <button>採点する</button>
+</form>
+<p id="result" role="status"></p>
+<section>
+  <h2>学習履歴</h2>
+  <p>履歴はこのブラウザに保存されます。別の端末ではJSONファイルを読み込んで引き継げます。</p>
+  <button id="download" type="button">履歴をダウンロード</button>
+  <label for="upload">履歴を読み込む</label>
+  <input id="upload" type="file" accept=".json,application/json">
+  <p id="status" role="status"></p>
+  <ul id="history"></ul>
+</section>
+</main>
+<script>
+'use strict';
+const questions = [
+  {
+    stem: 'The warehouse will remain closed _____ the safety inspection is complete.',
+    choices: ['during', 'until', 'despite', 'within'],
+    answer: 1,
+    explanation: 'until は「〜するまで」を表し、後ろの主語と動詞を含む節を取れます。during・despite・within はこの位置でその節を直接取れません。'
+  },
+  {
+    stem: 'Please _____ the conference room by noon if you need it for tomorrow’s workshop.',
+    choices: ['reservation', 'reserved', 'reserving', 'reserve'],
+    answer: 3,
+    explanation: 'Please に続く命令文には動詞の原形 reserve が入ります。reservation は名詞、reserved は過去形・過去分詞、reserving は -ing 形です。'
+  },
+  {
+    stem: 'We have extended the registration _____ to give applicants more time to submit their forms.',
+    choices: ['deadline', 'receipt', 'summary', 'fee'],
+    answer: 0,
+    explanation: '提出時間を増やすために延長するものは deadline（締め切り）です。receipt は領収書、summary は要約、fee は料金で、いずれも提出期限を表しません。'
+  }
+];
+const key = 'toeic.history.v1';
+const examId = 'part5-demo';
+const revision = 1;
+const select = (id) => document.getElementById(id);
+const dateFormat = new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' });
+const letter = (index) => 'ABCD'[index];
+const score = (answers) => answers.filter((value, index) => value === questions[index].answer).length;
+
+function validate(data) {
+  if (!data || data.version !== 1 || !Array.isArray(data.attempts)) throw new Error('履歴の形式に対応していません。');
+  const seen = new Set();
+  for (const attempt of data.attempts) {
+    if (!attempt || typeof attempt.id !== 'string' || !/^[0-9a-f-]{36}$/i.test(attempt.id) ||
+        seen.has(attempt.id) || attempt.examId !== examId || attempt.revision !== revision ||
+        typeof attempt.finishedAt !== 'string' || !Number.isFinite(Date.parse(attempt.finishedAt)) ||
+        !Array.isArray(attempt.answers) || attempt.answers.length !== questions.length ||
+        !attempt.answers.every((value, index) => Number.isInteger(value) && value >= 0 && value < questions[index].choices.length)) {
+      throw new Error('履歴に無効な受験データがあります。');
+    }
+    seen.add(attempt.id);
+  }
+  return data.attempts.map(({ id, finishedAt, answers }) => ({ id, examId, revision, finishedAt, answers }));
+}
+
+function load() {
+  const raw = localStorage.getItem(key);
+  return raw === null ? [] : validate(JSON.parse(raw));
+}
+
+function save(attempts) {
+  localStorage.setItem(key, JSON.stringify({ version: 1, attempts }));
+}
+
+function renderHistory(attempts) {
+  const rows = attempts.slice().sort((a, b) => Date.parse(b.finishedAt) - Date.parse(a.finishedAt)).map((attempt) => {
+    const row = document.createElement('li');
+    row.textContent = dateFormat.format(new Date(attempt.finishedAt)) + ' · ' + score(attempt.answers) + ' / ' + questions.length + ' 問正解';
+    return row;
+  });
+  select('history').replaceChildren(...rows);
+  select('download').disabled = !rows.length;
+  if (!rows.length) select('status').textContent = '保存された履歴はありません。';
+}
+
+function refresh() {
+  try {
+    select('status').textContent = '';
+    renderHistory(load());
+  } catch {
+    select('download').disabled = true;
+    select('status').textContent = 'ブラウザの履歴を読み込めませんでした。';
+  }
+}
+
+select('items').innerHTML = questions.map((question, index) =>
+  '<fieldset><legend>問題 ' + (index + 1) + '</legend><p lang="en">' + question.stem + '</p>' +
+  question.choices.map((choice, option) => '<label lang="en"><input type="radio" required name="q' + index +
+    '" value="' + option + '"> ' + letter(option) + '. ' + choice + '</label>').join('') +
+  '<p hidden id="explanation-' + index + '"></p></fieldset>').join('');
+
+select('exam').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const formData = new FormData(event.currentTarget);
+  const answers = questions.map((_, index) => Number(formData.get('q' + index)));
+  select('result').textContent = score(answers) + ' / ' + questions.length + ' 問正解';
+  questions.forEach((question, index) => {
+    const explanation = select('explanation-' + index);
+    explanation.textContent = '正答 ' + letter(question.answer) + '。' + question.explanation;
+    explanation.hidden = false;
+  });
+  try {
+    const attempts = load();
+    attempts.push({ id: crypto.randomUUID(), examId, revision, finishedAt: new Date().toISOString(), answers });
+    save(attempts);
+    renderHistory(attempts);
+    select('status').textContent = '採点結果を保存しました。';
+  } catch {
+    select('status').textContent = '採点結果を保存できませんでした。';
+  }
+});
+
+select('download').addEventListener('click', () => {
+  try {
+    const blob = new Blob([JSON.stringify({ version: 1, attempts: load() }, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'toeic-history.json';
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } catch {
+    select('status').textContent = '履歴を書き出せませんでした。';
+  }
+});
+
+select('upload').addEventListener('change', async (event) => {
+  const input = event.currentTarget;
+  const file = input.files[0];
+  if (!file) return;
+  try {
+    const incoming = validate(JSON.parse(await file.text()));
+    const attempts = load();
+    const known = new Set(attempts.map(({ id }) => id));
+    const additions = incoming.filter(({ id }) => !known.has(id));
+    const merged = attempts.concat(additions);
+    save(merged);
+    renderHistory(merged);
+    select('status').textContent = additions.length + '件の履歴を追加しました。';
+  } catch {
+    select('status').textContent = '履歴を読み込めませんでした。書き出したJSONファイルを選んでください。';
+  } finally {
+    input.value = '';
+  }
+});
+
+window.addEventListener('storage', (event) => {
+  if (event.key === key || event.key === null) refresh();
+});
+refresh();
+</script>
+</html>
