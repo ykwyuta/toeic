@@ -1,10 +1,10 @@
 'use strict';
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '5';
+const cacheName = cachePrefix + '6';
 const index = new URL('index.html', self.registration.scope).href;
 
-const assets = ['manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']
+const assets = ['app-v6.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp']
   .map((path) => new URL(path, self.registration.scope).href);
 const offlineFiles = [index, ...assets];
 
@@ -35,8 +35,21 @@ self.addEventListener('fetch', (event) => {
   if (!isHome && !assets.includes(path)) return;
 
   event.respondWith((async () => {
-    const cached = await caches.match(isHome ? index : path, { cacheName });
-    return cached ?? fetch(event.request, { cache: 'no-store' });
+    if (!isHome) {
+      const cached = await caches.match(path, { cacheName });
+      return cached ?? fetch(event.request, { cache: 'no-store' });
+    }
+
+    try {
+      const response = await fetch(event.request, { cache: 'no-store' });
+      if (response.ok) return response;
+      const cached = await caches.match(index, { cacheName });
+      return cached ?? response;
+    } catch (error) {
+      const cached = await caches.match(index, { cacheName });
+      if (cached) return cached;
+      throw error;
+    }
   })());
 });
 
