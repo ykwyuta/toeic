@@ -19,22 +19,16 @@ main { max-width: 68rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
 .hero-brand img { border-radius: .65rem; outline: 1px solid #a4bbce60; }
 h1 { margin: 2rem 0 .85rem; font-size: clamp(2.5rem, 8.2vw, 6.25rem); line-height: .98; letter-spacing: -.075em; }
 h1 span { display: block; margin-top: .75rem; font-size: .46em; letter-spacing: -.04em; }
-.hero p { margin: 1.25rem 0; color: #d1deea; }
-.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.3rem; }
-.hero-actions button { background: #ffad69; border-color: #ffad69; color: #102439; font-weight: 750; }
-.hero-actions nav { display: flex; flex-wrap: wrap; gap: 0 1rem; }
-.hero-actions a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; color: #eef6ff; text-underline-offset: .3em; }
 #practice { max-width: 46rem; margin: 1.5rem auto; }
 .settings { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 23rem), 1fr)); margin-top: 1rem; }
 fieldset, .settings section { background: #fff; border: 1px solid #c3d0dd; border-radius: 1rem; padding: 1.25rem; min-width: 0; }
 fieldset { margin: 0 0 1rem; }
 h2 { margin: 0 0 .75rem; font-size: 1.25rem; }
-legend { font-weight: 700; padding-inline: .35rem; }
+legend { max-width: 100%; overflow-wrap: anywhere; font-weight: 700; padding-inline: .35rem; }
 label { display: block; padding: .35rem 0; }
 button, input { font: inherit; max-width: 100%; }
 button { min-height: 44px; white-space: nowrap; padding: .45rem .9rem; border: 1px solid #124d75; border-radius: .55rem; background: #124d75; color: white; cursor: pointer; }
 button:disabled { opacity: .65; cursor: default; }
-#back { margin-bottom: 1rem; color: #124d75; background: transparent; }
 :focus-visible { outline: 3px solid #cf571c; outline-offset: 3px; }
 .study-panel { background: #fff; border: 1px solid #c3d0dd; border-radius: 1rem; padding: 1.25rem; margin-top: 1rem; }
 .coach { display: flex; flex-wrap: wrap; align-items: center; gap: 1.15rem; }
@@ -58,9 +52,6 @@ button:disabled { opacity: .65; cursor: default; }
   .hero-brand img { width: 32px; height: 32px; border-radius: .45rem; }
   h1 { margin: .7rem 0 .45rem; font-size: clamp(1.8rem, 6vw, 2.3rem); line-height: 1.16; letter-spacing: -.045em; }
   h1 span { display: inline-block; margin: 0 0 0 .6rem; font-size: .6em; }
-  .hero p { margin: .45rem 0 .65rem; }
-  .hero-actions { flex-direction: column; align-items: stretch; gap: .2rem; }
-  .hero-actions nav { justify-content: space-between; gap: 0 .65rem; font-size: .9rem; }
   #practice { margin: .35rem auto 1rem; }
   fieldset, .study-panel, .settings section { padding: .875rem; }
   #word-form { display: grid; grid-template-columns: minmax(0, 1fr); align-items: stretch; }
@@ -68,30 +59,89 @@ button:disabled { opacity: .65; cursor: default; }
   #exam label { min-height: 44px; }
 }
 
+.app-header { padding: clamp(.85rem, 3vw, 1.6rem); }
+.app-header h1 { margin: .6rem 0 0; font-size: clamp(1.75rem, 5vw, 2.6rem); line-height: 1.15; }
+.app-header h1 span { display: inline-block; margin: 0 0 0 .5rem; }
+.screen { margin-top: 1.15rem; }
+.screen > h2 { margin-bottom: .55rem; }
+.secondary { margin-bottom: .65rem; background: #fff; color: #124d75; }
+.menu-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr)); gap: .75rem; }
+.menu-options article { margin: 0; }
+.menu-options h3 { margin: 0; }
+.menu-options p { margin-bottom: 0; }
+.partner-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; max-width: 34rem; }
+.partner-options button { background: #e9f0f7; color: #13273b; border-color: #adbdcd; padding: .25rem; }
+.partner-options .coach-portrait { display: block; width: min(100%, 8rem); margin: 0 auto .25rem; }
+[data-partner="1"] .coach-portrait { background-position: 0 50%; }
+[data-partner="2"] .coach-portrait { background-position: 0 100%; }
+#placement-back { margin-top: .55rem; }
+#study-skill { max-width: 100%; }
+#placement-item label, #skill-item label { min-height: 44px; }
 </style>
 <main>
-<header class="hero" id="start-screen">
-  <div class="hero-brand"><img src="./icon-192.png" alt="" width="44" height="44">非公式学習教材</div>
+<header class="hero app-header">
+  <div class="hero-brand"><img src="./icon-192.png" alt="" width="36" height="36">非公式学習教材</div>
   <h1 lang="en">TOEIC L&amp;R<span lang="ja">模擬問題</span></h1>
-  <p>Part 5 · 短文穴埋め 3問</p>
-  <div class="hero-actions">
-    <button id="start" type="button">問題を始める</button>
-    <nav aria-label="学習メニュー">
-      <a href="#skill-analysis">苦手分析</a>
-      <a href="#wordbook">単語帳</a>
-      <a href="#learning-history">学習履歴</a>
-    </nav>
-  </div>
 </header>
-<section id="practice" aria-labelledby="practice-title" hidden>
-  <h2 id="practice-title" tabindex="-1">Part 5 · 短文穴埋め</h2>
-  <button id="back" type="button">開始画面に戻る</button>
+<noscript>学習画面を利用するにはJavaScriptを有効にしてください。</noscript>
+<section id="welcome" class="study-panel screen" hidden>
+  <h2 tabindex="-1">学習パートナーを選ぶ</h2>
+  <p>パートナーを選んだら、英語力チェックを始めます。</p>
+  <div class="partner-options" aria-label="学習パートナー">
+    <button type="button" data-partner="0"><span class="coach-portrait" aria-hidden="true"></span>ひなた</button>
+    <button type="button" data-partner="1"><span class="coach-portrait" aria-hidden="true"></span>蓮</button>
+    <button type="button" data-partner="2"><span class="coach-portrait" aria-hidden="true"></span>モカ</button>
+  </div>
+</section>
+<section id="placement" class="study-panel screen" hidden>
+  <h2 tabindex="-1">英語力チェック</h2>
+  <p>文法・語彙の全6問で、分野学習の出発点を確認します。</p>
+  <p id="placement-count" aria-live="polite"></p>
+  <form id="placement-form">
+    <div id="placement-item"></div>
+    <button id="placement-next">次の問題</button>
+  </form>
+  <button type="button" class="secondary" id="placement-back">戻る</button>
+</section>
+<section id="placement-result" class="study-panel screen" hidden>
+  <h2 tabindex="-1">英語力チェックの結果</h2>
+  <p id="placement-score"></p>
+  <ul id="placement-breakdown"></ul>
+  <p id="placement-tip"></p>
+  <p id="placement-save" role="status"></p>
+  <button type="button" data-screen="menu">学習メニューへ</button>
+</section>
+<section id="menu" class="screen" hidden>
+  <h2 tabindex="-1">学習メニュー</h2>
+  <p id="menu-profile"></p>
+  <div class="menu-options">
+    <article class="study-panel"><h3><button type="button" data-screen="study">分野学習</button></h3><p>技能ごとの練習問題、苦手分析、単語帳</p></article>
+    <article class="study-panel"><h3><button type="button" data-screen="practice">模擬試験</button></h3><p>Part 5のミニ模試（3問）</p></article>
+    <article class="study-panel"><h3><button type="button" data-screen="preferences">設定</button></h3><p>学習パートナー、再診断、履歴とバックアップ</p></article>
+  </div>
+</section>
+<section id="practice" class="screen" aria-labelledby="practice-title" hidden>
+  <h2 id="practice-title" tabindex="-1">模擬試験</h2>
+  <p>Part 5 · 短文穴埋め 3問</p>
+  <button type="button" class="secondary" data-screen="menu">メニューへ</button>
   <form id="exam">
     <div id="items"></div>
     <button>採点する</button>
   </form>
   <p id="result" role="status"></p>
+  <div id="practice-coach" class="coach" hidden>
+    <div id="practice-portrait" class="coach-portrait" aria-hidden="true"></div>
+    <p id="practice-message"></p>
+  </div>
 </section>
+<section id="preferences" class="screen" hidden>
+  <h2 tabindex="-1">設定</h2>
+  <button type="button" class="secondary" data-screen="menu">メニューへ</button>
+  <section class="study-panel">
+    <h3>英語力チェック</h3>
+    <p id="saved-placement"></p>
+    <button type="button" id="retake">もう一度チェック</button>
+  </section>
 <section class="study-panel coach" aria-labelledby="coach-title">
   <div id="coach-portrait" class="coach-portrait" aria-hidden="true"></div>
   <div class="coach-copy">
@@ -104,21 +154,6 @@ button:disabled { opacity: .65; cursor: default; }
     </select>
     <p id="coach-message" role="status"></p>
   </div>
-</section>
-<section id="skill-analysis" class="study-panel" tabindex="-1">
-  <h2>苦手分析</h2>
-  <p id="skill-summary"></p>
-  <ul id="skill-results"></ul>
-</section>
-<section id="wordbook" class="study-panel" tabindex="-1">
-  <h2>単語帳</h2>
-  <form id="word-form">
-    <label>英単語・表現<input name="term" lang="en" maxlength="100" required></label>
-    <label>意味<input name="meaning" maxlength="300" required></label>
-    <button>追加</button>
-  </form>
-  <p id="word-status" role="status"></p>
-  <ul id="word-list"></ul>
 </section>
 <div class="settings">
 <section id="learning-history" tabindex="-1">
@@ -137,6 +172,38 @@ button:disabled { opacity: .65; cursor: default; }
   <button id="offline-reset" type="button" disabled>キャッシュを再取得</button>
 </section>
 </div>
+</section>
+<section id="study" class="screen" hidden>
+  <h2 tabindex="-1">分野学習</h2>
+  <button type="button" class="secondary" data-screen="menu">メニューへ</button>
+  <section class="study-panel">
+    <h3>技能別の練習</h3>
+    <p id="study-tip"></p>
+    <label for="study-skill">練習する技能</label>
+    <select id="study-skill" class="coach-select"></select>
+    <form id="skill-form">
+      <div id="skill-item"></div>
+      <button>答え合わせ</button>
+    </form>
+    <p id="skill-feedback" role="status"></p>
+    <button type="button" id="skill-word" hidden>単語帳に追加</button>
+  </section>
+<section id="skill-analysis" class="study-panel" tabindex="-1">
+  <h2>苦手分析</h2>
+  <p id="skill-summary"></p>
+  <ul id="skill-results"></ul>
+</section>
+<section id="wordbook" class="study-panel" tabindex="-1">
+  <h2>単語帳</h2>
+  <form id="word-form">
+    <label>英単語・表現<input name="term" lang="en" maxlength="100" required></label>
+    <label>意味<input name="meaning" maxlength="300" required></label>
+    <button>追加</button>
+  </form>
+  <p id="word-status" role="status"></p>
+  <ul id="word-list"></ul>
+</section>
+</section>
 </main>
 <script>
 'use strict';
@@ -170,18 +237,6 @@ const key = 'toeic.history.v1';
 const examId = 'part5-demo';
 const revision = 1;
 const select = (id) => document.getElementById(id);
-
-select('start').addEventListener('click', () => {
-  select('start-screen').hidden = true;
-  select('practice').hidden = false;
-  select('practice-title').focus();
-});
-
-select('back').addEventListener('click', () => {
-  select('practice').hidden = true;
-  select('start-screen').hidden = false;
-  select('start').focus();
-});
 
 const dateFormat = new Intl.DateTimeFormat('ja-JP', { dateStyle: 'medium', timeStyle: 'short' });
 const letter = (index) => 'ABCD'[index];
@@ -336,7 +391,12 @@ const coachKey = 'toeic.coach.v1';
 function renderCoach() {
   const coach = Number(select('coach').value);
   select('coach-portrait').style.backgroundPosition = (mood * 50) + '% ' + (coach * 50) + '%';
-  select('coach-message').textContent = coachMessages[coach][mood];
+  const message = coachMessages[coach][mood];
+  select('coach-message').textContent = message;
+  select('practice-coach').hidden = !mood;
+  select('practice-message').textContent = mood ? message : '';
+  select('practice-portrait').style.backgroundPosition = (mood * 50) + '% ' + (coach * 50) + '%';
+
 }
 try {
   const savedCoach = localStorage.getItem(coachKey);
@@ -456,6 +516,183 @@ window.addEventListener('storage', (event) => {
   if (event.key === key || event.key === null) refresh();
 });
 refresh();
+
+const placementQuestions = [
+  {skill: 0, stem: '_____ the lobby is being painted, please use the side entrance.', choices: ['During', 'Because', 'Despite', 'Within'], answer: 1},
+  {skill: 1, stem: 'The manager _____ the updated schedule yesterday.', choices: ['approve', 'approves', 'approved', 'approving'], answer: 2},
+  {skill: 2, stem: 'Please keep your _____ as proof that you paid for the repairs.', choices: ['receipt', 'departure', 'appointment', 'equipment'], answer: 0},
+  {skill: 0, stem: 'The outdoor concert went ahead _____ the rain.', choices: ['although', 'because', 'unless', 'despite'], answer: 3},
+  {skill: 1, stem: 'By the time the guests arrived, the staff _____ setting up the room.', choices: ['finish', 'will finish', 'had finished', 'are finishing'], answer: 2},
+  {skill: 2, stem: 'As demand grows, the company plans to _____ production at its main factory.', choices: ['consult', 'expand', 'deliver', 'mention'], answer: 1}
+];
+const practiceQuestions = [
+  {...questions[0], stem: 'Please leave your badge at reception _____ you exit the building.', choices: ['during', 'before', 'despite', 'regarding'], term: 'before', meaning: '〜する前に', explanation: 'before は時を表す接続詞として主語と動詞を含む節を導けます。'},
+  {...questions[1], stem: 'The director agreed to _____ the contract before Friday.', choices: ['renewal', 'renews', 'renewed', 'renew'], term: 'renew', meaning: '更新する', explanation: 'agree to の後ろには動詞の原形が入り、renew the contract で「契約を更新する」です。'},
+  {...questions[2], stem: 'The supplier sent a revised _____ showing the amount we owe.', choices: ['invoice', 'itinerary', 'inventory', 'application'], term: 'invoice', meaning: '請求書', explanation: '支払うべき金額を記載した文書は invoice（請求書）です。'}
+];
+
+const profileKey = 'toeic.placement.v1';
+const screens = [...document.querySelectorAll('.screen')];
+let profile;
+let diagnosticAnswers = [];
+let placementReturn = 'welcome';
+
+try {
+  const saved = JSON.parse(localStorage.getItem(profileKey));
+  if (saved?.answers?.length === placementQuestions.length && Array.isArray(saved.answers) &&
+      saved.answers.every((answer, index) => Number.isInteger(answer) && answer >= 0 &&
+        answer < placementQuestions[index].choices.length)) profile = saved;
+} catch {
+  // An unavailable or invalid profile starts the initial flow.
+}
+
+function showScreen(id, focus = true) {
+  if (id === 'menu' || id === 'preferences' || id === 'study') renderProfile();
+  for (const screen of screens) screen.hidden = screen.id !== id;
+  if (focus) {
+    select(id).querySelector('h2').focus({preventScroll: true});
+    window.scrollTo(0, 0);
+  }
+}
+
+function placementResults() {
+  const counts = questions.map((question) => ({skill: question.skill, correct: 0, total: 0}));
+  placementQuestions.forEach(({skill, answer}, index) => {
+    counts[skill].total++;
+    if (answer === profile.answers[index]) counts[skill].correct++;
+  });
+  const focus = counts.reduce((weak, next, index) =>
+    next.correct < counts[weak].correct ? index : weak, 0);
+  return {
+    counts,
+    focus,
+    total: counts.reduce((sum, item) => sum + item.correct, 0)
+  };
+}
+
+function renderProfile() {
+  if (!profile) return;
+  const result = placementResults();
+  const scoreText = '文法・語彙 ' + result.total + ' / ' + placementQuestions.length + ' 問正解';
+  const advice = result.total === placementQuestions.length
+    ? '次はミニ模試で確認しましょう。'
+    : 'おすすめの復習 · ' + result.counts[result.focus].skill;
+  select('menu-profile').textContent = 'パートナー · ' + select('coach').selectedOptions[0].textContent + ' ／ ' + scoreText;
+  select('saved-placement').textContent = scoreText;
+  select('placement-score').textContent = scoreText;
+  select('placement-tip').textContent = advice;
+  select('study-tip').textContent = advice;
+  select('placement-breakdown').replaceChildren(...result.counts.map(({skill, correct, total}) => {
+    const item = document.createElement('li');
+    item.textContent = skill + ' · ' + correct + ' / ' + total;
+    return item;
+  }));
+}
+
+function renderSingleQuestion(id, question) {
+  const fieldset = document.createElement('fieldset');
+  const legend = document.createElement('legend');
+  legend.lang = 'en';
+  legend.textContent = question.stem;
+  fieldset.append(legend);
+  question.choices.forEach((choice, index) => {
+    const label = document.createElement('label');
+    label.lang = 'en';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = 'answer';
+    radio.value = index;
+    radio.required = true;
+    label.append(radio, ' ' + letter(index) + '. ' + choice);
+    fieldset.append(label);
+  });
+  select(id).replaceChildren(fieldset);
+}
+
+function showPlacementQuestion() {
+  const index = diagnosticAnswers.length;
+  select('placement-count').textContent = '問題 ' + (index + 1) + ' / ' + placementQuestions.length;
+  select('placement-next').textContent = index + 1 === placementQuestions.length ? '結果を見る' : '次の問題';
+  renderSingleQuestion('placement-item', placementQuestions[index]);
+}
+
+function startPlacement(returnTo) {
+  placementReturn = returnTo;
+  diagnosticAnswers = [];
+  showPlacementQuestion();
+  showScreen('placement');
+}
+
+for (const button of document.querySelectorAll('[data-partner]')) {
+  button.addEventListener('click', () => {
+    select('coach').value = button.dataset.partner;
+    select('coach').dispatchEvent(new Event('change'));
+    startPlacement('welcome');
+  });
+}
+for (const button of document.querySelectorAll('[data-screen]')) {
+  button.addEventListener('click', () => showScreen(button.dataset.screen));
+}
+select('retake').addEventListener('click', () => startPlacement('preferences'));
+select('placement-back').addEventListener('click', () => showScreen(placementReturn));
+select('placement-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const value = new FormData(event.currentTarget).get('answer');
+  if (value === null) return;
+  diagnosticAnswers.push(Number(value));
+  if (diagnosticAnswers.length < placementQuestions.length) {
+    showPlacementQuestion();
+    select('placement-item').querySelector('input').focus();
+    return;
+  }
+
+  profile = {answers: diagnosticAnswers.slice()};
+  select('placement-save').textContent = '';
+  try {
+    localStorage.setItem(profileKey, JSON.stringify(profile));
+  } catch {
+    select('placement-save').textContent = 'このブラウザには診断結果を保存できませんでした。';
+  }
+  select('study-skill').value = String(placementResults().focus);
+  renderSkillQuestion();
+  renderProfile();
+  showScreen('placement-result');
+});
+
+for (const [index, question] of practiceQuestions.entries()) {
+  const option = document.createElement('option');
+  option.value = index;
+  option.textContent = question.skill;
+  select('study-skill').append(option);
+}
+
+function selectedSkillQuestion() {
+  return practiceQuestions[Number(select('study-skill').value)];
+}
+
+function renderSkillQuestion() {
+  renderSingleQuestion('skill-item', selectedSkillQuestion());
+  select('skill-feedback').textContent = '';
+  select('skill-word').hidden = true;
+}
+
+select('study-skill').addEventListener('change', renderSkillQuestion);
+select('skill-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const selected = new FormData(event.currentTarget).get('answer');
+  if (selected === null) return;
+  const question = selectedSkillQuestion();
+  select('skill-feedback').textContent = (Number(selected) === question.answer ? '正解。' : '正答 ' + letter(question.answer) + '。') + question.explanation;
+  select('skill-word').hidden = false;
+});
+select('skill-word').addEventListener('click', () => {
+  const {term, meaning} = selectedSkillQuestion();
+  addWord(term, meaning);
+});
+
+select('study-skill').value = String(profile ? placementResults().focus : 0);
+renderSkillQuestion();
+showScreen(profile ? 'menu' : 'welcome', false);
 
 const offlineStatus = select('offline-status');
 const offlineReset = select('offline-reset');
