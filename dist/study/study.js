@@ -1,6 +1,6 @@
 'use strict';
 
-function initializeFieldStudy({renderSingleQuestion, renderReview, addWord}) {
+function initializeFieldStudy({renderSingleQuestion, renderReview, addWord, onAnswer}) {
   const get = (id) => document.getElementById(id);
   const parts = globalThis.toeicStudyBank?.parts;
   if (!parts) {
@@ -147,7 +147,19 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, addWord}) {
     const item = exercise.items[0];
     const question = reviewQuestion(item);
     const answer = item.choices[question.answer];
-    feedback.textContent = item.choices[Number(selected)].id === answer.id ? '正解。' : '正答 ' + answer.id + '。';
+    const isCorrect = item.choices[Number(selected)].id === answer.id;
+    feedback.textContent = isCorrect ? '正解。' : '正答 ' + answer.id + '。';
+    if (typeof onAnswer === 'function') {
+      onAnswer({
+        itemId: item.id,
+        setId: exercise.setId,
+        part: exercise.part,
+        skill: item.skill,
+        difficulty: item.difficulty || 'medium',
+        isCorrect,
+        mode: 'study'
+      });
+    }
     review.replaceChildren();
     if (exercise.passages.length || exercise.media.table) {
       review.append(element('h4', exercise.part <= 4 ? '台本・資料と日本語訳' : '本文と日本語訳'));
@@ -165,4 +177,6 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, addWord}) {
     const entry = item?.vocabulary[Number(vocabularyPicker.value)];
     if (entry) addWord(entry.term, entry.meaningJa);
   });
+
+  return { renderMaterials, reviewQuestion };
 }

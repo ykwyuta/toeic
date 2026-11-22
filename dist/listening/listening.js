@@ -229,6 +229,24 @@ function finish() {
     const partItems = sets.flatMap(({ items }) => items);
     return node('li', `Part ${part} · ${countCorrect(partItems)} / ${partItems.length}問正解`);
   }));
+  if (globalThis.toeicAdaptive) {
+    const nowIso = new Date().toISOString();
+    const entries = exam.parts.flatMap(({ part, sets }) =>
+      sets.flatMap((set) =>
+        set.items.map((item) => ({
+          itemId: item.id,
+          setId: set.setId,
+          part,
+          skill: item.skill || ('Part ' + part),
+          difficulty: item.difficulty || 'medium',
+          isCorrect: answers.get(item.id) === item.answerId,
+          answeredAt: nowIso,
+          mode: 'listening'
+        }))
+      )
+    );
+    globalThis.toeicAdaptive.recordItemResults(entries);
+  }
   const firstIncorrect = sets.findIndex(({ items }) => countCorrect(items) < items.length);
   const index = Math.max(firstIncorrect, 0);
   $('#review-select').value = index;

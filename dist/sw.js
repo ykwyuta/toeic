@@ -3,13 +3,13 @@
 importScripts('./study/r1/bank.js');
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '12';
+const cacheName = cachePrefix + '13';
 const index = new URL('index.html', self.registration.scope).href;
 
 const studyMedia = self.toeicStudyBank.parts.flatMap(({sets}) => sets.flatMap(({media}) =>
   [media.photo?.src, media.audio?.src].filter(Boolean)));
 const assets = [
-  'app-v11.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp',
+  'adaptive.js', 'app-v11.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp',
   'study/r1/bank.js', 'study/study.js', ...studyMedia,
 ]
   .map((path) => new URL(path, self.registration.scope).href);

@@ -123,6 +123,23 @@ button:disabled { opacity: .65; cursor: default; }
 .answer-review dt { font-weight: 700; }
 .answer-review dd { margin: 0 0 .45rem; }
 .answer-review summary { cursor: pointer; padding: .45rem 0; }
+.daily-card { background: #fff; border: 2px solid #124d75; border-radius: 1rem; padding: 1.1rem; margin: 0 0 .95rem; }
+.daily-card-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem; margin-bottom: .5rem; }
+.daily-card-head h3 { margin: 0; font-size: 1.15rem; }
+.course-toggle { display: inline-flex; gap: .35rem; }
+.course-toggle button { min-height: 36px; padding: .25rem .65rem; font-size: .875rem; background: #edf2f7; color: #13273b; border-color: #b8c9d9; }
+.course-toggle button[aria-pressed="true"] { background: #124d75; color: #fff; border-color: #124d75; }
+.daily-meta { margin: .35rem 0 .75rem; font-size: .92rem; color: #354c61; }
+.daily-progress { font-size: .875rem; color: #1a6158; font-weight: 600; margin: .4rem 0 0; }
+.skill-badge { display: inline-block; padding: .1rem .45rem; border-radius: .35rem; font-size: .8rem; font-weight: 700; margin-right: .4rem; }
+.skill-badge[data-status="weak"] { background: #fde8e8; color: #9b1c1c; }
+.skill-badge[data-status="reviewing"] { background: #fef3c7; color: #92400e; }
+.skill-badge[data-status="mastered"] { background: #def7ec; color: #03543f; }
+.skill-badge[data-status="unmeasured"] { background: #e5e7eb; color: #374151; }
+.skill-reason { display: block; font-size: .875rem; color: #40566a; margin-top: .15rem; }
+.daily-vocab-card { background: #f4f7fb; border: 1px solid #cad9e6; border-radius: .75rem; padding: 1rem; margin: .75rem 0; }
+.daily-vocab-term { font-size: 1.35rem; font-weight: 700; margin: 0 0 .5rem; }
+.daily-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; }
 </style>
 <main>
 <header class="hero app-header">
@@ -171,11 +188,58 @@ button:disabled { opacity: .65; cursor: default; }
       <button type="button" id="menu-cheer">ひとこと応援</button>
     </div>
   </div>
+  <section id="daily-card" class="daily-card" aria-labelledby="daily-card-title">
+    <div class="daily-card-head">
+      <h3 id="daily-card-title">今日のスキマ学習</h3>
+      <div class="course-toggle" role="group" aria-label="学習コース">
+        <button type="button" id="course-3min" data-course="3min" aria-pressed="true">3分</button>
+        <button type="button" id="course-10min" data-course="10min" aria-pressed="false">10分</button>
+      </div>
+    </div>
+    <p id="daily-summary" class="daily-meta"></p>
+    <button type="button" id="daily-start">今すぐ始める</button>
+    <p id="daily-week-progress" class="daily-progress"></p>
+  </section>
   <div class="menu-options">
     <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習</strong><span class="menu-description">Partと分野を選んで1問練習</span></span></button>
     <button type="button" data-screen="practice"><span class="menu-symbol" aria-hidden="true">⚑</span><span><strong>模擬試験</strong><span class="menu-description">Part 5の3問に挑戦</span></span></button>
     <a href="./listening/"><span class="menu-symbol" aria-hidden="true">♫</span><span><strong>リスニング模擬試験</strong><span class="menu-description">Part 1〜4の100問</span></span></a>
     <button type="button" data-screen="preferences"><span class="menu-symbol" aria-hidden="true">⚙</span><span><strong>設定</strong><span class="menu-description">パートナー変更、再診断、履歴</span></span></button>
+  </div>
+</section>
+<section id="daily" class="study-panel screen" hidden>
+  <h2 tabindex="-1">今日のスキマ学習</h2>
+  <button type="button" class="secondary" data-screen="menu">メニューへ</button>
+  <p id="daily-step-status" aria-live="polite"></p>
+  <div id="daily-question-area" hidden>
+    <p id="daily-item-badge"></p>
+    <form id="daily-form">
+      <div id="daily-material"></div>
+      <audio id="daily-audio" controls preload="none" aria-label="スキマ学習の音声" hidden></audio>
+      <div id="daily-item"></div>
+      <button id="daily-submit">答え合わせ</button>
+    </form>
+    <p id="daily-feedback" role="status"></p>
+    <div class="answer-review" id="daily-review" hidden></div>
+    <div class="daily-actions">
+      <button type="button" id="daily-next" hidden>次へ</button>
+    </div>
+  </div>
+  <div id="daily-vocab-area" hidden>
+    <div class="daily-vocab-card">
+      <p id="daily-vocab-term" class="daily-vocab-term" lang="en"></p>
+      <p id="daily-vocab-meaning" hidden></p>
+      <div class="daily-actions">
+        <button type="button" id="daily-vocab-reveal">意味を見る</button>
+        <button type="button" id="daily-vocab-known" hidden>覚えた</button>
+        <button type="button" id="daily-vocab-again" class="secondary" hidden>もう一度復習する</button>
+      </div>
+    </div>
+  </div>
+  <div id="daily-done-area" hidden>
+    <p id="daily-done-summary" role="status"></p>
+    <p id="daily-done-week"></p>
+    <button type="button" data-screen="menu">メニューへ戻る</button>
   </div>
 </section>
 <section id="practice" class="screen" aria-labelledby="practice-title" hidden>
@@ -195,6 +259,23 @@ button:disabled { opacity: .65; cursor: default; }
 <section id="preferences" class="screen" hidden>
   <h2 tabindex="-1">設定</h2>
   <button type="button" class="secondary" data-screen="menu">メニューへ</button>
+  <section class="study-panel">
+    <h3>学習目標とリマインド</h3>
+    <label for="pref-weekly-goal">週間目標（日数）</label>
+    <select id="pref-weekly-goal" class="coach-select">
+      <option value="3">週3日</option>
+      <option value="4">週4日</option>
+      <option value="5" selected>週5日（おすすめ）</option>
+      <option value="6">週6日</option>
+      <option value="7">毎日（週7日）</option>
+    </select>
+    <label for="pref-reminder-time">リマインド時刻（カレンダー登録用）</label>
+    <input id="pref-reminder-time" type="time" value="20:00">
+    <div class="daily-actions">
+      <button type="button" id="download-ics">カレンダー用ファイル(.ics)を保存</button>
+    </div>
+    <p id="pref-status" role="status"></p>
+  </section>
   <section class="study-panel">
     <h3>英語力チェック</h3>
     <p id="saved-placement"></p>
@@ -281,6 +362,7 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </section>
 </main>
+<script src="./adaptive.js" defer></script>
 <script src="./study/r1/bank.js" defer></script>
 <script src="./study/study.js" defer></script>
 <script src="./app-v11.js" defer></script>
