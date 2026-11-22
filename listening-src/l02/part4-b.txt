@@ -1,0 +1,94 @@
+@89|フォーラムの講演者紹介
+: f|Thank you all for coming to this year's Small Business Forum. Our first speaker today is Doctor Renata Silva, who teaches marketing at Calder University.|今年の中小企業フォーラムにお越しいただき、ありがとうございます。本日最初の講演者は、カルダー大学でマーケティングを教えているレナータ・シルバ博士です。
+: f|Before she became a professor, she ran her own chain of coffee shops for ten years, so she knows the challenges many of you face. Today she'll share practical ways to use customer reviews to improve your service.|教授になる前は10年間、自身でコーヒー店のチェーンを経営していたので、皆さんの多くが直面している課題をよくご存じです。今日は、顧客のレビューを使ってサービスを改善する実践的な方法をお話しいただきます。
+: f|After her talk, Doctor Silva will be signing copies of her new book at the table near the exit. Now, please turn off the sound on your phones, and let's welcome Doctor Silva.|講演の後、シルバ博士は出口近くのテーブルで新刊にサインをされます。それでは携帯電話の音を消していただき、シルバ博士をお迎えしましょう。
+? 89|経歴|medium|t2|What did Doctor Silva do before she became a professor?|シルバ博士は教授になる前に何をしていましたか。
++ She managed her own business.|自分の事業を経営していた。|教授になる前に10年間コーヒー店のチェーンを経営していたと紹介されています。ran を managed と言い換えています。
+- She wrote restaurant reviews.|レストランの批評を書いていた。|レビューは講演のテーマで、彼女が書いていたという話ではありません。
+- She worked as a journalist.|記者として働いていた。|記者の経歴は述べられていません。
+- She designed coffee machines.|コーヒーマシンを設計していた。|コーヒー店は経営していましたが、機械の設計ではありません。
+% run=経営する|chain=チェーン店|challenge=課題・難題
+? 90|話題|easy|t2|What will Doctor Silva talk about?|シルバ博士は何について話しますか。
++ Using customer feedback.|顧客の意見を活用すること。|顧客のレビューを使ってサービスを改善する方法を話すと紹介されています。reviews を feedback と言い換えています。
+- Opening a coffee shop.|コーヒー店を開くこと。|コーヒー店の経営は経歴の紹介で、講演のテーマではありません。
+- Writing a successful book.|成功する本を書くこと。|本はサイン会の話で、講演のテーマではありません。
+- Hiring new employees.|新しい従業員を雇うこと。|採用の話は出ていません。
+% customer review=顧客のレビュー|practical=実践的な|feedback=意見・感想
+? 91|講演後|easy|t3|What will happen after the talk?|講演の後に何がありますか。
++ A book signing.|本のサイン会。|講演の後、出口近くのテーブルで新刊にサインをすると案内しています。
+- A coffee break.|コーヒー休憩。|コーヒーは経歴の話に出るだけで、休憩の案内はありません。
+- A panel discussion.|パネルディスカッション。|討論会の案内はありません。
+- A survey of the audience.|聴衆へのアンケート。|アンケートの案内はありません。
+% sign copies=（本に）サインをする|near the exit=出口の近くに|turn off=（音などを）消す
+@92|ガラス工場の見学案内
+: m|Good afternoon, and welcome to the Northfield Glassworks factory. Before we walk onto the production floor, please put on a pair of the safety glasses in the basket by the door.|こんにちは。ノースフィールド・グラスワークスの工場へようこそ。製造現場に入る前に、ドアの横のかごにある保護眼鏡をかけてください。
+: m|The furnaces run at very high temperatures, so stay behind the yellow lines at all times. You'll see our workers shaping glass by hand, and you're welcome to ask them questions during the break.|炉は非常に高い温度で稼働していますので、常に黄色い線の内側にいてください。職人が手作業でガラスを成形する様子をご覧いただけます。休憩中には職人に質問してもかまいません。
+: m|Now, I know some of you were hoping to try glassblowing yourselves today. Well, that's what the workshop on Saturday is for. Sign-up sheets are at the gift shop.|さて、今日ご自身でガラス吹きを体験したいと思っていた方もいらっしゃると思います。それは土曜日の体験教室でできます。申込用紙はギフトショップにあります。
+? 92|入場前|easy|t1|What are listeners asked to do before entering the production floor?|聞き手は製造現場に入る前に何をするよう求められていますか。
++ Wear eye protection.|目を保護するものを着ける。|ドアの横のかごにある保護眼鏡をかけるよう言っています。safety glasses を eye protection と言い換えています。
+- Leave their bags in a locker.|かばんをロッカーに預ける。|かばんについての指示はありません。
+- Turn off their phones.|携帯電話の電源を切る。|携帯電話についての指示はありません。
+- Sign a safety form.|安全に関する書類に署名する。|署名が必要なのは土曜日の体験教室の申込用紙で、入場前の書類ではありません。
+% production floor=製造現場|safety glasses=保護眼鏡|put on=着ける
+? 93|理由|medium|t2|Why should listeners stay behind the yellow lines?|聞き手はなぜ黄色い線の内側にいるべきなのですか。
++ The equipment is extremely hot.|設備が非常に熱い。|炉が非常に高い温度で稼働しているので、黄色い線の内側にいるよう言っています。
+- The floor has just been cleaned.|床を掃除したばかりである。|床の掃除の話は出ていません。
+- The workers are taking a break.|職人が休憩中である。|休憩は職人に質問できる時間として出てくるだけです。
+- Photographs are not permitted.|写真撮影が許可されていない。|写真撮影の話は出ていません。
+% furnace=炉|high temperature=高温|at all times=常に
+? 94|発言意図|hard|t3|What does the speaker imply when he says, “that's what the workshop on Saturday is for”?|話し手が「それは土曜日の体験教室でできます」と言うとき、何を示唆していますか。
++ Visitors cannot try glassblowing on today's tour.|今日の見学ではガラス吹きを体験できない。|今日体験したかった人に向けて、体験は土曜日の教室ですることだと伝えています。今日の見学には含まれないという意味です。
+- The Saturday workshop is already full.|土曜日の体験教室はすでに満員である。|申込用紙はギフトショップにあると言っており、満員ではありません。
+- Saturday tours cost less than weekday tours.|土曜日の見学は平日より安い。|料金の比較はしていません。
+- Workers teach classes every day.|職人は毎日教室を開いている。|教室は土曜日のものだけが案内されています。
+% glassblowing=ガラス吹き|be for=～のためのものである|sign-up sheet=申込用紙
+@95|リサイクルセンターの祝日の案内
+: g|Thank you for calling the Brookdale Recycling Center. Please note our hours for the holiday week. We'll be closed on Thursday and Friday, and we'll reopen on Saturday with extended hours, from eight in the morning to six in the evening.|ブルックデール・リサイクルセンターにお電話いただき、ありがとうございます。祝日の週の営業時間にご注意ください。木曜日と金曜日は休業し、土曜日に営業時間を延長して再開します。時間は朝8時から夜6時までです。
+: g|Curbside collection that normally takes place on Thursday will happen on Saturday instead.|通常木曜日に行っている家の前での回収は、代わりに土曜日に行います。
+: g|Also, remember that we now accept old electronics, such as laptops and phones, at our side entrance. For a full list of accepted items, please visit our Web site. To speak to a staff member, please stay on the line.|また、ノートパソコンや携帯電話などの古い電子機器を、現在は通用口で受け付けていることもお忘れなく。受け付けている品目の一覧は当センターのウェブサイトをご覧ください。職員とお話しになりたい場合は、このままお待ちください。
+? 95|理由|easy|t1|Why is the center changing its hours?|センターはなぜ営業時間を変えるのですか。
++ Because of a holiday.|祝日のため。|祝日の週の営業時間に注意するよう案内しています。
+- Because of repair work.|修理工事のため。|工事の話は出ていません。
+- Because of staff training.|職員研修のため。|研修の話は出ていません。
+- Because of bad weather.|悪天候のため。|天候の話は出ていません。
+% holiday week=祝日のある週|reopen=再開する|extended hours=延長した営業時間
+? 96|日付|medium|t2|When will Thursday's collection take place this week?|今週、木曜日の回収はいつ行われますか。
++ On Saturday.|土曜日。|通常木曜日の家の前での回収は、代わりに土曜日に行うと言っています。
+- On Friday.|金曜日。|金曜日はセンターが休業する日です。
+- On Wednesday.|水曜日。|水曜日の話は出ていません。
+- On the following Thursday.|翌週の木曜日。|翌週に延期するのではなく、今週の土曜日に行います。
+% curbside collection=家の前（道路脇）での回収|normally=通常は|take place=行われる
+? 97|詳細|medium|t3|What does the speaker say about electronics?|話し手は電子機器について何と言っていますか。
++ The center now accepts them.|センターは現在それらを受け付けている。|ノートパソコンや携帯電話などの古い電子機器を、現在は通用口で受け付けていると言っています。
+- They are collected from homes.|家から回収される。|電子機器は通用口で受け付けると言っており、家の前で回収するとは言っていません。
+- A fee is charged for them.|料金がかかる。|料金の話は出ていません。
+- They are accepted only on Saturday.|土曜日だけ受け付けている。|土曜日は祝日の週の営業日の話で、電子機器を土曜日に限るとは言っていません。
+% electronics=電子機器|accept=受け付ける|stay on the line=電話を切らずに待つ
+@98|棚卸しの担当変更〔図表〕
+# Inventory count teams|棚卸しの担当チーム
+= Section|売り場; Team leader|チームリーダー
+= Garden|園芸; Priya|プリヤ
+= Kitchenware|台所用品; Marcus|マーカス
+= Lighting|照明; Helen|ヘレン
+= Paint|塗料; Daniel|ダニエル
+: b|OK, everyone, thanks for coming in early. As you know, we're closing the store at four today so that we can count our inventory. You'll find your team leaders on the sheet by the break room.|はい、皆さん、早く来てくれてありがとう。ご存じのとおり、今日は棚卸しをするために4時に閉店します。チームリーダーは休憩室の横の表に書いてあります。
+: b|There's one change, though. Helen called in sick, so the lighting section will be counted by the team leader from kitchenware. Each team should use the new handheld scanners, which are charging in the back office.|ただし、一つ変更があります。ヘレンが病欠の連絡をしてきたので、照明売り場は台所用品のチームリーダーが数えます。各チームは新しい携帯型スキャナーを使ってください。奥の事務所で充電中です。
+: b|When you finish a section, please report your totals to me at the front counter. And pizza will be delivered at seven for everyone who stays.|売り場が終わったら、正面カウンターにいる私に合計を報告してください。それから、残ってくれる皆さんのために7時にピザが届きます。
+? 98|理由|easy|t1|Why is the store closing early today?|店は今日なぜ早く閉まるのですか。
++ To count the products in stock.|在庫の商品を数えるため。|棚卸しをするために4時に閉店すると言っています。count our inventory を count the products in stock と言い換えています。
+- To celebrate a holiday.|祝日を祝うため。|祝日の話は出ていません。
+- To repair the lights.|照明を修理するため。|照明（lighting）は売り場の名前で、修理の話ではありません。
+- To hold a staff training session.|職員研修を行うため。|新しいスキャナーは使いますが、研修のための閉店ではありません。
+% inventory=在庫・棚卸し|count=数える|break room=休憩室
+? 99|図表照合・担当者|medium|t2,r2c1,r2c2,r3c1|Look at the table. Who will lead the count in the lighting section?|表を見てください。照明売り場の棚卸しは誰が担当しますか。
++ Marcus.|マーカス。|ヘレンが病欠のため、照明売り場は台所用品のチームリーダーが数えると言っています。表で台所用品のリーダーはマーカスです。
+- Helen.|ヘレン。|表では照明売り場の担当ですが、病欠の連絡をしてきました。
+- Priya.|プリヤ。|園芸売り場のリーダーで、照明売り場の担当にはなっていません。
+- Daniel.|ダニエル。|塗料売り場のリーダーで、照明売り場の担当にはなっていません。
+% call in sick=病欠の連絡をする|team leader=チームリーダー|section=売り場
+? 100|詳細|easy|t3|What will employees receive at seven o'clock?|従業員は7時に何を受け取りますか。
++ Some food.|食べ物。|残ってくれる人のために7時にピザが届くと言っています。pizza を food と言い換えています。
+- Their paychecks.|給料。|給料の話は出ていません。
+- New handheld scanners.|新しい携帯型スキャナー。|スキャナーは今、奥の事務所で充電中で、7時に受け取るものではありません。
+- Their work schedules.|勤務予定表。|予定表の話は出ていません。担当は休憩室の横の表に書いてあります。
+% report=報告する|total=合計|front counter=正面カウンター

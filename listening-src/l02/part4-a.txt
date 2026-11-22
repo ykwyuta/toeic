@@ -1,0 +1,144 @@
+@71|印刷所からの留守番電話
+: g|Hello, this message is for Mr. Danvers. This is Holly from Ridgeline Print Shop, calling about your order of five hundred business cards.|もしもし、ダンバース様へのメッセージです。リッジライン印刷のホリーです。ご注文の名刺500枚の件でお電話しました。
+: g|When we started printing this morning, we noticed that the phone number in the design you sent is missing a digit. We've stopped the job for now.|今朝印刷を始めたところ、お送りいただいたデザインの電話番号が1桁足りないことに気づきました。作業はいったん止めております。
+: g|Could you e-mail us the correct number, or simply reply to the proof we sent you earlier? Once we have it, the cards will be ready the following day. We're open until six this evening. Thank you.|正しい番号をメールでお送りいただくか、先ほどお送りした校正刷りにそのまま返信していただけますか。番号をいただければ、翌日には名刺が仕上がります。本日は夕方6時まで営業しております。よろしくお願いいたします。
+? 71|話し手の職場|easy|t1|Where does the speaker work?|話し手はどこで働いていますか。
++ At a printing business.|印刷業者。|リッジライン印刷のホリーだと名乗り、名刺の注文について話しています。
+- At a telephone company.|電話会社。|電話番号の話は出ますが、名刺に印刷する番号の誤りの話です。
+- At a post office.|郵便局。|郵便の話は出てきません。
+- At a design school.|デザインの学校。|design は客が送ったデータのことで、学校の話ではありません。
+% print shop=印刷所|business card=名刺|order=注文
+? 72|問題点|medium|t2|What problem does the speaker mention?|話し手はどんな問題を述べていますか。
++ Some contact information is incomplete.|連絡先の情報が不完全である。|デザインの電話番号が1桁足りないと言っています。missing a digit を incomplete と言い換えています。
+- The paper is out of stock.|用紙の在庫がない。|用紙の在庫の話は出ていません。
+- A payment was not received.|支払いが届いていない。|支払いの話は出ていません。
+- The cards were sent to the wrong address.|名刺が間違った住所に送られた。|印刷を止めている段階で、まだ発送していません。
+% notice=気づく|digit=（数字の）桁|for now=とりあえず
+? 73|依頼内容|easy|t3|What does the speaker ask the listener to do?|話し手は聞き手に何をするよう頼んでいますか。
++ Send the correct information.|正しい情報を送る。|正しい番号をメールで送るか、校正刷りに返信するよう頼んでいます。
+- Visit the shop before six.|6時前に店に来る。|6時は営業時間の案内で、来店を頼んではいません。
+- Choose a different design.|別のデザインを選ぶ。|デザインを変える必要はなく、番号を直すだけです。
+- Call back tomorrow morning.|明日の朝、電話をかけ直す。|連絡方法として頼んでいるのはメールか返信で、明日の電話ではありません。
+% correct=正しい|proof=校正刷り|the following day=翌日
+@74|海洋博物館のガイドツアー
+: b|Welcome to the Harrington Maritime Museum. My name is Oliver, and I'll be your guide for the next hour. We'll begin in the ship model gallery and then move upstairs to see the restored captain's cabin.|ハリントン海洋博物館へようこそ。私はオリバーと申します。これから1時間、皆さまをご案内します。まず船の模型の展示室から始め、その後上の階に上がって、復元された船長室をご覧いただきます。
+: b|Please note that photography is allowed everywhere except in the map room, where the old documents are sensitive to light.|写真撮影は、古い資料が光に弱いため地図の部屋を除いて、どこでも可能ですのでご注意ください。
+: b|At the end of the tour, you're welcome to join a short knot-tying demonstration in the courtyard. It's included in your ticket. Now, if everyone could stay together, let's head through the doors on my left.|ツアーの最後には、中庭でのロープの結び方の短い実演にぜひご参加ください。入場券に含まれています。それでは、皆さま離れないようにして、私の左手のドアから進みましょう。
+? 74|話し手|easy|t1|Who most likely is the speaker?|話し手は誰だと考えられますか。
++ A tour guide.|ツアーのガイド。|これから1時間案内すると言い、見学の順路を説明しています。
+- A ship captain.|船長。|船長室は見学する展示で、話し手は船長ではありません。
+- A photographer.|写真家。|写真撮影のルールを説明していますが、話し手は写真家ではありません。
+- A security guard.|警備員。|見学の案内をしており、警備の仕事をしているのではありません。
+% maritime=海の・海事の|restored=復元された|captain's cabin=船長室
+? 75|禁止事項|medium|t2|What are listeners asked not to do in the map room?|聞き手は地図の部屋で何をしないよう求められていますか。
++ Take pictures.|写真を撮る。|写真撮影は地図の部屋を除いてどこでも可能だと言っています。資料が光に弱いためです。
+- Touch the ship models.|船の模型に触る。|模型は別の展示室にあり、触ることについての注意はありません。
+- Eat or drink.|飲食する。|飲食についての注意はありません。
+- Speak loudly.|大声で話す。|声の大きさについての注意はありません。
+% photography=写真撮影|except=～を除いて|be sensitive to light=光に弱い
+? 76|ツアー後|easy|t3|What can listeners do at the end of the tour?|聞き手はツアーの最後に何ができますか。
++ Watch a demonstration.|実演を見る。|中庭でロープの結び方の短い実演に参加できると言っています。
+- Buy tickets at a discount.|入場券を割引で買う。|実演が入場券に含まれていると述べているだけで、割引の話ではありません。
+- Board a real ship.|本物の船に乗る。|展示は模型と復元された船長室で、船に乗る話はありません。
+- Meet the museum director.|館長に会う。|館長の話は出ていません。
+% knot-tying=ロープの結び方|demonstration=実演|courtyard=中庭
+@77|朝の交通情報
+: f|You're listening to Radio Fenwick, and here's your morning traffic update. Drivers heading downtown on Route Eleven should expect delays near the Carver Bridge, where one lane is closed for repairs until noon.|ラジオ・フェンウィックをお聞きの皆さん、朝の交通情報です。11号線で中心街に向かうドライバーは、カーバー橋付近での遅れを覚悟してください。橋では修理のため正午まで1車線が閉鎖されています。
+: f|If you can, take Elm Parkway instead. It's moving smoothly this morning. Also, the city reminds everyone that the farmers' market opens on Main Street this Saturday, so parking there will be limited from seven in the morning.|できれば、代わりにエルム・パークウェイをご利用ください。今朝は順調に流れています。また、市からのお知らせです。今週土曜日にメイン通りでファーマーズマーケットが開かれるため、朝7時からその周辺の駐車場は限られます。
+: f|Stay tuned. After this short break, we'll talk with the people who organize the market.|チャンネルはそのままで。短い休憩の後、マーケットの主催者の方々にお話を伺います。
+? 77|原因|easy|t1|What is causing delays on Route Eleven?|11号線の遅れの原因は何ですか。
++ Repair work on a bridge.|橋の修理工事。|カーバー橋で修理のため1車線が閉鎖されていると言っています。
+- A traffic accident.|交通事故。|事故の話は出ていません。
+- Heavy rain.|大雨。|天気の話は出ていません。
+- A street market.|路上の市場。|マーケットは土曜日の駐車の注意で、今朝の遅れの原因ではありません。
+% traffic update=交通情報|head downtown=中心街に向かう|lane=車線
+? 78|提案|easy|t2|What does the speaker recommend that drivers do?|話し手はドライバーに何をするよう勧めていますか。
++ Use a different road.|別の道路を使う。|代わりにエルム・パークウェイを使うよう勧めています。
+- Leave home earlier.|早めに家を出る。|出発時刻についての助言はありません。
+- Take the train.|電車を利用する。|電車の話は出ていません。
+- Park near Main Street.|メイン通りの近くに駐車する。|土曜日はメイン通り周辺の駐車場が限られると注意しています。
+% instead=代わりに|move smoothly=順調に流れる|limited=限られた
+? 79|次に聞くもの|medium|t3|What will listeners most likely hear after the break?|聞き手は休憩の後に何を聞くと考えられますか。
++ An interview about a market.|マーケットについてのインタビュー。|休憩の後でマーケットの主催者に話を聞くと言っています。talk with を interview と言い換えています。
+- A weather forecast.|天気予報。|天気予報が続くという発言はありません。
+- Some popular music.|人気の音楽。|音楽を流すという発言はありません。
+- A sports report.|スポーツのニュース。|スポーツの話は出ていません。
+% Stay tuned.=チャンネルはそのままで。|organize=主催する・企画する|break=休憩・（番組の）中断
+@80|出張予約ツールの導入〔図表〕
+# Travel approval rules|出張の承認ルール
+= Trip cost|出張費; Approval needed|必要な承認
+= Under $500|500ドル未満; None|不要
+= $500 to $1,500|500〜1,500ドル; Department manager|部長
+= $1,501 to $3,000|1,501〜3,000ドル; Finance director|財務担当役員
+= Over $3,000|3,000ドル超; Vice president|副社長
+: m|Good morning, everyone. Starting next month, all business travel will be booked through our new online tool, Wayline. The main benefit is that you'll only see hotels and flights that already meet the company's price limits.|皆さん、おはようございます。来月から、すべての出張は新しいオンラインツール「ウェイライン」で予約することになります。主な利点は、会社の価格上限をすでに満たしているホテルと航空便だけが表示されることです。
+: m|The approval rules are also changing, as shown on the screen. For example, Ms. Grant's trip to the client meeting in Toronto will cost about two thousand dollars, so it will go to the person listed for that amount.|承認のルールも、画面に示したとおり変わります。たとえば、トロントでの顧客との会議に行くグラントさんの出張は約2,000ドルかかるので、その金額の欄にある人に承認を求めることになります。
+: m|Next Thursday, a trainer from Wayline will give a thirty-minute online demonstration. Please check your calendar for the invitation.|来週の木曜日に、ウェイラインのトレーナーが30分のオンライン説明会を行います。招待が届いているか予定表を確認してください。
+? 80|話題|easy|t1|What is the talk mainly about?|このトークは主に何についてですか。
++ A new way to book business trips.|出張を予約する新しい方法。|来月からすべての出張を新しいオンラインツールで予約すると述べ、その利点や承認ルール、説明会を案内しています。
+- A client meeting in Toronto.|トロントでの顧客との会議。|トロントの会議は承認ルールの例として出てくるだけです。
+- An increase in hotel prices.|ホテル代の値上がり。|ホテルは表示される予約先として出るだけで、値上がりの話ではありません。
+- The hiring of a finance director.|財務担当役員の採用。|財務担当役員は表の承認者で、採用の話ではありません。
+% book=予約する|business travel=出張|price limit=価格の上限
+? 81|図表照合・承認者|medium|t2,r3c1,r3c2|Look at the table. Who will approve Ms. Grant's trip?|表を見てください。グラントさんの出張を承認するのは誰ですか。
++ The finance director.|財務担当役員。|グラントさんの出張は約2,000ドルです。表で1,501〜3,000ドルの欄の承認者は財務担当役員です。
+- The department manager.|部長。|500〜1,500ドルの出張の承認者で、2,000ドルは範囲を超えています。
+- The vice president.|副社長。|3,000ドルを超える出張の承認者です。
+- No one, because approval is not required.|承認が不要なので誰もしない。|承認が不要なのは500ドル未満の出張だけです。
+% approve=承認する|approval=承認|as shown=示したとおり
+? 82|予定|easy|t3|What will happen next Thursday?|来週の木曜日に何がありますか。
++ An online training session.|オンラインの説明会。|ウェイラインのトレーナーが30分のオンライン説明会を行うと言っています。demonstration を training session と言い換えています。
+- The new tool will start to be used.|新しいツールの利用が始まる。|ツールの利用開始は来月からです。
+- Ms. Grant will leave for Toronto.|グラントさんがトロントへ出発する。|出発日は述べられていません。
+- Travel requests will be reviewed.|出張申請が審査される。|審査の日程は述べられていません。
+% trainer=トレーナー・研修担当者|demonstration=実演・説明会|invitation=招待
+@83|家具店の記念セールの広告
+: g|Is your living room ready for the holidays? Fairbrook Furniture is celebrating twenty-five years in business with our biggest sale ever. All sofas and armchairs are thirty percent off through Sunday. And delivery is free on any order over five hundred dollars.|リビングの休暇シーズンの準備はできていますか。フェアブルック家具は創業25周年を記念して、過去最大のセールを開催中です。ソファとひじ掛け椅子はすべて日曜日まで30パーセント引き。さらに、500ドルを超えるご注文は配送無料です。
+: g|Not sure what will fit your space? Bring a photo of your room and its measurements, and our designers will help you choose.|お部屋に何が合うかわからない方は、お部屋の写真と寸法をお持ちください。当店のデザイナーが選ぶお手伝いをします。
+: g|Our showroom on Pike Avenue is open until nine every night this week. Believe me, you won't see prices like these again this year.|パイク通りのショールームは今週、毎晩9時まで営業しています。本当に、今年はもうこんな値段は見られませんよ。
+? 83|記念の内容|easy|t1|What is the business celebrating?|この店は何を記念していますか。
++ An anniversary.|創業記念日。|創業25周年を記念してセールを行うと言っています。twenty-five years in business を anniversary と言い換えています。
+- The opening of a new showroom.|新しいショールームの開店。|ショールームは営業時間の案内として出るだけで、新規開店とは言っていません。
+- An award for its designs.|デザインに対する賞。|賞の話は出ていません。
+- The launch of a new product line.|新しい商品シリーズの発売。|新商品の話は出ていません。
+% celebrate=祝う・記念する|in business=営業している|armchair=ひじ掛け椅子
+? 84|持参物|medium|t2|What does the speaker suggest listeners bring to the store?|話し手は聞き手に何を店に持ってくるよう勧めていますか。
++ Information about their room.|部屋に関する情報。|部屋の写真と寸法を持ってくれば、デザイナーが選ぶのを手伝うと言っています。
+- A discount coupon.|割引クーポン。|クーポンの話は出ていません。割引は全員が対象です。
+- A receipt from a past purchase.|以前の購入の領収書。|領収書の話は出ていません。
+- A furniture catalog.|家具のカタログ。|カタログの話は出ていません。
+% fit=合う・収まる|measurements=寸法|help A choose=Aが選ぶのを手伝う
+? 85|発言意図|medium|t1,t3|Why does the speaker say, “you won't see prices like these again this year”?|話し手はなぜ「今年はもうこんな値段は見られませんよ」と言っているのですか。
++ To encourage listeners to buy during the sale.|セール中に買うよう聞き手を促すため。|30パーセント引きは日曜日までの過去最大のセールで、この機会を逃さないよう購入を勧めています。
+- To announce that prices will rise tomorrow.|明日値上げすることを知らせるため。|セールは日曜日まで続き、明日の値上げは述べていません。
+- To explain that the store will close permanently.|店が閉店することを説明するため。|創業25周年の記念で、閉店の話ではありません。
+- To apologize for a pricing error.|価格の誤りを謝るため。|謝罪や価格の誤りの話はありません。
+% encourage A to do=Aに～するよう促す|permanently=永久に|biggest sale ever=過去最大のセール
+@86|列車の発車番線の変更〔図表〕
+# Departures|出発案内
+= Destination|行き先; Time|時刻; Platform|番線
+= Ashby Cross|アシュビー・クロス; 9:20|9時20分; 2|2番線
+= Millbrook|ミルブルック; 9:35|9時35分; 5|5番線
+= Northgate|ノースゲート; 9:50|9時50分; 3|3番線
+= Tellford|テルフォード; 10:05|10時05分; 6|6番線
+: b|Attention, passengers. Because of a signal problem, the nine thirty-five service to Millbrook will now depart from the same platform as the train to Northgate. The departure time has not changed.|ご案内いたします。信号の故障のため、9時35分発ミルブルック行きは、ノースゲート行きの列車と同じ番線から発車いたします。発車時刻に変更はございません。
+: b|Please allow extra time to walk there, as the stairs near the main entrance are closed for cleaning. Use the lift beside the ticket office instead.|正面入口近くの階段は清掃のため閉鎖していますので、移動には時間に余裕をお持ちください。代わりに切符売り場の横のエレベーターをご利用ください。
+: b|Passengers travelling with bicycles should board the last carriage. We apologize for any inconvenience.|自転車をお持ちのお客様は最後尾の車両にご乗車ください。ご迷惑をおかけして申し訳ございません。
+? 86|図表照合・番線|medium|t1,r2c1,r3c1,r3c3|Look at the table. Which platform will the train to Millbrook leave from?|表を見てください。ミルブルック行きの列車はどの番線から発車しますか。
++ Platform 3.|3番線。|ミルブルック行きはノースゲート行きと同じ番線から出ると案内しています。表でノースゲート行きは3番線です。
+- Platform 5.|5番線。|ミルブルック行きの変更前の番線です。
+- Platform 2.|2番線。|アシュビー・クロス行きの番線です。
+- Platform 6.|6番線。|テルフォード行きの番線です。
+% signal problem=信号の故障|depart from=～から発車する|service=（列車の）便
+? 87|理由|easy|t2|Why are passengers asked to use the lift?|乗客はなぜエレベーターを使うよう求められていますか。
++ Some stairs are not available.|一部の階段が使えない。|正面入口近くの階段が清掃のため閉鎖されているので、代わりにエレベーターを使うよう案内しています。
+- The lift is faster than the stairs.|エレベーターの方が階段より速い。|速さの比較はしておらず、むしろ時間に余裕を持つよう言っています。
+- The ticket office has moved.|切符売り場が移転した。|切符売り場はエレベーターの場所の目印として出るだけです。
+- The platforms are being cleaned.|番線のホームを清掃している。|清掃中なのは正面入口近くの階段です。
+% allow extra time=時間に余裕を持つ|lift=（英）エレベーター|ticket office=切符売り場
+? 88|指示|easy|t3|What are passengers with bicycles told to do?|自転車を持った乗客は何をするよう言われていますか。
++ Get on at the back of the train.|列車の後方に乗る。|最後尾の車両に乗るよう案内しています。last carriage を back of the train と言い換えています。
+- Buy a separate ticket.|別の切符を買う。|自転車用の切符の話は出ていません。
+- Wait for a later train.|後の列車を待つ。|後の列車を待つよう指示してはいません。
+- Use the main entrance.|正面入口を使う。|正面入口近くの階段は閉鎖中で、自転車の乗客への指示は乗る車両についてです。
+% board=乗車する|carriage=（英）客車・車両|inconvenience=不便・迷惑

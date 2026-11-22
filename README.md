@@ -1,12 +1,14 @@
 # TOEIC L&R 模擬試験制作
 
-Claude Code、Antigravity、Muse、Codexで共同執筆するための [執筆・検品ガイド](AGENTS.md) と、Cloudflare Pages向け静的サイトです。Part 1〜4のリスニング模試100問と、Part 5のミニ模試3問を収録しています。
+Claude Code、Antigravity、Muse、Codexで共同執筆するための [執筆・検品ガイド](AGENTS.md) と、Cloudflare Pages向け静的サイトです。リスニング模試2回分（第1回はPart 1〜4の100問、第2回はPart 2〜4の94問）と、Part 5のミニ模試3問を収録しています。
 
-## リスニング模試100問
+## リスニング模試
 
 静的サイトの学習メニューから「リスニング模擬試験」を選ぶか、配信先の `/listening/` を開きます。音声の再生に合わせて写真・図表・設問が切り替わります。提出後はPart別の正答数を確認でき、各セットの音声を再生しながら台本、日本語訳、全選択肢の解説、単語・熟語を復習できます。受験の回答はページを開いている間、保持されます。
 
 試験IDは `listening-01`、版は1です。配信データは [exam.json](dist/listening/r1/exam.json)、編集原稿と音声生成手順は [listening-src](listening-src/README.md) にあります。音声は米語・英語の4話者を使っています。リスニングの利用には配信先への接続が必要です。
+
+第2回は試験ID `listening-02`、版は1で、`/listening/?exam=l02` で開きます。写真を使うPart 1を含まず、第7問から第100問までの94問です。配信データは [exam.json](dist/listening/l02/r1/exam.json)、原稿は [listening-src/l02](listening-src/l02/) にあります。ページ上部のボタンで回を切り替えられます。
 
 ## Wranglerで開発・公開
 

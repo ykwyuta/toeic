@@ -1,7 +1,14 @@
 'use strict';
 
 const $ = (selector) => document.querySelector(selector);
-const releasePath = './r1/';
+// Each exam keeps its own versioned release directory; ?exam= selects one.
+const releases = {
+  l01: { path: './r1/', title: '第1回' },
+  l02: { path: './l02/r1/', title: '第2回' },
+};
+const examKey = Object.hasOwn(releases, new URLSearchParams(location.search).get('exam'))
+  ? new URLSearchParams(location.search).get('exam') : 'l01';
+const releasePath = releases[examKey].path;
 const audio = $('#exam-audio');
 const reviewAudio = $('#review-audio');
 const answers = new Map();
@@ -46,6 +53,11 @@ async function loadExam() {
     audio.src = releasePath + exam.media.audio.src;
     fillSelector('#set-select');
     fillSelector('#review-select');
+    const partNumbers = exam.parts.map(({ part }) => part);
+    const hasPhotos = sets.some((set) => set.media.photo);
+    $('#exam-summary').textContent = `TOEIC L&R 非公式教材 · ${releases[examKey].title} · Part ${partNumbers[0]}〜${partNumbers.at(-1)} · ${items.length}問`;
+    $('#material-note').textContent = `${hasPhotos ? '写真と図表' : '図表'}は画面に表示します。Part ${partNumbers[0]}${partNumbers[0] < 2 ? '・2' : ''}の英文は音声で聞いて解答してください。採点後に台本と日本語訳を確認できます。`;
+    if (!hasPhotos) $('#material-note').textContent += 'この回は写真描写問題（Part 1）を含まず、第7問から始まります。';
     $('#instructions').textContent = `音声は約${Math.round(exam.media.audio.durationMs / 60000)}分です。再生に使う音量を確認してから始めてください。音声は米語・英語の4話者です。`;
     $('#start').disabled = false;
   } catch {
@@ -277,4 +289,7 @@ audio.addEventListener('error', () => {
   if (mode === 'exam') $('#play-status').textContent = '音声の読み込みが中断されました。接続を確認して再開してください。';
 });
 
+for (const link of document.querySelectorAll('#exam-switch a')) {
+  if (link.dataset.exam === examKey) link.setAttribute('aria-current', 'page');
+}
 void loadExam();

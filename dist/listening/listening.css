@@ -67,3 +67,10 @@ summary { font-weight: 700; cursor: pointer; }
 #review-content dd { margin: 0 0 .35rem; }
 #finish { margin-inline-start: auto; }
 [hidden] { display: none !important; }
+
+#exam-switch { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .6rem; }
+#exam-switch a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: .35rem .8rem;
+  border: 1px solid #51708d; border-radius: .55rem; color: #124d75; text-decoration: none;
+}
+#exam-switch a[aria-current="page"] { color: #fff; background: #124d75; border-color: #124d75; font-weight: 700; }

@@ -15,13 +15,17 @@
     <header class="hero">
       <a href="../">学習メニューへ戻る</a>
       <h1>リスニング模擬試験</h1>
-      <p>TOEIC L&amp;R 非公式教材 · Part 1〜4 · 100問</p>
+      <p id="exam-summary">TOEIC L&amp;R 非公式教材</p>
     </header>
 
     <section id="setup" class="panel" aria-labelledby="setup-title">
       <h2 id="setup-title">受験する</h2>
+      <nav id="exam-switch" aria-label="受験する回">
+        <a href="./?exam=l01" data-exam="l01">第1回 · Part 1〜4 · 100問</a>
+        <a href="./?exam=l02" data-exam="l02">第2回 · Part 2〜4 · 94問</a>
+      </nav>
       <p id="instructions">問題を読み込んでいます。</p>
-      <p>写真と図表は画面に表示します。Part 1・2の英文は音声で聞いて解答してください。採点後に台本と日本語訳を確認できます。</p>
+      <p id="material-note"></p>
       <button id="start" type="button" disabled>音声を再生して開始</button>
     </section>
 
