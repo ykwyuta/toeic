@@ -1,6 +1,6 @@
 # TOEIC L&R 模擬試験制作
 
-Claude Code、Antigravity、Muse、Codexで共同執筆するための [執筆・検品ガイド](AGENTS.md) と、Cloudflare Pages向け静的サイトです。リスニング模試2回分（第1回はPart 1〜4の100問、第2回はPart 2〜4の94問）と、Part 5のミニ模試3問を収録しています。
+Claude Code、Codex、Antigravity、Museがそれぞれ担当した回を設計から公開まで完結させるための [執筆・検品ガイド](AGENTS.md)（画像生成のみCodex）と、Cloudflare Pages向け静的サイトです。リスニング模試2回分（第1回はPart 1〜4の100問、第2回はPart 2〜4の94問）と、Part 5のミニ模試3問を収録しています。
 
 ## リスニング模試
 
