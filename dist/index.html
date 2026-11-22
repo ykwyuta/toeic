@@ -22,7 +22,8 @@ h1 span { display: block; margin-top: .75rem; font-size: .46em; letter-spacing: 
 .hero p { margin: 1.25rem 0; color: #d1deea; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.3rem; }
 .hero-actions button { background: #ffad69; border-color: #ffad69; color: #102439; font-weight: 750; }
-.hero-actions a { color: #eef6ff; text-underline-offset: .3em; }
+.hero-actions nav { display: flex; flex-wrap: wrap; gap: 0 1rem; }
+.hero-actions a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; color: #eef6ff; text-underline-offset: .3em; }
 #practice { max-width: 46rem; margin: 1.5rem auto; }
 .settings { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 23rem), 1fr)); margin-top: 1rem; }
 fieldset, .settings section { background: #fff; border: 1px solid #c3d0dd; border-radius: 1rem; padding: 1.25rem; min-width: 0; }
@@ -31,7 +32,7 @@ h2 { margin: 0 0 .75rem; font-size: 1.25rem; }
 legend { font-weight: 700; padding-inline: .35rem; }
 label { display: block; padding: .35rem 0; }
 button, input { font: inherit; max-width: 100%; }
-button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .55rem; background: #124d75; color: white; cursor: pointer; }
+button { min-height: 44px; white-space: nowrap; padding: .45rem .9rem; border: 1px solid #124d75; border-radius: .55rem; background: #124d75; color: white; cursor: pointer; }
 button:disabled { opacity: .65; cursor: default; }
 #back { margin-bottom: 1rem; color: #124d75; background: transparent; }
 :focus-visible { outline: 3px solid #cf571c; outline-offset: 3px; }
@@ -50,6 +51,23 @@ button:disabled { opacity: .65; cursor: default; }
 .word-card { border-top: 1px solid #dce6ee; padding-top: .7rem; overflow-wrap: anywhere; }
 .word-card button { margin: .35rem .5rem .1rem 0; }
 .word-action { margin: 0 0 1rem; }
+@media (max-width: 36rem) {
+  main { padding: .875rem; }
+  .hero { padding: 1rem; border-radius: 1rem; }
+  .hero-brand { gap: .5rem; }
+  .hero-brand img { width: 32px; height: 32px; border-radius: .45rem; }
+  h1 { margin: .7rem 0 .45rem; font-size: clamp(1.8rem, 6vw, 2.3rem); line-height: 1.16; letter-spacing: -.045em; }
+  h1 span { display: inline-block; margin: 0 0 0 .6rem; font-size: .6em; }
+  .hero p { margin: .45rem 0 .65rem; }
+  .hero-actions { flex-direction: column; align-items: stretch; gap: .2rem; }
+  .hero-actions nav { justify-content: space-between; gap: 0 .65rem; font-size: .9rem; }
+  #practice { margin: .35rem auto 1rem; }
+  fieldset, .study-panel, .settings section { padding: .875rem; }
+  #word-form { display: grid; grid-template-columns: minmax(0, 1fr); align-items: stretch; }
+  #word-form button { justify-self: start; }
+  #exam label { min-height: 44px; }
+}
+
 </style>
 <main>
 <header class="hero" id="start-screen">
@@ -58,9 +76,11 @@ button:disabled { opacity: .65; cursor: default; }
   <p>Part 5 · 短文穴埋め 3問</p>
   <div class="hero-actions">
     <button id="start" type="button">問題を始める</button>
-    <a href="#skill-analysis">苦手分析</a>
-    <a href="#wordbook">単語帳</a>
-    <a href="#learning-history">学習履歴</a>
+    <nav aria-label="学習メニュー">
+      <a href="#skill-analysis">苦手分析</a>
+      <a href="#wordbook">単語帳</a>
+      <a href="#learning-history">学習履歴</a>
+    </nav>
   </div>
 </header>
 <section id="practice" aria-labelledby="practice-title" hidden>
@@ -104,8 +124,8 @@ button:disabled { opacity: .65; cursor: default; }
 <section id="learning-history" tabindex="-1">
   <h2>学習履歴</h2>
   <p>履歴はこのブラウザに保存されます。別の端末ではJSONファイルを読み込んで引き継げます。</p>
-  <button id="download" type="button">履歴・単語帳をダウンロード</button>
-  <label for="upload">履歴・単語帳を読み込む</label>
+  <button id="download" type="button">バックアップを保存</button>
+  <label for="upload">バックアップを読み込む</label>
   <input id="upload" type="file" accept=".json,application/json">
   <p id="status" role="status"></p>
   <ul id="history"></ul>
@@ -113,7 +133,8 @@ button:disabled { opacity: .65; cursor: default; }
 <section>
   <h2>オフライン利用</h2>
   <p id="offline-status" role="status">オフラインの準備状況を確認しています。</p>
-  <button id="offline-reset" type="button" disabled>キャッシュを強制削除して再取得</button>
+  <p>このサイトのキャッシュを削除し、保存し直します。</p>
+  <button id="offline-reset" type="button" disabled>キャッシュを再取得</button>
 </section>
 </div>
 </main>
@@ -358,11 +379,15 @@ select('items').innerHTML = questions.map((question, index) =>
   question.choices.map((choice, option) => '<label lang="en"><input type="radio" required name="q' + index +
     '" value="' + option + '"> ' + letter(option) + '. ' + choice + '</label>').join('') +
   '<p hidden id="explanation-' + index + '"></p>' +
-  '<button hidden class="word-action" type="button" id="word-' + index + '">「' + question.term + '」を単語帳に追加</button></fieldset>').join('');
+  '<button hidden class="word-action" type="button" id="word-' + index + '" aria-label="' + question.term + ' を単語帳に追加">単語帳に追加</button></fieldset>').join('');
 
 questions.forEach((question, index) => {
   select('word-' + index).addEventListener('click', (event) => {
-    if (addWord(question.term, question.meaning)) event.currentTarget.textContent = '登録しました · ' + question.term;
+    if (addWord(question.term, question.meaning)) {
+      event.currentTarget.textContent = '単語帳に登録済み';
+      event.currentTarget.removeAttribute('aria-label');
+      event.currentTarget.disabled = true;
+    }
   });
 });
 
