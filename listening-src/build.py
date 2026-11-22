@@ -245,14 +245,11 @@ def mp3(wav, output):
     ], check=True)
 
 
-def render(exam, model_dir, masters, reuse_unchanged):
+def load_synthesizer(model_dir):
     import numpy as np
     import onnxruntime as ort
     from kokoro_onnx.tokenizer import Tokenizer
 
-    masters.mkdir(parents=True, exist_ok=True)
-    target = RELEASE / "audio"
-    target.mkdir(parents=True, exist_ok=True)
     model = model_dir / "onnx/model_quantized.onnx"
     voices = {voice: model_dir / f"voices/{voice}.bin" for voice, _ in VOICES.values()}
     styles = {name: np.fromfile(path, dtype="<f4").reshape(510, 1, 256)
@@ -271,6 +268,36 @@ def render(exam, model_dir, masters, reuse_unchanged):
                          ("kokoro-onnx", "onnxruntime", "numpy", "espeakng-loader", "phonemizer-fork")},
         "ffmpeg": subprocess.check_output(["ffmpeg", "-version"], text=True, encoding="utf-8").splitlines()[0],
     }
+
+    def synthesize(turn):
+        audio = bytearray()
+        # Sentence boundaries keep full announcements within the model's context limit.
+        for sentence in re.split(r'(?<=[.!?])\s+(?=[\w"]{2,})', turn["spokenText"]):
+            phonemes = tokenizer.phonemize(sentence, turn["locale"].lower())
+            tokens = tokenizer.tokenize(phonemes)
+            assert 0 < len(tokens) < 510, turn
+            samples, = session.run(None, {
+                "input_ids": np.array([[0, *tokens, 0]], dtype=np.int64),
+                "style": styles[turn["speakerId"]][len(tokens)],
+                "speed": np.array([SPEED], dtype=np.float32),
+            })
+            samples = samples.reshape(-1)
+            assert np.isfinite(samples).all() and len(samples) > RATE / 5, turn
+            rms = np.sqrt(np.mean(samples ** 2))
+            assert rms > 0.001, turn
+            gain = min(0.075 / rms, 0.92 / max(np.max(np.abs(samples)), 0.001), 3)
+            audio.extend((samples * gain * 32767).astype("<i2").tobytes())
+        audio.extend(bytes(round(RATE * turn["pauseAfterMs"] / 1000) * 2))
+        return audio
+
+    return synthesize, provenance
+
+
+def render(exam, model_dir, masters, reuse_unchanged):
+    masters.mkdir(parents=True, exist_ok=True)
+    target = RELEASE / "audio"
+    target.mkdir(parents=True, exist_ok=True)
+    synthesize, provenance = load_synthesizer(model_dir)
     previous = {}
     if reuse_unchanged:
         published = json.loads((RELEASE / "exam.json").read_text(encoding="utf-8"))
@@ -310,29 +337,10 @@ def render(exam, model_dir, masters, reuse_unchanged):
                 with wave.open(str(wav), "wb") as master:
                     master.setparams((1, 2, RATE, 0, "NONE", "not compressed"))
                     for turn in entry["audioScript"]:
-                        # Sentence boundaries avoid the model's context limit for full announcements.
-                        for sentence in re.split(r'(?<=[.!?])\s+(?=[\w"]{2,})', turn["spokenText"]):
-                            phonemes = tokenizer.phonemize(sentence, turn["locale"].lower())
-                            tokens = tokenizer.tokenize(phonemes)
-                            assert 0 < len(tokens) < 510, turn
-                            samples, = session.run(None, {
-                                "input_ids": np.array([[0, *tokens, 0]], dtype=np.int64),
-                                "style": styles[turn["speakerId"]][len(tokens)],
-                                "speed": np.array([SPEED], dtype=np.float32),
-                            })
-                            samples = samples.reshape(-1)
-                            assert np.isfinite(samples).all() and len(samples) > RATE / 5, turn
-                            rms = np.sqrt(np.mean(samples ** 2))
-                            assert rms > 0.001, turn
-                            gain = min(0.075 / rms, 0.92 / max(np.max(np.abs(samples)), 0.001), 3)
-                            pcm = (samples * gain * 32767).astype("<i2")
-                            master.writeframesraw(pcm.tobytes())
-                            full.writeframesraw(pcm.tobytes())
-                            offset += pcm.size
-                        silence = round(RATE * turn["pauseAfterMs"] / 1000)
-                        master.writeframesraw(bytes(silence * 2))
-                        full.writeframesraw(bytes(silence * 2))
-                        offset += silence
+                        pcm = synthesize(turn)
+                        master.writeframesraw(pcm)
+                        full.writeframesraw(pcm)
+                        offset += len(pcm) // 2
                 played += offset
                 audio["durationMs"] = round(1000 * played / RATE) - audio["startMs"]
                 audio["masterSha256"] = sha(wav)

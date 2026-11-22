@@ -1,0 +1,105 @@
+@p5-pos|5|品詞|施設の改修費の見積もり|easy
+? stem|Before the renovation begins, the facilities team needs a _____ estimate of the total cost.|改修が始まる前に、施設管理チームには総費用の信頼できる見積もりが必要です。
+A reliability|信頼性|名詞です。the reliability of the estimate なら見積もりの信頼性を表せますが、ここでは estimate を直接修飾して、どんな見積もりかを示す語が必要です。
+B reliably|確実に|副詞です。estimate を動詞として使う場合は修飾できますが、ここでは a に続く名詞 estimate を修飾する位置です。
+C reliable|信頼できる|形容詞です。a reliable estimate で「信頼できる見積もり」となり、名詞 estimate がどのようなものかを表します。
+D rely|頼る|動詞の原形です。rely on the estimate なら「その見積もりを頼りにする」と言えますが、冠詞と名詞の間で名詞を修飾する形ではありません。
+! C
+% renovation=改修|facilities team=施設管理チーム|reliable estimate=信頼できる見積もり|total cost=総費用
+@p5-verb|5|動詞の形|支店から届いた在庫数の確認|easy
+? stem|The inventory team has not _____ the figures from the branch office yet.|在庫管理チームは支店から届いた数値をまだ確認していません。
+A verifies|確認する（三人称単数現在形）|The team verifies the figures. のように単独で現在の述語になります。has not に続いて現在完了を作る形ではありません。
+B verifying|確認している（-ing形）|is verifying なら進行中を表します。本文の has not と組み合わせるには、現在完了進行形なら been が必要です。
+C verify|確認する（原形）|did not verify のように do の過去形の後なら使えます。ここにある助動詞は has です。
+D verified|確認した（過去分詞）|has not verified で現在完了の否定になります。yet と合わせ、現時点まで確認が済んでいないことを示します。
+! D
+% inventory team=在庫管理チーム|verify figures=数値を確認する|branch office=支店|not yet=まだ～していない
+@p5-connector|5|接続詞と前置詞|式典の座席表の印刷|medium
+? stem|Please send the updated seating chart by Thursday _____ the print shop can make copies on Friday.|印刷店が金曜日に複製できるよう、更新した座席表を木曜日までに送ってください。
+A so that|～できるように|目的を表す接続表現です。the print shop が主語、can make が述語の節を導き、木曜日までに送る目的を示します。
+B despite|～にもかかわらず|despite a delay のように名詞句を取る前置詞です。ここでは後ろに節が続き、送付と印刷の関係も逆接ではなく目的です。
+C because of|～のために、～が理由で|前置詞句です。because of the Friday schedule のように名詞句を取りますが、ここでは主語と述語を持つ節が続きます。
+D during|～の間に|時を表す前置詞です。during business hours のように時を表す名詞句を取り、印刷店が複製できるという節を直接導きません。
+! A
+% seating chart=座席表|by Thursday=木曜日までに|print shop=印刷店|make copies=複製する
+@p5-vocab|5|語彙と文脈|承認済み出張の交通費精算|medium
+? stem|For approved trips, the company will _____ employees for the train fares they paid out of pocket once they submit their receipts.|承認済みの出張については、従業員が領収書を提出すれば、立て替えた列車運賃を会社が払い戻します。
+A confirm|確認する|confirm the fares なら運賃を確認する意味になります。この位置では employees が目的語で、立て替えた運賃を会社が返す行為が必要です。
+B reimburse|払い戻す、立て替え費用を返す|reimburse A for B で「Bの費用をAに払い戻す」となり、領収書を提出した従業員に列車運賃を返す手続きに合います。
+C reserve|予約する、取り置く|reserve seats なら座席を確保する意味です。ここではすでに従業員が支払った運賃について、領収書の提出後にする手続きを述べています。
+D charge|請求する|charge A for B は「Bの料金をAに請求する」です。従業員に運賃を追加請求することになり、承認済み出張の立て替え精算とはお金の流れが逆です。
+! B
+% reimburse A for B=Bの費用をAに払い戻す|documented=証明書類のある|train fare=列車運賃|submit a receipt=領収書を提出する
+@p6-word|6|語句補充|地域交流施設の貸出窓口移転|easy
+: text|Equipment Pickup Notice\nFrom Monday, members should collect reserved equipment at the temporary counter in the west lobby. When you arrive, please _____ a photo ID to the attendant. Staff will compare the name on the ID with the name on your reservation before handing over the equipment.|備品受取のお知らせ\n月曜日から、会員は西ロビーの仮設カウンターで予約した備品を受け取ってください。お越しの際は、係員に顔写真付き身分証を提示してください。スタッフは備品を渡す前に、身分証の氏名と予約の氏名が一致しているか確認します。
+? t1|Which word best completes the notice?|お知らせの空所に最もよく合う単語はどれですか。
+A present|提示する|present A to B で「AをBに提示する」となります。次の文の照合には、受け取りに来た人が係員に身分証を見せる必要があります。
+B replace|交換する|交換なら replace A with B の形で代わりの物を示します。窓口で必要なのは手持ちの身分証の提示です。
+C renew|更新する|身分証の有効期間を延ばす動作です。係員は予約名を確認するために身分証を見ており、身分証の更新を受け付けているわけではありません。
+D attach|添付する、取り付ける|attach A to B では、Bが添付先になります。ここで to の後に続くのは係員という人で、身分証を添付する文書ではありません。
+! A
+% temporary counter=仮設カウンター|photo ID=顔写真付き身分証|compare A with B=AをBと照合する|hand over=引き渡す
+@p6-cohesion|6|文脈・つながり|配送用木箱の一時的な返却先|medium
+: text|Message to Warehouse Staff\nThe return bins beside the loading dock are full. _____, please leave all empty crates at the service desk until noon. Our driver will collect the crates from the desk at lunchtime.|倉庫スタッフへの連絡\n搬入口の脇にある回収箱はいっぱいです。そのため、正午までは空の木箱をすべてサービス窓口に置いてください。昼休みに運転手が窓口から木箱を回収します。
+? t1|Which transition best connects the first two sentences?|最初の2文を最も適切につなぐ表現はどれですか。
+A For instance|例えば|直前の主張を具体例で示す表現です。窓口に木箱を置く指示は、回収箱がいっぱいであることの例ではなく、それを受けた対応です。
+B Even so|そうであっても|直前の事情があっても予想に反する行動を取るときの表現です。別の場所を使う指示は、回収箱が満杯であることの自然な結果です。
+C In contrast|対照的に|二つのものの違いを比べる表現です。ここでは回収箱と窓口の特徴を対比するより、問題に対する措置を伝えています。
+D Therefore|したがって、そのため|原因から結果を導きます。回収箱が満杯という理由に続け、空の木箱を窓口に集める措置を示しています。
+! D
+% return bin=回収箱|loading dock=搬入口|empty crate=空の木箱|collect=回収する
+@p6-sentence|6|文挿入|見本市の実演台と電源|medium
+: text|Subject: Demonstration table at the Elmspindle Materials Fair\nYour team has reserved a demonstration table at the fair. Due to a change in the layout, the table no longer has a power outlet nearby. _____ We can then arrange for a table near an outlet before we finalize the floor plan.|件名：エルムスピンドル素材見本市の実演台\n皆さまのチームは見本市の実演台を予約しています。配置が変更され、予約した実演台の近くにはコンセントがなくなりました。実演に電源が必要な場合は、水曜日までにお知らせください。そうすれば、会場図を確定する前にコンセントの近くの実演台を手配できます。
+? t1|Which sentence best fits in the blank?|空所に最もよく入る文はどれですか。
+A All table assignments were finalized last Friday.|実演台の割り当てはすべて先週の金曜日に確定しました。|すでにすべて確定したという内容で、直後の「会場図を確定する前に手配できる」という今後の対応につながりません。
+B Printed programs can be collected at the entrance.|印刷したプログラムは入口で受け取れます。|受け取り場所の説明で、直前の電源の問題を解消できません。直後の We can then が受ける行動も示されていません。
+C If your demonstration requires electricity, please let us know by Wednesday.|実演に電源が必要な場合は、水曜日までにお知らせください。|コンセントを使う必要がある出展者に連絡を求めます。その連絡が We can then の前提になり、電源の近くに実演台を手配できます。
+D Please tell us if you would like a second name badge.|名札がもう1枚必要な場合は、お知らせください。|名札の追加とコンセントの近くの実演台の手配は結び付きません。知らせてほしいのは、電源を使うかどうかです。
+! C
+% demonstration table=実演台|layout=配置|power outlet=コンセント|finalize the floor plan=会場図を確定する
+@p7-purpose|7|目的・要旨|地域工房の部屋利用変更|easy
+: text|Notice to members of Bracken Loom Workshop\nThe sewing room will close from June 10 through June 12 while its ventilation system is replaced. Members with bookings during that period may use the craft room across the hall at their original times. The equipment needed for each session will be moved there in advance. The sewing room will reopen on June 13.|ブラッケン・ルーム工房の会員へのお知らせ\n換気設備を交換するため、6月10日から12日まで裁縫室を閉鎖します。この期間に予約がある会員は、廊下の向かいにある工作室を当初の予約時刻に利用できます。各回に必要な道具は事前に工作室へ移しておきます。裁縫室は6月13日に再開します。
+? t1|What is the main purpose of the notice?|このお知らせの主な目的は何ですか。
+A To announce new equipment that members can borrow|会員が借りられる新しい道具を知らせるため。|交換するのは部屋の換気設備です。各回で使う道具は移動させるだけで、新たに貸し出す道具は紹介されていません。
+B To explain a temporary change of room for existing bookings|予約済みの利用者に、一時的な会場変更を知らせるため。|裁縫室が閉鎖される期間、予約時刻はそのままで工作室を使えると伝えています。閉鎖期間、代替場所、再開日がすべてこの目的に関わります。
+C To ask members to reschedule their sessions online|会員にオンラインで予約時刻の変更を依頼するため。|利用時刻は当初の予約どおりです。会員にオンラインで変更してもらう手続きはありません。
+D To invite members to a June 13 workshop|会員を6月13日の講習会に招くため。|6月13日は裁縫室の再開日です。その日に開く講習会への招待ではありません。
+! B
+% ventilation system=換気設備|during that period=その期間中|at their original times=当初の予約時刻に|in advance=事前に
+@p7-detail|7|詳細|屋外研修の貸出無線機|easy
+: text|Marshvale Trail Volunteer Weekend\nPlease register at the visitor center when you arrive on Saturday. If you need a radio, collect one from the guide tent before your session. Maps are available in the supply shed. Return radios to the box beside the east gate by five on Sunday, even if you leave before the final session.|マーシュヴェイル遊歩道の週末ボランティア活動\n土曜日に到着したらビジターセンターで受付を済ませてください。無線機が必要な場合は、担当回が始まる前にガイド用テントで受け取ってください。地図は備品小屋にあります。最終回の前に帰る場合も、日曜日5時までに東門脇の箱へ無線機を返却してください。
+? t1|Where should volunteers return their radios?|ボランティアは無線機をどこに返却するべきですか。
+A Beside the east gate|東門の脇。|Return radios に続く場所が the box beside the east gate です。東門脇の箱が返却先です。
+B At the guide tent|ガイド用テント。|担当回の前に無線機を受け取る場所です。返却場所を聞いている点に注意します。
+C In the supply shed|備品小屋。|ここに置かれているのは地図です。無線機の返却先とは別です。
+D At the visitor center|ビジターセンター。|土曜日に到着した際に受付をする場所です。無線機を返す場所として案内されていません。
+! A
+% collect a radio=無線機を受け取る|supply shed=備品小屋|beside=～の脇に|even if=たとえ～でも
+@p7-inference|7|推論|収録順と帰りのバスを相談するチャット|medium
+: text|Rena: I can get to the studio at two, before we start recording. The last bus back to Kiteford leaves at five, though.\nMilo: Let's put your interview in the first block, then. We'll record the closing discussion after the other guests arrive at five thirty.\nRena: Thanks. I'll take the bus back right after my interview.|レナ：収録の開始前、2時にはスタジオに着けます。ただ、カイトフォード行きの最終バスは5時に出るんです。\nミロ：それなら、あなたのインタビューは最初の枠に入れましょう。締めくくりの座談会は、ほかの出演者が5時半に到着してから収録します。\nレナ：ありがとうございます。インタビューが終わったらすぐにバスで帰ります。
+? t1|What is implied about Rena?|レナについて何が推測できますか。
+A She will arrive after recording begins.|収録が始まった後に到着する。|本人は before we start recording と述べており、収録前に到着する予定です。
+B She will drive back to Kiteford.|カイトフォードまで車を運転して帰る。|本人が帰りにバスに乗ると言っており、運転して帰るとは読み取れません。
+C She will be interviewed after the other guests arrive.|ほかの出演者が到着してからインタビューを受ける。|ほかの出演者の到着は5時半です。レナは5時までにバスに乗るため、先に最初の枠で収録します。
+D She will miss the closing discussion.|締めくくりの座談会には参加できない。|レナはインタビュー後、5時発の最終バスで帰るつもりです。座談会は5時半以降なので、参加できないと推測できます。
+! D
+% last bus=最終バス|first block=最初の収録枠|closing discussion=締めくくりの座談会|right after=～の直後に
+@p7-cross|7|複数文書照合|大型の額縁の受け取りと停留所別の日程|hard
+: text|Vellumreach Local Delivery\nPickup stops: Alder Square is served on Tuesdays and Thursdays. Birch Lane is served on Wednesdays and Fridays. Parcels marked Oversize can be collected only on Thursday and Friday services. All services arrive at the pickup stops at four in the afternoon.|ヴェラムリーチ地域配送\n受取停留所：アルダー広場は火曜日と木曜日、バーチ通りは水曜日と金曜日に運行します。「大型」と表示された荷物は木曜日と金曜日の便でのみ受け取れます。どの便も受取停留所には午後4時に到着します。
+: text|From: Nela\nTo: Aven\nSubject: Picking up the frames\nThe shop confirmed that our two picture frames are marked Oversize. I can meet the delivery driver at Birch Lane, since it is next to my workplace. I'll collect both frames there this week.|差出人：ネラ\n宛先：エイヴン\n件名：額縁の受け取り\n注文した額縁2点には「大型」と表示されていると店が確認しました。バーチ通りは職場の隣なので、そこで配送の運転手と会えます。今週、そこで額縁を2点とも受け取ります。
+? t1,t2|On which day can Nela collect the frames as planned?|ネラは予定どおりなら何曜日に額縁を受け取れますか。
+A Thursday|木曜日。|大型荷物を扱う曜日ですが、木曜日の便はアルダー広場に行きます。ネラが受け取る予定のバーチ通りには停車しません。
+B Friday|金曜日。|メールで額縁が大型荷物であり、受け取りはバーチ通りと分かります。案内で「バーチ通りの水・金」と「大型を扱う木・金」を照合すると、両方を満たすのは金曜日です。
+C Tuesday|火曜日。|火曜日の停留所はアルダー広場です。大型荷物も火曜日には受け取れません。
+D Wednesday|水曜日。|バーチ通りに停車する曜日ですが、大型荷物を扱うのは木曜日と金曜日に限られます。
+! B
+% pickup stop=荷物の受取停留所|oversize=大型扱いの|parcel=小包、配送荷物|picture frame=額縁
+@p7-sentence|7|文挿入|ロッカー予約手順の文の位置|medium
+: text|Starting Monday, members can reserve a locker for one day at a time. [1] To reserve one, open the member portal. [2] Enter your email address and select the date you need. [3] Use that code to open the locker when you arrive. [4] Please empty the locker before the building closes.|月曜日から、会員は1日単位でロッカーを予約できます。[1] 予約するには、会員向けポータルを開いてください。[2] メールアドレスを入力し、利用希望日を選んでください。[3] 到着したら、その暗証番号を使ってロッカーを開けてください。[4] 建物の閉館前にロッカーを空にしてください。
+? t1|Where would the sentence “The access code will then be sent automatically to the email address you provide.” best fit?|「その後、入力したメールアドレスに暗証番号が自動送信されます」という文は、どこに入れるのが最も適切ですか。
+A [1]|[1]の位置。|この位置ではメールアドレスを入力する手順がまだ説明されていません。then が示す送信前の操作とメールアドレスの提示が後に来てしまいます。
+B [2]|[2]の位置。|会員向けポータルを開くだけでは送信先が指定されません。次の文でメールアドレスと利用日を入力してから送信する順序です。
+C [3]|[3]の位置。|メールアドレスを入力した直後なので then が手順を自然につなぎます。また、挿入文の the access code が、次の文の that code の指すものになります。
+D [4]|[4]の位置。|この位置では that code が暗証番号の説明より先に登場します。番号を受け取ってからロッカーを開けるという手順にも合いません。
+! C
+% one day at a time=一度に1日ずつ、1日単位で|member portal=会員向けポータル|access code=解錠用の暗証番号|empty a locker=ロッカーを空にする

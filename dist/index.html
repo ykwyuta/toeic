@@ -101,7 +101,20 @@ button:disabled { opacity: .65; cursor: default; }
 [data-partner="1"] .coach-portrait { background-position: 0 50%; }
 [data-partner="2"] .coach-portrait { background-position: 0 100%; }
 #placement-back { margin-top: .55rem; }
-#study-skill { max-width: 100%; }
+#study label[for] { display: block; font-weight: 650; }
+#study-part, #study-skill, #skill-vocabulary { width: min(100%, 23rem); min-height: 44px; }
+#study-audio { display: block; width: min(100%, 27rem); margin-block: .7rem; }
+#study-answer { margin-top: 1rem; }
+.study-step + .study-step { margin-top: .8rem; }
+.exercise-photo { display: block; max-width: 100%; height: auto; border-radius: .55rem; }
+.exercise-document { white-space: pre-line; padding: .7rem .85rem; background: #f4f7fb; border: 1px solid #cad9e6; border-radius: .55rem; }
+.exercise-table { overflow-x: auto; margin-block: .65rem; }
+.exercise-table table { border-collapse: collapse; width: 100%; }
+.exercise-table caption { text-align: left; font-weight: 700; padding-bottom: .3rem; }
+.exercise-table td, .exercise-table th { text-align: left; border: 1px solid #b8c9d9; padding: .35rem .55rem; }
+.exercise-table th { background: #e6eff7; }
+#skill-word-tools { margin-top: .7rem; }
+#skill-word { margin-top: .45rem; }
 #placement-item label, #skill-item label { min-height: 44px; }
 .answer-review { padding: .85rem; background: #f2f6fa; border-radius: .65rem; margin: .85rem 0; overflow-wrap: anywhere; }
 .answer-review h4 { margin: .8rem 0 .35rem; }
@@ -159,7 +172,7 @@ button:disabled { opacity: .65; cursor: default; }
     </div>
   </div>
   <div class="menu-options">
-    <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習</strong><span class="menu-description">技能別に練習して、単語帳で復習</span></span></button>
+    <button type="button" data-screen="study"><span class="menu-symbol" aria-hidden="true">✎</span><span><strong>分野学習</strong><span class="menu-description">Partと分野を選んで1問練習</span></span></button>
     <button type="button" data-screen="practice"><span class="menu-symbol" aria-hidden="true">⚑</span><span><strong>模擬試験</strong><span class="menu-description">Part 5の3問に挑戦</span></span></button>
     <a href="./listening/"><span class="menu-symbol" aria-hidden="true">♫</span><span><strong>リスニング模擬試験</strong><span class="menu-description">Part 1〜4の100問</span></span></a>
     <button type="button" data-screen="preferences"><span class="menu-symbol" aria-hidden="true">⚙</span><span><strong>設定</strong><span class="menu-description">パートナー変更、再診断、履歴</span></span></button>
@@ -222,17 +235,34 @@ button:disabled { opacity: .65; cursor: default; }
   <h2 tabindex="-1">分野学習</h2>
   <button type="button" class="secondary" data-screen="menu">メニューへ</button>
   <section class="study-panel">
-    <h3>技能別の練習</h3>
-    <p id="study-tip"></p>
-    <label for="study-skill">練習する技能</label>
-    <select id="study-skill" class="coach-select"></select>
-    <form id="skill-form">
-      <div id="skill-item"></div>
-      <button>答え合わせ</button>
-    </form>
-    <p id="skill-feedback" role="status"></p>
-    <div class="answer-review" id="skill-review" hidden></div>
-    <button type="button" id="skill-word" hidden>単語帳に追加</button>
+    <p id="study-tip" hidden></p>
+    <p id="study-load-status" role="status" hidden></p>
+    <div class="study-step">
+      <label for="study-part">練習するPart</label>
+      <select id="study-part" class="coach-select" aria-controls="study-skill-step" disabled>
+        <option value="">Partを選択</option>
+      </select>
+    </div>
+    <div id="study-skill-step" class="study-step" hidden>
+      <label for="study-skill">練習する分野</label>
+      <select id="study-skill" class="coach-select" aria-controls="study-answer"></select>
+    </div>
+    <div id="study-answer" hidden>
+      <form id="skill-form">
+        <div id="skill-material"></div>
+        <audio id="study-audio" controls preload="none" aria-label="練習問題の音声" hidden></audio>
+        <p id="study-audio-status" role="status" hidden></p>
+        <div id="skill-item"></div>
+        <button>答え合わせ</button>
+      </form>
+      <p id="skill-feedback" role="status"></p>
+      <div class="answer-review" id="skill-review" hidden></div>
+      <div id="skill-word-tools" hidden>
+        <label for="skill-vocabulary">登録する単語・熟語</label>
+        <select id="skill-vocabulary" class="coach-select"></select>
+        <button type="button" id="skill-word">単語帳に追加</button>
+      </div>
+    </div>
   </section>
 <section id="skill-analysis" class="study-panel" tabindex="-1">
   <h2>苦手分析</h2>
@@ -251,5 +281,7 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </section>
 </main>
-<script src="./app-v10.js" defer></script>
+<script src="./study/r1/bank.js" defer></script>
+<script src="./study/study.js" defer></script>
+<script src="./app-v11.js" defer></script>
 </html>

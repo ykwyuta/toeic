@@ -1,0 +1,122 @@
+@p3-purpose|3|目的・場面|店舗への展示棚の搬入相談|easy
+: f|The new display shelves are coming tomorrow morning. Is there somewhere we can keep them until the installer arrives on Friday?|新しい陳列棚が明日の朝に届く予定です。金曜日に設置担当者が来るまで、どこかに置いておけませんか。
+: b|The back room is full of sale stock, but the meeting room is free this week. How wide are the boxes?|裏の部屋はセール用の在庫でいっぱいですが、会議室なら今週は空いています。箱の幅はどれくらいですか。
+: f|About a metre. They should fit through that door. I'll tell the driver to bring them straight there.|1メートルほどです。そのドアを通れるはずです。運転手にはまっすぐそこへ運ぶよう伝えます。
+? t1,t2|Why does the woman speak to the man?|女性はなぜ男性に話しかけますか。
+A To request a delivery date change.|配達日の変更を頼むため。|納品は明朝の予定のままで、女性が運転手に連絡するのは建物内の搬入先を指定するためです。
+B To find a place to store some items temporarily.|品物を一時的に保管する場所を探すため。|女性は、金曜に設置担当者が到着するまで棚を置ける場所があるか尋ねています。
+C To arrange for a display to be taken down.|展示を撤去する手配をするため。|陳列棚は新しく届く品物で、会話で扱うのは設置前の保管です。
+D To check whether a meeting can go ahead.|会議を予定どおり開けるか確認するため。|会議室は空いているという情報が棚の置き場所を決める手がかりになります。会議の開催は相談していません。
+! B
+% display shelf=陳列棚|installer=設置担当者|sale stock=セール用の在庫|fit through=～を通れる
+
+@p3-detail|3|詳細|工房見学の送迎バス|medium
+: m|I booked the shuttle for the pottery studio tour. Should I be at the hotel entrance by eight fifteen?|陶芸工房の見学ツアーの送迎バスを予約しました。8時15分までにホテルの玄関に行けばよいですか。
+: g|That was the time in the first email. The shuttle now leaves the hotel at eight forty because the studio is opening later.|それは最初のメールにあった時刻です。工房の開館が遅くなったので、バスはホテルを8時40分に出るよう変更されました。
+: m|I see. Does that affect our return time?|分かりました。それで帰りの時刻も変わりますか。
+: g|The return shuttle is still at eleven thirty. The studio has moved the demonstration to nine thirty, so you'll still have time to look around.|帰りのバスは11時30分のままです。工房での実演が9時30分に移ったので、見て回る時間は取れます。
+? t1,t2,t4|When will the shuttle leave the hotel?|送迎バスは何時にホテルを出発しますか。
+A At 8:15.|8時15分。|最初のメールの時刻です。女性は開館時刻の変更に伴い、バスの時刻も変わったと説明しています。
+B At 9:30.|9時30分。|新しい実演開始時刻です。ホテルを出発する送迎バスの時刻とは別です。
+C At 11:30.|11時30分。|工房見学を終えた後、帰りの送迎バスに乗る時刻です。
+D At 8:40.|8時40分。|女性が now leaves the hotel at eight forty と新しい出発時刻を伝えています。
+! D
+% shuttle=送迎バス|pottery studio=陶芸工房|affect=～に影響する|demonstration=実演
+
+@p3-next|3|次の行動|社内研修の教材配送|medium
+: g|I packed the training manuals for the branch office. Is the courier coming to the reception desk?|支店向けの研修マニュアルを箱詰めしました。配達員は受付まで来ますか。
+: m|Yes, at four. Did you print the shipping label? They won't accept a box without one.|はい、4時です。発送ラベルは印刷しましたか。ラベルが付いていない箱は引き取ってもらえません。
+: g|It's in my email. I'll print it right now and tape it to the box before I take the box downstairs.|メールで届いています。今すぐ印刷して箱に貼ってから、下の階へ持っていきます。
+? t2,t3|What will the woman most likely do immediately after the conversation?|女性は会話の直後に何をする可能性が最も高いですか。
+A Print a shipping label.|発送ラベルを印刷する。|女性は right now と言い、箱に貼って運ぶ前に、まずメールにある発送ラベルを印刷すると述べています。
+B Take a box downstairs.|箱を下の階へ持っていく。|下の階に運ぶのは、印刷したラベルを箱に貼った後です。
+C Pack the training manuals.|研修マニュアルを箱詰めする。|女性は最初の発言で梱包を終えたと伝えています。
+D Contact the delivery company.|配送会社に連絡する。|集荷場所と時刻はすでに確認できており、女性が直ちに行うと述べたのは印刷です。
+! A
+% pack=梱包する|courier=集配員|shipping label=発送ラベル|tape A to B=AをBにテープで貼る
+
+@p3-intent|3|発言の意図|説明会の配付資料の準備|medium
+: b|I only printed twenty copies of the handout for this afternoon's briefing. Should I go back and print some more?|午後の説明会の資料を20部しか印刷していません。戻ってもう少し印刷しましょうか。
+: f|There are eighteen names on the sign-up sheet. And the presenter has her own copy.|申込者名簿には18人の名前が載っています。発表者も自分の分を持っています。
+: b|All right. I'll put these on the chairs before the briefing starts.|分かりました。説明会が始まる前に、この資料を椅子の上に置いておきます。
+? t1,t2,t3|What does the woman imply when she says, “There are eighteen names on the sign-up sheet”?|女性は「申込者名簿には18人の名前が載っています」という発言で、何を伝えようとしていますか。
+A The sign-up sheet needs to be printed.|申込用紙を印刷する必要がある。|申込用紙は参加人数の根拠であり、印刷の相談の対象は説明会の配付資料です。
+B Two people have cancelled their reservations.|2人が予約を取り消した。|20は印刷した資料の部数です。参加者数が20人から18人に減ったとは述べていません。
+C The copies already printed should be sufficient.|すでに印刷した部数で足りるはずだ。|20部に対して参加者は18人で、発表者は自分の資料を持っています。追加印刷の必要はないと伝えています。
+D The presenter will bring extra handouts.|発表者が予備の資料を持ってくる。|発表者が持っているのは自分用の1部です。参加者に配る予備を持参するという話はありません。
+! C
+% handout=配付資料|briefing=説明会|sign-up sheet=申込者名簿|presenter=発表者
+
+@p3-chart|3|図表照合|園芸用品の配達車両の手配|hard
+# Delivery vans available|利用可能な配送車両
+= Van|車両; Pickup time|受取時刻; Roof height|屋根の高さ
+= Wren|レン号; 9:15 a.m.|午前9時15分; High|高い
+= Finch|フィンチ号; 9:40 a.m.|午前9時40分; Standard|標準
+= Oriole|オリオール号; 10:00 a.m.|午前10時; High|高い
+= Swift|スウィフト号; 10:20 a.m.|午前10時20分; High|高い
+: g|The tall plants are going to the customer on Tallow Lane this morning. You'll need a high-roof van to carry them upright.|背の高い植物は今朝、タロー通りのお客様のところへ運びます。立てたまま運ぶため、ハイルーフのバンが必要です。
+: m|They won't be packed until nine thirty, so there's no point picking up a van before then.|梱包が終わるのは9時30分なので、それより前にバンを受け取っても意味がありません。
+: f|The rental desk can't hold a van past its listed pickup time today. I'll book the earliest high-roof van we can pick up once the plants are packed.|今日は貸出窓口で、表にある受取時刻を過ぎて車両を取り置きできません。梱包が終わってから受け取れるハイルーフ車のうち、一番早いものを予約します。
+? t1,t2,t3,r1c2,r2c3,r3c1,r3c2,r3c3,r4c2|Look at the table. Which van will be booked?|表を見てください。どの配送車両が予約されますか。
+A Wren.|レン号。|ハイルーフ車ですが、受け取れるのは午前9時15分です。梱包が終わる9時30分まで取り置きできません。
+B Oriole.|オリオール号。|梱包完了は午前9時30分です。表でそれ以降に受け取れるハイルーフ車を比べると、午前10時のOrioleが最も早く利用できます。
+C Finch.|フィンチ号。|午前9時40分に受け取れますが、屋根の高さは標準です。植物を立てて積むためのハイルーフ車という条件に合いません。
+D Swift.|スウィフト号。|ハイルーフ車で梱包後に受け取れますが、午前10時20分はOrioleより遅い時刻です。
+! B
+% upright=立てた状態で|rental desk=貸出窓口|hold=取り置く|high-roof van=天井の高いバン
+
+@p4-purpose|4|目的・場面|共同工房の設備予約案内|easy
+: m|Starting next Monday, members of Nelfern Workshop will be able to reserve time on the laser cutter through our booking page. Open the page, choose a date, and select a thirty-minute slot. The cutter is still only available to members who have completed the safety training. If you used to call the front desk for a reservation, please use the booking page from Monday instead.|来週の月曜日から、ネルファーン工房の会員は予約ページでレーザーカッターの利用時間を予約できるようになります。ページを開き、日付と30分の時間枠を選んでください。利用できるのはこれまでどおり、安全講習を修了した会員に限ります。これまで受付に電話で予約していた方も、月曜日からは予約ページを使ってください。
+? t1|What is the main purpose of the announcement?|この案内の主な目的は何ですか。
+A To explain the rules for joining a workshop.|工房に入会するための規則を説明すること。|案内の対象はすでに工房の会員で、入会手続きの説明はありません。
+B To remind members about an upcoming safety class.|近く開かれる安全講習を会員に思い出してもらうこと。|講習は機材を使うための既存の条件です。次回の講習日程は伝えていません。
+C To announce changes to front desk hours.|受付時間の変更を知らせること。|受付への電話予約を予約ページへ切り替えますが、受付そのものの営業時間は話題にしていません。
+D To introduce a new way to reserve equipment.|設備を予約する新しい方法を紹介すること。|月曜からレーザーカッターの利用枠を予約ページで選ぶと案内し、従来の電話予約からの切り替えを告知しています。
+! D
+% reserve=予約する|laser cutter=レーザーカッター|slot=予約の時間枠|front desk=受付
+
+@p4-detail|4|詳細|館内設備の点検に伴う代替利用の案内|medium
+: g|This is a message for staff working at Brindle Quay Arts Centre. The staff lift will be out of service from Wednesday through Friday for its annual inspection. The public lift near the ticket office is available for anyone who needs step-free access. Please use the rear staircase when carrying equipment between floors. The side entrance will be open as usual, and our Friday evening programme will start at its regular time.|ブリンドル・キー芸術センターのスタッフにお知らせです。職員用エレベーターは年次点検のため水曜日から金曜日まで使えません。段差のない経路が必要な方は、チケット売り場近くの来館者用エレベーターを利用できます。機材を別の階に運ぶ際は、奥の階段を使ってください。側面の入口は通常どおり開き、金曜日の夜の催しもいつもの時刻に始まります。
+? t1|Where is the lift that staff can use if they need step-free access?|段差のない経路が必要なスタッフが利用できるエレベーターはどこにありますか。
+A Near the ticket office.|チケット売り場の近く。|点検期間中に使える来館者用エレベーターは、チケット売り場のそばにあると明示されています。
+B Beside the rear staircase.|奥の階段の横。|奥の階段は機材を別の階へ運ぶときに使う経路です。利用可能なエレベーターの位置はチケット売り場を目印に示されています。
+C By the side entrance.|側面の入口の近く。|側面の入口は通常どおり開くと案内されています。そこが代わりのエレベーターの場所だとは説明していません。
+D Next to the staff lift.|職員用エレベーターの隣。|職員用エレベーターは点検対象です。代わりの設備は来館者用で、チケット売り場の近くにあります。
+! A
+% out of service=使用停止中で|annual inspection=年次点検|step-free access=段差のないアクセス|rear staircase=奥の階段
+
+@p4-next|4|次の行動|見本市の出展者受付|medium
+: b|Good morning, exhibitors. Once you've picked up your badge here, go to your assigned stand and check that the name on the sign is correct. If the name needs to be changed, bring the sign back here and we'll print a replacement. After you've checked the sign, please collect any display boards you ordered from the storage room. Our staff will then help you set them up.|出展者の皆さま、おはようございます。ここで入場証を受け取ったら、割り当てられたブースに行き、表示板の名前が正しいか確認してください。変更が必要なら表示板をここにお持ちいただければ、代わりのものを印刷します。表示板の確認が済んだら、申し込んだ展示用ボードがあれば備品室で受け取ってください。その後、スタッフが設置をお手伝いします。
+? t1|What should exhibitors do when they reach their assigned stands?|出展者は割り当てられたブースに着いたら何をすべきですか。
+A Pick up their display boards.|展示用ボードを受け取る。|ボードを申し込んだ人が備品室へ取りに行くのは、表示板を確認した後です。
+B Ask staff to set up their stands.|ブースの設置をスタッフに頼む。|スタッフが手伝うのは、表示板を確認し、受け取った展示用ボードを設置するときです。
+C Check the signs at their stands.|各自のブースで表示板を確認する。|入場証を受け取ったら、割り当てられたブースへ行き、表示板の名前が正しいか確かめます。
+D Request a replacement sign.|交換用の表示板を頼む。|交換の依頼は、表示板を確認して名前に誤りがあった場合にだけ必要です。
+! C
+% exhibitor=出展者|assigned stand=割り当てられたブース|replacement=交換品|set up=設置する
+
+@p4-intent|4|発言の意図|ベーカリーの週末向け音声広告|medium
+: f|This weekend, the apple loaf returns to the counter at Pindrel Bakery. Last Saturday we baked eighty loaves, and by ten only two were left. The first batch went faster than we expected. This Saturday we're baking the same number, but you can now reserve a loaf on our website and pick it up by noon. The loaf contains walnuts, and a full list of ingredients is on the same page.|今週末、ピンドレル・ベーカリーのアップルローフが店頭に戻ります。先週の土曜日は80本を焼きましたが、10時までに残り2本になりました。最初に焼いた分は予想以上の速さで売れました。今週の土曜日も同じ本数を焼きますが、今回はウェブサイトで予約して正午までに受け取れます。クルミを使用しており、同じページで原材料の一覧をご確認いただけます。
+? t1|Why does the speaker say, “The first batch went faster than we expected”?|話し手はなぜ「最初に焼いた分は予想以上の速さで売れました」と言っていますか。
+A To explain why the bakery is making more loaves this weekend.|今週末は店がより多くの商品を焼く理由を説明するため。|今回は先週と同じ本数を焼くと説明しているので、増産の理由ではありません。
+B To explain why the recipe has changed.|レシピが変更された理由を説明するため。|クルミと原材料一覧には触れていますが、配合を変更したという説明はありません。
+C To thank the staff for preparing the loaves quickly.|短時間で焼いたスタッフに感謝するため。|直前では10時の時点で80本中2本しか残っていなかったと述べています。早かったのは製造ではなく商品の売れ行きです。
+D To encourage customers to reserve a loaf in advance.|客にアップルローフの事前予約を勧めるため。|前回は急速に売れたという事実を伝え、今回は購入分を確保できるウェブ予約を直後に案内しています。
+! D
+% loaf=パンや焼き菓子を型で焼いた1本|batch=一度に作ったひとまとまり|go fast=売れ行きが速い|ingredient=原材料
+
+@p4-chart|4|図表照合|展示ホール案内ツアーの受付変更|medium
+# Guided tour check-in desks|ガイドツアーの受付
+= Tour|ツアー; Check-in desk|受付; Meeting location|集合場所
+= Print Studio|版画工房; Desk 1|第1窓口; North Gallery|北ギャラリー
+= Textile Room|織物室; Desk 2|第2窓口; Courtyard|中庭
+= Ceramics Lab|陶芸工房; Desk 3|第3窓口; West Lobby|西ロビー
+= Design Archive|デザイン資料室; Desk 4|第4窓口; East Lobby|東ロビー
+: m|Attention, guests with tickets for this morning's Textile Room tour. Its usual check-in desk is temporarily closed while staff replace a computer. Please check in at the desk normally assigned to the Ceramics Lab, even if you already have a printed ticket. The Textile Room tour will still leave from its original meeting location, so return there after checking in. The guides will meet you ten minutes before departure.|本日午前の織物室ツアーのチケットをお持ちのお客様にお知らせします。通常の受付ではパソコンの交換作業のため、受付が一時的に停止しています。印刷済みのチケットをお持ちの方も、通常は陶芸工房ツアーに割り当てられている窓口で受付を済ませてください。織物室ツアーは当初の集合場所から出発するので、受付を済ませたらそちらに戻ってください。ガイドは出発の10分前に集合場所でお待ちしています。
+? t1,r2c2,r3c1,r3c2|Look at the table. Where should guests with Textile Room tickets check in this morning?|表を見てください。今朝の織物室ツアーのチケットを持つ客は、どの窓口で受付を済ませるべきですか。
+A Desk 3.|第3窓口。|音声で指定された臨時受付は陶芸工房ツアーの通常窓口です。表のCeramics Labの行にDesk 3とあります。
+B Desk 1.|第1窓口。|版画工房ツアーの窓口です。音声で臨時の受付先として指定されたのは陶芸工房ツアーの窓口です。
+C Desk 2.|第2窓口。|織物室ツアーの通常の窓口ですが、今朝はパソコン交換で閉鎖されています。
+D Desk 4.|第4窓口。|デザイン資料室ツアーの窓口です。変更の案内にこのツアーの窓口は出てきません。
+! A
+% check in=受付を済ませる|temporarily=一時的に|assigned to=～に割り当てられた|departure=出発
