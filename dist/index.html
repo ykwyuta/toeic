@@ -30,6 +30,11 @@ button { padding: .55rem .9rem; border: 1px solid #124d75; border-radius: .35rem
   <p id="status" role="status"></p>
   <ul id="history"></ul>
 </section>
+<section>
+  <h2>オフライン利用</h2>
+  <p id="offline-status" role="status">オフラインの準備状況を確認しています。</p>
+  <button id="offline-reset" type="button" disabled>キャッシュを強制削除して再取得</button>
+</section>
 </main>
 <script>
 'use strict';
@@ -172,5 +177,70 @@ window.addEventListener('storage', (event) => {
   if (event.key === key || event.key === null) refresh();
 });
 refresh();
+
+const offlineStatus = select('offline-status');
+const offlineReset = select('offline-reset');
+
+function sendOfflineCommand(worker, command) {
+  return new Promise((resolve, reject) => {
+    const channel = new MessageChannel();
+    const timeout = setTimeout(() => {
+      channel.port1.close();
+      reject(new Error('Service worker did not respond.'));
+    }, 15000);
+    channel.port1.onmessage = ({ data }) => {
+      clearTimeout(timeout);
+      channel.port1.close();
+      resolve(data);
+    };
+    worker.postMessage(command, [channel.port2]);
+  });
+}
+
+if ('serviceWorker' in navigator && 'caches' in window) {
+  const workers = navigator.serviceWorker;
+
+  async function showOfflineStatus() {
+    if (!workers.controller || offlineReset.dataset.busy) return;
+    offlineReset.disabled = false;
+    try {
+      const { ready } = await sendOfflineCommand(workers.controller, 'offline-status');
+      if (offlineReset.dataset.busy) return;
+      offlineStatus.textContent = ready
+        ? 'オフラインで利用できます。'
+        : 'キャッシュがありません。接続して再取得してください。';
+    } catch {
+      offlineStatus.textContent = 'オフラインの準備状況を確認できませんでした。';
+    }
+  }
+
+  workers.addEventListener('controllerchange', showOfflineStatus);
+  workers.register('./sw.js', { updateViaCache: 'none' }).then(showOfflineStatus).catch(() => {
+    offlineStatus.textContent = 'オフラインの準備に失敗しました。接続してページを開き直してください。';
+  });
+
+  offlineReset.addEventListener('click', async () => {
+    const worker = workers.controller;
+    if (!worker) return;
+    offlineReset.disabled = true;
+    offlineReset.dataset.busy = 'true';
+    offlineStatus.textContent = 'キャッシュを削除し、ページを再取得しています。学習履歴は保持されます。';
+    try {
+      const { ready, deleted } = await sendOfflineCommand(worker, 'offline-reset');
+      offlineStatus.textContent = ready
+        ? '再取得しました。次にページを開くと反映されます。オフラインで利用できます。'
+        : deleted
+          ? 'キャッシュを削除しました。オフライン利用を再開するには、接続して再取得してください。'
+          : 'キャッシュを削除できませんでした。';
+    } catch {
+      offlineStatus.textContent = 'キャッシュの処理結果を確認できませんでした。';
+    } finally {
+      delete offlineReset.dataset.busy;
+      offlineReset.disabled = false;
+    }
+  });
+} else {
+  offlineStatus.textContent = 'この環境はオフライン保存に対応していません。';
+}
 </script>
 </html>
