@@ -1,0 +1,38 @@
+{
+  "scan": {
+    "src": "study/r2/photos/scan.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. At a small library checkout counter a librarian is visibly holding a black handheld barcode scanner directly over a closed book, the scanner angled toward the book, with other books stacked to the right of the scanner. Behind the librarian is a closed door. Show the hands, book and scanner prominently. No computer in view, no chairs near the counter, no shelves in the foreground. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "sweep": {
+    "src": "study/r2/photos/sweep.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. In the service entrance of a small community center one custodian is sweeping the paved ground with a long-handled push broom, both hands on the broom, bristles visibly resting on the ground. A closed blue door stands behind the custodian. A plain red bucket sits to the left of the door. No other person, no hose, no stairs, eye-level side view. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "measure": {
+    "src": "study/r2/photos/measure.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. In a quiet tailor workshop a seamstress is stretching a clearly visible yellow flexible measuring tape across a piece of blue fabric on a worktable, both hands holding the tape. A pair of closed tailor scissors rests on the table to the left of the fabric. A small black sewing machine is on the right end of the same table. Not sewing or cutting anything. Slightly elevated wide view, show the hands distinctly. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "wipe": {
+    "src": "study/r2/photos/wipe.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. Inside an empty café, a server in a brown apron is wiping a rectangular wooden table with a visible white cloth under one hand. Two unused chairs are visibly set on the floor against the brick wall just behind the table. A plain closed window above them. No cups, no customers, no sweeping or pouring. Eye-level frontal angle. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "load": {
+    "src": "study/r2/photos/load.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. In a modest bakery kitchen a baker wearing oven mitts slides a rectangular tray of bread rolls into an open oven; mitts visibly grasp the tray edges and the tray is partly inside, feet on the floor. A plain wire rack with two empty trays stands to the right of the oven. No sink, no chopping board, no other people. Strong enough light to see the open oven door and tray. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "hang": {
+    "src": "study/r2/photos/hang.webp",
+    "prompt": "Use case: photorealistic-natural. Produce one original 3:2 landscape photo for an English listening practice item. In a small gallery, a worker is using both hands to hang one framed picture against a plain wall, with the frame slightly above hand level and another framed print already mounted a little to its left. A closed toolbox sits on the bare floor below them. No stepladder or hammer. Wide angle showing the wall and floor. Neutral daylight, realistic proportions, no legible lettering, branding or watermark."
+  },
+  "p1-action": {
+    "src": "study/r1/photos/p1-action.webp",
+    "prompt": "Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. Single fictional employee, dressed in a plain dark-green apron, standing next to a packing bench in a small workplace, pressing a handheld tape dispenser against the visible top seam of one large cardboard carton and drawing a strip of clear packing tape along the seam. Both hands visible, one on tape dispenser and the other steadying the box. Clearly readable hands, tool, and seam even at phone size, camera at a slight three-quarter angle, medium framing. No scissors, no pen, no lifting the carton, no opening flaps, no other person. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark."
+  },
+  "p1-state": {
+    "src": "study/r1/photos/p1-state.webp",
+    "prompt": "Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. An unoccupied community workshop coat area. Four conspicuous, simple yellow protective helmets hang from individual wall hooks by their straps on a plain wall. The helmets are suspended in clear view well above an empty wooden bench. No person, no helmets on the bench or floor, no helmets piled or stacked, no cabinet, no table. Neutral side lighting with the wall hooks and straps clearly visible. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark."
+  },
+  "p1-position": {
+    "src": "study/r1/photos/p1-position.webp",
+    "prompt": "Use case: photorealistic-natural. Produce a single 3:2 landscape editorial photo for an original English listening exercise. Quiet paved courtyard on an overcast day. An unoccupied dark wooden bench sits in clear view BETWEEN TWO matching large stone planters, one to the immediate left and one to the immediate right of the bench, arranged along the same line close to a blank wall. Show the full bench and both planters with ample space, straight-on view. No fountain, no stairs, no canopy or shelter, no people. Natural daylight, realistic proportions, clear visual evidence. No printed lettering, branding or watermark."
+  }
+}

@@ -247,14 +247,17 @@ def sha(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
-def mp3(wav, output):
-    subprocess.run([
-        "ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(wav),
-        "-c:a", "libmp3lame", "-b:a", "56k", str(output),
-    ], check=True)
+def mp3(wav, output, *, gain_db=0):
+    command = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(wav)]
+    if gain_db:
+        command.extend(["-af", f"volume={gain_db}dB"])
+    command.extend(["-c:a", "libmp3lame", "-b:a", "56k", str(output)])
+    subprocess.run(command, check=True)
 
 
 def load_synthesizer(model_dir):
+    from threading import Lock
+
     import numpy as np
     import onnxruntime as ort
     from kokoro_onnx.tokenizer import Tokenizer
@@ -267,6 +270,7 @@ def load_synthesizer(model_dir):
     options.intra_op_num_threads = 3
     session = ort.InferenceSession(str(model), options, providers=["CPUExecutionProvider"])
     tokenizer = Tokenizer()
+    phonemizer_lock = Lock()
     provenance = {
         "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
         "revision": MODEL_REVISION,
@@ -282,8 +286,9 @@ def load_synthesizer(model_dir):
         audio = bytearray()
         # Sentence boundaries keep full announcements within the model's context limit.
         for sentence in re.split(r'(?<=[.!?])\s+(?=[\w"]{2,})', turn["spokenText"]):
-            phonemes = tokenizer.phonemize(sentence, turn["locale"].lower())
-            tokens = tokenizer.tokenize(phonemes)
+            with phonemizer_lock:
+                phonemes = tokenizer.phonemize(sentence, turn["locale"].lower())
+                tokens = tokenizer.tokenize(phonemes)
             assert 0 < len(tokens) < 510, turn
             samples, = session.run(None, {
                 "input_ids": np.array([[0, *tokens, 0]], dtype=np.int64),

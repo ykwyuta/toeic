@@ -1,0 +1,209 @@
+@p1-action-new-scan|1|動作|図書の貸し出し|medium
+& scan|係員が本にスキャナーを向けています。
+? photo||係員が本にスキャナーを向けています。
+A A woman is typing on a keyboard.|女性がキーボードで入力しています。|手にあるのは読み取り機で、キーボードを押していません。
+B A woman is shelving some books.|女性が本を棚に並べています。|本はカウンター上にあり、棚へ移していません。
+C A woman is turning the pages of a book.|女性が本のページをめくっています。|本は閉じた状態で、ページには手を触れていません。
+D A woman is pointing a scanner at a book.|女性が本にスキャナーを向けています。|女性は片手に読み取り機を持ち、カウンター上の本に向けています。
+! D
+% scanner=読み取り機|point at=～に向ける|shelve=棚に並べる
+
+@p1-action-new-sweep|1|動作|建物入口の清掃|medium
+& sweep|作業員がほうきで床を掃いています。
+? photo||作業員がほうきで床を掃いています。
+A A man is washing a window.|男性が窓を洗っています。|ほうきは窓に向けず、地面に当てています。
+B A man is sweeping a paved area.|男性が舗装された場所を掃いています。|ほうきの毛先を舗装面につけて掃いています。
+C A man is carrying a bucket.|男性がバケツを運んでいます。|バケツは地面に置かれ、男性の両手はほうきにあります。
+D A man is opening a blue door.|男性が青いドアを開けています。|男性はドアの取っ手に触れておらず、ドアも閉まっています。
+! B
+% broom=ほうき|sweep=掃く|pavement=舗装面
+
+@p1-action-new-measure|1|動作|仕立て作業|medium
+& measure|女性が布に巻き尺を当てています。
+? photo||女性が布に巻き尺を当てています。
+A A woman is measuring a piece of fabric.|女性が布地の寸法を測っています。|両手で巻き尺を伸ばし、布の上で長さを測っています。
+B A woman is cutting a piece of fabric.|女性が布地を切っています。|はさみは台にあり、持っているのは巻き尺です。
+C A woman is sewing a garment.|女性が衣服を縫っています。|ミシンは脇にあり、女性は布をミシンに通していません。
+D A woman is folding a piece of fabric.|女性が布地を折り畳んでいます。|布は台に広げられ、女性は巻き尺を当てています。
+! A
+% measuring tape=巻き尺|fabric=布地|garment=衣服
+
+@p1-action-new-wipe|1|動作|カフェの開店準備|medium
+& wipe|店員が布でテーブルを拭いています。
+? photo||店員が布でテーブルを拭いています。
+A A woman is pulling out a chair.|女性が椅子を引き出しています。|女性の手は天板と布にあり、椅子に触れていません。
+B A woman is setting cups on a table.|女性がテーブルにカップを並べています。|テーブルにカップは写っておらず、手にあるのは布です。
+C A woman is wiping a table with a cloth.|女性が布でテーブルを拭いています。|天板の上の白い布に手を当てて拭いています。
+D A woman is sweeping the floor.|女性が床を掃いています。|道具を床に当てず、布を天板に当てています。
+! C
+% wipe=拭く|cloth=布|pull out=引き出す
+
+@p1-action-new-load|1|動作|パン焼き作業|medium
+& load|作業員がオーブンの前でパンの天板を持っています。
+? photo||作業員がオーブンの前でパンの天板を持っています。
+A A baker is kneading dough on a counter.|パン職人が作業台で生地をこねています。|手は生地に触れておらず、オーブンの前で天板を持っています。
+B A baker is holding a tray of rolls.|パン職人がロールパンを載せた天板を持っています。|両手のミトンで、パンの載った天板の縁を持っています。
+C A baker is putting on a pair of gloves.|パン職人が手袋をはめています。|手袋は既に両手にはめてあり、天板を持っています。
+D A baker is moving a metal rack.|パン職人が金属のラックを動かしています。|ラックは脇にあり、両手が触れているのは天板です。
+! B
+% tray=天板、トレー|oven mitt=オーブン用手袋|rack=ラック
+
+@p1-action-new-hang|1|動作|展示の設営|medium
+& hang|作業員が額を壁に当てています。
+? photo||作業員が額を壁に当てています。
+A A man is opening a toolbox.|男性が工具箱を開けています。|工具箱は床にあり、男性は額を持っています。
+B A man is painting a wall with a roller.|男性がローラーで壁に色を塗っています。|手にあるのは額で、ローラーや塗装作業は写っていません。
+C A man is climbing a stepladder.|男性が脚立を上っています。|両足は床にあり、脚立は写っていません。
+D A man is positioning a framed picture against a wall.|男性が額に入った絵を壁に当てて位置を調整しています。|両手で額の縁を持ち、壁の面に沿わせています。
+! D
+% frame=額縁|position=位置を決めて置く|stepladder=脚立
+
+@p1-state-new-scan|1|状態|カウンターの蔵書|medium
+& scan|何冊かの本が積み重ねられています。
+? photo||何冊かの本が積み重ねられています。
+A Some books are stacked on a counter.|本が何冊かカウンターの上で積み重ねられています。|画面右の本の背や表紙が上下に重なっています。
+B Some books are spread out across the floor.|本が何冊か床一面に広げられています。|本はカウンター上にあり、床には広げられていません。
+C All the books are open.|本はすべて開かれています。|積まれた本もスキャナーの下の本も閉じています。
+D Some books are leaning against a window.|本が何冊か窓にもたせかけられています。|窓側の本棚ではなく、手前のカウンターに横置きされています。
+! A
+% stack=積み重ねる|spread out=広げる|shelf=棚
+
+@p1-state-new-sweep|1|状態|勝手口|medium
+& sweep|作業員の後ろの青いドアは閉まっています。
+? photo||作業員の後ろの青いドアは閉まっています。
+A A blue door has been removed from its frame.|青いドアが枠から外されています。|青いドアは壁のドア枠に取り付けられたままです。
+B A blue door is covered with a sheet.|青いドアがシートで覆われています。|ドアの青い面と取っ手が露出しています。
+C A blue door is shut.|青いドアが閉まっています。|ドアが枠に収まり、入口の隙間や室内が見えません。
+D A blue door has been opened wide.|青いドアが大きく開けてあります。|ドアの向こう側は見えず、扉は枠の中にあります。
+! C
+% shut=閉まっている|slide open=横に開く|cover=覆う
+
+@p1-state-new-measure|1|状態|仕立て台の布|medium
+& measure|青い布が作業台に広げられています。
+? photo||青い布が作業台に広げられています。
+A A piece of blue fabric has been rolled into a tube.|青い布が筒状に巻かれています。|青い布は巻かれず、台に平らに広がっています。
+B A piece of blue fabric is spread across a table.|青い布が作業台に広げられています。|布は台の上に平らに広がり、巻き尺を当てられる状態です。
+C A piece of blue fabric has been hung beside a window.|青い布が窓のそばにつるされています。|青い布は台に載っており、窓辺につるされていません。
+D A piece of blue fabric is folded over a chair back.|青い布が椅子の背に折り返し掛けられています。|布が載っているのは台で、椅子の背には見えません。
+! B
+% spread across=～一面に広げる|roll up=巻き上げる|fold=折り畳む
+
+@p1-state-new-wipe|1|状態|カフェの客席|medium
+& wipe|壁際の椅子に座っている人はいません。
+? photo||壁際の椅子に座っている人はいません。
+A Some chairs are stacked one on top of another.|椅子が何脚か積み重ねられています。|椅子は横に並び、それぞれの脚が床に接しています。
+B Some chairs are turned upside down.|椅子が何脚か逆さまになっています。|座面は上を向き、脚は下にあります。
+C Some chairs are covered with cloths.|椅子が何脚か布で覆われています。|白い布は作業員の手の下で、椅子の背や座面は露出しています。
+D Some chairs are unoccupied.|椅子が何脚か空いています。|壁際の椅子には誰も座っていません。
+! D
+% unoccupied=人が座っていない|stacked=積み重ねられた|upside down=逆さまに
+
+@p1-state-new-load|1|状態|パン工房の設備|medium
+& load|オーブンの扉が開いています。
+? photo||オーブンの扉が開いています。
+A The oven door is open.|オーブンの扉が開いています。|扉が手前に倒され、開口部にパンの天板が見えています。
+B The oven door has been closed.|オーブンの扉が閉められています。|扉が水平近くまで手前に開いています。
+C The oven has been covered with a cloth.|オーブンが布で覆われています。|オーブンの扉と内部が露出しています。
+D The oven is empty.|オーブンの中は空です。|開いた内部までパンの天板が差し込まれています。
+! A
+% oven door=オーブンの扉|wide open=大きく開いている|unplug=プラグを抜く
+
+@p1-state-new-hang|1|状態|展示の道具|medium
+& hang|床にある工具箱のふたは閉まっています。
+? photo||床にある工具箱のふたは閉まっています。
+A A toolbox is open with tools sticking out.|工具箱が開き、工具が飛び出しています。|ふたは合わさっており、工具は外に出ていません。
+B A toolbox is lying on its side.|工具箱が横倒しになっています。|箱の底が床につき、持ち手は上を向いています。
+C A toolbox is closed.|工具箱のふたが閉まっています。|床の工具箱のふたは本体と合わさり、中身は見えていません。
+D A toolbox is suspended from a hook.|工具箱がフックからつり下がっています。|工具箱は床に置かれ、フックにつられていません。
+! C
+% toolbox=工具箱|lid=ふた|upside down=逆さに
+
+@p1-state-new-p1-action|1|状態|発送前の箱|medium
+& p1-action|作業台の箱はふたが閉じています。
+? photo||作業台の箱はふたが閉じています。
+A A carton has been flattened.|段ボール箱が平らにつぶされています。|箱は作業台の上で立体の形を保っています。
+B A carton is open at the top.|段ボール箱の上が開いています。|ふたが水平に閉じられ、中身は見えていません。
+C A second carton is stacked on top of the carton on the bench.|作業台の段ボール箱の上に、もう一箱が積まれています。|手前の作業台に見えるのは上に別の箱が載っていない一箱です。
+D The flaps of a carton are shut.|段ボール箱のふたが閉じています。|上のふたが合わさり、合わせ目にテープが貼られています。
+! D
+% flap=折りたたみ式のふた|shut=閉じた|flatten=平らにする
+
+@p1-state-new-p1-position|1|状態|中庭の座席|medium
+& p1-position|中庭のベンチの座面は空です。
+? photo||中庭のベンチの座面は空です。
+A A bench is covered with a folded blanket.|ベンチに折り畳んだ毛布が載っています。|木製の座面が見え、毛布は見当たりません。
+B A bench is vacant.|ベンチは空いています。|座面に人や荷物はありません。
+C A bench is crowded with people.|ベンチに人が大勢座っています。|ベンチに座っている人は写っていません。
+D A bench is turned upside down.|ベンチがひっくり返されています。|座面が上、脚が下の通常の向きです。
+! B
+% seat=座面|vacant=空いている|backrest=背もたれ
+
+@p1-position-new-scan|1|位置関係|貸出カウンターの本|medium
+& scan|読み取り機は1冊の本の上にかざされています。
+? photo||読み取り機は1冊の本の上にかざされています。
+A A scanner is beneath a stack of books.|スキャナーは本の山の下にあります。|読み取り機は係員の手にあり、重ねた本の底にはありません。
+B A scanner is attached to a wall behind the desk.|スキャナーは机の後ろの壁に付いています。|読み取り機は係員が手で持ち、壁から離れています。
+C A scanner is being held above a book.|スキャナーが本の上にかざされています。|本がカウンターに置かれ、その上方に読み取り機があります。
+D A scanner is resting on a shelf by the door.|スキャナーはドアのそばの棚に置かれています。|ドアは奥にあり、読み取り機は手前のカウンター上にかざされています。
+! C
+% above=～の上方に|beneath=～の真下に|handheld=手持ちの
+
+@p1-position-new-sweep|1|位置関係|建物入口のバケツ|medium
+& sweep|赤いバケツは青いドアの左側にあります。
+? photo||赤いバケツは青いドアの左側にあります。
+A A bucket is to the left of a blue door.|バケツが青いドアの左側にあります。|画面上の赤いバケツは青いドアより左にあります。
+B A bucket is underneath the window on the right.|バケツが右側の窓の真下にあります。|右の窓の下ではなく、ドアを挟んで左側にあります。
+C A bucket is between the man's shoes.|バケツが男性の両足の間にあります。|作業員の両足の間に物はなく、バケツは離れた画面左側にあります。
+D A bucket is on top of a window ledge.|バケツが窓台に載っています。|バケツは窓台ではなく舗装された地面に置かれています。
+! A
+% bucket=バケツ|to the left of=～の左側に|ledge=窓台のような出っ張り
+
+@p1-position-new-measure|1|位置関係|仕立て道具の配置|medium
+& measure|はさみは青い布の左側にあります。
+? photo||はさみは青い布の左側にあります。
+A A pair of scissors lies on top of the blue fabric.|はさみが青い布の上に置かれています。|はさみは布の上ではなく隣の木の台にあります。
+B A pair of scissors is underneath the sewing machine.|はさみがミシンの真下にあります。|ミシンは画面右、はさみは画面左にあります。
+C A pair of scissors is hanging beside the garments.|はさみが衣服のそばにつるされています。|衣服は背景につられていますが、はさみは手前の台に置かれています。
+D A pair of scissors lies to the left of the blue fabric.|はさみが青い布の左側に置かれています。|写真手前左のはさみは青い布の左の縁より外側です。
+! D
+% scissors=はさみ|edge=端|to the left of=～の左側に
+
+@p1-position-new-wipe|1|位置関係|カフェの配置|medium
+& wipe|壁際の椅子は窓の下に並んでいます。
+? photo||壁際の椅子は窓の下に並んでいます。
+A Some chairs are placed on top of a table.|椅子がテーブルの上に置いてあります。|椅子はテーブルの向こうの床にあります。
+B Some chairs are in the middle of the room, away from the wall.|椅子が壁から離れた部屋の中央にあります。|椅子の背はすぐ後ろのれんが壁に近接しています。
+C Some chairs are lined up beneath a window.|椅子が窓の下に並んでいます。|背後の窓の下に、壁に沿って椅子が横に並びます。
+D Some chairs are hung above a window.|椅子が窓の上につるされています。|椅子は窓より低い位置に置かれ、床に脚が着いています。
+! C
+% below=～の下に|against=～に接して、～のすぐそばに|seat=座面
+
+@p1-position-new-load|1|位置関係|パン工房の配置|medium
+& load|ラックはオーブンの右側にあります。
+? photo||ラックはオーブンの右側にあります。
+A A metal rack stands to the left of an oven.|金属のラックがオーブンの左側にあります。|オーブンの左には作業員がいて、ラックは逆側にあります。
+B A metal rack stands to the right of an oven.|金属のラックがオーブンの右側にあります。|正面から見てオーブンは中央、ラックは画面右です。
+C A metal rack is positioned directly above an oven.|金属のラックがオーブンの真上にあります。|ラックは床に置かれ、オーブンとは横に並んでいます。
+D A metal rack is blocking the front of an oven.|金属ラックがオーブンの正面をふさいでいます。|ラックは横にあり、手前に開く扉をふさいでいません。
+! B
+% rack=棚枠、ラック|to the right of=～の右側に|in front of=～の前に
+
+@p1-position-new-hang|1|位置関係|展示室の工具箱|medium
+& hang|工具箱は額に入った絵より下にあります。
+? photo||工具箱は額に入った絵より下にあります。
+A A toolbox is below a framed picture.|工具箱が額に入った絵の下にあります。|絵が壁の上方にあり、工具箱はその下の床にあります。
+B A toolbox is being held above a man's head.|工具箱が男性の頭上に持ち上げられています。|男性が持つのは額で、工具箱は床にあります。
+C A toolbox is on a shelf at eye level.|工具箱が目の高さの棚に載っています。|工具箱は棚ではなく床に直接置かれています。
+D A toolbox is on a ledge outside a window.|工具箱が窓外の出っ張りに置かれています。|窓より室内側にある床に工具箱は置かれています。
+! A
+% below=～より下に|framed picture=額に入った絵|ledge=棚状の出っ張り
+
+@p1-position-new-p1-state|1|位置関係|作業場の装備の位置|medium
+& p1-state|ヘルメットがベンチより上にあります。
+? photo||ヘルメットがベンチより上にあります。
+A The helmets are beneath a bench.|ヘルメットがベンチの下にあります。|ヘルメットは床側ではなくベンチより上です。
+B The helmets are on the seat of a bench.|ヘルメットがベンチの座面に載っています。|ヘルメットと座面の間には隙間があり、壁に掛けられています。
+C The helmets are above a bench.|ヘルメットがベンチの上方にあります。|ベンチの座面より高い位置の壁にヘルメットがつられています。
+D The helmets are behind a window.|ヘルメットが窓の向こう側にあります。|ヘルメットは窓ガラスの奥ではなく手前の壁面にあります。
+! C
+% above=～より上に|helmet=ヘルメット|beneath=～の真下に

@@ -1,18 +1,17 @@
 'use strict';
 
-importScripts('./study/r1/bank.js');
+importScripts('./study/r2/bank.js');
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '21';
+const cacheName = cachePrefix + '22';
 const index = new URL('index.html', self.registration.scope).href;
 
 const studyMedia = self.toeicStudyBank.parts.flatMap(({sets}) => sets.flatMap(({media}) =>
   [media.photo?.src, media.audio?.src].filter(Boolean)));
-const assets = [
+const assets = new Set([
   'adaptive.js', 'app-v11.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp',
-  'study/r1/bank.js', 'study/study.js', ...studyMedia,
-]
-  .map((path) => new URL(path, self.registration.scope).href);
+  'study/r2/bank.js', 'study/study-v2.js', ...studyMedia,
+].map((path) => new URL(path, self.registration.scope).href));
 const offlineFiles = [index, ...assets];
 
 async function audioRange(cached, range) {
@@ -37,7 +36,10 @@ async function audioRange(cached, range) {
 
 async function prepareOffline() {
   const cache = await caches.open(cacheName);
-  await cache.addAll(offlineFiles.map((url) => new Request(url, { cache: 'no-store' })));
+  for (let start = 0; start < offlineFiles.length; start += 12) {
+    const batch = offlineFiles.slice(start, start + 12);
+    await cache.addAll(batch.map((url) => new Request(url, {cache: 'no-store'})));
+  }
 }
 
 self.addEventListener('install', (event) => {
@@ -59,7 +61,7 @@ self.addEventListener('fetch', (event) => {
   const path = url.origin + url.pathname;
   const isHome = event.request.mode === 'navigate' &&
     (path === index || path === self.registration.scope);
-  if (!isHome && !assets.includes(path)) return;
+  if (!isHome && !assets.has(path)) return;
 
   event.respondWith((async () => {
     if (!isHome) {
@@ -90,8 +92,9 @@ self.addEventListener('message', (event) => {
 
   if (event.data === 'offline-status') {
     event.waitUntil(reset.then(async () => {
-      const cached = await Promise.all(offlineFiles.map((url) => caches.match(url, { cacheName })));
-      port.postMessage({ ready: cached.every(Boolean) });
+      const cache = await caches.open(cacheName);
+      const cached = new Set((await cache.keys()).map((request) => request.url));
+      port.postMessage({ ready: offlineFiles.every((url) => cached.has(url)) });
     }).catch(() => port.postMessage({ ready: false })));
   }
 
