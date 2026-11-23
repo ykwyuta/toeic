@@ -1,0 +1,199 @@
+@keysleeve|7|工房の無人受け取り
+: text|Starting on Monday, members of Welfen Print Studio who collect supplies after the front desk closes must use the lockers beside the rear door.|月曜から、ウェルフェン印刷工房の受付が閉まった後に備品を受け取る会員は、裏口脇のロッカーを使います。
+: text|To have an order placed in a locker, include a mobile number in your collection request.|注文品をロッカーに入れてもらうには、受取申請に携帯電話番号を記載してください。
+: text|Lockers are available until 8:00 P.M., while the front desk closes at 5:30 P.M.|ロッカーは午後8時まで利用でき、受付は午後5時30分に閉まります。
+: text|Oversize rolls cannot be stored in the lockers and must be collected from the desk.|特大のロールはロッカーに入らず、受付で受け取る必要があります。
+&: text|Message from K. Orven: I ordered a box of ink cartridges and an oversize paper roll. Both will be ready on Tuesday. I can get to the studio at 7:15 P.M. I requested locker pickup for the cartridges and included my mobile number on the form.|K・オーヴェンからの連絡。インクカートリッジ1箱と特大の紙ロールを注文しました。両方とも火曜に受け取れます。午後7時15分に工房へ行けます。カートリッジのロッカー受け取りを申し込み、用紙に携帯電話番号を書きました。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the notice mainly intended to explain?|お知らせは主に何を説明していますか。
+A A new arrangement for evening collections.|夕方以降の新しい受け取り方法。|受付終了後にロッカーを使う条件と対象外の品を案内しています。
+B A delay in delivering new printing stock.|新しい印刷資材の配送の遅れ。|発送の遅れではなく、会員の受取方法です。
+C A change in how members pay for supplies.|会員の備品購入時の支払方法の変更。|受付とロッカーの使い分けを説明しており、代金は扱いません。
+D A relocation of the studio's front desk.|工房の受付の移転。|裏口にロッカーがありますが、受付の移転はありません。
+! A
+% access code=解錠コード|oversize=特大の|collection request=受取申請
+> infer|推論|medium|common
+? t2|What is suggested about a member who provides only an e-mail address?|メールアドレスだけを記入した会員について何が示唆されますか。
+A The member may collect an order after 8:00 P.M.|午後8時以降でも注文品を受け取れる。|ロッカー利用の終了時刻は8時です。
+B The member must order a different item.|別の商品を注文し直す必要がある。|連絡先の種類についての要件で、商品の選び直しではありません。
+C The member needs to renew a studio membership.|工房の会員資格を更新する必要がある。|注文品の受取情報の不足であり、会員資格の有効期限とは関係しません。
+D The member has not fulfilled a requirement for locker pickup.|ロッカー受け取りの要件を満たしていない。|ロッカーへの振り分けには携帯電話番号が必要なので、メールアドレスだけでは足りません。
+! D
+% access code=解錠コード|oversize=特大の|collection request=受取申請
+> cross|複数文書照合|hard|linked
+? t2,t3,t4,t5|What can K. Orven collect at the planned Tuesday time?|オーヴェンは火曜の予定時刻に何を受け取れますか。
+A The paper roll only.|紙ロールのみ。|特大ロールは受付のみで、7時15分には受付が閉まっています。
+B Both ordered items.|注文した両方の品。|ロッカーに特大ロールは入りません。
+C The cartridges only.|カートリッジのみ。|7時15分はロッカー利用時間内で携帯番号も提出済みです。特大ロールが必要とする受付は閉まっています。
+D Neither ordered item.|どちらの注文品も受け取れない。|カートリッジはロッカー受け取りの要件に合います。
+! C
+% access code=解錠コード|oversize=特大の|collection request=受取申請
+> sentence|文挿入|hard|local
+: text|Starting on Monday, members of Welfen Print Studio who collect supplies after the front desk closes must use the lockers beside the rear door. [1]\nTo have an order placed in a locker, include a mobile number in your collection request. [2]\nLockers are available until 8:00 P.M., while the front desk closes at 5:30 P.M. [3]\nOversize rolls cannot be stored in the lockers and must be collected from the desk. [4]|月曜から、ウェルフェン印刷工房の受付が閉まった後に備品を受け取る会員は、裏口脇のロッカーを使います。\n注文品をロッカーに入れてもらうには、受取申請に携帯電話番号を記載してください。\nその番号宛てにSMSで解錠コードを送ります。\nロッカーは午後8時まで利用でき、受付は午後5時30分に閉まります。\n特大のロールはロッカーに入らず、受付で受け取る必要があります。
+? t1|Where does the following sentence best fit? “We will use that number to send your access code by text message.”|「その番号宛てにSMSで解錠コードを送ります。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|携帯電話番号を尋ねる指示がまだありません。
+B [2]|[2] の位置。|携帯電話番号を求めた直後なので、that number の指すものが明確です。
+C [3]|[3] の位置。|利用時間を説明した後で、解錠コードを送る番号の話が分断されます。
+D [4]|[4] の位置。|特大品に適用される受取条件はロッカーのコードの説明ではありません。
+! B
+% access code=解錠コード|oversize=特大の|collection request=受取申請
+
+@cleanshift|7|共有キッチンの点検
+: text|Sablewick Kitchen rents workstations to small caterers in two-hour blocks.|セイブルウィック調理室は、小規模ケータリング業者に作業台を2時間単位で貸し出しています。
+: text|Every block includes time to clean the bench and equipment.|どの枠にも、作業台と器具を清掃する時間が含まれます。
+: text|A floor manager must inspect the workstation before the current user can leave.|利用者が帰る前に、現場責任者が作業台を点検します。
+: text|For bookings ending at six or later, use the call button beside the sink to reach the manager.|6時以降に終了する予約の場合は、流し台のそばの呼出ボタンで責任者を呼んでください。
+&: text|Message from P. Renn: I have changed my Wednesday booking from 3:00–5:00 P.M. to 4:30–6:30 P.M. I had planned to look for the floor manager at the office when I finished cleaning.|P・レンからの連絡。水曜の予約を午後3時から5時までではなく、午後4時30分から6時30分に変更しました。清掃を終えたら責任者を事務所に呼びに行くつもりでした。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3|What is the main subject of the instructions?|案内の主な内容は何ですか。
+A The application process for becoming a floor manager.|現場責任者へ応募する手順。|責任者は点検役で、求人の情報はありません。
+B The procedures for using and leaving a rented workstation.|貸し出した作業台の利用と退出の手順。|利用枠、清掃、退出前の点検を説明します。
+C A set of new dishes for kitchen customers.|利用者向けに新しく提供する料理。|調理台を貸し出す手順で、料理は案内していません。
+D A scheduled move to a different kitchen.|調理室の移転予定。|現在の調理室の利用手順を説明しています。
+! B
+% workstation=作業台|floor manager=現場責任者|call button=呼出ボタン
+> infer|推論|medium|common
+? t1,t2|What would happen if a renter used all two hours to prepare food?|利用者が2時間すべてを調理に使った場合、何が起こると考えられますか。
+A The renter would run out of time for the required cleaning.|必要な清掃を枠内で行う時間がなくなる。|2時間枠に清掃も含まれるので、調理に使い切ると枠内で清掃できません。
+B The manager would automatically add another hour.|責任者により自動で1時間延長される。|延長の取り決めは示されていません。
+C The next user would have to do the cleaning.|次の利用者に清掃義務が移る。|現在の利用者が清掃し、退出前に点検を受けます。
+D The renter could skip the manager's inspection.|利用者は責任者の点検を省ける。|時間をどう使っても退出前の点検が必要です。
+! A
+% workstation=作業台|floor manager=現場責任者|call button=呼出ボタン
+> cross|複数文書照合|hard|linked
+? t3,t4,t5|What should P. Renn do after cleaning at the end of the changed booking?|レンは変更後の予約の終わりに清掃を済ませた後、何をするべきですか。
+A Look for the manager in the office.|事務所に責任者を探しに行く。|変更した予約は6時以降に終わるため、ボタンで呼びます。
+B Leave the kitchen as soon as cleaning is done.|清掃が終わったらすぐに帰る。|帰る前に責任者の点検が必要です。
+C Ask the person in the next slot to inspect the bench.|次の枠の利用者に作業台の点検を頼む。|点検は現場責任者が行います。
+D Press the button next to the sink.|流し台の横のボタンを押す。|変更後の終了は6時30分で、午後6時以降は呼出ボタンを使います。
+! D
+% workstation=作業台|floor manager=現場責任者|call button=呼出ボタン
+> sentence|文挿入|hard|local
+: text|Sablewick Kitchen rents workstations to small caterers in two-hour blocks. [1]\nEvery block includes time to clean the bench and equipment. [2]\nA floor manager must inspect the workstation before the current user can leave. [3]\nFor bookings ending at six or later, use the call button beside the sink to reach the manager. [4]|セイブルウィック調理室は、小規模ケータリング業者に作業台を2時間単位で貸し出しています。\nどの枠にも、作業台と器具を清掃する時間が含まれます。\n利用者が帰る前に、現場責任者が作業台を点検します。\nこの点検で、次の利用者が予定どおり作業を始められるようにします。\n6時以降に終了する予約の場合は、流し台のそばの呼出ボタンで責任者を呼んでください。
+? t1|Where does the following sentence best fit? “This check ensures that the next customer can begin as scheduled.”|「この点検で、次の利用者が予定どおり作業を始められるようにします。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|設備を貸す案内の後には、this check の参照先となる点検がありません。
+B [2]|[2] の位置。|清掃時間の説明だけで、責任者による点検はまだ示されません。
+C [3]|[3] の位置。|直前の責任者による点検を受け、その目的を示せます。
+D [4]|[4] の位置。|呼出ボタンの使用方法とは文の役割が異なり、点検の目的から離れます。
+! C
+% workstation=作業台|floor manager=現場責任者|call button=呼出ボタン
+
+@bluecard|7|巡回講座の予約
+: text|The Ostel Reach design bus will make its first stop at the Pebbleton Library on Saturday.|オステルリーチの移動デザイン教室は、土曜に最初の巡回先のペブルトン図書館へ行きます。
+: text|Children's sessions run in the morning, and the evening sessions are open to visitors aged sixteen and older.|子ども向けの講座は午前中で、夕方の講座は16歳以上の方が参加できます。
+: text|You need to book the evening sessions in advance. Multiple people may use one booking as long as all their names are listed.|夕方の講座は要予約です。全員の氏名を記載すれば、1件の予約で複数人が参加できます。
+: text|Bring the blue confirmation card from the booking desk when you arrive.|到着時は予約窓口から受け取った青い確認カードをお持ちください。
+&: text|Booking request from J. Fenn: I am nineteen and would like to bring my thirteen-year-old brother to the 6:00 P.M. session. I have entered both our names on the form.|J・フェンからの予約申請。私は19歳で、午後6時の講座に13歳の弟を連れていきたいです。フォームには両方の名前を記入してあります。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the main purpose of the notice?|お知らせの主な目的は何ですか。
+A To advertise new books at the library.|図書館の新刊を宣伝すること。|図書館は巡回先で、新刊の情報はありません。
+B To recruit people to drive a bus.|バスの運転手を募集すること。|利用者向けの講座案内です。
+C To describe how to take part in the design bus sessions.|移動デザイン教室の参加方法を伝えること。|巡回先、時間帯、対象年齢、事前予約と持参物を示しています。
+D To explain how to repair design equipment.|デザイン機器を修繕する方法を説明すること。|参加方法を知らせており、機器の修理は扱いません。
+! C
+% take part=参加する|confirmation card=確認カード|in advance=前もって
+> infer|推論|medium|common
+? t2,t3|What is suggested about two adults who want to attend together in the evening?|成人2人が夕方に一緒に参加したい場合、何が示唆されますか。
+A They need to book the children's session first.|まず子ども向け講座を予約する必要がある。|午前と夕方の受講が一続きという規定はありません。
+B They do not have to submit separate bookings.|別々に予約する必要はない。|夕方の講座は予約が必要ですが、両名を記載すれば予約は1件で足ります。
+C They can attend only if they already have materials.|材料を持っている場合のみ参加できる。|持参するのは青い確認カードです。
+D They are too old to attend the design bus sessions.|移動教室に参加するには年齢が高すぎる。|夕方は16歳以上が参加でき、年齢の上限は示されていません。
+! B
+% take part=参加する|confirmation card=確認カード|in advance=前もって
+> cross|複数文書照合|hard|linked
+? t2,t5|Who is eligible for the six o'clock session described in the request?|申請にある午後6時の講座の参加資格があるのは誰ですか。
+A J. Fenn only.|J・フェンのみ。|夕方は16歳以上が対象です。フェンは19歳で、弟は13歳です。
+B J. Fenn's brother only.|フェンの弟のみ。|弟は13歳で、午後6時の講座の年齢条件を満たしません。
+C Both J. Fenn and the brother.|フェンと弟の両方。|両名を記載しても、弟の年齢条件は変わりません。
+D Neither J. Fenn nor the brother.|フェンも弟も参加資格がない。|19歳のフェンは必要な年齢に達しています。
+! A
+% take part=参加する|confirmation card=確認カード|in advance=前もって
+> sentence|文挿入|hard|local
+: text|The Ostel Reach design bus will make its first stop at the Pebbleton Library on Saturday. [1]\nChildren's sessions run in the morning, and the evening sessions are open to visitors aged sixteen and older. [2]\nYou need to book the evening sessions in advance. Multiple people may use one booking as long as all their names are listed. [3]\nBring the blue confirmation card from the booking desk when you arrive. [4]|オステルリーチの移動デザイン教室は、土曜に最初の巡回先のペブルトン図書館へ行きます。\n子ども向けの講座は午前中で、夕方の講座は16歳以上の方が参加できます。\n夕方の講座は要予約です。全員の氏名を記載すれば、1件の予約で複数人が参加できます。\n到着時は予約窓口から受け取った青い確認カードをお持ちください。\n担当講師は材料を配る前に、そのカードを予約者一覧と照合します。
+? t1|Where does the following sentence best fit? “The session leader will check it against the booking list before distributing materials.”|「担当講師は材料を配る前に、そのカードを予約者一覧と照合します。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|何を予約するかも it の参照先も示されていません。
+B [2]|[2] の位置。|時間帯と年齢の条件は確認カードの説明ではありません。
+C [3]|[3] の位置。|予約者の一覧は示されますが、照合に使うカードはまだ登場しません。
+D [4]|[4] の位置。|直前の確認カードが it の参照先で、持参する目的が分かります。
+! D
+% take part=参加する|confirmation card=確認カード|in advance=前もって
+
+@glazetest|7|焼成見本の追加受付
+: text|Selwick Ceramics accepts small glaze test pieces in its weekly firing schedule.|セルウィック陶芸工房は週ごとの焼成で小さな釉薬の試験片を受け付けています。
+: text|The kiln shelf has limited space, and each member may submit a maximum of three pieces per week.|窯の棚には限りがあるため、会員1人あたり週3点まで出せます。
+: text|Use a label made of heat-resistant paper for each piece.|各試験片には耐熱性の紙でできたラベルを使ってください。
+: text|The next load is scheduled for Tuesday morning. Drop off test pieces by 4:00 P.M. on Monday. Fired pieces can be collected from noon on the day after firing.|次回の焼成は火曜午前の予定です。試験片は月曜午後4時までに持ち込んでください。焼き上がった試験片は焼成の翌日の正午から受け取れます。
+&: text|Message from N. Els: My two pieces for this week are already at the studio. At 3:00 P.M. on Monday, I can bring two more pieces, both labeled with heat-resistant paper. I need one of them fired sooner than the other.|N・エルスからの連絡。今週分の2点はもう工房にあります。月曜午後3時に耐熱紙のラベルを付けた追加の2点を持ち込めます。片方はもう一方より早く焼いてほしいです。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the main purpose of the notice?|お知らせの主な目的は何ですか。
+A To announce that a new kiln is for sale.|新しい窯が販売されると知らせること。|工房にある窯で焼成する予定です。
+B To explain how members can mix glaze.|会員に釉薬の調合方法を説明すること。|釉薬を使った試験片の受付方法を扱います。
+C To describe the outcome of a product test.|製品の試験結果を説明すること。|試験片をこれから受け付ける案内です。
+D To give instructions for submitting pieces for firing.|焼成する試験片の出し方を案内すること。|提出点数、ラベルの種類、持ち込み期限を示しています。
+! D
+% kiln=窯|glaze=釉薬|firing=焼成
+> infer|推論|medium|common
+? t4|What is implied about a member who needs a finished piece by Tuesday evening?|火曜夕方までに焼き上がった試験片が必要な会員について何が示唆されますか。
+A The member can collect a piece on Tuesday afternoon.|火曜午後に試験片を受け取れる。|火曜に焼成した場合、受け取りは水曜の正午からです。
+B The member must pick it up by Monday at four.|月曜の4時までに受け取る必要がある。|月曜4時は焼成前の試験片を持ち込む期限です。
+C The next scheduled firing is too late for the member.|次の予定の焼成では会員の期限に間に合わない。|火曜に焼成した品は水曜正午まで受け取れないため、火曜夕方の期限に間に合いません。
+D The member must return a used label on Tuesday.|会員は使用済みのラベルを火曜に返す必要がある。|ラベルは焼成前に試験片へ付けるもので、回収を待つ手続きはありません。
+! C
+% kiln=窯|glaze=釉薬|firing=焼成
+> cross|複数文書照合|hard|linked
+? t2,t3,t4,t5|How many additional pieces from N. Els can be included in the next load?|エルスの追加の試験片は次回の焼成に何点含められますか。
+A None.|0点。|週の上限まであと1点で、3時は持ち込み期限前です。
+B One.|1点。|午後3時の持ち込みと耐熱ラベルは条件を満たしますが、週3点までで、すでに2点出しています。
+C Two.|2点。|さらに2点を出すと今週の合計が4点になります。
+D Three.|3点。|週全体の上限は3点で、提出済みの2点を含みます。
+! B
+% kiln=窯|glaze=釉薬|firing=焼成
+> sentence|文挿入|hard|local
+: text|Selwick Ceramics accepts small glaze test pieces in its weekly firing schedule. [1]\nThe kiln shelf has limited space, and each member may submit a maximum of three pieces per week. [2]\nUse a label made of heat-resistant paper for each piece. [3]\nThe next load is scheduled for Tuesday morning. Drop off test pieces by 4:00 P.M. on Monday. Fired pieces can be collected from noon on the day after firing. [4]|セルウィック陶芸工房は週ごとの焼成で小さな釉薬の試験片を受け付けています。\n窯の棚には限りがあるため、会員1人あたり週3点まで出せます。\n各試験片には耐熱性の紙でできたラベルを使ってください。\n名前は試験片に直接書かず、そのラベルに書いてください。\n次回の焼成は火曜午前の予定です。試験片は月曜午後4時までに持ち込んでください。焼き上がった試験片は焼成の翌日の正午から受け取れます。
+? t1|Where does the following sentence best fit? “Write your name on that label rather than directly on the piece.”|「名前は試験片に直接書かず、そのラベルに書いてください。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|焼成できる物の説明には、that label が指すラベルは出てきません。
+B [2]|[2] の位置。|週に出せる数を述べた段階にはラベルの指示がまだありません。
+C [3]|[3] の位置。|直前に耐熱紙のラベルを使う指示があり、続けてそのラベルに書く内容を示せます。
+D [4]|[4] の位置。|焼成・受取時刻の案内が終わった後では、準備するラベルの指示から離れてしまいます。
+! C
+% kiln=窯|glaze=釉薬|firing=焼成
+
+@tipple|7|カード返却の運営連絡
+: text|At the end of every tour, guides at Korsen Hide House drop the unused audio cards into the return box by the front counter.|コーセンハイド館のガイドは、各ツアーの終わりに、使わなかった音声カードを受付そばの返却箱に入れます。
+: text|Starting this weekend, each guide must also record the unused cards on the inventory sheet kept next to the box.|今週末から、ガイドは返却箱の隣にある在庫表にも、使わなかったカードを記録する必要があります。
+: text|For the final tour of the day, wait until the visitor desk closes before handing the sheet to security at the west entrance.|その日の最終ツアーでは、来客窓口が閉まってから、西入口の警備担当に在庫表を渡してください。
+: text|The evening supervisor will enter the record in the system the following morning.|夕方の責任者は翌朝に記録をシステムへ入力します。
+&: text|Staff schedule for Saturday: V. Ner leads the 2:15 P.M. tour. The 4:00 P.M. tour has been canceled, making the 2:15 tour the last one of the day. The visitor desk closes at 5:00 P.M.|土曜の担当予定。V・ネルが午後2時15分のツアーを案内します。午後4時のツアーは中止となり、午後2時15分のツアーが最終です。来客窓口は午後5時に閉まります。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the notice mainly about?|お知らせは主に何についてですか。
+A A plan for selling audio cards to visitors.|来場者に音声カードを販売する計画。|未使用カードを戻す内部手順で、売りません。
+B A procedure for tracking unused audio cards.|使わなかった音声カードの管理手順。|返却方法に加え、在庫表へ記録し、最終回後に渡す方法を説明します。
+C A new electronic system for taking bookings.|予約用の新しい電子システム。|システムに入れるのは返却の記録です。
+D A change to the order of tour stops.|ツアーの見学順の変更。|案内の経路でなく、使用後の備品管理です。
+! B
+% inventory sheet=在庫表|hand to=～へ手渡す|unused=未使用の
+> infer|推論|medium|common
+? t2,t3,t4|What is implied about the evening supervisor's work?|夕方の責任者の作業について何が示唆されますか。
+A The supervisor uses information first recorded on paper.|先に用紙に記録された情報を使う。|案内役が在庫表を記入して渡し、責任者が翌朝データを入力します。
+B The supervisor counts cards while leading each tour.|毎回ツアーを案内しながらカードを数える。|ツアーごとの記録は案内役が行います。
+C The supervisor keeps the front desk open after hours.|閉館時間を過ぎても来客窓口を開けておく。|窓口が閉まってから警備担当に渡す手順です。
+D The supervisor replaces every returned card with a new one.|返却されたカードをすべて新品と交換する。|記録の入力であり、カードの交換は述べていません。
+! A
+% inventory sheet=在庫表|hand to=～へ手渡す|unused=未使用の
+> cross|複数文書照合|hard|linked
+? t3,t5|What should V. Ner do after 5:00 P.M. on Saturday?|ネルは土曜の午後5時以降に何をするべきですか。
+A Move the return box away from the front counter.|受付から返却箱を移動する。|返却箱は受付脇に置いたまま、在庫表だけを運びます。
+B Begin leading another tour at the west entrance.|西入口で次のツアーを始める。|4時の回は中止で、2時15分の回が最終です。
+C Enter the record in the computer system.|記録をコンピューターに入力する。|入力は翌朝に責任者が担当します。
+D Give the inventory sheet to security at the west entrance.|西入口の警備担当へ在庫表を渡す。|後のツアーが中止されたため、ネルが最終回の担当です。窓口が5時に閉まってから警備担当へ渡します。
+! D
+% inventory sheet=在庫表|hand to=～へ手渡す|unused=未使用の
+> sentence|文挿入|hard|local
+: text|At the end of every tour, guides at Korsen Hide House drop the unused audio cards into the return box by the front counter. [1]\nStarting this weekend, each guide must also record the unused cards on the inventory sheet kept next to the box. [2]\nFor the final tour of the day, wait until the visitor desk closes before handing the sheet to security at the west entrance. [3]\nThe evening supervisor will enter the record in the system the following morning. [4]|コーセンハイド館のガイドは、各ツアーの終わりに、使わなかった音声カードを受付そばの返却箱に入れます。\n今週末から、ガイドは返却箱の隣にある在庫表にも、使わなかったカードを記録する必要があります。\n空欄の行に、担当したツアーの時刻と返却枚数を記入してください。\nその日の最終ツアーでは、来客窓口が閉まってから、西入口の警備担当に在庫表を渡してください。\n夕方の責任者は翌朝に記録をシステムへ入力します。
+? t1|Where does the following sentence best fit? “Use the empty row for your tour time and the number of cards returned.”|「空欄の行に、担当したツアーの時刻と返却枚数を記入してください。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|返却箱について述べただけでは、空欄の行がある在庫表が登場していません。
+B [2]|[2] の位置。|在庫表に記録するよう指示した直後に、記入する項目を具体化しています。
+C [3]|[3] の位置。|表を警備担当に渡す段階に進んだ後であり、記入方法を示す位置として遅いです。
+D [4]|[4] の位置。|システム入力の後に戻り、案内役が使う紙の記入手順を述べる流れになりません。
+! B
+% inventory sheet=在庫表|hand to=～へ手渡す|unused=未使用の

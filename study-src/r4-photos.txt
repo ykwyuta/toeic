@@ -1,0 +1,149 @@
+@p1-action-r4-iron|1|動作|衣服の補修工房|easy
+& iron|作業者が青いシャツにアイロンをかけています。
+? photo||写真と一致する描写を選びます。
+A A shirt is being ironed.|シャツにアイロンがかけられています。|アイロンの底面を台の上の青いシャツに当てています。
+B A shirt is being taken off a hanger.|シャツがハンガーから外されています。|人物は奥の服掛けに手を伸ばさず、台上の布を押さえています。
+C A towel is being folded.|タオルがたたまれています。|右のタオルはすでにたたまれ、人物は青いシャツを扱っています。
+D A clock is being hung on the wall.|時計が壁に掛けられているところです。|時計はすでに壁に掛かり、人物は時計に触れていません。
+! A
+% iron=アイロンをかける|shirt=シャツ
+
+@p1-state-r4-iron|1|状態|衣服の補修工房|easy
+& iron|白いタオルがたたまれて重ねてあります。
+? photo||写真と一致する描写を選びます。
+A Some white towels are hung on hooks.|白いタオルがフックに掛かっています。|白いタオルは右の台にあり、奥の掛け具にあるのは衣服です。
+B Some white towels are stacked.|白いタオルが重ねてあります。|右側の木製の台に白いタオルが重ねてあります。
+C Some white towels are draped over a chair.|白いタオルが椅子の背に掛かっています。|タオルは木の作業台に置かれています。
+D Some white towels are spread on the floor.|白いタオルが床に広げられています。|折りたたまれたタオルは床より高い台の上にあります。
+! B
+% stack=積み重ねる|drape=垂らして掛ける
+
+@p1-position-r4-iron|1|位置関係|衣服の補修工房|easy
+& iron|壁の時計が白いタオルより上にあります。
+? photo||写真と一致する描写を選びます。
+A The wall clock is beneath the folded towels.|壁掛け時計はたたまれたタオルの下にあります。|時計の方がタオルより上にあります。
+B The wall clock is beside the iron on the board.|壁掛け時計は台の上、アイロンの横にあります。|アイロンは手前の台にあり、時計は奥の壁にあります。
+C The wall clock is above the folded towels.|壁掛け時計はたたまれたタオルより上にあります。|白い時計は右の木製台の上方にあり、タオルがその下の台にあります。
+D The wall clock is between the towels.|壁掛け時計はタオルの間にあります。|時計はタオルに挟まれず、その上方の壁に掛かっています。
+! C
+% wall clock=壁掛け時計|beside=すぐ横に
+
+@p1-action-r4-squeegee|1|動作|商店の窓清掃|easy
+& squeegee|人物が窓のガラスに水切りワイパーを当てています。
+? photo||写真と一致する描写を選びます。
+A A person is carrying a bucket into the shop.|人物がバケツを店内へ運んでいます。|バケツは人物の足元の路面に置かれています。
+B A person is opening a door.|人物がドアを開けています。|左のドアは閉じたままで、人物は窓へ手を伸ばしています。
+C A person is setting up a ladder.|人物がはしごを立てています。|人物が持っているのは小型のワイパーです。はしごはありません。
+D A person is wiping a display window.|人物がショーウィンドウを拭いています。|手にしたワイパーがガラスに触れています。
+! D
+% wipe=拭く|display window=ショーウィンドウ
+
+@p1-state-r4-squeegee|1|状態|商店の窓清掃|easy
+& squeegee|青いドアが閉じています。
+? photo||写真と一致する描写を選びます。
+A A blue door is closed.|青いドアが閉まっています。|左の青い扉が枠の中に収まり、開口部が見えません。
+B A blue door is propped open.|青いドアがつっかえで開けてあります。|ドアは枠に収まった状態です。
+C A blue door is covered with a curtain.|青いドアがカーテンで覆われています。|青い扉の板や取っ手が見えています。
+D A blue door has been removed from its frame.|青いドアが枠から外されています。|ドアは左の入り口の枠にはまっています。
+! A
+% propped open=物をあてがって開けたままの|curtain=カーテン
+
+@p1-position-r4-squeegee|1|位置関係|商店の窓清掃|easy
+& squeegee|緑のバケツがショーウィンドウの下の路面にあります。
+? photo||写真と一致する描写を選びます。
+A A green bucket is on the windowsill.|緑のバケツが窓台にあります。|バケツの底は路面に接しています。
+B A green bucket is on the pavement below the window.|緑のバケツが窓の下の歩道にあります。|窓の手前の路面に緑のバケツが立っています。
+C A green bucket is behind the glass.|緑のバケツがガラスの奥にあります。|バケツは店の外側にあり、路面に置かれています。
+D A green bucket is hanging above the door.|緑のバケツがドアの上にぶら下がっています。|バケツは窓の下の路面にあり、掛けられてはいません。
+! B
+% pavement=舗装された歩道|windowsill=窓台
+
+@p1-action-r4-unload|1|動作|家具店の倉庫|easy
+& unload|作業者がカートの荷台の上で段ボール箱を両手に持っています。
+? photo||写真と一致する描写を選びます。
+A A worker is sweeping beneath a cart.|作業者が台車の下を掃いています。|人物はほうきでなく箱を持っています。
+B A worker is painting a cart.|作業者が台車に塗料を塗っています。|手元に箱があり、塗装用具は見えません。
+C A worker is holding a box over a cart.|作業者が台車の上で箱を持っています。|人物は両手で箱を持ち、青い台車の荷台にかざしています。
+D A worker is pulling a hand truck.|作業者が二輪の運搬車を引いています。|黄色い運搬車は奥にあり、人物はそこから離れています。
+! C
+% hold=手で持つ|platform cart=平台車
+
+@p1-state-r4-unload|1|状態|家具店の倉庫|easy
+& unload|箱が木の棚に置かれています。
+? photo||写真と一致する描写を選びます。
+A Some cartons are hanging from hooks.|段ボール箱がフックからつり下げられています。|箱の底は木製棚に載っています。
+B Some cartons are stacked on the blue cart.|段ボール箱が青い台車に積み重なっています。|青い台車の荷台は空いており、箱は作業者の手元と棚にあります。
+C Some cartons are lying open on the floor.|段ボール箱が開いた状態で床に置かれています。|低い棚の箱は閉じられており、床には開いた箱がありません。
+D Some cartons are stored on a low rack.|段ボール箱が低い棚に置かれています。|木製の台の下段に段ボール箱が並んでいます。
+! D
+% carton=段ボール箱|rack=棚
+
+@p1-position-r4-unload|1|位置関係|家具店の倉庫|easy
+& unload|黄色い運搬車が木の棚の右側にあります。
+? photo||写真と一致する描写を選びます。
+A A yellow hand truck is to the right of a wooden rack.|黄色い運搬車は木製棚の右にあります。|写真右端近くの黄色い運搬車は箱がある木製棚の横です。
+B A yellow hand truck is on a wooden rack.|黄色い運搬車は木製棚に載っています。|黄色い運搬車は棚の外側の床にあります。
+C A yellow hand truck is between the worker and the blue cart.|黄色い運搬車は作業者と青い台車の間にあります。|人物と青い台車は手前で接近し、運搬車は奥の右側に離れています。
+D A yellow hand truck is under the boxes on the rack.|黄色い運搬車は棚の箱の下にあります。|棚の内側ではなく右の床に置かれています。
+! A
+% hand truck=二輪の運搬車|to the right of=～の右側に
+
+@p1-action-r4-brush|1|動作|木工工房|easy
+& brush|人物が刷毛を使って丸い腰掛けを塗装しています。
+? photo||写真と一致する描写を選びます。
+A A person is carrying a stool across the room.|人物が部屋を横切って腰掛けを運んでいます。|人物は腰掛けの横にひざをつき、刷毛を使っています。
+B A person is applying paint to a stool.|人物が腰掛けに塗料を塗っています。|刷毛の先が座面に触れ、座面の一部が緑に塗られています。
+C A person is measuring a stool with a tape measure.|人物が巻き尺で腰掛けを測っています。|手に持っているのは巻き尺でなく刷毛です。
+D A person is mopping the floor.|人物が床をモップで拭いています。|手元の道具は座面を塗る刷毛で、床には当たっていません。
+! B
+% apply paint=塗料を塗る|stool=背もたれのない腰掛け
+
+@p1-state-r4-brush|1|状態|木工工房|easy
+& brush|奥の2脚の腰掛けは脚を下にして置かれています。
+? photo||写真と一致する描写を選びます。
+A Two stools in the background are stacked.|背景の腰掛け2脚が積み重ねられています。|右奥の2脚は隣り合って床に立っています。
+B Two stools in the background are lying on their sides.|背景の腰掛け2脚が横倒しになっています。|どちらも座面が上で脚が下です。
+C Two stools in the background are standing upright.|背景の腰掛け2脚が立っています。|右奥の腰掛けは脚が床に接しています。
+D Two stools in the background are wrapped in cloth.|背景の腰掛け2脚が布に包まれています。|布は手前の床にあり、奥の腰掛けの木部は見えています。
+! C
+% upright=直立した|on its side=横倒しで
+
+@p1-position-r4-brush|1|位置関係|木工工房|easy
+& brush|開いた塗料缶が作業中の腰掛けの下にあります。
+? photo||写真と一致する描写を選びます。
+A An open paint can is on the stool being painted.|開いた塗料缶が塗装中の腰掛けに載っています。|腰掛けの座面に当たっているのは刷毛で、缶は床にあります。
+B An open paint can is on a shelf above the worker.|開いた塗料缶が作業者より上の棚にあります。|缶は作業者がひざをつく高さより低い床にあります。
+C An open paint can is behind the two stools in the background.|開いた塗料缶が背景の腰掛け2脚の後ろにあります。|缶は手前の作業中の腰掛けの下です。
+D An open paint can is beneath the stool being painted.|開いた塗料缶が塗装中の腰掛けの下にあります。|缶は緑の座面より低く、脚の間に置かれています。
+! D
+% paint can=塗料缶|beneath=～の下に
+
+@p1-action-r4-rack|1|動作|自転車修理店|easy
+& rack|人物がフロアポンプで自転車のタイヤに空気を入れています。
+? photo||写真と一致する描写を選びます。
+A A person is using a pump on a bicycle tire.|人物が自転車のタイヤにポンプを使っています。|人物がポンプの持ち手を握り、ホースが自転車の車輪につながっています。
+B A person is taking a wheel off the wall.|人物が壁から車輪を外しています。|壁の車輪には触れていません。
+C A person is riding a bicycle indoors.|人物が屋内で自転車に乗っています。|人物は床に立ち、自転車の隣で作業しています。
+D A person is opening a toolbox.|人物が工具箱を開けています。|赤い箱は閉じて台に置かれています。
+! A
+% pump=空気を入れる|tire=タイヤ
+
+@p1-state-r4-rack|1|状態|自転車修理店|easy
+& rack|自転車の予備の車輪2本が壁に掛かっています。
+? photo||写真と一致する描写を選びます。
+A Two spare wheels are lying flat on the counter.|予備の車輪2本が作業台に平らに置かれています。|予備の車輪は台の上でなく壁に掛かっています。
+B Two spare wheels are hanging on the wall.|予備の車輪が2本、壁に掛かっています。|背景の壁に丸い車輪が縦向きに2本掛かっています。
+C Two spare wheels are piled on the floor.|予備の車輪2本が床に重ねられています。|壁の車輪の下端は床より高い位置です。
+D Two spare wheels are inside a red box.|予備の車輪2本が赤い箱に入っています。|車輪は赤い箱より大きく、どちらも壁に見えています。
+! B
+% spare wheel=予備の車輪|hang=掛かっている
+
+@p1-position-r4-rack|1|位置関係|自転車修理店|easy
+& rack|赤い工具箱は壁掛けの車輪の下に置かれています。
+? photo||写真と一致する描写を選びます。
+A A red toolbox is on the floor beside the pump.|赤い工具箱がポンプ横の床にあります。|ポンプは床に立っていますが、工具箱は奥の台にあります。
+B A red toolbox is above both hanging wheels.|赤い工具箱は壁の車輪2本より上にあります。|車輪が上、工具箱が下です。
+C A red toolbox is on the counter below the wheels.|赤い工具箱が車輪の下の作業台にあります。|赤い長方形の箱は壁の車輪2本より低い作業台に載っています。
+D A red toolbox is attached to the front of the bicycle.|赤い工具箱が自転車の前に取り付けられています。|工具箱は奥の作業台の上にあり、自転車から離れています。
+! C
+% toolbox=工具箱|counter=作業台

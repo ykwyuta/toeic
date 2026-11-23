@@ -1,0 +1,99 @@
+@p6-cohesion-r4-returns|6|文脈・つながり|校正刷りの返送|medium
+: text|The staff at Delnor Press normally ask clients to return marked proofs by courier. The bridge used by the courier will be closed this Tuesday, however. _____, on Tuesday we will accept scans of marked pages by email. Please keep the originals until we confirm receipt.|デルノア印刷所では、通常、修正を書き込んだ校正刷りを宅配便で返送していただきます。ただし今週火曜は宅配便が使う橋が通行止めになります。そのため火曜は、修正を書き込んだページをスキャンし、メールで送っていただけます。受領をお知らせするまで原本は保管してください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A As a result|そのため。|火曜は通常どおり宅配便で返せないため、スキャンしたページをメールで受け付けるという流れです。
+B In the same way|同じように。|メールで受け付けることは、橋が閉鎖されることと同種の出来事ではありません。
+C In the past|以前は。|will accept と this Tuesday が示すのは今後の臨時対応です。
+D For instance|例えば。|橋が通行止めになる具体例でなく、通行止めに伴う返送方法の変更です。
+! A
+% marked proof=修正を書き込んだ校正刷り|confirm receipt=受領を確認する
+
+@p6-cohesion-r4-vests|6|文脈・つながり|作業用ベストの回収|medium
+: text|All borrowed vests must be returned to the equipment desk by five on Friday. Anyone scheduled to work off-site that afternoon can hand theirs to a team leader in the morning _____. Either way, please remove your name card from the vest pocket before returning it.|借りたベストはすべて金曜5時までに備品窓口へ返却してください。その日の午後に外部で勤務する予定の人は、それに代えて午前中に班長に渡せます。いずれの場合も、返却前にポケットから名札を抜いてください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A respectively|それぞれ。|複数の人と返却先を対応させる表現です。ここでは外部勤務者に共通する返却先を一つ示しています。
+B instead|代わりに。|午後に備品窓口へ行けない人が、午前中に班長へ預けるという代替手段です。
+C previously|以前は。|can が示すのは金曜に取れる手段で、過去の扱いではありません。
+D for example|例えば。|午前に班長へ渡すことは、備品窓口への返却の具体例ではありません。
+! B
+% off-site=施設外で|either way=いずれの場合でも
+
+@p6-cohesion-r4-pods|6|文脈・つながり|録音室の利用条件|medium
+: text|The new recording rooms have solid doors and thick interior walls. Even with those features, fan noise can reach the microphones through the vents. _____, please turn off the fan before recording a quiet conversation. Switch it back on when you leave.|新しい録音室には頑丈な扉と厚い内壁があります。それでも、通気口を通った換気扇の音をマイクが拾うことがあります。そのため、小声での会話を録音する前に換気扇を止めてください。退出時に再び電源を入れてください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A In other words|言い換えれば。|録音前にファンを止める指示は、音が伝わるという事実の言い換えではありません。
+B By coincidence|偶然にも。|換気扇を止める行動には、音が伝わるという理由があります。
+C For this reason|この理由から。|音が通気口を通って伝わるため、録音前に換気扇を止める指示につながります。
+D On the contrary|むしろ逆に。|換気扇を止める指示は、通気口を通る音の説明と矛盾しません。
+! C
+% vent=通気口|switch back on=再び電源を入れる
+
+@p6-cohesion-r4-archive|6|文脈・つながり|窓口の臨時閉鎖|medium
+: text|The town archive's reading room will reopen as soon as the new shelves have been inspected. The inspection date has yet to be confirmed. _____, researchers may request digital copies of documents through the archive's website. An assistant will respond within two working days.|町の文書館の閲覧室は、新しい棚の点検後すぐに再開します。点検日はまだ決まっていません。それまでの間、調査をする方は文書館のウェブサイトで文書のデジタル版を請求できます。担当者が2営業日以内に回答します。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A In the long run|長い目で見れば。|閲覧室の再開までに使える一時的な方法を知らせるので、長期の展望を示す表現は合いません。
+B By comparison|比較すると。|閉鎖中に調査を続けるための案内で、二つの対象の比較は行っていません。
+C To be exact|正確に言うと。|点検の日時を詳しく説明する文ではなく、閉鎖中の別の閲覧方法を案内しています。
+D In the meantime|それまでの間。|閲覧室が再開するまでの間、ウェブで資料を取り寄せる方法を示しています。
+! D
+% have yet to be confirmed=まだ確定していない|request a copy=写しを請求する
+
+@p6-cohesion-r4-rainplan|6|文脈・つながり|屋外講座の服装案内|medium
+: text|The morning nature walk will go ahead in light rain. Please dress for wet conditions and bring a rain jacket. _____, wear shoes with good grip, since a short unpaved stretch of the route can get slippery. A covered area is available for the opening briefing.|午前の自然観察会は小雨でも実施します。雨に備えた服装で、レインジャケットを持参してください。特に、経路の短い未舗装区間は滑りやすくなるため、滑り止めの効く靴を履いてください。開始時の説明は屋根のある場所で聞けます。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A In particular|特に。|雨天でも行うという全体案内に続き、服装のうち未舗装区間を歩く靴に注意を向けています。
+B By contrast|対照的に。|未舗装区間があることと滑りにくい靴を履くことは対照関係ではありません。
+C Nevertheless|それにもかかわらず。|滑りやすい道があることが靴を選ぶ理由であり、予想に逆らう事柄を示していません。
+D In the same way|同じように。|同じ方法で行う二つの作業を比較していません。
+! A
+% stretch=一区間|good grip=滑りにくいこと
+
+@p6-sentence-r4-cratecards|6|文挿入|展示備品の返却点検|medium
+: text|Before locking up the Darnell Hall display room, bring the loan cases to the inspection table. Compare every borrowed item with the list taped inside its case. _____ These removable labels will help the morning crew find and check any items that are not on the list. Do not update the list yourself.|ダーネルホールの展示室を施錠する前に、貸出ケースを点検台へ運んでください。借りたものを、ケース内側に貼ってある一覧と一つずつ照合してください。一覧に見当たらない品物には、はがせるラベルを付けてください。そのラベルがあれば、朝の担当が一覧にない品を見つけて確かめられます。自分では一覧を更新しないでください。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A Put all empty cases on the bottom shelf before you leave.|帰る前に空のケースをすべて最下段の棚に置いてください。|保管場所を指示する文で、次文が指すラベルは登場しません。
+B Attach a removable label to each item you cannot find on the list.|一覧に見当たらない品物には、はがせるラベルを付けてください。|次文の These removable labels がこの指示のラベルを指し、朝の担当が照合する手順につながります。
+C Take the completed checklist to the front desk when you finish.|作業を終えたら記入済みの点検表を受付へ運んでください。|点検表は品につけるラベルではなく、返却先もここでは扱いません。
+D Check the case handles for signs of wear.|ケースの取っ手に摩耗がないか確認してください。|取っ手の点検では、一覧にない品を識別する手順を説明できません。
+! B
+% loan case=貸出ケース|removable label=はがせるラベル
+
+@p6-sentence-r4-viewfinder|6|文挿入|カメラ貸出の案内|medium
+: text|The cameras in the Pennel Media Lab share the same storage case. Each kit includes a camera and a charger, so please check for both before leaving. _____ Write that number on the loan sheet rather than the model name, which is the same on every kit. This helps us match each returned kit to the correct loan.|ペネルメディア室のカメラは同じ保管ケースに入っています。各セットにはカメラと充電器が入っているので、持ち出す前に両方あるか確認してください。次に、カメラ本体の底の番号を確認してください。その番号を貸出台帳に記入してください。機種名はどの組も同じなので使いません。こうすると返却された組を正しい貸出記録と照合できます。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A Unplug the charger once its indicator turns green.|ランプが緑に変わったら充電器のプラグを抜いてください。|色の指示で、台帳に記入する番号が示されません。
+B Leave the case in the cabinet while you are using the camera.|カメラを使っている間、ケースは戸棚に入れておいてください。|保管方法では、次文が参照する番号は分かりません。
+C Next, look for the number printed on the bottom of the camera body.|次に、カメラ本体の底に印刷された番号を確認してください。|that number が示す番号の場所を説明し、貸出台帳への記入に続きます。
+D Ask a lab assistant if you need help setting the focus.|ピントを合わせるのに手助けが必要なら係員に尋ねてください。|撮影方法に関する案内で、貸出記録を特定する番号とは結び付きません。
+! C
+% loan sheet=貸出台帳|model name=機種名
+
+@p6-sentence-r4-boatshow|6|文挿入|模型展示の受付|medium
+: text|Thank you for entering the Mireven model boat show. The intake desk will verify that every boat has a protective cradle for transport. _____ If you choose to make one, label it with your name before attaching it to your boat. Cradles will be stored behind the display tables during the judging.|ミレヴェン模型ボート展にご出品ありがとうございます。搬入受付では、すべてのボートに運搬用の受け台があるかを確認します。受け台は既製品を持参しても、自作しても構いません。自作する場合は、ボートに取り付ける前に受け台に名前を付けてください。審査中は受け台を展示台の後ろに保管します。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A A volunteer can help you carry your boat from the parking lot.|ボランティアが駐車場からボートを運ぶお手伝いをできます。|運搬補助で、自作できる受け台について説明しません。
+B The desk will accept arrivals until exactly eleven.|受付はちょうど11時まで受け付けます。|締切を示しますが、次文が述べる自作の条件と結び付きません。
+C Judges will inspect the boats without running their motors.|審査員はモーターを動かさずボートを点検します。|審査方法で、運搬用受け台を自作する選択肢にはなりません。
+D You may bring a ready-made cradle or build your own.|既製の受け台を持参するか、自作できます。|次文の If you choose to make one が自作の選択肢を受けています。
+! D
+% intake desk=搬入受付|cradle=模型などを支える受け台
+
+@p6-sentence-r4-mailing|6|文挿入|会員便りの最終確認|medium
+: text|We will publish the Storven Civic House newsletter on Thursday. Since the printed copies go straight to the mailing service, we need to catch any address changes before printing. _____ Any message received after that cutoff will apply to the next issue. Please include your membership number when you write to us.|ストーヴェン市民館の会報を木曜に発行します。印刷物はそのまま発送業者へ渡るので、印刷前に住所変更を把握する必要があります。新しい送付先は水曜の正午までにメールでお知らせください。その締切後に届いた連絡は次号から適用します。メールには会員番号を書いてください。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A Please email us your new mailing address by noon on Wednesday.|新しい送付先は水曜の正午までにメールでお知らせください。|住所変更の連絡期限を示し、直後の that cutoff の参照先になります。
+B A digital copy will be available on our website as well.|ウェブサイトでも電子版を閲覧できます。|閲覧手段で、住所変更を連絡する締切は分かりません。
+C The mailing service no longer supplies its own envelopes.|発送業者は封筒の提供を終了しました。|発送資材の情報であり、住所変更の期限を示しません。
+D The printed newsletter now has eight pages.|印刷版の会報は現在8ページです。|誌面の情報で、締切を示す that cutoff の参照先になりません。
+! A
+% go straight to=そのまま渡る|cutoff=締切
+
+@p6-sentence-r4-garden|6|文挿入|用具配布の受取方式|medium
+: text|Clovenn Garden Centre will distribute hand tools to volunteers on Saturday. The counter has room for only one group at a time, so please look for the check-in list by the entrance. _____ The attendant will call out those names in order. Wait in the marked area until you are called.|クロヴェン園芸館は土曜にボランティアへ手工具を配ります。窓口に一度に入れるのは一組だけなので、入口の受付名簿を確認してください。その用紙の次の空欄に、班の代表者の名前を書いてください。担当者が名簿順に名前を読み上げます。呼ばれるまで表示された場所でお待ちください。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A Choose only the tools listed in your volunteer handbook.|ボランティア用手引きに載っている工具だけを選んでください。|工具の選択であり、次文の those names の参照先がありません。
+B Write your group leader's name on the next free line of the sheet.|その用紙の次の空欄に班の代表者の名前を書いてください。|用紙を見つけた後に氏名を記入すると、次の文で担当者がその名前を順に呼べます。
+C Take two steps back from the counter after collecting your tools.|工具を受け取った後は窓口から二歩下がってください。|受け取り後の指示で、名前を呼ぶための名簿記入が抜けます。
+D Ask a member of staff if you cannot find the entrance.|入口が分からない場合は職員に尋ねてください。|入場場所の補足であり、次に担当者が読む名前が登場しません。
+! B
+% check-in list=受付名簿|attendant=担当者

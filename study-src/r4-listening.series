@@ -1,0 +1,421 @@
+@stencildesk|3|街路案内の印刷
+: g|Could we print a hundred trail maps for the Ridgewick open day? The weather forecast says rain, so the paper has to hold up outdoors.|リッジウィックの公開日に向けて遊歩道の地図を100部印刷できますか。雨の予報なので、紙は屋外で使える丈夫なものにしてください。
+: m|We have paper that can withstand rain. But our upstairs printer is out of action. The downstairs machine can only print in black and white.|雨に耐えられる用紙はあります。ただ、上の階の印刷機は故障中です。下の階の機械では白黒でしか印刷できません。
+: g|That's all right. I'll e-mail you a grayscale version tonight. Please wait for that file before printing.|それで構いません。今晩グレースケール版をメールします。そのファイルが届いてから印刷してください。
+# Print services|印刷サービス
+= Name|名称; Stock|紙; Color|色
+= Finch|フィンチ; Standard|普通紙; Black and white|白黒
+= Heron|ヘロン; Water-resistant|耐水; Full color|カラー
+= Swift|スウィフト; Water-resistant|耐水; Black and white|白黒
+= Tern|ターン; Standard|普通紙; Full color|カラー
+> purpose|目的・場面|easy|common
+? t1,t3|Why does the woman approach the man?|女性が男性に話しかける目的は何ですか。
+A To arrange for some maps to be printed.|地図の印刷を手配するため。|公開日用の地図100部の印刷を依頼しています。
+B To borrow a printer for a public event.|一般公開のためプリンターを借りるため。|機械は男性側で使い、女性は印刷自体を頼みます。
+C To have a machine moved downstairs.|機械を下の階に移してもらうため。|下の階にはすでに機械があります。
+D To check which trails will reopen.|どの遊歩道が再開するか確認するため。|遊歩道の状況の確認でなく地図の作成です。
+! A
+% trail map=遊歩道の地図|open day=一般公開日
+> intent|発言の意図|medium|common
+? t2|What does the man mean when he says the upstairs printer is “out of action”?|男性が上の階の印刷機は「故障中だ」と言うのはどういう意味ですか。
+A The machine has run out of paper.|その機械は紙を切らしている。|耐水紙は在庫があり、機械自体が使えないと述べています。
+B The machine produces only black-and-white copies.|その機械は白黒でしか印刷できない。|白黒専用という条件は下の階の機械です。
+C The machine has been moved to another floor.|その機械は別の階に移された。|別の階には別の機械があり、移動の話はありません。
+D The machine is unavailable for use.|その機械は使えない。|代わりに下の階の白黒印刷機を挙げています。
+! D
+% out of action=故障などで動かない
+> chart|図表照合|medium|table
+? t1,t2,r3c1,r3c2,r3c3|Look at the table. Which service meets the requirements?|表を見てください。条件に合う印刷サービスはどれですか。
+A Finch.|フィンチ。|白黒ですが普通紙です。
+B Heron.|ヘロン。|耐水紙ですがカラー印刷です。
+C Swift.|スウィフト。|耐水紙を白黒で印刷するため、用紙と印刷機の制約両方に合います。
+D Tern.|ターン。|普通紙でカラー印刷です。
+! C
+% stock=用紙|water-resistant=耐水性の
+> next|次の行動|medium|common
+? t3|What will the woman do that evening?|女性はその日の夜に何をしますか。
+A Collect the finished maps.|完成した地図を受け取る。|まだ印刷せず、差し替えファイルを待つよう頼んでいます。
+B Send an updated file.|更新したファイルを送る。|今晩グレースケール版をメールすると述べています。
+C Purchase the required paper.|必要な用紙を買う。|男性が紙の入手は容易と言いますが、女性が買う予定はありません。
+D Move a printer downstairs.|印刷機を下の階に運ぶ。|下の階の既存機を使う話です。
+! B
+% grayscale=グレースケール|version=版
+
+@weekendferry|3|搬入用のフェリー手配
+: f|We need to take six display screens to the Harven Island fair on Sunday. Can you book the ferry for us?|日曜にハーヴェン島の展示会へディスプレイを6台運ぶ必要があります。フェリーを予約していただけますか。
+: b|Will you take your van? A passenger-only fare would cost less, but it doesn't include a vehicle.|バンを載せますか。旅客専用運賃は安いですが車両は含みません。
+: f|Yes. We also need to be on the island before eleven to set up. Anything later is off the table.|はい。それに設営のため11時前には島に着く必要があります。それより遅い便は候補外です。
+: m|I can check availability online while you finish packing.|梱包を続けている間に、オンラインで空きを調べられますよ。
+# Sunday sailings|日曜の運航
+= Ferry|フェリー; Arrival|到着; Vehicles|車両積載
+= Ash|アッシュ; 10:05|10時5分; No|不可
+= Brim|ブリム; 10:40|10時40分; Yes|可
+= Crest|クレスト; 11:15|11時15分; Yes|可
+= Drift|ドリフト; 11:40|11時40分; No|不可
+> purpose|目的・場面|easy|common
+? t1,t3|What is the woman trying to arrange?|女性は何を手配しようとしていますか。
+A Delivery of new screens to her office.|新しいモニターの事務所への配送。|運ぶ先は島の展示会です。
+B Ferry transport for exhibition equipment.|展示機材を運ぶフェリー。|展示会へディスプレイを運ぶため乗船を頼んでいます。
+C Admission to a fair on the mainland.|本土の展示会への入場。|会場の入場券でなく島への移動を手配します。
+D A rental van for island sightseeing.|島内観光用のレンタルバン。|自分たちのバンをフェリーに載せます。
+! B
+% take to=〜へ運ぶ|set up=設営する
+> intent|発言の意図|medium|common
+? t3|What does the woman mean by “Anything later is off the table”?|女性が「それより遅い便は候補外です」と言うのは何を伝えるためですか。
+A A later arrival would not meet their needs.|遅く着く便は条件に合わない。|設営のため11時より前の到着が必要です。
+B The schedule is missing its evening sailings.|予定表に夕方便が載っていない。|表の欠落ではなく使える時刻の制約を述べています。
+C The organizers removed some equipment.|主催者が機材を一部取り除いた。|off the table は候補外の意味で、物を片付けたわけではありません。
+D The display will remain open later than planned.|展示は予定より遅くまで開く。|話題は到着の締切で、展示の終了時刻ではありません。
+! A
+% off the table=選択肢から外れた
+> chart|図表照合|medium|table
+? t2,t3,r2c1,r2c2,r2c3|Look at the table. Which ferry should the team book?|表を見てください。一行はどのフェリーを予約するべきですか。
+A Ash.|アッシュ。|到着は早いですが車両を載せられません。
+B Crest.|クレスト。|車両は載せられますが、到着が11時を過ぎます。
+C Drift.|ドリフト。|車両は載せられず、到着も11時を過ぎます。
+D Brim.|ブリム。|車両を載せられ、島に11時前の10時40分に着きます。
+! D
+% sailing=定期船の便|vehicle=車両
+> next|次の行動|medium|common
+? t4|What does the last speaker offer to do?|最後の話し手は何をすると申し出ていますか。
+A Set up the display on the island.|島で展示を設営する。|設営は到着条件の背景で、最後の話し手の申し出は空き確認です。
+B Load the screens onto the van.|ディスプレイをバンに積み込む。|荷物を扱うのは依頼者側で、男性はオンラインで調べます。
+C Check for spaces on the ferry.|フェリーの空きを確認する。|梱包が続く間にウェブで空きを調べると申し出ます。
+D Meet the group at the ferry terminal.|フェリー乗り場で一行と合流する。|合流の提案や時刻の話はありません。
+! C
+% availability=空き状況|finish packing=梱包を終える
+
+@sampletray|3|コンテナの選定
+: m|We have forty sample jars for the product tasting. I need a container that fits in the fridge and has dividers to keep the jars apart.|試食用の見本瓶が40個あります。冷蔵庫に収まり、瓶を離しておける仕切り付きの容器が必要です。
+: f|Use the space under the bottom shelf in the fridge. There isn't enough room for a tall container there. It also needs to hold all forty jars.|冷蔵庫の一番下の棚の下を使ってください。そこには背の高い容器が入る余裕がありません。容器には40個全部が入る必要もあります。
+: m|That rules out the tall bins. I'll measure the inside of the short one before ordering it.|それなら背の高い容器は候補から外れますね。注文前に低いタイプの内側を測ります。
+# Sample containers|見本用コンテナ
+= Model|型; Height|高さ; Dividers|仕切り; Capacity|容量
+= Alder|アルダー; Tall|高い; Yes|あり; 48|48個
+= Birk|バーク; Low|低い; No|なし; 48|48個
+= Clove|クローブ; Low|低い; Yes|あり; 50|50個
+= Doran|ドラン; Low|低い; Yes|あり; 32|32個
+> purpose|目的・場面|easy|common
+? t1|What is the man looking for?|男性は何を探していますか。
+A A new refrigerator for the kitchen.|台所用の新しい冷蔵庫。|すでにある冷蔵庫の中に収める容器が必要です。
+B Additional food for a tasting event.|試食会の追加の食品。|瓶は40個あり、食品の追加は求めていません。
+C Storage for a set of sample jars.|複数の見本瓶を入れる収納容器。|瓶全部を分けて冷蔵できる容器を探しています。
+D A replacement shelf for the display room.|展示室用の交換棚。|棚は冷蔵庫にあり、買う品は容器です。
+! C
+% jar=瓶|divider=仕切り
+> intent|発言の意図|medium|common
+? t2,t3|What does the man mean by “That rules out the tall bins”?|「背の高い容器は候補から外れます」という男性の発言はどういう意味ですか。
+A He will replace the shelf with a taller one.|棚をもっと高いものに交換する。|既存の棚に入る低い容器を選びます。
+B He will exclude the taller containers from consideration.|高い容器は検討しない。|高い容器は棚の下に収まらないため除外します。
+C He will empty containers already in the fridge.|冷蔵庫に入っている容器を空にする。|収納前に適した容器を選んでいます。
+D He will remove the dividers from each bin.|容器から仕切りを外す。|瓶を離すため仕切り付きが条件です。
+! B
+% rule out=候補から外す
+> chart|図表照合|medium|table
+? t1,t2,r3c1,r3c2,r3c3,r3c4|Look at the table. Which model meets all of their requirements?|表を見てください。すべての条件を満たす型はどれですか。
+A Clove.|クローブ。|棚に収まる高さで、仕切りがあり、40個以上を収容できます。
+B Alder.|アルダー。|仕切りと容量の条件は合いますが、棚に収まらない高さです。
+C Birk.|バーク。|低く十分な容量ですが、仕切りがありません。
+D Doran.|ドラン。|低く仕切り付きですが、32個しか収容できません。
+! A
+% capacity=収容数|low=高さが低い
+> next|次の行動|medium|common
+? t3|What will the man do before placing an order?|男性は注文前に何をしますか。
+A Count the jars in the refrigerator.|冷蔵庫の中の瓶を数える。|瓶の数はすでに40個と分かっています。
+B Remove the lowest shelf.|最下段の棚を外す。|棚は取り外さず、そこに収まる容器を選びます。
+C Schedule another tasting.|別の試食会を予定する。|試食会の日程調整は述べていません。
+D Measure a container's interior.|容器の内部を測る。|注文する前に低い容器の内寸を確認すると言います。
+! D
+% measure=寸法を測る|inside=内部
+
+@captionteam|3|上映用字幕の選択
+: b|The Delwick short-film evening has two guest groups, and one asked for captions in French. Can we still start at seven?|デルウィック短編映画の夕べには来客が2組あり、一方がフランス語字幕を希望しています。予定どおり7時に始められますか。
+: g|Yes. The French captions are ready, but we'll need to use a format that can run offline. The auditorium doesn't have a connection.|はい。フランス語字幕はできていますが、オフラインで使える形式が必要です。講堂にはネット接続がありません。
+: b|Let's have a dry run this afternoon. I'll bring the projector remote to the auditorium.|今日午後にリハーサルをしましょう。講堂へプロジェクターのリモコンを持っていきます。
+# Caption versions|字幕の種類
+= File|ファイル; Language|言語; Works offline|オフライン再生
+= Canal|カナル; French|フランス語; No|不可
+= Dune|デューン; English|英語; Yes|可
+= Field|フィールド; English|英語; No|不可
+= Grove|グローブ; French|フランス語; Yes|可
+> purpose|目的・場面|easy|common
+? t1,t2|What are the speakers preparing for?|話し手たちは何を準備していますか。
+A A meeting about network installation.|ネット接続工事に関する会議。|接続がないのは上映方式を決める条件です。
+B A class for translating film scripts.|映画脚本の翻訳講座。|字幕はすでにできており、講座を準備していません。
+C An exhibition of video equipment.|映像機器の展示会。|プロジェクターは上映のために使います。
+D A screening for a visiting audience.|来訪者のための上映。|短編映画会で来客の要望に合う字幕を準備します。
+! D
+% short film=短編映画|caption=字幕
+> intent|発言の意図|medium|common
+? t3|What does the man suggest doing when he proposes “a dry run”?|男性が「リハーサルを」と言って何を提案していますか。
+A Inviting guests to an earlier performance.|客を早い時間の公演に招く。|午後は準備の試行で、来客向けの上映時間は変更しません。
+B Installing a faster connection in the auditorium.|講堂に高速回線を導入する。|接続なしで使える形式で対応します。
+C Practising before the actual screening.|本番の上映前に練習する。|午後に機器などを確認し、7時の催しに備えます。
+D Asking the guests to translate the captions.|客に字幕を訳してもらう。|字幕の翻訳はすでに済んでいます。
+! C
+% dry run=本番前の試行
+> chart|図表照合|medium|table
+? t1,t2,r4c1,r4c2,r4c3|Look at the table. Which file should they use?|表を見てください。どのファイルを使うべきですか。
+A Canal.|カナル。|フランス語ですがオフラインで使えません。
+B Grove.|グローブ。|必要なフランス語で、ネット接続なしでも動きます。
+C Dune.|デューン。|オフラインで使えますが英語です。
+D Field.|フィールド。|英語でオフラインにも対応しません。
+! B
+% format=ファイル形式|connection=ネット接続
+> next|次の行動|medium|common
+? t3|What does the man say he will bring to the auditorium?|男性は講堂へ何を持っていくと言っていますか。
+A A remote control.|リモコン。|プロジェクターのリモコンを持参すると言います。
+B A wireless router.|無線ルーター。|オフラインで使う予定で、接続機器の持参は述べていません。
+C A printed programme.|印刷したプログラム。|プログラムの用意には触れていません。
+D A set of headphones.|ヘッドホン一式。|字幕の話であり、音声の機器を持参するとは述べていません。
+! A
+% projector remote=プロジェクターのリモコン|auditorium=講堂
+
+@benchtraining|3|作業研修の講師手配
+: g|Our new volunteers need a short lesson on how to mount small objects for display. Could one of your instructors run it next week?|新しいボランティアには小物を展示用に固定する短い研修が必要です。来週、そちらの講師に頼めますか。
+: m|We can do that. Our workshop on repair is more advanced. You need a morning session for people with no experience, right?|可能です。修理の講習は内容がより専門的です。経験のない方向けの午前の講座を希望ですね。
+: g|Right. I'll leave the choice of instructor in your hands. Can you check your schedule first?|はい。講師選びはお任せします。まず予定を確認してもらえますか。
+: m|Of course. I'll look at who is available and call you back this afternoon.|もちろんです。空いている講師を確認し、今日の午後に折り返します。
+# Training sessions|研修の候補
+= Session|講座; Level|レベル; Time|時間
+= Peg|ペグ; Advanced|上級; Morning|午前
+= Rail|レール; Beginner|初級; Afternoon|午後
+= Shelf|シェルフ; Beginner|初級; Morning|午前
+= Tray|トレー; Advanced|上級; Afternoon|午後
+> purpose|目的・場面|easy|common
+? t1|Why does the woman speak to the man?|女性はなぜ男性に話しかけていますか。
+A To ask how to repair a display case.|展示ケースの修理方法を尋ねるため。|修理は男性が別の講座として挙げています。
+B To arrange training for new volunteers.|新しいボランティアの研修を手配するため。|展示用の固定を教える講師を依頼しています。
+C To find places to store spare objects.|予備の物品の保管場所を探すため。|保管ではなく展示時の固定方法を学ぶ講習です。
+D To sign up as a volunteer instructor.|ボランティア講師に応募するため。|女性は参加者向けに講師を依頼しています。
+! B
+% mount=展示用に固定する|run a lesson=講習を担当する
+> intent|発言の意図|medium|common
+? t3|What does the woman mean by “I'll leave the choice of instructor in your hands”?|女性の「講師選びはお任せします」は何を意味していますか。
+A She wants the man to decide who will teach.|誰が教えるか男性に決めてほしい。|講師の選択を男性側に委ねています。
+B She will show the instructor how to use the tools.|講師に道具の使い方を教える。|使い方を教わるのは新しいボランティアです。
+C She plans to conduct the session herself.|自分で研修を行うつもりだ。|女性は男性側の講師を依頼しています。
+D She cannot attend a hands-on demonstration.|実習の説明に参加できない。|女性の出欠については述べていません。
+! A
+% leave in someone's hands=人に任せる
+> chart|図表照合|medium|table
+? t2,t3,r3c1,r3c2,r3c3|Look at the table. Which session fits the request?|表を見てください。依頼に合う講座はどれですか。
+A Peg.|ペグ。|午前ですが上級です。
+B Rail.|レール。|初級ですが午後です。
+C Tray.|トレー。|上級で午後です。
+D Shelf.|シェルフ。|依頼は午前の初級講座です。
+! D
+% beginner=初級|session=講座
+> next|次の行動|medium|common
+? t3,t4|What does the man say he will do that afternoon?|男性はその日の午後に何をすると言っていますか。
+A Teach the entire volunteer group.|ボランティア全員を教える。|研修は来週で、今日行うのは空き確認と連絡です。
+B Repair a piece of display equipment.|展示機器を修理する。|修理は別講座の例として挙がっただけです。
+C Call the woman back.|女性に折り返し電話する。|講師の空き状況を調べて今日午後に連絡します。
+D Visit the woman's workshop.|女性の工房を訪れる。|男性は電話で折り返すと述べています。
+! C
+% call back=折り返し電話する|available=空いている
+
+@lamplight|4|夜間見学の移動案内
+: f|Welcome to the Norfen Observatory evening tour. The outdoor stairs are closed for repairs, so please choose an indoor route with a lift. Please give yourself a little breathing room. Doors to the telescope room open at eight, but the last entry is at eight fifteen. Check in with a volunteer at your entry point before going upstairs.|ノーフェン観測所の夜間見学へようこそ。屋外階段は補修中のため、エレベーター付きの屋内経路を選んでください。時間には少し余裕を持ってください。望遠鏡室は8時に開きますが、最終入場は8時15分です。上の階に行く前に、入口でボランティアの受付を受けてください。
+# Observatory routes|観測所への経路
+= Route|経路; Setting|屋内・屋外; Lift|エレベーター
+= Beacon|ビーコン; Indoor|屋内; No|なし
+= Meridian|メリディアン; Indoor|屋内; Yes|あり
+= Orbit|オービット; Outdoor|屋外; No|なし
+= Zenith|ゼニス; Outdoor|屋外; Yes|あり
+> purpose|目的・場面|easy|common
+? t1|What is the announcement mainly about?|主に何を案内していますか。
+A Why the telescope requires repairs.|望遠鏡の修理が必要な理由。|修理するのは屋外階段で、望遠鏡ではありません。
+B Where to register as a tour volunteer.|見学案内の担当に登録する場所。|来場者がボランティアの受付を受けます。
+C How visitors should enter for the evening tour.|夜間見学の入場方法。|使える経路、最終入場時刻、受付の案内です。
+D When a new telescope will be installed.|新しい望遠鏡の設置時期。|設置予定ではなく、現在の見学への入場方法です。
+! C
+% observatory=観測所|entry point=入口
+> intent|発言の意図|medium|common
+? t1|What does the speaker mean by “give yourself a little breathing room”?|「少し余裕を持ってください」と言って何を勧めていますか。
+A Wait in a well-ventilated room.|換気のよい部屋で待つ。|換気の指示ではなく、入場までの余裕を意味します。
+B Allow extra time to get inside.|入場までに時間の余裕を取る。|迂回と最終入場時刻があるため早めの到着を促しています。
+C Leave space between visitors in the lift.|エレベーター内で間隔を空ける。|エレベーターの定員や中での立ち方には触れていません。
+D Take a break after the tour ends.|見学が終了したら休憩する。|案内は入場前の行動についてで、終了後ではありません。
+! B
+% breathing room=時間や行動の余裕
+> chart|図表照合|medium|table
+? t1,r2c1,r2c2,r2c3|Look at the table. Which route should visitors take?|表を見てください。来場者はどの経路を選ぶべきですか。
+A Meridian.|メリディアン。|屋内で、エレベーターがあります。
+B Beacon.|ビーコン。|屋内ですが、エレベーターがありません。
+C Orbit.|オービット。|屋外で、エレベーターもありません。
+D Zenith.|ゼニス。|エレベーターはありますが、屋外です。
+! A
+% indoor=屋内の|lift=エレベーター
+> next|次の行動|medium|common
+? t1|What should visitors do before going upstairs?|来場者は上の階へ移動する前に何をするべきですか。
+A Wait next to the telescope.|望遠鏡のそばで待つ。|望遠鏡室へ進む前に、入口で受付を受けます。
+B Pick up a repair schedule.|修理予定表を受け取る。|階段の補修に触れますが、予定表の配布はありません。
+C Sign up for a second tour.|次の見学に申し込む。|案内は今回の入場方法です。
+D Check in with a volunteer.|ボランティアの受付を受ける。|上がる前に入口で受付を受けるよう案内しています。
+! D
+% check in=受付を済ませる|last entry=最終入場
+
+@pickupfridge|4|試飲セットの受け取り
+: m|This is a message from Belwick Juice Works for customers collecting tasting packs. Your packs have to stay cold, and the order counter closes at three today. If you're coming after three, choose a pickup point that stays open later and has a refrigerator. Please reply with your preferred pickup point by one, and we'll move your order there. After that, if your plans change again, keep us in the loop.|ベルウィック果汁工房から、試飲セットを受け取る方への連絡です。セットは冷蔵が必要で、注文窓口は本日3時に閉まります。3時以降に来る方は、もっと遅くまで開いている冷蔵庫付きの受取場所を選んでください。希望の受取場所を1時までに返信していただければ、商品をそこへ移します。その後、また予定が変わった場合は、引き続きお知らせください。
+# Pickup points|受取場所
+= Point|場所; Closes|閉まる時刻; Refrigerator|冷蔵庫
+= Gate A|Aゲート; 2:30|2時30分; Yes|あり
+= Gate B|Bゲート; 3:00|3時; Yes|あり
+= Gate C|Cゲート; 5:00|5時; No|なし
+= Gate D|Dゲート; 5:30|5時30分; Yes|あり
+> purpose|目的・場面|easy|common
+? t1|Why was this message recorded?|なぜこのメッセージが録音されましたか。
+A To advertise a new drink for sale.|新しい飲料の販売を宣伝するため。|すでに注文した試飲セットの受け取りについてです。
+B To apologize for a problem with refrigeration.|冷蔵庫の不具合について謝るため。|冷蔵庫は条件であり、故障の情報はありません。
+C To cancel a scheduled tasting.|予定していた試飲会を取り消すため。|試飲セットは別の場所で受け取れます。
+D To explain an alternative way to collect orders.|注文品の別の受け取り方法を説明するため。|窓口閉鎖後に冷蔵対応の場所を選べると案内しています。
+! D
+% collect=受け取る|tasting pack=試飲セット
+> intent|発言の意図|medium|common
+? t1|What does the speaker mean by “keep us in the loop”?|「引き続きお知らせください」とは何を意味しますか。
+A Customers should stay near the order counter.|客は注文窓口の近くにいるべきだ。|物理的な位置を表す言葉ではなく、予定の変更を知らせるよう頼んでいます。
+B Customers should return the packs after the tasting.|客は試飲後にセットを戻すべきだ。|返却ではなく、客からの継続的な連絡についてです。
+C Customers should tell the staff about any further changes.|客はその後も変更があれば係員に知らせるべきだ。|受取場所を指定した後で予定が変わった場合にも、変更を共有するよう求めています。
+D Customers should call their chosen pickup point directly.|客は希望の受取場所に直接電話するべきだ。|連絡を求めているのはメッセージを送った工房で、受取場所への直接連絡とは言っていません。
+! C
+% keep someone in the loop=状況の変化を知らせ続ける
+> chart|図表照合|medium|table
+? t1,r4c1,r4c2,r4c3|Look at the table. Where should a customer arriving at four collect a tasting pack?|表を見てください。4時に到着する客は試飲セットをどこで受け取るべきですか。
+A Gate A.|Aゲート。|冷蔵庫はありますが、2時30分に閉まります。
+B Gate D.|Dゲート。|4時に開いていて、必要な冷蔵庫があります。
+C Gate B.|Bゲート。|冷蔵庫はありますが、3時に閉まります。
+D Gate C.|Cゲート。|4時には開いていますが、冷蔵庫がありません。
+! B
+% pickup point=受取場所|refrigerator=冷蔵庫
+> next|次の行動|medium|common
+? t1|What should customers do by one o'clock?|客は1時までに何をするべきですか。
+A Reply with their chosen pickup point.|希望する受取場所を返信する。|移動の手配に先立ち、1時までに受け取り先を知らせます。
+B Pay for the tasting packs.|試飲セットの料金を支払う。|1時は受け取り先の連絡期限で、支払い期限の説明はありません。
+C Bring a box of ice to the shop.|店へ氷を箱に入れて持参する。|選択する受取場所に冷蔵庫が必要です。
+D Collect their entire order from the counter.|すべての注文品を窓口で受け取る。|1時までにするのは返信で、受け取り時刻ではありません。
+! A
+% reply with=〜を知らせる返信をする|preferred=希望の
+
+@toolbrief|4|作業機器の見学会
+: b|A reminder for visitors to Feltarn Tool House. Today's equipment demonstrations are for people who are new to the workshop. We have moved the introductory session indoors because of the rain. If you're on the fence about trying a tool, you can just watch first. Please collect a pair of safety glasses at the desk before you join the group.|フェルターン工具館の来館者へのお知らせです。本日の実演は工房を初めて使う方向けです。雨のため、入門講座は屋内に変更しました。機器を試すか迷っている場合は、まず見学だけでも構いません。グループに合流する前に、窓口で保護メガネをお受け取りください。
+# Demonstrations|実演の予定
+= Session|講座; Location|場所; Level|レベル
+= Birch|バーチ; Outdoors|屋外; Introductory|入門
+= Elm|エルム; Indoors|屋内; Advanced|上級
+= Fir|ファー; Indoors|屋内; Introductory|入門
+= Pine|パイン; Outdoors|屋外; Advanced|上級
+> purpose|目的・場面|easy|common
+? t1|Who is this announcement mainly for?|主に誰に向けた案内ですか。
+A People who are unfamiliar with the workshop.|工房を初めて利用する人。|新人向けの入門実演について知らせています。
+B Workers setting up an outdoor market.|屋外市場を設営するスタッフ。|雨に触れますが、工房の実演の会場変更です。
+C Instructors running an advanced training course.|上級講習を行う講師。|入門講座の来館者が対象です。
+D Customers returning broken equipment.|故障した機器を返しに来た客。|故障や返品については述べていません。
+! A
+% equipment demonstration=機器の実演|be new to=初めて利用する
+> intent|発言の意図|medium|common
+? t1|What does “on the fence” mean in the announcement?|案内の「迷っている」はどのような状態を指しますか。
+A Unable to reach the workshop.|工房まで来られない。|移動できない人の話でなく、機器を試すか迷う人への案内です。
+B Ready to teach others to use a tool.|他の人に機器の使い方を教えられる。|初心者向けで、自分で使うことを検討しています。
+C Waiting for a tool to be repaired.|機器の修理を待っている。|機器の故障は説明していません。
+D Undecided about using a tool.|機器を使うか決めていない。|そのような人にはまず見るだけでもよいと伝えています。
+! D
+% on the fence=決めかねて
+> chart|図表照合|medium|table
+? t1,r3c1,r3c2,r3c3|Look at the table. Which demonstration should first-time visitors attend today?|表を見てください。本日初めて来る人はどの実演に参加するべきですか。
+A Birch.|バーチ。|入門ですが、屋外です。
+B Elm.|エルム。|屋内ですが、上級向けです。
+C Fir.|ファー。|入門講座で、雨天時の会場である屋内です。
+D Pine.|パイン。|屋外で、上級向けです。
+! C
+% introductory=入門の|advanced=上級の
+> next|次の行動|medium|common
+? t1|What should visitors collect before joining the group?|グループに合流する前に何を受け取るべきですか。
+A Raincoats.|レインコート。|実演は屋内で、雨具の配布はありません。
+B Safety glasses.|保護メガネ。|合流前に窓口で受け取るよう言っています。
+C Instruction booklets.|手順書。|実演についての案内ですが、冊子を受け取る指示はありません。
+D Hand tools.|手工具。|道具を試すことはできますが、窓口で受け取るのは保護メガネです。
+! B
+% safety glasses=保護メガネ
+
+@couriersort|4|集荷物の一時保管
+: g|This is an update for the afternoon staff at Trevanor Dispatch. The collection van has been delayed, so move the outgoing boxes away from the loading platform. The boxes need to be kept indoors and under lock and key until the driver arrives. Please attach the manifest to the top box before moving anything.|トレヴァナー発送所の午後勤務の方向けの連絡です。集荷車が遅れているため、発送する箱を荷役台から移動させてください。運転手が来るまでは屋内で施錠して保管する必要があります。移動を始める前に、一番上の箱に荷物明細書を付けてください。
+# Holding areas|一時保管場所
+= Area|場所; Setting|屋内・屋外; Lockable|施錠
+= Bay 1|1番区画; Outdoor|屋外; Yes|可
+= Bay 2|2番区画; Indoor|屋内; No|不可
+= Bay 3|3番区画; Outdoor|屋外; No|不可
+= Bay 4|4番区画; Indoor|屋内; Yes|可
+> purpose|目的・場面|easy|common
+? t1|What is the main purpose of the message?|この連絡の主な目的は何ですか。
+A To invite drivers to a safety briefing.|運転手を安全説明に招くため。|対象は午後勤務の担当者で、安全研修はありません。
+B To announce a new time for a staff meeting.|職員会議の新しい時刻を知らせるため。|遅れているのは集荷車で、会議の時刻ではありません。
+C To explain how to store packages during a delay.|遅延中の荷物の保管方法を説明するため。|集荷車が来るまで荷物を所定条件の場所に移します。
+D To explain how to order shipping supplies.|発送用品の注文方法を説明するため。|すでにある発送箱を移動させます。
+! C
+% outgoing=発送予定の|loading platform=荷役台
+> intent|発言の意図|medium|common
+? t1|What does “under lock and key” mean in the message?|連絡の「施錠して」とはどういう意味ですか。
+A Put under a table used for key storage.|鍵を保管する台の下に置く。|具体的な鍵置き場の位置をいう表現ではありません。
+B Secured in a space that has been locked.|鍵を掛けた場所で安全に保管する。|屋内の施錠できる場所で車を待つよう求めています。
+C Opened with a key and checked by a driver.|鍵で開けて運転手が検査する。|指示は現場の一時保管で、運転手が箱を開けるわけではありません。
+D Marked with a picture of a key.|鍵の絵を付ける。|箱に添付するのは荷物明細書です。
+! B
+% under lock and key=鍵を掛けて保管して
+> chart|図表照合|medium|table
+? t1,r4c1,r4c2,r4c3|Look at the table. Where should the staff move the boxes?|表を見てください。職員は箱をどこへ移すべきですか。
+A Bay 4.|4番区画。|屋内で施錠できます。
+B Bay 1.|1番区画。|施錠できますが、屋外です。
+C Bay 2.|2番区画。|屋内ですが、施錠できません。
+D Bay 3.|3番区画。|屋外で、施錠もできません。
+! A
+% holding area=一時保管場所|lockable=施錠できる
+> next|次の行動|medium|common
+? t1|What should the staff do before moving the boxes?|箱を移す前に職員は何をするべきですか。
+A Call the driver to cancel the pickup.|運転手に電話して集荷を取り消す。|遅れている間の保管指示で、集荷は取り消しません。
+B Check the contents of every box.|すべての箱の中身を確かめる。|移動前に荷物明細書を添付すると述べています。
+C Move the van away from the loading platform.|バンを荷役台から離す。|バンはまだ来ておらず、移動するのは荷物です。
+D Attach a document to one of the boxes.|箱の一つに書類を付ける。|荷物明細書を一番上の箱に付けてから移します。
+! D
+% manifest=積荷明細書|attach=取り付ける
+
+@workshopmats|4|額装見本の選択
+: f|Thank you for joining the Veldsen framing workshop. Pick up a mat sample from the supply table. We'll use a white sample today because the studio lights make colors hard to judge. The mat needs a wide opening to show the entire picture. Please don't jump the gun. Wait until the instructor has marked the cutting lines before you use the knife.|ヴェルドセンの額装講座にご参加いただきありがとうございます。備品台からマット紙の見本を取ってください。工房の照明では色が分かりにくいので、本日は白い見本を使います。絵全体が見えるように、開口部は広いものを選んでください。先走って切り始めないでください。講師が裁断線を引いてからナイフを使ってください。
+# Mat samples|マット紙の見本
+= Sample|見本; Color|色; Opening|開口部
+= One|1番; Cream|クリーム色; Narrow|狭い
+= Two|2番; White|白; Wide|広い
+= Three|3番; Cream|クリーム色; Wide|広い
+= Four|4番; White|白; Narrow|狭い
+> purpose|目的・場面|easy|common
+? t1|What is the speaker mainly doing?|話し手は主に何をしていますか。
+A Explaining how to order a framed picture.|額入りの絵の注文方法を説明している。|参加者が見本を使って作業する講座です。
+B Introducing a new lighting system for the studio.|工房の新しい照明を紹介している。|照明は見本の色を指定する理由です。
+C Asking visitors to donate pictures.|来訪者に絵の寄付を求めている。|寄付ではなく、額装の実習を案内します。
+D Giving workshop participants instructions for an activity.|講座の参加者に作業の指示を出している。|見本の選び方や裁断開始のタイミングを説明します。
+! D
+% framing=額装|mat sample=額装用マットの見本
+> intent|発言の意図|medium|common
+? t1|What does the speaker mean by “don't jump the gun”?|「先走らないでください」とはどういう意味ですか。
+A Do not touch the sample with wet hands.|濡れた手で見本を触らない。|手の状態の指示ではなく、作業順序についてです。
+B Do not pick a sample from the top shelf.|最上段の棚から見本を取らない。|見本は備品台にあり、高さの制限はありません。
+C Do not begin the cutting step too soon.|早まって裁断を始めない。|講師が線を引くまでナイフを使わないよう求めています。
+D Do not leave before the next session.|次の講座の前に退出しない。|講座を終える時刻や離席の指示ではありません。
+! C
+% jump the gun=開始の合図より前に始める
+> chart|図表照合|medium|table
+? t1,r2c1,r2c2,r2c3|Look at the table. Which sample should participants select?|表を見てください。参加者はどの見本を選ぶべきですか。
+A One.|1番。|クリーム色で、開口部も狭いです。
+B Two.|2番。|白くて開口部が広いです。
+C Three.|3番。|開口部は広いですが、クリーム色です。
+D Four.|4番。|白いですが、開口部は狭いです。
+! B
+% opening=開口部|entire=全体の
+> next|次の行動|medium|common
+? t1|What should participants do first?|参加者はまず何をするべきですか。
+A Pick up a sample from the supply table.|備品台で見本を取る。|最初の作業としてマット紙の見本を取るように案内しています。
+B Ask the instructor for a new picture.|講師に新しい絵を頼む。|講師は裁断線を引きますが、新しい絵を配るとは述べていません。
+C Check the condition of the room lights.|室内の照明の状態を確認する。|照明は見本の色を選ぶ理由で、確認する作業はありません。
+D Cut a larger opening in the sample.|見本の開口部を広く切る。|裁断は見本を取り、講師が線を引いた後です。
+! A
+% pick up=取る|supply table=備品台

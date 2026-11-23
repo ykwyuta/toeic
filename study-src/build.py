@@ -12,17 +12,19 @@ from reuse import add_reused, balance_reading_choices
 SOURCE = Path(__file__).resolve().parent
 ROOT = SOURCE.parent
 DIST = ROOT / "dist"
-BANK = "study/r3/bank.js"
-PREVIOUS_BANK = "study/r2/bank.js"
+REVISION = 4
+RELEASE_DIR = f"study/r{REVISION}"
+BANK = f"{RELEASE_DIR}/bank.js"
+PREVIOUS_BANK = f"study/r{REVISION - 1}/bank.js"
 PREFIX = "globalThis.toeicStudyBank = "
 AUDIO = runpy.run_path(str(ROOT / "listening-src/build.py"))
 SKILL_COUNTS = (3, 4, 5, 5, 4, 3, 5)
-QUESTIONS_PER_SKILL = 19
+QUESTIONS_PER_SKILL = 24
 MP3_GAIN_DB = -2
-ADDITIONS = ("r3-photos.txt", "r3-replies.txt", "r3-listening.series", "r3-reading.txt", "r3-reading.series")
+ADDITIONS = ("r4-photos.txt", "r4-replies.txt", "r4-listening.series", "r4-reading.txt", "r4-reading.series")
 
 
-def expand_series(lines):
+def expand_series(lines, revision):
     """Expand shared scenario materials into independently presented questions."""
     blocks = "\n".join(lines).split("\n@")
     for block in blocks:
@@ -32,7 +34,7 @@ def expand_series(lines):
         for drill in drills:
             rule, question = drill.strip().split("\n", 1)
             skill_id, skill, difficulty, materials = rule.strip().split("|")
-            yield f"@p{part}-{skill_id}-r3-{scene}|{part}|{skill}|{setting}|{difficulty}"
+            yield f"@p{part}-{skill_id}-r{revision}-{scene}|{part}|{skill}|{setting}|{difficulty}"
             if materials != "local":
                 for line in common.splitlines():
                     if line.startswith(("#", "=")) and materials != "table":
@@ -47,13 +49,13 @@ def expand_series(lines):
 
 def authored_sets(files, revision):
     current = None
-    assets_path = SOURCE / "r3-photo-assets.json"
+    assets_path = SOURCE / f"r{revision}-photo-assets.json"
     assets = json.loads(assets_path.read_text(encoding="utf-8")) if assets_path.is_file() else {}
     for name in files:
         if not (SOURCE / name).is_file():
             continue
         lines = (SOURCE / name).read_text(encoding="utf-8-sig").strip().splitlines()
-        for text in expand_series(lines) if name.endswith(".series") else lines:
+        for text in expand_series(lines, revision) if name.endswith(".series") else lines:
             if not text.strip():
                 continue
             marker, payload = text[0], text[1:].strip()
@@ -132,7 +134,8 @@ def compile_bank(complete=True):
     parts = previous["parts"]
     originals = [entry for part in parts for entry in part["sets"]]
     anchors = {entry["setId"]: entry["items"][0]["skill"] for entry in originals}
-    exercises = list(add_reused(anchors, "reuse-r3.json", 3)) + list(authored_sets(ADDITIONS, 3))
+    exercises = list(add_reused(anchors, f"reuse-r{REVISION}.json", REVISION))
+    exercises.extend(authored_sets(ADDITIONS, REVISION))
     for number, exercise in enumerate(exercises, len(originals) + 1):
         part = exercise["part"]
         item = exercise["items"][0]
@@ -154,9 +157,9 @@ def compile_bank(complete=True):
                     narrator, "question", item["stem"], item["translationJa"]["stem"], 450, "question",
                 ))
             exercise["audioScript"] = turns
-            exercise["media"]["audio"] = {"src": f"study/r3/audio/{exercise['setId']}.mp3"}
-    balance_reading_choices(parts, 3)
-    bank = {"examId": previous["examId"], "revision": 3, "parts": parts}
+            exercise["media"]["audio"] = {"src": f"{RELEASE_DIR}/audio/{exercise['setId']}.mp3"}
+    balance_reading_choices(parts, REVISION)
+    bank = {"examId": previous["examId"], "revision": REVISION, "parts": parts}
     validate(bank, complete)
     return bank
 
@@ -238,7 +241,7 @@ def add_media(bank, model_dir, audio_only):
     rate = AUDIO["RATE"]
     masters = ROOT / ".listening-build/study"
     masters.mkdir(parents=True, exist_ok=True)
-    cache_file = masters / "r3-media-cache.json"
+    cache_file = masters / f"r{REVISION}-media-cache.json"
     previous = {}
     legacy = {entry["setId"]: entry["media"]["audio"]
               for part in read_release(DIST / PREVIOUS_BANK)["parts"][:4] for entry in part["sets"]}
@@ -325,7 +328,7 @@ def check(bank):
                     assert exercise["audioScript"] == authored["audioScript"]
                     assert media["scriptSha256"] == script_digest(exercise)
                     assert media["durationMs"] > 0
-                    if media["src"].startswith("study/r3/"):
+                    if media["src"].startswith(f"{RELEASE_DIR}/"):
                         assert media["gainDb"] == MP3_GAIN_DB
                 if kind == "photo":
                     assert {key: media[key] for key in authored["media"][kind]} == authored["media"][kind]
