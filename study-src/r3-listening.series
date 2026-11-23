@@ -1,0 +1,643 @@
+@binding|3|急な製本依頼
+: f|Could you bind sixty copies of our visitor guide by Wednesday? The printer delivered the loose sheets this morning.|水曜までに来館案内を60部製本できますか。今朝、印刷所からばらのページが届きました。
+: m|Wednesday is tight. We don't have any wire spines left, but we can use a glued spine. Our last pickup time tomorrow is four.|水曜はぎりぎりです。針金のとじ具の在庫はありませんが、のりでとじる方法はできます。明日の受け取りは最終で4時です。
+: f|That's fine. The guides need to fit in our narrow display stand, so thick covers won't work. I'll choose a thin cover.|大丈夫です。案内冊子は幅の狭い展示台に収まる必要があるので、厚い表紙は使えません。薄い表紙を選びます。
+# Binding services|製本サービス
+= Style|タイプ; Spine|背のとじ方; Cover|表紙
+= Atlas|アトラス; Wire|針金; Thin|薄い
+= Beacon|ビーコン; Glue|のり; Thick|厚い
+= Cinder|シンダー; Glue|のり; Thin|薄い
+= Dune|デューン; Staples|ホチキス; Thick|厚い
+> purpose|目的・場面|easy|common
+? t1|Why is the woman speaking to the man?|女性が男性に話している目的は何ですか。
+A To ask whether he can bind some guides.|案内冊子の製本を頼めるか聞くため。|納期を示し、文書60部をとじてもらえるか尋ねています。
+B To order more copies from the printer.|印刷所に増刷を頼むため。|用紙は今朝届いており、必要なのは用紙をとじる作業です。
+C To request a wider display stand.|より幅の広い展示台を頼むため。|今ある展示台に冊子が収まるよう表紙を選びます。
+D To cancel Wednesday's pickup.|水曜の受け取りを取り消すため。|取り消しではなく、水曜までに製本できるかを尋ねています。
+! A
+% bind=製本する|loose sheets=ばらの用紙
+> intent|発言の意図|medium|common
+? t1,t2|What does the man mean when he says, “Wednesday is tight”?|男性の「水曜はぎりぎりです」とはどういう意味ですか。
+A Guide covers have been put on too tightly.|表紙をきつくとじすぎている。|まだ用紙はばらで、発言は表紙の締め具合ではありません。
+B The pickup desk is crowded every Wednesday.|毎週水曜に窓口が混雑する。|水曜は今回の期限で、定期的な混雑には触れていません。
+C The display stand is too narrow for any guide.|どの案内冊子も展示台が狭すぎて置けない。|女性は薄い表紙なら使えると説明しています。
+D There is little time to finish binding the guides.|冊子の製本を終えるまでに時間があまりない。|依頼の納期が水曜で、材料の制約下で代案を示しています。
+! D
+% tight=時間に余裕がない|spine=本の背
+> chart|図表照合|hard|table
+? t2,t3,r3c1,r3c2,r3c3|Look at the table. Which binding style fits the order?|表を見てください。依頼の条件に合う製本タイプはどれですか。
+A Atlas.|アトラス。|表紙は薄いものの、在庫切れの針金を使います。
+B Beacon.|ビーコン。|のりを使いますが、表紙が厚いです。
+C Cinder.|シンダー。|会話の指定はのりで薄い表紙で、表のシンダーだけが両方に合います。
+D Dune.|デューン。|ホチキスで、表紙も厚いです。
+! C
+% glued spine=のりでとじた背|thin=薄い
+
+@parcelroom|3|配達品の受け取り
+: g|I'm looking for a parcel sent by the Alder Lane branch. It's for the new reception desk, but the delivery message doesn't give a room number.|アルダー通り支店が送った荷物を探しています。新しい受付用ですが、配達通知に部屋番号がありません。
+: b|You can narrow it down by floor and weight. That branch sent a twelve-kilo box, and we always keep deliveries for reception on the ground floor.|階と重さで絞れます。支店が送ったのは12キロの箱で、受付宛ての荷物はいつも地上階に保管します。
+: g|That rings a bell. My colleague said the box was too heavy for her to carry upstairs. I'll bring a cart.|それで思い出しました。同僚が重すぎて上の階に運べなかったと言っていました。台車を持っていきます。
+# Parcel storage|荷物の保管場所
+= Room|部屋; Floor|階; Weight|重さ
+= G1|G1; Ground|地上階; 6 kg|6キロ
+= G2|G2; Ground|地上階; 12 kg|12キロ
+= U1|U1; Upper|上の階; 12 kg|12キロ
+= U2|U2; Upper|上の階; 6 kg|6キロ
+> purpose|目的・場面|easy|common
+? t1|What is the woman trying to do?|女性は何をしようとしていますか。
+A Send a cart to another branch.|別の支店へ台車を送る。|台車は荷物を取りに行くために用意します。
+B Locate a parcel.|荷物を探す。|送り元と宛先を説明し、部屋番号が分からない荷物を探しています。
+C Change the reception desk's location.|受付の位置を変更する。|受付は荷物の宛先で、受付自体を移す話ではありません。
+D Order a new desk from the branch.|支店に受付机を注文する。|受付用に送られた荷物を探しており、机の注文はしません。
+! B
+% parcel=荷物|branch=支店
+> intent|発言の意図|medium|common
+? t2,t3|What does the woman mean by “That rings a bell”?|女性は「それで思い出しました」と言って何を伝えていますか。
+A The weight reminds her of something a colleague said.|重さから同僚の話を思い出した。|12キロと聞き、同僚が重くて運べなかったと言ったことを思い出します。
+B She can hear the reception telephone ringing.|受付の電話が鳴るのが聞こえる。|実際の呼び出し音ではなく記憶を指す表現です。
+C A colleague promised to deliver the parcel upstairs.|同僚が上の階に届けると約束した。|同僚は重すぎて上に運べなかったと伝えています。
+D She found the room number in her message.|通知の中に部屋番号を見つけた。|通知には番号がないと最初に述べています。
+! A
+% ring a bell=聞き覚えがある、思い出させる|upstairs=上の階へ
+> chart|図表照合|medium|table
+? t1,t2,r2c1,r2c2,r2c3|Look at the table. Where should she look first?|表を見てください。女性はまずどの部屋を探すべきですか。
+A G1.|G1。|地上階ですが、重さが6キロです。
+B U1.|U1。|12キロですが、上の階にあります。
+C U2.|U2。|上の階にあり、重さも6キロです。
+D G2.|G2。|地上階かつ12キロの荷物を置いているのはG2です。
+! D
+% narrow down=絞り込む|ground floor=地上階
+
+@marketband|3|市場の演奏場所
+: m|I'm checking where our trio can play at the Bracken Quay market. We don't need electricity, but there must be a roof in case it rains.|ブラッケン埠頭マーケットで三人組が演奏できる場所を調べています。電源は要りませんが、雨に備えて屋根が必要です。
+: f|The organizer will only approve music in the east section this year. The path by the west garden has to stay clear for deliveries.|今年は運営が東区画でしか演奏を許可しません。西の庭園脇の通路は配送のため空ける必要があります。
+: b|Then the garden is out. Let's choose a sheltered spot in the east and give the organizer our name now.|では庭園は候補から外れます。東の屋根付きの場所を選び、今すぐ運営にグループ名を伝えましょう。
+# Market performance spots|市場の演奏場所
+= Spot|場所; Section|区画; Roof|屋根
+= Pond edge|池のほとり; East|東; No|なし
+= Garden|庭園; West|西; Yes|あり
+= Clock arcade|時計アーケード; East|東; Yes|あり
+= Wharf steps|埠頭の階段; West|西; No|なし
+> purpose|目的・場面|easy|common
+? t1|What does the first speaker want to find?|最初の話し手は何を探していますか。
+A A route for a delivery vehicle.|配送車が通る経路。|配送経路は西区画を使えない理由です。
+B An electrical outlet for a stall.|出店用の電源コンセント。|演奏に電源は不要だと述べています。
+C A place for a group to perform.|グループが演奏できる場所。|市場で三人組が演奏できる場所を探しています。
+D A replacement musician.|代わりの演奏者。|三人組の場所を探しており、メンバー募集はしていません。
+! C
+% trio=三人組|play=演奏する
+> intent|発言の意図|medium|common
+? t2,t3|What does the last speaker mean by “the garden is out”?|最後の話し手の「庭園は候補から外れます」とはどういう意味ですか。
+A The garden will be moved outdoors.|庭園を屋外へ移す。|out は屋外への移動でなく候補外という意味です。
+B They cannot use the garden for the performance.|演奏には庭園を使えない。|東だけ演奏可と聞き、西の庭園を外しています。
+C The band will perform in the garden.|演奏は庭園で行う。|屋根があっても西側は許可の対象外です。
+D The garden's power has failed.|庭園の電源が故障した。|最初から電源は不要で、除外の理由は演奏可能な区画です。
+! B
+% be out=候補外である|sheltered=雨風を避けられる
+> chart|図表照合|hard|table
+? t1,t2,r3c1,r3c2,r3c3|Look at the table. Which spot meets the speakers' conditions?|表を見てください。話し手の条件を満たす場所はどれですか。
+A Clock arcade.|時計アーケード。|東区画で屋根があるのはこの場所だけです。
+B Pond edge.|池のほとり。|東ですが屋根がありません。
+C Garden.|庭園。|屋根はありますが西区画です。
+D Wharf steps.|埠頭の階段。|西にあり屋根もありません。
+! A
+% roof=屋根|section=区画
+
+@printticket|3|券売機の仮復旧
+: b|The ticket printer by the stairs has stopped feeding paper. Can we put another machine there for tonight's concert?|階段脇の券売機が用紙を送らなくなりました。今夜の演奏会に向け、別の機械を置けますか。
+: f|A spare is available as a stopgap. The table lists models we can borrow. It has to fit the narrow counter and accept card payments.|当座しのぎに予備を借りられます。表は貸出可能な機種です。狭い台に収まり、カード払いができる必要があります。
+: b|I'll call the supplier to repair our own machine tomorrow.|明日自社の機械を修理してもらうため、仕入先に電話します。
+# Spare ticket printers|予備の券売機
+= Model|機種; Size|大きさ; Payment|支払い
+= Flint|フリント; Narrow|狭い台用; Cash only|現金のみ
+= Kite|カイト; Wide|広い台用; Card|カード可
+= Moss|モス; Narrow|狭い台用; Card|カード可
+= Reed|リード; Wide|広い台用; Cash only|現金のみ
+> purpose|目的・場面|easy|common
+? t1|Why is the man talking with the woman?|男性が女性に話しているのはなぜですか。
+A To cancel the evening concert.|今夜の演奏会を取り消すため。|券売機を替えて演奏会に備える相談です。
+B To request more paper for an office printer.|事務用の印刷用紙を追加で頼むため。|不足ではなく、券売機の給紙が止まったことが問題です。
+C To set a new ticket price.|券の新価格を設定するため。|カード対応を検討しますが価格を変更しません。
+D To find a temporary replacement for a printer.|券売機の一時的な代替を探すため。|故障した券売機の代わりを今夜までに用意したいと言っています。
+! D
+% feed paper=用紙を送る|spare=予備
+> intent|発言の意図|medium|common
+? t1,t2,t3|What does “as a stopgap” mean in this conversation?|ここで「当座しのぎに」とは何を意味しますか。
+A The spare would replace the usual machine permanently.|今後ずっと予備機に取り替える。|明日、本機の修理を手配するので恒久交換ではありません。
+B The machine would stop selling tickets at a set time.|機械が決まった時刻に券の販売をやめる。|stopgap は販売終了の設定でなく一時的な対策です。
+C The spare would be used until the usual machine is repaired.|いつもの機械が直るまで予備を使う。|今夜は代替機を用意し、翌日に本機の修理を手配します。
+D Customers would have to stop using cards.|顧客はカードの使用をやめる。|逆にカード払い可能な機種が必要です。
+! C
+% stopgap=間に合わせ、暫定措置|supplier=納入業者
+> chart|図表照合|medium|table
+? t2,r3c1,r3c2,r3c3|Look at the table. Which model should they borrow?|表を見てください。どの機種を借りるべきですか。
+A Flint.|フリント。|狭い台用ですが現金専用です。
+B Moss.|モス。|狭い台用でカード払いができるのはモスです。
+C Kite.|カイト。|カード対応ですが広い台用です。
+D Reed.|リード。|広い台用で現金専用です。
+! B
+% accept card payments=カード払いに対応する|narrow=幅の狭い
+
+@seedstore|3|保管箱の選定
+: f|We need a box for the seed packets from the greenhouse. It will be kept near the misting system, so the box needs a seal. The shelf can hold something up to thirty centimeters wide.|温室から来た種袋の箱が必要です。霧を出す設備の近くで保管するため密閉できるものが必要です。棚に載るのは幅30センチまでです。
+: m|The one from my office would be a false economy. It costs nothing, but the lid has a crack and moisture could ruin the seeds.|私の部屋のものは安物買いの損になります。無料ですがふたにひびがあり、湿気で種がだめになる恐れがあります。
+: f|Let's buy the suitable one before the seedlings arrive.|苗が届く前に条件に合うものを買いましょう。
+# Available storage boxes|保管箱の候補
+= Box|箱; Width|幅; Sealed lid|密閉ふた
+= A|A; 24 cm|24センチ; No|なし
+= B|B; 32 cm|32センチ; Yes|あり
+= C|C; 30 cm|30センチ; Yes|あり
+= D|D; 28 cm|28センチ; No|なし
+> purpose|目的・場面|easy|common
+? t1|What are the speakers trying to obtain?|話し手たちは何を入手しようとしていますか。
+A A tool to repair the misting system.|噴霧設備の修理工具。|噴霧設備は設置済みで、そこで使う箱の相談です。
+B A container to protect seeds.|種を保護する保管容器。|種袋を湿気から守れる箱が必要です。
+C A wider shelf for flowerpots.|鉢用の幅の広い棚。|棚は現状の幅を条件とし、その範囲で箱を選びます。
+D More seeds for the office.|事務室用の追加の種。|種はあるため、それを入れる箱を探しています。
+! B
+% seed packet=種袋|seal=密閉できる構造
+> intent|発言の意図|medium|common
+? t1,t2|Why does the man call using the free box “a false economy”?|男性が無料の箱を使うと「安物買いの損になる」と言うのはなぜですか。
+A The seeds could be damaged even though the box is free.|箱は無料でも、種が傷む恐れがある。|ひび割れのふたでは湿気を防げず、種を失う可能性があります。
+B They would have to pay more for the cracked box.|ひびのある箱には余分な料金がかかる。|箱自体に費用がかからないと述べています。
+C The box will not fit the shelf because of its width.|幅が合わず箱を棚に載せられない。|この箱について男性が挙げた問題はふたのひびです。
+D Ordering a box will delay the seedlings' arrival.|箱を注文すると苗の到着が遅れる。|苗が届く前に箱を買う計画であり、苗の配送に影響するとは述べていません。
+! A
+% a false economy=節約のつもりがかえって損になること|moisture=湿気
+> chart|図表照合|hard|table
+? t1,r3c1,r3c2,r3c3|Look at the table. Which box should they buy?|表を見てください。二人はどの箱を買うべきですか。
+A Box A.|箱A。|幅は収まりますが密閉ふたがありません。
+B Box B.|箱B。|密閉ふたはありますが幅32センチです。
+C Box D.|箱D。|幅は収まりますが密閉ふたがありません。
+D Box C.|箱C。|幅30センチ以内で密閉ふたがあるのは箱Cです。
+! D
+% sealed lid=密閉ふた|up to=～まで
+
+@railmeet|3|鉄道での顧客訪問
+: g|The client moved our meeting to eleven. I want to catch the latest train that gets us to Larkmead by ten forty-five, because the walk takes fifteen minutes.|顧客が面会を11時に移しました。歩くのに15分かかるので、10時45分までにラークミードへ着く一番遅い列車に乗りたいです。
+: m|Let's not cut it any closer. If the train is late, even by a few minutes, we could miss the start of the meeting.|これ以上ぎりぎりにするのはやめましょう。列車が数分でも遅れたら、面会の冒頭に間に合わないかもしれません。
+: g|I'll book the latest service that meets our ten forty-five limit.|10時45分の条件を満たす中で一番遅い便を予約します。
+# Trains to Larkmead|ラークミード行き列車
+= Service|便; Departure|出発; Arrival|到着
+= Aster|アスター; 9:10|9時10分; 10:21|10時21分
+= Brook|ブルック; 9:35|9時35分; 10:44|10時44分
+= Clover|クローバー; 9:55|9時55分; 10:50|10時50分
+= Drift|ドリフト; 10:10|10時10分; 11:05|11時05分
+> purpose|目的・場面|medium|common
+? t1|What is the woman planning?|女性は何を計画していますか。
+A Postpone a meeting again.|面会を再延期する。|11時の面会に間に合うよう移動を手配します。
+B Arrange a walk for visitors.|来訪者向けの散策を手配する。|徒歩は駅から面会先までの移動で、散策行事ではありません。
+C Travel to a client meeting.|顧客との面会のために移動する。|面会時刻と駅から歩く時間を確認し、列車を選んでいます。
+D Check a train for lost property.|車内の忘れ物を調べる。|新たに乗る便を選んでおり、忘れ物は話題に出ません。
+! C
+% catch a train=列車に乗る|client meeting=顧客との面会
+> intent|発言の意図|medium|common
+? t1,t2|What does the man mean by “not cut it any closer”?|男性の「これ以上ぎりぎりにしない」とはどういう意味ですか。
+A They should shorten the meeting by a few minutes.|面会を数分短くすべきだ。|短くするのは面会時間ではなく、到着の余裕を減らすことを避けたいのです。
+B They should avoid choosing a later arrival.|これ以上遅く到着する便は避けるべきだ。|小さな遅延でも面会に遅れうるため、示した到着の上限を守ろうとしています。
+C They should use a quicker walking route.|徒歩でより速い経路を使うべきだ。|徒歩経路を変更せず、列車の到着時間に余裕を求めています。
+D They should ask the train to skip a stop.|列車に停車駅を飛ばすよう頼むべきだ。|乗客として既存の便から選び、運行を変更する話ではありません。
+! B
+% cut it close=時間の余裕をほとんど取らない|by a few minutes=数分だけ
+> chart|図表照合|hard|table
+? t1,t3,r2c1,r2c2,r2c3|Look at the table. Which service will the woman book?|表を見てください。女性はどの便を予約しますか。
+A Brook.|ブルック。|10時45分までに着く便のうち、出発が最も遅い9時35分発です。
+B Aster.|アスター。|10時21分に着きますがブルックより早く出発します。
+C Clover.|クローバー。|9時55分発ですが到着が10時50分です。
+D Drift.|ドリフト。|最も遅く出ますが、到着は面会開始後の11時05分です。
+! A
+% limit=上限|arrival=到着
+
+@labels|3|展示物ラベルの印刷
+: f|Could you help me pick labels for the outdoor sculpture trail? They must resist rain, and we need the pale ones so the dark text is easy to read.|屋外彫刻コース用のラベル選びを手伝ってもらえますか。雨に強く、濃い文字を読みやすくするため明るい地色が必要です。
+: m|Don't go by price alone. The paper set is cheap, but we'd have to replace it after the first rainy day.|価格だけで判断しないでください。紙のセットは安いですが、最初の雨の日のあとには交換する必要があります。
+: f|Agreed. Let's order a weatherproof pale set.|同感です。雨風に強い明るい地色のセットを注文しましょう。
+# Label sets|ラベルセット
+= Set|セット; Surface|地色; Material|材質
+= Fern|ファーン; Pale|明るい; Paper|紙
+= Glass|グラス; Dark|暗い; Weatherproof|耐候性
+= Holly|ホリー; Dark|暗い; Paper|紙
+= Clay|クレイ; Pale|明るい; Weatherproof|耐候性
+> purpose|目的・場面|easy|common
+? t1|Why does the woman ask for help?|女性はなぜ手助けを求めますか。
+A To repair a sculpture damaged by rain.|雨で傷んだ彫刻を直すため。|雨に強さを求めるのはラベルで、彫刻の修理ではありません。
+B To replace a walking trail with an indoor exhibit.|散策コースを屋内展示に替えるため。|屋外コースで使える品を選びます。
+C To paint letters on an existing sign.|既存の標識に文字を塗るため。|濃い文字を見やすくするラベルを新たに注文します。
+D To select labels for an outdoor route.|屋外コース用のラベルを選ぶため。|屋外の彫刻コースに使うラベルの条件を挙げています。
+! D
+% sculpture trail=彫刻を巡るコース|resist rain=雨に耐える
+> intent|発言の意図|medium|common
+? t1,t2|Why does the man say, “Don't go by price alone”?|男性はなぜ「価格だけで判断しないで」と言いますか。
+A The listed prices include a shipping error.|表示価格に送料の誤りがある。|送料や計算誤りには触れていません。
+B The outdoor route has a fee for visitors.|屋外コースは来訪者に料金がかかる。|ここでの価格は買うラベルの値段です。
+C A cheap material may not last outdoors.|安い素材は屋外で長持ちしない可能性がある。|安い紙なら雨の後すぐ交換が必要だと伝えています。
+D A pale background will be too expensive in every case.|明るい地色はどの場合も高すぎる。|男性の心配は耐候性で、明るい地色の価格を断定していません。
+! C
+% go by=～を判断基準にする|replace=交換する
+> chart|図表照合|medium|table
+? t1,t3,r4c1,r4c2,r4c3|Look at the table. Which set will they order?|表を見てください。二人はどのセットを注文しますか。
+A Fern.|ファーン。|明るい地色ですが紙です。
+B Clay.|クレイ。|明るい地色で耐候性があるのはクレイです。
+C Glass.|グラス。|耐候性がありますが地色が暗いです。
+D Holly.|ホリー。|地色が暗く、材質も紙です。
+! B
+% pale=色が薄い|weatherproof=雨風に強い
+
+@showroom|3|製品デモの会場
+: m|Our training supplier wants to show a large piece of equipment. We need a room with a wide entrance. It'll have to be on the second floor because visitors are already booked there.|研修業者が大型の機材を実演したいそうです。幅の広い入口の部屋が必要です。来場者の予約が既に2階なので、2階の部屋でなければなりません。
+: g|The first-floor room is tempting, but moving the audience would open a can of worms. We'd need to reissue every entry pass and move the interpreter as well.|1階も魅力的ですが、観客を移すと厄介なことになります。入場証を全件出し直し、通訳も移動させる必要があります。
+: m|Right, we'll stay upstairs and use whichever room has the wide doorway.|そうですね、上の階のまま、入口の広い部屋を使います。
+# Demonstration rooms|実演室
+= Room|部屋; Floor|階; Entrance|入口
+= Cedar|シダー; First|1階; Wide|広い
+= Elm|エルム; Second|2階; Narrow|狭い
+= Oak|オーク; First|1階; Narrow|狭い
+= Pine|パイン; Second|2階; Wide|広い
+> purpose|目的・場面|easy|common
+? t1|What do the speakers need?|話し手たちは何を必要としていますか。
+A A suitable room for a demonstration.|実演に適した部屋。|大型機材を持ち込める実演室を探しています。
+B A company that can repair the equipment.|機材を修理できる会社。|業者は機材の実演を希望しており、故障は話題に出ません。
+C A new audience for the event.|催しの新しい観客。|来場者はすでに予約しており、その条件で部屋を選びます。
+D A replacement interpreter.|代わりの通訳。|通訳は決まっていて、別の階への移動が問題です。
+! A
+% equipment=機材|entrance=入口
+> intent|発言の意図|hard|common
+? t1,t2|What does the woman mean by “open a can of worms”?|女性の「厄介なことになる」とはどういう意味ですか。
+A The equipment should be taken out of its case first.|まず機材をケースから出すべきだ。|容器を実際に開ける話ではなく、手続きが増えることの比喩です。
+B The first-floor demonstration will be canceled.|1階の実演は取り消しになる。|1階は検討した候補で、そこで開催を決めていません。
+C An interpreter has refused to attend.|通訳が出席を断った。|部屋を変えるなら通訳も動かすと言っており、拒否したとは述べていません。
+D Changing floors would cause several extra problems.|階を変えると追加の問題がいくつも生じる。|入場証すべての再発行や通訳の移動などを挙げています。
+! D
+% open a can of worms=厄介な問題をいくつも引き起こす|reissue=再発行する
+> chart|図表照合|medium|table
+? t1,t3,r4c1,r4c2,r4c3|Look at the table. Which room will the speakers use?|表を見てください。どの部屋を使いますか。
+A Cedar.|シダー。|入口は広いものの1階です。
+B Elm.|エルム。|2階ですが入口が狭いです。
+C Pine.|パイン。|2階で入口が広いのはパインです。
+D Oak.|オーク。|1階で入口も狭いです。
+! C
+% doorway=出入口|upstairs=上の階に
+
+@hirecase|3|工具のレンタル
+: b|Can we rent a drill for just two hours? We only need it to put up a shelf. It has to work without being plugged in.|ドリルを2時間だけ借りられますか。棚を取り付けるだけです。電源につながなくても使える必要があります。
+: f|We still have some options. The four-hour model is overkill for a small job. A two-hour battery rental should be enough.|まだ選べるものがあります。小さな作業に4時間用は過剰です。充電式を2時間借りれば十分でしょう。
+: b|I'll take the one that meets both conditions, then.|では両方の条件を満たすものを借ります。
+# Drill rental options|ドリルのレンタル
+= Model|機種; Power|動力; Minimum rental|最低貸出時間
+= Alder|アルダー; Battery|充電式; Four hours|4時間
+= Bracken|ブラッケン; Cable|コード式; Two hours|2時間
+= Dapple|ダップル; Cable|コード式; Four hours|4時間
+= Firth|ファース; Battery|充電式; Two hours|2時間
+> intent|発言の意図|medium|common
+? t1,t2|What does the woman mean by “overkill for a small job”?|女性は「小さな作業には過剰」と言って何を伝えていますか。
+A The drill may be too weak to put up a shelf.|ドリルの力が棚の取り付けには弱すぎる。|比較しているのは貸出時間で、工具の出力ではありません。
+B The shop has run out of drills.|店のドリルがなくなった。|借りられる選択肢がまだあると述べています。
+C A four-hour rental is more than the customer needs.|客に4時間の貸し出しは長すぎる。|棚を付けるだけで、女性は2時間で十分と説明しています。
+D The shelf will take more than four hours to install.|棚の取り付けに4時間以上かかる。|2時間で足りると提案しているので、長時間かかるという意味ではありません。
+! C
+% overkill=必要以上であること|rental=貸出、借用
+> chart|図表照合|medium|table
+? t1,t2,r4c1,r4c2,r4c3|Look at the table. Which model will the customer rent?|表を見てください。客はどの機種を借りますか。
+A Alder.|アルダー。|充電式ですが最低4時間です。
+B Firth.|ファース。|充電式で最低貸出時間が2時間なのはファースです。
+C Bracken.|ブラッケン。|2時間で借りられますがコード式です。
+D Dapple.|ダップル。|コード式で最低4時間です。
+! B
+% plug in=電源につなぐ|minimum=最小の
+
+@galleryentry|4|展示室の入場案内
+: g|Welcome to the Halemere gallery. This message is for members arriving after noon. Your old printed pass won't open our new gate. Keep your membership email handy. You can skip the queue at the ticket desk by scanning the code in that email. First, have the code open on your phone before you join the entry line.|ヘイルメア展示室へようこそ。正午以降に到着する会員の皆さまへの案内です。以前の紙の入場証では新しいゲートを通れません。会員メールをすぐ使えるようにしてください。メールのコードを読み取れば、切符窓口に並ばずに済みます。入場列に並ぶ前にまず携帯電話でコードを開いてください。
+# Gallery entrance points|展示室の入口
+= Gate|ゲート; Time|時間帯; Visitors|対象
+= Blue|青; Morning|午前; Members|会員
+= Gold|金; Afternoon|午後; Members|会員
+= Jade|緑; Afternoon|午後; Day tickets|当日券
+= White|白; Morning|午前; Day tickets|当日券
+> purpose|目的・場面|easy|common
+? t1|What is the announcement mainly about?|この案内の主な内容は何ですか。
+A An updated way for members to enter a gallery.|会員が展示室に入る新しい方法。|紙の入場証に代えて、会員メールのコードを読み取る方法を伝えています。
+B A change in the price of admission.|入場料金の変更。|ゲートを通る手順の変更で、値段は示していません。
+C A new exhibit in the ticket hall.|切符売り場の新しい展示。|切符窓口は行列を避けられる場所として出てきます。
+D A schedule of art workshops.|美術講習の日程。|正午以降の入場手続きで、講習会の日程ではありません。
+! A
+% pass=入場証|scan=読み取る
+> intent|発言の意図|medium|common
+? t1|Why does the speaker say, “You can skip the queue”?|話し手はなぜ「列に並ばずに済みます」と言いますか。
+A Members no longer need identification of any kind.|会員は身分確認が一切要らなくなったから。|会員メールのコードを読み取る必要があります。
+B The ticket desk is closing after noon.|正午以降に切符窓口が閉まるから。|窓口が閉まるのではなく、会員が窓口を経由しない方法です。
+C The entry line is reserved for visitors without phones.|入場列が携帯電話のない人専用だから。|携帯でコードを用意してから入場列に並ぶよう案内しています。
+D The code lets members enter without using the ticket desk.|コードがあれば切符窓口を経由せずに入れるから。|メールのコードをゲートで読み取れば窓口に並ぶ必要がありません。
+! D
+% skip=省く|queue=行列
+> chart|図表照合|medium|table
+? t1,r2c1,r2c2,r2c3|Look at the table. Which gate should the listeners use?|表を見てください。案内の対象者はどのゲートを使用すべきですか。
+A Blue.|青。|会員用ですが午前のゲートです。
+B Jade.|緑。|午後ですが当日券の人用です。
+C Gold.|金。|午後の会員用ゲートは金です。
+D White.|白。|午前の当日券用です。
+! C
+% after noon=正午以降|gate=門、ゲート
+> next|次の行動|easy|common
+? t1|What should listeners do first before joining the entry line?|入場列に並ぶ前にまず何をすべきですか。
+A Print another membership pass.|もう一枚会員証を印刷する。|以前の紙の入場証は新ゲートでは使えません。
+B Open the code on their phones.|携帯電話でコードを開く。|並ぶ前にコードを表示するよう指示しています。
+C Pay for a day ticket.|当日券を購入する。|会員にはメールのコードで入る方法を案内しています。
+D Ask for directions at the ticket desk.|切符窓口で道順を尋ねる。|窓口を使わずに進めます。
+! B
+% keep handy=すぐ使えるようにする|entry line=入場列
+
+@coachchange|4|遅延時の代替交通
+: b|The coach to Orlen Point has been delayed. If your ticket is marked Orlen Point, stay put. A replacement vehicle will pick you up at the usual express stop for that destination. Please keep your ticket with you. As soon as the driver opens the door, show it before you stow your luggage.|オーレン岬行きの長距離バスが遅れています。切符にオーレン岬とある方はその場でお待ちください。代替車両が同じ目的地への急行便の通常乗り場に迎えに来ます。切符は手元に残してください。運転手がドアを開けたら、荷物をしまう前に切符を提示してください。
+# Coach stops|長距離バスの乗り場
+= Stop|乗り場; Destination|行き先; Type|種別
+= 1|1番; Orlen Point|オーレン岬; Local|各停
+= 2|2番; Foxbridge|フォックス橋; Express|急行
+= 3|3番; Orlen Point|オーレン岬; Express|急行
+= 4|4番; Foxbridge|フォックス橋; Local|各停
+> purpose|目的・場面|easy|common
+? t1|Why is the announcement being made?|この案内が行われる理由は何ですか。
+A To advertise a new destination.|新しい行き先を宣伝するため。|行き先は元の切符と同じです。
+B To explain what to do after a coach delay.|バス遅延時にどうすればよいか説明するため。|遅れた便の利用者に、代替車両の乗り方を伝えています。
+C To explain a new ticket price.|切符の新価格を説明するため。|持っている切符を出すよう指示し、新価格は示しません。
+D To report that luggage was found.|荷物が見つかったと報告するため。|荷物は乗るときにしまう物で、忘れ物の報告ではありません。
+! B
+% coach=長距離バス|replacement=代替
+> intent|発言の意図|medium|common
+? t1|What does “stay put” mean in the announcement?|案内の「その場でお待ちください」とは何を意味していますか。
+A The passengers should wait in the area for the replacement.|乗客はその付近で代替車両を待つべきだ。|代替車両が迎えに来るので、ターミナルを離れずに待つよう伝えています。
+B The passengers should walk to the town.|乗客は町まで歩くべきだ。|徒歩で向かうのではなく、代替車両が迎えに来ます。
+C The luggage must be left on the original coach.|荷物を元のバスに置いておくことになる。|stay put の対象は乗客で、荷物は新しい車両にしまいます。
+D The passengers should get off at the first stop.|乗客は最初の停留所で降りるべきだ。|出発前に待つ指示で、途中下車の案内ではありません。
+! A
+% stay put=その場を動かない|pick up=迎えに来る
+> chart|図表照合|medium|table
+? t1,r3c1,r3c2,r3c3|Look at the table. At which stop will the replacement arrive?|表を見てください。代替車両は何番の乗り場に来ますか。
+A Stop 1.|1番。|行き先は合っていますが各停です。
+B Stop 2.|2番。|急行ですがフォックス橋行きです。
+C Stop 4.|4番。|フォックス橋行きの各停です。
+D Stop 3.|3番。|オーレン岬行きの急行は3番です。
+! D
+% destination=行き先|express=急行
+> next|次の行動|easy|common
+? t1|What should passengers do when the driver opens the door?|運転手がドアを開けたら乗客は何をすべきですか。
+A Stow their bags first.|最初に荷物をしまう。|荷物をしまうより先に切符を示します。
+B Buy new tickets.|新しい切符を買う。|持っている切符をそのまま提示します。
+C Show their tickets.|切符を提示する。|荷物をしまうより前に切符を示すよう案内しています。
+D Visit the luggage office.|手荷物窓口へ行く。|ドアで運転手に切符を示す指示です。
+! C
+% stow=しまう|driver=運転手
+
+@repairday|4|家庭用品の修理受付
+: f|Thanks for booking a place at the Ivemoor Repair Day. If you are bringing a battery-powered lamp, go to the small-appliance bench that checks battery equipment. You don't have to bring a long description of the fault. A photo of the lamp in use is enough. Before taking a seat, give the photo to the volunteer at the entrance.|アイヴムア修理デーへのご予約ありがとうございます。電池式のランプをお持ちの方は、電池式機器を点検する小型家電の作業台にお越しください。故障の詳しい説明は不要です。ランプを使っているときの写真が一枚あれば十分です。着席前に入口のボランティアに写真を渡してください。
+# Repair benches|修理作業台
+= Bench|台; Category|種類; Power checked|点検する方式
+= A|A; Small appliances|小型家電; Mains|コンセント式
+= B|B; Small appliances|小型家電; Battery|電池式
+= C|C; Garden tools|園芸用具; Battery|電池式
+= D|D; Garden tools|園芸用具; None|電源不要
+> purpose|目的・場面|easy|common
+? t1|What is the speaker mainly explaining?|話し手は主に何を説明していますか。
+A How to buy replacement batteries.|交換用電池の購入方法。|電池は対象の方式で、販売については説明しません。
+B How to become an event volunteer.|催しのボランティアになる方法。|ボランティアは写真を受け取る役です。
+C How to check in an item for repair.|修理品を持ち込む際の手続き。|対象の台への案内と、持参する写真について説明しています。
+D How to photograph the entire event.|催し全体を撮影する方法。|写真は個別の修理品について求めています。
+! C
+% fault=不具合|bench=作業台
+> intent|発言の意図|medium|common
+? t1|What does the speaker mean by “A photo of the lamp in use is enough”?|話し手の「使用中のランプの写真一枚で十分」とはどういう意味ですか。
+A Visitors have to photograph the volunteer.|来場者はボランティアの写真を撮る必要がある。|写すのはランプで、ボランティアは提出先です。
+B A detailed written explanation is unnecessary.|詳しい書面の説明は不要だ。|詳しい故障説明は不要で、使用時の写真を渡せばよいと言っています。
+C Visitors can leave the actual lamp at home.|ランプそのものを自宅に置いてきてよい。|ランプを持参する方への案内なので、本体が不要という意味ではありません。
+D All repairs will be completed from photos.|写真だけですべての修理が完了する。|写真は受付用の情報で、本体を台に持ち込みます。
+! B
+% in use=使用中で|enough=十分
+> chart|図表照合|medium|table
+? t1,r2c1,r2c2,r2c3|Look at the table. Which bench should the listeners visit?|表を見てください。案内の対象者はどの台に行くべきですか。
+A Bench B.|台B。|電池式の小型家電を点検するのはBです。
+B Bench A.|台A。|小型家電用ですがコンセント式です。
+C Bench C.|台C。|電池式ですが園芸用具が対象です。
+D Bench D.|台D。|電源不要の園芸用具用です。
+! A
+% small appliance=小型家電|mains=家庭用電源
+> next|次の行動|easy|common
+? t1|What should visitors do just before taking a seat?|来場者は着席前に何をすべきですか。
+A Write a full account of the fault.|故障の経緯を詳しく書く。|写真だけで足りると説明しています。
+B Buy a new lamp at the entrance.|入口で新しいランプを買う。|修理品を持ち込む催しで、ランプの購入は不要です。
+C Remove the batteries from every tool.|すべての用具から電池を外す。|電池取り外しの手順は案内していません。
+D Give a photo to the entrance volunteer.|入口のボランティアに写真を渡す。|着席前の行動として明示されています。
+! D
+% hand over=渡す|take a seat=着席する
+
+@supplydrop|4|展示会後の資材回収
+: m|Exhibitors, the hall closes at six. We're on the home stretch, with only the packing materials left to clear. If you have clean cardboard, use a container that accepts cardboard and can be wheeled back to the west dock. First flatten the boxes before putting them in. Keep sample products separate for your own courier.|出展者の皆さま、会場は6時に閉まります。終盤に入り、片付けるのは梱包資材だけになりました。汚れていない段ボールは、段ボールを入れられて西側搬入口まで車輪で運べる容器を使ってください。入れる前にまず箱を平らにしてください。見本商品は分けて、各自の配送業者に渡してください。
+# Packing-waste containers|梱包廃棄物用の容器
+= Bin|容器; Accepts|入れられる物; Wheels|車輪
+= 10|10番; Cardboard|段ボール; No|なし
+= 12|12番; Film|フィルム; Yes|あり
+= 14|14番; Film|フィルム; No|なし
+= 16|16番; Cardboard|段ボール; Yes|あり
+> purpose|目的・場面|easy|common
+? t1|What is the main purpose of the announcement?|この案内の主な目的は何ですか。
+A To announce a new exhibit opening time.|新しい展示の開始時刻を知らせる。|示した時刻は閉館の6時です。
+B To sell sample products to visitors.|来場者に見本商品を販売する。|見本商品は配送業者のために分けるよう指示しています。
+C To request new containers from an outside company.|外部企業に新しい容器を依頼する。|使える既存の容器の選び方を伝えています。
+D To tell exhibitors how to clear packing materials.|梱包資材の片付け方を出展者に知らせる。|閉館前に残った資材の入れ先や分け方を案内しています。
+! D
+% exhibitor=出展者|clear=片付ける
+> intent|発言の意図|medium|common
+? t1|What does “we're on the home stretch” mean?|「終盤に入った」とは何を意味しますか。
+A The exhibitors should leave for home immediately.|出展者はすぐ自宅へ帰るべきだ。|帰宅命令ではなく作業が残りわずかという比喩です。
+B The hall will stay open all evening.|会場は夜通し開いている。|閉館は6時です。
+C Only a final cleanup task remains.|片付けの最後の作業だけが残っている。|直後に残っているのは梱包資材だけと明言しています。
+D New packing material is on its way to the hall.|新しい梱包材が会場に向かっている。|梱包材は新たに届けるのでなく片付けます。
+! C
+% home stretch=最後の段階|padding=梱包などの詰め物
+> chart|図表照合|medium|table
+? t1,r4c1,r4c2,r4c3|Look at the table. Which container meets the instructions?|表を見てください。案内の条件を満たす容器はどれですか。
+A Bin 10.|10番。|段ボール用ですが車輪がありません。
+B Bin 16.|16番。|段ボールが入り、車輪もあります。
+C Bin 12.|12番。|車輪はありますがフィルム用です。
+D Bin 14.|14番。|フィルム用で車輪もありません。
+! B
+% wheeled=車輪のついた|cardboard=段ボール
+> next|次の行動|easy|common
+? t1|What should exhibitors do before putting boxes into a container?|箱を容器に入れる前に出展者がすることは何ですか。
+A Flatten the boxes.|箱を平らにする。|入れる前に平らにするよう明示しています。
+B Attach samples to the boxes.|箱に見本商品を留める。|見本商品は混ぜずに分けます。
+C Call a visitor back to the stand.|来場者を出店場所に呼び戻す。|資材処分は出展者の作業です。
+D Move the container to its final dock first.|先に容器を最終の搬入口まで移動する。|箱を入れる直前の指示は箱を平らにすることです。
+! A
+% flatten=平らにする|container=容器
+
+@showvoices|4|番組収録の参加案内
+: b|We are recording a new episode of Voices of Grellin next Tuesday. It focuses on the town's tram history. Keep that date free if you want to join the audience. Only evening seats remain, and the step-free entrance is required for anyone using a wheelchair. Once you choose an available entrance, request a seat online before Friday.|来週火曜にグレリンの声の新しい回を収録します。町の路面電車の歴史がテーマです。観覧したい方はその日を空けておいてください。残席は夜の回だけで、車いすの方は段差のない入口が必要です。利用できる入口を選んだら、金曜までにオンラインで席を申し込んでください。
+# Audience access|観覧者の入口
+= Door|入口; Session|時間帯; Access|設備
+= Brook|ブルック; Afternoon|午後; Step-free|段差なし
+= Tower|タワー; Evening|夜; Steps|階段あり
+= Lane|レーン; Evening|夜; Step-free|段差なし
+= Grove|グローブ; Afternoon|午後; Steps|階段あり
+> purpose|目的・場面|easy|common
+? t1|What is the speaker announcing?|話し手は何を案内していますか。
+A A vote on a new tram service.|新しい路面電車の運行についての投票。|路面電車は番組のテーマで、投票はありません。
+B A chance to attend a recording.|番組収録を観覧する機会。|収録の曜日と観覧席の申し込み方を示しています。
+C A trial for volunteer tram drivers.|路面電車のボランティア運転手の試験。|求めているのは観覧者で、運転手募集ではありません。
+D A walking tour of the recording studio.|収録施設の徒歩見学ツアー。|案内は観覧席の予約と入場です。
+! B
+% record=収録する|audience=観覧者
+> intent|発言の意図|medium|common
+? t1|Why does the speaker say, “Keep that date free”?|話し手はなぜ「その日を空けておいて」と言いますか。
+A Listeners may want to attend the recording that day.|その日に収録を観覧したい人がいるから。|火曜に観覧するなら予定を入れないよう勧めています。
+B The recording is free of charge that day only.|その日だけ収録が無料だから。|free はここでは予定のない状態で、料金ではありません。
+C The studio will operate without an audience.|収録を観覧者なしで行うから。|観覧を希望する人に席を申し込むよう説明しています。
+D Listeners can choose any recording date.|収録日は自由に選べるから。|火曜の収録のため、その日を空けるよう指定しています。
+! A
+% keep a date free=その日に予定を入れない|episode=番組の回
+> chart|図表照合|medium|table
+? t1,r3c1,r3c2,r3c3|Look at the table. Which door should a wheelchair user choose?|表を見てください。車いすの利用者はどの入口を選ぶべきですか。
+A Brook.|ブルック。|段差はありませんが午後の回です。
+B Tower.|タワー。|夜の回ですが階段があります。
+C Grove.|グローブ。|午後の回で、階段もあります。
+D Lane.|レーン。|残席のある夜の回で段差がないのはレーンです。
+! D
+% step-free=段差のない|wheelchair=車いす
+> next|次の行動|easy|common
+? t1|What should listeners do after choosing an entrance?|入口を選んだ後に何をすべきですか。
+A Buy a tram ticket.|路面電車の切符を買う。|路面電車は収録のテーマで、乗車の手続きではありません。
+B Contact a tram driver for directions.|運転手に道を聞く。|入口を決めたら行うのは座席申請です。
+C Request a seat online.|オンラインで席を申し込む。|入口選択の後に金曜までの申し込みを求めています。
+D Wait at the door until Friday.|金曜まで入口で待つ。|金曜はオンライン申請の期限です。
+! C
+% request a seat=席を申し込む|available=利用できる
+
+@yardnotice|4|庭ごみ回収の変更
+: f|This is a service update for houses on Wren Lane. The usual truck can't make its round until the road works end. Don't let that hold you up. A temporary collection point accepts branches this week, but it must be at a covered stop because the weather service expects heavy rain. Cut long branches into short lengths and tie them in bundles before you set out.|レン通りの各戸への回収案内です。道路工事が終わるまで通常の回収車は巡回できません。それを待つ必要はありません。今週は臨時回収場所で枝を受け付けますが、大雨の予報があるため屋根のある場所に出す必要があります。出かける前に長い枝を短く切り、束ねてください。
+# Temporary collection sites|臨時回収場所
+= Site|場所; Shelter|屋根; Material|品目
+= Oak yard|オーク広場; Covered|あり; Leaves|落ち葉
+= East gate|東門; Open|なし; Branches|枝
+= Stone shed|石造り小屋; Covered|あり; Branches|枝
+= Mill lot|製粉所駐車場; Open|なし; Leaves|落ち葉
+> purpose|目的・場面|easy|common
+? t1|What is being announced?|何を案内していますか。
+A A service that delivers plants to houses.|各戸に植物を届けるサービス。|扱っているのは各戸から出る枝の回収です。
+B An award for maintaining gardens.|庭を維持した人への表彰。|表彰ではなく工事中の回収方法の案内です。
+C A temporary change in branch collection.|枝の回収方法の一時的な変更。|通常車の巡回が止まり、臨時の持ち込みに替わります。
+D A new forecast for the end of the road works.|工事の終了時期についての新しい予測。|大雨予報は伝えていますが工事の終了日は示しません。
+! C
+% round=巡回|collection point=回収場所
+> intent|発言の意図|medium|common
+? t1|What does the speaker imply by “Don't let that hold you up”?|話し手は「それを待つ必要はありません」と言って何を示していますか。
+A Residents should wait indoors until the road works finish.|工事終了まで住民は屋内で待つべきだ。|今週の別の回収手段を案内しており、待ち続ける必要はありません。
+B Residents can dispose of branches before regular service resumes.|通常回収の再開前に枝を処分できる。|巡回車を待つ代わりに臨時場所へ持ち込めます。
+C Branches should be left in the road for the usual truck.|通常車のために枝を道路に置くべきだ。|道路工事中は通常車が来ず、臨時場所に持ち込みます。
+D People must stop cutting back their garden plants.|庭木の剪定を中止すべきだ。|すでにある枝の出し先で、剪定の禁止ではありません。
+! B
+% hold up=遅らせる|temporary=臨時の
+> chart|図表照合|medium|table
+? t1,r3c1,r3c2,r3c3|Look at the table. Which site should residents use?|表を見てください。住民はどの回収場所を利用すべきですか。
+A Stone shed.|石造り小屋。|屋根があり、枝を受け付ける場所です。
+B Oak yard.|オーク広場。|屋根はありますが落ち葉用です。
+C East gate.|東門。|枝を出せますが屋根がありません。
+D Mill lot.|製粉所駐車場。|屋根がなく落ち葉用です。
+! A
+% covered=屋根がある|branch=枝
+
+@manualpickup|4|設備マニュアル配布
+: g|Here is a message for technicians at the Rillden plant. Revised press manuals have arrived. There is no need to make a special trip. You can collect them on your next shift. The only copies approved for the press are the large-print ones marked with a green cover. Show your staff badge when you go to the storage desk.|リルデン工場の技術担当者にお知らせします。改訂版のプレス機マニュアルが届きました。わざわざ来る必要はありません。次回の勤務時に受け取れます。プレス機用として承認されているのは、緑色の表紙の大きい文字版だけです。保管窓口に行ったら職員証を見せてください。
+# Manual stock|マニュアル在庫
+= Shelf|棚; Print size|文字の大きさ; Cover|表紙
+= 1|1番; Standard|標準; Green|緑
+= 2|2番; Large|大; Blue|青
+= 3|3番; Standard|標準; Blue|青
+= 4|4番; Large|大; Green|緑
+> purpose|目的・場面|easy|common
+? t1|Why is the message being given?|この連絡が行われる目的は何ですか。
+A To introduce a newly purchased press.|新たに購入したプレス機を紹介する。|新しく届いたのは機械そのものではなく手引きです。
+B To announce a shift change.|勤務時間の変更を知らせる。|予定済みの次回勤務時でよいと伝えています。
+C To request comments about a manual.|手引きについての意見を求める。|意見募集ではなく改訂済みの手引きの配布です。
+D To tell staff how to collect revised manuals.|改訂版の手引きを受け取る方法を職員に知らせる。|対象となる版と、受け取り時に必要な職員証を示しています。
+! D
+% revised=改訂された|press=プレス機
+> intent|発言の意図|medium|common
+? t1|What does “There is no need to make a special trip” suggest?|「わざわざ来る必要はありません」とは何を示していますか。
+A Staff must work an extra shift to collect a manual.|受け取りには臨時の勤務が必要だ。|普段の勤務で受け取れ、追加勤務は求めていません。
+B The plant no longer uses paper manuals.|工場で紙の手引きを使用しなくなった。|配布するのは表紙付きの手引きです。
+C Staff can wait until they are at work again.|職員は次の出勤まで待てる。|続けて次回勤務の時に受け取れると説明しています。
+D The storage desk ships all manuals to employees.|保管窓口が職員全員に手引きを発送する。|職員が窓口に出勤時に受け取りに行きます。
+! C
+% make a special trip=そのためだけに出向く|next shift=次回の勤務
+> chart|図表照合|medium|table
+? t1,r4c1,r4c2,r4c3|Look at the table. Which shelf has the approved copies?|表を見てください。承認された版はどの棚にありますか。
+A Shelf 1.|1番。|緑表紙ですが文字が標準サイズです。
+B Shelf 4.|4番。|大きな文字かつ緑表紙の版です。
+C Shelf 2.|2番。|文字は大ですが青い表紙です。
+D Shelf 3.|3番。|文字は標準で表紙も青です。
+! B
+% large print=大きな文字で印刷された版|marked=印のある
+
+@visitorshop|4|出入口の一時変更
+: b|Good afternoon, Glenbar craft market shoppers. The west arch is closed for cleaning. Follow the signs for a north entrance that has a ramp. Using the correct entrance will save you a long walk around the fence. Once inside, you can collect your purchases from the desk next to the café.|グレンバー工芸市にご来場の皆さま、こんにちは。西側のアーチは清掃中で閉鎖されています。スロープのある北入口への表示に従ってください。正しい入口を使えば、柵の周りを大きく回り込まずに済みます。中に入ったら、カフェの隣の窓口で購入品をお受け取りください。
+# Market entrances|市場の入口
+= Entrance|入口; Side|方角; Access|設備
+= Tower|タワー; North|北; Stairs|階段
+= Orchard|オーチャード; North|北; Ramp|スロープ
+= Bridge|ブリッジ; East|東; Ramp|スロープ
+= Garden|ガーデン; East|東; Stairs|階段
+> purpose|目的・場面|easy|common
+? t1|What is the main purpose of the announcement?|案内の主な目的は何ですか。
+A To direct visitors to a different entrance.|来場者を別の入口へ誘導する。|西入口が閉鎖中のため利用できる北入口を案内しています。
+B To ask shoppers to help with cleaning.|買い物客に清掃を手伝ってもらう。|清掃は入口の閉鎖理由で、来客に頼みません。
+C To explain where to pay a parking fee.|駐車料金の支払先を説明する。|入口と購入品の受け取り場所を扱っています。
+D To announce a sale at the café.|カフェのセールを知らせる。|カフェは受け取り窓口の目印です。
+! A
+% arch=アーチ状の入口|closed for cleaning=清掃のため閉鎖
+> intent|発言の意図|medium|common
+? t1|Why does the speaker mention a long walk around the fence?|話し手はなぜ柵の周りの長い迂回について言及しますか。
+A To announce a scheduled tour of the market fence.|市場の柵を巡るツアーを告知するため。|迂回は避けるものとして説明し、ツアーを宣伝していません。
+B To tell visitors where staff are repairing the fence.|職員が柵を修理している場所を知らせるため。|閉鎖は西入口の清掃が理由です。柵の修理は話題にありません。
+C To recommend a longer route to the café.|カフェまでの長い経路を勧めるため。|回り道を省く入口を使うよう促しています。
+D To encourage shoppers to follow the entrance signs.|入口の表示に従うよう買い物客に促すため。|正しい入口を使う利点として余計に歩かずに済むと伝えています。
+! D
+% save a walk=歩く手間を省く|around=周りを回って
+> chart|図表照合|medium|table
+? t1,r2c1,r2c2,r2c3|Look at the table. Which entrance should the shoppers choose?|表を見てください。買い物客はどの入口を選ぶべきですか。
+A Tower.|タワー。|北ですが階段です。
+B Bridge.|ブリッジ。|スロープはありますが東です。
+C Orchard.|オーチャード。|北にありスロープが付いています。
+D Garden.|ガーデン。|東にあり階段です。
+! C
+% ramp=スロープ|side=側、方角
+
+@filmdrop|4|映像展示の変更
+: f|This is a reminder for today's projection volunteers. The sound test for the river film has been moved to a quiet room on the upper level. Use the room that has the headphone system. We're on a tight schedule. The technician must finish before the visitors arrive, so please be at the desk fifteen minutes early.|本日の映像上映のボランティアにお知らせします。川の映像の音声試験は上階の静かな部屋に変更しました。ヘッドホン設備のある部屋を使ってください。時間に余裕がありません。来場者到着までに技術担当が試験を終える必要があるので、15分早く窓口に来てください。
+# Screening rooms|上映室
+= Room|部屋; Level|階; Sound equipment|音響設備
+= Lime|ライム; Ground|地上階; Headphones|ヘッドホン
+= Teal|ティール; Upper|上階; Speakers|スピーカー
+= Slate|スレート; Upper|上階; Headphones|ヘッドホン
+= Rose|ローズ; Ground|地上階; Speakers|スピーカー
+> purpose|目的・場面|easy|common
+? t1|Why is the speaker addressing the volunteers?|話し手はなぜボランティアに話していますか。
+A To invite them to visit the river.|川へ行くよう誘うため。|川は映像の題材で、現地訪問はしません。
+B To report that a technician has left the event.|技術担当が催しを離れたと知らせるため。|技術担当が来場前に試験を終える必要があると述べています。
+C To tell them about a change to a sound test.|音声試験の変更を知らせるため。|試験先を上階に変更し、必要な時間を伝えています。
+D To offer headphones for sale.|ヘッドホンを販売するため。|備え付け設備を選ぶ指示で、販売ではありません。
+! C
+% projection=上映|sound test=音声試験
+> intent|発言の意図|medium|common
+? t1|What does “We're on a tight schedule” mean?|「時間に余裕がありません」とは何を意味しますか。
+A Volunteers need to adjust the clock in the test room.|ボランティアが試験室の時計を調整する必要がある。|時計の作業を頼む発言ではなく、試験に使える時間が限られていると伝えています。
+B Little time remains to complete the test.|試験を終えるまでに残された時間が少ない。|来場者の到着までに終えるため、早く集合するよう求めています。
+C The film will be shown on a smaller screen.|映像は小さいスクリーンで上映される。|時間の問題で、スクリーンの寸法は示していません。
+D Fewer volunteers can attend the screening.|上映に参加できるボランティアの人数が減る。|人数制限でなく試験を終える時刻を問題にしています。
+! B
+% tight schedule=時間に余裕がない予定|finish before=～の前に終える
+> chart|図表照合|medium|table
+? t1,r3c1,r3c2,r3c3|Look at the table. In which room will the test take place?|表を見てください。試験はどの部屋で行われますか。
+A Slate.|スレート。|上階でヘッドホン設備があるのはスレートです。
+B Lime.|ライム。|ヘッドホンはありますが地上階です。
+C Teal.|ティール。|上階ですがスピーカーの部屋です。
+D Rose.|ローズ。|地上階でスピーカーを備えます。
+! A
+% level=階|headphone system=ヘッドホン設備

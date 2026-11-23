@@ -1,0 +1,260 @@
+@p2-r3-wh-valves|2|疑問詞への応答|保守点検|medium
+: f|How long will the water be off during the inspection?|点検中はどのくらい断水しますか。
+? t1||音声を聞き、自然な応答を選びます。
+A About an hour.|約1時間です。|断水の継続時間を答えています。
+B In the east wing.|東棟です。|場所であり、どのくらい続くかは分かりません。
+C By calling maintenance.|保守担当に電話して。|手段であり、停止する時間の長さではありません。
+! A
+% be off=止まっている|inspection=点検
+
+@p2-r3-wh-lockers|2|疑問詞への応答|臨時ロッカー|medium
+: g|Where can visiting staff store their coats?|来訪した職員は上着をどこにしまえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A Only two of them.|そのうち二つだけです。|数を答えており、収納場所は示しません。
+B Until the session ends.|講習の終了までです。|期限であって、保管場所の答えにはなりません。
+C In the lockers beside the lift.|エレベーター脇のロッカーです。|ロッカーの位置を示しています。
+! C
+% visiting staff=来訪職員|store=収納する
+
+@p2-r3-wh-editor|2|疑問詞への応答|社内報|medium
+: m|Who will read the final draft before it goes to print?|印刷に回す前に誰が最終稿を読みますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The printer is on the third floor.|印刷機は3階にあります。|機械の場所で、原稿を読む担当者は分かりません。
+B Our managing editor will.|編集責任者が読みます。|誰が確認するかを職名で示しています。
+C On recycled paper.|再生紙にです。|印刷する紙の種類で、校正の担当者ではありません。
+! B
+% final draft=最終稿|go to print=印刷に回る
+
+@p2-r3-wh-crates|2|疑問詞への応答|出荷資材|medium
+: b|How many empty crates should I put in the van?|空の木箱を何箱バンに載せればよいですか。
+? t1||音声を聞き、自然な応答を選びます。
+A Three should be enough.|3箱あれば十分です。|必要な箱数を答えています。
+B Beside the loading dock.|搬入口の横です。|保管場所で、必要な個数を示していません。
+C After the driver calls.|運転手から電話があってからです。|作業する時点の情報で、数には答えていません。
+! A
+% crate=木箱|empty=空の
+
+@p2-r3-wh-receipt|2|疑問詞への応答|電子領収書|medium
+: f|Why did the system send two receipts for one payment?|一度の支払いに領収書が二通送られたのはなぜですか。
+? t1||音声を聞き、自然な応答を選びます。
+A For the full amount.|全額分です。|領収書の金額で、送信が二重になった理由を示していません。
+B Through the accounts page.|アカウントページからです。|手段の答えであり、二通になった理由ではありません。
+C We had two email addresses on file.|メールアドレスが二つ登録されていました。|二通送られた原因を示しています。
+! C
+% receipt=領収書|payment=支払い
+
+@p2-r3-yes-no-kitchen|2|Yes・No疑問文|設備予約|medium
+: g|Is the teaching kitchen free on Monday morning?|調理実習室は月曜の午前中に空いていますか。
+? t1||音声を聞き、自然な応答を選びます。
+A It's beside the main hall.|大ホールの横です。|部屋の位置で、予約の有無は分かりません。
+B Everyone brought an apron.|全員がエプロンを持参しました。|持参物の報告で、月曜の空き状況とは別です。
+C No, a class has booked it until noon.|いいえ、正午まで講座の予約が入っています。|空きがないと答え、予約時間を示しています。
+! C
+% teaching kitchen=調理実習室|be free=空いている
+
+@p2-r3-yes-no-bus|2|Yes・No疑問文|交通|medium
+: m|Does this bus stop at the west entrance?|このバスは西口に止まりますか。
+? t1||音声を聞き、自然な応答を選びます。
+A It takes an hour to get there by train.|電車ならそこまで1時間です。|対象はこのバスの停車先で、電車の所要時間ではありません。
+B Yes, it's the last stop on this route.|はい、この路線の終点です。|西口に停車すると肯定し、終点だと補足します。
+C I already bought a ticket.|もう切符を買いました。|購入報告だけでは、そのバスの停車先は分かりません。
+! B
+% stop at=～に止まる|west entrance=西口
+
+@p2-r3-yes-no-renew|2|Yes・No疑問文|契約|medium
+: b|Did the landlord renew the lease last week?|家主は先週、賃貸契約を更新しましたか。
+? t1||音声を聞き、自然な応答を選びます。
+A Yes, the signed copy came on Friday.|はい、署名済みの控えが金曜に届きました。|先週の更新を肯定して、書類の到着日を補足しています。
+B The rent is due on the first of each month.|家賃の期限は毎月1日です。|支払期限で、契約の更新が済んだかは分かりません。
+C I met the landlord near the stairs.|階段の近くで家主に会いました。|会った場所で、更新したとは述べていません。
+! A
+% landlord=家主|renew a lease=賃貸契約を更新する
+
+@p2-r3-yes-no-museum|2|Yes・No疑問文|館内案内|medium
+: f|Will the museum open at the usual time during repairs?|修理期間中、博物館はいつもどおりの時刻に開館しますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The east gallery has the new exhibition.|東展示室で新しい展示を行っています。|展示場所で、開館時刻に答えていません。
+B I visited the museum last spring.|去年の春に博物館に行きました。|過去の訪問についてで、修理期間中の予定ではありません。
+C No, it'll open an hour later.|いいえ、1時間遅く開館します。|通常の時刻より遅くなると答えています。
+! C
+% usual time=通常の時刻|during repairs=修理期間中
+
+@p2-r3-yes-no-event|2|Yes・No疑問文|催しの受付|medium
+: g|Have you sent the updated guest list yet?|更新した来場者名簿はもう送りましたか。
+? t1||音声を聞き、自然な応答を選びます。
+A The guests arrived together.|来場者は一緒に到着しました。|到着の様子では、名簿を送ったかは分かりません。
+B Not yet. I'll send it before lunch.|まだです。昼食前に送ります。|送付はまだで、これから行う予定だと答えています。
+C There were six pages in the original.|元の版は6ページでした。|元の名簿の分量で、更新版の送付状況ではありません。
+! B
+% guest list=来場者名簿|yet=すでに、もう
+
+@p2-r3-yes-no-sign|2|Yes・No疑問文|会場の表示|medium
+: m|Should the directional signs go up before the gates open?|案内標識は開門前に取り付けるべきですか。
+? t1||音声を聞き、自然な応答を選びます。
+A The gate is made of steel.|門は鋼鉄製です。|門の材質は、標識をいつ取り付けるかには関係しません。
+B Yes, visitors will need them as soon as they enter.|はい、来場者が入ってすぐに必要です。|開門前の設置を肯定し、理由を説明しています。
+C I signed the delivery note.|納品書に署名しました。|sign は署名する意味で、案内標識の取り付けではありません。
+! B
+% directional sign=案内標識|go up=設置される
+
+@p2-r3-yes-no-printer|2|Yes・No疑問文|備品|medium
+: b|Can this printer handle envelopes?|このプリンターで封筒に印刷できますか。
+? t1||音声を聞き、自然な応答を選びます。
+A Yes, if you use the side tray.|はい、脇の給紙トレーを使えばできます。|印刷できると答え、封筒を入れるトレーを指定します。
+B The envelopes cost six dollars.|封筒は6ドルでした。|費用で、プリンターで使用できるかには答えていません。
+C The printer arrived yesterday.|プリンターは昨日届きました。|納入日で、封筒に対する機能は分かりません。
+! A
+% handle=取り扱える|envelope=封筒
+
+@p2-r3-request-flyer|2|依頼・提案への応答|印刷|medium
+: f|Could you print three more copies of this flyer?|この案内チラシをあと3枚印刷してもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A I have three appointments today.|今日は予定が三件あります。|同じ数に言及していますが、印刷の依頼には応じていません。
+B The front desk closes at five.|受付は5時に閉まります。|受付の営業時刻で、印刷を行うかは分かりません。
+C Sure, I'll put them on your desk.|もちろんです。机に置いておきます。|依頼を引き受け、印刷後の置き先も述べています。
+! C
+% flyer=チラシ|copies=部数
+
+@p2-r3-request-break|2|依頼・提案への応答|会議|medium
+: g|Why don't we take a break after this report?|この報告が終わったら休憩を取りませんか。
+? t1||音声を聞き、自然な応答を選びます。
+A The report lists last month's sales.|報告書には先月の売上が載っています。|報告の中身で、休憩に賛成かどうかには触れていません。
+B Good idea. I could use some coffee.|いいですね。コーヒーが飲みたいところです。|休憩の提案を受け入れています。
+C I repaired the broken hinge.|壊れた蝶番を修理しました。|break と関連する語が入りますが、休憩への応答ではありません。
+! B
+% take a break=休憩を取る|after this report=この報告の後に
+
+@p2-r3-request-van|2|依頼・提案への応答|搬入|medium
+: m|Please leave enough space for the van by the loading door.|搬入口の脇にバンが止められるスペースを空けておいてください。
+? t1||音声を聞き、自然な応答を選びます。
+A I'll move the empty carts away from the door.|空の台車を入口から移動します。|台車を移すことで駐車スペースを確保します。
+B The van's registration is in the glove box.|車両登録証はダッシュボードの収納にあります。|書類の場所で、駐車スペースを空ける依頼に応じていません。
+C We loaded the boxes yesterday.|昨日、箱の積み込みをしました。|過去の積み込みで、これから場所を空けるとは答えていません。
+! A
+% leave space=場所を空ける|loading door=搬入口
+
+@p2-r3-request-menu|2|依頼・提案への応答|食堂|medium
+: b|Shall we take the soup off the menu while the stove is being repaired?|コンロの修理中はスープをメニューから外しましょうか。
+? t1||音声を聞き、自然な応答を選びます。
+A Yes, the sandwiches can still be served.|はい、サンドイッチは引き続き出せます。|外す提案に同意し、提供を続けられる品を挙げています。
+B The menus are in the top drawer.|メニューは一番上の引き出しにあります。|紙のメニューの場所で、品目を外す提案には答えていません。
+C The soup was a little salty yesterday.|昨日のスープは少し塩辛かったです。|味の感想で、修理中の提供をどうするかは述べていません。
+! A
+% take off the menu=メニューから外す|stove=コンロ
+
+@p2-r3-request-call|2|依頼・提案への応答|来客対応|medium
+: f|Would you mind calling me when the visitor arrives?|来客が到着したら私に電話してもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A She arrived by taxi last time.|前回、彼女はタクシーで来ました。|前回の交通手段で、今回は電話するかどうかとは別です。
+B My phone is on the shelf.|私の電話は棚にあります。|電話機の場所は、連絡を引き受ける答えではありません。
+C Of course. I'll ring your extension.|もちろんです。内線に電話します。|電話をかけるという依頼を引き受けています。
+! C
+% would you mind=～していただけますか|arrive=到着する
+
+@p2-r3-request-desk|2|依頼・提案への応答|作業台の配置|medium
+: g|Let's move the display table closer to the entrance.|展示台を入口に近づけましょう。
+? t1||音声を聞き、自然な応答を選びます。
+A I left through the side entrance.|通用口から出ました。|自分が出た場所で、展示台を移す提案への応答ではありません。
+B All right. Can you take the other end?|分かりました。反対側を持ってもらえますか。|移動に同意して共同作業を求めます。
+C The exhibit ends in July.|展示は7月に終わります。|終了時期で、展示台を動かすかどうかは分かりません。
+! B
+% display table=展示台|closer to=～により近く
+
+@p2-r3-request-return|2|依頼・提案への応答|図書室|medium
+: m|Could you return this key to the library desk today?|今日、この鍵を図書室の窓口に返してもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A I'll drop it off on my way out.|帰りに寄って返します。|it が鍵を指し、返却を引き受けています。
+B The desk is made of oak.|その机はオーク材です。|家具の材質で、鍵を返す依頼には応じていません。
+C The library opened ten years ago.|図書室は10年前に開館しました。|開館時期は、今日鍵を返却する依頼とは別です。
+! A
+% return=返却する|library desk=図書室の窓口
+
+@p2-r3-request-confirm|2|依頼・提案への応答|研修日程|medium
+: b|Please confirm the start time with the instructor.|開始時刻を講師に確認してください。
+? t1||音声を聞き、自然な応答を選びます。
+A The course is open to everyone.|講座は誰でも参加できます。|参加資格で、開始時刻の照会は引き受けていません。
+B She teaches in two different buildings.|彼女は二つの建物で教えています。|授業の場所についての情報で、開始時刻の確認ではありません。
+C I'll check with her and let you know.|講師に確かめて、お知らせします。|確認する相手と、結果を伝える行動が依頼に合います。
+! C
+% confirm=確認する|instructor=講師
+
+@p2-r3-indirect-vouchers|2|間接応答|特典の在庫|medium
+: f|Are any drink vouchers left?|ドリンク券はまだ残っていますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The café serves tea until six.|カフェでは6時までお茶を出しています。|提供時間だけでは券の残りは分かりません。
+B The drinks are served in paper cups.|飲み物は紙カップで出します。|容器の情報で、券の配布状況ではありません。
+C We handed out the last one a minute ago.|ついさっき最後の一枚を配りました。|最後の一枚を配ったので在庫がないと間接的に答えています。
+! C
+% voucher=引換券|be left=残っている
+
+@p2-r3-indirect-bridge|2|間接応答|搬入路|medium
+: g|Can we bring the delivery through the west gate?|搬入品を西門から入れられますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The delivery contains glass items.|搬入品にはガラス製品が含まれています。|荷物の中身で、通行に関する答えではありません。
+B The paving crew hasn't reopened that entrance.|舗装工事の作業班が、まだその入口を開放していません。|西門が未開放なので搬入に使えないと分かります。
+C I made a new route map yesterday.|昨日、新しい経路図を作りました。|地図作成の報告ですが、西門を通れるかは分かりません。
+! B
+% delivery=搬入品|gate=門
+
+@p2-r3-indirect-contract|2|間接応答|書類発送|medium
+: m|Has the courier picked up the signed contract yet?|配送業者はもう署名済みの契約書を集荷しましたか。
+? t1||音声を聞き、自然な応答を選びます。
+A It's still in the outgoing tray on my desk.|まだ私の机の発送用トレーにあります。|書類が手元に残っているので集荷されていないと判断できます。
+B It covers the next two years.|契約期間は今後2年間です。|契約の有効期間で、集荷が済んだかは示していません。
+C The courier has an office near the station.|配送業者の事務所は駅の近くにあります。|業者の所在地で、その荷物の集荷状況ではありません。
+! A
+% pick up=集荷する|signed contract=署名済みの契約書
+
+@p2-r3-indirect-screen|2|間接応答|会場準備|medium
+: b|Is the screen ready for the video conference?|スクリーンはビデオ会議に使える状態ですか。
+? t1||音声を聞き、自然な応答を選びます。
+A I joined last week's meeting from home.|先週の会議には自宅から参加しました。|前回の参加場所で、今回の画面の状態とは別です。
+B The report has a new cover page.|報告書の表紙が新しくなりました。|資料の書式で、会議設備の準備状況には答えていません。
+C The technician is still connecting the cables.|技術担当者がまだケーブルをつないでいます。|接続作業が続いているため、準備が済んでいないと分かります。
+! C
+% screen=画面、スクリーン|video conference=ビデオ会議
+
+@p2-r3-indirect-door|2|間接応答|開店準備|medium
+: f|Can you ask Dev to unlock the side door?|デヴに通用口を開けるよう頼んでもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The door is made of wood.|ドアは木製です。|材質を答えても、担当者に頼めるかは分かりません。
+B He left for the airport an hour ago.|彼は1時間前に空港へ向かいました。|デヴが現場にいないので、すぐ解錠を頼めないことを伝えています。
+C The other door leads to the kitchen.|もう一方のドアは調理室につながっています。|別のドアの行き先で、デヴへの依頼ではありません。
+! B
+% unlock=鍵を開ける|side door=通用口
+
+@p2-r3-indirect-weekend|2|間接応答|勤務調整|medium
+: g|Could you cover the Saturday morning shift?|土曜朝のシフトを代わってもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The schedule is on a blue noticeboard.|勤務表は青い掲示板にあります。|勤務表の場所で、代われるかは答えていません。
+B That's when I'm taking my driving test.|その時間は運転免許の試験を受けます。|土曜朝に別の予定があるため、引き受けにくいことを示しています。
+C I have the uniform in two sizes.|制服は二つのサイズを持っています。|制服のサイズの話で、勤務可能かどうかとは別です。
+! B
+% cover a shift=シフトを代わる|morning shift=朝の勤務
+
+@p2-r3-indirect-poster|2|間接応答|印刷工程|medium
+: m|Are we sending the poster to the printer today?|今日ポスターを印刷所に送りますか。
+? t1||音声を聞き、自然な応答を選びます。
+A We're still waiting for the client's final approval.|まだ顧客の最終承認を待っています。|送付に必要な承認が済んでいないと伝えています。
+B I found a frame in the storage room.|倉庫で額を見つけました。|額の入手と、印刷所への送付予定は別です。
+C I travel there by bus.|私はそこへバスで行きます。|交通手段についてで、送稿の予定ではありません。
+! A
+% send to the printer=印刷所に送る|approval=承認
+
+@p2-r3-indirect-grab|2|間接応答|昼食の手配|medium
+: b|Should I order lunch for the whole team?|チーム全員の昼食を注文したほうがいいですか。
+? t1||音声を聞き、自然な応答を選びます。
+A The restaurant is across the street.|店は通りの向かいにあります。|店の場所で、注文が必要かには答えていません。
+B The last order arrived twenty minutes late.|前回の注文は20分遅れで届きました。|前回の配送時刻だけでは、今日注文する必要があるか判断できません。
+C Everyone brought their own today.|今日は皆さん自分の分を持ってきました。|昼食が各自にあるのでチーム分の注文は不要だと示します。
+! C
+% the whole team=チーム全員|bring one's own=自分の分を持参する
+
+@p2-r3-indirect-alarm|2|間接応答|朝の設備準備|medium
+: f|Will the main doors be open by eight?|正面扉は8時までに開きますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The main doors were painted green.|正面扉は緑に塗られました。|色の情報で、解錠される時刻は分かりません。
+B The only key holder isn't due in until nine.|鍵を持つ唯一の担当者は9時まで来ません。|8時までに解錠できる人が来ないため、開かないと推測できます。
+C The entrance is wider than it used to be.|以前より入口が広くなりました。|入口の幅で、8時までに開くかとは関係ありません。
+! B
+% by eight=8時までに|unlock=解錠する

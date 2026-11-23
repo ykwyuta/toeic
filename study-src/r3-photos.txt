@@ -1,0 +1,269 @@
+@p1-action-r3-arrange|1|動作|花店|medium
+& arrange|女性が花瓶に花を生けています。
+? photo||写真と一致する描写を選びます。
+A A woman is arranging flowers in a vase.|女性が花瓶に花を生けています。|手で花の茎を花瓶に挿しています。
+B A woman is watering a plant.|女性が植物に水をやっています。|水差しや水流は写っていません。
+C A woman is trimming stems with scissors.|女性がはさみで茎を切っています。|両手で花を整えており、はさみを握っていません。
+D A woman is wiping a glass vase.|女性がガラスの花瓶を拭いています。|花に手を触れており、布は持っていません。
+! A
+% vase=花瓶|stem=茎
+
+@p1-state-r3-arrange|1|状態|花店|medium
+& arrange|ガラスの花瓶が二つ空です。
+? photo||写真と一致する描写を選びます。
+A All the vases contain flowers.|花瓶はすべて花が入っています。|左の二つに花や茎は見えません。
+B The two empty vases are lying on their sides.|空の花瓶二つが横倒しです。|底が台に着き、口が上を向いています。
+C The empty vases are covered with cloth.|空の花瓶は布で覆われています。|透明な側面がそのまま見えます。
+D Two glass vases are empty.|ガラスの花瓶が二つ空です。|左の透明な器二つに花が入っていません。
+! D
+% vase=花瓶|stem=茎
+
+@p1-position-r3-arrange|1|位置関係|花店|medium
+& arrange|時計が空の花瓶より上にあります。
+? photo||写真と一致する描写を選びます。
+A A clock is beneath the counter.|時計が台の下にあります。|時計は台より上の壁に掛かっています。
+B A clock is on the counter beside the flowers.|時計が台の上の花の隣にあります。|台に花はありますが、時計は壁にあります。
+C A clock is above the empty vases.|時計が空の花瓶より上にあります。|器は台の上、時計は左上の壁です。
+D A clock is behind the woman's head.|時計が女性の頭の後ろにあります。|時計は女性の頭から離れた左側です。
+! C
+% vase=花瓶|stem=茎
+
+@p1-action-r3-fold|1|動作|リネンの整理|medium
+& fold|女性がタオルを折りたたんでいます。
+? photo||写真と一致する描写を選びます。
+A A woman is hanging a towel on a line.|女性が物干しひもにタオルを掛けています。|布は台にあり、物干しひもを使っていません。
+B A woman is folding a towel.|女性がタオルを折りたたんでいます。|布の角を両手で持ち、作業台の上で折っています。
+C A woman is ironing a shirt.|女性がシャツにアイロンをかけています。|触れているのはタオルで、アイロンを持っていません。
+D A woman is loading a washing machine.|女性が洗濯機に洗濯物を入れています。|作業場所は洗濯機ではなく台です。
+! B
+% fold=折りたたむ|hamper=洗濯物かご
+
+@p1-state-r3-fold|1|状態|リネンの整理|medium
+& fold|何枚かのタオルが積まれています。
+? photo||写真と一致する描写を選びます。
+A Several towels have been stacked.|何枚かのタオルが積まれています。|左端の折ったタオルが上下に重なっています。
+B All the towels are spread flat.|タオルがすべて広げられています。|左端は一枚ずつ広げずに積んでいます。
+C The folded towels are wrapped in plastic.|折ったタオルはビニールで包まれています。|布地がむき出しで包装はありません。
+D The towels are hanging from hooks.|タオルがフックに掛かっています。|タオルは台に載っています。
+! A
+% fold=折りたたむ|hamper=洗濯物かご
+
+@p1-position-r3-fold|1|位置関係|リネンの整理|medium
+& fold|洗濯物かごが折ったタオルより下にあります。
+? photo||写真と一致する描写を選びます。
+A A hamper is on the workbench.|洗濯物かごが作業台の上にあります。|台の上はタオルで、かごは床にあります。
+B A hamper is on a windowsill.|洗濯物かごが窓台にあります。|かごが見えるのは窓より低い床です。
+C A hamper is hanging above the woman.|洗濯物かごが女性の上につるされています。|かごは女性より低い位置で、つるされていません。
+D A hamper is below the folded towels.|洗濯物かごが折ったタオルより下にあります。|台の左側にタオル、その下の床にかごがあります。
+! D
+% fold=折りたたむ|hamper=洗濯物かご
+
+@p1-action-r3-plant|1|動作|植え替え|medium
+& plant|女性が植物を鉢に入れています。
+? photo||写真と一致する描写を選びます。
+A A woman is watering a plant with a hose.|女性がホースで植物に水をやっています。|ホースや水流がなく、手に持つのは植物です。
+B A woman is clipping branches off a plant.|女性が植物の枝を切り落としています。|枝を切る道具を持たず、根元を支えています。
+C A woman is putting a plant into a pot.|女性が植物を鉢に入れています。|両手で植物の根鉢を支えて、鉢に入れています。
+D A woman is burying an empty pot in the ground.|女性が空の鉢を地面に埋めています。|鉢は作業台に載せたままです。
+! C
+% pot=植木鉢|trowel=移植ごて|nested=入れ子になった
+
+@p1-state-r3-plant|1|状態|植え替え|medium
+& plant|使っていない鉢がいくつか入れ子になっています。
+? photo||写真と一致する描写を選びます。
+A All the pots contain plants.|鉢はすべて植物が入っています。|右奥に積んだ鉢には植物の葉や茎が見えません。
+B Some unused pots are nested together.|使っていない鉢がいくつか入れ子になっています。|右奥の鉢は一つの内側に次の鉢を重ねています。
+C The unused pots are lying on their sides.|使っていない鉢が横倒しです。|積まれた鉢の口は上を向いています。
+D The pots are hanging from the ceiling.|鉢が天井からつるされています。|鉢は天井につられず作業台にあります。
+! B
+% pot=植木鉢|trowel=移植ごて|nested=入れ子になった
+
+@p1-position-r3-plant|1|位置関係|植え替え|medium
+& plant|移植ごてが作業中の鉢より右側にあります。
+? photo||写真と一致する描写を選びます。
+A A trowel is to the right of the pot being used.|移植ごてが作業中の鉢より右側にあります。|こてが鉢の画面右側の台に載っています。
+B A trowel is inside the stack of pots.|移植ごてが積んだ鉢の中にあります。|こての柄も刃も台の上に見えています。
+C A trowel is below the workbench.|移植ごてが作業台より下にあります。|台より上の天板に置かれています。
+D A trowel is above the woman's head.|移植ごてが女性の頭より上にあります。|こては台に寝かされ、女性の頭より低い位置です。
+! A
+% pot=植木鉢|trowel=移植ごて|nested=入れ子になった
+
+@p1-action-r3-pour|1|動作|工房|medium
+& pour|女性が鉢に液体を注いでいます。
+? photo||写真と一致する描写を選びます。
+A A woman is stirring a mixture with a spoon.|女性がスプーンで中身を混ぜています。|持つのは水差しで、鉢の中を混ぜていません。
+B A woman is filling a pitcher from a faucet.|女性が蛇口から水差しに水を入れています。|水差しから鉢へ流れていて、蛇口は使っていません。
+C A woman is carrying a box to a shelf.|女性が箱を棚に運んでいます。|箱は棚にあり、女性は水差しに手を添えています。
+D A woman is pouring liquid into a bowl.|女性が鉢に液体を注いでいます。|傾けた水差しから鉢に流れが落ちています。
+! D
+% pitcher=水差し|bowl=鉢|stool=背もたれのない椅子
+
+@p1-state-r3-pour|1|状態|工房|medium
+& pour|棚の上の箱がいくつか直立しています。
+? photo||写真と一致する描写を選びます。
+A Some boxes are piled on the floor.|箱が床に積まれています。|箱は棚の上に横並びで、床には積んでいません。
+B The boxes are lying on their sides.|箱が横倒しになっています。|縦の面を立てて底が棚に載っています。
+C Several boxes on a shelf are upright.|棚の上の箱がいくつか直立しています。|箱は底を棚に置いて直立しています。
+D The boxes are wrapped in cloth.|箱は布で包まれています。|箱の外側が露出しており、包み布が見えません。
+! C
+% pitcher=水差し|bowl=鉢|stool=背もたれのない椅子
+
+@p1-position-r3-pour|1|位置関係|工房|medium
+& pour|椅子が作業台の手前の端の下にあります。
+? photo||写真と一致する描写を選びます。
+A A stool is on top of the workbench.|椅子が作業台の上にあります。|椅子の脚は天板ではなく床側に伸びています。
+B A stool is under the front edge of the bench.|椅子が作業台の手前の端の下にあります。|木の椅子の座面が台の手前の縁より下にあります。
+C A stool is on the shelf above the boxes.|椅子が箱より上の棚にあります。|椅子は壁の棚より低く、手前にあります。
+D A stool is beside the bowl on the workbench.|椅子が作業台の鉢の隣にあります。|鉢は天板、椅子はその下です。
+! B
+% pitcher=水差し|bowl=鉢|stool=背もたれのない椅子
+
+@p1-action-r3-push|1|動作|ホテルの荷物運搬|medium
+& push|男性が荷物用台車を押しています。
+? photo||写真と一致する描写を選びます。
+A A man is lifting a suitcase off a cart.|男性が台車からスーツケースを持ち上げています。|両手は取っ手にあり、ケースは載ったままです。
+B A man is pushing a luggage cart.|男性が荷物用台車を押しています。|男性は取っ手に両手を当て、荷物を載せた台車を押しています。
+C A man is opening a suitcase.|男性がスーツケースを開けています。|男性はケースの開閉部に触れていません。
+D A man is pressing an elevator button.|男性がエレベーターのボタンを押しています。|男性の手は壁のボタンでなく台車にあります。
+! B
+% luggage cart=荷物用台車|suitcase=スーツケース
+
+@p1-state-r3-push|1|状態|ホテルの荷物運搬|medium
+& push|スーツケース二つが直立しています。
+? photo||写真と一致する描写を選びます。
+A Two suitcases are standing upright.|スーツケース二つが直立しています。|二つとも長辺を立てて台車に載っています。
+B Both suitcases are open.|どちらのスーツケースも開いています。|二つとも閉じ、中が見えません。
+C The suitcases are stacked on each other.|スーツケースが上下に積まれています。|青と銀のケースは横に並んでいます。
+D The suitcases are lying on the lobby floor.|スーツケースがロビーの床に横たわっています。|ケースは床ではなく、台車上で立っています。
+! A
+% luggage cart=荷物用台車|suitcase=スーツケース
+
+@p1-position-r3-push|1|位置関係|ホテルの荷物運搬|medium
+& push|荷物用台車がエレベーターの扉の前にあります。
+? photo||写真と一致する描写を選びます。
+A A luggage cart is inside an open elevator.|荷物用台車が開いたエレベーターの中にあります。|扉は閉じ、台車は外にあります。
+B A luggage cart is beneath a flight of stairs.|荷物用台車が階段の下にあります。|台車の奥に見えるのはエレベーターです。
+C A luggage cart is behind a reception counter.|荷物用台車が受付カウンターの後ろにあります。|台車は扉の前の通路にあり、カウンターの奥ではありません。
+D A luggage cart is in front of the elevator doors.|荷物用台車がエレベーターの扉の前にあります。|扉より手前に台車があります。
+! D
+% luggage cart=荷物用台車|suitcase=スーツケース
+
+@p1-action-r3-slice|1|動作|厨房の下ごしらえ|medium
+& slice|女性が野菜を薄く切っています。
+? photo||写真と一致する描写を選びます。
+A A woman is stirring soup in a bowl.|女性が鉢のスープを混ぜています。|鉢は空で、包丁はまな板上にあります。
+B A woman is wrapping a vegetable in paper.|女性が野菜を紙で包んでいます。|キュウリはむき出しで、包み紙がありません。
+C A woman is slicing a vegetable.|女性が野菜を薄く切っています。|包丁をキュウリに当て、切った輪切りが見えます。
+D A woman is putting a knife into a drawer.|女性が包丁を引き出しにしまっています。|包丁は引き出しでなく、キュウリに向いています。
+! C
+% slice=薄く切る|cutting board=まな板|cupboard=戸棚
+
+@p1-state-r3-slice|1|状態|厨房の下ごしらえ|medium
+& slice|料理人の後ろの戸棚は閉まっています。
+? photo||写真と一致する描写を選びます。
+A The cupboard doors are wide open.|戸棚の扉が大きく開いています。|戸棚の前面が一面に見え、扉は閉まっています。
+B The cupboard behind the cook is closed.|料理人の後ろの戸棚は閉まっています。|扉がとじており棚の内部が見えません。
+C The cupboard is lying on its side.|戸棚が横倒しです。|戸棚は壁に沿って立っています。
+D The cupboard is covered by a curtain.|戸棚がカーテンで覆われています。|木製の前面と手掛けが露出しています。
+! B
+% slice=薄く切る|cutting board=まな板|cupboard=戸棚
+
+@p1-position-r3-slice|1|位置関係|厨房の下ごしらえ|medium
+& slice|鉢がまな板の左にあります。
+? photo||写真と一致する描写を選びます。
+A A bowl is to the left of the cutting board.|鉢がまな板の左にあります。|白い鉢は画面上でまな板より左です。
+B A bowl is to the right of the cutting board.|鉢がまな板の右にあります。|鉢はまな板の反対側の左にあります。
+C A bowl is on the cutting board.|鉢がまな板に載っています。|まな板に野菜が載り、鉢は隣の台にあります。
+D A bowl is inside a cupboard.|鉢が戸棚の中にあります。|鉢は手前の作業台に出ています。
+! A
+% slice=薄く切る|cutting board=まな板|cupboard=戸棚
+
+@p1-action-r3-staple|1|動作|施設の窓口|medium
+& staple|女性が書類をホチキスで留めています。
+? photo||写真と一致する描写を選びます。
+A A woman is writing a note with a pen.|女性がペンでメモを書いています。|女性の手にはペンでなくホチキスがあります。
+B A woman is entering numbers on a keyboard.|女性がキーボードで数字を入力しています。|パソコンは閉じており、手は書類の上です。
+C A woman is cutting paper into strips.|女性が用紙を細長く切っています。|用紙は切り分けられておらず、道具はホチキスです。
+D A woman is using a stapler on some papers.|女性が書類をホチキスで留めています。|片手で書類を押さえ、赤いホチキスを押しています。
+! D
+% stapler=ホチキス|laptop=ノートパソコン
+
+@p1-state-r3-staple|1|状態|施設の窓口|medium
+& staple|机上のノートパソコンが閉じています。
+? photo||写真と一致する描写を選びます。
+A A laptop is open with its screen facing the woman.|ノートパソコンが開き、画面が女性を向いています。|上ぶたは閉じており、画面が立っていません。
+B A laptop is covered with a towel.|ノートパソコンがタオルで覆われています。|銀色の外側にタオルは掛かっていません。
+C A laptop on the desk is closed.|机上のノートパソコンが閉じています。|銀色の外面が上を向き、画面やキーは見えません。
+D A laptop is standing on its edge.|ノートパソコンが側面を下にして立っています。|端を下にせず机に水平に載っています。
+! C
+% stapler=ホチキス|laptop=ノートパソコン
+
+@p1-position-r3-staple|1|位置関係|施設の窓口|medium
+& staple|黒い椅子が机の後ろにあります。
+? photo||写真と一致する描写を選びます。
+A A black chair is on top of the desk.|黒い椅子が机の上にあります。|椅子は机の天板ではなく背後にあります。
+B A black chair is behind the desk.|黒い椅子が机の後ろにあります。|椅子の背が机より奥に見えます。
+C A black chair is directly below the laptop.|黒い椅子がノートパソコンの真下にあります。|パソコンは右の天板にあり、椅子の座面は天板の奥に見えます。
+D A black chair is outside the window.|黒い椅子が窓の外にあります。|椅子は机と同じ室内です。
+! B
+% stapler=ホチキス|laptop=ノートパソコン
+
+@p1-action-r3-tighten|1|動作|自転車整備|medium
+& tighten|男性が自転車の車輪にレンチを使っています。
+? photo||写真と一致する描写を選びます。
+A A man is using a wrench on a bicycle wheel.|男性が自転車の車輪にレンチを使っています。|レンチの先が前輪の軸に当たっています。
+B A man is pumping air into a tire.|男性がタイヤに空気を入れています。|レンチは軸にあり、バルブにポンプは付いていません。
+C A man is lifting a wheel out of a box.|男性が箱から車輪を取り出しています。|車輪は自転車に付いたままで、箱は閉じています。
+D A man is riding a bicycle across the room.|男性が自転車で部屋を横切っています。|作業員は前輪の前にいて、サドルには座っていません。
+! A
+% wrench=レンチ|axle=車輪の軸|toolbox=工具箱
+
+@p1-state-r3-tighten|1|状態|自転車整備|medium
+& tighten|自転車が床から持ち上げられています。
+? photo||写真と一致する描写を選びます。
+A The bicycle is lying flat on the floor.|自転車が床に横たわっています。|車体は持ち上げられ、床に横たわっていません。
+B The front wheel has been removed.|前輪が外されています。|レンチを当てた前輪は自転車に付いたままです。
+C The bicycle is covered with a sheet.|自転車にシートが掛けられています。|フレームと車輪に覆いはなく露出しています。
+D The bicycle is raised off the floor.|自転車が床から持ち上げられています。|整備スタンドに支えられ、車輪は浮いています。
+! D
+% wrench=レンチ|axle=車輪の軸|toolbox=工具箱
+
+@p1-position-r3-tighten|1|位置関係|自転車整備|medium
+& tighten|工具箱が前輪より右側の床にあります。
+? photo||写真と一致する描写を選びます。
+A A toolbox is on the bicycle saddle.|工具箱が自転車のサドルに載っています。|工具箱はサドルではなく床にあります。
+B A toolbox is suspended above the wheel.|工具箱が車輪の上方につるされています。|工具箱は床に置かれ、車輪より低い位置です。
+C A toolbox is on the floor to the right of the front wheel.|工具箱が前輪より右側の床にあります。|前輪は左寄り、工具箱は画面右下の床です。
+D A toolbox is hanging from the handlebars.|工具箱がハンドルからつり下がっています。|工具箱の底は床に接しています。
+! C
+% wrench=レンチ|axle=車輪の軸|toolbox=工具箱
+
+@p1-action-r3-wheel|1|動作|資料庫の搬送|medium
+& wheel|女性が車輪付きの荷台に木箱を載せようとしています。
+? photo||写真と一致する描写を選びます。
+A A woman is putting folders into a cabinet.|女性が戸棚に書類フォルダーをしまっています。|手を当てているのは木箱で、戸棚は閉まっています。
+B A woman is picking up sheets from the floor.|女性が床から用紙を拾っています。|書類は箱にあり、女性の両手は箱にあります。
+C A woman is positioning a crate on a wheeled platform.|女性が車輪付きの荷台に木箱を載せようとしています。|両手で箱を支え、箱の底を荷台に近づけています。
+D A woman is sealing a crate with tape.|女性がテープで木箱を閉じています。|箱は開いたままで、女性の両手にテープはありません。
+! C
+% crate=木箱|file folder=書類フォルダー|platform=荷台
+
+@p1-state-r3-wheel|1|状態|資料庫の搬送|medium
+& wheel|フォルダーが開いた木箱に立ててあります。
+? photo||写真と一致する描写を選びます。
+A The folders are scattered across the floor.|フォルダーが床に散らばっています。|フォルダーは箱の中にまとまっています。
+B The folders are standing inside an open crate.|フォルダーが開いた木箱に立ててあります。|箱の上部から何冊ものフォルダーが見えます。
+C The crate is empty.|木箱は空です。|箱の中にはフォルダーが並んでいます。
+D The crate is sealed with a lid.|木箱がふたで密閉されています。|箱の上部が開いており、中身が見えます。
+! B
+% crate=木箱|file folder=書類フォルダー|platform=荷台
+
+@p1-position-r3-wheel|1|位置関係|資料庫の搬送|medium
+& wheel|戸棚は壁時計の左にあります。
+? photo||写真と一致する描写を選びます。
+A A cabinet is to the left of a wall clock.|戸棚は壁時計の左にあります。|白い戸棚が画面左、壁時計が右です。
+B A cabinet is directly above a wall clock.|戸棚は壁時計の真上にあります。|戸棚は床に立ち、時計より上にありません。
+C A cabinet is on the wheeled platform.|戸棚は車輪付きの荷台に載っています。|荷台に載せるのは木箱で、戸棚は奥の床にあります。
+D A cabinet is to the right of a wall clock.|戸棚は壁時計の右にあります。|戸棚は時計より画面左側です。
+! A
+% crate=木箱|file folder=書類フォルダー|platform=荷台

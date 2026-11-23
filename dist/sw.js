@@ -1,16 +1,16 @@
 'use strict';
 
-importScripts('./study/r2/bank.js');
+importScripts('./study/r3/bank.js');
 
 const cachePrefix = 'toeic-offline:' + self.registration.scope + ':';
-const cacheName = cachePrefix + '22';
+const cacheName = cachePrefix + '23';
 const index = new URL('index.html', self.registration.scope).href;
 
 const studyMedia = self.toeicStudyBank.parts.flatMap(({sets}) => sets.flatMap(({media}) =>
   [media.photo?.src, media.audio?.src].filter(Boolean)));
 const assets = new Set([
   'adaptive.js', 'app-v11.js', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'study-coaches.webp',
-  'study/r2/bank.js', 'study/study-v2.js', ...studyMedia,
+  'study/r3/bank.js', 'study/study-v2.js', ...studyMedia,
 ].map((path) => new URL(path, self.registration.scope).href));
 const offlineFiles = [index, ...assets];
 

@@ -1,0 +1,359 @@
+@badge|7|研修棟の入館証
+: text|The Alder Cove training center is replacing its temporary paper passes with plastic badges.|アルダーコーブ研修センターは一時入館用の紙の通行証をプラスチック製の入館証に切り替えます。
+: text|Have your supervisor sign the request form before you visit the service desk.|窓口へ行く前に、上司から申請書に署名をもらってください。
+: text|The desk in the west lobby issues badges until four on weekdays.|西ロビーの窓口で平日の4時まで入館証を発行します。
+: text|Bring your old paper pass so the clerk can remove it from the register.|係員が登録簿から削除できるよう、旧紙通行証を持参してください。
+&: text|Message from T. Peln: My supervisor has signed my form. I still have my paper pass, and I will arrive at the center at 3:15 on Tuesday. Which desk should I visit?|T・ペルンからの連絡。上司から申請書に署名をもらいました。紙の通行証も持っています。火曜3時15分に着く予定です。どの窓口へ行けばよいですか。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What does the notice explain?|何を説明していますか。
+A How to get a replacement badge.|新しい入館証を受け取る方法。|署名、受付時間、持参物の条件を案内します。
+B How to book the training rooms.|研修室の予約方法。|部屋の予約は扱いません。
+C How to renew a supervisor's account.|上司のアカウントの更新方法。|上司には申請書への署名だけを頼みます。
+D How to enter after business hours.|営業時間外に入る方法。|窓口の平日の受付時間を示す内容です。
+! A
+% temporary pass=一時通行証|remove from the register=登録簿から削除する
+> infer|推論|medium|common
+? t4|Why does the clerk need the old pass?|係員が旧通行証を必要とするのはなぜですか。
+A To check whether it can be reused.|再利用可能かを調べるため。|旧通行証の登録を解除します。
+B To compare its design with a new one.|新しいものとデザインを比べるため。|券の種類が変わる案内ですが、比較は行いません。
+C To confirm the supervisor's signature.|上司の署名を確認するため。|署名があるのは申請書です。
+D To update the center's records.|センターの記録を更新するため。|古い通行証を登録簿から削除します。
+! D
+% temporary pass=一時通行証|remove from the register=登録簿から削除する
+> cross|複数文書照合|hard|linked
+? t2,t3,t4,t5|What can T. Peln do at the planned arrival time?|ペルンは到着予定時刻に何ができますか。
+A Collect a badge in the east lobby.|東ロビーで入館証を受け取れる。|発行場所は西ロビーです。
+B Ask a clerk to sign the form.|窓口の係員に署名を頼める。|署名済みで、署名担当は上司です。
+C Request a badge in the west lobby.|西ロビーで発行を申し込める。|火曜3時15分は平日の受付時間内で、署名済みの書式と旧通行証を持っています。
+D Turn in the old pass the following morning.|翌朝に旧通行証を出す必要がある。|火曜の到着時刻にも窓口は開いています。
+! C
+% temporary pass=一時通行証|remove from the register=登録簿から削除する
+> sentence|文挿入|hard|local
+: text|The Alder Cove training center is replacing its temporary paper passes with plastic badges. [1]\nHave your supervisor sign the request form before you visit the service desk. [2]\nThe desk in the west lobby issues badges until four on weekdays. [3]\nBring your old paper pass so the clerk can remove it from the register. [4]|アルダーコーブ研修センターは一時入館用の紙の通行証をプラスチック製の入館証に切り替えます。\n窓口へ行く前に、上司から申請書に署名をもらってください。\nこの署名がない申請書は窓口係員が返します。\n西ロビーの窓口で平日の4時まで入館証を発行します。\n係員が登録簿から削除できるよう、旧紙通行証を持参してください。
+? t1|Where does the following sentence best fit? “The desk staff will return any form that lacks this signature.”|「この署名がない申請書は窓口係員が返します。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|旧通行証の説明の直後では署名との関係が不明確です。
+B [2]|[2] の位置。|上司の署名を求めた直後で、this signature の参照先が明確です。
+C [3]|[3] の位置。|発行場所と持参物の間に入り、署名の指示から離れます。
+D [4]|[4] の位置。|旧通行証を削除する説明の後で、提出する申請書の条件から離れています。
+! B
+% temporary pass=一時通行証|remove from the register=登録簿から削除する
+
+@capsule|7|種子の展示準備
+: text|Larchmere Seed House is lending sample capsules to neighborhood displays this month.|ラーチミア種子館は今月、地域の展示会に種子の標本カプセルを貸し出します。
+: text|Each sealed capsule needs to stay at room temperature during the loan.|貸出中、密封されたカプセルはどれも室温で保管する必要があります。
+: text|At the end of an event, place the items in the numbered carrier from our driver.|行事の終了時には、運転手から受け取った番号付きのケースに標本を入れてください。
+: text|Use the online form to arrange collection one working day in advance.|営業日で1日前までにオンライン用紙で回収を手配してください。
+&: text|Friday is the final day of the North Estin display. Staff are available until 5:00 P.M. on Friday. We still have the numbered carrier and have not booked a collection.|ノースエスティンの展示は金曜が最終日です。スタッフは金曜午後5時までいます。番号付きケースは手元にあり、回収の予約はまだです。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|Why was the text written?|この文書が書かれた目的は何ですか。
+A To sell supplies for home gardening.|家庭園芸用の用品を販売するため。|貸すのは展示用標本です。
+B To give instructions to borrowers.|貸出品を借りる人に扱い方を伝えるため。|展示中の保管と回収の方法を示します。
+C To recruit drivers for a collection route.|回収ルートの運転手を募集するため。|運転手からケースを受け取りますが、求人はありません。
+D To report the results of a temperature study.|温度に関する研究結果を報告するため。|保管時の温度条件を伝えています。
+! B
+% sealed=密封した|arrange collection=回収を手配する
+> infer|推論|medium|common
+? t3|What is suggested about the carrier?|ケースについて何が示唆されていますか。
+A Borrowers should keep it until the display is over.|借り手は展示終了まで保管するべきです。|配達時に受け取ったケースを終了時に使います。
+B It keeps the items chilled automatically.|自動で標本を冷やします。|標本は室温で保管します。
+C It must be ordered from a different supplier.|別の業者に注文する必要があります。|種子館の運転手から渡されます。
+D Borrowers must empty it before the driver arrives.|運転手が来る前に空にしておく必要があります。|回収に備えて標本を入れるためのケースです。
+! A
+% sealed=密封した|arrange collection=回収を手配する
+> cross|複数文書照合|hard|linked
+? t4,t5|When should staff arrange a Friday collection?|金曜に回収してもらうため、いつ手配するべきですか。
+A On Friday at closing time.|金曜の閉館時。|閉館時では事前手配の期限を過ぎます。
+B On Saturday morning.|土曜午前。|金曜より後です。
+C Within a week after Friday.|金曜の後1週間以内。|金曜までに回収する場合の締切ではありません。
+D By Thursday.|木曜まで。|金曜の1営業日前までに予約が必要です。
+! D
+% sealed=密封した|arrange collection=回収を手配する
+> sentence|文挿入|hard|local
+: text|Larchmere Seed House is lending sample capsules to neighborhood displays this month. [1]\nEach sealed capsule needs to stay at room temperature during the loan. [2]\nAt the end of an event, place the items in the numbered carrier from our driver. [3]\nUse the online form to arrange collection one working day in advance. [4]|ラーチミア種子館は今月、地域の展示会に種子の標本カプセルを貸し出します。\n貸出中、密封されたカプセルはどれも室温で保管する必要があります。\nそのため暖房器具や冷房の吹き出し口から十分離して展示してください。\n行事の終了時には、運転手から受け取った番号付きのケースに標本を入れてください。\n営業日で1日前までにオンライン用紙で回収を手配してください。
+? t1|Where does the following sentence best fit? “For that reason, display them well away from heaters and cooling vents.”|「そのため暖房器具や冷房の吹き出し口から十分離して展示してください。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|何のための温度管理かを述べる前です。
+B [2]|[2] の位置。|室温で保つ条件の直後で、その理由を受けて設置上の注意を説明します。
+C [3]|[3] の位置。|ケースでの返却方法には展示温度の理由がありません。
+D [4]|[4] の位置。|回収予約の説明は温度と関係ありません。
+! B
+% sealed=密封した|arrange collection=回収を手配する
+
+@allotment|7|共同菜園の利用案内
+: text|Plot holders at Clavel Ridge Gardens can reserve the shared tool bench in half-hour blocks.|クラベルリッジ菜園の区画利用者は共用作業台を30分単位で予約できます。
+: text|Regular bench hours end at five on Saturdays.|通常、土曜の作業台利用は5時に終了します。
+: text|On the first Saturday of each month, however, a volunteer will keep the bench open until seven.|ただし毎月第1土曜には、ボランティアが7時まで作業台を開けます。
+: text|Please brush soil off the bench and put the shared tools away when you leave.|利用を終えるときは台の土を払い、共用工具を片付けてください。
+&: text|Booking inquiry: The date I want is the first Saturday of June. Could I book the bench for ninety minutes starting at 5:30? I can work without any assistance.|予約問い合わせ。希望は6月第1土曜です。5時30分から90分予約できますか。手伝いは要りません。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the notice mainly about?|主に何についてのお知らせですか。
+A Applying for a garden plot.|菜園区画の申請。|対象は既に区画を持つ人です。
+B Volunteer recruitment for the garden.|菜園のボランティア募集。|延長を担当する人は記載しますが募集はしません。
+C Use of a shared work area.|共用作業場所の利用。|予約枠、利用時間、終了時の作業を説明しています。
+D New tools for sale.|新しい工具の販売。|共用工具の片付けに触れています。
+! C
+% plot holder=区画利用者|half-hour block=30分枠
+> infer|推論|medium|common
+? t2,t3|What is implied about the volunteer?|ボランティアについて何が示唆されていますか。
+A The volunteer lends plots to first-time members.|初めての会員に区画を貸す。|区画の貸出は担当していません。
+B The volunteer makes extended hours possible.|延長利用を可能にしている。|第1土曜はボランティアが残って7時まで開けます。
+C The volunteer cleans all visitors' tools.|全利用者の工具を清掃する。|利用者が自分で片付けるよう案内しています。
+D The volunteer reserves every Saturday slot.|毎週土曜の枠をすべて予約する。|各利用者が時間枠を予約します。
+! B
+% plot holder=区画利用者|half-hour block=30分枠
+> cross|複数文書照合|hard|linked
+? t1,t3,t5|How many consecutive blocks would the requested booking require?|希望の予約には連続する何枠が必要ですか。
+A Three.|3枠。|90分の希望を本文の30分枠で割ると3枠で、第1土曜は7時まで利用できます。
+B One.|1枠。|30分しか確保できません。
+C Two.|2枠。|60分しか確保できません。
+D Four.|4枠。|120分で、希望の90分を超えます。
+! A
+% plot holder=区画利用者|half-hour block=30分枠
+> sentence|文挿入|hard|local
+: text|Plot holders at Clavel Ridge Gardens can reserve the shared tool bench in half-hour blocks. [1]\nRegular bench hours end at five on Saturdays. [2]\nOn the first Saturday of each month, however, a volunteer will keep the bench open until seven. [3]\nPlease brush soil off the bench and put the shared tools away when you leave. [4]|クラベルリッジ菜園の区画利用者は共用作業台を30分単位で予約できます。\n通常、土曜の作業台利用は5時に終了します。\nただし毎月第1土曜には、ボランティアが7時まで作業台を開けます。\nこの特別措置により、通常の予定に30分枠が4つ追加されます。\n利用を終えるときは台の土を払い、共用工具を片付けてください。
+? t1|Where does the following sentence best fit? “This special arrangement adds four half-hour blocks to the usual schedule.”|「この特別措置により、通常の予定に30分枠が4つ追加されます。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|直前は通常の予約単位で、毎月の延長がまだ示されていません。
+B [2]|[2] の位置。|通常の利用時間だけでは4枠の追加を説明できません。
+C [3]|[3] の位置。|5時から7時までの特別な延長時間を受けて、その使い方を説明します。
+D [4]|[4] の位置。|片付けの依頼は延長措置の内容ではありません。
+! C
+% plot holder=区画利用者|half-hour block=30分枠
+
+@ink|7|ポスターの印刷予約
+: text|The Brindle Dock studio has opened bookings for its new poster printer.|ブリンドルドック工房は新しいポスター用プリンターの利用予約を開始しました。
+: text|The printer is in Room 8, and members can reserve it in advance.|プリンターは8号室にあり、会員は事前予約できます。
+: text|For same-day reservations, first attend the ten-minute safety briefing at noon.|当日予約を希望する場合は、まず正午の10分間の安全説明に参加してください。
+: text|Bring the file on a USB drive and pay for paper at the front counter after printing.|ファイルをUSBメモリーに入れて持参し、印刷後に受付で用紙代を払ってください。
+&: text|Message from R. Suln: I am a member and have a USB drive with my poster file. I need to print today, but my meeting runs from 11:45 A.M. to 12:30 P.M. I cannot leave it early.|R・サルンの連絡。会員で、ポスターのファイルを入れたUSBメモリーがあります。今日印刷したいのですが、午前11時45分から午後0時30分までの会議を早く抜けることはできません。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the main purpose of the notice?|お知らせの主な目的は何ですか。
+A To advertise a sale of printers.|プリンター販売を宣伝するため。|会員による予約利用についてです。
+B To announce that Room 8 will close.|8号室の閉鎖を知らせるため。|8号室の機器の利用が始まります。
+C To ask members to bring their own paper.|会員に用紙の持参を依頼するため。|持参するのはUSBメモリーで、用紙代は受付で払います。
+D To explain access to new printing equipment.|新しい印刷機の利用方法を説明するため。|設置場所、当日利用条件、必要なもの、支払いを説明します。
+! D
+% briefing=短い説明会|front counter=受付窓口
+> infer|推論|medium|common
+? t4|Why should a member visit the front counter after printing?|印刷後に受付に行くのはなぜですか。
+A To move a file to a USB drive.|ファイルをUSBメモリーに移すため。|ファイルは持参する時点で入れておくよう求められます。
+B To attend the noon briefing.|正午の説明を受けるため。|当日予約の場合は印刷前に参加します。
+C To cover the cost of the paper.|用紙代を支払うため。|印刷後に用紙代を払う場所が受付です。
+D To collect a reservation confirmation.|予約の確定通知をもらうため。|予約確定通知を受付でもらう記述はありません。
+! C
+% briefing=短い説明会|front counter=受付窓口
+> cross|複数文書照合|hard|linked
+? t3,t5|Why is R. Suln unable to meet a condition for booking that day?|サルンが当日予約の条件を満たせないのはなぜですか。
+A The requested room is unavailable all day.|希望の部屋が終日利用できない。|8号室が終日使えないという情報はありません。
+B The meeting conflicts with the required briefing.|会議が必須の説明会と重なる。|必須の正午の説明会は、11時45分から12時30分まで出席する会議と重なります。
+C The necessary file has not been saved.|必要なファイルが保存されていない。|ファイル入りのUSBメモリーを持っています。
+D The membership payment is overdue.|会員費の支払いが遅れている。|本人は会員で、支払いに関する問題の記載はありません。
+! B
+% briefing=短い説明会|front counter=受付窓口
+> sentence|文挿入|hard|local
+: text|The Brindle Dock studio has opened bookings for its new poster printer. [1]\nThe printer is in Room 8, and members can reserve it in advance. [2]\nFor same-day reservations, first attend the ten-minute safety briefing at noon. [3]\nBring the file on a USB drive and pay for paper at the front counter after printing. [4]|ブリンドルドック工房は新しいポスター用プリンターの利用予約を開始しました。\nプリンターは8号室にあり、会員は事前予約できます。\n当日予約を希望する場合は、まず正午の10分間の安全説明に参加してください。\nこの説明会では8号室の機器を取り上げます。\nファイルをUSBメモリーに入れて持参し、印刷後に受付で用紙代を払ってください。
+? t1|Where does the following sentence best fit? “This session covers the equipment used in Room 8.”|「この説明会では8号室の機器を取り上げます。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|新しい予約の告知だけでは説明会を指す this session が特定できません。
+B [2]|[2] の位置。|設置場所の直後にはまだ説明会が出てきません。
+C [3]|[3] の位置。|正午の安全説明の直後で this session の参照先が明確です。
+D [4]|[4] の位置。|別手順である用紙代支払いの後では説明会の記述から離れています。
+! C
+% briefing=短い説明会|front counter=受付窓口
+
+@trail|7|海岸遊歩道の臨時経路
+: text|A weekday detour is in effect on the Velren Coast walking trail while the boardwalk is being repaired.|木道の補修中、ベルレン海岸遊歩道では平日に迂回路が設けられています。
+: text|The shore gate remains open on Saturdays and Sundays.|海岸側の門は土曜と日曜には開いています。
+: text|On weekdays, begin at the inland gate and follow the green arrows through the grove.|平日は内陸側の門から入り、林の中を緑の矢印に沿って進んでください。
+: text|The main trail, cafe, and restrooms remain open as usual.|本来の遊歩道、カフェ、トイレは通常どおり利用できます。
+&: text|Group itinerary: The coast walk is on Wednesday, with a meeting at 9:00 A.M. at the shore gate. We plan to stop for coffee afterward.|団体の旅程。水曜に海岸を散策し、午前9時に海岸側の門で集合します。その後コーヒーを飲む予定です。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the notice intended to do?|お知らせの目的は何ですか。
+A Announce new cafe hours.|カフェの営業時間変更を知らせる。|カフェは通常どおり営業します。
+B Describe a temporary change to trail access.|遊歩道への入り方の臨時変更を伝える。|補修中の平日の入口と迂回経路を示します。
+C Promote a permanent extension of the trail.|遊歩道の恒久的な延長を宣伝する。|恒久的な延長ではなく補修中の経路です。
+D Explain how to join a guided tour.|ガイドツアーへの参加方法を説明する。|ツアーの予約は扱っていません。
+! B
+% detour=迂回路|grove=木立
+> infer|推論|medium|common
+? t2|What is suggested about weekend walkers?|週末に散策する人について何が示唆されていますか。
+A They may still start at the shore gate.|従来どおり海岸側の門から出発できる。|海岸側の門は土日も開いています。
+B They must start at the inland gate.|内陸側の門から出発する必要がある。|内陸側の門からの出発は平日の案内です。
+C They will find the cafe closed.|カフェは閉まっている。|通常の営業時間です。
+D They need to carry a printed map.|紙の地図を携帯する必要がある。|紙地図を求める記載はありません。
+! A
+% detour=迂回路|grove=木立
+> cross|複数文書照合|hard|linked
+? t3,t5|What change should the group make to its itinerary?|グループは旅程をどう変更するべきですか。
+A Cancel its stop for coffee.|コーヒー休憩を取りやめる。|カフェは通常どおりです。
+B Postpone the walk to the following Wednesday.|翌週の水曜に散策を延期する。|水曜でも入口を変えれば散策できます。
+C Move the start time to noon.|出発を正午にする。|迂回は平日の規則で、開始時刻を変えても適用されます。
+D Meet at the inland gate.|内陸側の門で集合する。|水曜は平日なので、入場は内陸側の門からです。
+! D
+% detour=迂回路|grove=木立
+> sentence|文挿入|hard|local
+: text|A weekday detour is in effect on the Velren Coast walking trail while the boardwalk is being repaired. [1]\nThe shore gate remains open on Saturdays and Sundays. [2]\nOn weekdays, begin at the inland gate and follow the green arrows through the grove. [3]\nThe main trail, cafe, and restrooms remain open as usual. [4]|木道の補修中、ベルレン海岸遊歩道では平日に迂回路が設けられています。\n海岸側の門は土曜と日曜には開いています。\n平日は内陸側の門から入り、林の中を緑の矢印に沿って進んでください。\nこれらの目印は臨時経路が本来の道に合流する場所を示しています。\n本来の遊歩道、カフェ、トイレは通常どおり利用できます。
+? t1|Where does the following sentence best fit? “These markers show where the temporary route rejoins the main path.”|「これらの目印は臨時経路が本来の道に合流する場所を示しています。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|まだ目印が登場していません。
+B [2]|[2] の位置。|週末の門の説明には these markers の指すものがありません。
+C [3]|[3] の位置。|直前の緑の矢印が目印に当たります。
+D [4]|[4] の位置。|施設の案内の後では矢印の説明から離れます。
+! C
+% detour=迂回路|grove=木立
+
+@sound|7|録音ブースの停電
+: text|A planned power shutdown will affect both recording booths at Orven Sound Rooms on Monday.|計画停電により、月曜はオーヴェン録音室の両ブースが影響を受けます。
+: text|Neither booth can be used before 3:00 P.M., but editing desks outside the booths will be available all day.|どちらのブースも午後3時までは使用できませんが、ブース外の編集机は終日利用できます。
+: text|We will contact clients who have a reservation that overlaps the closure.|休止時間に重なる予約をお持ちの方にはこちらから連絡します。
+: text|Thank you for allowing extra time to check in that afternoon.|当日の午後は受付に時間の余裕を見ていただき、ありがとうございます。
+&: text|R. Sel has reserved a recording booth from 1:30 to 2:30 P.M. on Monday and an editing desk from 4:00 to 4:30 P.M. on the same day.|R・セルは月曜午後1時30分から2時30分まで録音ブースを、同日午後4時から4時30分まで編集机を予約しています。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3|Why was the notice written?|お知らせが書かれたのはなぜですか。
+A To introduce new recording equipment.|新しい録音機器を紹介するため。|新機種の紹介情報はありません。
+B To ask clients to review their recordings.|録音内容の確認を依頼するため。|録音内容への言及はありません。
+C To inform clients of a temporary interruption.|一時的な利用休止を知らせるため。|計画停電による録音ブースの休止と影響を説明します。
+D To offer editing lessons on Monday.|月曜の編集講座を案内するため。|編集机の利用は可能ですが、講座は案内していません。
+! C
+% power shutdown=電力供給の停止|overlap=時間が重なる
+> infer|推論|medium|common
+? t2|What is suggested about the editing desks?|編集机について何が示唆されていますか。
+A They can be used only after three.|3時以降にしか使えない。|終日利用できます。
+B They remain available while the booths are closed.|ブースの休止中も利用できる。|机はブースの外にあり、終日利用できます。
+C They are stored in both booths.|両方のブース内に置かれている。|ブースの外にあります。
+D They will be removed on Monday.|月曜に撤去される。|月曜に終日利用できます。
+! B
+% power shutdown=電力供給の停止|overlap=時間が重なる
+> cross|複数文書照合|hard|linked
+? t2,t5|Which of R. Sel's bookings is affected?|セルの予約のうち影響を受けるのはどれですか。
+A Only the booth booking.|ブースの予約のみ。|1時30分の録音は3時までの休止に重なり、編集机は終日使えます。
+B Only the editing-desk booking.|編集机の予約のみ。|編集机は利用可能です。
+C Both bookings.|両方。|影響を受けるのは録音ブースです。
+D Neither booking.|どちらも影響を受けない。|ブースの予約時刻は休止時間中です。
+! A
+% power shutdown=電力供給の停止|overlap=時間が重なる
+> sentence|文挿入|hard|local
+: text|A planned power shutdown will affect both recording booths at Orven Sound Rooms on Monday. [1]\nNeither booth can be used before 3:00 P.M., but editing desks outside the booths will be available all day. [2]\nWe will contact clients who have a reservation that overlaps the closure. [3]\nThank you for allowing extra time to check in that afternoon. [4]|計画停電により、月曜はオーヴェン録音室の両ブースが影響を受けます。\nどちらのブースも午後3時までは使用できませんが、ブース外の編集机は終日利用できます。\n休止時間に重なる予約をお持ちの方にはこちらから連絡します。\n該当のお客様は変更手数料なしで別の時間を選べます。\n当日の午後は受付に時間の余裕を見ていただき、ありがとうございます。
+? t1|Where does the following sentence best fit? “Those clients can choose another time without paying a change fee.”|「該当のお客様は変更手数料なしで別の時間を選べます。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|対象者を述べる前です。
+B [2]|[2] の位置。|設備の使用時間だけでは those clients を特定できません。
+C [3]|[3] の位置。|休止時間と重なる予約客の連絡を述べた直後で、対象が明確です。
+D [4]|[4] の位置。|当日午後の受付を述べた後では、変更を認める対象者から離れます。
+! C
+% power shutdown=電力供給の停止|overlap=時間が重なる
+
+@dispatch|7|発送時の集荷変更
+: text|Courier pickups at Ferrin Press will temporarily move from the front entrance to the loading bay.|フェリン印刷所の宅配集荷は、一時的に正面玄関から荷さばき場に変わります。
+: text|The rear gate opens directly onto the loading bay and is marked with a blue sign.|裏門は荷さばき場に直接通じ、青い標識が目印です。
+: text|On the first day of the change, expect a five-minute delay while drivers learn the route.|変更初日には、運転手が経路を覚えるまで5分ほど遅れる見込みです。
+: text|Keep parcel labels facing up so the courier can read them without moving any boxes.|宅配担当が箱を動かさず読めるように、荷札を上向きにしてください。
+&: text|Monday pickup instructions for L. Mern: Collect twelve parcels from Ferrin Press. Monday is the first day of the temporary change. The front entrance will be open for visitors.|月曜の集荷指示、L・メルン宛て。フェリン印刷所で荷物を12個受け取ってください。月曜は臨時変更の初日です。正面玄関は来客向けに開きます。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the primary purpose of the notice?|お知らせの主な目的は何ですか。
+A To advertise a parcel delivery discount.|宅配料金の割引を宣伝するため。|宅配料金に言及していません。
+B To give visitors a new reception address.|来客向けに受付の新住所を伝えるため。|対象は運転手の集荷で、住所の変更はありません。
+C To require a different type of parcel label.|別種の荷札を求めるため。|荷札を上向きにしますが、種類の変更はありません。
+D To announce a temporary pickup location.|臨時の集荷場所を知らせるため。|集荷場所が一時的に荷さばき場に変わることと、具体的な入り方を示します。
+! D
+% loading bay=荷さばき場|face up=上を向く
+> infer|推論|medium|common
+? t4|What is suggested about how parcels should be prepared?|荷物の準備について何が示唆されていますか。
+A Labels should be placed under each box.|荷札は箱の下に置く。|反対に上向きにします。
+B Labels will be supplied after pickup.|集荷後に荷札が渡される。|集荷時にはすでに貼ってある想定です。
+C Labels must be visible on pickup.|集荷時に荷札が見える状態にする。|箱を動かさず読めるよう上向きにします。
+D Labels should show the driver's route.|荷札に運転手の経路を示す。|経路の案内と荷札の向きは別の指示です。
+! C
+% loading bay=荷さばき場|face up=上を向く
+> cross|複数文書照合|hard|linked
+? t1,t2,t5|How should L. Mern enter the site to collect the parcels on Monday?|メルンは月曜の集荷のためどう入場するべきですか。
+A Through the front entrance used by visitors.|来客用の正面玄関から。|正面が来客に開いていても、集荷は荷さばき場です。
+B Through the blue-marked rear gate.|青い標識の裏門から。|月曜は変更初日で、集荷場所に直結する裏門は青い標識で示されます。
+C Through a side door marked in blue.|青い表示のある脇のドアから。|青い表示は裏門にあり、脇のドアの案内はありません。
+D Through the office where labels are printed.|荷札を印刷する事務室から。|事務室からの入場は案内されていません。
+! B
+% loading bay=荷さばき場|face up=上を向く
+> sentence|文挿入|hard|local
+: text|Courier pickups at Ferrin Press will temporarily move from the front entrance to the loading bay. [1]\nThe rear gate opens directly onto the loading bay and is marked with a blue sign. [2]\nOn the first day of the change, expect a five-minute delay while drivers learn the route. [3]\nKeep parcel labels facing up so the courier can read them without moving any boxes. [4]|フェリン印刷所の宅配集荷は、一時的に正面玄関から荷さばき場に変わります。\n裏門は荷さばき場に直接通じ、青い標識が目印です。\n正面玄関が開いていても、この門を使ってください。\n変更初日には、運転手が経路を覚えるまで5分ほど遅れる見込みです。\n宅配担当が箱を動かさず読めるように、荷札を上向きにしてください。
+? t1|Where does the following sentence best fit? “Use this gate even if the front entrance is open.”|「正面玄関が開いていても、この門を使ってください。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|どの門を指すかまだ分かりません。
+B [2]|[2] の位置。|裏門を示した直後で、this gate が裏門を明確に指します。
+C [3]|[3] の位置。|運転手の遅れの話が挟まり、門の案内が分断されます。
+D [4]|[4] の位置。|荷札の向きに関する注意の後では、門の説明から離れます。
+! B
+% loading bay=荷さばき場|face up=上を向く
+
+@fees|7|会議室の予約変更
+: text|Kelden Forum allows online changes to room bookings until noon on the preceding working day.|ケルデン会議館は前営業日の正午まで会議室の予約をオンラインで変更できます。
+: text|After the online deadline, call the booking desk to ask about other available rooms.|オンラインの期限後は、予約窓口に電話してほかに空いている部屋を確認してください。
+: text|Our booking desk charges the standard change fee only if it assigns a larger room.|予約窓口は、より広い部屋を割り当てた場合にのみ規定の変更料を請求します。
+: text|The desk is open on weekdays from nine to five.|窓口は平日の9時から5時まで開いています。
+&: text|Tuesday, 2:00 P.M. We booked a small room for Wednesday. The team has grown, and the website will no longer let me change the booking. A larger room would fit everyone.|火曜午後2時。水曜に小さな部屋を予約しました。参加者が増え、ウェブではもう変更できません。より広い部屋なら全員が入れます。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What does the notice mainly explain?|お知らせは主に何を説明していますか。
+A How to change a room reservation.|会議室の予約を変更する方法。|期限前後の方法と料金条件を説明します。
+B How to pay for a new website account.|新しいウェブアカウントの支払い方法。|アカウント登録料は扱っていません。
+C How to book a room outside business hours.|営業時間外に部屋を予約する方法。|既存の予約の変更に関する説明です。
+D How to request extra furniture for a meeting.|会議に家具を追加する方法。|部屋自体を変更する際の取り決めです。
+! A
+% preceding working day=前営業日|assign=割り当てる
+> infer|推論|medium|common
+? t2,t3|What can be inferred about a change requested by phone?|電話で申し込む変更について何が推測できますか。
+A The original room will automatically be enlarged.|元の部屋が自動的に広げられます。|空き状況を問い合わせ、別室を割り当てます。
+B The desk will charge every caller the standard fee.|電話した全員に変更料がかかります。|広い部屋を割り当てられた場合に限ります。
+C The caller will have to wait until after five.|電話した人は5時過ぎまで待つ必要があります。|5時までが営業時間です。
+D There may be a fee depending on the room assigned.|割り当てる部屋によって手数料がかかります。|広い部屋に変更した場合にだけかかります。
+! D
+% preceding working day=前営業日|assign=割り当てる
+> cross|複数文書照合|hard|linked
+? t1,t2,t4,t5|What should the team do next?|チームは次に何をするべきですか。
+A Try to change the existing booking online at four.|4時にオンラインで既存の予約を変更する。|オンラインの締切は同日の正午です。
+B Wait until the office reopens on Wednesday.|水曜に事務所が開くまで待つ。|火曜午後2時は窓口が開いています。
+C Call the desk and ask for a larger room.|窓口に電話して広い部屋を希望する。|水曜の予約は火曜正午を過ぎており、2時は電話受付時間内です。
+D Request a smaller room at the same rate.|同じ料金の狭い部屋を頼む。|参加人数が増え、広い部屋が必要です。
+! C
+% preceding working day=前営業日|assign=割り当てる
+> sentence|文挿入|hard|local
+: text|Kelden Forum allows online changes to room bookings until noon on the preceding working day. [1]\nAfter the online deadline, call the booking desk to ask about other available rooms. [2]\nOur booking desk charges the standard change fee only if it assigns a larger room. [3]\nThe desk is open on weekdays from nine to five. [4]|ケルデン会議館は前営業日の正午まで会議室の予約をオンラインで変更できます。\nオンラインの期限後は、予約窓口に電話してほかに空いている部屋を確認してください。\n予約窓口は、より広い部屋を割り当てた場合にのみ規定の変更料を請求します。\nしたがって、同じ広さの部屋に移る際は変更料がかかりません。\n窓口は平日の9時から5時まで開いています。
+? t1|Where does the following sentence best fit? “Moving to a room of the same size, therefore, carries no change fee.”|「したがって、同じ広さの部屋に移る際は変更料がかかりません。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|オンラインで変更できる期限からは、料金の有無を導けません。
+B [2]|[2] の位置。|電話する指示には変更手数料の条件がありません。
+C [3]|[3] の位置。|より広い部屋だけに料金が発生するという規則の直後で、therefore の推論が成立します。
+D [4]|[4] の位置。|営業時間の後では変更料の条件と結論が離れます。
+! C
+% preceding working day=前営業日|assign=割り当てる
+
+@boots|7|貸出用ブーツの返却
+: text|Staff at Lindmere Field School lend boots to registered participants in wet-weather courses.|リンドミア野外学校は悪天候時の講座に登録した参加者にブーツを貸し出しています。
+: text|At the end of your course, rinse mud off the boots at the outdoor wash station.|講座終了時、屋外の洗い場でブーツの泥を洗い流してください。
+: text|Take each pair to the return rack beside the north door rather than to the storeroom.|一足ずつ、倉庫ではなく北側出入口の横にある返却棚へ持っていきます。
+: text|Enter the number from the heel of one boot in the sign-out book on the rack.|ブーツ片方のかかとの番号を棚の貸出台帳に記入してください。
+&: text|Group message from E. Fenn: Our wet-weather class just finished. I have washed pair 27 at the outdoor station. I am currently standing next to the storeroom.|E・フェンからのグループ連絡。悪天候時の講座が今終わりました。屋外の洗い場で27番のブーツを洗いました。今は倉庫の横です。
+> purpose|目的・要旨|easy|common
+? t1,t2,t3,t4|What is the main purpose of the instructions?|指示の主な目的は何ですか。
+A To sell boots to registered participants.|登録者にブーツを販売するため。|ブーツは貸出用です。
+B To advertise a new outdoor wash station.|新しい屋外の洗い場を宣伝するため。|洗い場は返却手順の一部です。
+C To explain how to return borrowed boots.|借りたブーツを返す方法を説明するため。|講座終了後の洗浄、返却場所、台帳記入を示します。
+D To change the start time of a course.|講座の開始時間を変更するため。|講座終了後の作業を説明しています。
+! C
+% rinse off=洗い流す|heel=かかと
+> infer|推論|medium|common
+? t4|What is suggested about entries in the sign-out book?|貸出台帳の記入事項について何が示唆されていますか。
+A They report the amount of mud on each pair.|一足ごとの泥の量を記録する。|洗浄は求めますが、台帳に記入するのは番号です。
+B They identify the pairs of boots returned.|返却されたブーツを一足ずつ識別する。|指定された番号はブーツのかかとから読み取ります。
+C They list the course times for the next day.|翌日の講座の時刻を並べる。|貸出品の番号を記録するための台帳です。
+D They show which class has paid for boots.|ブーツ代を支払った講座を示す。|ブーツの購入や料金に言及していません。
+! B
+% rinse off=洗い流す|heel=かかと
+> cross|複数文書照合|hard|linked
+? t2,t3,t5|Where should E. Fenn take pair 27 next?|フェンは次に27番をどこへ持っていくべきですか。
+A To the rack beside the north door.|北側出入口の横にある棚。|洗浄は済んでおり、次は北側出入口の横の棚へ返す手順です。
+B Into the storeroom.|倉庫の中。|倉庫には返さないよう指示されています。
+C Back to the outdoor wash station.|屋外の洗い場。|洗い場で洗い終えています。
+D To the site where the next course meets.|次の講座の集合場所。|返却場所は北側出入口の横です。
+! A
+% rinse off=洗い流す|heel=かかと
+> sentence|文挿入|hard|local
+: text|Staff at Lindmere Field School lend boots to registered participants in wet-weather courses. [1]\nAt the end of your course, rinse mud off the boots at the outdoor wash station. [2]\nTake each pair to the return rack beside the north door rather than to the storeroom. [3]\nEnter the number from the heel of one boot in the sign-out book on the rack. [4]|リンドミア野外学校は悪天候時の講座に登録した参加者にブーツを貸し出しています。\n講座終了時、屋外の洗い場でブーツの泥を洗い流してください。\n一足ずつ、倉庫ではなく北側出入口の横にある返却棚へ持っていきます。\nブーツ片方のかかとの番号を棚の貸出台帳に記入してください。\nその番号により係員は各組を貸出記録と照合できます。
+? t1|Where does the following sentence best fit? “That number lets staff match each pair to its loan record.”|「その番号により係員は各組を貸出記録と照合できます。」を入れる最も自然な位置はどこですか。
+A [1]|[1] の位置。|貸出自体の説明だけで何の番号か分かりません。
+B [2]|[2] の位置。|洗い方の指示には番号が出てきません。
+C [3]|[3] の位置。|返却棚の説明のあとにも照合用の番号はまだ提示されていません。
+D [4]|[4] の位置。|かかとの番号を記入する指示の直後に、その目的を述べています。
+! D
+% rinse off=洗い流す|heel=かかと
