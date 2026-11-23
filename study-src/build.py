@@ -12,28 +12,48 @@ from reuse import add_reused, balance_reading_choices
 SOURCE = Path(__file__).resolve().parent
 ROOT = SOURCE.parent
 DIST = ROOT / "dist"
-BANK = "study/r2/bank.js"
-FIRST_BANK = "study/r1/bank.js"
+BANK = "study/r3/bank.js"
+PREVIOUS_BANK = "study/r2/bank.js"
 PREFIX = "globalThis.toeicStudyBank = "
 AUDIO = runpy.run_path(str(ROOT / "listening-src/build.py"))
-PART_TITLES = (
-    "写真描写", "応答", "会話", "説明文", "短文穴埋め", "長文穴埋め", "読解",
-)
 SKILL_COUNTS = (3, 4, 5, 5, 4, 3, 5)
-QUESTIONS_PER_SKILL = 10
+QUESTIONS_PER_SKILL = 19
 MP3_GAIN_DB = -2
-MANUSCRIPTS = ("listening12.txt", "listening34.txt", "reading.txt")
-ADDITIONS = ("new-photos.txt", "new-listening.txt", "new-reading.txt")
+ADDITIONS = ("r3-photos.txt", "r3-replies.txt", "r3-listening.series", "r3-reading.txt", "r3-reading.series")
+
+
+def expand_series(lines):
+    """Expand shared scenario materials into independently presented questions."""
+    blocks = "\n".join(lines).split("\n@")
+    for block in blocks:
+        header, body = block.lstrip("@").split("\n", 1)
+        scene, part, setting = header.split("|")
+        common, *drills = ("\n" + body).split("\n>")
+        for drill in drills:
+            rule, question = drill.strip().split("\n", 1)
+            skill_id, skill, difficulty, materials = rule.strip().split("|")
+            yield f"@p{part}-{skill_id}-r3-{scene}|{part}|{skill}|{setting}|{difficulty}"
+            if materials != "local":
+                for line in common.splitlines():
+                    if line.startswith(("#", "=")) and materials != "table":
+                        continue
+                    if line.startswith("&:"):
+                        if materials == "linked":
+                            yield line[1:]
+                        continue
+                    yield line
+            yield from question.splitlines()
 
 
 def authored_sets(files, revision):
     current = None
-    assets_path = SOURCE / "photo-assets.json"
+    assets_path = SOURCE / "r3-photo-assets.json"
     assets = json.loads(assets_path.read_text(encoding="utf-8")) if assets_path.is_file() else {}
     for name in files:
         if not (SOURCE / name).is_file():
             continue
-        for text in (SOURCE / name).read_text(encoding="utf-8-sig").splitlines():
+        lines = (SOURCE / name).read_text(encoding="utf-8-sig").strip().splitlines()
+        for text in expand_series(lines) if name.endswith(".series") else lines:
             if not text.strip():
                 continue
             marker, payload = text[0], text[1:].strip()
@@ -108,12 +128,12 @@ def authored_sets(files, revision):
 
 
 def compile_bank(complete=True):
-    parts = [{"part": number, "titleJa": title, "sets": []}
-             for number, title in enumerate(PART_TITLES, 1)]
-    originals = list(authored_sets(MANUSCRIPTS, 1))
+    previous = read_release(DIST / PREVIOUS_BANK)
+    parts = previous["parts"]
+    originals = [entry for part in parts for entry in part["sets"]]
     anchors = {entry["setId"]: entry["items"][0]["skill"] for entry in originals}
-    exercises = originals + list(add_reused(anchors)) + list(authored_sets(ADDITIONS, 2))
-    for number, exercise in enumerate(exercises, 1):
+    exercises = list(add_reused(anchors, "reuse-r3.json", 3)) + list(authored_sets(ADDITIONS, 3))
+    for number, exercise in enumerate(exercises, len(originals) + 1):
         part = exercise["part"]
         item = exercise["items"][0]
         item["number"] = number
@@ -134,16 +154,17 @@ def compile_bank(complete=True):
                     narrator, "question", item["stem"], item["translationJa"]["stem"], 450, "question",
                 ))
             exercise["audioScript"] = turns
-            release = "r1" if item["id"].startswith("fs1-") else "r2"
-            exercise["media"]["audio"] = {"src": f"study/{release}/audio/{exercise['setId']}.mp3"}
-    balance_reading_choices(parts)
-    bank = {"examId": "field-study-01", "revision": 2, "parts": parts}
+            exercise["media"]["audio"] = {"src": f"study/r3/audio/{exercise['setId']}.mp3"}
+    balance_reading_choices(parts, 3)
+    bank = {"examId": previous["examId"], "revision": 3, "parts": parts}
     validate(bank, complete)
     return bank
 
 
 def validate(bank, complete=True):
     slugs = set()
+    numbers = set()
+    source_items = set()
     for part, group in enumerate(bank["parts"], 1):
         assert group["part"] == part
         skills = Counter()
@@ -151,7 +172,13 @@ def validate(bank, complete=True):
             slug = exercise["setId"]
             assert slug.startswith(f"p{part}-") and slug not in slugs
             slugs.add(slug)
+            if source := exercise.get("source"):
+                source_key = source["bank"], source["itemId"]
+                assert source_key not in source_items, slug
+                source_items.add(source_key)
             item, = exercise["items"]
+            assert item["number"] not in numbers, slug
+            numbers.add(item["number"])
             assert item["skill"], slug
             skills[item["skill"]] += 1
             assert item["difficulty"] in {"easy", "medium", "hard"}, slug
@@ -197,6 +224,7 @@ def validate(bank, complete=True):
         assert len(skills) == SKILL_COUNTS[part - 1] and max(skills.values()) <= QUESTIONS_PER_SKILL
         if complete:
             assert set(skills.values()) == {QUESTIONS_PER_SKILL}, (part, skills)
+    assert numbers == set(range(1, len(slugs) + 1))
 
 
 def script_digest(exercise):
@@ -210,10 +238,10 @@ def add_media(bank, model_dir, audio_only):
     rate = AUDIO["RATE"]
     masters = ROOT / ".listening-build/study"
     masters.mkdir(parents=True, exist_ok=True)
-    cache_file = masters / "r2-media-cache.json"
+    cache_file = masters / "r3-media-cache.json"
     previous = {}
     legacy = {entry["setId"]: entry["media"]["audio"]
-              for part in read_release(DIST / FIRST_BANK)["parts"][:4] for entry in part["sets"]}
+              for part in read_release(DIST / PREVIOUS_BANK)["parts"][:4] for entry in part["sets"]}
     if (DIST / BANK).is_file():
         release = read_release()
         if release.get("production") == provenance:
@@ -256,7 +284,7 @@ def add_media(bank, model_dir, audio_only):
         for entry, audio in zip(entries, workers.map(render, entries), strict=True):
             slug = entry["setId"]
             entry["media"]["audio"] = audio
-            if previous.get(slug) != audio:
+            if slug not in legacy and previous.get(slug) != audio:
                 previous[slug] = audio
                 cache_file.write_text(json.dumps({"production": provenance, "audio": previous}), encoding="utf-8")
                 print(f"{slug}: {audio['durationMs'] / 1000:.1f} s", flush=True)
@@ -281,8 +309,8 @@ def check(bank):
     audio_count = 0
     for authored_part, release_part in zip(bank["parts"], release["parts"], strict=True):
         for authored, exercise in zip(authored_part["sets"], release_part["sets"], strict=True):
-            for prop in ("items", "passages", "setId", "part", "setting"):
-                assert authored[prop] == exercise[prop], exercise["setId"]
+            for prop in ("items", "passages", "setId", "part", "setting", "source"):
+                assert authored.get(prop) == exercise.get(prop), exercise["setId"]
             assert authored["media"].keys() == exercise["media"].keys(), exercise["setId"]
             for kind, media in exercise["media"].items():
                 if kind == "table":
@@ -297,7 +325,7 @@ def check(bank):
                     assert exercise["audioScript"] == authored["audioScript"]
                     assert media["scriptSha256"] == script_digest(exercise)
                     assert media["durationMs"] > 0
-                    if media["src"].startswith("study/r2/"):
+                    if media["src"].startswith("study/r3/"):
                         assert media["gainDb"] == MP3_GAIN_DB
                 if kind == "photo":
                     assert {key: media[key] for key in authored["media"][kind]} == authored["media"][kind]

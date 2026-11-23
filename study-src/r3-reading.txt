@@ -1,0 +1,129 @@
+@p6-cohesion-r3-rain|6|文脈・つながり|悪天候時の催事|medium
+: text|The first day of the Glenhaven fair drew fewer visitors than expected because of heavy rain. _____, the vendors sold more goods than they had on the first day last year. The organizers say the covered sales area helped.|豪雨のためグレンヘイヴンの催しは初日の来場者が予想より少なかったです。それにもかかわらず、出店者は前年の初日より多くの商品を売りました。屋根付き売り場が役立ったと主催者は述べています。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A Therefore|したがって。|来場者が減った結果として売上が伸びたとする因果は本文にありません。
+B Similarly|同様に。|人数の少なさと売上の増加は同じ傾向ではありません。
+C Nevertheless|それにもかかわらず。|少人数なら売上は伸びにくいという見込みに反し、前年を上回ったことにつなぎます。
+D Previously|以前は。|空所の後は以前の売上だけでなく今回と前年を比較しています。
+! C
+% fewer=より少ない|covered sales area=屋根付き売り場
+
+@p6-cohesion-r3-windows|6|文脈・つながり|補修班の分担|medium
+: text|One crew will paint the window frames on Monday morning. _____, a second crew will replace the handles at the opposite end of the building. Both teams are due to finish by lunch.|一方の班が月曜午前に窓枠を塗ります。同時に、もう一方の班が建物の反対側の取っ手を交換します。両班とも昼食までに終了予定です。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A Otherwise|さもなければ。|取っ手の交換は塗装をしなかった場合の代替ではありません。
+B Instead|代わりに。|取っ手の交換は塗装を取り消して行うのではなく、同じ午前に実施します。
+C For example|例えば。|取っ手の交換は窓枠塗装の一例ではなく、別チームの仕事です。
+D Meanwhile|同時に。|同じ午前中に別々の場所で進む二組の作業をつないでいます。
+! D
+% crew=作業班|opposite end=反対側の端
+
+@p6-cohesion-r3-permit|6|文脈・つながり|研修室の利用申請|medium
+: text|Please send the completed access form by Thursday. _____, security will not have enough time to issue your badge before Monday's class. The completed form should include the room number.|記入済みの入室申請書を木曜までに送ってください。そうしないと、警備担当は月曜の講座までに入館証を発行する時間を取れません。申請書には部屋番号も記入してください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A Otherwise|そうしないと。|期限を守らなかった場合に起こる結果を示します。
+B Likewise|同様に。|期限内の送信と発行が間に合わないことを同種の行動として並べていません。
+C In addition|さらに。|後文は期限を守らない場合の結果で、追加の依頼ではありません。
+D For instance|例えば。|入館証が間に合わないのは提出期限の例ではありません。
+! A
+% access form=入室申請書|issue=発行する
+
+@p6-cohesion-r3-available|6|文脈・つながり|備品予約の代案|medium
+: text|The portable screen is reserved for the entire morning on Tuesday. _____, it cannot be included with a nine o'clock room booking. A wall-mounted screen is available in Room Seven.|移動式スクリーンは火曜の午前中いっぱい予約されています。そのため、9時の部屋の予約には付けられません。7号室では壁掛けスクリーンが使えます。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A In the meantime|その間に。|同時進行の別作業ではなく、予約済みであることによる利用不可を示します。
+B Consequently|その結果。|午前にすでに別の予約があることが、9時に貸せない理由です。
+C Even so|それでも。|午前中に予約済みで9時に貸せないのは、予想に反することではありません。
+D On the contrary|むしろその逆に。|予約済みと使用不可は互いに矛盾していません。
+! B
+% portable=移動式の|wall-mounted=壁掛けの
+
+@p6-cohesion-r3-shift|6|文脈・つながり|受付の交代手順|medium
+: text|Please review all duties before taking over the evening desk. _____, check that the radio is charged, since it is the only way to reach the floor team after six. The duty list is in the desk drawer.|夕方の窓口を引き継ぐ前に、すべての業務を見直してください。特に、6時以降に現場班に連絡できる唯一の手段なので、無線機が充電されているか確認してください。業務表は机の引き出しにあります。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A Conversely|反対に。|無線機の確認は引き継ぎの指示に反するものではありません。
+B At last|ついに。|長く待った結果の出来事ではなく、勤務前に行う指示です。
+C In other words|言い換えると。|無線機の一項目だけを、全業務の確認と同じ意味にはできません。
+D In particular|特に。|全業務のうち、無線機を確認する仕事を個別に強調しています。
+! D
+% take over=引き継ぐ|be charged=充電されている
+
+@p6-cohesion-r3-refunds|6|文脈・つながり|返金の提出方法|medium
+: text|We can process refunds in two ways: through the web form or by mail. The _____ is faster because files can be attached immediately. If you choose to send paper copies, allow an extra week.|返金はウェブフォームと郵送の二通りで処理できます。書類をすぐ添付できるため前者の方が早いです。紙の写しを郵送する場合は、さらに1週間かかると見込んでください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A former|前者。|最初に出てくるウェブフォームなら、ファイルをすぐ添付できます。
+B latter|後者。|二番目の郵送ではさらに1週間かかるので、早い方ではありません。
+C lastly|最後に。|文を順に並べる副詞で、二つの方法の一方を表す主語に置けません。
+D following|次に続くもの。|次に新しい方法を提示せず、前に挙げた二つを比べています。
+! A
+% the former=前者|attach=添付する
+
+@p6-cohesion-r3-caps|6|文脈・つながり|部品の追加発注|medium
+: text|The sample bottle caps arrived this morning. _____ are too small for the wider jars, so please order a larger size for next week's trial. Keep the samples for the original jars.|試作の瓶のふたが今朝届きました。これらは幅広の瓶には小さすぎるので、来週の試験分には一回り大きいサイズを注文してください。試作のふたは従来の瓶用に保管してください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A It|それは。|単数形で、複数のふたや後ろの are に合いません。
+B They|それらは。|複数の試作のふたを受け、are too small の主語になります。
+C Them|それらを。|目的語の形なので、are の主語にはなりません。
+D Their|それらの。|所有格なので、後ろに修飾する名詞を続ける必要があります。
+! B
+% cap=ふた|sample=見本、試作品
+
+@p6-cohesion-r3-slow|6|文脈・つながり|発送日の変更|medium
+: text|The repair kit can still be ordered online. The warehouse is canceling this Friday's only scheduled shipment. _____, orders received between noon on Thursday and midnight on Friday will ship on Monday. The price of the kit remains unchanged.|修理キットは引き続きオンラインで注文できます。倉庫は今週金曜に予定していた唯一の発送便を取りやめます。そのため、木曜正午から金曜の終わりまでに受けた注文は月曜に発送されます。キットの価格は変わりません。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A On the other hand|他方では。|金曜発送の中止と月曜扱いは対立ではなく原因と結果です。
+B In the past|以前に。|will be sent は今後の扱いを示し、過去の運用を説明していません。
+C As a result|その結果。|金曜の発送便が取りやめになった結果、その便に間に合う注文も月曜扱いになります。
+D In the meantime|その間に。|実際の発送は金曜の発送中止と同時期ではなく、次の月曜です。
+! C
+% place an order=注文する|ship=発送する
+
+@p6-cohesion-r3-sample|6|文脈・つながり|試食会の参加条件|medium
+: text|All employees may watch the lunchtime cooking demonstration. _____, only staff who have preregistered can try the samples, since the instructor is preparing a fixed number of portions. Check your confirmation email before joining the tasting line.|昼の調理実演は従業員全員が見学できます。ただし、講師が決まった数しか用意しないため、事前登録した職員だけが試食できます。試食列に並ぶ前に確認メールをご確認ください。
+? t1|Which option best completes the text?|本文の空所に最もよく入る選択肢はどれですか。
+A However|ただし。|誰でも見られる実演と、登録者に限る試食を対比します。
+B Consequently|その結果。|誰でも見られるから登録が必要になるという因果はなく、試食の数が理由です。
+C For example|例えば。|登録者限定の試食は、全員が見られる実演の具体例ではありません。
+D In the same way|同じように。|見学と試食の対象者は同じではありません。
+! A
+% preregister=事前登録する|portion=一人前
+
+@p6-word-r3-cases|6|語句補充|楽器ケースの返却案内|medium
+: text|If you borrowed a hard case from the Selnor Youth Orchestra, please inspect it before returning it to the instrument desk. Cases with loose handles should be labeled so that our staff can _____ them before the next rehearsal. Write your name and the case number on the tag.|セルノア青少年楽団からハードケースを借りた方は、楽器窓口に返す前に点検してください。取っ手が緩んでいるケースには、次のリハーサル前に係員が修理できるよう荷札を付けてください。荷札には氏名とケースの番号を記入してください。
+? t1|Which word best completes the text?|本文の空所に最もよく入る語はどれですか。
+A reserve|予約する。|ケースは返却される物品です。取っ手の不具合に対応するには修理が必要です。
+B repair|修理する。|緩い取っ手が付いたケースに印を付け、職員がリハーサル前に直せるようにします。
+C deliver|配送する。|利用者は窓口で返却するので、緩い取っ手のために配送を手配する指示ではありません。
+D display|展示する。|ケースの展示計画はなく、タグは不具合のあるケースを識別するために付けます。
+! B
+% hard case=硬い素材のケース|loose handle=緩んだ取っ手
+
+@p6-word-r3-syrup|6|語句補充|試飲用シロップの保管|medium
+: text|Thank you for ordering the tasting set from Velnor Syrup Works. The bottles can be kept at room temperature as long as the caps stay sealed. Once a bottle is _____, it must be refrigerated and used within seven days. Please mark the date on the label when you first break the seal.|ヴェルノアシロップ工房の試飲セットをご注文いただきありがとうございます。密封されたままであれば、瓶は室温で保管できます。瓶を開けたら冷蔵し、7日以内に使い切ってください。初めて封を切った日付をラベルに記入してください。
+? t1|Which word best completes the text?|本文の空所に最もよく入る語はどれですか。
+A ordered|注文された。|注文時ではまだ封が切られておらず、室温で保管できます。
+B delivered|配達された。|配送後でも、密封状態が続けば室温保管が可能です。
+C returned|返却された。|冷蔵が必要になるのは返品時でなく、購入者が初めて封を切った時です。
+D opened|開封された。|未開封の室温保管に対して、開封後は冷蔵し、封を切った日を記録します。
+! D
+% refrigerate=冷蔵する|break the seal=封を切る
+
+@p6-word-r3-schedules|6|語句補充|窯の使用枠の変更|medium
+: text|The kiln at Avenmar Clay Hall is being inspected on Thursday morning. Members with affected bookings can _____ their sessions to any available slot later in the week. Please reply with two preferred times so we can confirm one of them before canceling the original booking.|アヴェンマー陶芸館の窯は木曜午前に点検を受けます。点検の影響を受ける予約がある会員は、その週の後半の空いている枠に利用時間を変更できます。元の予約を取り消す前に新しい枠を確定できるよう、第2希望まで返信してください。
+? t1|Which word best completes the text?|本文の空所に最もよく入る語はどれですか。
+A move|移す。|元の予約から別の時間枠に移る手続きです。後ろの to any available slot が新しい枠を示します。
+B extend|延長する。|今の利用枠を長くする話でなく、点検に重なる枠から別枠へ変更します。
+C shorten|短縮する。|予約時間の長さを縮めるという意味で、新しい枠を選ぶ手続きにはなりません。
+D attend|出席する。|attend は活動への参加を指します。ここでは参加前に行う予約変更です。
+! A
+% kiln=窯|available slot=空いている枠
+
+@p6-sentence-r3-prints|6|文挿入|版画展の作品持ち込み|medium
+: text|Thank you for entering the Arlen Quay print exhibition. Deliver your work to the gallery between 10:00 A.M. and noon on Friday. _____ Leave that sleeve on the work when you hand it to the intake staff. We will remove the sleeve after checking the print for damage.|アーレン埠頭版画展へのご出品ありがとうございます。金曜午前10時から正午までに会場へ作品をお持ちください。搬入前に、版画を透明な保護袋に入れてください。受付担当に渡す際は、その袋に入れたままにしてください。版画の傷みの有無を確認してから袋を外します。
+? t1|Which sentence best completes the text?|本文の空所に最もよく入る文はどれですか。
+A Please write the title on a card before delivery.|搬入前にカードに作品名を書いてください。|カードを紹介しても、次の文の that sleeve が指す保護袋が出てきません。
+B You may pick up unsold prints after the exhibition.|展示会終了後に売れ残った版画を引き取れます。|会期後の引き取りで、搬入時に外さずにおく保護袋を説明しません。
+C Put your print in a clear protective sleeve before delivery.|搬入前に、版画を透明な保護袋に入れてください。|次文の that sleeve が保護袋を指し、渡す際にも作品を入れたままにする手順がつながります。
+D Use the side entrance if you arrive by car.|車で到着する場合は脇の出入口を使ってください。|搬入経路を述べても、作品に装着する袋の指示には続きません。
+! C
+% protective sleeve=保護袋|intake staff=受付担当

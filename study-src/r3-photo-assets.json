@@ -1,0 +1,38 @@
+{
+  "pour": {
+    "src": "study/r3/photos/pour.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. At a pottery workshop, a worker in a plain apron is pouring clear water from a small white pitcher into a large dark mixing bowl on a wooden workbench. Show a visible thin falling stream. A single empty stool is directly below the edge of the workbench. A row of three identical closed plain storage boxes stands on a shelf directly behind the worker. No other person, no stirring or mold casting. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "staple": {
+    "src": "study/r3/photos/staple.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. At a small community center desk, an employee is clearly pressing down a visible bright red desktop stapler onto loose papers. Other hand flat on the papers, medium wide view from above and front. One closed silver laptop is immediately to the right of the stapler. Behind the desk is a single unoccupied black office chair. No other person, no scissors, no telephone. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "arrange": {
+    "src": "study/r3/photos/arrange.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. In a flower shop, an employee is holding a stem of cut flowers with the stem going into a clear glass vase, arranging the flowers. Beside vase two empty glass vases of similar size stand upright next to each other on the countertop on its left. On the wall hangs a simple round clock at upper left, above the vases. No cutting or watering, no other employees. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "fold": {
+    "src": "study/r3/photos/fold.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. In a laundry room a worker is folding a clean white towel on a clear long workbench. Two hands are lifting matching towel corners, distinct tidy stack of folded white towels sits at the left end of the bench. A plain laundry hamper is on the floor directly beneath the stacked towels. No washing machine in view, no towels hanging, no ironing. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "tighten": {
+    "src": "study/r3/photos/tighten.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. In a bicycle service workshop, a technician is using a visible silver wrench on the front wheel axle of a bicycle in a repair stand, with the wrench visibly contacting the hexagonal axle nut. Close medium wide framing. Both bicycle wheels are suspended above the ground, and a closed toolbox sits on the floor behind the front wheel. No other person, no riding or inflating a tire. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "push": {
+    "src": "study/r3/photos/push.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. A hotel worker is pushing a brass luggage cart with both hands on its horizontal handle, with exactly two upright suitcases already on the cart. The cart is in front of a plainly closed double elevator door. Show the worker's hands and the cart wheels. No other people, no stairs, no suitcases on the floor, no printed room numbers. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "slice": {
+    "src": "study/r3/photos/slice.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. A cook at a restaurant preparation bench is visibly using a kitchen knife to slice a whole cucumber on a light wooden cutting board, hand on knife and other hand holding cucumber, visible slices in front. A large empty white bowl is to the left of the cutting board and a firmly closed kitchen cupboard is directly behind the cook. No other person, no frying, no pouring. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "plant": {
+    "src": "study/r3/photos/plant.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. A gardener at a greenhouse workbench is using both bare hands to lower the visible root ball of a small leafy plant into an open round terracotta pot, no gloves. A trowel lies flat on the table to the right of the pot. Three unused empty terracotta pots sit nested in a visible stack near the far end of the bench. No watering can, no hoses or flowers hanging. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  },
+  "wheel": {
+    "src": "study/r3/photos/wheel.webp",
+    "prompt": "Use case: photorealistic-natural. One original 3:2 landscape photograph for English listening practice. In an archive, a worker is moving a large open crate full of vertically arranged file folders by placing it onto a low wheeled platform, gripping the crate handles with both hands and the crate near the platform surface. In the background, a white cabinet with both doors visibly shut is to the left of a broad wall clock. Show all objects and hands, no file sheets scattered on floor, no ladder or packing tape. Clear editorial composition, realistic hands and tools, daylight, no legible text, brands or watermarks."
+  }
+}

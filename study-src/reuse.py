@@ -103,6 +103,48 @@ P6_DISTRACTORS = {
     197: ("they は「彼らは」という主格です。family members and guests を修飾する所有格は their です。",
           "them は「彼らを」という目的格です。連れてくる家族・ゲストが従業員の関係者であることを示せません。",
           "theirs は「彼らのもの」という所有代名詞です。family members の前に置いて修飾しません。"),
+    124: ("patient は形容詞なら「辛抱強い」です。所有格 your の後ろで感謝する対象を表すには patience が必要です。",
+          "patiently は「辛抱強く」という副詞です。wait patiently のように動詞を修飾します。",
+          "patients は「患者たち」です。この案内は設置中に従業員が辛抱してくれることに感謝しています。"),
+    127: ("welcome は原形です。look forward to の to は前置詞なので、後ろに動作を置くなら -ing 形が必要です。",
+          "welcomed は過去形・過去分詞です。店がこれから客を迎えることを表す動名詞にはなりません。",
+          "welcomes は三人称単数現在形です。前置詞 to の目的語の位置には、独立した述語を置けません。"),
+    131: ("until は継続する動作の終了時点です。ここでの通知は、9月10日までに一度済ませる手続きです。",
+          "during は期間中を指します。食事制限の連絡を9月10日までに済ませるという締切は by で示します。",
+          "among は複数のものに囲まれる関係を表します。9月10日は通知の締切日です。"),
+    135: ("packed は「梱包される」です。通行の妨げになるために禁じているのはロビーでの駐輪です。",
+          "painted は「塗装される」です。鍵の手配と保管場所の案内を受け、自転車を置ける場所を定めています。",
+          "passed は「追い越された」などです。禁止する場所で自転車が置かれた状態を表せません。"),
+    138: ("展示室の営業時間では、遅れている荷物の予定時刻に続けて受取人が配送状況を確かめる方法を示せません。",
+          "採用応募へのお礼です。宛先は注文品の配送を待つ購入者です。",
+          "保証期間は商品の故障時などに関わる情報です。ここで更新しているのは配送の予定です。"),
+    149: ("automatic は形容詞です。ここでは renew の更新方法を修飾する副詞 automatically が必要です。",
+          "automate は「自動化する」という動詞の原形です。renew の直後で、その更新の仕方を表せません。",
+          "automation は「自動化」という名詞です。契約更新が自動で行われる仕方を表す位置です。"),
+    154: ("ジムのロッカーの塗装予定です。冬の献立の意見を募る際に、前回の意見がどう反映されたかを説明する位置です。",
+          "経費報告の領収書の話です。食堂の利用者に参加を呼びかけるアンケートとは手続きが異なります。",
+          "会議室の定員です。食堂でどんな新しい料理を希望するかという次の話につながりません。"),
+    158: ("食堂の金曜の閉店時刻では、昨日の在庫管理研修を振り返って資料添付の案内につなげられません。",
+          "プリンターのトナーの発注は、参加者との在庫管理の議論に続く研修の振り返りではありません。",
+          "年末の催しの案内です。研修での質疑や、約束した資料の送付を補足しません。"),
+    166: ("ロビーのワックスがけは施設の予定です。ここで説明するのは毎月の運動費補助の扱いです。",
+          "緊急連絡先の更新です。人事ポータルを使うのは、運動費補助の領収書を提出するためです。",
+          "社内行事の評判は、月50ドルの補助を使い切れなかった場合や申請手順を説明しません。"),
+    170: ("休憩室の設備更新では、閉鎖中の駐車場が再び使える日時を知らせられません。",
+          "ペットボトルの分別案内です。車の撤去時刻と臨時駐車場の案内の間では、元の駐車場の再開を示します。",
+          "営業チームの受賞は、舗装工事中の閉鎖期間や利用者の代替駐車手段を補足しません。"),
+    178: ("図書館の日曜休館では、パン店が環境賞を受けた理由を追加できません。",
+          "駐車料金の値上げは、食品や包装の廃棄物を減らすパン店の取り組みの例になりません。",
+          "高速道路の新しい出口の話です。直後に店主が従業員の提案に言及する環境対策を示していません。"),
+    182: ("博物館の売店の閉店時刻です。参加者が図書館アプリを練習するときの持参物を説明する位置です。",
+          "研修生のオリエンテーションです。この講習の対象は電子書籍の利用を学びたい人です。",
+          "フェリーの運航間隔です。図書館での電子書籍講習の参加条件や準備にはつながりません。"),
+    194: ("市場の開店時刻では、新設バス路線で通勤者が使える車内設備を補足できません。",
+          "作業区域のヘルメット着用指示です。時刻や車内設備、運賃の支払い方法を案内する文書です。",
+          "古本の販売情報です。急行バス利用者への設備の案内から運賃の説明への流れに入りません。"),
+    199: ("during は期間中を表します。参加の可否を7月10日までに通知する期限は by を使います。",
+          "among は複数のものの間を指します。7月10日は回答の締切日です。",
+          "without は「〜なしで」です。日付を欠く条件でなく、回答を済ませる日を指定しています。"),
 }
 
 
@@ -184,10 +226,10 @@ def shuffle_choices(item, slug, position):
         }
 
 
-def balance_reading_choices(parts):
+def balance_reading_choices(parts, revision):
     for group in parts[4:]:
         entries = group["sets"]
-        movable = [entry for entry in entries if "source" in entry and
+        movable = [entry for entry in entries if entry["items"][0]["id"].startswith(f"fs{revision}-") and
                    not (group["part"] == 7 and entry["items"][0]["skill"] == "文挿入")]
         moving_ids = {entry["setId"] for entry in movable}
         fixed = Counter(entry["items"][0]["answerId"] for entry in entries
@@ -203,8 +245,8 @@ def balance_reading_choices(parts):
             shuffle_choices(entry["items"][0], entry["setId"], position)
 
 
-def add_reused(anchors):
-    catalog = json.loads(Path(__file__).with_name("reuse.json").read_text(encoding="utf-8"))
+def add_reused(anchors, catalog_file, revision):
+    catalog = json.loads(Path(__file__).with_name(catalog_file).read_text(encoding="utf-8"))
     sources = {key: source_index(paths) for key, paths in SOURCES.items()}
     for anchor, selections in catalog.items():
         for source, numbers in selections.items():
@@ -222,7 +264,7 @@ def add_reused(anchors):
                         media.pop("table")
                 passages = deepcopy(origin["passages"])
                 item = deepcopy(question)
-                item["id"] = "fs2-" + slug
+                item["id"] = f"fs{revision}-" + slug
                 item["skill"] = anchors[anchor]
                 translation = item["translationJa"]
                 if "stem" not in translation:
@@ -231,7 +273,8 @@ def add_reused(anchors):
                     passages = complete_part6(origin, question)
                     wrong_ids = [choice["id"] for choice in question["choices"]
                                  if choice["id"] != question["answerId"]]
-                    item["choiceExplanationsJa"].update(zip(wrong_ids, P6_DISTRACTORS[number], strict=True))
+                    if number in P6_DISTRACTORS:
+                        item["choiceExplanationsJa"].update(zip(wrong_ids, P6_DISTRACTORS[number], strict=True))
                     item["stem"] = ("Which sentence best completes the text?" if item["skill"] == "文挿入"
                                     else "Which word or phrase best completes the text?")
                     translation["stem"] = ("文書の空所に最もよく入る文はどれですか。" if item["skill"] == "文挿入"

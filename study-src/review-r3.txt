@@ -1,0 +1,266 @@
+field-study-01 · revision 3 · 独立解答と最終照合
+追加261問について正答と解説を伏せ、執筆履歴を引き継がない検品担当が解答した。Part 1は配信画像を使った。
+設問・根拠の修正または差し替えがあった21問は再解答した。選択肢の順番が変わった問は選択肢本文で照合した。
+以下の文字は最終版での選択肢位置。第2版の290問については配信データを比較し、全項目の一致を確認した。
+
+fs3-p1-action-r3-arrange A She holds a flower stem above the vase and adjusts the bouquet with her other hand.
+fs3-p1-state-r3-arrange D Two transparent upright vases have no flowers, to the left of the bouquet.
+fs3-p1-position-r3-arrange C The wall clock is higher than the empty vases on the counter.
+fs3-p1-action-r3-fold B She holds both edges of a towel and lifts one half over the other.
+fs3-p1-state-r3-fold A Multiple folded white towels are stacked on the left side of the workbench.
+fs3-p1-position-r3-fold D The open hamper is below the workbench on the same side as the folded towels.
+fs3-p1-action-r3-plant C She holds the root ball and lowers it into the terracotta pot.
+fs3-p1-state-r3-plant B The rims of several unused terracotta pots overlap in a nested stack.
+fs3-p1-position-r3-plant A The hand trowel lies on the bench to the viewer's right of the pot receiving the plant.
+fs3-p1-action-r3-pour D A stream from the tilted pitcher goes into the bowl she is holding.
+fs3-p1-state-r3-pour C Three rectangular boxes sit upright side by side on the wall shelf.
+fs3-p1-position-r3-pour B The stool seat is beneath the front edge of the workbench.
+fs3-p1-action-r3-push B The man grips the cart frame with both hands and leans into it in a walking stance.
+fs3-p1-state-r3-push A The blue and silver suitcases stand on their wheels on the cart.
+fs3-p1-position-r3-push D The cart is in the elevator lobby immediately forward and left of the closed elevator doors.
+fs3-p1-action-r3-slice C Her knife cuts across the vegetable, with round slices on the board.
+fs3-p1-state-r3-slice B The wooden cupboard doors behind the cook meet with no visible open space.
+fs3-p1-position-r3-slice A The white bowl is on the viewer's left of the wooden cutting board.
+fs3-p1-action-r3-staple D Her hand presses a stapler over the stack of papers.
+fs3-p1-state-r3-staple C The laptop on the desk is shut with the lid facing up.
+fs3-p1-position-r3-staple B A black office chair is on the far side of the desk.
+fs3-p1-action-r3-tighten A His wrench is positioned on the front bicycle wheel's hub fastener.
+fs3-p1-state-r3-tighten D The repair stand holds the bicycle with its wheels above the floor.
+fs3-p1-position-r3-tighten C The black toolbox sits on the floor on the viewer's right of the front wheel.
+fs3-p1-action-r3-wheel C She holds the crate by both sides as she positions it over the wheeled platform.
+fs3-p1-state-r3-wheel B Rows of folders stand upright inside the open wooden crate.
+fs3-p1-position-r3-wheel A The tall cabinet is on the viewer's left of the wall clock.
+fs3-p2-wh-l02-007 B The conference room next to the elevators supplies the meeting location.
+fs3-p2-wh-l02-009 C Five business days gives the usual duration of shipping.
+fs3-p2-wh-l02-010 B The owners being on vacation explains the closure.
+fs3-p2-wh-l02-018 B Just over thirty gives the number of registrations so far.
+fs3-p2-yes-no-l02-019 B The outstanding hotel receipt explains why the expenses have yet to be submitted.
+fs3-p2-yes-no-l02-026 A Go ahead grants permission, and the warmth explains the response.
+fs3-p2-request-l02-017 A The listener accepts the offer by asking for water.
+fs3-p2-r3-wh-valves A An hour gives the duration of the water shutoff.
+fs3-p2-r3-wh-lockers C The lockers beside the lift give a place to store coats.
+fs3-p2-r3-wh-editor B The managing editor is identified as the person who will read the draft.
+fs3-p2-r3-wh-crates A Three is the number of crates the listener says should be enough.
+fs3-p2-r3-wh-receipt C Two email addresses on file explain the duplicate receipts.
+fs3-p2-r3-yes-no-kitchen C The existing class booking until noon makes the kitchen unavailable Monday morning.
+fs3-p2-r3-yes-no-bus B The last stop on this route confirms that this bus stops at the west entrance.
+fs3-p2-r3-yes-no-renew A Yes confirms renewal, and the signed copy reached the listener on Friday.
+fs3-p2-r3-yes-no-museum C Opening an hour later directly answers whether the regular time will apply.
+fs3-p2-r3-yes-no-event B Not yet states the list has not been sent, with a plan to send it before lunch.
+fs3-p2-r3-yes-no-sign B The signs are needed as soon as visitors enter, so they should go up before opening.
+fs3-p2-r3-yes-no-printer A The side tray is given as the condition for printing envelopes.
+fs3-p2-r3-request-flyer C The listener agrees and says where the additional copies will be placed.
+fs3-p2-r3-request-break B Good idea accepts the suggested break, and the listener could use coffee.
+fs3-p2-r3-request-van A Moving the carts clears space by the loading door for the van.
+fs3-p2-r3-request-menu A Yes accepts removing the soup, and sandwiches remain available.
+fs3-p2-r3-request-call C Of course accepts the request, and ringing the extension describes the call.
+fs3-p2-r3-request-desk B The listener agrees to move the table and asks the speaker to hold the other end.
+fs3-p2-r3-request-return A The listener agrees to drop the key off on the way out.
+fs3-p2-r3-request-confirm C Checking with the instructor and reporting back fulfills the request.
+fs3-p2-r3-indirect-vouchers C Handing out the last voucher implies that none remain.
+fs3-p2-r3-indirect-bridge B The paving crew has not reopened the gate, so the delivery cannot use it now.
+fs3-p2-r3-indirect-contract A The contract is still in the outgoing tray, so the courier has not collected it.
+fs3-p2-r3-indirect-screen C The cables are still being connected, so setup is incomplete.
+fs3-p2-r3-indirect-door B Dev has left for the airport and is unavailable to unlock the door.
+fs3-p2-r3-indirect-weekend B The driving test conflicts with the Saturday morning shift.
+fs3-p2-r3-indirect-poster A Missing final client approval is the obstacle to sending the poster today.
+fs3-p2-r3-indirect-grab C Everybody already brought lunch, so a team lunch order is unnecessary.
+fs3-p2-r3-indirect-alarm B The only person who can unlock the doors is due an hour after the proposed opening.
+fs3-p3-purpose-l02-056 A The man says he has three boxes of books to donate.
+fs3-p3-detail-l01-037 D The man expects the replacement mug to arrive by Friday if he gets the email by noon.
+fs3-p3-detail-l01-043 A The hotel shuttle driver requires a room key card at boarding.
+fs3-p3-detail-l01-049 B The first man asks for a call when the driver is ten minutes away from the loading bay.
+fs3-p3-detail-l01-054 C The man says her reassigned team will start downstairs.
+fs3-p3-detail-l01-056 A The man asks to add six gluten-free rolls.
+fs3-p3-detail-l01-058 D The bakery says it will pack the two kinds separately.
+fs3-p3-detail-l01-066 C Drinks are allowed as long as the cups have lids.
+fs3-p3-detail-l01-070 C The price includes labor with no additional fitting charge.
+fs3-p3-detail-l02-036 A Doctor Patel has the Friday morning opening the caller accepts.
+fs3-p3-next-l01-048 D The second man offers to collect the identical desk at the other branch.
+fs3-p3-next-l01-060 C The man offers a locker for her helmet while she waits for a covered space.
+fs3-p3-next-l01-061 A The man requests her parking pass to link the locker to her account.
+fs3-p3-next-l01-064 A The first woman says to call the supervisor before processing the receiptless return.
+fs3-p3-next-l02-033 C The man must confirm the addition with his kitchen manager.
+fs3-p3-next-l02-034 C She asks the catering staff to arrive at 11:30 instead of noon.
+fs3-p3-next-l02-037 B The clinic asks him to arrive ten minutes early.
+fs3-p3-next-l02-061 B Rachel agrees to pick up the printed menus on Saturday.
+fs3-p3-next-l02-067 B A freeze requires completing the short form there.
+fs3-p3-purpose-r3-binding A The woman asks the man to bind sixty visitor guides by Wednesday.
+fs3-p3-intent-r3-binding D The man responds to the Wednesday deadline by saying time is tight.
+fs3-p3-chart-r3-binding C Cinder alone has the available glued spine and the required thin cover.
+fs3-p3-purpose-r3-parcelroom B She is looking for the parcel sent by the Alder Lane branch.
+fs3-p3-intent-r3-parcelroom A The weight recalls her colleague's remark about the box being too heavy.
+fs3-p3-chart-r3-parcelroom D G2 is the only ground-floor room listing a twelve-kilo parcel.
+fs3-p3-purpose-r3-marketband C The first speaker asks where the trio can play at the market.
+fs3-p3-intent-r3-marketband B The west garden is unavailable because music is approved only in the east.
+fs3-p3-chart-r3-marketband A Clock arcade alone is in the east section and has a roof.
+fs3-p3-purpose-r3-printticket D The regular ticket printer has failed and he asks for another machine for the evening.
+fs3-p3-intent-r3-printticket C The spare fills in temporarily before the existing machine is repaired.
+fs3-p3-chart-r3-printticket B Moss fits a narrow counter and accepts card payments.
+fs3-p3-purpose-r3-seedstore B They need a sealed box to protect seed packets stored near misting equipment.
+fs3-p3-intent-r3-seedstore A The free box has a cracked lid that may let moisture ruin seeds.
+fs3-p3-chart-r3-seedstore D Box C has a sealed lid and meets the thirty-centimeter width limit.
+fs3-p3-purpose-r3-railmeet C She is choosing a train to get to the client's eleven o'clock meeting.
+fs3-p3-intent-r3-railmeet B A later arrival would leave inadequate time for the walk and risk missing the start.
+fs3-p3-chart-r3-railmeet A Brook is the latest service that arrives by 10:45, at 10:44.
+fs3-p3-purpose-r3-labels D The woman asks for help picking labels for an outdoor sculpture trail.
+fs3-p3-intent-r3-labels C The cheap paper labels would need replacing after rain.
+fs3-p3-chart-r3-labels B Clay is the only label set with a pale surface and weatherproof material.
+fs3-p3-purpose-r3-showroom A The supplier wants to demonstrate large equipment and needs a suitable room.
+fs3-p3-intent-r3-showroom D A change of floor requires reissuing passes and moving the interpreter.
+fs3-p3-chart-r3-showroom C Pine is the second-floor room with a wide entrance.
+fs3-p3-intent-r3-hirecase C A two-hour rental should suffice to put up one shelf.
+fs3-p3-chart-r3-hirecase B Firth is battery powered and has a two-hour minimum rental.
+fs3-p4-detail-l01-072 A Road resurfacing blocked the driver's access to the building.
+fs3-p4-detail-l01-090 D Cabinet shelves are sold separately so customers can choose a quantity.
+fs3-p4-detail-l01-093 B Participants are told to bring a refillable water bottle.
+fs3-p4-detail-l01-094 B A cancellation will be sent to the email address used for registration.
+fs3-p4-detail-l01-095 C The shop found a loose seam that it can mend.
+fs3-p4-detail-l01-097 D The listener must bring the collection slip either day.
+fs3-p4-detail-l02-075 B The map room is excluded from the museum's photography permission.
+fs3-p4-detail-l02-082 A A Wayline trainer will give a thirty-minute online demonstration next Thursday.
+fs3-p4-detail-l02-089 C She ran her own coffee shop chain for ten years.
+fs3-p4-next-l02-078 B Drivers are advised to use Elm Parkway instead of Route Eleven.
+fs3-p4-next-l02-084 A Listeners are advised to bring a photo and measurements of their room.
+fs3-p4-next-l02-088 D Passengers with bicycles are told to board the last carriage.
+fs3-p4-next-l02-092 A Visitors are told to put on safety glasses before entering the production floor.
+fs3-p4-purpose-r3-galleryentry A Gallery members arriving after noon are told how to enter using an email code.
+fs3-p4-intent-r3-galleryentry D Scanning the emailed code lets members bypass the ticket desk queue.
+fs3-p4-chart-r3-galleryentry C Gold is the gate for afternoon arrivals with memberships.
+fs3-p4-next-r3-galleryentry B Members should open the code on their phones before joining the entry line.
+fs3-p4-purpose-r3-coachchange B The speaker gives instructions to Orlen Point passengers after their coach is delayed.
+fs3-p4-intent-r3-coachchange A Passengers should wait where the replacement vehicle can collect them.
+fs3-p4-chart-r3-coachchange D Stop 3 is the usual express stop for Orlen Point.
+fs3-p4-next-r3-coachchange C Passengers are told to show their tickets when the door opens, before stowing luggage.
+fs3-p4-purpose-r3-repairday C The speaker explains where to take a lamp and how to check it in.
+fs3-p4-intent-r3-repairday B A photo suffices in place of a long description of the fault.
+fs3-p4-chart-r3-repairday A Bench B handles battery-powered small appliances.
+fs3-p4-next-r3-repairday D Visitors must give the photo to the entrance volunteer before taking a seat.
+fs3-p4-purpose-r3-supplydrop D The speaker explains how exhibitors should clear their remaining packing materials.
+fs3-p4-intent-r3-supplydrop C Clearing packing materials is the only remaining task.
+fs3-p4-chart-r3-supplydrop B Bin 16 takes cardboard and has wheels.
+fs3-p4-next-r3-supplydrop A Exhibitors are told to flatten boxes before putting them in the container.
+fs3-p4-purpose-r3-showvoices B The speaker invites interested listeners to join the audience at a recording.
+fs3-p4-intent-r3-showvoices A Listeners who might attend should leave the Tuesday recording date available.
+fs3-p4-chart-r3-showvoices D Lane offers step-free access for the evening session, the only one with seats.
+fs3-p4-next-r3-showvoices C The speaker says to request a seat online after choosing an entrance.
+fs3-p4-purpose-r3-yardnotice C Road works suspend regular pickup and a temporary site accepts branches this week.
+fs3-p4-intent-r3-yardnotice B The temporary point allows residents to take branches in before the regular truck resumes.
+fs3-p4-chart-r3-yardnotice A Stone shed alone is covered and accepts branches.
+fs3-p4-purpose-r3-manualpickup D Staff are told when and where to collect the revised manuals and how to identify approved copies.
+fs3-p4-intent-r3-manualpickup C Staff can collect a manual on their next shift.
+fs3-p4-chart-r3-manualpickup B Shelf 4 has the large-print manuals with green covers.
+fs3-p4-purpose-r3-visitorshop A The west arch is closed, so shoppers are directed to a north entrance with a ramp.
+fs3-p4-intent-r3-visitorshop D The speaker gives avoiding a long walk as a reason to follow the entrance signs.
+fs3-p4-chart-r3-visitorshop C Orchard is the north entrance with a ramp.
+fs3-p4-purpose-r3-filmdrop C The announcement tells volunteers that the sound test has moved.
+fs3-p4-intent-r3-filmdrop B The technician has limited time to finish before visitors arrive.
+fs3-p4-chart-r3-filmdrop A Slate alone is on the upper level and has headphones.
+fs3-p5-pos-p56-002 B The annual safety evaluation is the noun object of complete.
+fs3-p5-pos-p56-004 D Customer satisfaction is the singular subject.
+fs3-p5-pos-p56-005 B Thoroughly modifies reviewed.
+fs3-p5-pos-p56-006 D Your cooperation is the noun object of appreciate.
+fs3-p5-pos-p56-015 C The slot before campaign takes the adjective innovative, which also fits an.
+fs3-p5-pos-p56-009 A The committee's decision takes the to-infinitive.
+fs3-p5-pos-p56-069 C Remarkable modifies the noun clarity in the phrase with remarkable clarity.
+fs3-p5-pos-p56-065 A Comprehensive modifies the noun overview after a.
+fs3-p5-pos-p56-070 C Exclusively limits recording availability to registered members.
+fs3-p5-verb-p56-017 D Future perfect marks completion by the time the conference starts.
+fs3-p5-verb-p56-019 D Has served extends the tenure from the 2021 opening to the present.
+fs3-p5-verb-p56-020 B Recommend takes the gerund confirming here.
+fs3-p5-verb-p56-023 D Placed introduces the reduced passive relative describing the brochure.
+fs3-p5-verb-p56-024 B Simple present rains fits the real future condition.
+fs3-p5-verb-p56-078 A Enjoys takes the gerund collaborating.
+fs3-p5-verb-p56-081 B Asked plus attendees takes to bring.
+fs3-p5-verb-p56-084 D The future when clause takes singular present arrives.
+fs3-p5-verb-p56-085 B Are currently developing is present progressive.
+fs3-p5-connector-p56-032 D Until introduces the closing time.
+fs3-p5-connector-p56-034 A Due to introduces the noun phrase a scheduling conflict.
+fs3-p5-connector-p56-036 D Unless introduces the necessary signed-contract condition.
+fs3-p5-connector-p56-037 B Between places the cafe relative to two landmarks.
+fs3-p5-connector-p56-039 A By plus gerund expresses the means of finishing early.
+fs3-p5-connector-p56-092 A Between pairs with and to mark the departure-time range.
+fs3-p5-connector-p56-096 A So that introduces the finite purpose clause the couriers could finish.
+fs3-p5-connector-p56-099 C From pairs with to to mark the reservation interval.
+fs3-p5-connector-p56-102 C Arrive at the airport is the idiomatic construction for this destination.
+fs3-p5-vocab-p56-047 A Electronic delivery serves the stated goal of reducing paper waste.
+fs3-p5-vocab-p56-048 B Minimize means reduce the amount of back strain.
+fs3-p5-vocab-p56-050 A Complete means fill in the form before returning it.
+fs3-p5-vocab-p56-053 C Replace fits renewing aging water pipes.
+fs3-p5-vocab-p56-107 C A strategy is a plan for attracting sponsors.
+fs3-p5-vocab-p56-108 B Eligible for paid leave means meeting the requirements.
+fs3-p5-vocab-p56-111 C Accommodate means make arrangements for special dietary needs.
+fs3-p5-vocab-p56-114 C Return is the transaction for unused goods accompanied by a receipt.
+fs3-p5-vocab-p56-117 D Review the itinerary to see if the flight times need changes.
+fs3-p6-word-p56-124 D Thank you for your patience acknowledges the temporary installation disruption.
+fs3-p6-word-p56-127 D Look forward to takes welcoming.
+fs3-p6-word-p56-131 D By September 10 gives the deadline to notify the organizers.
+fs3-p6-word-p56-135 D Parked describes leaving bicycles in the prohibited lobby or hallways.
+fs3-p6-word-p56-149 D Automatically modifies renew.
+fs3-p6-word-p56-199 B By July 10 gives the RSVP deadline.
+fs3-p6-sentence-p56-138 A Tracking the package directly develops its revised delivery status.
+fs3-p6-sentence-p56-154 C A concrete result of the prior survey encourages responses to the new one.
+fs3-p6-sentence-p56-158 B The workshop Q&A develops the discussion mentioned in the preceding sentence.
+fs3-p6-sentence-p56-166 B The monthly stipend terms belong before the instructions for claiming it.
+fs3-p6-sentence-p56-170 C The Wednesday reopening completes the Tuesday closure timetable.
+fs3-p6-sentence-p56-178 B Biodegradable packaging adds another environmental practice before staff receive credit.
+fs3-p6-sentence-p56-182 C A library card and device let participants try the borrowing workflow in the workshop.
+fs3-p6-sentence-p56-194 B Wi-Fi and charging provide further passenger-service details for the new route.
+fs3-p6-cohesion-r3-rain A Nevertheless contrasts low attendance with higher sales.
+fs3-p6-cohesion-r3-windows A Meanwhile shows that the crews work in parallel before lunch.
+fs3-p6-cohesion-r3-permit D Otherwise introduces the consequence of missing the Thursday deadline.
+fs3-p6-cohesion-r3-available C Consequently gives the effect of the morning reservation on a nine o'clock booking.
+fs3-p6-cohesion-r3-shift A In particular singles out the radio check from the duties.
+fs3-p6-cohesion-r3-refunds C Former means the first-mentioned method, the web form.
+fs3-p6-cohesion-r3-caps D They is the plural subject pronoun referring to the caps.
+fs3-p6-cohesion-r3-slow A The cancellation of Friday's only shipment explains why affected orders will ship Monday.
+fs3-p6-cohesion-r3-sample A However contrasts broad permission to watch with restricted sampling.
+fs3-p6-word-r3-cases C Loose handles are defects that staff can repair before the rehearsal.
+fs3-p6-word-r3-syrup B Breaking the seal opens the bottle and triggers the refrigeration rule.
+fs3-p6-word-r3-schedules A Members can move their sessions from the affected booking to a later available slot.
+fs3-p6-sentence-r3-prints C A clear protective sleeve introduces the specific sleeve referred to by that sleeve in the next sentence.
+fs3-p7-detail-m01-152 C The coordinator will arrange an alternative orientation date for absentees.
+fs3-p7-detail-m01-154 A The notice requires booking online at least a week in advance for the group discount.
+fs3-p7-detail-m01-156 A The memo says a mobile phone can photograph receipts and attach them to reports.
+fs3-p7-detail-m01-158 D Pressure washers are available only for full-day or weekly rentals.
+fs3-p7-detail-m01-160 D The late-return rule charges the item's hourly rate up to a day.
+fs3-p7-detail-m01-173 D The team will meet each evening to prepare for their conference presentations.
+fs3-p7-detail-m01-175 C Haddad will arrive a day early, November 18.
+fs3-p7-detail-m01-179 D Batista asks whether the October 27 workshop will be offered in November or December.
+fs3-p7-detail-m01-182 A The ad grants free city delivery for orders over $300.
+fs3-p7-purpose-r3-badge A The notice gives the steps for exchanging temporary paper passes for badges.
+fs3-p7-infer-r3-badge A The notice says the clerk removes the old pass from the register.
+fs3-p7-cross-r3-badge A 3:15 on Tuesday is before four and the west-lobby desk issues badges.
+fs3-p7-sentence-r3-badge B This signature points directly to the supervisor's signature in the preceding instruction.
+fs3-p7-purpose-r3-capsule B The text tells capsule borrowers how to store and return the loan items.
+fs3-p7-infer-r3-capsule A Borrowers need the driver's numbered carrier to pack the capsules at the end of the event.
+fs3-p7-cross-r3-capsule B One working day before the Friday collection is Thursday.
+fs3-p7-sentence-r3-capsule B Avoiding heaters and cooling vents follows from the room-temperature requirement.
+fs3-p7-purpose-r3-allotment B The rules concern booking, hours and cleanup for a shared tool bench.
+fs3-p7-infer-r3-allotment D A volunteer keeps the bench open until seven on the first Saturday.
+fs3-p7-cross-r3-allotment C Ninety minutes requires three consecutive half-hour blocks.
+fs3-p7-sentence-r3-allotment C At [3], the special arrangement refers to keeping the bench open from five to seven, adding four half-hour blocks.
+fs3-p7-purpose-r3-ink C The notice explains how members can reserve and use the new printer.
+fs3-p7-infer-r3-ink A Members must pay for paper at the front counter after printing.
+fs3-p7-cross-r3-ink A The meeting overlaps noon, when the required same-day safety briefing takes place.
+fs3-p7-sentence-r3-ink C This session immediately refers to the ten-minute safety briefing.
+fs3-p7-purpose-r3-trail C The text gives a weekday access detour during boardwalk repairs.
+fs3-p7-infer-r3-trail B The shore gate remains open on weekends.
+fs3-p7-cross-r3-trail A Wednesday requires a start at the inland gate.
+fs3-p7-sentence-r3-trail C These markers refers to the green arrows just mentioned.
+fs3-p7-purpose-r3-sound D The notice states the recording booth interruption and hours during the shutdown.
+fs3-p7-infer-r3-sound D All-day availability includes the period before 3:00 P.M. when neither booth can be used.
+fs3-p7-cross-r3-sound C The 1:30-2:30 booth booking overlaps the closure before three, while desks remain available.
+fs3-p7-sentence-r3-sound C Those clients refers to the clients with overlapping reservations.
+fs3-p7-purpose-r3-dispatch C Pickup temporarily moves from the entrance to the loading bay.
+fs3-p7-infer-r3-dispatch B Face-up labels let couriers read them without moving parcels.
+fs3-p7-cross-r3-dispatch B The rear gate with a blue sign leads directly to the new pickup location.
+fs3-p7-sentence-r3-dispatch B This gate refers immediately to the blue-marked rear gate.
+fs3-p7-purpose-r3-fees B The notice gives the deadline, channel and possible fees for booking changes.
+fs3-p7-infer-r3-fees D The desk charges the fee only when it assigns a larger room.
+fs3-p7-cross-r3-fees B Tuesday at two is after the online deadline and within the desk's weekday hours.
+fs3-p7-sentence-r3-fees C The absence of a fee for a same-size room follows from the larger-room-only rule.
+fs3-p7-purpose-r3-boots D The instructions give the washing, return and recording steps for borrowed boots.
+fs3-p7-infer-r3-boots A The log records a number from one heel for each returned pair.
+fs3-p7-cross-r3-boots D After washing, borrowers take boots to the rack beside the north door.
+fs3-p7-sentence-r3-boots D That number refers to the heel number entered in the log.
