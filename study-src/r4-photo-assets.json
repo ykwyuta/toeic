@@ -1,0 +1,22 @@
+{
+  "iron": {
+    "src": "study/r4/photos/iron.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic editorial photograph of a small clothing alterations workshop. One worker visibly ironing a flat light-blue shirt with a silver steam iron pressed onto it on an ironing board. On the right side of the image, two folded plain white towels are stacked on a separate wooden worktable. A white round clock is high on the rear wall directly above the worktable. All three facts unmistakable in a medium wide view, daylight, clean realistic workroom, no brands or legible text, no packaging, no sewing machine."
+  },
+  "squeegee": {
+    "src": "study/r4/photos/squeegee.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic editorial photograph at the street entrance to a neighborhood shop. One person holds a clear black rubber squeegee against the exterior of a large glass display window and draws it across the wet glass. A clearly visible green metal bucket sits on the pavement next to the person's boots. One closed plain blue door is immediately to the left of the window from the camera's perspective. Medium wide composition, daylight, no legible signs, no other people, no ladder or hose. Realistic hands and reflections."
+  },
+  "unload": {
+    "src": "study/r4/photos/unload.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic candid editorial photograph in a small furniture stockroom. One warehouse worker in an unbranded vest is lifting a small cardboard carton with both hands a few inches above the flat platform of a blue rolling cart. Three other closed cartons sit neatly on a low wooden rack behind the worker. An empty yellow hand truck is parked to the right of the wooden rack, fully visible. Wide side angle, clear spacing, realistic hands gripping carton, diffuse lighting, no logos, no writing, no other person."
+  },
+  "brush": {
+    "src": "study/r4/photos/brush.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic editorial photo in a community woodcraft studio. One person applying a coat of paint to a plain wooden stool with a broad brush, bristles clearly touching the stool seat. An open can of paint stands on a drop cloth directly under the stool seat between the legs. Two other plain wooden stools stand upright in the far right background. Medium wide side angle, natural light, uncluttered layout, no brands or legible labels, no power tools, no other person."
+  },
+  "rack": {
+    "src": "study/r4/photos/rack.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 realistic editorial photograph in a small bicycle service shop. One worker inflating the front tire of a bicycle with a tall floor pump, gripping the T-shaped handle with both hands while visibly pressing it down; the thin pump hose connects to the wheel valve. Two spare bicycle wheels hang vertically on hooks on the wall behind the worker. A closed rectangular red toolbox is on the counter below the hanging wheels. Wide side angle with clear spatial separation, realistic tools and anatomy, natural light, no logos or legible text."
+  }
+}

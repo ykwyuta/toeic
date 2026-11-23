@@ -1,0 +1,149 @@
+field-study-01 · revision 4 · 独立解答と最終照合
+全29分野に5問ずつ追加。追加145問について正答・解説を伏せ、執筆履歴を引き継がない担当が解答した。Part 1は配信画像を使用した。
+修正・差し替えのあった32問を別の文脈で再解答した。以下は最終版の選択肢位置。第3版の551問は既存の配信データと全項目が一致した。
+
+fs4-p1-action-r4-iron A The iron touches the shirt spread across the board.
+fs4-p1-state-r4-iron B Two folded white towels rest one atop the other on the table.
+fs4-p1-position-r4-iron C The wall clock hangs directly above the stack of folded towels.
+fs4-p1-action-r4-squeegee D The worker holds a squeegee against the wet display window.
+fs4-p1-state-r4-squeegee A The blue door sits fully shut within its frame.
+fs4-p1-position-r4-squeegee B The green bucket rests on the pavement beneath the display window.
+fs4-p1-action-r4-unload C The worker grips a carton with both hands just above the blue cart.
+fs4-p1-state-r4-unload D Several closed cartons sit on the lower shelf of the low wooden rack.
+fs4-p1-position-r4-unload A The yellow hand truck stands to the viewer's right of the wooden rack.
+fs4-p1-action-r4-brush B The brush touches green paint being applied to the stool seat.
+fs4-p1-state-r4-brush C Both stools against the back wall have their seats up and feet on the floor.
+fs4-p1-position-r4-brush D The open can of green paint is on the floor between the painted stool's legs.
+fs4-p1-action-r4-rack A The worker grips a floor pump whose hose connects to the bicycle's front wheel.
+fs4-p1-state-r4-rack B The two separate bicycle wheels hang from wall hooks.
+fs4-p1-position-r4-rack C The red toolbox sits on the counter at a lower height than the wall-mounted wheels.
+fs4-p2-r4-wh-hours A Forty minutes supplies the remaining duration.
+fs4-p2-r4-wh-estimate B The estimate includes the cost of a replacement motor.
+fs4-p2-r4-wh-visitor C The afternoon supervisor is the person who will show the suppliers around.
+fs4-p2-r4-wh-counter B The desk opposite the lift is the pickup location.
+fs4-p2-r4-yes-no-invoices C Went out yesterday confirms when the invoices were sent.
+fs4-p2-r4-yes-no-canopy A The side panels cost extra, so the quoted price does not include them.
+fs4-p2-r4-yes-no-badgetime C Expiration this Friday prevents use next Monday.
+fs4-p2-r4-yes-no-heatpress A The direct yes confirms the switch-off, and the check took place just before locking up.
+fs4-p2-r4-request-spares B The speaker accepts and will move the handouts to the requested spot now.
+fs4-p2-r4-request-queue A The speaker agrees to the second line and offers to bring a sign to set it up.
+fs4-p2-r4-request-screenshare B Sure accepts the request and opening the spreadsheet enables it to be displayed.
+fs4-p2-r4-request-boxes C The speaker accepts the instruction and will move the emptied cartons to the loading bay.
+fs4-p2-r4-request-earlyvan B The earlier van gives the setup crew extra preparation time.
+fs4-p2-r4-indirect-ladderroom C The maintenance team's possession until three means the ladder is unavailable now.
+fs4-p2-r4-indirect-hearing A An out-of-paper printer is a practical obstacle to printing the badges.
+fs4-p2-r4-indirect-collect C The guide's latest message gives the courtyard gate as the updated meeting location.
+fs4-p2-r4-indirect-plinth A An all-day reservation by another group covers the afternoon.
+fs4-p2-r4-indirect-fob B The receptionist can restore access so the speaker can retrieve the key fob.
+fs4-p2-r4-wh-frames A A padded trolley is the suggested way to carry the framed prints.
+fs4-p2-r4-yes-no-manual C The speaker confirms uploading the manual to the shared folder that morning.
+fs4-p3-detail-l02-052 C — The man states a twenty-dollar drop-off fee for an airport return.
+fs4-p3-detail-l02-057 D — The volunteers aren't there on Mondays, so the woman accepts the donation today.
+fs4-p3-detail-l02-060 A — The man asks if the kitchen can keep up because it is already one cook short.
+fs4-p3-detail-l02-066 D The woman says the member can keep his current rate when he comes back.
+fs4-p3-detail-l02-070 B — The woman will email the address and a parking pass.
+fs4-p3-purpose-r4-stencildesk A The woman asks to have one hundred trail maps printed for the open day.
+fs4-p3-intent-r4-stencildesk D The upstairs machine is out of action, so the downstairs printer is offered as the usable machine.
+fs4-p3-chart-r4-stencildesk C Swift pairs water-resistant stock for the rain with the black-and-white output of the usable printer.
+fs4-p3-next-r4-stencildesk B The woman says she will e-mail a grayscale version that night.
+fs4-p3-purpose-r4-weekendferry B — The woman asks to book a ferry to take six display screens to an island fair.
+fs4-p3-intent-r4-weekendferry A — The team must arrive before eleven to set up, ruling out later arrivals.
+fs4-p3-chart-r4-weekendferry D — Brim carries vehicles and arrives at 10:40, before the eleven o'clock deadline.
+fs4-p3-next-r4-weekendferry C — The last speaker offers to check availability online while the others pack.
+fs4-p3-purpose-r4-sampletray C The man needs a container to store forty sample jars in the fridge.
+fs4-p3-intent-r4-sampletray B The space under the bottom shelf is too short for the taller bins.
+fs4-p3-chart-r4-sampletray A Clove is low, has dividers and holds 50 jars, enough for all 40.
+fs4-p3-next-r4-sampletray D The man says he will measure the inside of the short container before ordering it.
+fs4-p3-purpose-r4-captionteam D — The speakers are arranging French captions and a rehearsal for a short-film event with guest groups.
+fs4-p3-intent-r4-captionteam C — The proposed dry run is an afternoon practice session before the screening.
+fs4-p3-chart-r4-captionteam B — Grove is the only file with French captions that works offline.
+fs4-p3-next-r4-captionteam A — The man says he will bring the projector remote to the auditorium.
+fs4-p3-purpose-r4-benchtraining B The woman asks an instructor to run a short lesson for new volunteers next week.
+fs4-p3-intent-r4-benchtraining A Leaving the choice in his hands delegates selecting the instructor to the man.
+fs4-p3-chart-r4-benchtraining D Shelf is the only beginner session in the morning, matching the confirmed level and time.
+fs4-p3-next-r4-benchtraining C The man explicitly says he will call her back that afternoon after checking availability.
+fs4-p4-detail-l02-077 A — One lane near the Carver Bridge is closed for repairs until noon.
+fs4-p4-detail-l02-093 B — The speaker gives the very high furnace temperatures as the reason for staying behind the lines.
+fs4-p4-detail-l02-095 C — The recorded message announces special hours for the holiday week.
+fs4-p4-detail-l02-096 B — The regular Thursday curbside collection moves to Saturday.
+fs4-p4-detail-l02-097 C — The center now accepts old electronics such as laptops and phones at its side entrance.
+fs4-p4-purpose-r4-lamplight C — The speaker gives the entry route, entry times, and volunteer check-in instructions.
+fs4-p4-intent-r4-lamplight B — The telescope room has a short entry window ending at 8:15, so visitors should allow extra time.
+fs4-p4-chart-r4-lamplight A — Meridian is the only indoor route with a lift.
+fs4-p4-next-r4-lamplight D — The speaker tells visitors to check in with a volunteer before going upstairs.
+fs4-p4-purpose-r4-pickupfridge D Customers arriving after three can arrange for their order to be moved to another pickup point.
+fs4-p4-intent-r4-pickupfridge C The speaker asks customers to keep the staff informed if their plans change again.
+fs4-p4-chart-r4-pickupfridge B Gate D stays open past four and has a refrigerator.
+fs4-p4-next-r4-pickupfridge A The speaker asks customers to reply with a preferred pickup point by one.
+fs4-p4-purpose-r4-toolbrief A — The speaker says the demonstrations are for people who are new to the workshop.
+fs4-p4-intent-r4-toolbrief D — Visitors unsure about trying a tool can watch first.
+fs4-p4-chart-r4-toolbrief C — Fir is the only introductory demonstration held indoors.
+fs4-p4-next-r4-toolbrief B — The speaker tells visitors to collect safety glasses at the desk before joining.
+fs4-p4-purpose-r4-couriersort C — The speaker explains where and how to hold outgoing boxes until the delayed van arrives.
+fs4-p4-intent-r4-couriersort B — The outgoing boxes must be kept in a locked area until the driver arrives.
+fs4-p4-chart-r4-couriersort A — Bay 4 is the only indoor area that can be locked.
+fs4-p4-next-r4-couriersort D — Staff must attach the manifest to the top box before moving anything.
+fs4-p4-purpose-r4-workshopmats D — The speaker tells participants which sample to pick and when they may start cutting it.
+fs4-p4-intent-r4-workshopmats C Participants must wait for the instructor to mark the cutting lines before they use the knife.
+fs4-p4-chart-r4-workshopmats B — Sample Two is the only white mat with a wide opening.
+fs4-p4-next-r4-workshopmats A The first instruction is to pick up a mat sample from the supply table.
+fs4-p5-pos-p56-010 D Adjective complimentary modifies shuttle service and means free of charge.
+fs4-p5-pos-p56-013 D Adverb promptly modifies arrive.
+fs4-p5-pos-p56-074 C The adverb carefully modifies the action handle.
+fs4-p5-pos-p56-067 A Adverb particularly modifies the adjective popular.
+fs4-p5-pos-p56-072 C Adjective continuous modifies the noun phrase tracking updates.
+fs4-p5-verb-p56-026 D Inverted past counterfactual uses had plus past participle left.
+fs4-p5-verb-p56-028 B Avoid takes the gerund connecting as its complement.
+fs4-p5-verb-p56-029 C Past perfect had submitted places submission before past permit approval.
+fs4-p5-verb-p56-030 C Were impressed by identifies what caused the participants' reaction.
+fs4-p5-verb-p56-077 B The CFO will perform the review and the budget report receives the action, requiring the future passive.
+fs4-p5-connector-p56-042 C As long as introduces the period when employees are inside.
+fs4-p5-connector-p56-044 A Whether coordinates the two alternative slots with or.
+fs4-p5-connector-p56-045 A Until further notice marks the end condition of the closure.
+fs4-p5-connector-p56-097 A According to introduces the manual as the source of the rule.
+fs4-p5-connector-p56-104 B Across the street from locates the bookstore on the opposite side.
+fs4-p5-vocab-p56-116 B Durable describes the aluminum's ability to withstand wear in a water bottle.
+fs4-p5-vocab-p56-059 A The named groups illustrate a diverse audience.
+fs4-p5-vocab-p56-060 D Distributed to attendees via email means sent to the group.
+fs4-p5-vocab-p56-112 D A power outage interrupts electricity and explains the relocation.
+fs4-p5-vocab-p56-120 B Technicians inspected the signal, examining it during the delay.
+fs4-p6-word-p56-123 C Explaining introduces a participial phrase modifying guide.
+fs4-p6-word-p56-136 A Make takes convenient as the adjective describing the commute.
+fs4-p6-word-p56-150 C Find takes useful as the adjective describing the tool.
+fs4-p6-word-p56-157 C Discussing is parallel with exploring after it was a pleasure.
+fs4-p6-word-p56-183 D No prior technical experience is required states that beginners can attend.
+fs4-p6-cohesion-r4-returns A The bridge closure causes the temporary acceptance of scans by email.
+fs4-p6-cohesion-r4-vests B Instead marks handing the vest to a team leader as the alternative to visiting the desk.
+fs4-p6-cohesion-r4-pods D Fan noise reaching microphones explains the instruction to switch off the fan.
+fs4-p6-cohesion-r4-archive B In the meantime marks website requests as an option while the reading room awaits inspection.
+fs4-p6-cohesion-r4-rainplan D In particular singles out grippy shoes within the wet-weather advice.
+fs4-p6-sentence-r4-cratecards D Attaching removable labels supplies the referent of these removable labels.
+fs4-p6-sentence-r4-viewfinder B The number on the camera body supplies the referent of that number.
+fs4-p6-sentence-r4-boatshow A Building a cradle supplies the choice referred to by if you choose to make one.
+fs4-p6-sentence-r4-mailing C Wednesday at noon supplies the cutoff for new addresses.
+fs4-p6-sentence-r4-garden B Writing leaders' names on the next line supplies those names and their order.
+fs4-p7-detail-m01-161 C The director says the festival responded to winter survey requests for more weekend family events.
+fs4-p7-detail-m01-176 A The schedule states that full-day workshops include lunch.
+fs4-p7-detail-m01-185 A Ms. Cho prefers the first option in her email, sending someone to assemble the desks.
+fs4-p7-detail-m01-186 D The web page explicitly includes free parking in all packages.
+fs4-p7-detail-m01-197 D The newspaper says the high-speed ferry carries passengers and bicycles only and cars use the existing ferry.
+fs4-p7-purpose-r4-keysleeve B The notice introduces lockers for pickups after the front desk closes.
+fs4-p7-infer-r4-keysleeve A The notice requires a mobile number to have an order placed in a locker.
+fs4-p7-cross-r4-keysleeve B The desk is closed at 7:15 and cannot offer the roll. The locker remains open and Orven requested cartridge storage with a mobile number.
+fs4-p7-sentence-r4-keysleeve B At point 2, that number refers to the mobile number in the order request.
+fs4-p7-purpose-r4-cleanshift D The notice covers the rental block, cleanup and predeparture inspection.
+fs4-p7-infer-r4-cleanshift C Cleanup must fit within the two-hour block, which would all be used for food preparation.
+fs4-p7-cross-r4-cleanshift B Renn now ends at 6:30 and the notice requires the call button for bookings ending at six or later.
+fs4-p7-sentence-r4-cleanshift C At point 3, this check refers directly to the manager's workstation inspection.
+fs4-p7-purpose-r4-bluecard D The notice explains session timing, age eligibility, booking and what to bring.
+fs4-p7-infer-r4-bluecard D The notice permits one reservation with every attendee's name.
+fs4-p7-cross-r4-bluecard C The evening minimum age is 16. Fenn is 19 and the brother is 13.
+fs4-p7-sentence-r4-bluecard D At point 4, it refers to the blue confirmation card.
+fs4-p7-purpose-r4-glazetest D The notice gives submission limits, labeling rules, the drop-off deadline, and collection timing.
+fs4-p7-infer-r4-glazetest C A piece fired Tuesday becomes available Wednesday at noon, after the Tuesday evening deadline.
+fs4-p7-cross-r4-glazetest B N. Els already has two pieces and can add only one under the three-per-week limit.
+fs4-p7-sentence-r4-glazetest C [3] immediately follows the heat-resistant label instruction and specifies what to write on that label before the firing schedule begins.
+fs4-p7-purpose-r4-tipple A The notice gives procedures for returning and recording unused cards.
+fs4-p7-infer-r4-tipple A Guides record the cards on the sheet before the supervisor enters the resulting record in the system.
+fs4-p7-cross-r4-tipple A The canceled tour makes Ner's tour the last. After the desk closes at 5:00 the notice directs Ner to give the sheet to west-entrance security.
+fs4-p7-sentence-r4-tipple B At point 2, the empty row is on the just-mentioned inventory sheet.

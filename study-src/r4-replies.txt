@@ -1,0 +1,179 @@
+@p2-r4-wh-hours|2|疑問詞への応答|博物室の開室|medium
+: f|How much longer will the map room be open this evening?|今晩、地図資料室はあとどのくらい開いていますか。
+? t1||音声を聞き、自然な応答を選びます。
+A Another forty minutes.|あと40分です。|開室があとどれだけ続くかを示します。
+B On the second floor.|2階です。|場所であり、残り時間は分かりません。
+C Just the local maps.|地元の地図だけです。|地図の種類であり、開室時間の長さではありません。
+! A
+% how much longer=あとどのくらい
+
+@p2-r4-wh-estimate|2|疑問詞への応答|修理見積書|medium
+: m|Why is the repair estimate higher this time?|今回はなぜ修理の見積額が高いのですか。
+? t1||音声を聞き、自然な応答を選びます。
+A The repair shop shuts at six.|修理店は6時に閉まります。|閉店時刻であり、見積額が上がった理由は説明していません。
+B It includes the cost of a replacement motor.|交換用モーターの費用も含むからです。|見積額が上がった理由を説明しています。
+C At the counter on your right.|右手の窓口で。|場所を示す応答で、費用の変化は説明しません。
+! B
+% estimate=見積額
+
+@p2-r4-wh-visitor|2|疑問詞への応答|来訪者の案内|medium
+: b|Who will show the new suppliers around the warehouse?|新しい仕入先を倉庫に案内するのは誰ですか。
+? t1||音声を聞き、自然な応答を選びます。
+A By using the side entrance.|脇の出入口を使って。|入場方法で、案内役は分かりません。
+B Only the storage area downstairs.|下の階の保管エリアだけです。|案内する範囲で、案内役は示しません。
+C Our afternoon supervisor will.|午後勤務の責任者が案内します。|倉庫を案内する担当者を答えています。
+! C
+% show someone around=人を案内して回る
+
+@p2-r4-wh-counter|2|疑問詞への応答|資料の受け取り|medium
+: g|Where should I pick up the brochures for tomorrow's tour?|明日の見学で使うパンフレットはどこで受け取ればよいですか。
+? t1||音声を聞き、自然な応答を選びます。
+A There should be forty copies.|40部あるはずです。|部数で、受け取り場所を示しません。
+B At the desk opposite the lift.|エレベーターの向かいの窓口です。|パンフレットを受け取る場所を示しています。
+C They're printed in two languages.|2つの言語で印刷されています。|資料の仕様で、受け取り先は分かりません。
+! B
+% pick up=受け取る
+
+@p2-r4-yes-no-invoices|2|Yes・No疑問文|請求書の確認|medium
+: f|Have the invoices for last month's rentals been sent out yet?|先月分の貸出料金の請求書はもう発送されましたか。
+? t1||音声を聞き、自然な応答を選びます。
+A They rented three display cases.|展示ケースを3台借りました。|借りた品物の数で、請求書の発送状況には答えていません。
+B All the display cases have locks.|展示ケースにはすべて鍵が付いています。|貸出品の仕様で、請求書を送ったかは分かりません。
+C Yes, they went out yesterday.|はい、昨日発送されました。|発送済みであることとその時期を答えています。
+! C
+% send out=発送する
+
+@p2-r4-yes-no-canopy|2|Yes・No疑問文|屋外販売設備|medium
+: m|Does the rental price include the side panels for the canopy?|レンタル料金にはテントの側面パネルも含まれますか。
+? t1||音声を聞き、自然な応答を選びます。
+A No, those cost extra.|いいえ、パネルは別料金です。|質問で指した側面パネルが別料金だと答えています。
+B The canopy is made of canvas.|テントは帆布製です。|生地を説明しており、側面パネルの料金は分かりません。
+C We set up the display after lunch.|昼食後に展示を設営しました。|設営した時刻で、レンタル料金の範囲には答えていません。
+! A
+% side panel=側面パネル
+
+@p2-r4-yes-no-badgetime|2|Yes・No疑問文|入館証の失効|medium
+: b|Will these temporary badges still work next Monday?|この仮の入館証は次の月曜も使えますか。
+? t1||音声を聞き、自然な応答を選びます。
+A They're printed on thick paper.|厚い紙に印刷されています。|用紙の説明で、月曜に使えるかは分かりません。
+B There are six badges in each pack.|1組に6枚ずつ入っています。|枚数を示しており、有効期限には触れていません。
+C No, they expire this Friday.|いいえ、今週金曜に失効します。|月曜より前に期限が切れるため、月曜は使えません。
+! C
+% temporary badge=仮の入館証
+
+@p2-r4-yes-no-heatpress|2|Yes・No疑問文|工房の出発前確認|medium
+: g|Did you switch off the heat press before you left the workshop?|工房を出る前に熱プレス機の電源を切りましたか。
+? t1||音声を聞き、自然な応答を選びます。
+A Yes, I checked it just before locking up.|はい、鍵を掛ける直前に確認しました。|Yes に続けて、電源を切った状態を確認した時点を示します。
+B I left the samples beside the press.|見本をプレス機の横に置きました。|残したものの場所であり、電源の状態は答えていません。
+C We use it mainly for fabric.|主に布地用です。|機械の用途で、退室時に電源を切ったかは分かりません。
+! A
+% switch off=電源を切る
+
+@p2-r4-request-spares|2|依頼・提案への応答|研修用の予備資料|medium
+: f|Could you put three extra handouts by the door?|予備の配布資料を3部、ドアのそばに置いてもらえますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The door was painted last week.|ドアは先週塗装されました。|ドアの塗装時期で、資料を置く依頼には応じていません。
+B Sure, I'll put them there now.|もちろん、今そこに置きます。|部数と置き場所の依頼を了解しています。
+C The workshop lasted three hours.|研修は3時間続きました。|所要時間で、資料3部を置くという依頼とは異なります。
+! B
+% extra handout=予備の配布資料
+
+@p2-r4-request-queue|2|依頼・提案への応答|催事の誘導|medium
+: m|Let's set up a second check-in line near the side gate.|脇の門の近くに、もう一列受付の列を設けましょう。
+? t1||音声を聞き、自然な応答を選びます。
+A Good idea. I'll bring over the spare sign.|いいですね。予備の案内板を持ってきます。|提案に賛成し、追加の列を案内する準備を引き受けます。
+B I checked in at nine yesterday.|昨日9時に受付を済ませました。|過去の受付時刻で、列を新設する提案には答えていません。
+C The sign is printed on both sides.|案内板は両面印刷です。|看板の仕様のみを述べ、受付を追加する提案への返事になりません。
+! A
+% check-in line=受付の列
+
+@p2-r4-request-screenshare|2|依頼・提案への応答|オンライン会議の進行|medium
+: b|Would you mind putting the budget spreadsheet up on the screen?|予算の表計算シートを画面に表示していただけますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The screen is thirty inches wide.|画面は幅30インチです。|画面の寸法で、予算表を共有する依頼には応じていません。
+B Sure. Give me a moment to open it.|分かりました。開くので少し待ってください。|依頼を引き受け、画面に表示する準備を始めます。
+C The budget was approved in May.|予算は5月に承認されました。|承認時期は共有の可否とは関係しません。
+! B
+% put up on the screen=画面に表示する
+
+@p2-r4-request-boxes|2|依頼・提案への応答|展示撤収|medium
+: g|Please leave the empty cartons beside the loading bay.|空の段ボール箱を荷さばき場の横に置いてください。
+? t1||音声を聞き、自然な応答を選びます。
+A The driver loaded the van at nine.|運転手は9時にバンに荷物を積みました。|運転手の過去の作業で、空箱を置く指示への返事ではありません。
+B The new display fits in a single carton.|新しい展示品は箱1個に収まります。|梱包したときの寸法で、空箱をどこに置くかに答えていません。
+C All right. I'll take them there after I unpack the supplies.|分かりました。備品を箱から出したらそこに運びます。|空になった箱を指定場所に運ぶと答えています。
+! C
+% loading bay=荷さばき場
+
+@p2-r4-request-earlyvan|2|依頼・提案への応答|送迎の手配|medium
+: f|Why don't we book the earlier van for the setup crew?|設営班にはもっと早いバンを予約してはどうでしょう。
+? t1||音声を聞き、自然な応答を選びます。
+A The van seats seven people.|そのバンは7人乗りです。|定員を述べるだけで、早い便を選ぶ理由や可否には答えていません。
+B That would give them more time to prepare.|そうすれば準備時間がもっと取れますね。|早い便のメリットを示して提案を受け入れています。
+C The crew has finished packing the banners.|設営班は横断幕の梱包を終えました。|梱包の進捗で、どの便を予約するかは分かりません。
+! B
+% setup crew=設営班
+
+@p2-r4-indirect-ladderroom|2|間接応答|備品を使える時刻|medium
+: f|Can we use the tall ladder to put up the banner now?|今、背の高いはしごを使って横断幕を掛けられますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The banner is made of thick fabric.|横断幕は厚い布でできています。|横断幕の材質で、はしごを使えるかには答えません。
+B It takes two people to fold the banner.|横断幕をたたむには2人必要です。|折りたたむ作業で、はしごの利用状況は分かりません。
+C The maintenance team has it until three.|保守班が3時まで使っています。|今は別の担当が借りているため使えないと分かります。
+! C
+% put up=掲げる
+
+@p2-r4-indirect-hearing|2|間接応答|出発前の作業|medium
+: m|I'm going to print the badges before the doors open.|開場前に入館証を印刷するつもりです。
+? t1||音声を聞き、自然な応答を選びます。
+A The printer on this floor is still out of paper.|この階の印刷機はまだ用紙切れです。|予定どおり印刷する際の問題を伝えています。
+B The doors are made of glass.|ドアはガラス製です。|ドアの材質は入館証の印刷予定に関係しません。
+C The floor was polished last night.|床は昨晩磨かれました。|床の手入れの情報で、印刷予定への返答になりません。
+! A
+% be going to=～するつもりである
+
+@p2-r4-indirect-collect|2|間接応答|集合場所の確認|medium
+: b|Aren't we supposed to meet the guide in the main lobby?|案内役とは正面ロビーで落ち合う予定ではありませんでしたか。
+? t1||音声を聞き、自然な応答を選びます。
+A The guide worked here last summer.|案内役は昨年の夏ここで働いていました。|案内役の職歴で、当日の集合場所の確認にはなりません。
+B The lobby has a stone floor.|ロビーの床は石造りです。|ロビーの仕様から待ち合わせ場所は判断できません。
+C Her latest message says to wait by the courtyard gate.|最新の連絡には中庭の門で待つよう書いてあります。|最新の連絡を根拠に、集合場所が違うと伝えています。
+! C
+% be supposed to=～する予定である
+
+@p2-r4-indirect-plinth|2|間接応答|展示台の借用|medium
+: g|Is the low display stand free for this afternoon's event?|低い展示台は今日午後の催しで使えますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The ceramics group booked it for the whole day.|陶芸グループが一日中予約しています。|終日の予約と午後が重なるので借りられないと示しています。
+B We put a protective mat on the stand.|台に保護マットを敷きました。|台の準備内容で、空き状況は答えていません。
+C The stand is made of pine.|台はマツ材でできています。|台の材質によって予約の可否は分かりません。
+! A
+% free=空いている
+
+@p2-r4-indirect-fob|2|間接応答|備品部屋の鍵|medium
+: f|I left my key fob inside the supply room.|備品室に入室用のキーを置いてきました。
+? t1||音声を聞き、自然な応答を選びます。
+A The shelves were installed in June.|棚は6月に設置されました。|棚の設置時期で、備品室への再入室には関係しません。
+B The receptionist can let you back in.|受付係にまた中に入れてもらえますよ。|キーを室内に残して入れないという困り事に、具体的な解決方法を示しています。
+C The supplies arrive in large cartons.|備品は大きな箱で届きます。|納品方法であり、室内に残したキーへの対応になりません。
+! B
+% key fob=入室キー
+
+@p2-r4-wh-frames|2|疑問詞への応答|額縁の運搬手順|medium
+: b|How should we carry the framed prints to the upstairs gallery?|額入りの版画を上の階の展示室までどのように運べばよいですか。
+? t1||音声を聞き、自然な応答を選びます。
+A Use the padded trolley by the lift.|エレベーターの脇にある、クッションの付いた台車を使ってください。|壊れやすい版画を運ぶ具体的な手段を示しています。
+B There are six prints in the exhibition.|展示会には版画が6点あります。|作品数であり、運搬方法は分かりません。
+C The gallery closes at half past five.|展示室は5時半に閉まります。|閉室時刻で、作品の運び方は示していません。
+! A
+% padded trolley=クッションで覆われた台車|framed print=額入りの版画
+
+@p2-r4-yes-no-manual|2|Yes・No疑問文|改訂した作業手順書|medium
+: g|Is the revised manual in the shared folder now?|改訂した手順書はもう共有フォルダーに入っていますか。
+? t1||音声を聞き、自然な応答を選びます。
+A The folder icon is blue.|フォルダーのアイコンは青です。|アイコンの見た目から、改訂版が入っているかは分かりません。
+B The old manual was twelve pages long.|旧版の手順書は12ページありました。|旧版のページ数で、改訂版の保存先には答えていません。
+C Yes, I uploaded it this morning.|はい、今朝アップロードしました。|共有フォルダーに入っていると答え、保存した時を伝えています。
+! C
+% revised=改訂した|shared folder=共有フォルダー
