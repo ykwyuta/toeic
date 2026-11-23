@@ -1,0 +1,180 @@
+@p6-cohesion-new-labels|6|文脈・つながり|発送ラベルの照合|medium
+: text|Shipping desk memo\nThe labels for the North and South branches are printed on identical blue paper. _____, staff should check the postal code before attaching a label to a carton. A single check takes less than a minute.|発送窓口メモ\n北支店と南支店のラベルは同じ青い紙に印刷されています。そのため、スタッフは箱にラベルを貼る前に郵便番号を確認してください。確認は1分もかかりません。
+? t1|Which word best completes the memo?|メモの空所に最もよく入る語はどれですか。
+A Previously|以前は。|時間が過去に移る語ですが、印刷済みの現状を受けて今後の確認を指示しています。
+B Nevertheless|それにもかかわらず。|同じ色で見分けづらいことは確認を促す理由であり、確認に反する事情ではありません。
+C Therefore|そのため。|同じ色では仕分けを誤りやすいので郵便番号を確認するという因果をつなぎます。
+D Similarly|同様に。|前文はラベルの状態で、後文は対策です。同種の手順を並べていません。
+! C
+% attach=貼り付ける|postal code=郵便番号|identical=同一の
+
+@p6-cohesion-new-furniture|6|文脈・つながり|分館の作業室開設|medium
+: text|The new room at Brindle Annex has six worktables and a lockable cabinet for tools. The tables will arrive on Tuesday. _____, the cabinet will not be delivered until Friday. Please keep the tools in the main building for now.|ブリンドル別館の新しい部屋には作業台6台と施錠できる工具戸棚が入ります。作業台は火曜に届きます。一方、戸棚は金曜まで届きません。当面は工具を本館に置いてください。
+? t1|Which expression best completes the text?|空所に最もよく入る表現はどれですか。
+A In contrast|一方で。|作業台は火曜、戸棚は金曜という配送時期の差を示します。
+B In other words|言い換えると。|前の配送時期を言い換えず、別の品物の配送日を伝えています。
+C As a result|その結果。|作業台が先に届くことが戸棚の遅い配送を引き起こすとは述べていません。
+D For example|例えば。|前文はすでに具体的な作業台の予定で、戸棚はその例ではありません。
+! A
+% lockable=施錠できる|cabinet=戸棚|for now=当面は
+
+@p6-cohesion-new-sizes|6|文脈・つながり|スタジオの備品購入|medium
+: text|Please send the new volunteers a message asking for their glove sizes. The fabric supplier makes gloves in four sizes, but we have no record of which size _____ needs. Once the replies arrive, place a single order for the whole group.|新人ボランティアに手袋のサイズを尋ねるメッセージを送ってください。生地の仕入先は4サイズの手袋を作っていますが、各人がどのサイズを必要とするか記録がありません。返信が届いたら全員分をまとめて発注してください。
+? t1|Which expression best completes the message?|メッセージの空所に最もよく入る表現はどれですか。
+A all of them|全員。|全員を主語にするなら need が必要です。また、サイズは対象者ごとに確認します。
+B each volunteer|ボランティア各人。|各人のサイズを尋ね、全員分をまとめて発注する流れです。単数扱いなので needs にも合います。
+C neither supplier|どちらの仕入先も～ない。|仕入先はサイズの提供元であり、サイズを尋ねる相手は新人ボランティアです。
+D the fabric|布地。|布地のサイズを選ぶ話ではなく、手袋を着用する人に合うサイズを尋ねています。
+! B
+% record=記録|reply=返信|place an order=発注する
+
+@p6-cohesion-new-badges|6|文脈・つながり|催事の名札配布|medium
+: text|Preprinted name badges will be available near the west entrance. The organizer prints one for every registered presenter. If you notice a spelling mistake on _____ after picking it up, ask a volunteer for a blank badge and a pen.|名前を印刷した名札は西口付近で受け取れます。主催者は登録した発表者全員の名札を一枚ずつ印刷します。受け取った後にご自分の名札のつづりの誤りに気づいたら、ボランティアに無記入の名札とペンを求めてください。
+? t1|Which word best completes the instructions?|案内の空所に最もよく入る語はどれですか。
+A ours|私たちのもの。|配布側ではなく、本人の名前が印刷された名札について来場者に呼び掛けています。
+B theirs|彼らのもの。|読み手に直接、新しい名札を求めるよう指示しているため、第三者の名札ではありません。
+C them|それらを。|名札全体を指す複数形です。after picking it up の it が指すのは、読み手が受け取った一枚です。
+D yours|あなたのもの。|one は個々の発表者の名札を指し、命令文の読み手本人の名札を yours で表せます。
+! D
+% preprinted=あらかじめ印刷された|presenter=発表者|spelling=つづり
+
+@p6-cohesion-new-deliveries|6|文脈・つながり|臨時の荷受け窓口|hard
+: text|The lift in the north building will be inspected on Wednesday morning. Deliveries usually go to the records room on the third floor. _____, drivers should leave all cartons at the ground-floor desk until the lift reopens.|北棟のエレベーターは水曜の午前に点検します。通常、配送品は3階の記録室に運ばれます。今回は代わりに、エレベーターの利用再開まで段ボール箱をすべて地上階の窓口に預けてください。
+? t1|Which word best completes the notice?|お知らせの空所に最もよく入る語はどれですか。
+A Likewise|同様に。|3階から地上階へ場所を変えるので、同じ手順を繰り返すわけではありません。
+B Instead|代わりに。|通常の3階に代わる荷受け先として地上階の窓口を案内します。
+C Afterward|その後で。|記録室に届けた後に地上階に置くのではなく、再開まで地上階で預かります。
+D Otherwise|さもなければ。|前文は通常の手順の説明で、従わない場合の結果を述べているのではありません。
+! B
+% inspect=点検する|records room=書類保管室|ground-floor=地上階の
+
+@p7-purpose-new-support|7|目的・要旨|説明会のアンケート依頼|easy
+: text|To: Tuesday orientation participants\nThank you for attending the introduction to the Merrow Bay tool library. We are redesigning our orientation and would like to know which demonstrations helped you the most. Please complete the three-question form below by Friday. Your responses will guide the design of next month's sessions.|宛先：火曜日の説明会参加者\nメロウ・ベイ工具貸出所の説明会へのご参加ありがとうございます。説明会の構成を見直すため、どの実演が特に役立ったかをお聞かせください。下の3問のフォームに金曜までにご回答ください。回答は来月の説明会の企画に役立てます。
+? t1|Why was the message sent?|このメッセージが送られたのはなぜですか。
+A To announce a new tool-return deadline.|新しい工具返却期限を知らせるため。|金曜の期限はアンケートで、工具の返却ではありません。
+B To seek feedback on an orientation.|説明会に関する意見を集めるため。|実演の評価を聞くフォームに回答し、次回の説明会づくりに生かすと述べています。
+C To invite people to an orientation next Friday.|次の金曜の説明会に招くため。|送信先は火曜の説明会の参加者で、金曜は提出期限です。
+D To explain how to reserve tools.|工具の予約方法を説明するため。|工具貸出所の利用法は扱わず、回答を求めています。
+! B
+% orientation=説明会|response=回答|guide=方向づける、参考にする
+
+@p7-purpose-new-recruit|7|目的・要旨|展示会の当日スタッフ募集|easy
+: text|Call for volunteers\nThe Kettlewick Design Fair needs three people to welcome exhibitors at the service entrance. Volunteers will check names against a list and hand out badges between seven and nine. A ten-minute briefing will take place before the doors open. To help, contact the event office by Wednesday.|ボランティア募集\nケトルウィック・デザインフェアでは、搬入口で出展者を迎える人を3名募集しています。7時から9時まで、名簿で名前を照合し名札をお渡しします。開場前に10分間の説明があります。希望者は水曜までに運営事務局へご連絡ください。
+? t1|What is the purpose of the notice?|このお知らせの目的は何ですか。
+A To recruit people to assist at an event.|催しの手伝いをする人を募る。|必要人数、仕事内容、応募先を示してボランティアを募集しています。
+B To introduce new exhibitors to the public.|新しい出展者を一般に紹介する。|出展者は迎える対象で、氏名や活動内容を紹介していません。
+C To announce a change in the fair's opening time.|見本市の開場時刻の変更を知らせる。|7時から9時は担当時間で、開場時刻を変更する告知ではありません。
+D To ask exhibitors to return their badges.|出展者に名札を返すよう求める。|募集した係が名札を配る予定で、回収を求めていません。
+! A
+% call for=募集|exhibitor=出展者|check against=～と照合する
+
+@p7-purpose-new-correction|7|目的・要旨|請求書の訂正連絡|medium
+: text|Subject: Invoice R-215\nThe invoice we sent on Monday included a delivery charge for your order from Cresswick Stationery. Your account qualifies for free delivery, so we have removed the charge. Please use the attached invoice when paying. The due date remains the same.|件名：請求書R-215\n月曜に送付した請求書にはクレスウィック文具店からのご注文の配送料が含まれていました。お客様は配送料無料の条件を満たすため、該当料金を削除しました。お支払いには添付の請求書をお使いください。支払期限は変わりません。
+? t1|What is the main purpose of the email?|このメールの主な目的は何ですか。
+A To inform the customer of a new payment deadline.|新しい支払期限を知らせる。|期限は従来どおりです。変更は配送料の削除です。
+B To request an updated delivery address.|最新の配送先を尋ねる。|配送先情報の提出や変更を求めていません。
+C To explain a correction to a bill.|請求書の訂正内容を説明する。|誤って含めた配送料を削除し、訂正版を使うよう求めています。
+D To ask about a missing order.|届いていない注文について尋ねる。|注文の配送状況ではなく、その注文の請求金額についての連絡です。
+! C
+% invoice=請求書|qualify for=～の対象になる|remove=取り除く
+
+@p7-sentence-new-waiver|7|文挿入|道具貸出の利用条件|medium
+: text|Harrowglass Tool Library\n[1] Members may borrow up to two tools for a weekend. [2] Anyone borrowing a power saw must also sign a safety waiver at the counter. [3] Because it is stored there, you won't have to sign again if you borrow the saw later in the year. [4] All tools must be returned before noon on Monday.|ハローグラス工具貸出所\n[1] 会員は週末に工具を二つまで借りられます。[2] 電動のこぎりを借りる方は窓口で安全に関する同意書にも署名してください。[3] 同意書はそこに保管されるため、同じ年に再びのこぎりを借りるときは署名し直す必要がありません。[4] すべての工具は月曜の正午前に返却してください。
+? t1|Where does the following sentence best belong? “The waiver is kept on file under your membership number.”|「同意書は会員番号の下で保管されます。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|同意書の話が始まる前なので、The waiver が何を指すか分かりません。
+B [2]|[2]の位置。|工具の貸出上限の直後には同意書がまだ導入されていません。
+C [3]|[3]の位置。|電動のこぎりに必要な同意書を導入した直後で、保管方法から署名が一度でよい説明へつながります。
+D [4]|[4]の位置。|Because it is stored there の there が指す保管先を示すより後になってしまいます。
+! C
+% waiver=同意書|on file=記録として保管されて|must be returned=返却しなければならない
+
+@p7-sentence-new-bike|7|文挿入|自転車で出張する場合の案内|medium
+: text|Staff travel guide\n[1] For a trip made on your own bicycle, you may claim a fixed amount per kilometer. [2] To work out the distance, enter your starting point and destination in the route planner. [3] Attach that screenshot to the claim before sending it to Finance. [4] Remember to submit the claim within a week of the trip.|職員の出張案内\n[1] 自分の自転車を使う出張では、1キロごとに定額を請求できます。[2] 距離を調べるには、経路検索に出発地と目的地を入力してください。[3] そのスクリーンショットを精算書に添付し、経理に送ってください。[4] 出張から一週間以内に精算書を提出してください。
+? t1|Where does the following sentence best belong? “Then take a screenshot of the distance shown on the screen.”|「次に画面に表示された距離のスクリーンショットを撮ってください。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|自転車での精算や距離の確認方法を説明する前で、Then が受ける操作がありません。
+B [2]|[2]の位置。|出発地と目的地を入力する前には、撮影する距離が表示されません。
+C [3]|[3]の位置。|入力後に距離を撮影し、直後の that screenshot が撮った画像を指します。
+D [4]|[4]の位置。|精算書への添付が撮影より先になり、that screenshot の指示対象が先に示されません。
+! C
+% work out=算出する|attach=添付する|claim=精算申請
+
+@p7-sentence-new-rack|7|文挿入|貸出用エプロンの返却|medium
+: text|Studio rules\n[1] Clean aprons are available on the wooden rack by the entrance. [2] After using an apron, place it in the blue basket near the sink. [3] That basket is emptied for washing at the end of every class. [4] Brooms and dustpans are kept separately in the supply closet.|工房の利用規則\n[1] 清潔なエプロンは入口の木製のラックにあります。[2] 使ったエプロンは流しのそばの青いかごに入れてください。[3] 授業が終わるたびに、洗濯のためそのかごを空にします。[4] ほうきとちり取りは別途、備品庫に保管しています。
+? t1|Where does the following sentence best belong? “Pick up an apron from this rack before handling any clay.”|「粘土に触れる前に、このラックからエプロンを取ってください。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|this rack が指す入口のラックが説明されていません。
+B [2]|[2]の位置。|ラックの場所を説明した直後で、エプロンを取ってから使い、返すという順番になります。
+C [3]|[3]の位置。|使用後の返却指示に移っており、使用前の手順を挟むと時系列が崩れます。
+D [4]|[4]の位置。|返却後の洗濯まで述べたあとで、使用前の受け取りが離れてしまいます。
+! B
+% clay=粘土|rack=棚、ラック|dustpan=ちり取り
+
+@p7-sentence-new-code|7|文挿入|備品ロッカーの受取手順|medium
+: text|Order pickup\n[1] When your order is ready, we will send a message with your locker number. [2] Keep both numbers at hand when you go to the lockers. At your locker, scan the square code beside its handle. [3] A screen will then ask for the four-digit PIN from your message. [4] Enter the PIN on that screen to open the locker.|注文品の受け取り\n[1] 注文品の準備ができたら、ロッカー番号が記載されたメッセージをお送りします。[2] どちらの番号もすぐ確認できる状態でロッカーへお越しください。指定のロッカーの取っ手脇に印刷された四角いコードを読み取ってください。[3] すると、メッセージに記載の4桁の暗証番号を求める画面が出ます。[4] その画面で暗証番号を入力してロッカーを開けてください。
+? t1|Where does the following sentence best belong? “The same message also contains your four-digit PIN.”|「同じメッセージには、お客様の4桁の暗証番号も記載されています。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|メッセージを送ることがまだ説明されていないため、The same message の指示対象がありません。
+B [2]|[2]の位置。|番号を知らせるメッセージを紹介した直後で、同じ文面にある暗証番号を使う前に提示できます。
+C [3]|[3]の位置。|both numbers が出た後で第二の番号を示すことになり、読み手が両方を特定できません。
+D [4]|[4]の位置。|暗証番号がメッセージにあることは前文で既に述べられています。暗証番号を紹介するならメッセージの説明直後が適切です。
+! B
+% locker=ロッカー|four-digit PIN=4桁の暗証番号|scan=読み取る
+
+@p7-sentence-new-chef|7|文挿入|調理実演の延期|medium
+: text|Message from the event desk\n[1] The knife-skills demonstration originally scheduled for Saturday has been postponed. [2] The instructor will now run it on Thursday evening in the same room. [3] If you cannot use your transferred reservation, request a refund by Tuesday. [4] The other classes on Saturday will run as planned.|運営窓口からのお知らせ\n[1] 当初土曜に予定していた包丁の実演は延期になりました。[2] 講師は木曜の夕方に同じ部屋で実演を行います。[3] 移行された予約をご利用になれない場合は、火曜までに返金を申請してください。[4] 土曜のほかの講座は予定どおり行います。
+? t1|Where does the following sentence best belong? “Existing reservations will automatically carry over to the Thursday session.”|「すでにある予約は木曜の回に自動的に引き継がれます。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|どの実演が延期になるかも、木曜に移ることも前に示されていません。
+B [2]|[2]の位置。|木曜の回がまだ導入されておらず、the Thursday session を特定できません。
+C [3]|[3]の位置。|変更後の木曜の回を示した直後で、予約引き継ぎを原則として述べ、参加できない場合の返金に続きます。
+D [4]|[4]の位置。|your transferred reservation が出たあとに、予約の移行を初めて説明することになります。
+! C
+% postpone=延期する|carry over=引き継がれる|request a refund=返金を申請する
+
+@p7-sentence-new-photos|7|文挿入|職員証の撮影案内|medium
+: text|Staff ID appointments\n[1] New staff should make an appointment at the ground-floor photo desk. [2] Bring a form of identification and show it to the attendant when you arrive. [3] The attendant will return it immediately after checking your name. [4] Keep that ticket until your staff card has been printed.|職員証の撮影予約\n[1] 新入職員は地上階の撮影窓口で予約してください。[2] 身分証明書を持参し、到着時に係員に提示してください。[3] 係員は氏名を確認後、すぐにそれを返却します。[4] 職員証の印刷が済むまで、その整理券をお持ちください。
+? t1|Where does the following sentence best belong? “After the photo is taken, the printer will issue a numbered waiting ticket.”|「撮影が済むと、プリンターから番号付き整理券が出ます。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|予約や来所より前に撮影後の手順が出てしまいます。
+B [2]|[2]の位置。|身分証を提示する前に撮影後の整理券を出す説明となり、流れの順序が逆です。
+C [3]|[3]の位置。|身分証の提示から係員が it を返す文へのつながりを分断します。
+D [4]|[4]の位置。|本人確認後に撮影と整理券発行があり、直後の that ticket が整理券を受けます。
+! D
+% attendant=係員|issue=発行する|waiting ticket=整理券
+
+@p7-sentence-new-mats|7|文挿入|入口マットの交換|medium
+: text|Wednesday opening checklist\n[1] Roll up the wet mats by the front entrance. [2] Move them to the drying room before unlocking the doors. [3] Take two clean mats from the shelf marked Spare. [4] Once the clean mats are in place, remove the yellow sign from the entrance.|水曜の開館時チェックリスト\n[1] 正面入口のぬれたマットを巻いてください。[2] 開錠前にぬれたマットを乾燥室へ運んでください。[3] 予備と書かれた棚からきれいなマットを二枚取ってください。[4] きれいなマットの設置後に入口の黄色い標識を外してください。
+? t1|Where does the following sentence best belong? “Unroll one clean mat on each side of the entrance.”|「入口の両側にきれいなマットを一枚ずつ広げてください。」はどこに入るのが最も適切ですか。
+A [1]|[1]の位置。|古いマットを片付けて新しい二枚を取る前には設置できません。
+B [2]|[2]の位置。|ぬれたマットを巻いた直後で、them が指すマットを乾燥室へ運ぶ手順が先です。
+C [3]|[3]の位置。|きれいなマットを予備棚から取る前に、入口に広げる説明が来てしまいます。
+D [4]|[4]の位置。|きれいな二枚を持ってきたあとに一枚ずつ広げ、設置が済んだら標識を外す順番です。
+! D
+% roll up=巻く|drying room=乾燥室|in place=所定の場所にある
+
+@p7-inference-new-booking|7|推論|屋内会場の予約条件|medium
+: text|From: Elmswick Hall Bookings\nAn equipment workshop is booked for Friday afternoon in the south room. Our tables seat no more than sixteen people in that room. Nineteen members have confirmed for the workshop. The north room can seat twenty-four and is available that afternoon.|差出人：エルムズウィック・ホール予約係\n金曜午後の備品研修は南室で予約済みです。南室の机では最大16人まで座れます。研修には19人が参加を確定しています。北室は24人まで座れ、同じ午後に空いています。
+? t1|What can be inferred about the workshop?|この研修について何が推測できますか。
+A It will require more seating than the south room provides.|南室に備えられているより多くの座席が必要です。|南室は16席ですが、参加確定者は19人いるため、南室の席数では3人分足りません。
+B It was booked for the north room.|北室で予約済みです。|現時点で予約済みなのは南室です。
+C It will need to move to Saturday.|土曜への変更が必要です。|金曜も、参加人数を収容できる北室が空いています。
+D It is limited to room-booking staff.|部屋の予約担当者だけが参加できます。|予約係は連絡の差出人で、参加を確定したのは会員です。
+! A
+% no more than=最大で～|confirm=参加することを確定する|seat=着席させる
+
+@p7-inference-new-printing|7|推論|会報の印刷進行|medium
+: text|Elver Quay Market newsletter\nMonday production update: The printer can send the batch out by courier two business days after receiving our final file. The printer is closed on Saturdays and Sundays. Our editor plans to send the file on Thursday morning. The schedule still shows dispatch this Friday.|エルヴァー埠頭マーケット会報\n月曜の進行報告です。印刷所は最終データを受け取ってから2営業日後に配送業者へ印刷物を引き渡せます。印刷所は土日休業です。編集担当は木曜の朝にデータを送る予定です。予定表では発送が今週の金曜のままです。
+? t1|What is suggested about the Friday dispatch date?|金曜の発送予定について何が示唆されていますか。
+A It is the date that the final file will be sent.|最終データが送られる日です。|データ送信は木曜朝の予定です。
+B It is the first business day of the printer's week.|印刷所にとって週の最初の営業日です。|印刷所は週末休みで、木曜にも最終データを受け取る想定です。
+C It is too early for the planned production schedule.|予定どおりに制作すると、その日には発送が間に合いません。|木曜の2営業日後は、金曜を1日目として土日を除いた月曜なので、金曜発送は間に合いません。
+D It was chosen because the courier is closed on Thursdays.|配送業者が木曜休業のため選ばれた日です。|休業が明示されているのは印刷所の土日で、配送業者の木曜休業は述べていません。
+! C
+% dispatch=発送|batch=一回にまとめて作った分|business day=営業日
+
+@p7-cross-new-tools|7|複数文書照合|工具の整備と受け取り|hard
+: text|Fieldmarsh Tool Service — estimated turnaround\nBlade Sharpening: same business day.\nCord Check: one business day after drop-off.\nBasic Tune: two business days after drop-off.\nFull Rebuild: five business days after drop-off.\nOur workshop is open from Monday through Friday.|フィールドマーシュ工具サービス — 仕上がり目安\n刃研ぎ：持込当日。\n電源コード点検：持込の1営業日後。\n基本調整：持込の2営業日後。\n全体の分解修理：持込の5営業日後。\n工房は月曜から金曜まで営業します。
+: text|Service receipt for Alina Reed\nReceived: Wednesday, 10:20 a.m.\nItem: tabletop drill press\nService chosen: Basic Tune\nWe will send a message when the item is ready for pickup.|アリーナ・リード様の受付票\n受付：水曜午前10時20分\n品物：卓上ボール盤\n受付内容：基本調整\n受け取りが可能になりましたらメッセージでお知らせします。
+? t1,t2|When is Ms. Reed expected to be able to collect her drill press?|リードさんはいつボール盤を受け取れる見込みですか。
+A On Wednesday.|水曜。|受付票の水曜は持込日です。当日に済むのは刃研ぎで、選んだ基本調整とは異なります。
+B On Thursday.|木曜。|水曜の1営業日後は木曜ですが、1営業日後のサービスは電源コード点検です。
+C On Friday.|金曜。|受付票によると水曜に基本調整を申し込みました。案内では2営業日後なので、木曜と金曜を数えて金曜です。
+D On Monday.|月曜。|基本調整は水曜から2営業日後の金曜に当たり、週末を越えません。
+! C
+% turnaround=仕上がりまでの時間|drop-off=持ち込み|business day=営業日|drill press=ボール盤

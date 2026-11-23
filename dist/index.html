@@ -187,6 +187,9 @@ button:disabled { opacity: .65; cursor: default; }
 .study-exercise-box { margin-top: 1rem; padding-top: 1rem; border-top: 2px dashed #d5e0ea; }
 .study-exercise-head { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-bottom: .75rem; }
 .study-exercise-tag { background: #e6f0f8; color: #124d75; font-weight: 700; font-size: .85rem; padding: .2rem .65rem; border-radius: 999px; }
+.study-question-count { margin-inline-start: auto; font-weight: 700; font-variant-numeric: tabular-nums; }
+.study-question-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .85rem; }
+.study-question-nav button { min-height: 44px; }
 #skill-item label {
   display: flex; align-items: center; gap: .5rem; padding: .55rem .8rem; margin: .4rem 0;
   border: 1.5px solid #d4dfe9; border-radius: .65rem; background: #fafcfe; cursor: pointer;
@@ -377,7 +380,7 @@ button:disabled { opacity: .65; cursor: default; }
   <div class="study-hero">
     <div class="study-hero-copy">
       <h2 tabindex="-1">分野学習</h2>
-      <p id="study-tip">Part と分野を選んで、弱点を1問ずつ集中的に強化しましょう。</p>
+      <p id="study-tip">Partと分野を選ぶと、10問ずつ練習できます。</p>
     </div>
     <div class="study-kpis" aria-label="学習サマリー">
       <div class="study-kpi"><strong id="kpi-total">0</strong><span>総回答数</span></div>
@@ -403,6 +406,7 @@ button:disabled { opacity: .65; cursor: default; }
     <div id="study-answer" class="study-exercise-box" hidden>
       <div class="study-exercise-head">
         <span id="study-exercise-tag" class="study-exercise-tag"></span>
+        <span id="study-question-count" class="study-question-count" tabindex="-1" role="status"></span>
       </div>
       <form id="skill-form">
         <div id="skill-material"></div>
@@ -413,6 +417,10 @@ button:disabled { opacity: .65; cursor: default; }
       </form>
       <p id="skill-feedback" class="study-feedback-banner" role="status" hidden></p>
       <div class="answer-review" id="skill-review" hidden></div>
+      <nav class="study-question-nav" aria-label="練習問題の移動">
+        <button id="study-question-previous" type="button" class="secondary">前の問題</button>
+        <button id="study-question-next" type="button">次の問題</button>
+      </nav>
     </div>
   </section>
   <div class="study-dashboard">
@@ -430,7 +438,7 @@ button:disabled { opacity: .65; cursor: default; }
 </section>
 </main>
 <script src="./adaptive.js" defer></script>
-<script src="./study/r1/bank.js" defer></script>
-<script src="./study/study.js" defer></script>
+<script src="./study/r2/bank.js" defer></script>
+<script src="./study/study-v2.js" defer></script>
 <script src="./app-v11.js" defer></script>
 </html>

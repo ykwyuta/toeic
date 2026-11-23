@@ -1,0 +1,154 @@
+@p2-indirect-new-kits|2|間接応答|説明会の備品準備|medium
+: f|Are the demonstration kits ready to hand out?|実演用キットはもう配れる状態ですか。
+? t1||実演用キットを配る準備が済んだか尋ねています。
+A We handed out maps yesterday.|昨日、地図を配布しました。|配った物は地図で、実演用キットの準備状況ではありません。
+B A few boxes still need labels.|ラベルを貼っていない箱がまだいくつかあります。|ラベル貼りが残っていると答え、配布の準備がまだ終わっていないことを伝えています。
+C The class meets in the upstairs room.|講習会は上の階の部屋で開きます。|会場は分かりますが、キットを配れる状態かは分かりません。
+! B
+% demonstration kit=実演用キット|hand out=配布する|still need=まだ～が必要である
+
+@p3-intent-new-test|3|発言の意図|来客向けの機器実演|medium
+: f|The clients arrive at ten to see the new display. I've plugged it in, but this is the first time we've used it in this room.|顧客は新しい表示装置を見るため10時に来ます。電源はつなぎましたが、この部屋で使うのは初めてです。
+: m|We should give it a dry run. If the controls don't respond, we still have time to move the demonstration downstairs.|予行演習をしましょう。操作ボタンが反応しなければ、まだ実演を階下へ移す時間があります。
+? t1,t2|What does the man mean by “give it a dry run”?|男性の「予行演習をする」とは、何をすることですか。
+A Move the visitors to a different room.|顧客を別の部屋に案内する。|部屋を変えるのは機器が反応しない場合の代案です。
+B Test the demonstration before the clients arrive.|来客前に実演を試す。|操作を先に試して問題がないか確かめると言っています。
+C Ask a client to operate the display.|顧客に装置を操作してもらう。|試すのは顧客が到着する前なので、顧客の操作を頼む案ではありません。
+D Disconnect the display from its power supply.|表示装置の電源を外す。|つないだ電源を使って動作を試そうとしています。
+! B
+% dry run=予行演習|controls=操作ボタン|respond=反応する
+
+@p3-intent-new-square|3|発言の意図|案内図の印刷|hard
+: g|The entrance shown on this site map has already been approved. What if we move it to the other side? The delivery driver says it's easier to reach from there.|この案内図の入口はすでに承認済みです。反対側に移したらどうでしょう。配送の運転手はそちらの方が行きやすいそうです。
+: b|That would put us back at square one. The venue would have to approve the new layout, and the maps are due at the printer today.|それでは振り出しに戻ります。会場側に新しい配置の承認が必要ですし、案内図は今日中に印刷所に出す予定です。
+? t1,t2|What does the man mean by “back at square one”?|男性の言う「振り出しに戻る」とは、どういうことですか。
+A The driver must return to the original entrance.|運転手はもとの入口に戻る必要がある。|運転手の移動先ではなく、案内図の作業について述べています。
+B The printer must replace a square image on the map.|印刷所は地図上の四角い画像を差し替える必要がある。|square one は作業の出発点を表す慣用表現で、図の形を指しません。
+C The new layout has already been accepted.|新しい配置はすでに承認されている。|承認済みなのは現在の案内図で、新しい配置には改めて承認が必要です。
+D The approval process would have to start again.|最初から承認を取り直す必要がある。|入口を変えると承認をやり直さなくてはならないと説明しています。
+! D
+% back at square one=振り出しに戻る|layout=配置|be due at=～に提出する期限である
+
+@p3-intent-new-busy|3|発言の意図|窓口の電話対応|medium
+: m|Can you take the supplier's call when it comes in? I need to bring this box down to reception.|仕入先から電話が来たら出てもらえますか。この箱を受付に運ぶ必要があります。
+: f|I've got my hands full with these returns. Ask Nora at the next desk. She said she was free until noon.|返品処理で手いっぱいです。隣の席のノラに頼んでみてください。正午までは手が空いていると言っていました。
+? t1,t2|What does the woman mean by “I've got my hands full”?|女性の「手いっぱいです」とは、どういう意味ですか。
+A She is too busy to take the call.|忙しくて電話に出られない。|返品処理を担当中なので、電話対応を頼める別の人を挙げています。
+B She needs help carrying the box.|箱を運ぶ手助けが必要だ。|箱を運ぶのは男性で、女性は返品処理の忙しさを伝えています。
+C She has already spoken to the supplier.|すでに仕入先と話した。|先方からの電話はこれから来る予定です。
+D She needs to take a break until noon.|正午まで休憩を取る必要がある。|正午まで手が空いているのはノラです。
+! A
+% have one's hands full=手いっぱいである|return=返品|take a call=電話に出る
+
+@p3-chart-new-locker|3|図表照合|研修施設のロッカー|medium
+# Available lockers|利用可能なロッカー
+= Locker|番号; Size|大きさ; Location|場所
+= 12|12番; Small|小; East wing|東棟
+= 19|19番; Large|大; West wing|西棟
+= 24|24番; Large|大; East wing|東棟
+= 31|31番; Small|小; West wing|西棟
+: m|Could I get a locker for this kit? It won't fit in a small one. I need to pick it up on my way out of the east wing.|この用具のロッカーを借りられますか。小型には入りません。東棟から帰る途中で取り出す必要があります。
+: g|No problem. I'll give you the key to the large locker in that wing.|大丈夫です。その棟の大型ロッカーの鍵をお渡しします。
+? t1,t2,r3c1,r3c2,r3c3|Look at the table. Which locker will the man use?|表を見てください。男性は何番のロッカーを使いますか。
+A Locker 12.|12番。|東棟にありますが小型です。
+B Locker 19.|19番。|大型ですが西棟にあります。
+C Locker 24.|24番。|東棟にある大型ロッカーは表の24番です。
+D Locker 31.|31番。|西棟にある小型ロッカーで、場所と大きさの両方が異なります。
+! C
+% fit=収まる|wing=建物の棟|on one's way out=帰る途中で
+
+@p3-chart-new-delivery|3|図表照合|資材の配送依頼|hard
+# Courier services|配送サービス
+= Service|便; Last pickup|最終集荷時刻; Delivery|配達
+= Arrow City|アロー・シティ; 3 p.m.|午後3時; Same day|当日
+= Bridge Van|ブリッジ・バン; 5 p.m.|午後5時; Next day|翌日
+= Cedar Cycle|シダー・サイクル; 4:30 p.m.|午後4時30分; Same day|当日
+= Dock Express|ドック・エクスプレス; 2 p.m.|午後2時; Same day|当日
+: f|The parts won't be packed until four. The repair shop needs them today. Can you find a courier that will pick them up in time?|部品の梱包は4時までかかります。修理店は今日中に必要です。間に合う配送業者を探してもらえますか。
+: m|I'll choose the one that can collect after four and still deliver today.|4時より後に集荷できて、今日中に配達できる便を選びます。
+? t1,t2,r3c1,r3c2,r3c3|Look at the table. Which service will the man book?|表を見てください。男性はどの便を予約しますか。
+A Cedar Cycle.|シダー・サイクル。|最終集荷は午後4時30分で、当日配達にも対応します。
+B Arrow City.|アロー・シティ。|当日配達ですが、梱包が終わる前の午後3時が最終集荷です。
+C Bridge Van.|ブリッジ・バン。|午後5時に間に合いますが、配達は翌日です。
+D Dock Express.|ドック・エクスプレス。|当日配達ですが、最終集荷が午後2時です。
+! A
+% parts=部品|pickup=集荷|same day=当日
+
+@p3-chart-new-pass|3|図表照合|見本市の入場券の変更|medium
+# Fair passes|見本市の入場券
+= Pass|券種; Area|利用場所; Fee|料金
+= Fern|ファーン; Main hall|本館; 12 dollars|12ドル
+= Hazel|ヘーゼル; Main hall and studio|本館と実演室; 18 dollars|18ドル
+= Willow|ウィロー; Garden only|庭園のみ; 9 dollars|9ドル
+= Birch|バーチ; Studio and garden|実演室と庭園; 16 dollars|16ドル
+: b|I thought the client wanted to see the garden, so I booked a Willow pass. She wants to visit the main hall and watch the studio demonstration instead.|顧客は庭園を見たいと思ってウィロー券を予約しました。実際は本館と実演室の実演を見たいそうです。
+: f|Then I'll change her booking to the pass that covers both places.|では、両方の場所に入れる券に変更します。
+? t1,t2,r2c1,r2c2|Look at the table. Which pass will the woman book?|表を見てください。女性はどの券を予約しますか。
+A Fern.|ファーン。|本館だけに入れる券で実演室には入れません。
+B Willow.|ウィロー。|変更前の券で、利用できるのは庭園だけです。
+C Birch.|バーチ。|実演室に入れますが、もう一方の利用場所は庭園です。
+D Hazel.|ヘーゼル。|表で本館と実演室の両方に入れるのはヘーゼル券です。
+! D
+% pass=入場券|studio=実演室|cover=利用範囲に含む
+
+@p4-intent-new-form|4|発言の意図|申込書の訂正案内|medium
+: g|This message is for everyone who applied for a stall at the Morrow Lane fair. If you forgot to request a power outlet, you don't have to start from scratch. Open the link in your confirmation email, select Edit, and add the request by Thursday.|モロー通りの催しに出店を申し込んだ皆さまへ。電源を希望し忘れた場合も、最初からやり直す必要はありません。確認メールのリンクを開き、編集を選んで木曜までに希望を追加してください。
+? t1|Why does the speaker say, “you don't have to start from scratch”?|話し手はなぜ「最初からやり直す必要はありません」と言いますか。
+A To suggest choosing a different stall location.|別の出店場所を選ぶよう勧めるため。|変更するのは電源の希望で、出店場所を選び直しません。
+B To explain that people can change an existing application.|提出済みの申込書を変更できると伝えるため。|確認メールのリンクから既存の申請を編集する手順を続けて案内しています。
+C To tell vendors that power outlets are unavailable.|電源コンセントが利用できないと伝えるため。|木曜までなら電源の希望を追加できます。
+D To warn that applications will close without notice.|予告なく申し込みが締め切られると警告するため。|希望を追加できる期限として木曜を明示しています。
+! B
+% from scratch=最初から|stall=出店用の区画|power outlet=コンセント
+
+@p4-intent-new-samples|4|発言の意図|地域の食品展示会|medium
+: m|Thank you for visiting the Fenwick Producers' Fair. Before you enter the tasting hall, leave a little room in your bag. Each exhibitor has set aside a display of packaged samples that visitors can take home. There's no charge, but please take only one from each stand.|フェンウィック生産者展示会にお越しいただきありがとうございます。試食会場に入る前に、バッグに少し空きを残しておいてください。各出展者が持ち帰り用の試供品を並べています。無料ですが各ブースから一つずつお取りください。
+? t1|Why does the speaker say, “leave a little room in your bag”?|話し手はなぜ「バッグに少し空きを残しておいてください」と言いますか。
+A Visitors will need to carry their admission passes.|来場者は入場券を持ち歩く必要があるから。|バッグに余裕を作る理由として案内しているのは試供品の持ち帰りです。
+B Large bags must be left at the entrance.|大きなバッグは入口に預けることになっているから。|バッグを預ける指示ではなく、中に空きを残すようにとの案内です。
+C Visitors can take packaged samples home.|来場者は包装された試供品を持ち帰れるから。|直後に、各ブースから無料の試供品を一つ持ち帰れると説明しています。
+D Exhibitors will sell bags in the hall.|会場内で出展者がバッグを販売するから。|バッグの販売には言及せず、載っているのは試供品の案内です。
+! C
+% leave room=空きを残す|set aside=取っておく|packaged sample=包装済みの試供品
+
+@p4-intent-new-shuttle|4|発言の意図|代替交通の案内|medium
+: b|The bus to Daven Quay is running thirty minutes late. If you're going to the quay, you don't have to wait for the next bus. A shuttle is boarding outside the east entrance now. The driver will accept the same tickets, and the ride takes about ten minutes.|デイヴン埠頭行きのバスは30分遅れています。埠頭へ向かう方は、次のバスを待つ必要はありません。東口の外で送迎車にただいま乗車できます。同じ切符を使えて、所要時間は約10分です。
+? t1|What does the speaker imply by saying, “you don't have to wait for the next bus”?|話し手が「次のバスを待つ必要はありません」と言うのは、何を示していますか。
+A Another vehicle can take passengers to the same destination now.|今すぐ別の車両で同じ目的地へ行ける。|東口の送迎車に現在乗車でき、元の切符を使えると説明しています。
+B The delayed bus has just arrived at the east entrance.|遅れていたバスがちょうど東口に着いた。|東口で乗車できるのは代替の送迎車で、バスはまだ遅れています。
+C The passengers have to buy another ticket.|利用者は切符を買い直す必要がある。|同じ切符を運転手に提示できます。
+D The regular bus now takes only ten minutes.|通常のバスの所要時間が10分になった。|約10分かかるのは、現在乗車できる送迎車です。
+! A
+% run late=遅れて運行する|quay=埠頭|board=乗車する
+
+@p4-chart-new-guides|4|図表照合|美術館のガイド集合先|hard
+# Friday gallery tours|金曜の館内ツアー
+= Tour|ツアー; Time|時刻; Meeting point|集合場所
+= Prints|版画; 10:00|10時; Clock lobby|時計ロビー
+= Sculpture|彫刻; 11:00|11時; West entrance|西入口
+= Textiles|織物; 12:00|正午; Courtyard gate|中庭門
+= Ceramics|陶芸; 2:00|2時; Reading room|閲覧室
+: f|An update about today's sculpture tour. It will begin at the listed time, but please go to the usual meeting point for the textiles tour. The paving crew needs to leave the west entrance clear until noon.|本日の彫刻ツアーについてお知らせします。開始時刻は表のとおりですが、集合は織物ツアーのいつもの場所にお越しください。舗装工事のため西入口は正午まで空けておく必要があります。
+? t1,r3c1,r3c3|Look at the table. Where should sculpture tour visitors gather today?|表を見てください。彫刻ツアーの参加者は今日どこに集まりますか。
+A Clock lobby.|時計ロビー。|版画ツアーの集合場所で、案内された織物の場所ではありません。
+B West entrance.|西入口。|彫刻ツアーの通常の場所ですが、工事で変更になりました。
+C Courtyard gate.|中庭門。|音声が指定した織物ツアーの集合場所が、表では中庭門です。
+D Reading room.|閲覧室。|閲覧室は陶芸ツアーの集合先です。
+! C
+% meeting point=集合場所|listed time=表にある時刻|keep clear=空けておく
+
+@p4-chart-new-lockbox|4|図表照合|返却ポストの利用案内|medium
+# After-hours return boxes|時間外の返却ボックス
+= Box|ボックス; Location|場所; Accepts|返却できるもの
+= A|A; North door|北口; Books only|書籍のみ
+= B|B; Side gate|通用門; Books and maps|書籍と地図
+= C|C; East porch|東側ポーチ; Audio equipment|音響機材
+= D|D; Parking office|駐車場事務所; Books and audio equipment|書籍と音響機材
+: b|For visitors to the Elmwell Trail Centre, our north door will be locked this evening. If you borrowed both a guidebook and a map, please return them together to a box where both are accepted. The staff will collect all returns tomorrow at nine.|エルムウェル遊歩道センターをご利用の皆さま、今晩は北口を施錠します。ガイドブックと地図の両方を借りた方は、両方を受け付けるボックスにまとめて返してください。職員が明日の9時に返却物を回収します。
+? t1,r2c2,r2c3|Look at the table. Where should the visitors mentioned in the announcement return their items together?|表を見てください。案内の対象となる利用者は、借りた物をどこにまとめて返却すべきですか。
+A At the east porch.|東側ポーチ。|音響機材用の返却ボックスです。
+B At the side gate.|通用門。|書籍と地図の両方を受け付けるのは通用門のボックスBです。
+C At the north door.|北口。|北口は施錠され、ボックスの受け付け対象も書籍だけです。
+D At the parking office.|駐車場事務所。|ボックスDは書籍と音響機材を受け付けますが、地図は返せません。
+! B
+% after-hours=営業時間外の|accept=受け付ける|collect=回収する

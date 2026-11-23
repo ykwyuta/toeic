@@ -15,10 +15,25 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
   const partCards = get('study-part-cards');
   const skillChips = get('study-skill-chips');
   const exerciseTag = get('study-exercise-tag');
+  const exerciseCount = get('study-question-count');
+  const previous = get('study-question-previous');
+  const next = get('study-question-next');
   const audio = get('study-audio');
   const audioStatus = get('study-audio-status');
   const review = get('skill-review');
   const feedback = get('skill-feedback');
+  const answers = new Map();
+  let exerciseIndex = 0;
+
+  const groupsByPart = new Map(parts.map(({part, sets}) => {
+    const skills = new Map();
+    for (const exercise of sets) {
+      const {skill} = exercise.items[0];
+      if (!skills.has(skill)) skills.set(skill, {id: exercise.setId, skill, exercises: []});
+      skills.get(skill).exercises.push(exercise);
+    }
+    return [part, [...skills.values()]];
+  }));
 
   function element(tag, text, lang) {
     const node = document.createElement(tag);
@@ -77,8 +92,8 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
     return parts.find(({part}) => String(part) === partPicker.value);
   }
 
-  function selectedExercise() {
-    return selectedPart()?.sets.find(({setId}) => setId === skillPicker.value);
+  function selectedGroup() {
+    return groupsByPart.get(Number(partPicker.value))?.find(({id}) => id === skillPicker.value);
   }
 
   function reviewQuestion(item) {
@@ -88,14 +103,16 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
       choices,
       answer: item.choices.findIndex(({id}) => id === item.answerId),
       translation: item.translationJa.stem,
-      choiceTranslations: item.choices.map(({id}) => item.translationJa.choices[id]),
+      choiceTranslations: item.translationJa.choices
+        ? item.choices.map(({id}) => item.translationJa.choices[id]) : undefined,
       choiceNotes: item.choices.map(({id}) => item.choiceExplanationsJa[id]),
       vocabulary: item.vocabulary.map(({term, meaningJa}) => [term, meaningJa]),
     };
   }
 
   function renderExercise() {
-    const exercise = selectedExercise();
+    const group = selectedGroup();
+    const exercise = group?.exercises[exerciseIndex];
     const materials = get('skill-material');
     audio.pause();
     audio.removeAttribute('src');
@@ -113,9 +130,10 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
       audio.load();
       return;
     }
-    if (exerciseTag) {
-      exerciseTag.textContent = 'Part ' + exercise.part + ' · ' + exercise.items[0].skill;
-    }
+    exerciseTag.textContent = 'Part ' + exercise.part + ' · ' + group.skill;
+    exerciseCount.textContent = (exerciseIndex + 1) + ' / ' + group.exercises.length + '問';
+    previous.disabled = exerciseIndex === 0;
+    next.disabled = exerciseIndex === group.exercises.length - 1;
     renderMaterials(materials, exercise);
     if (exercise.media.audio) {
       audio.src = './' + exercise.media.audio.src;
@@ -123,28 +141,36 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
     } else {
       audio.load();
     }
-    renderSingleQuestion('skill-item', reviewQuestion(exercise.items[0]));
+    const item = exercise.items[0];
+    renderSingleQuestion('skill-item', reviewQuestion(item));
+    if (answers.has(item.id)) {
+      const selected = answers.get(item.id);
+      get('skill-item').querySelectorAll('input[type=radio]')[selected].checked = true;
+      showAnswer(exercise, selected);
+    }
   }
 
-  function renderSkillChips(group) {
+  function renderSkillChips(groups) {
     if (!skillChips) return;
-    const sets = group?.sets ?? [];
-    skillChips.replaceChildren(...sets.map(({setId, items}) => {
+    skillChips.replaceChildren(...groups.map(({id, skill, exercises}) => {
       const btn = element('button');
       btn.type = 'button';
       btn.className = 'skill-chip';
-      btn.dataset.setId = setId;
-      btn.setAttribute('aria-pressed', String(skillPicker.value === setId));
-      btn.textContent = items[0].skill;
-      btn.addEventListener('click', () => {
-        skillPicker.value = setId;
-        for (const c of skillChips.querySelectorAll('.skill-chip')) {
-          c.setAttribute('aria-pressed', String(c.dataset.setId === setId));
-        }
-        renderExercise();
-      });
+      btn.dataset.groupId = id;
+      btn.setAttribute('aria-pressed', 'false');
+      btn.textContent = skill + '（' + exercises.length + '問）';
+      btn.addEventListener('click', () => selectSkill(id));
       return btn;
     }));
+  }
+
+  function selectSkill(id, index = 0) {
+    skillPicker.value = id;
+    exerciseIndex = index;
+    for (const chip of skillChips?.querySelectorAll('.skill-chip') ?? []) {
+      chip.setAttribute('aria-pressed', String(chip.dataset.groupId === id));
+    }
+    renderExercise();
   }
 
   function selectPartValue(partVal) {
@@ -154,13 +180,15 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
         p.setAttribute('aria-pressed', String(p.dataset.part === String(partVal)));
       }
     }
-    const group = selectedPart();
-    get('study-skill-step').hidden = !group;
+    const part = selectedPart();
+    const groups = groupsByPart.get(part?.part) ?? [];
+    get('study-skill-step').hidden = !part;
     skillPicker.replaceChildren(new Option('分野を選択', ''));
-    for (const {setId, items} of group?.sets ?? []) {
-      skillPicker.add(new Option(items[0].skill, setId));
+    for (const {id, skill} of groups) {
+      skillPicker.add(new Option(skill, id));
     }
-    renderSkillChips(group);
+    exerciseIndex = 0;
+    renderSkillChips(groups);
     renderExercise();
   }
 
@@ -174,7 +202,7 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
       card.setAttribute('aria-pressed', 'false');
       const tag = element('span', 'Part ' + part + (part <= 4 ? ' · Listening' : ' · Reading'));
       tag.className = 'part-pill-tag';
-      const name = element('span', titleJa + '（' + sets.length + '）');
+      const name = element('span', titleJa + '（' + sets.length + '問）');
       name.className = 'part-pill-name';
       card.append(tag, name);
       card.addEventListener('click', () => selectPartValue(part));
@@ -183,58 +211,70 @@ function initializeFieldStudy({renderSingleQuestion, renderReview, onAnswer}) {
   }
   partPicker.disabled = false;
   partPicker.addEventListener('change', () => selectPartValue(partPicker.value));
-  skillPicker.addEventListener('change', () => {
-    renderSkillChips(selectedPart());
+  skillPicker.addEventListener('change', () => selectSkill(skillPicker.value));
+  function moveQuestion(direction) {
+    const index = exerciseIndex + direction;
+    if (index < 0 || index >= (selectedGroup()?.exercises.length ?? 0)) return;
+    exerciseIndex = index;
     renderExercise();
-  });
+    exerciseCount.focus();
+  }
+  previous.addEventListener('click', () => moveQuestion(-1));
+  next.addEventListener('click', () => moveQuestion(1));
   audio.addEventListener('error', () => {
     if (!audio.hasAttribute('src')) return;
     audioStatus.textContent = '音声を読み込めませんでした。接続を確認して分野を選び直してください。';
     audioStatus.hidden = false;
   });
-  get('skill-form').addEventListener('submit', (event) => {
-    event.preventDefault();
-    const exercise = selectedExercise();
-    const selected = new FormData(event.currentTarget).get('answer');
-    if (!exercise || selected === null) return;
+  function showAnswer(exercise, selected) {
     const item = exercise.items[0];
     const question = reviewQuestion(item);
     const answer = item.choices[question.answer];
-    const isCorrect = item.choices[Number(selected)].id === answer.id;
+    const isCorrect = item.choices[selected].id === answer.id;
     feedback.textContent = isCorrect ? '正解！よくできました。' : '不正解（正答: ' + answer.id + '）。解説を確認しましょう。';
     feedback.dataset.state = isCorrect ? 'ok' : 'ng';
     feedback.hidden = false;
-    if (typeof onAnswer === 'function') {
-      onAnswer({
-        itemId: item.id,
-        setId: exercise.setId,
-        part: exercise.part,
-        skill: item.skill,
-        difficulty: item.difficulty || 'medium',
-        isCorrect,
-        mode: 'study'
-      });
-    }
     review.replaceChildren();
     if (exercise.passages.length || exercise.media.table) {
       review.append(element('h4', exercise.part <= 4 ? '台本・資料と日本語訳' : '本文と日本語訳'));
       renderMaterials(review, exercise, answer.text);
     }
     const explanation = element('div');
-    renderReview(explanation, question, Number(selected));
+    renderReview(explanation, question, selected);
     review.append(explanation);
     review.hidden = false;
+    return isCorrect;
+  }
+
+  get('skill-form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    const exercise = selectedGroup()?.exercises[exerciseIndex];
+    const value = new FormData(event.currentTarget).get('answer');
+    if (!exercise || value === null) return;
+    const selected = Number(value);
+    const item = exercise.items[0];
+    answers.set(item.id, selected);
+    const isCorrect = showAnswer(exercise, selected);
+    onAnswer?.({
+      itemId: item.id,
+      setId: exercise.setId,
+      part: exercise.part,
+      skill: item.skill,
+      difficulty: item.difficulty || 'medium',
+      isCorrect,
+      mode: 'study'
+    });
   });
 
   function openExercise(part, setId) {
-    const group = parts.find((p) => Number(p.part) === Number(part));
-    if (!group) return false;
-    selectPartValue(group.part);
-    const target = group.sets.find((s) => s.setId === setId) || group.sets[0];
-    if (!target) return false;
-    skillPicker.value = target.setId;
-    renderSkillChips(group);
-    renderExercise();
+    const groups = groupsByPart.get(Number(part));
+    if (!groups?.length) return false;
+    const group = groups.find(({exercises}) => exercises.some((entry) => entry.setId === setId));
+    if (!group && setId) return false;
+    const target = group ?? groups[0];
+    const index = target.exercises.findIndex((entry) => entry.setId === setId);
+    selectPartValue(part);
+    selectSkill(target.id, Math.max(0, index));
     return true;
   }
 

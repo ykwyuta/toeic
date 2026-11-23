@@ -1,0 +1,295 @@
+field-study-01 · revision 2 · 独立解答と最終照合
+正答と解説を伏せた原稿を、執筆履歴を共有しない検品担当が解答。修正・差し替え箇所は再解答した。
+以下の文字は最終版の選択肢位置。読解の配置を調整した問は、独立解答が選んだ選択肢本文と最終版を照合した。
+p3-next-l01-040 は第1ターンと荷解きの可否を尋ねるターンに同じ話者が割り当てられていることを照合した。
+
+fs1-p1-action A Hand-held dispenser applies tape along the top seam.
+fs1-p1-state C Each helmet hangs by a strap from a wall hook.
+fs1-p1-position B One planter stands on either side of the bench.
+fs2-p1-action-l01-001 A Water runs from the watering can into the pot.
+fs2-p1-action-l01-003 C The worker grips and pushes the cart carrying two boxes.
+fs2-p1-action-l01-005 B Both people hold the same sheet from opposite sides of the counter.
+fs2-p1-state-l01-006 B Folded umbrellas stand upright by the tables.
+fs2-p1-position-l01-002 D Chairs run along both long sides of the table.
+fs2-p1-position-l01-004 A Two bicycles stand upright by a rack in front of brickwork.
+fs2-p1-action-new-scan D The woman points a handheld barcode scanner toward a book cover.
+fs2-p1-action-new-sweep B The man pushes a broom across the pavers.
+fs2-p1-action-new-measure A The woman stretches a measuring tape across the fabric.
+fs2-p1-action-new-wipe C The woman's hand presses a white cloth against the tabletop.
+fs2-p1-action-new-load B The baker holds a tray of rolls with two oven mitts.
+fs2-p1-action-new-hang D The man's hands hold opposite sides of the frame against the wall.
+fs2-p1-state-new-scan A Three closed books are stacked on the counter at right.
+fs2-p1-state-new-sweep C The blue door sits flush within its frame.
+fs2-p1-state-new-measure B The blue fabric is flat and spread over the table.
+fs2-p1-state-new-wipe D Both visible chair seats are empty.
+fs2-p1-state-new-load A The oven door is down and the chamber is exposed with a tray partly inside.
+fs2-p1-state-new-hang C The toolbox lid is down and its latches are flush.
+fs2-p1-state-new-p1-action D The foreground carton flaps meet under the tape.
+fs2-p1-state-new-p1-position B The bench seat is unoccupied.
+fs2-p1-position-new-scan C The woman holds the scanner over the barcode on a book.
+fs2-p1-position-new-sweep A The red bucket is visibly left of the blue door and well away from both of the man's shoes. No plausible alternative.
+fs2-p1-position-new-measure D Scissors lie on the bare tabletop to the left of the blue material.
+fs2-p1-position-new-wipe C Two chairs sit in a row against the wall under the window.
+fs2-p1-position-new-load B The metal rack stands on the image right of the oven.
+fs2-p1-position-new-hang A The toolbox is on the floor below the left frame.
+fs2-p1-position-new-p1-state C The helmets hang directly above the wooden bench.
+fs1-p2-wh C The shelf by the entrance supplies the requested location.
+fs1-p2-yes-no A Yes confirms the key is needed, and reception supplies it.
+fs1-p2-request B The speaker agrees to email the slides upon returning to their desk.
+fs1-p2-indirect C The parcel is still on the table, so it has not been collected.
+fs2-p2-wh-l01-007 A Thursday afternoon is the expected arrival deadline.
+fs2-p2-wh-l01-009 C The storage room by the lift supplies the requested location.
+fs2-p2-wh-l01-010 B The missing hotel receipt explains the return.
+fs2-p2-wh-l01-013 C Six jars answers the quantity question.
+fs2-p2-wh-l01-019 A Fifteen minutes answers the duration question.
+fs2-p2-wh-l01-022 A The hotel shuttle answers how the speaker will get there.
+fs2-p2-wh-l02-008 B Ms. Alvarez volunteered to do the training.
+fs2-p2-wh-l02-021 A Two business days answers the expected wait.
+fs2-p2-wh-l02-025 A The bus is the usual method of travel.
+fs2-p2-yes-no-l01-015 B The speaker delegated locking the cupboard to the cleaner.
+fs2-p2-yes-no-l01-018 C Pending approval explains why the list is not ready.
+fs2-p2-yes-no-l01-023 C Black stock is temporarily unavailable and will be replenished next week.
+fs2-p2-yes-no-l01-024 A The list was incomplete yesterday, implying the invitations had to wait.
+fs2-p2-yes-no-l01-028 B Four unsold tickets confirms that not all were sold.
+fs2-p2-yes-no-l01-029 A Certainly grants permission and the tag makes it actionable.
+fs2-p2-yes-no-l01-030 A The checkout sheet can identify the borrower.
+fs2-p2-yes-no-l02-015 B The flight was moved from morning to evening.
+fs2-p2-yes-no-l02-023 B The clerk offers to check the stockroom for the requested jacket size. No plausible alternative.
+fs2-p2-request-l01-008 A Using the other printer is a way to act on the printing request.
+fs2-p2-request-l01-011 C The registration count is needed before deciding if more room is needed.
+fs2-p2-request-l01-014 B The speaker accepts the offer and gives the preferred contact number.
+fs2-p2-request-l01-025 B Filing the copy fulfills the request to keep it.
+fs2-p2-request-l01-027 C Waiting for the field team responds to the proposal to take the photo before lunch.
+fs2-p2-request-l02-011 C The speaker agrees to send the invoice after lunch.
+fs2-p2-request-l02-014 A The speaker has already left the landlord a message in response to the proposal. C gives a motive to ask rather than a reason against asking.
+fs2-p2-request-l02-024 C More preparation time supports postponing the visit.
+fs2-p2-request-l02-030 A Not at all accepts the checking request, and the follow-up refers to the address.
+fs2-p2-indirect-l01-012 B Mira's afternoon cancellation suggests she may be free after two.
+fs2-p2-indirect-l01-020 C The technician is due tomorrow, so has not yet made this visit.
+fs2-p2-indirect-l01-026 A Seeing the courier park the bicycle identifies its probable owner.
+fs2-p2-indirect-l01-031 C Rescheduling the opening shift resolves the speaker's conflict with an early start tomorrow.
+fs2-p2-indirect-l02-012 A Tomorrow's newsletter identifies the forthcoming announcement.
+fs2-p2-indirect-l02-027 C A farewell lunch responds to the news of a colleague's transfer.
+fs2-p2-indirect-l02-029 C Unconfirmed dates explain why the schedule is unavailable.
+fs2-p2-indirect-l02-031 A Budget approval determines whether the speaker will attend in Berlin.
+fs2-p2-indirect-new-kits B Labels are still needed on some kit boxes, so the kits are not all ready for distribution. No plausible alternative.
+fs1-p3-purpose B Asked for temporary shelf storage until the installer arrives.
+fs1-p3-detail D Updated departure from the hotel is 8:40.
+fs1-p3-next A She will print and attach the label before taking the box downstairs.
+fs1-p3-intent C Twenty copies cover eighteen attendees, and the presenter has her own.
+fs1-p3-chart B Earliest scheduled high roof after 9:30 is Oriole at 10:00.
+fs2-p3-purpose-l01-035 A One mug arrived with a cracked handle.
+fs2-p3-purpose-l01-038 D Exhibit crates, gallery, display cases and a curator identify an exhibition venue.
+fs2-p3-purpose-l01-059 A The first request is to register for covered bicycle parking.
+fs2-p3-purpose-l02-032 A She requests vegetarian additions to an existing catered lunch.
+fs2-p3-purpose-l02-038 A Staff are preparing rooms for a tour group.
+fs2-p3-purpose-l02-044 D A front desk and multi-floor keynote venue make a hotel the plausible listed location.
+fs2-p3-purpose-l02-047 D The team is finalizing photos, prices and files for the brochure printer.
+fs2-p3-purpose-l02-053 C The move estimate is higher than expected, prompting a discussion of cost.
+fs2-p3-purpose-l02-068 C The caller offers a second interview and agrees on a time.
+fs2-p3-detail-l01-033 D Start time is still nine.
+fs2-p3-detail-l01-036 B The man asks for a photo of the damage with the order number.
+fs2-p3-detail-l01-041 B The market road will be closed.
+fs2-p3-detail-l01-045 C The specified photo has students around the long counter.
+fs2-p3-detail-l01-047 C The sample desk's motor has stopped working.
+fs2-p3-detail-l01-050 C The supplier already shipped the white envelopes.
+fs2-p3-detail-l01-057 A The colleague can collect the whole order at 11:30.
+fs2-p3-detail-l01-068 B The shop found a crack in the front wheel rim.
+fs2-p3-detail-l02-043 C The information desk offers a free coffee voucher.
+fs2-p3-next-l01-034 B His laptop is at home and he will stop at reception, where he can borrow one.
+fs2-p3-next-l01-046 D She says she will swap the photo now.
+fs2-p3-next-l01-052 C The man will ask the supplier about express delivery and confirm its cost.
+fs2-p3-next-l01-067 B The woman will email a reservation form.
+fs2-p3-next-l01-040 D The first speaker asks about unpacking and is told to leave the crates sealed.
+fs2-p3-next-l01-055 B The man will bring checklists for both inspection teams.
+fs2-p3-next-l02-040 A The man will go down and ask the spa manager right away.
+fs2-p3-next-l02-046 B She says she will bring the spare microphone to the room herself.
+fs2-p3-next-l02-064 D The man will check the budget code with accounting before ordering.
+fs2-p3-intent-l01-039 C Leave the crates temporarily in the service hall instead of moving them into the gallery immediately.
+fs2-p3-intent-l01-063 C He is busy until 3:30 and cannot start at 3:00.
+fs2-p3-intent-l01-069 D She is considering a new bicycle and has yet to approve the repair cost.
+fs2-p3-intent-l02-039 B The towel delivery may leave too little time to prepare the rooms.
+fs2-p3-intent-l02-049 A Sending on Tuesday is earlier than the Wednesday deadline.
+fs2-p3-intent-l02-055 D The mover can accommodate the building's weekends-only condition.
+fs2-p3-chart-l01-042 B The woman will use Lakeside Gate, listed at 7:35.
+fs2-p3-chart-l01-053 A Her team moves to the West Wing and uses its listed meeting point, Room 208.
+fs2-p3-chart-l01-065 B Heron fits 17 and has a projector, while the largest room Wren is booked.
+fs2-p3-chart-l02-042 C Her next express is 206 at 11:05 and uses platform 4.
+fs2-p3-chart-l02-051 A Six travelers require the seven-seat minivan at $72 per day.
+fs2-p3-chart-l02-063 B They select the second-cheapest supplier, Corson Office, at $28 with one-week delivery.
+fs2-p3-intent-new-test B They should test the display setup before clients arrive, while a room change is still possible.
+fs2-p3-intent-new-square D Moving the entrance would require venue approval of the new layout.
+fs2-p3-intent-new-busy A Processing returns prevents her from taking the call and she proposes Nora instead.
+fs2-p3-chart-new-locker C Locker 24 is large and in the east wing.
+fs2-p3-chart-new-delivery A Cedar Cycle can collect as late as 4:30 and delivers the same day.
+fs2-p3-chart-new-pass D Hazel covers both the main hall and the studio.
+fs1-p4-purpose D Trained members will start booking cutter time online instead of by phone.
+fs1-p4-detail A The public lift is near the ticket office.
+fs1-p4-next C At the stand, first check that the sign shows the correct name.
+fs1-p4-intent D Only two loaves remained by 10 last week, so the quick sales motivate advance reservations.
+fs1-p4-chart A Textile Room attendees use the Ceramics Lab's check-in desk, listed as Desk 3.
+fs2-p4-purpose-l01-071 C After a failed attempt, the carrier proposes retrying the delivery tomorrow.
+fs2-p4-purpose-l01-080 A A new counter replaces damaged bag buckles and zippers.
+fs2-p4-purpose-l01-086 B The Silver bus service is cancelled.
+fs2-p4-purpose-l01-089 A The opening names the modular storage system and describes its cabinets and shelves.
+fs2-p4-purpose-l02-071 D Holly identifies her employer as Ridgeline Print Shop.
+fs2-p4-purpose-l02-074 B The speaker says he will guide the group for the next hour.
+fs2-p4-purpose-l02-080 A Staff will book work travel through a new online tool.
+fs2-p4-purpose-l02-083 A The sale celebrates 25 years in business.
+fs2-p4-purpose-l02-090 D The speaker will explain how customer reviews can improve service.
+fs2-p4-detail-l01-074 C The library asks people making video calls to reserve enclosed booths.
+fs2-p4-detail-l01-075 D The newspaper shelf is now near the elevator.
+fs2-p4-detail-l01-081 C The shop inspects torn fabric and gives a written estimate before beginning.
+fs2-p4-detail-l01-082 B A free luggage tag comes with completed repairs through May.
+fs2-p4-detail-l01-083 A Paid orders go in the locked cabinet behind the service counter.
+fs2-p4-detail-l01-084 D Two customers received bags before paying for them.
+fs2-p4-detail-l01-096 B Both garments will be ready tomorrow after two.
+fs2-p4-detail-l02-072 B The phone number is missing a digit.
+fs2-p4-detail-l02-100 B Pizza arrives at seven for employees who stay.
+fs2-p4-next-l01-073 D The text reply should include the entrance code.
+fs2-p4-next-l01-079 B Participants must collect an apron before entering a kitchen.
+fs2-p4-next-l01-085 C Staff should ask a supervisor to check a pending payment.
+fs2-p4-next-l01-088 A Large suitcases go in the luggage compartment.
+fs2-p4-next-l01-100 A After switching the signs, volunteers collect badges at the desk.
+fs2-p4-next-l02-073 D The listener should send the corrected phone number.
+fs2-p4-next-l02-076 C At the end of the tour, visitors can attend a knot-tying demonstration.
+fs2-p4-next-l02-079 A After the break the station will talk with the organizers of the farmers' market.
+fs2-p4-next-l02-091 C The speaker will sign her book after the talk.
+fs2-p4-intent-l01-076 B The cart lets staff track which books were used in the room.
+fs2-p4-intent-l01-091 A The card shows the clearance needed for the cabinet doors to open.
+fs2-p4-intent-l01-092 C The east path must stay clear for a soil delivery.
+fs2-p4-intent-l02-085 D The prices are unlikely to recur soon, so the line encourages buying during the sale.
+fs2-p4-intent-l02-087 C The stairs near the main entrance are closed for cleaning.
+fs2-p4-intent-l02-094 D Hands-on glassblowing is for the later workshop rather than this tour.
+fs2-p4-chart-l01-077 B Quick Breads moves to Fresh Pasta's listed Reed Kitchen.
+fs2-p4-chart-l01-078 D The listed 10:00 Fresh Pasta start is delayed by 30 minutes.
+fs2-p4-chart-l01-087 A Green is the next bus that serves both terminals and leaves at 7:10.
+fs2-p4-chart-l01-098 C The Tool Library takes the Repair Circle's listed table, 17.
+fs2-p4-chart-l02-081 C About $2,000 requires the finance director's approval.
+fs2-p4-chart-l02-086 A The new departure platform is Northgate's listed platform 3.
+fs2-p4-chart-l02-099 D The kitchenware leader is taking over lighting, and that leader is Marcus.
+fs2-p4-intent-new-form B Vendors can edit their existing application to add a power outlet.
+fs2-p4-intent-new-samples C The visitors can put free samples from the stands in their bags and take them home.
+fs2-p4-intent-new-shuttle A A shuttle is boarding now for the same destination and accepts the same tickets.
+fs2-p4-chart-new-guides C Today's sculpture tour uses the textiles meeting point, Courtyard Gate.
+fs2-p4-chart-new-lockbox B The side gate box is the only one that takes both books and maps.
+fs1-p5-pos C Adjective modifies estimate.
+fs1-p5-verb D Has not plus past participle.
+fs1-p5-connector A So that introduces purpose of sending it Thursday.
+fs1-p5-vocab B Reimburse employees for expenses they paid.
+fs2-p5-pos-p56-001 B Adverb modifies improve.
+fs2-p5-pos-p56-003 D Very modifies informative, which describes presentation.
+fs2-p5-pos-p56-007 B Professionally modifies trained.
+fs2-p5-pos-p56-012 D Storage capacity is the amount of storage available.
+fs2-p5-pos-p56-061 C Adjective modifies handling.
+fs2-p5-pos-p56-063 A Construction is noun subject of will begin.
+fs2-p5-pos-p56-066 C Adherence to guidelines is the standard nominal phrase.
+fs2-p5-pos-p56-068 A Reliable describes candidate.
+fs2-p5-pos-p56-073 C Noun feasibility heads the phrase before of opening.
+fs2-p5-verb-p56-016 D Yesterday afternoon locates the completed action in the past.
+fs2-p5-verb-p56-018 D Must be approved is the passive with by the department head.
+fs2-p5-verb-p56-021 B Promise takes to-infinitive.
+fs2-p5-verb-p56-022 D Each is singular and regular recalibration uses the present.
+fs2-p5-verb-p56-025 B Are currently attending requires present participle.
+fs2-p5-verb-p56-076 A Last week locates completed receipt in the past.
+fs2-p5-verb-p56-080 B The reduced relative anyone wishing to join leaves should sign up as the main verb.
+fs2-p5-verb-p56-082 D Agreement with the nearer plural subject seminar rooms.
+fs2-p5-verb-p56-088 B Plan takes to-infinitive.
+fs2-p5-connector-p56-031 D Despite introduces concessive noun phrase.
+fs2-p5-connector-p56-033 A If introduces a condition with subject and verb.
+fs2-p5-connector-p56-035 D Within gives the deadline relative to the trip.
+fs2-p5-connector-p56-038 B While introduces a simultaneous finite clause.
+fs2-p5-connector-p56-041 A Even though introduces the concessive finite clause.
+fs2-p5-connector-p56-091 A Although introduces contrast between closed museum and open garden.
+fs2-p5-connector-p56-095 A Before introduces time preceding the beginning of the show.
+fs2-p5-connector-p56-098 C However gives contrast between unpaid status and perk across clauses.
+fs2-p5-connector-p56-103 C Prior to introduces the step after double-checking.
+fs2-p5-vocab-p56-046 A An unexpected runway closure causes inconvenience.
+fs2-p5-vocab-p56-049 B Provide practical insights on management.
+fs2-p5-vocab-p56-052 A Accidental damage is contrasted with manufacturing defects.
+fs2-p5-vocab-p56-051 C Hiring extra staff responds to strong seasonal demand.
+fs2-p5-vocab-p56-054 C A temporary parking permit is authorization visitors obtain from security.
+fs2-p5-vocab-p56-106 B Fasten means secure a seat belt.
+fs2-p5-vocab-p56-109 C A written estimate before repairs states expected cost.
+fs2-p5-vocab-p56-110 C Extend business hours means increase the hours when the branch is open.
+fs2-p5-vocab-p56-119 D Regularly updating passwords is the standard preventive action.
+fs1-p6-word A Comparing the names requires the member to show the ID to the attendant.
+fs1-p6-cohesion D Full bins are the reason to use the service desk instead.
+fs1-p6-sentence C Notification that electricity is needed lets staff arrange an outlet before finalizing.
+fs2-p6-word-p56-121 B The new printers consume less energy than old ones.
+fs2-p6-word-p56-128 A Discounts on all kitchenware.
+fs2-p6-word-p56-133 B Has been installed is passive, appropriate for a new rack.
+fs2-p6-word-p56-156 D A voucher can be redeemed for the free lunch awarded in a drawing.
+fs2-p6-word-p56-163 B Dress appropriately uses an adverb describing how to dress.
+fs2-p6-word-p56-168 C Both inside and outside are paired spatial prepositions.
+fs2-p6-word-p56-176 B In look forward to, to is a preposition and takes hearing.
+fs2-p6-word-p56-188 A Promptly is the adverb modifying report and specifies how soon the labels should be reported. No competing answer in this position.
+fs2-p6-word-p56-195 B Timetables and maps are posted on the website and at stations.
+fs2-p6-cohesion-p56-148 B Possessive determiner with visitors as antecedent, before own reusable shopping bags.
+fs2-p6-cohesion-p56-152 D No later than Friday sets the deadline.
+fs2-p6-cohesion-p56-192 D An already active card allows benefits on the next stay.
+fs2-p6-cohesion-p56-197 A Possessive determiner their modifies family members and guests.
+fs2-p6-sentence-p56-122 A They refers to the new printers and also introduces another feature.
+fs2-p6-sentence-p56-126 D In-store closure during remodeling is contrasted with online availability.
+fs2-p6-sentence-p56-130 C Photo ID facilitates the check-in immediately beforehand.
+fs2-p6-sentence-p56-134 A The key refers back to the requested access key and the sentence gives its terms.
+fs2-p6-sentence-p56-142 C Training session for mentors follows the program duties before the evaluation and nomination request.
+fs2-p6-sentence-p56-146 C Special final-hour bag pricing follows general sale pricing and precedes proceeds.
+fs2-p6-sentence-p56-151 A Current 25 licenses sets baseline for considering a smaller plan at fewer than ten users.
+fs2-p6-sentence-p56-162 D Five hours echoes 8 to 1; cooling shutdown explains warmer temperatures.
+fs2-p6-sentence-p56-190 C This upgraded status is the Gold status just awarded.
+fs2-p6-cohesion-new-labels C Identical color motivates verifying destination postal codes.
+fs2-p6-cohesion-new-furniture A Tuesday table arrival contrasts with Friday cabinet arrival.
+fs2-p6-cohesion-new-sizes B Individual size records are needed to place the collective order.
+fs2-p6-cohesion-new-badges D Yours refers to the one badge assigned to the addressee.
+fs2-p6-cohesion-new-deliveries B Ground-floor delivery substitutes for normal third-floor delivery during the inspection.
+fs1-p7-purpose B Temporary sewing room closure and alternate room at same times.
+fs1-p7-detail A Radios go in the box by the east gate.
+fs1-p7-inference D Last bus is at 5; closing discussion is after 5:30.
+fs1-p7-cross B Birch Lane runs Wed/Fri; oversize parcels Thu/Fri; intersection is Friday.
+fs1-p7-sentence C At [3] entering email triggers sending code, and that code is used in next sentence.
+fs2-p7-purpose-m01-149 D Repaving redirects parking temporarily.
+fs2-p7-purpose-m01-155 D Trackwell replaces paper expense submissions on March 1.
+fs2-p7-purpose-m01-164 A Client's lunch order increased from 40 to 60 and requires adjustments.
+fs2-p7-purpose-m01-168 C Transit plans to add 24 electric buses.
+fs2-p7-purpose-m01-172 D Confirmation splits rooms across floors despite request.
+fs2-p7-purpose-m01-196 D New high-speed service reduces trip to 35 minutes.
+fs2-p7-detail-m01-147 D Driver cannot unload until someone signs for order.
+fs2-p7-detail-m01-150 D Showing a business park ID reduces garage rate from $8 to $3.
+fs2-p7-detail-m01-151 B Staff will meet supervisors from 1 to 3.
+fs2-p7-detail-m01-153 B Buffet dinner is included.
+fs2-p7-detail-m01-159 A Delivery orders must be placed at least 24 hours ahead.
+fs2-p7-detail-m01-162 B Revenue will buy computers for the library study room.
+fs2-p7-detail-m01-165 D At 2:08, usual supplier delivers only Monday and Wednesday, so Thursday market is considered.
+fs2-p7-detail-m01-170 A The remaining amount beyond the grant comes from existing budget.
+fs2-p7-detail-m01-174 A Asks to reserve a meeting room for two evenings if available.
+fs2-p7-inference-m01-148 B At 9:46 Dana is assigned to sign because other staff are unavailable.
+fs2-p7-inference-m01-167 A At 2:13 asked to send revised estimate by end of day; agrees at 2:14.
+fs2-p7-inference-m01-169 A Test buses cost about 30 percent less in fuel and maintenance.
+fs2-p7-inference-m01-180 C Member in email and 20 percent discount for members in schedule.
+fs2-p7-inference-m01-184 C Brantford location and $2,140 order satisfy city and over $300 conditions.
+fs2-p7-inference-m01-188 A 50 attendees exceed 40-person cut-off for a 20 percent deposit.
+fs2-p7-inference-m01-192 B Feb 27 submission is after Feb 25 deadline.
+fs2-p7-cross-m01-177 B October 13 date in email identifies Leading Effective Meetings on schedule.
+fs2-p7-cross-m01-178 B Arai's second October workshop is Negotiation Basics on Oct 27.
+fs2-p7-cross-m01-190 D The retreat took place in April; the package information says hikes are available May through October.
+fs2-p7-cross-m01-187 C Standard is cheapest tier that holds 50 and includes lunch; April hikes unavailable.
+fs2-p7-cross-m01-194 A Same-instructor/same-time replacement is for Strength Training, so full class is Strength Training and confirmed one is Pilates.
+fs2-p7-cross-m01-195 A Friday Stretch & Relax shares Castillo and 12:15 with full Tuesday Strength Training.
+fs2-p7-cross-m01-198 C Earliest weekday departure from island is 6:15 A.M.
+fs2-p7-cross-m01-199 A Article prices the monthly pass mentioned in the email at $150.
+fs2-p7-sentence-m01-157 B At [2], in this way refers to photographing and attaching the receipt.
+fs2-p7-sentence-m01-171 D At [4], the work refers to January charging-station construction before first buses begin service.
+fs2-p7-purpose-new-support B Requests questionnaire on which orientation demos helped.
+fs2-p7-purpose-new-recruit A Asks people to volunteer for badges and check-in.
+fs2-p7-purpose-new-correction C Removes improper delivery charge and attaches corrected invoice.
+fs2-p7-sentence-new-waiver C At [3], following safety waiver introduction; stored there refers to its membership file.
+fs2-p7-sentence-new-bike C At [3], route planner produces distance and that screenshot follows.
+fs2-p7-sentence-new-rack B At [2], this rack refers to wooden rack and next sentence is after use.
+fs2-p7-sentence-new-code B At [2], same message refers to locker number and introduces the second of both numbers.
+fs2-p7-sentence-new-chef C At [3] Thursday has been introduced and the transfer explains your transferred reservation in the following refund instruction.
+fs2-p7-sentence-new-photos D At [4], that ticket refers to the numbered ticket just issued.
+fs2-p7-sentence-new-mats D At [4], newly retrieved clean mats are unrolled before the sign can be removed.
+fs2-p7-inference-new-booking A Nineteen confirmed participants exceed the south room's sixteen seats.
+fs2-p7-inference-new-printing C Two weekdays after the planned Thursday file receipt puts dispatch on Monday, after Friday.
+fs2-p7-cross-new-tools C The receipt specifies a Wednesday drop-off and Basic Tune; the service table specifies two business days, so Friday.
